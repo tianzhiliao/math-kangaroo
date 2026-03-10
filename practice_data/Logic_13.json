@@ -1,0 +1,147 @@
+{
+  "id": "Logic_13",
+  "category": "numbers",
+  "question_number": "Q12",
+  "points": 4,
+  "question_text": "There are 10 red chips in a row on the table. The other sides of the chips are blue. We start to turn the chips: the first one once, the second one twice, the third one three times, and so on, the tenth one ten times. How many blue chips will be on the table after this?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "1"
+    },
+    {
+      "label": "B",
+      "value": "3"
+    },
+    {
+      "label": "C",
+      "value": "5"
+    },
+    {
+      "label": "D",
+      "value": "6"
+    },
+    {
+      "label": "E",
+      "value": "7"
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 600",
+    "description": "Ten red chips arranged in a row representing the chips mentioned in the problem.",
+    "svg_elements": [
+      {
+        "type": "circle",
+        "id": "chip-1",
+        "attributes": {
+          "cx": 50,
+          "cy": 300,
+          "r": 20,
+          "fill": "#FF0000",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "chip-2",
+        "attributes": {
+          "cx": 110,
+          "cy": 300,
+          "r": 20,
+          "fill": "#FF0000",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "chip-3",
+        "attributes": {
+          "cx": 170,
+          "cy": 300,
+          "r": 20,
+          "fill": "#FF0000",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "chip-4",
+        "attributes": {
+          "cx": 230,
+          "cy": 300,
+          "r": 20,
+          "fill": "#FF0000",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "chip-5",
+        "attributes": {
+          "cx": 290,
+          "cy": 300,
+          "r": 20,
+          "fill": "#FF0000",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "chip-6",
+        "attributes": {
+          "cx": 350,
+          "cy": 300,
+          "r": 20,
+          "fill": "#FF0000",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "chip-7",
+        "attributes": {
+          "cx": 410,
+          "cy": 300,
+          "r": 20,
+          "fill": "#FF0000",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "chip-8",
+        "attributes": {
+          "cx": 470,
+          "cy": 300,
+          "r": 20,
+          "fill": "#FF0000",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "chip-9",
+        "attributes": {
+          "cx": 530,
+          "cy": 300,
+          "r": 20,
+          "fill": "#FF0000",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "chip-10",
+        "attributes": {
+          "cx": 590,
+          "cy": 300,
+          "r": 20,
+          "fill": "#FF0000",
+          "stroke": "none"
+        }
+      }
+    ]
+  }
+}

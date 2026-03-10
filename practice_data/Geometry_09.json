@@ -1,0 +1,456 @@
+{
+  "id": "Geometry_09",
+  "category": "mixed",
+  "question_number": "Q6",
+  "points": 5,
+  "question_text": "Mara built a square by using four of the following five shapes. Which shape was not used?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "Shape with three stars and one diamond arranged in a 2x2 square"
+    },
+    {
+      "label": "B",
+      "value": "Shape with three diamonds in an L shape and two circles in a vertical line"
+    },
+    {
+      "label": "C",
+      "value": "Shape with two stars and one circle in an L shape"
+    },
+    {
+      "label": "D",
+      "value": "Shape with one star and three diamonds arranged with a Tetris-like shape"
+    },
+    {
+      "label": "E",
+      "value": "Shape with two circles and three downward arrows arranged in an L shape and a horizontal line"
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 600",
+    "description": "Shapes Mara used to build a square and the five candidate shapes representing collections of stars, diamonds, circles, and arrows arranged in small blocks.",
+    "svg_elements": [
+      {
+        "type": "rect",
+        "id": "main-square-bg",
+        "attributes": {
+          "x": 325,
+          "y": 90,
+          "width": 150,
+          "height": 150,
+          "fill": "#FFFFFF",
+          "stroke": "#000000",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cell-1-1",
+        "attributes": {
+          "x": 325,
+          "y": 90,
+          "width": 37,
+          "height": 37,
+          "fill": "#FFFFFF",
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "star-1-1",
+        "attributes": {
+          "cx": 345,
+          "cy": 110,
+          "r": 7,
+          "fill": "black",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "text",
+        "id": "star-label-1-1",
+        "content": "★",
+        "attributes": {
+          "x": 345,
+          "y": 115,
+          "font-size": "16",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cell-1-2",
+        "attributes": {
+          "x": 362,
+          "y": 90,
+          "width": 37,
+          "height": 37,
+          "fill": "#FFFFFF",
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "text",
+        "id": "diamond-1-2",
+        "content": "◆",
+        "attributes": {
+          "x": 381,
+          "y": 115,
+          "font-size": "16",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cell-2-1",
+        "attributes": {
+          "x": 325,
+          "y": 127,
+          "width": 37,
+          "height": 37,
+          "fill": "#FFFFFF",
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "text",
+        "id": "star-2-1",
+        "content": "★",
+        "attributes": {
+          "x": 345,
+          "y": 152,
+          "font-size": "16",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cell-2-2",
+        "attributes": {
+          "x": 362,
+          "y": 127,
+          "width": 37,
+          "height": 37,
+          "fill": "#FFFFFF",
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "text",
+        "id": "star-2-2",
+        "content": "★",
+        "attributes": {
+          "x": 381,
+          "y": 152,
+          "font-size": "16",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-A-bg",
+        "attributes": {
+          "x": 80,
+          "y": 310,
+          "width": 80,
+          "height": 80,
+          "fill": "white",
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-A-label",
+        "content": "(A)",
+        "attributes": {
+          "x": 70,
+          "y": 320,
+          "font-size": "12",
+          "fill": "gray"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-A-stars",
+        "content": "★",
+        "attributes": {
+          "x": 100,
+          "y": 340,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-A-diamond",
+        "content": "◆",
+        "attributes": {
+          "x": 135,
+          "y": 340,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-A-stars-2",
+        "content": "★",
+        "attributes": {
+          "x": 100,
+          "y": 375,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-A-stars-3",
+        "content": "★",
+        "attributes": {
+          "x": 135,
+          "y": 375,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-B-label",
+        "content": "(B)",
+        "attributes": {
+          "x": 230,
+          "y": 310,
+          "font-size": "12",
+          "fill": "gray"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-B-diamonds",
+        "content": "◆",
+        "attributes": {
+          "x": 260,
+          "y": 340,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-B-diamonds-2",
+        "content": "◆",
+        "attributes": {
+          "x": 260,
+          "y": 375,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-B-diamonds-3",
+        "content": "◆",
+        "attributes": {
+          "x": 295,
+          "y": 375,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-B-circles",
+        "content": "O",
+        "attributes": {
+          "x": 225,
+          "y": 375,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-B-circles-2",
+        "content": "O",
+        "attributes": {
+          "x": 225,
+          "y": 410,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-C-label",
+        "content": "(C)",
+        "attributes": {
+          "x": 430,
+          "y": 345,
+          "font-size": "12",
+          "fill": "gray"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-C-stars",
+        "content": "★",
+        "attributes": {
+          "x": 455,
+          "y": 335,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-C-stars-2",
+        "content": "★",
+        "attributes": {
+          "x": 487,
+          "y": 335,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-C-circle",
+        "content": "O",
+        "attributes": {
+          "x": 455,
+          "y": 370,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-D-label",
+        "content": "(D)",
+        "attributes": {
+          "x": 80,
+          "y": 430,
+          "font-size": "12",
+          "fill": "gray"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-D-star",
+        "content": "★",
+        "attributes": {
+          "x": 105,
+          "y": 450,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-D-diamonds",
+        "content": "◆",
+        "attributes": {
+          "x": 140,
+          "y": 450,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-D-diamonds-2",
+        "content": "◆",
+        "attributes": {
+          "x": 180,
+          "y": 450,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-D-diamond-3",
+        "content": "◆",
+        "attributes": {
+          "x": 180,
+          "y": 485,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-E-label",
+        "content": "(E)",
+        "attributes": {
+          "x": 230,
+          "y": 435,
+          "font-size": "12",
+          "fill": "gray"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-E-circles",
+        "content": "O",
+        "attributes": {
+          "x": 260,
+          "y": 455,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-E-circles-2",
+        "content": "O",
+        "attributes": {
+          "x": 260,
+          "y": 490,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-E-arrows",
+        "content": "⬇",
+        "attributes": {
+          "x": 295,
+          "y": 490,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-E-arrows-2",
+        "content": "⬇",
+        "attributes": {
+          "x": 335,
+          "y": 490,
+          "font-size": "20",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-E-arrows-3",
+        "content": "⬇",
+        "attributes": {
+          "x": 375,
+          "y": 490,
+          "font-size": "20",
+          "fill": "black"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "id": "Geometry_13",
+  "category": "geometry",
+  "question_number": "Q13",
+  "points": 3,
+  "question_text": "The letters of the word KANGAROO are placed at some points of a square grid with cells of size 1m x 1m. We want to go from P to Q along the lines of the grid and pick up these letters in the correct order without going over the same lines twice. What is the shortest length of such a path?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "20 m"
+    },
+    {
+      "label": "B",
+      "value": "21 m"
+    },
+    {
+      "label": "C",
+      "value": "22 m"
+    },
+    {
+      "label": "D",
+      "value": "23 m"
+    },
+    {
+      "label": "E",
+      "value": "24 m"
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 600",
+    "description": "A square grid with letters K, A, N, G, A, R, O, O placed at certain grid intersections, and points P and Q, showing a path along lines between them.",
+    "svg_elements": [
+      {
+        "type": "rect",
+        "id": "grid-background",
+        "attributes": {
+          "x": 150,
+          "y": 150,
+          "width": 180,
+          "height": 180,
+          "fill": "#FFFFFF",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "line",
+        "id": "horizontal-1",
+        "attributes": {
+          "x1": 150,
+          "y1": 150,
+          "x2": 330,
+          "y2": 150,
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "line",
+        "id": "horizontal-2",
+        "attributes": {
+          "x1": 150,
+          "y1": 190,
+          "x2": 330,
+          "y2": 190,
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "line",
+        "id": "horizontal-3",
+        "attributes": {
+          "x1": 150,
+          "y1": 230,
+          "x2": 330,
+          "y2": 230,
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "line",
+        "id": "horizontal-4",
+        "attributes": {
+          "x1": 150,
+          "y1": 270,
+          "x2": 330,
+          "y2": 270,
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "line",
+        "id": "horizontal-5",
+        "attributes": {
+          "x1": 150,
+          "y1": 310,
+          "x2": 330,
+          "y2": 310,
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "line",
+        "id": "vertical-1",
+        "attributes": {
+          "x1": 150,
+          "y1": 150,
+          "x2": 150,
+          "y2": 330,
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "line",
+        "id": "vertical-2",
+        "attributes": {
+          "x1": 190,
+          "y1": 150,
+          "x2": 190,
+          "y2": 330,
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "line",
+        "id": "vertical-3",
+        "attributes": {
+          "x1": 230,
+          "y1": 150,
+          "x2": 230,
+          "y2": 330,
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "line",
+        "id": "vertical-4",
+        "attributes": {
+          "x1": 270,
+          "y1": 150,
+          "x2": 270,
+          "y2": 330,
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "line",
+        "id": "vertical-5",
+        "attributes": {
+          "x1": 310,
+          "y1": 150,
+          "x2": 310,
+          "y2": 330,
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "circle",
+        "id": "point-P",
+        "attributes": {
+          "cx": 150,
+          "cy": 150,
+          "r": 6,
+          "fill": "white",
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-P",
+        "content": "P",
+        "attributes": {
+          "x": 140,
+          "y": 145,
+          "font-size": "20",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "point-K",
+        "attributes": {
+          "cx": 190,
+          "cy": 150,
+          "r": 6,
+          "fill": "white",
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-K",
+        "content": "K",
+        "attributes": {
+          "x": 190,
+          "y": 145,
+          "font-size": "20",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "point-A1",
+        "attributes": {
+          "cx": 310,
+          "cy": 150,
+          "r": 6,
+          "fill": "white",
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-A1",
+        "content": "A",
+        "attributes": {
+          "x": 310,
+          "y": 145,
+          "font-size": "20",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "point-N",
+        "attributes": {
+          "cx": 230,
+          "cy": 190,
+          "r": 6,
+          "fill": "white",
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-N",
+        "content": "N",
+        "attributes": {
+          "x": 230,
+          "y": 185,
+          "font-size": "20",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "point-G",
+        "attributes": {
+          "cx": 270,
+          "cy": 230,
+          "r": 6,
+          "fill": "white",
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-G",
+        "content": "G",
+        "attributes": {
+          "x": 270,
+          "y": 225,
+          "font-size": "20",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "point-A2",
+        "attributes": {
+          "cx": 310,
+          "cy": 190,
+          "r": 6,
+          "fill": "white",
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-A2",
+        "content": "A",
+        "attributes": {
+          "x": 310,
+          "y": 185,
+          "font-size": "20",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "point-R",
+        "attributes": {
+          "cx": 270,
+          "cy": 270,
+          "r": 6,
+          "fill": "white",
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-R",
+        "content": "R",
+        "attributes": {
+          "x": 270,
+          "y": 265,
+          "font-size": "20",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "point-O1",
+        "attributes": {
+          "cx": 230,
+          "cy": 270,
+          "r": 6,
+          "fill": "white",
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-O1",
+        "content": "O",
+        "attributes": {
+          "x": 230,
+          "y": 265,
+          "font-size": "20",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "point-O2",
+        "attributes": {
+          "cx": 190,
+          "cy": 310,
+          "r": 6,
+          "fill": "white",
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-O2",
+        "content": "O",
+        "attributes": {
+          "x": 190,
+          "y": 305,
+          "font-size": "20",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "point-Q",
+        "attributes": {
+          "cx": 270,
+          "cy": 310,
+          "r": 6,
+          "fill": "white",
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-Q",
+        "content": "Q",
+        "attributes": {
+          "x": 270,
+          "y": 305,
+          "font-size": "20",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      }
+    ]
+  }
+}

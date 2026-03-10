@@ -1,0 +1,187 @@
+{
+  "id": "Arithmetic_19",
+  "category": "numbers",
+  "question_number": "Q15",
+  "points": 4,
+  "question_text": "Two hippos, Gloria and Gabriel, travelled by balloon. However, they were too heavy so they threw out bags of sand from the heaviest to the lightest. Which bag was the fourth one that they threw out?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "754"
+    },
+    {
+      "label": "B",
+      "value": "676"
+    },
+    {
+      "label": "C",
+      "value": "675"
+    },
+    {
+      "label": "D",
+      "value": "654"
+    },
+    {
+      "label": "E",
+      "value": "487"
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 600",
+    "description": "Bags of sand with different weights labeled: 765, 675, 754, 676, 654, 487",
+    "svg_elements": [
+      {
+        "type": "ellipse",
+        "id": "bag1",
+        "attributes": {
+          "cx": 100,
+          "cy": 300,
+          "rx": 25,
+          "ry": 45,
+          "fill": "#C68642",
+          "stroke": "saddlebrown",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label1",
+        "content": "765",
+        "attributes": {
+          "x": 100,
+          "y": 305,
+          "font-size": "16",
+          "fill": "white",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "ellipse",
+        "id": "bag2",
+        "attributes": {
+          "cx": 200,
+          "cy": 300,
+          "rx": 25,
+          "ry": 45,
+          "fill": "#C68642",
+          "stroke": "saddlebrown",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label2",
+        "content": "675",
+        "attributes": {
+          "x": 200,
+          "y": 305,
+          "font-size": "16",
+          "fill": "white",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "ellipse",
+        "id": "bag3",
+        "attributes": {
+          "cx": 300,
+          "cy": 300,
+          "rx": 25,
+          "ry": 45,
+          "fill": "#C68642",
+          "stroke": "saddlebrown",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label3",
+        "content": "754",
+        "attributes": {
+          "x": 300,
+          "y": 305,
+          "font-size": "16",
+          "fill": "white",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "ellipse",
+        "id": "bag4",
+        "attributes": {
+          "cx": 400,
+          "cy": 300,
+          "rx": 25,
+          "ry": 45,
+          "fill": "#C68642",
+          "stroke": "saddlebrown",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label4",
+        "content": "676",
+        "attributes": {
+          "x": 400,
+          "y": 305,
+          "font-size": "16",
+          "fill": "white",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "ellipse",
+        "id": "bag5",
+        "attributes": {
+          "cx": 500,
+          "cy": 300,
+          "rx": 25,
+          "ry": 45,
+          "fill": "#C68642",
+          "stroke": "saddlebrown",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label5",
+        "content": "654",
+        "attributes": {
+          "x": 500,
+          "y": 305,
+          "font-size": "16",
+          "fill": "white",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "ellipse",
+        "id": "bag6",
+        "attributes": {
+          "cx": 600,
+          "cy": 300,
+          "rx": 25,
+          "ry": 45,
+          "fill": "#C68642",
+          "stroke": "saddlebrown",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label6",
+        "content": "487",
+        "attributes": {
+          "x": 600,
+          "y": 305,
+          "font-size": "16",
+          "fill": "white",
+          "text-anchor": "middle"
+        }
+      }
+    ]
+  }
+}

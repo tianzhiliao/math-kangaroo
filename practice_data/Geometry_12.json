@@ -1,0 +1,544 @@
+{
+  "id": "Geometry_12",
+  "category": "geometry",
+  "question_number": "Q10",
+  "points": 3,
+  "question_text": "Ryan had eight pieces of cardboard of different shapes (as shown below). He made them by gluing six squares of size 1×1 for each of the pieces. How many 3×4 rectangles can Ryan build by combining two of the eight pieces together?",
+  "formula_latex": [
+    "1\\times 1",
+    "3\\times 4"
+  ],
+  "options": [
+    {
+      "label": "A",
+      "value": "0"
+    },
+    {
+      "label": "B",
+      "value": "1"
+    },
+    {
+      "label": "C",
+      "value": "2"
+    },
+    {
+      "label": "D",
+      "value": "3"
+    },
+    {
+      "label": "E",
+      "value": "4"
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 600",
+    "description": "Eight colored cardboard pieces made from six 1x1 squares each, shown horizontally in a row.",
+    "svg_elements": [
+      {
+        "type": "rect",
+        "id": "piece1-1",
+        "attributes": {
+          "x": 50,
+          "y": 250,
+          "width": 20,
+          "height": 20,
+          "fill": "#4A90D9",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece1-2",
+        "attributes": {
+          "x": 50,
+          "y": 270,
+          "width": 20,
+          "height": 20,
+          "fill": "#4A90D9",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece1-3",
+        "attributes": {
+          "x": 70,
+          "y": 250,
+          "width": 20,
+          "height": 20,
+          "fill": "#4A90D9",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece1-4",
+        "attributes": {
+          "x": 70,
+          "y": 270,
+          "width": 20,
+          "height": 20,
+          "fill": "#4A90D9",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece1-5",
+        "attributes": {
+          "x": 90,
+          "y": 250,
+          "width": 20,
+          "height": 20,
+          "fill": "#4A90D9",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece1-6",
+        "attributes": {
+          "x": 90,
+          "y": 270,
+          "width": 20,
+          "height": 20,
+          "fill": "#4A90D9",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece2-1",
+        "attributes": {
+          "x": 130,
+          "y": 260,
+          "width": 20,
+          "height": 20,
+          "fill": "#F5A623",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece2-2",
+        "attributes": {
+          "x": 150,
+          "y": 260,
+          "width": 20,
+          "height": 20,
+          "fill": "#F5A623",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece2-3",
+        "attributes": {
+          "x": 170,
+          "y": 260,
+          "width": 20,
+          "height": 20,
+          "fill": "#F5A623",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece2-4",
+        "attributes": {
+          "x": 170,
+          "y": 280,
+          "width": 20,
+          "height": 20,
+          "fill": "#F5A623",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece2-5",
+        "attributes": {
+          "x": 150,
+          "y": 280,
+          "width": 20,
+          "height": 20,
+          "fill": "#F5A623",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece2-6",
+        "attributes": {
+          "x": 150,
+          "y": 300,
+          "width": 20,
+          "height": 20,
+          "fill": "#F5A623",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece3-1",
+        "attributes": {
+          "x": 210,
+          "y": 250,
+          "width": 20,
+          "height": 20,
+          "fill": "#7ED321",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece3-2",
+        "attributes": {
+          "x": 230,
+          "y": 250,
+          "width": 20,
+          "height": 20,
+          "fill": "#7ED321",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece3-3",
+        "attributes": {
+          "x": 230,
+          "y": 270,
+          "width": 20,
+          "height": 20,
+          "fill": "#7ED321",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece3-4",
+        "attributes": {
+          "x": 250,
+          "y": 270,
+          "width": 20,
+          "height": 20,
+          "fill": "#7ED321",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece3-5",
+        "attributes": {
+          "x": 250,
+          "y": 290,
+          "width": 20,
+          "height": 20,
+          "fill": "#7ED321",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece3-6",
+        "attributes": {
+          "x": 230,
+          "y": 290,
+          "width": 20,
+          "height": 20,
+          "fill": "#7ED321",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece4-1",
+        "attributes": {
+          "x": 290,
+          "y": 250,
+          "width": 20,
+          "height": 20,
+          "fill": "#F8E71C",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece4-2",
+        "attributes": {
+          "x": 290,
+          "y": 270,
+          "width": 20,
+          "height": 20,
+          "fill": "#F8E71C",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece4-3",
+        "attributes": {
+          "x": 290,
+          "y": 290,
+          "width": 20,
+          "height": 20,
+          "fill": "#F8E71C",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece4-4",
+        "attributes": {
+          "x": 310,
+          "y": 290,
+          "width": 20,
+          "height": 20,
+          "fill": "#F8E71C",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece4-5",
+        "attributes": {
+          "x": 330,
+          "y": 290,
+          "width": 20,
+          "height": 20,
+          "fill": "#F8E71C",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece4-6",
+        "attributes": {
+          "x": 350,
+          "y": 290,
+          "width": 20,
+          "height": 20,
+          "fill": "#F8E71C",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece5-1",
+        "attributes": {
+          "x": 380,
+          "y": 250,
+          "width": 20,
+          "height": 20,
+          "fill": "#9B9B9B",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece5-2",
+        "attributes": {
+          "x": 400,
+          "y": 250,
+          "width": 20,
+          "height": 20,
+          "fill": "#9B9B9B",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece5-3",
+        "attributes": {
+          "x": 420,
+          "y": 250,
+          "width": 20,
+          "height": 20,
+          "fill": "#9B9B9B",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece5-4",
+        "attributes": {
+          "x": 440,
+          "y": 250,
+          "width": 20,
+          "height": 20,
+          "fill": "#9B9B9B",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece5-5",
+        "attributes": {
+          "x": 420,
+          "y": 270,
+          "width": 20,
+          "height": 20,
+          "fill": "#9B9B9B",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece5-6",
+        "attributes": {
+          "x": 420,
+          "y": 290,
+          "width": 20,
+          "height": 20,
+          "fill": "#9B9B9B",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece6-1",
+        "attributes": {
+          "x": 480,
+          "y": 260,
+          "width": 20,
+          "height": 20,
+          "fill": "#D0021B",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece6-2",
+        "attributes": {
+          "x": 500,
+          "y": 260,
+          "width": 20,
+          "height": 20,
+          "fill": "#D0021B",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece6-3",
+        "attributes": {
+          "x": 520,
+          "y": 260,
+          "width": 20,
+          "height": 20,
+          "fill": "#D0021B",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece6-4",
+        "attributes": {
+          "x": 540,
+          "y": 260,
+          "width": 20,
+          "height": 20,
+          "fill": "#D0021B",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece6-5",
+        "attributes": {
+          "x": 520,
+          "y": 280,
+          "width": 20,
+          "height": 20,
+          "fill": "#D0021B",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece6-6",
+        "attributes": {
+          "x": 500,
+          "y": 280,
+          "width": 20,
+          "height": 20,
+          "fill": "#D0021B",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece7-1",
+        "attributes": {
+          "x": 580,
+          "y": 260,
+          "width": 20,
+          "height": 20,
+          "fill": "#F78BB3",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece7-2",
+        "attributes": {
+          "x": 600,
+          "y": 260,
+          "width": 20,
+          "height": 20,
+          "fill": "#F78BB3",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece7-3",
+        "attributes": {
+          "x": 620,
+          "y": 260,
+          "width": 20,
+          "height": 20,
+          "fill": "#F78BB3",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece7-4",
+        "attributes": {
+          "x": 620,
+          "y": 280,
+          "width": 20,
+          "height": 20,
+          "fill": "#F78BB3",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece7-5",
+        "attributes": {
+          "x": 600,
+          "y": 280,
+          "width": 20,
+          "height": 20,
+          "fill": "#F78BB3",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece7-6",
+        "attributes": {
+          "x": 600,
+          "y": 300,
+          "width": 20,
+          "height": 20,
+          "fill": "#F78BB3",
+          "stroke": "none"
+        }
+      }
+    ]
+  }
+}

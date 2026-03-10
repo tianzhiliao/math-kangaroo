@@ -1,0 +1,184 @@
+{
+  "id": "Geometry_10",
+  "category": "mixed",
+  "question_number": "Q14",
+  "points": 5,
+  "question_text": "Tom has such blocks: ⬛▫⬛◯ △🔺 △⬛▫ ⬛⬛ ⬛▫. He put them on the board so that each row and column has different shapes and different numbers of elements on the blocks. Tom started stacking the blocks as shown on the picture; What block did Tom put on the gray box of the board?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "block with three dots arranged diagonally"
+    },
+    {
+      "label": "B",
+      "value": "triangle block with one dot"
+    },
+    {
+      "label": "C",
+      "value": "square block with two dots arranged diagonally"
+    },
+    {
+      "label": "D",
+      "value": "square block with one dot"
+    },
+    {
+      "label": "E",
+      "value": "square block with three dots in a triangular pattern"
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 600",
+    "description": "3x3 board with 3 blocks stacked in top-left, middle, and bottom-left cells, gray box in bottom-middle cell",
+    "svg_elements": [
+      {
+        "type": "rect",
+        "id": "board",
+        "attributes": {
+          "x": 300,
+          "y": 200,
+          "width": 150,
+          "height": 150,
+          "fill": "none",
+          "stroke": "black",
+          "stroke-width": 2
+        }
+      },
+      {
+        "type": "line",
+        "id": "line1",
+        "attributes": {
+          "x1": 350,
+          "y1": 200,
+          "x2": 350,
+          "y2": 350,
+          "stroke": "black",
+          "stroke-width": 2
+        }
+      },
+      {
+        "type": "line",
+        "id": "line2",
+        "attributes": {
+          "x1": 400,
+          "y1": 200,
+          "x2": 400,
+          "y2": 350,
+          "stroke": "black",
+          "stroke-width": 2
+        }
+      },
+      {
+        "type": "line",
+        "id": "line3",
+        "attributes": {
+          "x1": 300,
+          "y1": 250,
+          "x2": 450,
+          "y2": 250,
+          "stroke": "black",
+          "stroke-width": 2
+        }
+      },
+      {
+        "type": "line",
+        "id": "line4",
+        "attributes": {
+          "x1": 300,
+          "y1": 300,
+          "x2": 450,
+          "y2": 300,
+          "stroke": "black",
+          "stroke-width": 2
+        }
+      },
+      {
+        "type": "rect",
+        "id": "gray-box",
+        "attributes": {
+          "x": 350,
+          "y": 300,
+          "width": 50,
+          "height": 50,
+          "fill": "gray"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "block-1",
+        "attributes": {
+          "x": 300,
+          "y": 200,
+          "width": 50,
+          "height": 50,
+          "fill": "none",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "dot-1",
+        "attributes": {
+          "cx": 323,
+          "cy": 223,
+          "r": 5,
+          "fill": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "block-2",
+        "attributes": {
+          "x": 350,
+          "y": 250,
+          "width": 50,
+          "height": 50,
+          "fill": "none",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "dot-2a",
+        "attributes": {
+          "cx": 367,
+          "cy": 267,
+          "r": 5,
+          "fill": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "dot-2b",
+        "attributes": {
+          "cx": 383,
+          "cy": 283,
+          "r": 5,
+          "fill": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "block-3",
+        "attributes": {
+          "x": 300,
+          "y": 300,
+          "width": 50,
+          "height": 50,
+          "fill": "none",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "polygon",
+        "id": "triangle-1",
+        "attributes": {
+          "points": "313,340 325,315 337,340",
+          "fill": "none",
+          "stroke": "black"
+        }
+      }
+    ]
+  }
+}

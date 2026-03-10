@@ -1,0 +1,112 @@
+{
+  "id": "WordProblem_02",
+  "category": "arithmetic",
+  "question_number": "Q5",
+  "points": 4,
+  "question_text": "Joseph is one year old. His father is 30 years older than Joseph. His mother is three years younger than his father. How old is Joseph's mother?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "31"
+    },
+    {
+      "label": "B",
+      "value": "30"
+    },
+    {
+      "label": "C",
+      "value": "29"
+    },
+    {
+      "label": "D",
+      "value": "28"
+    },
+    {
+      "label": "E",
+      "value": "27"
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 600",
+    "description": "Illustration of a mother, father, and baby family group",
+    "svg_elements": [
+      {
+        "type": "rect",
+        "id": "background",
+        "attributes": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 600,
+          "fill": "white",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "mother_head",
+        "attributes": {
+          "cx": 620,
+          "cy": 510,
+          "r": 30,
+          "fill": "#FFD9B3"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "mother_body",
+        "attributes": {
+          "x": 590,
+          "y": 540,
+          "width": 60,
+          "height": 80,
+          "fill": "red"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "father_head",
+        "attributes": {
+          "cx": 700,
+          "cy": 510,
+          "r": 30,
+          "fill": "#FFD9B3"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "father_body",
+        "attributes": {
+          "x": 670,
+          "y": 540,
+          "width": 60,
+          "height": 80,
+          "fill": "green"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "baby_head",
+        "attributes": {
+          "cx": 660,
+          "cy": 575,
+          "r": 20,
+          "fill": "#FFD9B3"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "baby_body",
+        "attributes": {
+          "x": 640,
+          "y": 590,
+          "width": 40,
+          "height": 30,
+          "fill": "pink"
+        }
+      }
+    ]
+  }
+}

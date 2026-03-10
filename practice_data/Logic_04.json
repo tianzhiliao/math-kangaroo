@@ -1,0 +1,32 @@
+{
+  "id": "Logic_04",
+  "category": "geometry",
+  "question_number": "Q3",
+  "points": 3,
+  "question_text": "Aaron is taller than Bella and shorter than Tom. Kathy is taller than Jon but shorter than Aaron. Who is the tallest?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "Aaron"
+    },
+    {
+      "label": "B",
+      "value": "Bella"
+    },
+    {
+      "label": "C",
+      "value": "Tom"
+    },
+    {
+      "label": "D",
+      "value": "Kathy"
+    },
+    {
+      "label": "E",
+      "value": "Jon"
+    }
+  ],
+  "answer": null,
+  "graphics": null
+}

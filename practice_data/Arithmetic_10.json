@@ -1,0 +1,96 @@
+{
+  "id": "Arithmetic_10",
+  "category": "arithmetic",
+  "question_number": "Q2",
+  "points": 3,
+  "question_text": "A pie is divided into 11 pieces. Ann and Ben each ate 2 pieces. Chris and Diana each ate 3 pieces. How many pieces are left? (3 points for the correct answer)",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "0"
+    },
+    {
+      "label": "B",
+      "value": "1"
+    },
+    {
+      "label": "C",
+      "value": "2"
+    },
+    {
+      "label": "D",
+      "value": "3"
+    },
+    {
+      "label": "E",
+      "value": ""
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 600",
+    "description": "A pie with one slice partially separated, illustrating the division into pieces.",
+    "svg_elements": [
+      {
+        "type": "circle",
+        "id": "pie-base",
+        "attributes": {
+          "cx": 650,
+          "cy": 420,
+          "r": 80,
+          "fill": "#f2dabf",
+          "stroke": "#c9985a",
+          "stroke-width": 4
+        }
+      },
+      {
+        "type": "line",
+        "id": "slice-boundary-1",
+        "attributes": {
+          "x1": 650,
+          "y1": 420,
+          "x2": 590,
+          "y2": 370,
+          "stroke": "#c9985a",
+          "stroke-width": 3
+        }
+      },
+      {
+        "type": "line",
+        "id": "slice-boundary-2",
+        "attributes": {
+          "x1": 650,
+          "y1": 420,
+          "x2": 710,
+          "y2": 370,
+          "stroke": "#c9985a",
+          "stroke-width": 3
+        }
+      },
+      {
+        "type": "polygon",
+        "id": "slice-separated",
+        "attributes": {
+          "points": "600,420 590,370 640,360 650,420",
+          "fill": "#f7efd1",
+          "stroke": "#c9985a",
+          "stroke-width": 3
+        }
+      },
+      {
+        "type": "text",
+        "id": "pi-symbol",
+        "content": "π",
+        "attributes": {
+          "x": 640,
+          "y": 420,
+          "font-size": "36",
+          "fill": "#c9985a",
+          "text-anchor": "middle",
+          "font-weight": "bold"
+        }
+      }
+    ]
+  }
+}

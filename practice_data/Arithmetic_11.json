@@ -1,0 +1,32 @@
+{
+  "id": "Arithmetic_11",
+  "category": "arithmetic",
+  "question_number": "Q3",
+  "points": 3,
+  "question_text": "Ana, Sanja and Michael had 5 apples each. Ana gave three apples to Sanja. Sanja then gave half of her apples to Michael. How many apples did Michael have at the end?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "5"
+    },
+    {
+      "label": "B",
+      "value": "6"
+    },
+    {
+      "label": "C",
+      "value": "7"
+    },
+    {
+      "label": "D",
+      "value": "8"
+    },
+    {
+      "label": "E",
+      "value": "9"
+    }
+  ],
+  "answer": null,
+  "graphics": null
+}

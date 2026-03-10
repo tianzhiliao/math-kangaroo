@@ -1,0 +1,32 @@
+{
+  "id": "Logic_05",
+  "category": "geometry",
+  "question_number": "Q12",
+  "points": 3,
+  "question_text": "Carol, Annie, Stacey, Tina and Laura competed in a race. Carol didn’t win the race, but she wasn’t the last one either. Tina overtook three runners. Annie got to the finish line earlier than Laura, but she didn’t overtake Tina. Two girls got to the finish line between Stacey and Carol. In what order did the girls get to the finish line?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "Laura, Carol, Annie, Tina, Stacey"
+    },
+    {
+      "label": "B",
+      "value": "Laura, Carol, Annie, Stacey, Tina"
+    },
+    {
+      "label": "C",
+      "value": "Stacey, Tina, Carol, Annie, Laura"
+    },
+    {
+      "label": "D",
+      "value": "Stacey, Tina, Laura, Carol, Annie"
+    },
+    {
+      "label": "E",
+      "value": "Stacey, Tina, Annie, Carol, Laura"
+    }
+  ],
+  "answer": null,
+  "graphics": null
+}

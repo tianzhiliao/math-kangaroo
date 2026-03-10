@@ -1,0 +1,176 @@
+{
+  "id": "Arithmetic_04",
+  "category": "arithmetic",
+  "question_number": "Q10",
+  "points": 3,
+  "question_text": "You rolled 1 die 4 times and got 4 different numbers of dots. If you add up the numbers of dots you saw, which of the numbers below can you not obtain?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "13"
+    },
+    {
+      "label": "B",
+      "value": "15"
+    },
+    {
+      "label": "C",
+      "value": "17"
+    },
+    {
+      "label": "D",
+      "value": "18"
+    },
+    {
+      "label": "E",
+      "value": "19"
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 600",
+    "description": "Two dice images, one red and one white with black dots",
+    "svg_elements": [
+      {
+        "type": "rect",
+        "id": "dice-red",
+        "attributes": {
+          "x": 250,
+          "y": 350,
+          "width": 120,
+          "height": 120,
+          "fill": "#D92628",
+          "stroke": "none",
+          "rx": "20",
+          "ry": "20"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "dice-red-dot1",
+        "attributes": {
+          "cx": 295,
+          "cy": 395,
+          "r": 10,
+          "fill": "white"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "dice-red-dot2",
+        "attributes": {
+          "cx": 355,
+          "cy": 395,
+          "r": 10,
+          "fill": "white"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "dice-red-dot3",
+        "attributes": {
+          "cx": 295,
+          "cy": 455,
+          "r": 10,
+          "fill": "white"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "dice-red-dot4",
+        "attributes": {
+          "cx": 355,
+          "cy": 455,
+          "r": 10,
+          "fill": "white"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "dice-red-dot5",
+        "attributes": {
+          "cx": 325,
+          "cy": 425,
+          "r": 10,
+          "fill": "white"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "dice-white",
+        "attributes": {
+          "x": 430,
+          "y": 350,
+          "width": 140,
+          "height": 140,
+          "fill": "white",
+          "stroke": "black",
+          "stroke-width": "1",
+          "rx": "15",
+          "ry": "15"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "dice-white-dot1",
+        "attributes": {
+          "cx": 445,
+          "cy": 370,
+          "r": 10,
+          "fill": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "dice-white-dot2",
+        "attributes": {
+          "cx": 575,
+          "cy": 480,
+          "r": 10,
+          "fill": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "dice-white-dot3",
+        "attributes": {
+          "cx": 510,
+          "cy": 420,
+          "r": 10,
+          "fill": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "dice-white-dot4",
+        "attributes": {
+          "cx": 445,
+          "cy": 480,
+          "r": 10,
+          "fill": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "dice-white-dot5",
+        "attributes": {
+          "cx": 575,
+          "cy": 370,
+          "r": 10,
+          "fill": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "dice-white-dot6",
+        "attributes": {
+          "cx": 510,
+          "cy": 480,
+          "r": 10,
+          "fill": "black"
+        }
+      }
+    ]
+  }
+}

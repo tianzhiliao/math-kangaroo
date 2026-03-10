@@ -1,0 +1,32 @@
+{
+  "id": "Arithmetic_15",
+  "category": "arithmetic",
+  "question_number": "Q14",
+  "points": 5,
+  "question_text": "The sum of Tom and John’s ages is 23. The sum of John and Alex’s ages is 24. The sum of Tom and Alex’s ages is 25. What is the age of the oldest person? (5 points for the correct answer)",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "10"
+    },
+    {
+      "label": "B",
+      "value": "11"
+    },
+    {
+      "label": "C",
+      "value": "12"
+    },
+    {
+      "label": "D",
+      "value": "13"
+    },
+    {
+      "label": "E",
+      "value": "14"
+    }
+  ],
+  "answer": null,
+  "graphics": null
+}

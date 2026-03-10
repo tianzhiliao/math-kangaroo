@@ -1,0 +1,32 @@
+{
+  "id": "Arithmetic_12",
+  "category": "arithmetic",
+  "question_number": "Q8",
+  "points": 5,
+  "question_text": "There are 9 girls and 6 boys at the playground. At least how many children would have to join them so they could all be divided into 4 equal groups?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "1"
+    },
+    {
+      "label": "B",
+      "value": "2"
+    },
+    {
+      "label": "C",
+      "value": "3"
+    },
+    {
+      "label": "D",
+      "value": "4"
+    },
+    {
+      "label": "E",
+      "value": "5"
+    }
+  ],
+  "answer": null,
+  "graphics": null
+}

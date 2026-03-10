@@ -1,0 +1,388 @@
+{
+  "id": "Geometry_08",
+  "category": "mixed",
+  "question_number": "Q4",
+  "points": 3,
+  "question_text": "A student used matches to make the construction shown:\n\nLater he took away 4 matches from his construction. Which of the following is the new shape?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "Option A shape"
+    },
+    {
+      "label": "B",
+      "value": "Option B shape"
+    },
+    {
+      "label": "C",
+      "value": "Option C shape"
+    },
+    {
+      "label": "D",
+      "value": "Option D shape"
+    },
+    {
+      "label": "E",
+      "value": "Option E shape"
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 400",
+    "description": "Initial matchstick construction made of three square-like shapes connected, and five answer options labeled A to E showing different matchstick shapes after removal of 4 matches.",
+    "svg_elements": [
+      {
+        "type": "rect",
+        "id": "square-1",
+        "attributes": {
+          "x": 50,
+          "y": 80,
+          "width": 60,
+          "height": 60,
+          "stroke": "#663300",
+          "stroke-width": "2",
+          "fill": "none"
+        }
+      },
+      {
+        "type": "line",
+        "id": "diag-1a",
+        "attributes": {
+          "x1": 50,
+          "y1": 140,
+          "x2": 110,
+          "y2": 80,
+          "stroke": "#663300",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "square-2",
+        "attributes": {
+          "x": 130,
+          "y": 80,
+          "width": 60,
+          "height": 60,
+          "stroke": "#663300",
+          "stroke-width": "2",
+          "fill": "none"
+        }
+      },
+      {
+        "type": "line",
+        "id": "horizontal-2",
+        "attributes": {
+          "x1": 130,
+          "y1": 110,
+          "x2": 190,
+          "y2": 110,
+          "stroke": "#663300",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "square-3",
+        "attributes": {
+          "x": 210,
+          "y": 80,
+          "width": 60,
+          "height": 60,
+          "stroke": "#663300",
+          "stroke-width": "2",
+          "fill": "none"
+        }
+      },
+      {
+        "type": "line",
+        "id": "diag-3a",
+        "attributes": {
+          "x1": 210,
+          "y1": 80,
+          "x2": 270,
+          "y2": 140,
+          "stroke": "#663300",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "line",
+        "id": "diag-3b",
+        "attributes": {
+          "x1": 270,
+          "y1": 80,
+          "x2": 210,
+          "y2": 140,
+          "stroke": "#663300",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "text",
+        "id": "question_label",
+        "content": "Initial construction",
+        "attributes": {
+          "x": 150,
+          "y": 60,
+          "font-size": "14",
+          "fill": "#000",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option_A_label",
+        "content": "A",
+        "attributes": {
+          "x": 70,
+          "y": 250,
+          "font-size": "16",
+          "fill": "#000",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option_A_rect1",
+        "attributes": {
+          "x": 50,
+          "y": 210,
+          "width": 30,
+          "height": 30,
+          "stroke": "#663300",
+          "fill": "none"
+        }
+      },
+      {
+        "type": "line",
+        "id": "option_A_line1",
+        "attributes": {
+          "x1": 50,
+          "y1": 240,
+          "x2": 80,
+          "y2": 210,
+          "stroke": "#663300",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "line",
+        "id": "option_A_horizontal",
+        "attributes": {
+          "x1": 85,
+          "y1": 225,
+          "x2": 110,
+          "y2": 225,
+          "stroke": "#663300",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "line",
+        "id": "option_A_line2",
+        "attributes": {
+          "x1": 110,
+          "y1": 225,
+          "x2": 130,
+          "y2": 210,
+          "stroke": "#663300",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option_B_label",
+        "content": "B",
+        "attributes": {
+          "x": 220,
+          "y": 250,
+          "font-size": "16",
+          "fill": "#000",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option_B_rect1",
+        "attributes": {
+          "x": 190,
+          "y": 210,
+          "width": 30,
+          "height": 30,
+          "stroke": "#663300",
+          "fill": "none"
+        }
+      },
+      {
+        "type": "line",
+        "id": "option_B_line1",
+        "attributes": {
+          "x1": 190,
+          "y1": 210,
+          "x2": 200,
+          "y2": 230,
+          "stroke": "#663300",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option_B_rect2",
+        "attributes": {
+          "x": 230,
+          "y": 210,
+          "width": 30,
+          "height": 30,
+          "stroke": "#663300",
+          "fill": "none"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option_C_label",
+        "content": "C",
+        "attributes": {
+          "x": 370,
+          "y": 250,
+          "font-size": "16",
+          "fill": "#000",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option_C_rect1",
+        "attributes": {
+          "x": 350,
+          "y": 210,
+          "width": 30,
+          "height": 30,
+          "stroke": "#663300",
+          "fill": "none"
+        }
+      },
+      {
+        "type": "line",
+        "id": "option_C_line1",
+        "attributes": {
+          "x1": 350,
+          "y1": 225,
+          "x2": 390,
+          "y2": 275,
+          "stroke": "#663300",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "line",
+        "id": "option_C_horizontal",
+        "attributes": {
+          "x1": 390,
+          "y1": 240,
+          "x2": 430,
+          "y2": 240,
+          "stroke": "#663300",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option_D_label",
+        "content": "D",
+        "attributes": {
+          "x": 520,
+          "y": 250,
+          "font-size": "16",
+          "fill": "#000",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option_D_rect1",
+        "attributes": {
+          "x": 490,
+          "y": 210,
+          "width": 30,
+          "height": 30,
+          "stroke": "#663300",
+          "fill": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option_D_rect2",
+        "attributes": {
+          "x": 530,
+          "y": 210,
+          "width": 30,
+          "height": 30,
+          "stroke": "#663300",
+          "fill": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option_D_rect3",
+        "attributes": {
+          "x": 570,
+          "y": 210,
+          "width": 30,
+          "height": 30,
+          "stroke": "#663300",
+          "fill": "none"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option_E_label",
+        "content": "E",
+        "attributes": {
+          "x": 670,
+          "y": 250,
+          "font-size": "16",
+          "fill": "#000",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "line",
+        "id": "option_E_line1",
+        "attributes": {
+          "x1": 650,
+          "y1": 230,
+          "x2": 700,
+          "y2": 210,
+          "stroke": "#663300",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option_E_rect1",
+        "attributes": {
+          "x": 700,
+          "y": 210,
+          "width": 30,
+          "height": 30,
+          "stroke": "#663300",
+          "fill": "none"
+        }
+      },
+      {
+        "type": "line",
+        "id": "option_E_diag1",
+        "attributes": {
+          "x1": 730,
+          "y1": 210,
+          "x2": 760,
+          "y2": 240,
+          "stroke": "#663300",
+          "stroke-width": "2"
+        }
+      }
+    ]
+  }
+}

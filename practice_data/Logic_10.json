@@ -1,0 +1,337 @@
+{
+  "id": "Logic_10",
+  "category": "mixed",
+  "question_number": "Q12",
+  "points": 4,
+  "question_text": "A cat walks along the wall. She starts at point A and follows the direction of the arrows. The distances from corner to corner are shown in the diagram. If the cat walks a total of 61 m, where is she going to end up?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "A"
+    },
+    {
+      "label": "B",
+      "value": "B"
+    },
+    {
+      "label": "C",
+      "value": "C"
+    },
+    {
+      "label": "D",
+      "value": "D"
+    },
+    {
+      "label": "E",
+      "value": "E"
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 600",
+    "description": "A 3D pentagon wall with points A, B, C, D, E labeled. Distances are marked on edges: AB=5m, BC=6m, CD=2m, DE=8m, EA=4m. Arrows show the walking direction from A through B, C, D, E, and back to A. A small cat is positioned at point A.",
+    "svg_elements": [
+      {
+        "type": "line",
+        "id": "edge-AB",
+        "attributes": {
+          "x1": 100,
+          "y1": 400,
+          "x2": 250,
+          "y2": 400,
+          "stroke": "blue",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-AB",
+        "content": "5 m",
+        "attributes": {
+          "x": 175,
+          "y": 390,
+          "font-size": "16",
+          "fill": "blue",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "line",
+        "id": "edge-BC",
+        "attributes": {
+          "x1": 250,
+          "y1": 400,
+          "x2": 370,
+          "y2": 320,
+          "stroke": "blue",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-BC",
+        "content": "6 m",
+        "attributes": {
+          "x": 310,
+          "y": 360,
+          "font-size": "16",
+          "fill": "blue",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "line",
+        "id": "edge-CD",
+        "attributes": {
+          "x1": 370,
+          "y1": 320,
+          "x2": 370,
+          "y2": 260,
+          "stroke": "blue",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-CD",
+        "content": "2 m",
+        "attributes": {
+          "x": 380,
+          "y": 290,
+          "font-size": "16",
+          "fill": "blue",
+          "text-anchor": "start"
+        }
+      },
+      {
+        "type": "line",
+        "id": "edge-DE",
+        "attributes": {
+          "x1": 370,
+          "y1": 260,
+          "x2": 220,
+          "y2": 260,
+          "stroke": "blue",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-DE",
+        "content": "8 m",
+        "attributes": {
+          "x": 295,
+          "y": 250,
+          "font-size": "16",
+          "fill": "blue",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "line",
+        "id": "edge-EA",
+        "attributes": {
+          "x1": 220,
+          "y1": 260,
+          "x2": 100,
+          "y2": 400,
+          "stroke": "blue",
+          "stroke-width": "2"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-EA",
+        "content": "4 m",
+        "attributes": {
+          "x": 160,
+          "y": 330,
+          "font-size": "16",
+          "fill": "blue",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "point-A",
+        "attributes": {
+          "cx": 100,
+          "cy": 400,
+          "r": 6,
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-A",
+        "content": "A",
+        "attributes": {
+          "x": 90,
+          "y": 415,
+          "font-size": "18",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "point-B",
+        "attributes": {
+          "cx": 250,
+          "cy": 400,
+          "r": 6,
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-B",
+        "content": "B",
+        "attributes": {
+          "x": 255,
+          "y": 415,
+          "font-size": "18",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "point-C",
+        "attributes": {
+          "cx": 370,
+          "cy": 320,
+          "r": 6,
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-C",
+        "content": "C",
+        "attributes": {
+          "x": 375,
+          "y": 335,
+          "font-size": "18",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "point-D",
+        "attributes": {
+          "cx": 370,
+          "cy": 260,
+          "r": 6,
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-D",
+        "content": "D",
+        "attributes": {
+          "x": 375,
+          "y": 275,
+          "font-size": "18",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "point-E",
+        "attributes": {
+          "cx": 220,
+          "cy": 260,
+          "r": 6,
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-E",
+        "content": "E",
+        "attributes": {
+          "x": 210,
+          "y": 275,
+          "font-size": "18",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "cat",
+        "content": "🐱",
+        "attributes": {
+          "x": 110,
+          "y": 380,
+          "font-size": "28"
+        }
+      },
+      {
+        "type": "line",
+        "id": "arrow-AB",
+        "attributes": {
+          "x1": 180,
+          "y1": 398,
+          "x2": 170,
+          "y2": 398,
+          "stroke": "black",
+          "stroke-width": "2",
+          "marker-end": "url(#arrowhead)"
+        }
+      },
+      {
+        "type": "line",
+        "id": "arrow-BC",
+        "attributes": {
+          "x1": 310,
+          "y1": 380,
+          "x2": 300,
+          "y2": 385,
+          "stroke": "black",
+          "stroke-width": "2",
+          "marker-end": "url(#arrowhead)"
+        }
+      },
+      {
+        "type": "line",
+        "id": "arrow-CD",
+        "attributes": {
+          "x1": 370,
+          "y1": 280,
+          "x2": 370,
+          "y2": 290,
+          "stroke": "black",
+          "stroke-width": "2",
+          "marker-end": "url(#arrowhead)"
+        }
+      },
+      {
+        "type": "line",
+        "id": "arrow-DE",
+        "attributes": {
+          "x1": 250,
+          "y1": 260,
+          "x2": 240,
+          "y2": 260,
+          "stroke": "black",
+          "stroke-width": "2",
+          "marker-end": "url(#arrowhead)"
+        }
+      },
+      {
+        "type": "line",
+        "id": "arrow-EA",
+        "attributes": {
+          "x1": 150,
+          "y1": 320,
+          "x2": 140,
+          "y2": 330,
+          "stroke": "black",
+          "stroke-width": "2",
+          "marker-end": "url(#arrowhead)"
+        }
+      }
+    ]
+  }
+}

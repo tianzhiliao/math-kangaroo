@@ -1,0 +1,341 @@
+{
+  "id": "Logic_11",
+  "category": "mixed",
+  "question_number": "Q13",
+  "points": 3,
+  "question_text": "There were 6 toys on a shelf (see image). Ela took a toy which is below a vehicle and to the left of a toy animal. Which toy did Ela take?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "beach ball"
+    },
+    {
+      "label": "B",
+      "value": "toy girl"
+    },
+    {
+      "label": "C",
+      "value": "teddy bear"
+    },
+    {
+      "label": "D",
+      "value": "toy car"
+    },
+    {
+      "label": "E",
+      "value": "giraffe"
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 600",
+    "description": "A grid of 6 toys arranged in two rows of three. Top row from left to right: beach ball, toy truck (vehicle), toy girl. Bottom row left to right: teddy bear, giraffe (toy animal), toy car. Below the grid are the answer options labeled A to E with corresponding toy images.",
+    "svg_elements": [
+      {
+        "type": "rect",
+        "id": "grid-bg",
+        "attributes": {
+          "x": 150,
+          "y": 170,
+          "width": 360,
+          "height": 130,
+          "fill": "white",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cell-1",
+        "attributes": {
+          "x": 150,
+          "y": 170,
+          "width": 120,
+          "height": 65,
+          "fill": "none",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cell-2",
+        "attributes": {
+          "x": 270,
+          "y": 170,
+          "width": 120,
+          "height": 65,
+          "fill": "none",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cell-3",
+        "attributes": {
+          "x": 390,
+          "y": 170,
+          "width": 120,
+          "height": 65,
+          "fill": "none",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cell-4",
+        "attributes": {
+          "x": 150,
+          "y": 235,
+          "width": 120,
+          "height": 65,
+          "fill": "none",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cell-5",
+        "attributes": {
+          "x": 270,
+          "y": 235,
+          "width": 120,
+          "height": 65,
+          "fill": "none",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cell-6",
+        "attributes": {
+          "x": 390,
+          "y": 235,
+          "width": 120,
+          "height": 65,
+          "fill": "none",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "toy-beachball",
+        "attributes": {
+          "cx": 210,
+          "cy": 200,
+          "r": 25,
+          "fill": "white",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "toy-truck-body",
+        "attributes": {
+          "x": 290,
+          "y": 190,
+          "width": 70,
+          "height": 35,
+          "fill": "yellow",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "truck-wheel-1",
+        "attributes": {
+          "cx": 305,
+          "cy": 230,
+          "r": 10,
+          "fill": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "truck-wheel-2",
+        "attributes": {
+          "cx": 345,
+          "cy": 230,
+          "r": 10,
+          "fill": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "truck-wheel-3",
+        "attributes": {
+          "cx": 375,
+          "cy": 230,
+          "r": 10,
+          "fill": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "toy-girl-head",
+        "attributes": {
+          "cx": 440,
+          "cy": 200,
+          "r": 22,
+          "fill": "peachpuff",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "toy-girl-body",
+        "attributes": {
+          "x": 425,
+          "y": 215,
+          "width": 35,
+          "height": 50,
+          "fill": "blue",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "teddy-bear",
+        "attributes": {
+          "x": 170,
+          "y": 246,
+          "width": 80,
+          "height": 50,
+          "fill": "brown",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "polygon",
+        "id": "giraffe",
+        "attributes": {
+          "points": "290,235 310,235 320,270 320,290 290,290",
+          "fill": "yellow",
+          "stroke": "orange"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "toy-car",
+        "attributes": {
+          "x": 410,
+          "y": 245,
+          "width": 80,
+          "height": 50,
+          "fill": "orange",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-A",
+        "content": "(A)",
+        "attributes": {
+          "x": 140,
+          "y": 330,
+          "font-size": "16",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "circle",
+        "id": "option-A-beachball",
+        "attributes": {
+          "cx": 190,
+          "cy": 320,
+          "r": 20,
+          "fill": "white",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-B",
+        "content": "(B)",
+        "attributes": {
+          "x": 250,
+          "y": 330,
+          "font-size": "16",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-B-girl-head",
+        "attributes": {
+          "x": 280,
+          "y": 295,
+          "width": 40,
+          "height": 50,
+          "fill": "blue",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-C",
+        "content": "(C)",
+        "attributes": {
+          "x": 350,
+          "y": 330,
+          "font-size": "16",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-C-bear",
+        "attributes": {
+          "x": 380,
+          "y": 295,
+          "width": 40,
+          "height": 50,
+          "fill": "brown",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-D",
+        "content": "(D)",
+        "attributes": {
+          "x": 450,
+          "y": 330,
+          "font-size": "16",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-D-car",
+        "attributes": {
+          "x": 480,
+          "y": 295,
+          "width": 60,
+          "height": 30,
+          "fill": "orange",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "option-E",
+        "content": "(E)",
+        "attributes": {
+          "x": 560,
+          "y": 330,
+          "font-size": "16",
+          "fill": "black"
+        }
+      },
+      {
+        "type": "polygon",
+        "id": "option-E-giraffe",
+        "attributes": {
+          "points": "590,295 610,295 620,325 620,345 590,345",
+          "fill": "yellow",
+          "stroke": "orange"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "id": "Geometry_06",
+  "category": "numbers",
+  "question_number": "Q3",
+  "points": 3,
+  "question_text": "How many small cubes are needed to build the bigger solid cube?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "1"
+    },
+    {
+      "label": "B",
+      "value": "3"
+    },
+    {
+      "label": "C",
+      "value": "4"
+    },
+    {
+      "label": "D",
+      "value": "5"
+    },
+    {
+      "label": "E",
+      "value": "6"
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 600",
+    "description": "A 3D cube made up of smaller unit cubes arranged in layers with a hollow in the middle layer.",
+    "svg_elements": [
+      {
+        "type": "rect",
+        "id": "cube-front-bottom-left",
+        "attributes": {
+          "x": 350,
+          "y": 400,
+          "width": 50,
+          "height": 50,
+          "fill": "#ffffff",
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cube-front-bottom-center",
+        "attributes": {
+          "x": 400,
+          "y": 400,
+          "width": 50,
+          "height": 50,
+          "fill": "#ffffff",
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cube-front-bottom-right",
+        "attributes": {
+          "x": 450,
+          "y": 400,
+          "width": 50,
+          "height": 50,
+          "fill": "#ffffff",
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cube-middle-left",
+        "attributes": {
+          "x": 350,
+          "y": 350,
+          "width": 50,
+          "height": 50,
+          "fill": "#cccccc",
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cube-middle-center-front",
+        "attributes": {
+          "x": 400,
+          "y": 350,
+          "width": 50,
+          "height": 50,
+          "fill": "#ffffff",
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cube-middle-right-front",
+        "attributes": {
+          "x": 450,
+          "y": 350,
+          "width": 50,
+          "height": 50,
+          "fill": "#ffffff",
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cube-top-left",
+        "attributes": {
+          "x": 350,
+          "y": 300,
+          "width": 50,
+          "height": 50,
+          "fill": "#ffffff",
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cube-top-center-front",
+        "attributes": {
+          "x": 400,
+          "y": 300,
+          "width": 50,
+          "height": 50,
+          "fill": "#ffffff",
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "cube-top-right-front",
+        "attributes": {
+          "x": 450,
+          "y": 300,
+          "width": 50,
+          "height": 50,
+          "fill": "#ffffff",
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "line",
+        "id": "line-1",
+        "attributes": {
+          "x1": 350,
+          "y1": 400,
+          "x2": 350,
+          "y2": 350,
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "line",
+        "id": "line-2",
+        "attributes": {
+          "x1": 350,
+          "y1": 350,
+          "x2": 400,
+          "y2": 300,
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "line",
+        "id": "line-3",
+        "attributes": {
+          "x1": 400,
+          "y1": 300,
+          "x2": 450,
+          "y2": 350,
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "line",
+        "id": "line-4",
+        "attributes": {
+          "x1": 450,
+          "y1": 350,
+          "x2": 450,
+          "y2": 400,
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "line",
+        "id": "line-5",
+        "attributes": {
+          "x1": 400,
+          "y1": 350,
+          "x2": 400,
+          "y2": 400,
+          "stroke": "#000000"
+        }
+      },
+      {
+        "type": "line",
+        "id": "line-6",
+        "attributes": {
+          "x1": 400,
+          "y1": 300,
+          "x2": 400,
+          "y2": 350,
+          "stroke": "#000000"
+        }
+      }
+    ]
+  }
+}

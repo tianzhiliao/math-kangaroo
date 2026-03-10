@@ -1,0 +1,157 @@
+{
+  "id": "Geometry_16",
+  "category": "numbers",
+  "question_number": "Q2",
+  "points": 3,
+  "question_text": "How many more times do we need to break the chocolate bar to separate it into 10 pieces?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "10"
+    },
+    {
+      "label": "B",
+      "value": "9"
+    },
+    {
+      "label": "C",
+      "value": "8"
+    },
+    {
+      "label": "D",
+      "value": "7"
+    },
+    {
+      "label": "E",
+      "value": "6"
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 600",
+    "description": "A chocolate bar divided into 10 pieces with a small gap between the last piece and the others",
+    "svg_elements": [
+      {
+        "type": "rect",
+        "id": "piece-1",
+        "attributes": {
+          "x": 100,
+          "y": 300,
+          "width": 40,
+          "height": 40,
+          "fill": "#7B4F24",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece-2",
+        "attributes": {
+          "x": 142,
+          "y": 300,
+          "width": 40,
+          "height": 40,
+          "fill": "#7B4F24",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece-3",
+        "attributes": {
+          "x": 184,
+          "y": 300,
+          "width": 40,
+          "height": 40,
+          "fill": "#7B4F24",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece-4",
+        "attributes": {
+          "x": 226,
+          "y": 300,
+          "width": 40,
+          "height": 40,
+          "fill": "#7B4F24",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece-5",
+        "attributes": {
+          "x": 268,
+          "y": 300,
+          "width": 40,
+          "height": 40,
+          "fill": "#7B4F24",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece-6",
+        "attributes": {
+          "x": 310,
+          "y": 300,
+          "width": 40,
+          "height": 40,
+          "fill": "#7B4F24",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece-7",
+        "attributes": {
+          "x": 352,
+          "y": 300,
+          "width": 40,
+          "height": 40,
+          "fill": "#7B4F24",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece-8",
+        "attributes": {
+          "x": 394,
+          "y": 300,
+          "width": 40,
+          "height": 40,
+          "fill": "#7B4F24",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece-9",
+        "attributes": {
+          "x": 436,
+          "y": 300,
+          "width": 40,
+          "height": 40,
+          "fill": "#7B4F24",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "piece-10",
+        "attributes": {
+          "x": 510,
+          "y": 300,
+          "width": 40,
+          "height": 40,
+          "fill": "#7B4F24",
+          "stroke": "none"
+        }
+      }
+    ]
+  }
+}

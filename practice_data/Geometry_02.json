@@ -1,0 +1,71 @@
+{
+  "id": "Geometry_02",
+  "category": "geometry",
+  "question_number": "Q8",
+  "points": 3,
+  "question_text": "How many triangles of different sizes are there in the figure?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "2"
+    },
+    {
+      "label": "B",
+      "value": "4"
+    },
+    {
+      "label": "C",
+      "value": "6"
+    },
+    {
+      "label": "D",
+      "value": "8"
+    },
+    {
+      "label": "E",
+      "value": "10"
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 600",
+    "description": "A square divided into four triangles by two diagonals crossing at the center.",
+    "svg_elements": [
+      {
+        "type": "rect",
+        "id": "square",
+        "attributes": {
+          "x": 300,
+          "y": 200,
+          "width": 200,
+          "height": 200,
+          "fill": "none",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "line",
+        "id": "diag-1",
+        "attributes": {
+          "x1": 300,
+          "y1": 200,
+          "x2": 500,
+          "y2": 400,
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "line",
+        "id": "diag-2",
+        "attributes": {
+          "x1": 300,
+          "y1": 400,
+          "x2": 500,
+          "y2": 200,
+          "stroke": "black"
+        }
+      }
+    ]
+  }
+}

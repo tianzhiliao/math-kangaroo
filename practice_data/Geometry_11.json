@@ -1,0 +1,426 @@
+{
+  "id": "Geometry_11",
+  "category": "geometry",
+  "question_number": "Q14",
+  "points": 3,
+  "question_text": "In the figure, we see a 5x5 square with the centre cell removed. We want to cut the square into identical (the same) pieces. Which of the following from (A) to (E) cannot be cut out as identical pieces from the square?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "Two 1x1 squares side by side with a 1x1 removed from the bottom right corner of the right square (2 cells, L-shape)."
+    },
+    {
+      "label": "B",
+      "value": "Three 1x1 squares in a horizontal row (3 cells, straight)."
+    },
+    {
+      "label": "C",
+      "value": "Three 1x1 squares arranged as an L-shape (2 horizontal, 1 vertical on the end)."
+    },
+    {
+      "label": "D",
+      "value": "Four 1x1 squares arranged as a T shape."
+    },
+    {
+      "label": "E",
+      "value": "Four 1x1 squares arranged in a 2x2 block."
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 600",
+    "description": "Shows a 5x5 grid with the center cell removed and the five shapes labeled (A) to (E) underneath the question. Shapes illustrate possible pieces to cut the square into.",
+    "svg_elements": [
+      {
+        "type": "rect",
+        "id": "background-1",
+        "attributes": {
+          "x": 300,
+          "y": 250,
+          "width": 150,
+          "height": 150,
+          "fill": "none",
+          "stroke": "black",
+          "stroke-width": 1
+        }
+      },
+      {
+        "type": "line",
+        "id": "grid-vertical-1",
+        "attributes": {
+          "x1": 330,
+          "y1": 250,
+          "x2": 330,
+          "y2": 400,
+          "stroke": "gray"
+        }
+      },
+      {
+        "type": "line",
+        "id": "grid-vertical-2",
+        "attributes": {
+          "x1": 360,
+          "y1": 250,
+          "x2": 360,
+          "y2": 400,
+          "stroke": "gray"
+        }
+      },
+      {
+        "type": "line",
+        "id": "grid-vertical-3",
+        "attributes": {
+          "x1": 390,
+          "y1": 250,
+          "x2": 390,
+          "y2": 400,
+          "stroke": "gray"
+        }
+      },
+      {
+        "type": "line",
+        "id": "grid-vertical-4",
+        "attributes": {
+          "x1": 420,
+          "y1": 250,
+          "x2": 420,
+          "y2": 400,
+          "stroke": "gray"
+        }
+      },
+      {
+        "type": "line",
+        "id": "grid-horizontal-1",
+        "attributes": {
+          "x1": 300,
+          "y1": 280,
+          "x2": 450,
+          "y2": 280,
+          "stroke": "gray"
+        }
+      },
+      {
+        "type": "line",
+        "id": "grid-horizontal-2",
+        "attributes": {
+          "x1": 300,
+          "y1": 310,
+          "x2": 450,
+          "y2": 310,
+          "stroke": "gray"
+        }
+      },
+      {
+        "type": "line",
+        "id": "grid-horizontal-3",
+        "attributes": {
+          "x1": 300,
+          "y1": 340,
+          "x2": 450,
+          "y2": 340,
+          "stroke": "gray"
+        }
+      },
+      {
+        "type": "line",
+        "id": "grid-horizontal-4",
+        "attributes": {
+          "x1": 300,
+          "y1": 370,
+          "x2": 450,
+          "y2": 370,
+          "stroke": "gray"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "center-removed",
+        "attributes": {
+          "x": 375,
+          "y": 310,
+          "width": 30,
+          "height": 30,
+          "fill": "white"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-A-part1",
+        "attributes": {
+          "x": 130,
+          "y": 90,
+          "width": 20,
+          "height": 20,
+          "fill": "lightgray",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-A-part2",
+        "attributes": {
+          "x": 150,
+          "y": 90,
+          "width": 20,
+          "height": 20,
+          "fill": "lightgray",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-A-missing",
+        "attributes": {
+          "x": 170,
+          "y": 110,
+          "width": 20,
+          "height": 20,
+          "fill": "white",
+          "stroke": "none"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-B-1",
+        "attributes": {
+          "x": 220,
+          "y": 90,
+          "width": 20,
+          "height": 20,
+          "fill": "lightgray",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-B-2",
+        "attributes": {
+          "x": 240,
+          "y": 90,
+          "width": 20,
+          "height": 20,
+          "fill": "lightgray",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-B-3",
+        "attributes": {
+          "x": 260,
+          "y": 90,
+          "width": 20,
+          "height": 20,
+          "fill": "lightgray",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-C-1",
+        "attributes": {
+          "x": 310,
+          "y": 90,
+          "width": 20,
+          "height": 20,
+          "fill": "lightgray",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-C-2",
+        "attributes": {
+          "x": 310,
+          "y": 110,
+          "width": 20,
+          "height": 20,
+          "fill": "lightgray",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-C-3",
+        "attributes": {
+          "x": 330,
+          "y": 90,
+          "width": 20,
+          "height": 20,
+          "fill": "lightgray",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-D-1",
+        "attributes": {
+          "x": 370,
+          "y": 90,
+          "width": 20,
+          "height": 20,
+          "fill": "lightgray",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-D-2",
+        "attributes": {
+          "x": 390,
+          "y": 90,
+          "width": 20,
+          "height": 20,
+          "fill": "lightgray",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-D-3",
+        "attributes": {
+          "x": 410,
+          "y": 90,
+          "width": 20,
+          "height": 20,
+          "fill": "lightgray",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-D-4",
+        "attributes": {
+          "x": 390,
+          "y": 110,
+          "width": 20,
+          "height": 20,
+          "fill": "lightgray",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-E-1",
+        "attributes": {
+          "x": 460,
+          "y": 90,
+          "width": 20,
+          "height": 20,
+          "fill": "lightgray",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-E-2",
+        "attributes": {
+          "x": 480,
+          "y": 90,
+          "width": 20,
+          "height": 20,
+          "fill": "lightgray",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-E-3",
+        "attributes": {
+          "x": 460,
+          "y": 110,
+          "width": 20,
+          "height": 20,
+          "fill": "lightgray",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "rect",
+        "id": "option-E-4",
+        "attributes": {
+          "x": 480,
+          "y": 110,
+          "width": 20,
+          "height": 20,
+          "fill": "lightgray",
+          "stroke": "black"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-Q14",
+        "content": "Q14",
+        "attributes": {
+          "x": 380,
+          "y": 40,
+          "font-size": "24",
+          "fill": "darkblue",
+          "text-anchor": "middle",
+          "font-weight": "bold"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-A",
+        "content": "(A)",
+        "attributes": {
+          "x": 140,
+          "y": 85,
+          "font-size": "16",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-B",
+        "content": "(B)",
+        "attributes": {
+          "x": 240,
+          "y": 85,
+          "font-size": "16",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-C",
+        "content": "(C)",
+        "attributes": {
+          "x": 320,
+          "y": 85,
+          "font-size": "16",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-D",
+        "content": "(D)",
+        "attributes": {
+          "x": 400,
+          "y": 85,
+          "font-size": "16",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "text",
+        "id": "label-E",
+        "content": "(E)",
+        "attributes": {
+          "x": 470,
+          "y": 85,
+          "font-size": "16",
+          "fill": "black",
+          "text-anchor": "middle"
+        }
+      }
+    ]
+  }
+}

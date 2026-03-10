@@ -1,0 +1,32 @@
+{
+  "id": "Arithmetic_17",
+  "category": "mixed",
+  "question_number": "Q2",
+  "points": 4,
+  "question_text": "There were candies in a bowl. Johnny took 14 smarties and 10 caramels. Alice took 3 smarties and 7 caramels. How many more candies did Johnny take than Alice?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "14"
+    },
+    {
+      "label": "B",
+      "value": "12"
+    },
+    {
+      "label": "C",
+      "value": "10"
+    },
+    {
+      "label": "D",
+      "value": "8"
+    },
+    {
+      "label": "E",
+      "value": "4"
+    }
+  ],
+  "answer": null,
+  "graphics": null
+}

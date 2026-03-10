@@ -1,0 +1,32 @@
+{
+  "id": "WordProblem_05",
+  "category": "mixed",
+  "question_number": "Q11",
+  "points": 4,
+  "question_text": "Richard is 11 days older than her cousin Sara. On Thursday, March 19, 2026, is Richard's birthday. What day of the week will Sara celebrate her birthday?",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "Friday"
+    },
+    {
+      "label": "B",
+      "value": "Saturday"
+    },
+    {
+      "label": "C",
+      "value": "Sunday"
+    },
+    {
+      "label": "D",
+      "value": "Monday"
+    },
+    {
+      "label": "E",
+      "value": "Tuesday"
+    }
+  ],
+  "answer": null,
+  "graphics": null
+}

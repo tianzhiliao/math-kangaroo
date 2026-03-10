@@ -1,0 +1,167 @@
+{
+  "id": "Arithmetic_03",
+  "category": "arithmetic",
+  "question_number": "Q6",
+  "points": 3,
+  "question_text": "Lisa uses matches to make some digits as shown in the figure below. She wants to make the number 2026 with these matches. How many matches will she need? (3 points for the correct answer)",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "17"
+    },
+    {
+      "label": "B",
+      "value": "18"
+    },
+    {
+      "label": "C",
+      "value": "19"
+    },
+    {
+      "label": "D",
+      "value": "20"
+    },
+    {
+      "label": "E",
+      "value": "22"
+    }
+  ],
+  "answer": null,
+  "graphics": {
+    "viewBox": "0 0 800 200",
+    "description": "Digits 0 to 9 made out of matches, each digit formed by segments represent matches arranged in a digital style.",
+    "svg_elements": [
+      {
+        "type": "text",
+        "id": "digit-0",
+        "content": "0",
+        "attributes": {
+          "x": 50,
+          "y": 120,
+          "font-size": "60",
+          "font-family": "monospace",
+          "fill": "#b33",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "text",
+        "id": "digit-1",
+        "content": "1",
+        "attributes": {
+          "x": 110,
+          "y": 120,
+          "font-size": "60",
+          "font-family": "monospace",
+          "fill": "#b33",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "text",
+        "id": "digit-2",
+        "content": "2",
+        "attributes": {
+          "x": 170,
+          "y": 120,
+          "font-size": "60",
+          "font-family": "monospace",
+          "fill": "#b33",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "text",
+        "id": "digit-3",
+        "content": "3",
+        "attributes": {
+          "x": 230,
+          "y": 120,
+          "font-size": "60",
+          "font-family": "monospace",
+          "fill": "#b33",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "text",
+        "id": "digit-4",
+        "content": "4",
+        "attributes": {
+          "x": 290,
+          "y": 120,
+          "font-size": "60",
+          "font-family": "monospace",
+          "fill": "#b33",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "text",
+        "id": "digit-5",
+        "content": "5",
+        "attributes": {
+          "x": 350,
+          "y": 120,
+          "font-size": "60",
+          "font-family": "monospace",
+          "fill": "#b33",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "text",
+        "id": "digit-6",
+        "content": "6",
+        "attributes": {
+          "x": 410,
+          "y": 120,
+          "font-size": "60",
+          "font-family": "monospace",
+          "fill": "#b33",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "text",
+        "id": "digit-7",
+        "content": "7",
+        "attributes": {
+          "x": 470,
+          "y": 120,
+          "font-size": "60",
+          "font-family": "monospace",
+          "fill": "#b33",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "text",
+        "id": "digit-8",
+        "content": "8",
+        "attributes": {
+          "x": 530,
+          "y": 120,
+          "font-size": "60",
+          "font-family": "monospace",
+          "fill": "#b33",
+          "text-anchor": "middle"
+        }
+      },
+      {
+        "type": "text",
+        "id": "digit-9",
+        "content": "9",
+        "attributes": {
+          "x": 590,
+          "y": 120,
+          "font-size": "60",
+          "font-family": "monospace",
+          "fill": "#b33",
+          "text-anchor": "middle"
+        }
+      }
+    ]
+  }
+}

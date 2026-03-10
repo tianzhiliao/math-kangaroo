@@ -1,0 +1,32 @@
+{
+  "id": "Arithmetic_09",
+  "category": "arithmetic",
+  "question_number": "Q12",
+  "points": 5,
+  "question_text": "Squirrel Julie had many piles of nuts. She has 2 piles with 2 nuts in each pile, 2 piles with 3 nuts in each pile, and 2 piles with 4 nuts in each pile. If she puts all of these nuts into 3 equal piles, how many nuts are there in each pile? (5 points for the correct answer)",
+  "formula_latex": [],
+  "options": [
+    {
+      "label": "A",
+      "value": "1"
+    },
+    {
+      "label": "B",
+      "value": "2"
+    },
+    {
+      "label": "C",
+      "value": "3"
+    },
+    {
+      "label": "D",
+      "value": "4"
+    },
+    {
+      "label": "E",
+      "value": "6"
+    }
+  ],
+  "answer": null,
+  "graphics": null
+}
