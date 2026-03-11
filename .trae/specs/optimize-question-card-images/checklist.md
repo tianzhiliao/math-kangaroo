@@ -1,0 +1,5 @@
+- [ ] Single image left column is narrower than before
+- [ ] Single image appears significantly larger (less whitespace)
+- [ ] Multiple images do not trigger scrollbar
+- [ ] Multiple images are fully visible
+- [ ] Mobile layout (<=768px) remains stacked and usable

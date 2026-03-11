@@ -1,0 +1,12 @@
+- [x] Project initialized with React, Vite, TypeScript, and Tailwind CSS.
+- [x] Application loads exam data from `processed/exams/` correctly.
+- [x] Single Question Mode displays stem text, graphics, and options clearly.
+- [x] Navigation (Next, Previous, Jump via Grid) works seamlessly.
+- [x] Answer selection updates the UI state (Green for answered in nav) and saves to LocalStorage.
+- [x] "Skip" button works and updates UI state (Gray in nav).
+- [x] Timer displays elapsed time correctly.
+- [x] "End Exam" triggers a confirmation dialog.
+- [x] Submission generates a Report Page with correct score and accuracy.
+- [x] UI follows Duolingo style guidelines (Colors, Rounded corners, Large buttons).
+- [x] Application is responsive on 1080p and smaller screens.
+- [x] Interactions feel snappy (<200ms).
