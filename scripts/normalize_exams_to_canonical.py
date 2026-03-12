@@ -7,16 +7,21 @@ Output: processed/exams/Exam_20xx.json
 import json
 import hashlib
 import re
+import shutil
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 EXAMS_DATA = PROJECT_ROOT / "exams_data"
 PROCESSED_EXAMS = PROJECT_ROOT / "processed" / "exams"
+PROCESSED_EXAM_SVG = PROCESSED_EXAMS / "svg"
+FRONTEND_PUBLIC_DATA = PROJECT_ROOT / "kangaroo-math-mvp" / "public" / "data"
+FRONTEND_EXAM_SVG = FRONTEND_PUBLIC_DATA / "svg"
 
 
 SVG_ID_RE = re.compile(r'\bid=(["\'])([^"\']+)\1')
 SVG_URL_REF_RE = re.compile(r"url\(#([^)]+)\)")
 SVG_HREF_RE = re.compile(r'((?:xlink:)?href)=(["\'])#([^"\']+)\2')
+GRAPHIC_ID_RE = re.compile(r"^[A-Za-z0-9_.-]+$")
 
 
 def _safe_token(value: str) -> str:
@@ -59,7 +64,7 @@ def _dedupe_graphics(graphics: list) -> list:
     for g in graphics:
         if not g:
             continue
-        key = (g.get("id") or "", g.get("svg") or "")
+        key = (g.get("id") or "", g.get("svg_path") or g.get("svg") or "")
         if key in seen:
             continue
         seen.add(key)
@@ -67,11 +72,26 @@ def _dedupe_graphics(graphics: list) -> list:
     return items
 
 
-def _graph(id_: str, svg: str) -> dict:
+def _validate_graphic_id(graph_id: str) -> str:
+    if not GRAPHIC_ID_RE.fullmatch(graph_id):
+        raise ValueError(f"Graphic id '{graph_id}' is not safe to use as a file name")
+    return graph_id
+
+
+def _graph(id_: str, svg: str, paper_id: str, svg_root: Path) -> dict:
     if not (svg and isinstance(svg, str) and svg.strip()):
         return None
     graph_id = id_ or f"anon_{hashlib.md5(svg.encode('utf-8')).hexdigest()[:12]}"
-    return {"id": graph_id, "svg": _namespace_svg_ids(svg, graph_id)}
+    graph_id = _validate_graphic_id(graph_id)
+    namespaced_svg = _namespace_svg_ids(svg, graph_id)
+    paper_dir = svg_root / paper_id
+    paper_dir.mkdir(parents=True, exist_ok=True)
+    svg_file = paper_dir / f"{graph_id}.svg"
+    svg_file.write_text(namespaced_svg, encoding="utf-8")
+    return {
+        "id": graph_id,
+        "svg_path": (Path("svg") / paper_id / svg_file.name).as_posix(),
+    }
 
 
 def _option(label: str, text: str, graphics: list) -> dict:
@@ -79,15 +99,16 @@ def _option(label: str, text: str, graphics: list) -> dict:
     return {"text": text or "", "graphics": items}
 
 
-def adapter_2020(data: dict) -> dict:
+def adapter_2020(data: dict, svg_root: Path) -> dict:
     """2020: options already dict, stem_graphics[].svg, options.*.graphics[].svg, answer."""
-    out = {"paper_id": data.get("paper_id", "Exam_2020"), "questions": []}
+    paper_id = data.get("paper_id", "Exam_2020")
+    out = {"paper_id": paper_id, "questions": []}
     for q in data.get("questions", []):
         stem = []
         for g in q.get("stem_graphics") or []:
             svg = g.get("svg") or g.get("svg_code")
             if svg:
-                stem.append(_graph(g.get("graphic_id", ""), svg))
+                stem.append(_graph(g.get("graphic_id", ""), svg, paper_id, svg_root))
         opts = {}
         raw_opts = q.get("options") or {}
         for k in ["A", "B", "C", "D", "E"]:
@@ -96,7 +117,7 @@ def adapter_2020(data: dict) -> dict:
             for g in o.get("graphics") or []:
                 svg = g.get("svg") or g.get("svg_code")
                 if svg:
-                    gs.append(_graph(g.get("graphic_id", ""), svg))
+                    gs.append(_graph(g.get("graphic_id", ""), svg, paper_id, svg_root))
             opts[k] = _option(k, o.get("text") or "", gs)
         answer = q.get("answer")
         if isinstance(answer, dict):
@@ -114,15 +135,16 @@ def adapter_2020(data: dict) -> dict:
     return out
 
 
-def adapter_2021(data: dict) -> dict:
+def adapter_2021(data: dict, svg_root: Path) -> dict:
     """2021: options list with label/text/graphics[].svg_code, stem_graphics[].svg_code, correct_answer."""
-    out = {"paper_id": data.get("paper_id", "Exam_2021"), "questions": []}
+    paper_id = data.get("paper_id", "Exam_2021")
+    out = {"paper_id": paper_id, "questions": []}
     for q in data.get("questions", []):
         stem = []
         for g in q.get("stem_graphics") or []:
             svg = g.get("svg") or g.get("svg_code")
             if svg:
-                stem.append(_graph(g.get("graphic_id", ""), svg))
+                stem.append(_graph(g.get("graphic_id", ""), svg, paper_id, svg_root))
         opts = {}
         raw_opts = q.get("options") or []
         label_map = {}
@@ -135,7 +157,7 @@ def adapter_2021(data: dict) -> dict:
             for g in o.get("graphics") or []:
                 svg = g.get("svg") or g.get("svg_code")
                 if svg:
-                    gs.append(_graph(g.get("graphic_id", ""), svg))
+                    gs.append(_graph(g.get("graphic_id", ""), svg, paper_id, svg_root))
             opts[k] = _option(k, o.get("text") or "", gs)
         answer = q.get("correct_answer") or q.get("answer") or ""
         if isinstance(answer, dict):
@@ -153,15 +175,16 @@ def adapter_2021(data: dict) -> dict:
     return out
 
 
-def adapter_2022(data: dict) -> dict:
+def adapter_2022(data: dict, svg_root: Path) -> dict:
     """2022: options list with diagram_svg, stem_diagrams[].svg, answer.correct_option."""
-    out = {"paper_id": data.get("paper_id", "Exam_2022"), "questions": []}
+    paper_id = data.get("paper_id", "Exam_2022")
+    out = {"paper_id": paper_id, "questions": []}
     for q in data.get("questions", []):
         stem = []
         for g in q.get("stem_diagrams") or []:
             svg = g.get("svg") or g.get("svg_code")
             if svg:
-                stem.append(_graph(g.get("diagram_id", ""), svg))
+                stem.append(_graph(g.get("diagram_id", ""), svg, paper_id, svg_root))
         opts = {}
         raw_opts = q.get("options") or []
         label_map = {}
@@ -173,11 +196,11 @@ def adapter_2022(data: dict) -> dict:
             gs = []
             ds = o.get("diagram_svg")
             if ds:
-                gs.append(_graph(o.get("diagram_id") or f"q{q.get('id')}_opt_{k}", ds))
+                gs.append(_graph(o.get("diagram_id") or f"q{q.get('id')}_opt_{k}", ds, paper_id, svg_root))
             for g in o.get("graphics") or []:
                 svg = g.get("svg") or g.get("svg_code")
                 if svg:
-                    gs.append(_graph(g.get("graphic_id", ""), svg))
+                    gs.append(_graph(g.get("graphic_id", ""), svg, paper_id, svg_root))
             opts[k] = _option(k, o.get("text") or "", gs)
         answer = q.get("answer")
         if isinstance(answer, dict):
@@ -197,9 +220,10 @@ def adapter_2022(data: dict) -> dict:
     return out
 
 
-def adapter_2023(data: dict) -> dict:
+def adapter_2023(data: dict, svg_root: Path) -> dict:
     """2023: options list with key/text/graphics[] (IDs); topic-level graphics[] with role/option_key."""
-    out = {"paper_id": data.get("paper_id", "Exam_2023"), "questions": []}
+    paper_id = data.get("paper_id", "Exam_2023")
+    out = {"paper_id": paper_id, "questions": []}
     for q in data.get("questions", []):
         topic_graphics = q.get("graphics") or []
         id_to_graph = {}
@@ -216,7 +240,7 @@ def adapter_2023(data: dict) -> dict:
             svg = g.get("svg") or g.get("svg_code")
             if not svg:
                 continue
-            item = _graph(g.get("graphic_id", ""), svg)
+            item = _graph(g.get("graphic_id", ""), svg, paper_id, svg_root)
             if not item:
                 continue
             role = g.get("role")
@@ -240,13 +264,13 @@ def adapter_2023(data: dict) -> dict:
                     if ref:
                         svg = ref.get("svg") or ref.get("svg_code")
                         if svg:
-                            it = _graph(ref.get("graphic_id", g), svg)
+                            it = _graph(ref.get("graphic_id", g), svg, paper_id, svg_root)
                             if it:
                                 gs.append(it)
                 elif isinstance(g, dict):
                     svg = g.get("svg") or g.get("svg_code")
                     if svg:
-                        it = _graph(g.get("graphic_id", ""), svg)
+                        it = _graph(g.get("graphic_id", ""), svg, paper_id, svg_root)
                         if it:
                             gs.append(it)
             opts[k] = _option(k, o.get("text") or "", gs)
@@ -289,8 +313,25 @@ def validate_canonical(out: dict) -> list[str]:
     return errs
 
 
+def sync_exam_to_frontend(paper_id: str, exam_json: Path) -> None:
+    FRONTEND_PUBLIC_DATA.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(exam_json, FRONTEND_PUBLIC_DATA / exam_json.name)
+
+    src_svg_dir = PROCESSED_EXAM_SVG / paper_id
+    dst_svg_dir = FRONTEND_EXAM_SVG / paper_id
+    if dst_svg_dir.exists():
+        shutil.rmtree(dst_svg_dir)
+    if src_svg_dir.exists():
+        dst_svg_dir.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copytree(src_svg_dir, dst_svg_dir)
+
+
 def main():
     PROCESSED_EXAMS.mkdir(parents=True, exist_ok=True)
+    PROCESSED_EXAM_SVG.mkdir(parents=True, exist_ok=True)
+    FRONTEND_PUBLIC_DATA.mkdir(parents=True, exist_ok=True)
+    FRONTEND_EXAM_SVG.mkdir(parents=True, exist_ok=True)
+
     for year, adapter in ADAPTERS.items():
         src = EXAMS_DATA / f"Exam_{year}.json"
         if not src.exists():
@@ -298,7 +339,13 @@ def main():
             continue
         with open(src, encoding="utf-8") as f:
             data = json.load(f)
-        out = adapter(data)
+        paper_id = data.get("paper_id", f"Exam_{year}")
+
+        processed_svg_dir = PROCESSED_EXAM_SVG / paper_id
+        if processed_svg_dir.exists():
+            shutil.rmtree(processed_svg_dir)
+
+        out = adapter(data, PROCESSED_EXAM_SVG)
         errs = validate_canonical(out)
         if errs:
             for e in errs[:10]:
@@ -308,6 +355,7 @@ def main():
         dst = PROCESSED_EXAMS / f"Exam_{year}.json"
         with open(dst, "w", encoding="utf-8") as f:
             json.dump(out, f, ensure_ascii=False, indent=2)
+        sync_exam_to_frontend(paper_id, dst)
         print(f"Wrote {dst}")
 
 

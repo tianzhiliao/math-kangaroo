@@ -17,7 +17,7 @@ Frontend and index scripts consume this unified structure. All year-specific ada
 |-------|------|-------------|
 | `id` | number | Question ID |
 | `stem_text` | string | Stem/body text |
-| `stem_graphics` | array | `[{ id, svg }]` — stem SVG items |
+| `stem_graphics` | array | `[{ id, svg_path }]` — stem SVG file references |
 | `options` | object | `{ A: { text, graphics }, B: {...}, ... }` |
 | `answer` | string | "A" \| "B" \| "C" \| "D" \| "E" |
 | `points` | number | Score |
@@ -29,14 +29,14 @@ Frontend and index scripts consume this unified structure. All year-specific ada
 | Field | Type | Description |
 |-------|------|-------------|
 | `text` | string | Option text |
-| `graphics` | array | `[{ id, svg }]` — option SVG items |
+| `graphics` | array | `[{ id, svg_path }]` — option SVG file references |
 
 ## Graphics Item
 
 | Field | Type | Description |
 |-------|------|-------------|
 | `id` | string | graphic_id or diagram_id |
-| `svg` | string | Full `<svg>...</svg>` string |
+| `svg_path` | string | Relative SVG file path, e.g. `svg/Exam_2020/q01_stem_1.svg` |
 
 ## Validation Rules
 
