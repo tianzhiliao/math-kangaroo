@@ -1,6 +1,8 @@
 # Canonical Exam Question Schema
 
-Frontend and index scripts consume this unified structure. All year-specific adapters output this format.
+This document describes the committed runtime JSON shape used by the frontend and backend exam features.
+
+Runtime exam files live under `frontend/public/data/Exam_20xx.json`.
 
 ## Paper Level
 
@@ -24,6 +26,32 @@ Frontend and index scripts consume this unified structure. All year-specific ada
 | `score_group` | string \| null | Part (A/B/C) |
 | `sourceSchema` | string | "exam2020" \| "exam2021" \| "exam2022" \| "exam2023" |
 
+## Example Question
+
+```json
+{
+  "id": 1,
+  "stem_text": "Which number is the largest?",
+  "stem_graphics": [
+    {
+      "id": "q01_stem_01",
+      "svg_path": "svg/Exam_2020/q01_stem_01.svg"
+    }
+  ],
+  "options": {
+    "A": { "text": "12", "graphics": [] },
+    "B": { "text": "21", "graphics": [] },
+    "C": { "text": "102", "graphics": [] },
+    "D": { "text": "99", "graphics": [] },
+    "E": { "text": "89", "graphics": [] }
+  },
+  "answer": "C",
+  "points": 3,
+  "score_group": "A",
+  "sourceSchema": "exam2020"
+}
+```
+
 ## Option Level
 
 | Field | Type | Description |
@@ -38,18 +66,15 @@ Frontend and index scripts consume this unified structure. All year-specific ada
 | `id` | string | graphic_id or diagram_id |
 | `svg_path` | string | Relative SVG file path, e.g. `svg/Exam_2020/q01_stem_1.svg` |
 
-## Validation Rules
+## Runtime Expectations
 
 - 5 options (A–E) present
 - `answer` in A–E
-- Each option has `text` or `graphics` (or both) non-empty
-- `graphics_count` = stem_graphics.length + sum(option.graphics.length)
+- Each option should have `text`, `graphics`, or both
+- `svg_path` values are resolved by the frontend relative to the JSON file URL
+- Both frontend and backend assume `paper_id` matches the JSON filename stem, for example `Exam_2020`
 
-## Year Adapters (scripts/normalize_exams_to_canonical.py)
+## Notes
 
-| Year | Input | Stem Graphics | Option Graphics | Answer |
-|------|-------|---------------|-----------------|--------|
-| 2020 | exams_data, options dict | stem_graphics[].svg | options.*.graphics[].svg | answer |
-| 2021 | exams_data, options list | stem_graphics[].svg_code | options[].graphics[].svg_code | correct_answer |
-| 2022 | exams_data, options list | stem_diagrams[].svg | options[].diagram_svg | answer.correct_option |
-| 2023 | exams_data, options list | topic graphics[] role=stem | topic graphics[] role=option + option_key; options[].graphics[] (IDs) | correct_option |
+- Practice mode is built by combining the committed exam papers at runtime; it does not use a separate practice JSON schema in the running app.
+- The backend reads the same exam files by default through `EXAM_DATA_DIR=frontend/public/data`.
