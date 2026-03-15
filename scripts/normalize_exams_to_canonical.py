@@ -14,7 +14,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 EXAMS_DATA = PROJECT_ROOT / "exams_data"
 PROCESSED_EXAMS = PROJECT_ROOT / "processed" / "exams"
 PROCESSED_EXAM_SVG = PROCESSED_EXAMS / "svg"
-FRONTEND_PUBLIC_DATA = PROJECT_ROOT / "kangaroo-math-mvp" / "public" / "data"
+FRONTEND_PUBLIC_DATA = PROJECT_ROOT / "frontend" / "public" / "data"
 FRONTEND_EXAM_SVG = FRONTEND_PUBLIC_DATA / "svg"
 
 

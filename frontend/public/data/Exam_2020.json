@@ -1,0 +1,825 @@
+{
+  "paper_id": "Exam_2020",
+  "questions": [
+    {
+      "id": 1,
+      "stem_text": "The kangaroo jumps up 3 steps each time the rabbit\nhops down 2 steps.\nOn what step do they meet?",
+      "stem_graphics": [
+        {
+          "id": "q01_stem_01",
+          "svg_path": "svg/Exam_2020/q01_stem_01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "3",
+          "graphics": []
+        },
+        "B": {
+          "text": "4",
+          "graphics": []
+        },
+        "C": {
+          "text": "5",
+          "graphics": []
+        },
+        "D": {
+          "text": "6",
+          "graphics": []
+        },
+        "E": {
+          "text": "7",
+          "graphics": []
+        }
+      },
+      "answer": "D",
+      "points": 3,
+      "score_group": "A",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 2,
+      "stem_text": "Elena has a mixed-up picture of a kangaroo in 4 pieces, as shown.\nHow can she put them together to make a good picture?",
+      "stem_graphics": [
+        {
+          "id": "q02_stem_01",
+          "svg_path": "svg/Exam_2020/q02_stem_01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q02_A_01",
+              "svg_path": "svg/Exam_2020/q02_A_01.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q02_B_01",
+              "svg_path": "svg/Exam_2020/q02_B_01.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q02_C_01",
+              "svg_path": "svg/Exam_2020/q02_C_01.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q02_D_01",
+              "svg_path": "svg/Exam_2020/q02_D_01.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q02_E_01",
+              "svg_path": "svg/Exam_2020/q02_E_01.svg"
+            }
+          ]
+        }
+      },
+      "answer": "A",
+      "points": 3,
+      "score_group": "A",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 3,
+      "stem_text": "Maria took a photo of herself (selfie) in front of this castle.\nWhat picture below could be Maria's photo?",
+      "stem_graphics": [
+        {
+          "id": "q03_stem_01",
+          "svg_path": "svg/Exam_2020/q03_stem_01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q03_A_01",
+              "svg_path": "svg/Exam_2020/q03_A_01.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q03_B_01",
+              "svg_path": "svg/Exam_2020/q03_B_01.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q03_C_01",
+              "svg_path": "svg/Exam_2020/q03_C_01.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q03_D_01",
+              "svg_path": "svg/Exam_2020/q03_D_01.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q03_E_01",
+              "svg_path": "svg/Exam_2020/q03_E_01.svg"
+            }
+          ]
+        }
+      },
+      "answer": "E",
+      "points": 3,
+      "score_group": "A",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 4,
+      "stem_text": "A magician is pulling animals out of his top hat. He always pulls out the animals in\nthe same order as shown in the picture.\nThe pattern repeats every 5 animals. What two animals does he pull out next?",
+      "stem_graphics": [
+        {
+          "id": "q04_stem_01",
+          "svg_path": "svg/Exam_2020/q04_stem_01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q04_A_01",
+              "svg_path": "svg/Exam_2020/q04_A_01.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q04_B_01",
+              "svg_path": "svg/Exam_2020/q04_B_01.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q04_C_01",
+              "svg_path": "svg/Exam_2020/q04_C_01.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q04_D_01",
+              "svg_path": "svg/Exam_2020/q04_D_01.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q04_E_01",
+              "svg_path": "svg/Exam_2020/q04_E_01.svg"
+            }
+          ]
+        }
+      },
+      "answer": "E",
+      "points": 3,
+      "score_group": "A",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 5,
+      "stem_text": "What piece completes the picture?",
+      "stem_graphics": [
+        {
+          "id": "q05_stem_01",
+          "svg_path": "svg/Exam_2020/q05_stem_01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q05_A_01",
+              "svg_path": "svg/Exam_2020/q05_A_01.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q05_B_01",
+              "svg_path": "svg/Exam_2020/q05_B_01.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q05_C_01",
+              "svg_path": "svg/Exam_2020/q05_C_01.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q05_D_01",
+              "svg_path": "svg/Exam_2020/q05_D_01.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q05_E_01",
+              "svg_path": "svg/Exam_2020/q05_E_01.svg"
+            }
+          ]
+        }
+      },
+      "answer": "C",
+      "points": 3,
+      "score_group": "A",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 6,
+      "stem_text": "In the picture, Tara shades all squares where the result is 13.\nWhat does she get?",
+      "stem_graphics": [
+        {
+          "id": "q06_stem_01",
+          "svg_path": "svg/Exam_2020/q06_stem_01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q06_A_01",
+              "svg_path": "svg/Exam_2020/q06_A_01.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q06_B_01",
+              "svg_path": "svg/Exam_2020/q06_B_01.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q06_C_01",
+              "svg_path": "svg/Exam_2020/q06_C_01.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q06_D_01",
+              "svg_path": "svg/Exam_2020/q06_D_01.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q06_E_01",
+              "svg_path": "svg/Exam_2020/q06_E_01.svg"
+            }
+          ]
+        }
+      },
+      "answer": "B",
+      "points": 3,
+      "score_group": "A",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 7,
+      "stem_text": "Two dogs want to walk along the path in the park\n(marked by the thick black line). One dog goes from P\nto Q, and the other from Q to P.\nIf they cover the same distance, where are they going\nto meet?",
+      "stem_graphics": [
+        {
+          "id": "q07_stem_01",
+          "svg_path": "svg/Exam_2020/q07_stem_01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "at A",
+          "graphics": []
+        },
+        "B": {
+          "text": "at B",
+          "graphics": []
+        },
+        "C": {
+          "text": "at C",
+          "graphics": []
+        },
+        "D": {
+          "text": "at D",
+          "graphics": []
+        },
+        "E": {
+          "text": "at E",
+          "graphics": []
+        }
+      },
+      "answer": "D",
+      "points": 4,
+      "score_group": "B",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 8,
+      "stem_text": "Grandmother wants to give all her 5 grandchildren the same number of apples. She\njust bought 12 apples. How many more apples should she buy?",
+      "stem_graphics": [],
+      "options": {
+        "A": {
+          "text": "0",
+          "graphics": []
+        },
+        "B": {
+          "text": "1",
+          "graphics": []
+        },
+        "C": {
+          "text": "2",
+          "graphics": []
+        },
+        "D": {
+          "text": "3",
+          "graphics": []
+        },
+        "E": {
+          "text": "4",
+          "graphics": []
+        }
+      },
+      "answer": "D",
+      "points": 4,
+      "score_group": "B",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 9,
+      "stem_text": "Five shapes are made by gluing cubes together face to face. What shape uses the\nmost cubes?",
+      "stem_graphics": [],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q09_A_01",
+              "svg_path": "svg/Exam_2020/q09_A_01.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q09_B_01",
+              "svg_path": "svg/Exam_2020/q09_B_01.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q09_C_01",
+              "svg_path": "svg/Exam_2020/q09_C_01.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q09_D_01",
+              "svg_path": "svg/Exam_2020/q09_D_01.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q09_E_01",
+              "svg_path": "svg/Exam_2020/q09_E_01.svg"
+            }
+          ]
+        }
+      },
+      "answer": "E",
+      "points": 4,
+      "score_group": "B",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 10,
+      "stem_text": "A number is written on each petal of two flowers.\nOne petal is hidden. The sums of the numbers on the two flowers are\nequal. What number is written on the hidden petal?",
+      "stem_graphics": [
+        {
+          "id": "q10_stem_01",
+          "svg_path": "svg/Exam_2020/q10_stem_01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "0",
+          "graphics": []
+        },
+        "B": {
+          "text": "3",
+          "graphics": []
+        },
+        "C": {
+          "text": "5",
+          "graphics": []
+        },
+        "D": {
+          "text": "7",
+          "graphics": []
+        },
+        "E": {
+          "text": "1",
+          "graphics": []
+        }
+      },
+      "answer": "C",
+      "points": 4,
+      "score_group": "B",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 11,
+      "stem_text": "Mary writes the numbers 1, 2, 3, 4, 5 and 6 inside six squares, one number per\nsquare. The numbers in the blue squares add up to 10, the numbers in the yellow\nsquares also add up to 10.\nWhat number is in the square with the question mark?",
+      "stem_graphics": [
+        {
+          "id": "q11_stem_01",
+          "svg_path": "svg/Exam_2020/q11_stem_01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "1",
+          "graphics": []
+        },
+        "B": {
+          "text": "2",
+          "graphics": []
+        },
+        "C": {
+          "text": "3",
+          "graphics": []
+        },
+        "D": {
+          "text": "4",
+          "graphics": []
+        },
+        "E": {
+          "text": "5",
+          "graphics": []
+        }
+      },
+      "answer": "A",
+      "points": 4,
+      "score_group": "B",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 12,
+      "stem_text": "How many elastic bands can be seen in the picture?",
+      "stem_graphics": [
+        {
+          "id": "q12_stem_01",
+          "svg_path": "svg/Exam_2020/q12_stem_01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "4",
+          "graphics": []
+        },
+        "B": {
+          "text": "5",
+          "graphics": []
+        },
+        "C": {
+          "text": "6",
+          "graphics": []
+        },
+        "D": {
+          "text": "7",
+          "graphics": []
+        },
+        "E": {
+          "text": "8",
+          "graphics": []
+        }
+      },
+      "answer": "C",
+      "points": 4,
+      "score_group": "B",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 13,
+      "stem_text": "Two identical trains, each with 31 cars, are traveling in opposite directions. When car\nNo. 19 of one train is opposite car No. 19 of the other train, what car is opposite car\nNo. 12?",
+      "stem_graphics": [
+        {
+          "id": "q13_stem_01",
+          "svg_path": "svg/Exam_2020/q13_stem_01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "7",
+          "graphics": []
+        },
+        "B": {
+          "text": "12",
+          "graphics": []
+        },
+        "C": {
+          "text": "21",
+          "graphics": []
+        },
+        "D": {
+          "text": "26",
+          "graphics": []
+        },
+        "E": {
+          "text": "31",
+          "graphics": []
+        }
+      },
+      "answer": "D",
+      "points": 5,
+      "score_group": "C",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 14,
+      "stem_text": "In this figure, an arrow pointing from one person to\nanother means that the first person is taller than the\nsecond.\nFor example, person B is taller than person A.\nWho is the shortest?",
+      "stem_graphics": [
+        {
+          "id": "q14_stem_01",
+          "svg_path": "svg/Exam_2020/q14_stem_01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "Person A",
+          "graphics": []
+        },
+        "B": {
+          "text": "Person B",
+          "graphics": []
+        },
+        "C": {
+          "text": "Person C",
+          "graphics": []
+        },
+        "D": {
+          "text": "Person D",
+          "graphics": []
+        },
+        "E": {
+          "text": "Person E",
+          "graphics": []
+        }
+      },
+      "answer": "C",
+      "points": 5,
+      "score_group": "C",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 15,
+      "stem_text": "Six different numbers chosen from 1 to 9 are written on the faces of a\ncube, one number on each face. The sums of numbers on each pair of\nopposite faces are equal.\nWhat number could be on the face opposite to the face with the number\n5?",
+      "stem_graphics": [
+        {
+          "id": "q15_stem_01",
+          "svg_path": "svg/Exam_2020/q15_stem_01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "3",
+          "graphics": []
+        },
+        "B": {
+          "text": "5",
+          "graphics": []
+        },
+        "C": {
+          "text": "6",
+          "graphics": []
+        },
+        "D": {
+          "text": "7",
+          "graphics": []
+        },
+        "E": {
+          "text": "9",
+          "graphics": []
+        }
+      },
+      "answer": "C",
+      "points": 5,
+      "score_group": "C",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 16,
+      "stem_text": "John and Olivia exchanged sweets.\n- First, John gave Olivia as many sweets as Olivia had.\n- Then, Olivia gave John as many sweets as John had left.\n- After this exchange, they each had 4 sweets.\nHow many sweets did John have at the beginning?",
+      "stem_graphics": [],
+      "options": {
+        "A": {
+          "text": "6",
+          "graphics": []
+        },
+        "B": {
+          "text": "5",
+          "graphics": []
+        },
+        "C": {
+          "text": "4",
+          "graphics": []
+        },
+        "D": {
+          "text": "3",
+          "graphics": []
+        },
+        "E": {
+          "text": "2",
+          "graphics": []
+        }
+      },
+      "answer": "B",
+      "points": 5,
+      "score_group": "C",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 17,
+      "stem_text": "Diane makes a number by writing the numbers from 1 to 18 in a row, with no spaces\nin between each numbers.\nShe then removes all the digits 1, 3, 5, 7 and 9.\nWhat digit is in the middle of this new number?",
+      "stem_graphics": [
+        {
+          "id": "q17_stem_01",
+          "svg_path": "svg/Exam_2020/q17_stem_01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "0",
+          "graphics": []
+        },
+        "B": {
+          "text": "2",
+          "graphics": []
+        },
+        "C": {
+          "text": "4",
+          "graphics": []
+        },
+        "D": {
+          "text": "6",
+          "graphics": []
+        },
+        "E": {
+          "text": "8",
+          "graphics": []
+        }
+      },
+      "answer": "A",
+      "points": 5,
+      "score_group": "C",
+      "sourceSchema": "exam2020"
+    },
+    {
+      "id": 18,
+      "stem_text": "Eloise has a square piece of paper with four digits written on it.\nShe folds the paper in half, and then, in half again, as shown below.\nAfter folding the paper, Eloise gets .\nIn what position will the digit 2 be after having folded the paper?",
+      "stem_graphics": [
+        {
+          "id": "q18_stem_01",
+          "svg_path": "svg/Exam_2020/q18_stem_01.svg"
+        },
+        {
+          "id": "q18_stem_02",
+          "svg_path": "svg/Exam_2020/q18_stem_02.svg"
+        },
+        {
+          "id": "q18_stem_03",
+          "svg_path": "svg/Exam_2020/q18_stem_03.svg"
+        },
+        {
+          "id": "q18_stem_04",
+          "svg_path": "svg/Exam_2020/q18_stem_04.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q18_A_01",
+              "svg_path": "svg/Exam_2020/q18_A_01.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q18_B_01",
+              "svg_path": "svg/Exam_2020/q18_B_01.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q18_C_01",
+              "svg_path": "svg/Exam_2020/q18_C_01.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q18_D_01",
+              "svg_path": "svg/Exam_2020/q18_D_01.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q18_E_01",
+              "svg_path": "svg/Exam_2020/q18_E_01.svg"
+            }
+          ]
+        }
+      },
+      "answer": "D",
+      "points": 5,
+      "score_group": "C",
+      "sourceSchema": "exam2020"
+    }
+  ]
+}

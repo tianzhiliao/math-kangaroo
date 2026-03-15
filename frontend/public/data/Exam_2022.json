@@ -1,0 +1,772 @@
+{
+  "paper_id": "Exam_2022",
+  "questions": [
+    {
+      "id": 1,
+      "stem_text": "Four of these five pictures show the Great Wheel at the Luna Park. Which picture shows a different wheel?",
+      "stem_graphics": [],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q1_opt_A",
+              "svg_path": "svg/Exam_2022/q1_opt_A.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q1_opt_B",
+              "svg_path": "svg/Exam_2022/q1_opt_B.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q1_opt_C",
+              "svg_path": "svg/Exam_2022/q1_opt_C.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q1_opt_D",
+              "svg_path": "svg/Exam_2022/q1_opt_D.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q1_opt_E",
+              "svg_path": "svg/Exam_2022/q1_opt_E.svg"
+            }
+          ]
+        }
+      },
+      "answer": "E",
+      "points": 3,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 2,
+      "stem_text": "The picture shows 5 identical bricks. How many bricks are touching exactly 4 other bricks?",
+      "stem_graphics": [
+        {
+          "id": "q2_stem_1",
+          "svg_path": "svg/Exam_2022/q2_stem_1.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "1",
+          "graphics": []
+        },
+        "B": {
+          "text": "2",
+          "graphics": []
+        },
+        "C": {
+          "text": "3",
+          "graphics": []
+        },
+        "D": {
+          "text": "4",
+          "graphics": []
+        },
+        "E": {
+          "text": "5",
+          "graphics": []
+        }
+      },
+      "answer": "C",
+      "points": 3,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 3,
+      "stem_text": "One sandwich and one juice box together cost 12 dollars. One sandwich and two juice boxes together cost 14 dollars. ...... ..... How much do two juice boxes cost?",
+      "stem_graphics": [
+        {
+          "id": "q3_stem_1",
+          "svg_path": "svg/Exam_2022/q3_stem_1.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "1",
+          "graphics": []
+        },
+        "B": {
+          "text": "2",
+          "graphics": []
+        },
+        "C": {
+          "text": "3",
+          "graphics": []
+        },
+        "D": {
+          "text": "4",
+          "graphics": []
+        },
+        "E": {
+          "text": "5",
+          "graphics": []
+        }
+      },
+      "answer": "D",
+      "points": 3,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 4,
+      "stem_text": "Justin wants to make sure each column has only 2 coins and that each row has only 2 coins. Where does he need to place the last coin?",
+      "stem_graphics": [
+        {
+          "id": "q4_stem_1",
+          "svg_path": "svg/Exam_2022/q4_stem_1.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "A",
+          "graphics": []
+        },
+        "B": {
+          "text": "B",
+          "graphics": []
+        },
+        "C": {
+          "text": "C",
+          "graphics": []
+        },
+        "D": {
+          "text": "D",
+          "graphics": []
+        },
+        "E": {
+          "text": "E",
+          "graphics": []
+        }
+      },
+      "answer": "D",
+      "points": 3,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 5,
+      "stem_text": "A monkey has torn a piece from Captain Jack’s map. Which is the missing piece? (You can rotate the pieces.)",
+      "stem_graphics": [
+        {
+          "id": "q5_stem_1",
+          "svg_path": "svg/Exam_2022/q5_stem_1.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q5_opt_A",
+              "svg_path": "svg/Exam_2022/q5_opt_A.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q5_opt_B",
+              "svg_path": "svg/Exam_2022/q5_opt_B.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q5_opt_C",
+              "svg_path": "svg/Exam_2022/q5_opt_C.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q5_opt_D",
+              "svg_path": "svg/Exam_2022/q5_opt_D.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q5_opt_E",
+              "svg_path": "svg/Exam_2022/q5_opt_E.svg"
+            }
+          ]
+        }
+      },
+      "answer": "B",
+      "points": 3,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 6,
+      "stem_text": "A piece of paper has 24 squares on it. Some ink spilled, as shown in the picture. How many of the squares have ink on them?",
+      "stem_graphics": [
+        {
+          "id": "q6_stem_1",
+          "svg_path": "svg/Exam_2022/q6_stem_1.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "16",
+          "graphics": []
+        },
+        "B": {
+          "text": "17",
+          "graphics": []
+        },
+        "C": {
+          "text": "18",
+          "graphics": []
+        },
+        "D": {
+          "text": "19",
+          "graphics": []
+        },
+        "E": {
+          "text": "20",
+          "graphics": []
+        }
+      },
+      "answer": "E",
+      "points": 3,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 7,
+      "stem_text": "A koala, fox, ostrich, kangaroo, and puppy are sleeping in five baskets. One animal sleeps in each of the baskets. The koala and the fox are sleeping in baskets with the same pattern and shape. The kangaroo and the ostrich have the same pattern on their baskets. Which basket is the puppy sleeping in?",
+      "stem_graphics": [
+        {
+          "id": "q7_stem_1",
+          "svg_path": "svg/Exam_2022/q7_stem_1.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "basket 1",
+          "graphics": []
+        },
+        "B": {
+          "text": "basket 2",
+          "graphics": []
+        },
+        "C": {
+          "text": "basket 3",
+          "graphics": []
+        },
+        "D": {
+          "text": "basket 4",
+          "graphics": []
+        },
+        "E": {
+          "text": "basket 5",
+          "graphics": []
+        }
+      },
+      "answer": "E",
+      "points": 4,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 8,
+      "stem_text": "Kanga wants to reach the koala without going through any of the squares with colour on them. Which route could she take?",
+      "stem_graphics": [
+        {
+          "id": "q8_stem_1",
+          "svg_path": "svg/Exam_2022/q8_stem_1.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q8_opt_A",
+              "svg_path": "svg/Exam_2022/q8_opt_A.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q8_opt_B",
+              "svg_path": "svg/Exam_2022/q8_opt_B.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q8_opt_C",
+              "svg_path": "svg/Exam_2022/q8_opt_C.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q8_opt_D",
+              "svg_path": "svg/Exam_2022/q8_opt_D.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q8_opt_E",
+              "svg_path": "svg/Exam_2022/q8_opt_E.svg"
+            }
+          ]
+        }
+      },
+      "answer": "C",
+      "points": 4,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 9,
+      "stem_text": "Ann has 4 stickers as shown. She sticks down the star after she sticks down the square. She sticks down the star before she sticks down the circle. Which picture could she end up with?",
+      "stem_graphics": [
+        {
+          "id": "q9_stem_1",
+          "svg_path": "svg/Exam_2022/q9_stem_1.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q9_opt_A",
+              "svg_path": "svg/Exam_2022/q9_opt_A.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q9_opt_B",
+              "svg_path": "svg/Exam_2022/q9_opt_B.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q9_opt_C",
+              "svg_path": "svg/Exam_2022/q9_opt_C.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q9_opt_D",
+              "svg_path": "svg/Exam_2022/q9_opt_D.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q9_opt_E",
+              "svg_path": "svg/Exam_2022/q9_opt_E.svg"
+            }
+          ]
+        }
+      },
+      "answer": "C",
+      "points": 4,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 10,
+      "stem_text": "Dino moves from the entrance to the exit by going through rooms. He can only go through each room once. Dino adds up the numbers as he passes through each room. What is the highest total Dino can make?",
+      "stem_graphics": [
+        {
+          "id": "q10_stem_1",
+          "svg_path": "svg/Exam_2022/q10_stem_1.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "27",
+          "graphics": []
+        },
+        "B": {
+          "text": "29",
+          "graphics": []
+        },
+        "C": {
+          "text": "32",
+          "graphics": []
+        },
+        "D": {
+          "text": "34",
+          "graphics": []
+        },
+        "E": {
+          "text": "36",
+          "graphics": []
+        }
+      },
+      "answer": "D",
+      "points": 4,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 11,
+      "stem_text": "Some shapes are drawn on a piece of paper. The teacher folded the paper along the red line. How many of the shapes on the left will fall exactly on top a shape on the right?",
+      "stem_graphics": [
+        {
+          "id": "q11_stem_1",
+          "svg_path": "svg/Exam_2022/q11_stem_1.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "one",
+          "graphics": []
+        },
+        "B": {
+          "text": "two",
+          "graphics": []
+        },
+        "C": {
+          "text": "three",
+          "graphics": []
+        },
+        "D": {
+          "text": "four",
+          "graphics": []
+        },
+        "E": {
+          "text": "five",
+          "graphics": []
+        }
+      },
+      "answer": "C",
+      "points": 4,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 12,
+      "stem_text": "Katrin builds a path around each square using tiles like the one shown. How many tiles does she use around the square with side 5?",
+      "stem_graphics": [
+        {
+          "id": "q12_stem_1",
+          "svg_path": "svg/Exam_2022/q12_stem_1.svg"
+        },
+        {
+          "id": "q12_stem_2",
+          "svg_path": "svg/Exam_2022/q12_stem_2.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "10",
+          "graphics": []
+        },
+        "B": {
+          "text": "11",
+          "graphics": []
+        },
+        "C": {
+          "text": "12",
+          "graphics": []
+        },
+        "D": {
+          "text": "14",
+          "graphics": []
+        },
+        "E": {
+          "text": "16",
+          "graphics": []
+        }
+      },
+      "answer": "C",
+      "points": 4,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 13,
+      "stem_text": "The sum of the five numbers in each house is 20. Some numbers have been painted over. What number is hidden under the question mark?",
+      "stem_graphics": [
+        {
+          "id": "q13_stem_1",
+          "svg_path": "svg/Exam_2022/q13_stem_1.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "3",
+          "graphics": []
+        },
+        "B": {
+          "text": "4",
+          "graphics": []
+        },
+        "C": {
+          "text": "7",
+          "graphics": []
+        },
+        "D": {
+          "text": "9",
+          "graphics": []
+        },
+        "E": {
+          "text": "14",
+          "graphics": []
+        }
+      },
+      "answer": "A",
+      "points": 5,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 14,
+      "stem_text": "Jessica wrote down five digits and then covered each digit with a shape. Different digits were covered by different shapes, and the same digits were covered by the same shapes. What number is written under the shapes?",
+      "stem_graphics": [
+        {
+          "id": "q14_stem_1",
+          "svg_path": "svg/Exam_2022/q14_stem_1.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "34424",
+          "graphics": []
+        },
+        "B": {
+          "text": "34526",
+          "graphics": []
+        },
+        "C": {
+          "text": "34423",
+          "graphics": []
+        },
+        "D": {
+          "text": "34426",
+          "graphics": []
+        },
+        "E": {
+          "text": "32446",
+          "graphics": []
+        }
+      },
+      "answer": "D",
+      "points": 5,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 15,
+      "stem_text": "Kangu’s car can only turn left. Which of the following five routes can Kangu take?",
+      "stem_graphics": [],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q15_opt_A",
+              "svg_path": "svg/Exam_2022/q15_opt_A.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q15_opt_B",
+              "svg_path": "svg/Exam_2022/q15_opt_B.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q15_opt_C",
+              "svg_path": "svg/Exam_2022/q15_opt_C.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q15_opt_D",
+              "svg_path": "svg/Exam_2022/q15_opt_D.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q15_opt_E",
+              "svg_path": "svg/Exam_2022/q15_opt_E.svg"
+            }
+          ]
+        }
+      },
+      "answer": "E",
+      "points": 5,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 16,
+      "stem_text": "Lily wants to choose four different cards so that the sum is 20. What is the biggest number that Lily could choose?",
+      "stem_graphics": [
+        {
+          "id": "q16_stem_1",
+          "svg_path": "svg/Exam_2022/q16_stem_1.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "5",
+          "graphics": []
+        },
+        "B": {
+          "text": "7",
+          "graphics": []
+        },
+        "C": {
+          "text": "9",
+          "graphics": []
+        },
+        "D": {
+          "text": "11",
+          "graphics": []
+        },
+        "E": {
+          "text": "13",
+          "graphics": []
+        }
+      },
+      "answer": "D",
+      "points": 5,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 17,
+      "stem_text": "There are five numbered cards on the table as shown. You may swap two cards at each step. What is the smallest number of steps needed to put the cards into decreasing order (from largest to smallest)?",
+      "stem_graphics": [
+        {
+          "id": "q17_stem_1",
+          "svg_path": "svg/Exam_2022/q17_stem_1.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "1",
+          "graphics": []
+        },
+        "B": {
+          "text": "2",
+          "graphics": []
+        },
+        "C": {
+          "text": "3",
+          "graphics": []
+        },
+        "D": {
+          "text": "4",
+          "graphics": []
+        },
+        "E": {
+          "text": "5",
+          "graphics": []
+        }
+      },
+      "answer": "C",
+      "points": 5,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    },
+    {
+      "id": 18,
+      "stem_text": "In the picture, different shapes stand for different numbers. The numbers shown and the question mark indicate the sum of the numbers in the row or column. Which number should be written in place of the question mark?",
+      "stem_graphics": [
+        {
+          "id": "q18_stem_1",
+          "svg_path": "svg/Exam_2022/q18_stem_1.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "10",
+          "graphics": []
+        },
+        "B": {
+          "text": "12",
+          "graphics": []
+        },
+        "C": {
+          "text": "14",
+          "graphics": []
+        },
+        "D": {
+          "text": "16",
+          "graphics": []
+        },
+        "E": {
+          "text": "18",
+          "graphics": []
+        }
+      },
+      "answer": "B",
+      "points": 5,
+      "score_group": null,
+      "sourceSchema": "exam2022"
+    }
+  ]
+}

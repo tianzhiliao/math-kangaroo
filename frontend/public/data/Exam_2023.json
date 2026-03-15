@@ -1,0 +1,822 @@
+{
+  "paper_id": "Exam_2023",
+  "questions": [
+    {
+      "id": 1,
+      "stem_text": "How many circles are there in the figure?",
+      "stem_graphics": [
+        {
+          "id": "q01_g01",
+          "svg_path": "svg/Exam_2023/q01_g01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "5",
+          "graphics": []
+        },
+        "B": {
+          "text": "6",
+          "graphics": []
+        },
+        "C": {
+          "text": "7",
+          "graphics": []
+        },
+        "D": {
+          "text": "8",
+          "graphics": []
+        },
+        "E": {
+          "text": "9",
+          "graphics": []
+        }
+      },
+      "answer": "D",
+      "points": 3,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 2,
+      "stem_text": "The figure shows 4 shapes viewed from the top. What could be the view from the front?",
+      "stem_graphics": [
+        {
+          "id": "q02_g01",
+          "svg_path": "svg/Exam_2023/q02_g01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q02_g02",
+              "svg_path": "svg/Exam_2023/q02_g02.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q02_g05",
+              "svg_path": "svg/Exam_2023/q02_g05.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q02_g04",
+              "svg_path": "svg/Exam_2023/q02_g04.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q02_g03",
+              "svg_path": "svg/Exam_2023/q02_g03.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q02_g06",
+              "svg_path": "svg/Exam_2023/q02_g06.svg"
+            }
+          ]
+        }
+      },
+      "answer": "A",
+      "points": 3,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 3,
+      "stem_text": "There are 24 squares in the figure. Suchit has coloured some of the squares. How many more squares need to be coloured so that half of the squares are coloured?",
+      "stem_graphics": [
+        {
+          "id": "q03_g01",
+          "svg_path": "svg/Exam_2023/q03_g01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "1",
+          "graphics": []
+        },
+        "B": {
+          "text": "2",
+          "graphics": []
+        },
+        "C": {
+          "text": "3",
+          "graphics": []
+        },
+        "D": {
+          "text": "4",
+          "graphics": []
+        },
+        "E": {
+          "text": "5",
+          "graphics": []
+        }
+      },
+      "answer": "C",
+      "points": 3,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 4,
+      "stem_text": "A disc with two holes is put on a clock. Which figure can you get by spinning the disc over the clock?",
+      "stem_graphics": [
+        {
+          "id": "q04_g01",
+          "svg_path": "svg/Exam_2023/q04_g01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q04_g02",
+              "svg_path": "svg/Exam_2023/q04_g02.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q04_g03",
+              "svg_path": "svg/Exam_2023/q04_g03.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q04_g04",
+              "svg_path": "svg/Exam_2023/q04_g04.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q04_g05",
+              "svg_path": "svg/Exam_2023/q04_g05.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q04_g06",
+              "svg_path": "svg/Exam_2023/q04_g06.svg"
+            }
+          ]
+        }
+      },
+      "answer": "D",
+      "points": 3,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 5,
+      "stem_text": "Mr Beaver rearranges the pieces to make a kangaroo figure. Which piece is not used?",
+      "stem_graphics": [
+        {
+          "id": "q05_g01",
+          "svg_path": "svg/Exam_2023/q05_g01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q05_g06",
+              "svg_path": "svg/Exam_2023/q05_g06.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q05_g05",
+              "svg_path": "svg/Exam_2023/q05_g05.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q05_g03",
+              "svg_path": "svg/Exam_2023/q05_g03.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q05_g02",
+              "svg_path": "svg/Exam_2023/q05_g02.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q05_g04",
+              "svg_path": "svg/Exam_2023/q05_g04.svg"
+            }
+          ]
+        }
+      },
+      "answer": "A",
+      "points": 3,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 6,
+      "stem_text": "Steven drives from point X to point Y. At each crossing (red dot), he stops before continuing straight ahead. In total, how many times does he stop?",
+      "stem_graphics": [
+        {
+          "id": "q06_g01",
+          "svg_path": "svg/Exam_2023/q06_g01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "11",
+          "graphics": []
+        },
+        "B": {
+          "text": "12",
+          "graphics": []
+        },
+        "C": {
+          "text": "13",
+          "graphics": []
+        },
+        "D": {
+          "text": "14",
+          "graphics": []
+        },
+        "E": {
+          "text": "15",
+          "graphics": []
+        }
+      },
+      "answer": "D",
+      "points": 3,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 7,
+      "stem_text": "There are 5 trees in a park. A beaver is standing at one of the marked dots and from this place he sees exactly 2 complete trees. Where is the beaver standing?",
+      "stem_graphics": [
+        {
+          "id": "q07_g01",
+          "svg_path": "svg/Exam_2023/q07_g01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "at A",
+          "graphics": []
+        },
+        "B": {
+          "text": "at B",
+          "graphics": []
+        },
+        "C": {
+          "text": "at C",
+          "graphics": []
+        },
+        "D": {
+          "text": "at D",
+          "graphics": []
+        },
+        "E": {
+          "text": "at E",
+          "graphics": []
+        }
+      },
+      "answer": "D",
+      "points": 4,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 8,
+      "stem_text": "My boat has more than one (1) circle. It also has two (2) more triangles than squares. Which boat is mine?",
+      "stem_graphics": [],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q08_g01",
+              "svg_path": "svg/Exam_2023/q08_g01.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q08_g02",
+              "svg_path": "svg/Exam_2023/q08_g02.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q08_g03",
+              "svg_path": "svg/Exam_2023/q08_g03.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q08_g04",
+              "svg_path": "svg/Exam_2023/q08_g04.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q08_g05",
+              "svg_path": "svg/Exam_2023/q08_g05.svg"
+            }
+          ]
+        }
+      },
+      "answer": "E",
+      "points": 4,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 9,
+      "stem_text": "Robbie must turn right every time he reaches a wall, as shown: In the maze below, at which point will Robbie exit?",
+      "stem_graphics": [
+        {
+          "id": "q09_g01",
+          "svg_path": "svg/Exam_2023/q09_g01.svg"
+        },
+        {
+          "id": "q09_g02",
+          "svg_path": "svg/Exam_2023/q09_g02.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "A",
+          "graphics": []
+        },
+        "B": {
+          "text": "B",
+          "graphics": []
+        },
+        "C": {
+          "text": "C",
+          "graphics": []
+        },
+        "D": {
+          "text": "D",
+          "graphics": []
+        },
+        "E": {
+          "text": "E",
+          "graphics": []
+        }
+      },
+      "answer": "A",
+      "points": 4,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 10,
+      "stem_text": "The two tokens with the question mark have the same number. What is the missing number?",
+      "stem_graphics": [
+        {
+          "id": "q10_g01",
+          "svg_path": "svg/Exam_2023/q10_g01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "1",
+          "graphics": []
+        },
+        "B": {
+          "text": "2",
+          "graphics": []
+        },
+        "C": {
+          "text": "3",
+          "graphics": []
+        },
+        "D": {
+          "text": "4",
+          "graphics": []
+        },
+        "E": {
+          "text": "5",
+          "graphics": []
+        }
+      },
+      "answer": "C",
+      "points": 4,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 11,
+      "stem_text": "A sheet of paper is folded in half. Square and round holes are punched. What does the sheet look like after it is unfolded again?",
+      "stem_graphics": [
+        {
+          "id": "q11_g01",
+          "svg_path": "svg/Exam_2023/q11_g01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q11_g02",
+              "svg_path": "svg/Exam_2023/q11_g02.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q11_g03",
+              "svg_path": "svg/Exam_2023/q11_g03.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q11_g04",
+              "svg_path": "svg/Exam_2023/q11_g04.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q11_g05",
+              "svg_path": "svg/Exam_2023/q11_g05.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q11_g06",
+              "svg_path": "svg/Exam_2023/q11_g06.svg"
+            }
+          ]
+        }
+      },
+      "answer": "B",
+      "points": 4,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 12,
+      "stem_text": "Maria has 19 apples in 3 bags. From each bag, she takes out the same number of apples. Now the bags have 3, 4 and 6 apples. How many apples did Maria take out of each bag?",
+      "stem_graphics": [
+        {
+          "id": "q12_g01",
+          "svg_path": "svg/Exam_2023/q12_g01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "1",
+          "graphics": []
+        },
+        "B": {
+          "text": "2",
+          "graphics": []
+        },
+        "C": {
+          "text": "3",
+          "graphics": []
+        },
+        "D": {
+          "text": "4",
+          "graphics": []
+        },
+        "E": {
+          "text": "5",
+          "graphics": []
+        }
+      },
+      "answer": "B",
+      "points": 4,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 13,
+      "stem_text": "The map shows five villages A, B, C, D and E, along with the distances between them. There are two villages which are the same distance from each other no matter which direction you take. What are the two villages?",
+      "stem_graphics": [
+        {
+          "id": "q13_g01",
+          "svg_path": "svg/Exam_2023/q13_g01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "B and E",
+          "graphics": []
+        },
+        "B": {
+          "text": "B and D",
+          "graphics": []
+        },
+        "C": {
+          "text": "C and E",
+          "graphics": []
+        },
+        "D": {
+          "text": "A and C",
+          "graphics": []
+        },
+        "E": {
+          "text": "A and D",
+          "graphics": []
+        }
+      },
+      "answer": "A",
+      "points": 5,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 14,
+      "stem_text": "Sam walks through a two-storey maze from the entrance to the exit, both located at floor 1 (the red arrows). In what order will she find the wall stickers?",
+      "stem_graphics": [
+        {
+          "id": "q14_g01",
+          "svg_path": "svg/Exam_2023/q14_g01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q14_g03",
+              "svg_path": "svg/Exam_2023/q14_g03.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q14_g04",
+              "svg_path": "svg/Exam_2023/q14_g04.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q14_g05",
+              "svg_path": "svg/Exam_2023/q14_g05.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q14_g06",
+              "svg_path": "svg/Exam_2023/q14_g06.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q14_g02",
+              "svg_path": "svg/Exam_2023/q14_g02.svg"
+            }
+          ]
+        }
+      },
+      "answer": "B",
+      "points": 5,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 15,
+      "stem_text": "A lighting engineer in a theatre turned on coloured lights according to this plan: For the first minute, only the blue light was on. For the last two minutes, only the green and blue lights were on. For how many minutes were all three lights on together?",
+      "stem_graphics": [
+        {
+          "id": "q15_g01",
+          "svg_path": "svg/Exam_2023/q15_g01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "5",
+          "graphics": []
+        },
+        "B": {
+          "text": "4",
+          "graphics": []
+        },
+        "C": {
+          "text": "3",
+          "graphics": []
+        },
+        "D": {
+          "text": "2",
+          "graphics": []
+        },
+        "E": {
+          "text": "1",
+          "graphics": []
+        }
+      },
+      "answer": "C",
+      "points": 5,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 16,
+      "stem_text": "Emma finished third in a dance competition. There were three dancers between her and last place. In total, how many dancers took part in the competition?",
+      "stem_graphics": [],
+      "options": {
+        "A": {
+          "text": "4",
+          "graphics": []
+        },
+        "B": {
+          "text": "5",
+          "graphics": []
+        },
+        "C": {
+          "text": "6",
+          "graphics": []
+        },
+        "D": {
+          "text": "7",
+          "graphics": []
+        },
+        "E": {
+          "text": "8",
+          "graphics": []
+        }
+      },
+      "answer": "D",
+      "points": 5,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 17,
+      "stem_text": "Malik places one of the five pieces on the grid. He cannot rotate or flip the pieces. Which piece should Malik use to cover numbers with the maximum possible sum?",
+      "stem_graphics": [
+        {
+          "id": "q17_g01",
+          "svg_path": "svg/Exam_2023/q17_g01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q17_g02",
+              "svg_path": "svg/Exam_2023/q17_g02.svg"
+            }
+          ]
+        },
+        "B": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q17_g03",
+              "svg_path": "svg/Exam_2023/q17_g03.svg"
+            }
+          ]
+        },
+        "C": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q17_g04",
+              "svg_path": "svg/Exam_2023/q17_g04.svg"
+            }
+          ]
+        },
+        "D": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q17_g05",
+              "svg_path": "svg/Exam_2023/q17_g05.svg"
+            }
+          ]
+        },
+        "E": {
+          "text": "",
+          "graphics": [
+            {
+              "id": "q17_g06",
+              "svg_path": "svg/Exam_2023/q17_g06.svg"
+            }
+          ]
+        }
+      },
+      "answer": "E",
+      "points": 5,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    },
+    {
+      "id": 18,
+      "stem_text": "Digits 1, 1, 2 and 3 are printed on four different cards. Three cards are laid out to make an addition, as shown. How many different results can be obtained?",
+      "stem_graphics": [
+        {
+          "id": "q18_g01",
+          "svg_path": "svg/Exam_2023/q18_g01.svg"
+        }
+      ],
+      "options": {
+        "A": {
+          "text": "6",
+          "graphics": []
+        },
+        "B": {
+          "text": "7",
+          "graphics": []
+        },
+        "C": {
+          "text": "8",
+          "graphics": []
+        },
+        "D": {
+          "text": "10",
+          "graphics": []
+        },
+        "E": {
+          "text": "12",
+          "graphics": []
+        }
+      },
+      "answer": "B",
+      "points": 5,
+      "score_group": null,
+      "sourceSchema": "exam2023"
+    }
+  ]
+}

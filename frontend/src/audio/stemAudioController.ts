@@ -1,0 +1,262 @@
+export type StemAudioStatus = 'idle' | 'loading' | 'playing' | 'error'
+
+export interface StemAudioSnapshot {
+  key: string | null
+  status: StemAudioStatus
+  error: string | null
+}
+
+interface AudioLike {
+  currentTime: number
+  preload: string
+  play: () => Promise<void>
+  pause: () => void
+  addEventListener: (type: string, listener: EventListener) => void
+  removeEventListener: (type: string, listener: EventListener) => void
+}
+
+interface ActivePlayback {
+  key: string
+  audio: AudioLike
+  detachListeners: () => void
+}
+
+type AudioFactory = (src: string) => AudioLike
+type SnapshotListener = () => void
+
+const IDLE_SNAPSHOT: StemAudioSnapshot = {
+  key: null,
+  status: 'idle',
+  error: null,
+}
+
+function defaultAudioFactory(src: string): AudioLike {
+  const audio = new Audio(src)
+  audio.preload = 'auto'
+  return audio
+}
+
+async function logStemAudioRequestFailure(src: string) {
+  if (typeof window === 'undefined' || typeof fetch !== 'function') {
+    return
+  }
+
+  try {
+    const response = await fetch(src, {
+      headers: {
+        Accept: 'audio/wav, application/json',
+      },
+    })
+
+    if (response.ok) {
+      return
+    }
+
+    const contentType = response.headers.get('content-type') ?? ''
+    let detail = `HTTP ${response.status}`
+
+    if (contentType.includes('application/json')) {
+      const payload = await response.json().catch(() => null)
+      if (payload && typeof payload.detail === 'string') {
+        detail = `${detail}: ${payload.detail}`
+      }
+    } else {
+      const text = await response.text().catch(() => '')
+      if (text.trim().length > 0) {
+        detail = `${detail}: ${text.trim()}`
+      }
+    }
+
+    console.error(`[stem-audio] ${detail}`, { src })
+  } catch (error) {
+    console.error('[stem-audio] Failed to inspect audio request error', { src, error })
+  }
+}
+
+export function createStemTextVersion(input: string): string {
+  let hash = 5381
+
+  for (let index = 0; index < input.length; index += 1) {
+    hash = ((hash << 5) + hash) ^ input.charCodeAt(index)
+  }
+
+  return (hash >>> 0).toString(36)
+}
+
+export class StemAudioController {
+  private active: ActivePlayback | null = null
+  private snapshot: StemAudioSnapshot = IDLE_SNAPSHOT
+  private readonly listeners = new Set<SnapshotListener>()
+  private readonly audioFactory: AudioFactory
+
+  constructor(audioFactory: AudioFactory = defaultAudioFactory) {
+    this.audioFactory = audioFactory
+  }
+
+  subscribe = (listener: SnapshotListener) => {
+    this.listeners.add(listener)
+
+    return () => {
+      this.listeners.delete(listener)
+    }
+  }
+
+  getSnapshot = () => this.snapshot
+
+  start(key: string, src: string) {
+    this.stop()
+
+    const audio = this.audioFactory(src)
+    audio.preload = 'auto'
+
+    const onPlaying = () => {
+      if (!this.isCurrent(activePlayback)) {
+        return
+      }
+
+      this.setSnapshot({
+        key,
+        status: 'playing',
+        error: null,
+      })
+    }
+
+    const onEnded = () => {
+      if (!this.isCurrent(activePlayback)) {
+        return
+      }
+
+      this.finishPlayback(activePlayback)
+    }
+
+    const onError = () => {
+      if (!this.isCurrent(activePlayback)) {
+        return
+      }
+
+      this.active = null
+      activePlayback.detachListeners()
+      this.setSnapshot({
+        key,
+        status: 'error',
+        error: 'Audio unavailable. Tap to retry.',
+      })
+      void logStemAudioRequestFailure(src)
+    }
+
+    const activePlayback: ActivePlayback = {
+      key,
+      audio,
+      detachListeners: () => {
+        audio.removeEventListener('playing', onPlaying)
+        audio.removeEventListener('ended', onEnded)
+        audio.removeEventListener('error', onError)
+      },
+    }
+
+    audio.addEventListener('playing', onPlaying)
+    audio.addEventListener('ended', onEnded)
+    audio.addEventListener('error', onError)
+
+    this.active = activePlayback
+    this.setSnapshot({
+      key,
+      status: 'loading',
+      error: null,
+    })
+
+    void audio.play().then(() => {
+      if (!this.isCurrent(activePlayback)) {
+        return
+      }
+
+      if (this.snapshot.status === 'loading') {
+        this.setSnapshot({
+          key,
+          status: 'playing',
+          error: null,
+        })
+      }
+    }).catch((error: unknown) => {
+      if (!this.isCurrent(activePlayback)) {
+        return
+      }
+
+      this.active = null
+      activePlayback.detachListeners()
+      this.setSnapshot({
+        key,
+        status: 'error',
+        error: this.describePlaybackError(error),
+      })
+      if (
+        !(
+          typeof DOMException !== 'undefined' &&
+          error instanceof DOMException &&
+          error.name === 'NotAllowedError'
+        )
+      ) {
+        void logStemAudioRequestFailure(src)
+      }
+    })
+  }
+
+  stop(key?: string) {
+    if (this.active === null) {
+      if (!key || this.snapshot.key === key) {
+        this.setSnapshot(IDLE_SNAPSHOT)
+      }
+      return
+    }
+
+    if (key && this.active.key !== key) {
+      return
+    }
+
+    const activePlayback = this.active
+    this.active = null
+    activePlayback.detachListeners()
+
+    try {
+      activePlayback.audio.pause()
+      activePlayback.audio.currentTime = 0
+    } catch {
+      // Best effort cleanup; UI state still resets even if the browser rejects the reset.
+    }
+
+    this.setSnapshot(IDLE_SNAPSHOT)
+  }
+
+  stopIfCurrent(key: string) {
+    this.stop(key)
+  }
+
+  private finishPlayback(activePlayback: ActivePlayback) {
+    this.active = null
+    activePlayback.detachListeners()
+    this.setSnapshot(IDLE_SNAPSHOT)
+  }
+
+  private isCurrent(activePlayback: ActivePlayback) {
+    return this.active?.audio === activePlayback.audio
+  }
+
+  private setSnapshot(snapshot: StemAudioSnapshot) {
+    this.snapshot = snapshot
+    this.listeners.forEach((listener) => listener())
+  }
+
+  private describePlaybackError(error: unknown) {
+    if (typeof DOMException !== 'undefined' && error instanceof DOMException && error.name === 'NotAllowedError') {
+      return 'Playback was blocked. Tap to try again.'
+    }
+
+    return 'Audio unavailable. Tap to retry.'
+  }
+}
+
+export const stemAudioController = new StemAudioController()
+
+export function stopStemAudioPlayback(key?: string) {
+  stemAudioController.stop(key)
+}

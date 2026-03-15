@@ -7,7 +7,7 @@ import os
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-FRONTEND_ROOT = REPO_ROOT / "kangaroo-math-mvp"
+FRONTEND_ROOT = REPO_ROOT / "frontend"
 EXAM_DATA_DIR = FRONTEND_ROOT / "public" / "data"
 FRONTEND_DIST_DIR = FRONTEND_ROOT / "dist"
 DEFAULT_CACHE_DIR = REPO_ROOT / ".cache" / "tts"
@@ -61,4 +61,3 @@ def get_settings() -> Settings:
         tts_cache_dir=Path(os.getenv("TTS_CACHE_DIR", DEFAULT_CACHE_DIR)).resolve(),
         frontend_dist_dir=Path(os.getenv("FRONTEND_DIST_DIR", FRONTEND_DIST_DIR)).resolve(),
     )
-
