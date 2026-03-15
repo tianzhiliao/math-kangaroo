@@ -1,6 +1,6 @@
 # Canonical Exam Question Schema
 
-This document describes the committed runtime JSON shape used by the frontend and backend exam features.
+This document describes the committed exam JSON shape stored in the repository, plus the frontend-only runtime enrichments added after load time.
 
 Runtime exam files live under `frontend/public/data/Exam_20xx.json`.
 
@@ -74,7 +74,25 @@ Runtime exam files live under `frontend/public/data/Exam_20xx.json`.
 - `svg_path` values are resolved by the frontend relative to the JSON file URL
 - Both frontend and backend assume `paper_id` matches the JSON filename stem, for example `Exam_2020`
 
+## Frontend Runtime-Enriched Fields
+
+The committed exam JSON files on disk do not include the fields below. The frontend adds them at runtime when it builds `Practice_Bank` from the committed exam papers.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `practiceQuestionId` | number | Stable session ID assigned by the frontend for practice-mode questions |
+| `sourceRef` | object | `{ examId, questionId, questionNumber }` pointing back to the original committed paper question |
+
+### `sourceRef` Shape
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `examId` | string | Original paper ID, for example `Exam_2021` |
+| `questionId` | number | Original committed question ID inside that paper |
+| `questionNumber` | number | Original display order within that paper |
+
 ## Notes
 
-- Practice mode is built by combining the committed exam papers at runtime; it does not use a separate practice JSON schema in the running app.
+- Practice mode is built by combining the committed exam papers at runtime; it does not use a separate committed practice JSON schema in the running app.
+- `practiceQuestionId` is used for stable practice-session identity, while `sourceRef` is used for source labels and for routing stem-audio playback back to the original paper question.
 - The backend reads the same exam files by default through `EXAM_DATA_DIR=frontend/public/data`.

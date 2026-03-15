@@ -32,7 +32,7 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-`OPENAI_API_KEY` is required if you want working stem audio. Without it, the backend still starts, but `/api/health` reports a misconfigured state and the frontend will show audio as unavailable.
+`OPENAI_API_KEY` is required if you want working stem audio. Without it, the backend still starts, but `/api/health` reports a misconfigured state and the frontend will keep audio controls unavailable.
 
 ### 2. Set up the frontend
 
@@ -75,7 +75,7 @@ Expected result:
 - with `OPENAI_API_KEY` configured but no outbound OpenAI access: a `503` response describing the connectivity problem
 - without `OPENAI_API_KEY`: a `500` response describing the missing key
 
-To confirm the frontend proxy is pointed at the backend, visit the app and try the stem-audio control on a question card. The frontend checks `/api/health` before enabling audio playback.
+To confirm the frontend proxy is pointed at the backend, visit the app and try the stem-audio control on a question card. The frontend checks `/api/health` before enabling audio playback, and will surface backend-provided failure details when playback cannot be completed.
 
 ## Build, Test, and Lint
 
@@ -145,7 +145,7 @@ Runtime data reference:
 
 - [docs/canonical-exam-schema.md](docs/canonical-exam-schema.md)
 
-If you start the backend from a restricted sandbox or environment without outbound network access, `/api/health` will now report the backend as unavailable and the frontend will keep audio controls disabled instead of showing a false ready state.
+If you start the backend from a restricted sandbox or environment without outbound network access, `/api/health` will report the backend as unavailable and the frontend will keep audio controls disabled instead of showing a false ready state.
 
 ## API Summary
 

@@ -42,4 +42,8 @@ VITE_API_PROXY_TARGET=http://127.0.0.1:8001
 
 ## Backend Dependency
 
-The frontend can run without a working OpenAI key, but question-audio controls will show as unavailable until `/api/health` reports that the backend can actually reach OpenAI TTS.
+The frontend can run without a working OpenAI key, but question-audio controls stay unavailable until `/api/health` reports that the backend is actually ready to serve TTS.
+
+The frontend uses `/api/health` as the gate for showing question-audio controls. When playback itself fails and the backend returns a JSON error response, the UI can surface that backend-provided detail instead of only showing a generic unavailable message.
+
+For backend startup, readiness states, and TTS troubleshooting notes, use the repository root [README](../README.md).
