@@ -19,10 +19,10 @@ npm install
 npm run dev
 ```
 
-By default, the Vite dev server proxies `/api` requests to `http://127.0.0.1:8000`. Override that in `.env` with:
+By default, the Vite dev server proxies `/api` requests to `http://127.0.0.1:8001`. Override that in `.env` with:
 
 ```bash
-VITE_API_PROXY_TARGET=http://127.0.0.1:8000
+VITE_API_PROXY_TARGET=http://127.0.0.1:8001
 ```
 
 ## Available Scripts
@@ -42,4 +42,4 @@ VITE_API_PROXY_TARGET=http://127.0.0.1:8000
 
 ## Backend Dependency
 
-The frontend can run without a working OpenAI key, but question-audio controls will show as unavailable until `/api/health` reports a healthy backend.
+The frontend can run without a working OpenAI key, but question-audio controls will show as unavailable until `/api/health` reports that the backend can actually reach OpenAI TTS.

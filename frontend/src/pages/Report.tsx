@@ -7,6 +7,7 @@ import { Button } from '../components/ui/Button'
 import { useExam } from '../context/ExamContext'
 import { formatDuration } from '../lib/examSession'
 import { getQuestionAudioTarget } from '../lib/questionIdentity'
+import { getReportRoute, type RestoreOutcome } from '../lib/resultPageRouting'
 import type { QuestionStatus } from '../types/examSession'
 
 function getHeadline(accuracy: number) {
@@ -25,7 +26,19 @@ export default function Report() {
   const navigate = useNavigate()
   const { examId } = useParams<{ examId: string }>()
   const [selectedQuestionIndex, setSelectedQuestionIndex] = useState<number | null>(null)
-  const { currentExam, result, isLoading, resumeExam, resetExam, startExam } = useExam()
+  const [missingRestoreKey, setMissingRestoreKey] = useState<string | null>(null)
+  const { currentExam, session, result, resumeExam, resetExam, startExam } = useExam()
+  const restoreKey = examId ?? 'report'
+  const hasActiveReportSession =
+    examId !== undefined &&
+    currentExam?.paper_id === examId &&
+    session?.examId === examId &&
+    session.mode === 'real'
+  const restoreOutcome: RestoreOutcome = hasActiveReportSession
+    ? 'loaded'
+    : missingRestoreKey === restoreKey
+      ? 'missing'
+      : 'restoring'
 
   useEffect(() => {
     if (!examId) {
@@ -33,20 +46,44 @@ export default function Report() {
       return
     }
 
+    if (hasActiveReportSession) {
+      return
+    }
+
     let isCancelled = false
 
     void resumeExam(examId, 'real', false).then((loaded) => {
-      if (!loaded && !isCancelled) {
-        navigate('/')
+      if (!isCancelled && !loaded) {
+        setMissingRestoreKey(restoreKey)
       }
     })
 
     return () => {
       isCancelled = true
     }
-  }, [examId, navigate, resumeExam])
+  }, [examId, hasActiveReportSession, navigate, restoreKey, resumeExam])
 
-  if (isLoading || !currentExam || !result || !examId) {
+  const routeState = getReportRoute({
+    restoreOutcome,
+    hasCurrentExam: currentExam !== null,
+    hasSession: session !== null,
+    sessionMode: session?.mode ?? null,
+    isSubmitted: session ? session.submittedAt !== null : false,
+    hasResult: result !== null,
+  })
+
+  useEffect(() => {
+    if (routeState === 'toHome') {
+      navigate('/')
+      return
+    }
+
+    if (routeState === 'toExam' && examId) {
+      navigate(`/exam/${examId}`)
+    }
+  }, [examId, navigate, routeState])
+
+  if (routeState !== 'show' || !currentExam || !result || !examId) {
     return (
       <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(218,244,193,0.72),_#f6f8f4_55%,_#f3f4ef_100%)] px-4 py-8 md:px-6">
         <div className="mx-auto max-w-6xl animate-pulse space-y-6">

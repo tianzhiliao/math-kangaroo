@@ -6,11 +6,33 @@ import socket
 import urllib.error
 import urllib.request
 
+from .config import WAV_AUDIO_MEDIA_TYPE, validate_tts_response_format
+
+OPENAI_API_HOST = "api.openai.com"
+OPENAI_API_PORT = 443
+OPENAI_TTS_READINESS_TIMEOUT_SECONDS = 1.5
+
 
 class TTSUpstreamError(Exception):
     def __init__(self, message: str, *, status_code: int) -> None:
         super().__init__(message)
         self.status_code = status_code
+
+
+def check_openai_tts_upstream(
+    timeout_seconds: float = OPENAI_TTS_READINESS_TIMEOUT_SECONDS,
+) -> tuple[bool, str | None]:
+    try:
+        with socket.create_connection(
+            (OPENAI_API_HOST, OPENAI_API_PORT),
+            timeout=timeout_seconds,
+        ):
+            return True, None
+    except OSError:
+        return (
+            False,
+            f"OpenAI TTS is configured, but this backend cannot reach {OPENAI_API_HOST}:{OPENAI_API_PORT}.",
+        )
 
 
 class OpenAITTSClient:
@@ -26,9 +48,9 @@ class OpenAITTSClient:
         self._api_key = api_key
         self._model = model
         self._voice = voice
-        self._response_format = response_format
+        self._response_format = validate_tts_response_format(response_format)
         self._timeout_seconds = timeout_seconds
-        self._url = "https://api.openai.com/v1/audio/speech"
+        self._url = f"https://{OPENAI_API_HOST}/v1/audio/speech"
 
     def open_stream(self, text: str) -> HTTPResponse:
         payload = json.dumps(
@@ -46,7 +68,7 @@ class OpenAITTSClient:
             headers={
                 "Authorization": f"Bearer {self._api_key}",
                 "Content-Type": "application/json",
-                "Accept": "audio/wav",
+                "Accept": WAV_AUDIO_MEDIA_TYPE,
             },
             method="POST",
         )

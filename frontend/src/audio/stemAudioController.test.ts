@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vitest'
 import {
   StemAudioController,
   createStemTextVersion,
@@ -74,7 +74,14 @@ function createControllerHarness() {
 async function flushMicrotasks() {
   await Promise.resolve()
   await Promise.resolve()
+  await Promise.resolve()
+  await Promise.resolve()
 }
+
+afterEach(() => {
+  vi.restoreAllMocks()
+  vi.unstubAllGlobals()
+})
 
 describe('StemAudioController', () => {
   it('starts in loading and then becomes playing on success', async () => {
@@ -127,15 +134,32 @@ describe('StemAudioController', () => {
   })
 
   it('recovers from an error and can retry', async () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({
+        ok: false,
+        status: 502,
+        headers: {
+          get: () => 'application/json',
+        },
+        json: vi.fn().mockResolvedValue({ detail: 'OpenAI TTS request could not be completed.' }),
+        text: vi.fn().mockResolvedValue(''),
+      }),
+    )
+    vi.spyOn(console, 'error').mockImplementation(() => {})
+
     const { controller, audios } = createControllerHarness()
 
     controller.start('Exam_2020:1', '/api/audio-1')
     audios[0].rejectPlay(new Error('network'))
     await flushMicrotasks()
 
-    expect(controller.getSnapshot()).toMatchObject({
-      key: 'Exam_2020:1',
-      status: 'error',
+    await vi.waitFor(() => {
+      expect(controller.getSnapshot()).toMatchObject({
+        key: 'Exam_2020:1',
+        status: 'error',
+        error: 'OpenAI TTS request could not be completed.',
+      })
     })
 
     controller.start('Exam_2020:1', '/api/audio-1')
@@ -144,6 +168,37 @@ describe('StemAudioController', () => {
     await flushMicrotasks()
 
     expect(controller.getSnapshot().status).toBe('playing')
+  })
+
+  it('inspects the failed audio request and surfaces the backend detail', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({
+      ok: false,
+      status: 503,
+      headers: {
+        get: () => 'application/json',
+      },
+      json: vi.fn().mockResolvedValue({
+        detail: 'OpenAI TTS is configured, but this backend cannot reach api.openai.com:443.',
+      }),
+      text: vi.fn().mockResolvedValue(''),
+    })
+    vi.stubGlobal('fetch', fetchMock)
+    vi.spyOn(console, 'error').mockImplementation(() => {})
+
+    const { controller, audios } = createControllerHarness()
+
+    controller.start('Exam_2020:1', '/api/audio-1')
+    audios[0].rejectPlay(new Error('network'))
+    await flushMicrotasks()
+
+    await vi.waitFor(() => {
+      expect(controller.getSnapshot()).toMatchObject({
+        key: 'Exam_2020:1',
+        status: 'error',
+        error: 'OpenAI TTS is configured, but this backend cannot reach api.openai.com:443.',
+      })
+    })
+    expect(fetchMock).toHaveBeenCalledTimes(1)
   })
 
   it('never keeps two audio instances active at the same time', () => {

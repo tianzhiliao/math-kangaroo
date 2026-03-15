@@ -8,6 +8,7 @@ import os
 import tempfile
 import threading
 
+from .config import validate_tts_response_format
 from .exam_repository import ExamRepository, ExamStem
 
 
@@ -47,7 +48,7 @@ class StemAudioService:
         self._cache_dir = cache_dir
         self._model = model
         self._voice = voice
-        self._response_format = response_format
+        self._response_format = validate_tts_response_format(response_format)
         self._locks: dict[str, threading.Lock] = {}
         self._locks_guard = threading.Lock()
         self._cache_dir.mkdir(parents=True, exist_ok=True)
@@ -192,4 +193,3 @@ class StemAudioService:
                 lock.release()
 
         return iterator()
-

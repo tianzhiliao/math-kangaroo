@@ -10,7 +10,7 @@ import unittest
 
 from fastapi.testclient import TestClient
 
-from backend.config import Settings
+from backend.config import Settings, WAV_AUDIO_MEDIA_TYPE
 from backend.exam_repository import EmptyStemTextError, ExamRepository
 from backend.main import create_app
 from backend.stem_audio_service import StemAudioService
@@ -148,7 +148,15 @@ class StemAudioServiceTests(unittest.TestCase):
 
 
 class FastAPITests(unittest.TestCase):
-    def create_client(self, temp_dir: str, *, stem_text: str = "Read me aloud", tts_client=None) -> tuple[TestClient, FakeTTSClient]:
+    def create_client(
+        self,
+        temp_dir: str,
+        *,
+        stem_text: str = "Read me aloud",
+        tts_client=None,
+        openai_api_key: str | None = "test",
+        readiness_checker=None,
+    ) -> tuple[TestClient, FakeTTSClient]:
         root = Path(temp_dir)
         data_dir = root / "data"
         cache_dir = root / "cache"
@@ -169,7 +177,7 @@ class FastAPITests(unittest.TestCase):
             response_format="wav",
         )
         settings = Settings(
-            openai_api_key="test",
+            openai_api_key=openai_api_key,
             tts_model="tts-1",
             tts_voice="shimmer",
             tts_response_format="wav",
@@ -178,8 +186,64 @@ class FastAPITests(unittest.TestCase):
             tts_cache_dir=cache_dir,
             frontend_dist_dir=dist_dir,
         )
-        app = create_app(settings=settings, stem_audio_service=service)
+        app = create_app(
+            settings=settings,
+            stem_audio_service=service,
+            tts_readiness_checker=readiness_checker,
+        )
         return TestClient(app), fake_client
+
+    def test_health_endpoint_returns_ok_when_tts_is_reachable(self) -> None:
+        with TemporaryDirectory() as temp_dir:
+            client, _ = self.create_client(
+                temp_dir,
+                readiness_checker=lambda: (True, None),
+            )
+
+            response = client.get("/api/health")
+
+            self.assertEqual(response.status_code, 200)
+            self.assertEqual(response.json(), {"status": "ok"})
+
+    def test_health_endpoint_returns_503_when_tts_is_unreachable(self) -> None:
+        with TemporaryDirectory() as temp_dir:
+            client, _ = self.create_client(
+                temp_dir,
+                readiness_checker=lambda: (
+                    False,
+                    "OpenAI TTS is configured, but this backend cannot reach api.openai.com:443.",
+                ),
+            )
+
+            response = client.get("/api/health")
+
+            self.assertEqual(response.status_code, 503)
+            self.assertEqual(
+                response.json(),
+                {
+                    "status": "unavailable",
+                    "detail": "OpenAI TTS is configured, but this backend cannot reach api.openai.com:443.",
+                },
+            )
+
+    def test_health_endpoint_returns_500_without_api_key(self) -> None:
+        with TemporaryDirectory() as temp_dir:
+            client, _ = self.create_client(
+                temp_dir,
+                openai_api_key=None,
+                readiness_checker=lambda: (True, None),
+            )
+
+            response = client.get("/api/health")
+
+            self.assertEqual(response.status_code, 500)
+            self.assertEqual(
+                response.json(),
+                {
+                    "status": "misconfigured",
+                    "detail": "OPENAI_API_KEY is required.",
+                },
+            )
 
     def test_audio_endpoint_returns_wav_and_reuses_cache(self) -> None:
         with TemporaryDirectory() as temp_dir:
@@ -189,7 +253,7 @@ class FastAPITests(unittest.TestCase):
             second = client.get("/api/tts/exams/Exam_2099/questions/1/stem.wav")
 
             self.assertEqual(first.status_code, 200)
-            self.assertEqual(first.headers["content-type"], "audio/wav")
+            self.assertEqual(first.headers["content-type"], WAV_AUDIO_MEDIA_TYPE)
             self.assertEqual(first.content, AUDIO_BYTES)
             self.assertEqual(second.status_code, 200)
             self.assertEqual(fake_tts.calls, 1)
@@ -209,3 +273,24 @@ class FastAPITests(unittest.TestCase):
             response = client.get("/api/tts/exams/Exam_2099/questions/1/stem.wav")
 
             self.assertEqual(response.status_code, 422)
+
+
+class SettingsTests(unittest.TestCase):
+    def test_invalid_tts_response_format_raises(self) -> None:
+        with TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+
+            with self.assertRaisesRegex(
+                ValueError,
+                "TTS_RESPONSE_FORMAT only supports 'wav'",
+            ):
+                Settings(
+                    openai_api_key="test",
+                    tts_model="tts-1",
+                    tts_voice="shimmer",
+                    tts_response_format="mp3",
+                    tts_timeout_seconds=45.0,
+                    exam_data_dir=root / "data",
+                    tts_cache_dir=root / "cache",
+                    frontend_dist_dir=root / "dist",
+                )

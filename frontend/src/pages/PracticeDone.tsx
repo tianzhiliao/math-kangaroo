@@ -1,36 +1,66 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { ArrowLeft, Medal, RotateCcw, Target } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import { Button } from '../components/ui/Button'
 import { useExam } from '../context/ExamContext'
 import { formatDuration } from '../lib/examSession'
+import { getPracticeDoneRoute, type RestoreOutcome } from '../lib/resultPageRouting'
 import { PRACTICE_EXAM_ID } from '../services/examService'
 
 export default function PracticeDone() {
   const navigate = useNavigate()
-  const { currentExam, result, isLoading, isSubmitted, resumeExam, resetExam, startExam } = useExam()
+  const [missingRestoreKey, setMissingRestoreKey] = useState<string | null>(null)
+  const { currentExam, session, result, resumeExam, resetExam, startExam } = useExam()
+  const restoreKey = PRACTICE_EXAM_ID
+  const hasActivePracticeSession =
+    currentExam?.paper_id === PRACTICE_EXAM_ID &&
+    session?.examId === PRACTICE_EXAM_ID &&
+    session.mode === 'practice'
+  const restoreOutcome: RestoreOutcome = hasActivePracticeSession
+    ? 'loaded'
+    : missingRestoreKey === restoreKey
+      ? 'missing'
+      : 'restoring'
 
   useEffect(() => {
+    if (hasActivePracticeSession) {
+      return
+    }
+
     let isCancelled = false
 
     void resumeExam(PRACTICE_EXAM_ID, 'practice', false).then((loaded) => {
-      if (!loaded && !isCancelled) {
-        navigate('/')
+      if (!isCancelled && !loaded) {
+        setMissingRestoreKey(restoreKey)
       }
     })
 
     return () => {
       isCancelled = true
     }
-  }, [navigate, resumeExam])
+  }, [hasActivePracticeSession, resumeExam, restoreKey])
+
+  const routeState = getPracticeDoneRoute({
+    restoreOutcome,
+    hasCurrentExam: currentExam !== null,
+    hasSession: session !== null,
+    sessionMode: session?.mode ?? null,
+    isSubmitted: session ? session.submittedAt !== null : false,
+    hasResult: result !== null,
+  })
 
   useEffect(() => {
-    if (!isLoading && !isSubmitted) {
+    if (routeState === 'toHome') {
+      navigate('/')
+      return
+    }
+
+    if (routeState === 'toPractice') {
       navigate('/practice')
     }
-  }, [isLoading, isSubmitted, navigate])
+  }, [navigate, routeState])
 
-  if (isLoading || !currentExam || !result) {
+  if (routeState !== 'show' || !currentExam || !result) {
     return (
       <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(218,244,193,0.72),_#f6f8f4_55%,_#f3f4ef_100%)] px-4 py-8 md:px-8">
         <div className="mx-auto max-w-4xl animate-pulse space-y-4">

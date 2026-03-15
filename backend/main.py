@@ -1,25 +1,32 @@
 from __future__ import annotations
 
+from collections.abc import Callable
 from pathlib import Path
 
 from fastapi import APIRouter, FastAPI, HTTPException, Request
 from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
 
-from .config import Settings, get_settings
+from .config import Settings, WAV_AUDIO_MEDIA_TYPE, get_settings
 from .exam_repository import (
     EmptyStemTextError,
     ExamNotFoundError,
     QuestionNotFoundError,
 )
 from .exam_repository import ExamRepository
-from .openai_tts import OpenAITTSClient, TTSUpstreamError
+from .openai_tts import OpenAITTSClient, TTSUpstreamError, check_openai_tts_upstream
 from .stem_audio_service import PreparedStemAudio, StemAudioService
+
+HealthChecker = Callable[[], tuple[bool, str | None]]
+HEALTH_MISCONFIGURED_DETAIL = "OPENAI_API_KEY is required."
+TTS_NOT_CONFIGURED_DETAIL = "OPENAI_API_KEY is required to serve TTS audio."
+TTS_UNAVAILABLE_DETAIL = "OpenAI TTS is configured, but this backend cannot be reached."
 
 
 def create_app(
     *,
     settings: Settings | None = None,
     stem_audio_service: StemAudioService | None = None,
+    tts_readiness_checker: HealthChecker | None = None,
 ) -> FastAPI:
     settings = settings or get_settings()
 
@@ -47,11 +54,27 @@ def create_app(
     app = FastAPI(title="Kangaroo Math TTS API")
     app.state.settings = settings
     app.state.stem_audio_service = stem_audio_service
+    app.state.tts_readiness_checker = tts_readiness_checker or check_openai_tts_upstream
 
     api_router = APIRouter(prefix="/api")
 
     @api_router.get("/health")
-    def health() -> dict[str, str]:
+    def health(request: Request):
+        if not request.app.state.settings.openai_api_key:
+            return _build_health_response(
+                status="misconfigured",
+                detail=HEALTH_MISCONFIGURED_DETAIL,
+                status_code=500,
+            )
+
+        is_ready, detail = request.app.state.tts_readiness_checker()
+        if not is_ready:
+            return _build_health_response(
+                status="unavailable",
+                detail=detail or TTS_UNAVAILABLE_DETAIL,
+                status_code=503,
+            )
+
         return {"status": "ok"}
 
     @api_router.get("/tts/exams/{exam_id}/questions/{question_id}/stem.wav")
@@ -77,6 +100,13 @@ def create_app(
     return app
 
 
+def _build_health_response(*, status: str, detail: str, status_code: int) -> JSONResponse:
+    return JSONResponse(
+        {"status": status, "detail": detail},
+        status_code=status_code,
+    )
+
+
 def _build_audio_response(prepared: PreparedStemAudio):
     headers = {
         "Cache-Control": "public, max-age=31536000, immutable",
@@ -86,7 +116,7 @@ def _build_audio_response(prepared: PreparedStemAudio):
     if prepared.cached_path is not None:
         return FileResponse(
             prepared.cached_path,
-            media_type="audio/wav",
+            media_type=WAV_AUDIO_MEDIA_TYPE,
             headers=headers,
         )
 
@@ -95,7 +125,7 @@ def _build_audio_response(prepared: PreparedStemAudio):
 
     return StreamingResponse(
         prepared.stream,
-        media_type="audio/wav",
+        media_type=WAV_AUDIO_MEDIA_TYPE,
         headers=headers,
     )
 
@@ -130,8 +160,9 @@ def _create_default_app() -> FastAPI:
 
     @app.get("/api/health")
     def health() -> JSONResponse:
-        return JSONResponse(
-            {"status": "misconfigured", "detail": "OPENAI_API_KEY is required."},
+        return _build_health_response(
+            status="misconfigured",
+            detail=HEALTH_MISCONFIGURED_DETAIL,
             status_code=500,
         )
 
@@ -139,7 +170,7 @@ def _create_default_app() -> FastAPI:
     def tts_not_configured(exam_id: str, question_id: int) -> JSONResponse:
         del exam_id, question_id
         return JSONResponse(
-            {"detail": "OPENAI_API_KEY is required to serve TTS audio."},
+            {"detail": TTS_NOT_CONFIGURED_DETAIL},
             status_code=500,
         )
 

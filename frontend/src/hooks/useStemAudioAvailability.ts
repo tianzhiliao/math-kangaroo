@@ -1,5 +1,9 @@
-/* eslint-disable react-hooks/set-state-in-effect */
 import { useEffect, useState } from 'react'
+import {
+  loadStemAudioAvailability,
+  peekStemAudioAvailability,
+  type StemAudioAvailabilityState as ResolvedStemAudioAvailabilityState,
+} from './stemAudioAvailabilityStore'
 
 export type StemAudioAvailabilityStatus = 'checking' | 'available' | 'unavailable'
 
@@ -9,9 +13,6 @@ interface StemAudioAvailabilityState {
 }
 
 const AUDIO_UNAVAILABLE_MESSAGE = 'Question audio is unavailable in this environment.'
-
-let cachedState: StemAudioAvailabilityState | null = null
-let availabilityRequest: Promise<StemAudioAvailabilityState> | null = null
 
 function normalizeUnavailableMessage(detail: unknown) {
   if (typeof detail !== 'string' || detail.trim().length === 0) {
@@ -25,9 +26,11 @@ function normalizeUnavailableMessage(detail: unknown) {
   return detail
 }
 
-async function fetchStemAudioAvailability(): Promise<StemAudioAvailabilityState> {
+export async function fetchStemAudioAvailability(
+  fetcher: typeof fetch = fetch,
+): Promise<ResolvedStemAudioAvailabilityState> {
   try {
-    const response = await fetch('/api/health', {
+    const response = await fetcher('/api/health', {
       headers: {
         Accept: 'application/json',
       },
@@ -55,30 +58,16 @@ async function fetchStemAudioAvailability(): Promise<StemAudioAvailabilityState>
 
 export function useStemAudioAvailability(): StemAudioAvailabilityState {
   const [state, setState] = useState<StemAudioAvailabilityState>(
-    cachedState ?? {
+    peekStemAudioAvailability() ?? {
       status: 'checking',
       message: null,
     },
   )
 
   useEffect(() => {
-    if (cachedState) {
-      setState(cachedState)
-      return
-    }
-
-    if (!availabilityRequest) {
-      availabilityRequest = fetchStemAudioAvailability().then((result) => {
-        cachedState = result
-        return result
-      }).finally(() => {
-        availabilityRequest = null
-      })
-    }
-
     let isCancelled = false
 
-    void availabilityRequest.then((result) => {
+    void loadStemAudioAvailability(() => fetchStemAudioAvailability()).then((result) => {
       if (!isCancelled) {
         setState(result)
       }

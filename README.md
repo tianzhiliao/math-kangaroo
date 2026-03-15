@@ -42,14 +42,14 @@ npm install
 cp .env.example .env
 ```
 
-The frontend proxies `/api` requests to `VITE_API_PROXY_TARGET`, which defaults to `http://127.0.0.1:8000`.
+The frontend proxies `/api` requests to `VITE_API_PROXY_TARGET`, which defaults to `http://127.0.0.1:8001`.
 
 ### 3. Start both services
 
 Start the FastAPI backend from the repository root:
 
 ```bash
-python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload
+python3 -m uvicorn backend.main:app --host 127.0.0.1 --port 8001 --reload
 ```
 
 In a second terminal, start the frontend dev server:
@@ -66,12 +66,13 @@ Then open the local Vite URL shown in the terminal, usually `http://127.0.0.1:30
 With the backend running, confirm the API is reachable:
 
 ```bash
-curl -sS http://127.0.0.1:8000/api/health
+curl -sS http://127.0.0.1:8001/api/health
 ```
 
 Expected result:
 
-- with `OPENAI_API_KEY` configured: `{"status":"ok"}`
+- with `OPENAI_API_KEY` configured and a backend that can reach OpenAI: `{"status":"ok"}`
+- with `OPENAI_API_KEY` configured but no outbound OpenAI access: a `503` response describing the connectivity problem
 - without `OPENAI_API_KEY`: a `500` response describing the missing key
 
 To confirm the frontend proxy is pointed at the backend, visit the app and try the stem-audio control on a question card. The frontend checks `/api/health` before enabling audio playback.
@@ -110,10 +111,10 @@ npm run build
 Then start the backend from the repository root:
 
 ```bash
-python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
+python3 -m uvicorn backend.main:app --host 127.0.0.1 --port 8001
 ```
 
-Open `http://127.0.0.1:8000/` to load the bundled app through FastAPI.
+Open `http://127.0.0.1:8001/` to load the bundled app through FastAPI.
 
 ## Environment Files
 
@@ -122,7 +123,8 @@ Open `http://127.0.0.1:8000/` to load the bundled app through FastAPI.
 See `/.env.example` for all supported settings:
 
 - `OPENAI_API_KEY` required for TTS
-- `TTS_MODEL`, `TTS_VOICE`, `TTS_RESPONSE_FORMAT`, `TTS_TIMEOUT_SECONDS` optional OpenAI TTS overrides
+- `TTS_MODEL`, `TTS_VOICE`, `TTS_TIMEOUT_SECONDS` optional OpenAI TTS overrides
+- `TTS_RESPONSE_FORMAT` must stay `wav`; the audio API only serves WAV responses
 - `EXAM_DATA_DIR` overrides where the backend reads exam JSON files
 - `TTS_CACHE_DIR` overrides the audio cache location
 - `FRONTEND_DIST_DIR` overrides the directory served by FastAPI for built frontend assets
@@ -133,7 +135,7 @@ Important: relative paths are easiest to use when you start `uvicorn` from the r
 
 See `frontend/.env.example`:
 
-- `VITE_API_PROXY_TARGET` sets the local backend origin used by the Vite dev proxy
+- `VITE_API_PROXY_TARGET` sets the local backend origin used by the Vite dev proxy; this repo's local default is `http://127.0.0.1:8001`
 
 ## Runtime Data Assets
 
@@ -143,9 +145,11 @@ Runtime data reference:
 
 - [docs/canonical-exam-schema.md](docs/canonical-exam-schema.md)
 
+If you start the backend from a restricted sandbox or environment without outbound network access, `/api/health` will now report the backend as unavailable and the frontend will keep audio controls disabled instead of showing a false ready state.
+
 ## API Summary
 
-- `GET /api/health` reports whether the backend is ready to serve TTS
+- `GET /api/health` reports whether the backend is actually ready to serve TTS, including OpenAI reachability
 - `GET /api/tts/exams/{exam_id}/questions/{question_id}/stem.wav` returns cached or streamed WAV audio for a question stem
 
 ## Optional Cache Warm-Up
