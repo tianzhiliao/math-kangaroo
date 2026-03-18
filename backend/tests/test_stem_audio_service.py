@@ -205,6 +205,19 @@ class FastAPITests(unittest.TestCase):
             self.assertEqual(response.status_code, 200)
             self.assertEqual(response.json(), {"status": "ok"})
 
+    def test_livez_endpoint_returns_ok_without_checking_tts(self) -> None:
+        with TemporaryDirectory() as temp_dir:
+            client, _ = self.create_client(
+                temp_dir,
+                openai_api_key=None,
+                readiness_checker=lambda: (False, "should not be used"),
+            )
+
+            response = client.get("/api/livez")
+
+            self.assertEqual(response.status_code, 200)
+            self.assertEqual(response.json(), {"status": "ok"})
+
     def test_health_endpoint_returns_503_when_tts_is_unreachable(self) -> None:
         with TemporaryDirectory() as temp_dir:
             client, _ = self.create_client(

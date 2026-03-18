@@ -22,6 +22,12 @@ TTS_NOT_CONFIGURED_DETAIL = "OPENAI_API_KEY is required to serve TTS audio."
 TTS_UNAVAILABLE_DETAIL = "OpenAI TTS is configured, but this backend cannot be reached."
 
 
+def _register_livez_route(router: APIRouter | FastAPI) -> None:
+    @router.get("/api/livez" if isinstance(router, FastAPI) else "/livez")
+    def livez():
+        return {"status": "ok"}
+
+
 def create_app(
     *,
     settings: Settings | None = None,
@@ -57,6 +63,7 @@ def create_app(
     app.state.tts_readiness_checker = tts_readiness_checker or check_openai_tts_upstream
 
     api_router = APIRouter(prefix="/api")
+    _register_livez_route(api_router)
 
     @api_router.get("/health")
     def health(request: Request):
@@ -157,6 +164,7 @@ def _create_default_app() -> FastAPI:
         return create_app(settings=settings)
 
     app = FastAPI(title="Kangaroo Math TTS API")
+    _register_livez_route(app)
 
     @app.get("/api/health")
     def health() -> JSONResponse:

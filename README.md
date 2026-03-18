@@ -12,6 +12,7 @@ The repository has two runtime pieces:
 - `backend/` FastAPI app, TTS client, cache service, and backend tests
 - `frontend/` Vite app, static exam assets under `public/data/`, and frontend unit tests
 - `docs/` runtime schema notes for the committed exam data
+- `Dockerfile` multi-stage image build for public deployment
 
 ## Prerequisites
 
@@ -116,6 +117,67 @@ python3 -m uvicorn backend.main:app --host 127.0.0.1 --port 8001
 
 Open `http://127.0.0.1:8001/` to load the bundled app through FastAPI.
 
+## Docker Local Verification
+
+Build the production image from the repository root:
+
+```bash
+docker build -t kangaroo-math .
+```
+
+Run the container locally:
+
+```bash
+docker run --rm -p 8001:8001 kangaroo-math
+```
+
+Then verify the public-serving behavior:
+
+```bash
+curl -sS http://127.0.0.1:8001/
+curl -sS http://127.0.0.1:8001/api/livez
+curl -i http://127.0.0.1:8001/api/health
+```
+
+Expected result for a first public release without `OPENAI_API_KEY`:
+
+- `/` serves the built app
+- `/api/livez` returns `200 {"status":"ok"}`
+- `/api/health` returns `500` because TTS is intentionally not configured yet
+- practice mode and timed exam mode still work, while question audio remains unavailable
+
+## Render Deployment
+
+This repository is ready to deploy as a single public web service on Render using the root `Dockerfile`.
+
+### Recommended first release
+
+- deploy the `main` branch from `https://github.com/tianzhiliao/math-kangaroo`
+- create a `Web Service`
+- let Render build from the repository `Dockerfile`
+- set the health check path to `/api/livez`
+- do not set `OPENAI_API_KEY` for the first release
+
+### Render setup steps
+
+1. In Render, create a new `Web Service` from the GitHub repository.
+2. Keep the root directory as the repository root so Render uses the root `Dockerfile`.
+3. Leave build and start commands empty when using the Docker deployment flow.
+4. Set `Health Check Path` to `/api/livez`.
+5. Deploy the service and use the Render-generated URL as the first public address.
+
+The container listens on `0.0.0.0` and reads the platform-provided `PORT`, so no extra port configuration is required.
+
+### Expected production behavior without TTS
+
+- the site is publicly reachable from the Render URL
+- exam JSON and SVG assets are served by the built frontend bundle
+- `/api/livez` reports the service is up
+- `/api/health` reports TTS is misconfigured until `OPENAI_API_KEY` is added
+- question-audio controls stay unavailable by design, which is expected for the first release
+
+If you later want to enable TTS, add `OPENAI_API_KEY` in Render environment variables and redeploy.
+
 ## Environment Files
 
 ### Backend `.env`
@@ -128,6 +190,8 @@ See `/.env.example` for all supported settings:
 - `EXAM_DATA_DIR` overrides where the backend reads exam JSON files
 - `TTS_CACHE_DIR` overrides the audio cache location
 - `FRONTEND_DIST_DIR` overrides the directory served by FastAPI for built frontend assets
+
+For the first public deployment, you can leave `OPENAI_API_KEY` unset. The site still works, but `/api/health` reports that TTS is unavailable and the frontend keeps audio controls disabled.
 
 Important: relative paths are easiest to use when you start `uvicorn` from the repository root. If you launch the backend from another directory, prefer absolute paths in `.env`.
 
@@ -149,6 +213,7 @@ If you start the backend from a restricted sandbox or environment without outbou
 
 ## API Summary
 
+- `GET /api/livez` reports that the web service process is running and should be used for deployment health checks
 - `GET /api/health` reports whether the backend is actually ready to serve TTS, including OpenAI reachability
 - `GET /api/tts/exams/{exam_id}/questions/{question_id}/stem.wav` returns cached or streamed WAV audio for a question stem
 

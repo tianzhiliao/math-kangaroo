@@ -5,3 +5,5 @@
 .pytest_cache/
 __pycache__/
 .cache/tts/
+.DS_Store
+frontend/.vite/
