@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kangaroo-pdf-json"
+version = "0.1.0"
+description = "PDF to structured JSON extraction pipeline for Math Kangaroo exams."
+requires-python = ">=3.11"
+dependencies = [
+  "PyMuPDF>=1.24.0",
+  "pypdf>=5.0.0",
+  "Pillow>=10.0.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

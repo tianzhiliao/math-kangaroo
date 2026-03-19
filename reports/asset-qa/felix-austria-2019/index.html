@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>felix-austria-2019 asset QA</title>
+  <style>
+    :root {
+      --bg: #f6f2ea;
+      --ink: #161513;
+      --card: rgba(255,255,255,0.88);
+      --line: rgba(22,21,19,0.12);
+      --accent: #1d5d9b;
+      --muted: #5f5a52;
+      --shadow: 0 18px 40px rgba(14, 16, 21, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Helvetica Neue", "Arial", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(29,93,155,0.16), transparent 28rem),
+        linear-gradient(180deg, #efe7db, var(--bg));
+      color: var(--ink);
+    }
+    main {
+      width: min(1280px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 32px 0 56px;
+    }
+    header {
+      margin-bottom: 28px;
+      padding: 24px 26px;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: var(--card);
+      box-shadow: var(--shadow);
+    }
+    h1, h2, h3 { margin: 0; }
+    p { margin: 0; }
+    .meta { margin-top: 10px; color: var(--muted); }
+    .question-card {
+      margin-top: 20px;
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: var(--card);
+      box-shadow: var(--shadow);
+    }
+    .question-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      margin-bottom: 16px;
+    }
+    .status {
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(29,93,155,0.12);
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 13px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .panel {
+      padding: 16px;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.78);
+    }
+    .panel h3 {
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+    .panel img {
+      display: block;
+      max-width: 100%;
+      border-radius: 12px;
+      background: white;
+    }
+    .text-block {
+      white-space: pre-wrap;
+      line-height: 1.55;
+      margin-bottom: 14px;
+    }
+    .asset-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+    }
+    .asset-card {
+      margin: 0;
+      padding: 12px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: white;
+    }
+    .asset-card.small {
+      min-height: 120px;
+    }
+    .asset-card figcaption {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      word-break: break-all;
+    }
+    .options-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 12px;
+    }
+    .option-card {
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: white;
+    }
+    .option-label {
+      font-weight: 800;
+      font-size: 14px;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+    .option-text {
+      min-height: 38px;
+      color: var(--muted);
+      line-height: 1.45;
+      margin-bottom: 10px;
+      white-space: pre-wrap;
+    }
+    .option-assets {
+      display: grid;
+      gap: 10px;
+    }
+    .empty {
+      padding: 12px;
+      border: 1px dashed var(--line);
+      border-radius: 12px;
+      color: var(--muted);
+      background: rgba(29,93,155,0.05);
+      font-size: 13px;
+    }
+    @media (max-width: 920px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>felix-austria-2019 Asset QA</h1>
+      <p class="meta">Questions: 15 | Assets: 41 | Warnings: 0</p>
+    </header>
+    
+            <section class="question-card" id="q01">
+              <div class="question-head">
+                <div>
+                  <h2>Question 1</h2>
+                  <p>Page 1 | Answer E</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q01_reference.png" alt="Question 1 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Which of these clouds contain only numbers that are smaller than 7?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid"><div class="empty">No stem image</div></div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q01_option_A_01.png" alt="q01_option_A_01" />
+                      <figcaption>q01_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q01_option_B_01.png" alt="q01_option_B_01" />
+                      <figcaption>q01_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q01_option_C_01.png" alt="q01_option_C_01" />
+                      <figcaption>q01_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q01_option_D_01.png" alt="q01_option_D_01" />
+                      <figcaption>q01_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q01_option_E_01.png" alt="q01_option_E_01" />
+                      <figcaption>q01_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q02">
+              <div class="question-head">
+                <div>
+                  <h2>Question 2</h2>
+                  <p>Page 1 | Answer E</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q02_reference.png" alt="Question 2 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Which of the 5 pictures shows a part of this chain?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-austria-2019/assets/q02_stem_01.png" alt="q02_stem_01" />
+                  <figcaption>q02_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q02_option_A_01.png" alt="q02_option_A_01" />
+                      <figcaption>q02_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q02_option_B_01.png" alt="q02_option_B_01" />
+                      <figcaption>q02_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q02_option_C_01.png" alt="q02_option_C_01" />
+                      <figcaption>q02_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q02_option_D_01.png" alt="q02_option_D_01" />
+                      <figcaption>q02_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q02_option_E_01.png" alt="q02_option_E_01" />
+                      <figcaption>q02_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q03">
+              <div class="question-head">
+                <div>
+                  <h2>Question 3</h2>
+                  <p>Page 1 | Answer E</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q03_reference.png" alt="Question 3 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Mother kangaroo and her son Max together weigh 60 kg (kilograms). The mother on her own weighs 52 kg. How heavy is Max?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-austria-2019/assets/q03_stem_01.png" alt="q03_stem_01" />
+                  <figcaption>q03_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">4 kg</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">8 kg</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">30 kg</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">56 kg</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">112 kg</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q04">
+              <div class="question-head">
+                <div>
+                  <h2>Question 4</h2>
+                  <p>Page 1 | Answer E</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q04_reference.png" alt="Question 4 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">There are 12 children in front of a zoo. Susi is the 7th from the front and Kim the 2nd from the back. How many children are there between Susi and Kim?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-austria-2019/assets/q04_stem_01.png" alt="q04_stem_01" />
+                  <figcaption>q04_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">2</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">5</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">6</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q05">
+              <div class="question-head">
+                <div>
+                  <h2>Question 5</h2>
+                  <p>Page 1 | Answer A</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q05_reference.png" alt="Question 5 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Jörg is sorting his socks. Two socks with the same number are one pair. How many pairs can he find?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-austria-2019/assets/q05_stem_01.png" alt="q05_stem_01" />
+                  <figcaption>q05_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">8</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">6</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">5</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q06">
+              <div class="question-head">
+                <div>
+                  <h2>Question 6</h2>
+                  <p>Page 2 | Answer A</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q06_reference.png" alt="Question 6 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Five equally big square pieces of card are placed on a table on top of each other. The picture on the side is created this way. The cards are collected up from top to bottom. In which order are they collected?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-austria-2019/assets/q06_stem_01.png" alt="q06_stem_01" />
+                  <figcaption>q06_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">5-4-3-2-1</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">5-2-3-4-1</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">5-4-2-3-1</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">5-3-2-1-4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">5-2-3-1-4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q07">
+              <div class="question-head">
+                <div>
+                  <h2>Question 7</h2>
+                  <p>Page 2 | Answer A</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q07_reference.png" alt="Question 7 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">There are two kinds of camels: bactrian camels that have 2 humps, dromedaries that have 1 hump. Exactly 10 camels live in a certain zoo. Together they have 14 humps. How many bactrian camels are there in this zoo?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid"><div class="empty">No stem image</div></div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">1</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">2</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">5</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q08">
+              <div class="question-head">
+                <div>
+                  <h2>Question 8</h2>
+                  <p>Page 2 | Answer C</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q08_reference.png" alt="Question 8 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">The floor of a room is covered with equally big rectangular tiles (see picture). How long is the room?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-austria-2019/assets/q08_stem_01.png" alt="q08_stem_01" />
+                  <figcaption>q08_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">6 m</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">8 m</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">10 m</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">11 m</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">12 m</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q09">
+              <div class="question-head">
+                <div>
+                  <h2>Question 9</h2>
+                  <p>Page 2 | Answer A</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q09_reference.png" alt="Question 9 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">The picture shows a mouse and a piece of cheese. The mouse is only allowed to move to the neighbouring fields in the direction of the arrows. How many paths are there from the mouse to the cheese?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-austria-2019/assets/q09_stem_01.png" alt="q09_stem_01" />
+                  <figcaption>q09_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">2</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">5</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">6</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q10">
+              <div class="question-head">
+                <div>
+                  <h2>Question 10</h2>
+                  <p>Page 2 | Answer A</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q10_reference.png" alt="Question 10 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Which of the figures can be cut into these 3 pieces?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-austria-2019/assets/q10_stem_01.png" alt="q10_stem_01" />
+                  <figcaption>q10_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q10_option_A_01.png" alt="q10_option_A_01" />
+                      <figcaption>q10_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q10_option_B_01.png" alt="q10_option_B_01" />
+                      <figcaption>q10_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q10_option_C_01.png" alt="q10_option_C_01" />
+                      <figcaption>q10_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q10_option_D_01.png" alt="q10_option_D_01" />
+                      <figcaption>q10_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q10_option_E_01.png" alt="q10_option_E_01" />
+                      <figcaption>q10_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q11">
+              <div class="question-head">
+                <div>
+                  <h2>Question 11</h2>
+                  <p>Page 3 | Answer C</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q11_reference.png" alt="Question 11 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">The giants Tim and Tom build a sandcastle and decorate it with a flag. They insert half the flagpole into the highest point of the sandcastle. The highest point of the flagpole is now 16 m above the floor, the lowest 6 m (see diagram). How high is the sandcastle?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-austria-2019/assets/q11_stem_01.png" alt="q11_stem_01" />
+                  <figcaption>q11_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">11 m</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">12 m</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">13 m</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">14 m</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">15 m</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q12">
+              <div class="question-head">
+                <div>
+                  <h2>Question 12</h2>
+                  <p>Page 3 | Answer A</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q12_reference.png" alt="Question 12 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">There are white, grey and black squares. Three children use these to make this pattern. First Anni replaces all black squares with white squares. Then Bob replaces all grey squares with black squares. Finally Chris replaces all white squares with grey squares. Which picture have the three children now created?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-austria-2019/assets/q12_stem_01.png" alt="q12_stem_01" />
+                  <figcaption>q12_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q12_option_A_01.png" alt="q12_option_A_01" />
+                      <figcaption>q12_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q12_option_B_01.png" alt="q12_option_B_01" />
+                      <figcaption>q12_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q12_option_C_01.png" alt="q12_option_C_01" />
+                      <figcaption>q12_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q12_option_D_01.png" alt="q12_option_D_01" />
+                      <figcaption>q12_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q12_option_E_01.png" alt="q12_option_E_01" />
+                      <figcaption>q12_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q13">
+              <div class="question-head">
+                <div>
+                  <h2>Question 13</h2>
+                  <p>Page 3 | Answer C</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q13_reference.png" alt="Question 13 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Together the three squirrels Anni, Asia and Elli have 10 nuts. Each one has a different number of nuts but at least 2 nuts. Anni has the least number of nuts. Asia has the most nuts. How many nuts does Elli have?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid"><div class="empty">No stem image</div></div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">1</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">2</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">5</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q14">
+              <div class="question-head">
+                <div>
+                  <h2>Question 14</h2>
+                  <p>Page 3 | Answer E</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q14_reference.png" alt="Question 14 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Each figure is made up of 4 equally big cubes and coloured in. Which figure needs the least amount of colour?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid"><div class="empty">No stem image</div></div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q14_option_A_01.png" alt="q14_option_A_01" />
+                      <figcaption>q14_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q14_option_B_01.png" alt="q14_option_B_01" />
+                      <figcaption>q14_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q14_option_C_01.png" alt="q14_option_C_01" />
+                      <figcaption>q14_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q14_option_D_01.png" alt="q14_option_D_01" />
+                      <figcaption>q14_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q14_option_E_01.png" alt="q14_option_E_01" />
+                      <figcaption>q14_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q15">
+              <div class="question-head">
+                <div>
+                  <h2>Question 15</h2>
+                  <p>Page 3 | Answer E</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q15_reference.png" alt="Question 15 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Four strips of paper are used to make a pattern (see picture). What do you see when you look at it from behind?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-austria-2019/assets/q15_stem_01.png" alt="q15_stem_01" />
+                  <figcaption>q15_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q15_option_A_01.png" alt="q15_option_A_01" />
+                      <figcaption>q15_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q15_option_B_01.png" alt="q15_option_B_01" />
+                      <figcaption>q15_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q15_option_C_01.png" alt="q15_option_C_01" />
+                      <figcaption>q15_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q15_option_D_01.png" alt="q15_option_D_01" />
+                      <figcaption>q15_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-austria-2019/assets/q15_option_E_01.png" alt="q15_option_E_01" />
+                      <figcaption>q15_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+  </main>
+</body>
+</html>

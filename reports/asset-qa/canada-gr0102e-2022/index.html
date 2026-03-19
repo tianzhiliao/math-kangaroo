@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>canada-gr0102e-2022 asset QA</title>
+  <style>
+    :root {
+      --bg: #f6f2ea;
+      --ink: #161513;
+      --card: rgba(255,255,255,0.88);
+      --line: rgba(22,21,19,0.12);
+      --accent: #1d5d9b;
+      --muted: #5f5a52;
+      --shadow: 0 18px 40px rgba(14, 16, 21, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Helvetica Neue", "Arial", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(29,93,155,0.16), transparent 28rem),
+        linear-gradient(180deg, #efe7db, var(--bg));
+      color: var(--ink);
+    }
+    main {
+      width: min(1280px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 32px 0 56px;
+    }
+    header {
+      margin-bottom: 28px;
+      padding: 24px 26px;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: var(--card);
+      box-shadow: var(--shadow);
+    }
+    h1, h2, h3 { margin: 0; }
+    p { margin: 0; }
+    .meta { margin-top: 10px; color: var(--muted); }
+    .question-card {
+      margin-top: 20px;
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: var(--card);
+      box-shadow: var(--shadow);
+    }
+    .question-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      margin-bottom: 16px;
+    }
+    .status {
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(29,93,155,0.12);
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 13px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .panel {
+      padding: 16px;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.78);
+    }
+    .panel h3 {
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+    .panel img {
+      display: block;
+      max-width: 100%;
+      border-radius: 12px;
+      background: white;
+    }
+    .text-block {
+      white-space: pre-wrap;
+      line-height: 1.55;
+      margin-bottom: 14px;
+    }
+    .asset-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+    }
+    .asset-card {
+      margin: 0;
+      padding: 12px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: white;
+    }
+    .asset-card.small {
+      min-height: 120px;
+    }
+    .asset-card figcaption {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      word-break: break-all;
+    }
+    .options-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 12px;
+    }
+    .option-card {
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: white;
+    }
+    .option-label {
+      font-weight: 800;
+      font-size: 14px;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+    .option-text {
+      min-height: 38px;
+      color: var(--muted);
+      line-height: 1.45;
+      margin-bottom: 10px;
+      white-space: pre-wrap;
+    }
+    .option-assets {
+      display: grid;
+      gap: 10px;
+    }
+    .empty {
+      padding: 12px;
+      border: 1px dashed var(--line);
+      border-radius: 12px;
+      color: var(--muted);
+      background: rgba(29,93,155,0.05);
+      font-size: 13px;
+    }
+    @media (max-width: 920px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>canada-gr0102e-2022 Asset QA</h1>
+      <p class="meta">Questions: 18 | Assets: 42 | Warnings: 0</p>
+    </header>
+    
+            <section class="question-card" id="q01">
+              <div class="question-head">
+                <div>
+                  <h2>Question 1</h2>
+                  <p>Page 1 | Answer E</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q01_reference.png" alt="Question 1 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Four of these ﬁve pictures show the Great Wheel at the Luna Park. Which picture shows a diﬀerent wheel?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q01_stem_01.png" alt="q01_stem_01" />
+                  <figcaption>q01_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q01_option_A_01.svg" alt="q01_option_A_01" />
+                      <figcaption>q01_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q01_option_B_01.svg" alt="q01_option_B_01" />
+                      <figcaption>q01_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q01_option_C_01.png" alt="q01_option_C_01" />
+                      <figcaption>q01_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q01_option_D_01.svg" alt="q01_option_D_01" />
+                      <figcaption>q01_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q01_option_E_01.svg" alt="q01_option_E_01" />
+                      <figcaption>q01_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q02">
+              <div class="question-head">
+                <div>
+                  <h2>Question 2</h2>
+                  <p>Page 1 | Answer C</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q02_reference.png" alt="Question 2 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">The picture shows 5 identical bricks. How many bricks are touching exactly 4 other bricks?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q02_stem_01.png" alt="q02_stem_01" />
+                  <figcaption>q02_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">1</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">2</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">5</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q03">
+              <div class="question-head">
+                <div>
+                  <h2>Question 3</h2>
+                  <p>Page 1 | Answer D</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q03_reference.png" alt="Question 3 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">One sandwich and one juice box together cost 12 dollars. One sandwich and two juice boxes together cost 14 dollars. ...... ..... How much do two juice boxes cost?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q03_stem_01.svg" alt="q03_stem_01" />
+                  <figcaption>q03_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">1</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">2</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">5</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q04">
+              <div class="question-head">
+                <div>
+                  <h2>Question 4</h2>
+                  <p>Page 2 | Answer D</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q04_reference.png" alt="Question 4 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Justin wants to make sure each column has only 2 coins and that each row has only 2 coins. A B C D E Where does he need to place the last coin?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid"><div class="empty">No stem image</div></div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">A</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">B</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">C</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">D</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">E</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q05">
+              <div class="question-head">
+                <div>
+                  <h2>Question 5</h2>
+                  <p>Page 2 | Answer B</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q05_reference.png" alt="Question 5 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">A monkey has torn a piece from Captain Jack’s map. Which is the missing piece? (You can rotate the pieces.)</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q05_stem_01.svg" alt="q05_stem_01" />
+                  <figcaption>q05_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q05_option_A_01.svg" alt="q05_option_A_01" />
+                      <figcaption>q05_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q05_option_B_01.svg" alt="q05_option_B_01" />
+                      <figcaption>q05_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q05_option_C_01.png" alt="q05_option_C_01" />
+                      <figcaption>q05_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q05_option_D_01.svg" alt="q05_option_D_01" />
+                      <figcaption>q05_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q05_option_E_01.svg" alt="q05_option_E_01" />
+                      <figcaption>q05_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q06">
+              <div class="question-head">
+                <div>
+                  <h2>Question 6</h2>
+                  <p>Page 2 | Answer A</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q06_reference.png" alt="Question 6 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">A piece of paper has 24 squares on it. Some ink spilled, as shown in the picture. How many of the squares have ink on them?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q06_stem_01.svg" alt="q06_stem_01" />
+                  <figcaption>q06_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">16</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">17</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">18</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">19</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">20</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q07">
+              <div class="question-head">
+                <div>
+                  <h2>Question 7</h2>
+                  <p>Page 3 | Answer E</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q07_reference.png" alt="Question 7 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">A koala, fox, ostrich, kangaroo, and puppy are sleeping in ﬁve baskets. One animal sleeps in each of the baskets. basket 1 basket 2 basket 3 basket 4 basket 5 The koala and the fox are sleeping in baskets with the same pattern and shape. The kangaroo and the ostrich have the same pattern on their baskets. Which basket is the puppy sleeping in?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q07_stem_01.png" alt="q07_stem_01" />
+                  <figcaption>q07_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">basket 1</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">basket 2</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">basket 3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">basket 4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">basket 5</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q08">
+              <div class="question-head">
+                <div>
+                  <h2>Question 8</h2>
+                  <p>Page 3 | Answer C</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q08_reference.png" alt="Question 8 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Kanga wants to reach the koala without going through any of the squares with colour on them. Which route could she take?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q08_stem_01.svg" alt="q08_stem_01" />
+                  <figcaption>q08_stem_01</figcaption>
+                </figure>
+                
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q08_stem_02.svg" alt="q08_stem_02" />
+                  <figcaption>q08_stem_02</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q08_option_A_01.png" alt="q08_option_A_01" />
+                      <figcaption>q08_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q08_option_B_01.png" alt="q08_option_B_01" />
+                      <figcaption>q08_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q08_option_C_01.png" alt="q08_option_C_01" />
+                      <figcaption>q08_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q08_option_D_01.png" alt="q08_option_D_01" />
+                      <figcaption>q08_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q08_option_E_01.png" alt="q08_option_E_01" />
+                      <figcaption>q08_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q09">
+              <div class="question-head">
+                <div>
+                  <h2>Question 9</h2>
+                  <p>Page 3 | Answer C</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q09_reference.png" alt="Question 9 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Ann has 4 stickers as shown. She sticks down the star after she sticks down the square. She sticks down the star before she sticks down the circle. Which picture could she end up with?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q09_stem_01.svg" alt="q09_stem_01" />
+                  <figcaption>q09_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q09_option_A_01.svg" alt="q09_option_A_01" />
+                      <figcaption>q09_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q09_option_B_01.svg" alt="q09_option_B_01" />
+                      <figcaption>q09_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q09_option_C_01.svg" alt="q09_option_C_01" />
+                      <figcaption>q09_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q09_option_D_01.svg" alt="q09_option_D_01" />
+                      <figcaption>q09_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">This material may be reproduced only with the permission of the Canadian Math Kangaroo Contest Corporation.</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q09_option_E_01.svg" alt="q09_option_E_01" />
+                      <figcaption>q09_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q10">
+              <div class="question-head">
+                <div>
+                  <h2>Question 10</h2>
+                  <p>Page 4 | Answer D</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q10_reference.png" alt="Question 10 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Dino moves from the entrance to the exit by going through rooms. He can only go through each room once. Dino adds up the numbers as he passes through each room. What is the highest total Dino can make?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q10_stem_01.svg" alt="q10_stem_01" />
+                  <figcaption>q10_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">27</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">29</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">32</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">34</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">36</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q11">
+              <div class="question-head">
+                <div>
+                  <h2>Question 11</h2>
+                  <p>Page 4 | Answer C</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q11_reference.png" alt="Question 11 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Some shapes are drawn on a piece of paper. The teacher folded the paper along the red line. How many of the shapes on the left will fall exactly on top a shape on the right?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid"><div class="empty">No stem image</div></div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">one</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">two</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">three</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">four</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">ﬁve 1</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q12">
+              <div class="question-head">
+                <div>
+                  <h2>Question 12</h2>
+                  <p>Page 4 | Answer A</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q12_reference.png" alt="Question 12 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Katrin builds a path around each square using tiles like the one shown. 2 1 3 5 How many tiles does she use around the square with side 5?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q12_stem_01.png" alt="q12_stem_01" />
+                  <figcaption>q12_stem_01</figcaption>
+                </figure>
+                
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q12_stem_02.svg" alt="q12_stem_02" />
+                  <figcaption>q12_stem_02</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">10</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">11</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">12</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">14</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">16</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q13">
+              <div class="question-head">
+                <div>
+                  <h2>Question 13</h2>
+                  <p>Page 5 | Answer A</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q13_reference.png" alt="Question 13 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">7 13. The sum of the ﬁve numbers in each house is 20. Some numbers have been painted over. What number is hidden under the question mark?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q13_stem_01.png" alt="q13_stem_01" />
+                  <figcaption>q13_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">7</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">9</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">14</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q14">
+              <div class="question-head">
+                <div>
+                  <h2>Question 14</h2>
+                  <p>Page 5 | Answer D</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q14_reference.png" alt="Question 14 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Jessica wrote down ﬁve digits and then covered each digit with a shape. Diﬀerent digits were covered by diﬀerent shapes, and the same digits were covered by the same shapes. What number is written under the shapes?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q14_stem_01.svg" alt="q14_stem_01" />
+                  <figcaption>q14_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">34424</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">34526</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">34423</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">34426</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">32446</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q15">
+              <div class="question-head">
+                <div>
+                  <h2>Question 15</h2>
+                  <p>Page 5 | Answer E</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q15_reference.png" alt="Question 15 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Kangu’s car can only turn left. Which of the following ﬁve routes can Kangu take?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid"><div class="empty">No stem image</div></div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q15_option_A_01.svg" alt="q15_option_A_01" />
+                      <figcaption>q15_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q15_option_B_01.svg" alt="q15_option_B_01" />
+                      <figcaption>q15_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q15_option_C_01.svg" alt="q15_option_C_01" />
+                      <figcaption>q15_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q15_option_D_01.svg" alt="q15_option_D_01" />
+                      <figcaption>q15_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/canada-gr0102e-2022/assets/q15_option_E_01.svg" alt="q15_option_E_01" />
+                      <figcaption>q15_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q16">
+              <div class="question-head">
+                <div>
+                  <h2>Question 16</h2>
+                  <p>Page 5 | Answer D</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q16_reference.png" alt="Question 16 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Lily wants to choose four diﬀerent cards so that the sum is 20. 3 5 11 13 1 9 7 What is the biggest number that Lily could choose?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q16_stem_01.png" alt="q16_stem_01" />
+                  <figcaption>q16_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">5</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">7</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">9</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">11</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">13</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q17">
+              <div class="question-head">
+                <div>
+                  <h2>Question 17</h2>
+                  <p>Page 5 | Answer C</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q17_reference.png" alt="Question 17 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">3 4 1 5 2 17. There are ﬁve numbered cards on the table as shown. You may swap two cards at each step. What is the smallest number of steps needed to put the cards into decreasing order (from largest to smallest)?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q17_stem_01.svg" alt="q17_stem_01" />
+                  <figcaption>q17_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">1</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">2</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">5</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q18">
+              <div class="question-head">
+                <div>
+                  <h2>Question 18</h2>
+                  <p>Page 6 | Answer A</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q18_reference.png" alt="Question 18 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">In the picture, diﬀerent shapes stand for diﬀerent numbers. The numbers shown and the question mark indicate the sum of the numbers in the row or column. + + 10 14 18 ? Which number should be written in place of the question mark?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/canada-gr0102e-2022/assets/q18_stem_01.svg" alt="q18_stem_01" />
+                  <figcaption>q18_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">10</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">12</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">14</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">16</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">18</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+  </main>
+</body>
+</html>

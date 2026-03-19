@@ -1,0 +1,27 @@
+[
+  {
+    "filename": "2020gr0102e.pdf",
+    "family": "canada_gr0102e_18",
+    "question_count": 18
+  },
+  {
+    "filename": "2014_Felix.pdf",
+    "family": "felix_austria_15",
+    "question_count": 15
+  },
+  {
+    "filename": "2020_Felix.pdf",
+    "family": "felix_brazil_24",
+    "question_count": 24
+  },
+  {
+    "filename": "2020_Answers.pdf",
+    "family": "answers_table_text_or_ocr",
+    "answer_mode": "text"
+  },
+  {
+    "filename": "2022_Answers.pdf",
+    "family": "answers_table_text_or_ocr",
+    "answer_mode": "ocr"
+  }
+]

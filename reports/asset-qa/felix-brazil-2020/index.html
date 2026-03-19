@@ -1,0 +1,1879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>felix-brazil-2020 asset QA</title>
+  <style>
+    :root {
+      --bg: #f6f2ea;
+      --ink: #161513;
+      --card: rgba(255,255,255,0.88);
+      --line: rgba(22,21,19,0.12);
+      --accent: #1d5d9b;
+      --muted: #5f5a52;
+      --shadow: 0 18px 40px rgba(14, 16, 21, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Helvetica Neue", "Arial", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(29,93,155,0.16), transparent 28rem),
+        linear-gradient(180deg, #efe7db, var(--bg));
+      color: var(--ink);
+    }
+    main {
+      width: min(1280px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 32px 0 56px;
+    }
+    header {
+      margin-bottom: 28px;
+      padding: 24px 26px;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: var(--card);
+      box-shadow: var(--shadow);
+    }
+    h1, h2, h3 { margin: 0; }
+    p { margin: 0; }
+    .meta { margin-top: 10px; color: var(--muted); }
+    .question-card {
+      margin-top: 20px;
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: var(--card);
+      box-shadow: var(--shadow);
+    }
+    .question-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      margin-bottom: 16px;
+    }
+    .status {
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(29,93,155,0.12);
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 13px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .panel {
+      padding: 16px;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.78);
+    }
+    .panel h3 {
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+    .panel img {
+      display: block;
+      max-width: 100%;
+      border-radius: 12px;
+      background: white;
+    }
+    .text-block {
+      white-space: pre-wrap;
+      line-height: 1.55;
+      margin-bottom: 14px;
+    }
+    .asset-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+    }
+    .asset-card {
+      margin: 0;
+      padding: 12px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: white;
+    }
+    .asset-card.small {
+      min-height: 120px;
+    }
+    .asset-card figcaption {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      word-break: break-all;
+    }
+    .options-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 12px;
+    }
+    .option-card {
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: white;
+    }
+    .option-label {
+      font-weight: 800;
+      font-size: 14px;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+    .option-text {
+      min-height: 38px;
+      color: var(--muted);
+      line-height: 1.45;
+      margin-bottom: 10px;
+      white-space: pre-wrap;
+    }
+    .option-assets {
+      display: grid;
+      gap: 10px;
+    }
+    .empty {
+      padding: 12px;
+      border: 1px dashed var(--line);
+      border-radius: 12px;
+      color: var(--muted);
+      background: rgba(29,93,155,0.05);
+      font-size: 13px;
+    }
+    @media (max-width: 920px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>felix-brazil-2020 Asset QA</h1>
+      <p class="meta">Questions: 24 | Assets: 74 | Warnings: 0</p>
+    </header>
+    
+            <section class="question-card" id="q01">
+              <div class="question-head">
+                <div>
+                  <h2>Question 1</h2>
+                  <p>Page 1 | Answer E</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q01_reference.png" alt="Question 1 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">The kangaroo goes up three steps each time the rabbit goes down two steps. When the kangaroo is on step 9, on which step will the rabbit be?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid"><div class="empty">No stem image</div></div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">5</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">6</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">7</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q02">
+              <div class="question-head">
+                <div>
+                  <h2>Question 2</h2>
+                  <p>Page 1 | Answer B</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q02_reference.png" alt="Question 2 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Julia has 5 pieces of plastic and has stacked these pieces on a table, as shown beside. What was the second piece she put on the table?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid"><div class="empty">No stem image</div></div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q02_option_A_01.png" alt="q02_option_A_01" />
+                      <figcaption>q02_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q02_option_B_01.png" alt="q02_option_B_01" />
+                      <figcaption>q02_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q02_option_C_01.png" alt="q02_option_C_01" />
+                      <figcaption>q02_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q02_option_D_01.png" alt="q02_option_D_01" />
+                      <figcaption>q02_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q02_option_E_01.png" alt="q02_option_E_01" />
+                      <figcaption>q02_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q03">
+              <div class="question-head">
+                <div>
+                  <h2>Question 3</h2>
+                  <p>Page 1 | Answer C</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q03_reference.png" alt="Question 3 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">1 3. Marco&#x27;s father took a picture of his son in front of the car shown beside. Which of the drawings below could represent this picture?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q03_stem_01.png" alt="q03_stem_01" />
+                  <figcaption>q03_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q03_option_A_01.png" alt="q03_option_A_01" />
+                      <figcaption>q03_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q03_option_B_01.png" alt="q03_option_B_01" />
+                      <figcaption>q03_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q03_option_C_01.png" alt="q03_option_C_01" />
+                      <figcaption>q03_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q03_option_D_01.png" alt="q03_option_D_01" />
+                      <figcaption>q03_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q03_option_E_01.png" alt="q03_option_E_01" />
+                      <figcaption>q03_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q04">
+              <div class="question-head">
+                <div>
+                  <h2>Question 4</h2>
+                  <p>Page 2 | Answer E</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q04_reference.png" alt="Question 4 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Every night the wizard Tilim makes the weather forecast for the king. When Tilim gets it right he gets 3 gold coins, but when he makes a mistake, he pays a fine of 2 gold coins. After making the prediction for 5 days, Tilim did the math and discovered that he neither won nor lost coins. How many times did he get the weather forecast right in those 5 days?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid"><div class="empty">No stem image</div></div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">none</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">1</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">2</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q05">
+              <div class="question-head">
+                <div>
+                  <h2>Question 5</h2>
+                  <p>Page 2 | Answer C</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q05_reference.png" alt="Question 5 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">A magician takes animals out of his hat always in the same order, as shown below. The pattern of the figure is repeated every five animals. What will be the fourteenth animal he will pull out of his hat?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q05_stem_01.png" alt="q05_stem_01" />
+                  <figcaption>q05_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q05_option_A_01.png" alt="q05_option_A_01" />
+                      <figcaption>q05_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q05_option_B_01.png" alt="q05_option_B_01" />
+                      <figcaption>q05_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q05_option_C_01.png" alt="q05_option_C_01" />
+                      <figcaption>q05_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q05_option_D_01.png" alt="q05_option_D_01" />
+                      <figcaption>q05_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q05_option_E_01.png" alt="q05_option_E_01" />
+                      <figcaption>q05_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q06">
+              <div class="question-head">
+                <div>
+                  <h2>Question 6</h2>
+                  <p>Page 2 | Answer A</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q06_reference.png" alt="Question 6 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Ana has the cards shown on the left. She chooses several of them to assemble the tower shown on the right. Which cards did she not use?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q06_stem_01.png" alt="q06_stem_01" />
+                  <figcaption>q06_stem_01</figcaption>
+                </figure>
+                
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q06_stem_02.png" alt="q06_stem_02" />
+                  <figcaption>q06_stem_02</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q06_option_A_01.png" alt="q06_option_A_01" />
+                      <figcaption>q06_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q06_option_B_01.png" alt="q06_option_B_01" />
+                      <figcaption>q06_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q06_option_C_01.png" alt="q06_option_C_01" />
+                      <figcaption>q06_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q06_option_D_01.png" alt="q06_option_D_01" />
+                      <figcaption>q06_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q06_option_E_01.png" alt="q06_option_E_01" />
+                      <figcaption>q06_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q07">
+              <div class="question-head">
+                <div>
+                  <h2>Question 7</h2>
+                  <p>Page 2 | Answer C</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q07_reference.png" alt="Question 7 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Maria made a block using white cubes and colored cubes in equal amounts. How many of the white cubes cannot be seen in the picture?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q07_stem_01.png" alt="q07_stem_01" />
+                  <figcaption>q07_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">1</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">2</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">5</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q08">
+              <div class="question-head">
+                <div>
+                  <h2>Question 8</h2>
+                  <p>Page 2 | Answer B</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q08_reference.png" alt="Question 8 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">2 8. Ana draws some shapes on a sheet. Her drawing has fewer squares than triangles. What could be her drawing?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q08_stem_01.svg" alt="q08_stem_01" />
+                  <figcaption>q08_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q08_option_A_01.png" alt="q08_option_A_01" />
+                      <figcaption>q08_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q08_option_B_01.png" alt="q08_option_B_01" />
+                      <figcaption>q08_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q08_option_C_01.png" alt="q08_option_C_01" />
+                      <figcaption>q08_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q08_option_D_01.png" alt="q08_option_D_01" />
+                      <figcaption>q08_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q08_option_E_01.png" alt="q08_option_E_01" />
+                      <figcaption>q08_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q09">
+              <div class="question-head">
+                <div>
+                  <h2>Question 9</h2>
+                  <p>Page 3 | Answer D</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q09_reference.png" alt="Question 9 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Which of the tiles below is NOT part of the wall next door?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q09_stem_01.png" alt="q09_stem_01" />
+                  <figcaption>q09_stem_01</figcaption>
+                </figure>
+                
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q09_stem_02.png" alt="q09_stem_02" />
+                  <figcaption>q09_stem_02</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q09_option_A_01.png" alt="q09_option_A_01" />
+                      <figcaption>q09_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q09_option_B_01.png" alt="q09_option_B_01" />
+                      <figcaption>q09_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q09_option_C_01.png" alt="q09_option_C_01" />
+                      <figcaption>q09_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q09_option_D_01.png" alt="q09_option_D_01" />
+                      <figcaption>q09_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q09_option_E_01.png" alt="q09_option_E_01" />
+                      <figcaption>q09_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q10">
+              <div class="question-head">
+                <div>
+                  <h2>Question 10</h2>
+                  <p>Page 3 | Answer E</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q10_reference.png" alt="Question 10 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">A village of 12 houses has four straight streets and four circular streets. The map shows 11 houses. In each straight street there are three houses and in each circular street there are also three houses. Where should the 12th house be placed on this map?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q10_stem_01.png" alt="q10_stem_01" />
+                  <figcaption>q10_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">On</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">On</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">On</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">On</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">On</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q11">
+              <div class="question-head">
+                <div>
+                  <h2>Question 11</h2>
+                  <p>Page 3 | Answer D</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q11_reference.png" alt="Question 11 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Five blocks are built with equal cubes glued face to face. In which of them was the smallest num- ber of cubes used?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid"><div class="empty">No stem image</div></div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q11_option_A_01.png" alt="q11_option_A_01" />
+                      <figcaption>q11_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q11_option_B_01.png" alt="q11_option_B_01" />
+                      <figcaption>q11_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q11_option_C_01.png" alt="q11_option_C_01" />
+                      <figcaption>q11_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q11_option_D_01.png" alt="q11_option_D_01" />
+                      <figcaption>q11_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q11_option_E_01.png" alt="q11_option_E_01" />
+                      <figcaption>q11_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q12">
+              <div class="question-head">
+                <div>
+                  <h2>Question 12</h2>
+                  <p>Page 3 | Answer A</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q12_reference.png" alt="Question 12 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Numbers were written on the petals of two flowers, with a number on each petal. One of the petals is hidden. The sum of the numbers written on the back flower is twice the sum of the numbers written on the front flower. What is the number written on the hidden petal?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q12_stem_01.png" alt="q12_stem_01" />
+                  <figcaption>q12_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">5</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">12</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">25</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">30</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">40</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q13">
+              <div class="question-head">
+                <div>
+                  <h2>Question 13</h2>
+                  <p>Page 3 | Answer D</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q13_reference.png" alt="Question 13 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">3 13. Six figures were drawn, one on each side of a cube, as shown be- side, in different positions. On the side that does not appear beside is this drawing: What is the figure on the face opposite to it?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q13_stem_01.png" alt="q13_stem_01" />
+                  <figcaption>q13_stem_01</figcaption>
+                </figure>
+                
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q13_stem_02.png" alt="q13_stem_02" />
+                  <figcaption>q13_stem_02</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q13_option_A_01.png" alt="q13_option_A_01" />
+                      <figcaption>q13_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q13_option_B_01.png" alt="q13_option_B_01" />
+                      <figcaption>q13_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q13_option_C_01.png" alt="q13_option_C_01" />
+                      <figcaption>q13_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q13_option_D_01.png" alt="q13_option_D_01" />
+                      <figcaption>q13_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q13_option_E_01.png" alt="q13_option_E_01" />
+                      <figcaption>q13_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q14">
+              <div class="question-head">
+                <div>
+                  <h2>Question 14</h2>
+                  <p>Page 4 | Answer B</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q14_reference.png" alt="Question 14 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Maria wants to write whole numbers in the squares of the figure, so that the sum of the numbers in three consecutive squares is always 10. She has al- ready written a number. What number should she write on the gray square?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q14_stem_01.png" alt="q14_stem_01" />
+                  <figcaption>q14_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">1</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">2</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">8</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q15">
+              <div class="question-head">
+                <div>
+                  <h2>Question 15</h2>
+                  <p>Page 4 | Answer B</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q15_reference.png" alt="Question 15 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Turning a card around on the top side, we see the photo of the kangaroo. Instead, if we turn the card around on the right side, what will appear?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q15_stem_01.png" alt="q15_stem_01" />
+                  <figcaption>q15_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q15_option_A_01.png" alt="q15_option_A_01" />
+                      <figcaption>q15_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q15_option_B_01.png" alt="q15_option_B_01" />
+                      <figcaption>q15_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q15_option_C_01.png" alt="q15_option_C_01" />
+                      <figcaption>q15_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q15_option_D_01.png" alt="q15_option_D_01" />
+                      <figcaption>q15_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q15_option_E_01.png" alt="q15_option_E_01" />
+                      <figcaption>q15_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q16">
+              <div class="question-head">
+                <div>
+                  <h2>Question 16</h2>
+                  <p>Page 4 | Answer D</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q16_reference.png" alt="Question 16 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Grandma has just baked 23 cupcakes and wants to give the same amount of them to each of her six grandchildren, eating what is left over. At least how many cupcakes will she have left to eat?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid"><div class="empty">No stem image</div></div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">1</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q16_option_A_01.svg" alt="q16_option_A_01" />
+                      <figcaption>q16_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">2</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">4</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q16_option_D_01.png" alt="q16_option_D_01" />
+                      <figcaption>q16_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">5 5 points</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q16_option_E_01.png" alt="q16_option_E_01" />
+                      <figcaption>q16_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q17">
+              <div class="question-head">
+                <div>
+                  <h2>Question 17</h2>
+                  <p>Page 4 | Answer E</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q17_reference.png" alt="Question 17 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Tom has these nine cards: He places these cards on the board next to each other so that each horizontal line and each vertical line has three cards with the three different shapes and the three different amounts of drawings. He has already placed three cards, as shown in the picture. Which card should he place in the colored box?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q17_stem_01.png" alt="q17_stem_01" />
+                  <figcaption>q17_stem_01</figcaption>
+                </figure>
+                
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q17_stem_02.png" alt="q17_stem_02" />
+                  <figcaption>q17_stem_02</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q17_option_A_01.png" alt="q17_option_A_01" />
+                      <figcaption>q17_option_A_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q17_option_B_01.png" alt="q17_option_B_01" />
+                      <figcaption>q17_option_B_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q17_option_C_01.png" alt="q17_option_C_01" />
+                      <figcaption>q17_option_C_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q17_option_D_01.png" alt="q17_option_D_01" />
+                      <figcaption>q17_option_D_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">(image option)</div>
+                  <div class="option-assets">
+                    <figure class="asset-card small">
+                      <img src="../../../data/exams/felix-brazil-2020/assets/q17_option_E_01.png" alt="q17_option_E_01" />
+                      <figcaption>q17_option_E_01</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q18">
+              <div class="question-head">
+                <div>
+                  <h2>Question 18</h2>
+                  <p>Page 4 | Answer E</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q18_reference.png" alt="Question 18 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">4 18. Two equal trains, each with 31 numbered wagons, travel in opposite directions. When the wagon number 7 of a train is side by side with the wagon number 12 of the other train, which wagon is side by side with the wagon number 11?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q18_stem_01.png" alt="q18_stem_01" />
+                  <figcaption>q18_stem_01</figcaption>
+                </figure>
+                
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q18_stem_02.svg" alt="q18_stem_02" />
+                  <figcaption>q18_stem_02</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">8</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">10</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">11</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">12</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">15</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q19">
+              <div class="question-head">
+                <div>
+                  <h2>Question 19</h2>
+                  <p>Page 5 | Answer A</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q19_reference.png" alt="Question 19 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Tania bought 14 chocolates, 8 of them round and the rest square. Half were white chocolates and half were dark chocolates. Among the square chocolates, only two are not white. How many dark round chocolates did Tania buy?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid"><div class="empty">No stem image</div></div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">2</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">4</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">5</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">6</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q20">
+              <div class="question-head">
+                <div>
+                  <h2>Question 20</h2>
+                  <p>Page 5 | Answer D</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q20_reference.png" alt="Question 20 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Six different numbers, chosen from integers 1 to 9, are written on the faces of a cube, one number per face. The sum of the numbers on each pair of opposite faces is always the same. Which of the following numbers could have been written on the opposite side with the number 8?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q20_stem_01.png" alt="q20_stem_01" />
+                  <figcaption>q20_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">3</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">5</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">6</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">7</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">9</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q21">
+              <div class="question-head">
+                <div>
+                  <h2>Question 21</h2>
+                  <p>Page 5 | Answer A</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q21_reference.png" alt="Question 21 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">In a classroom, there are two chairs for each table. Each of the boys in the class sits with a girl on the same table, but there are four girls who do not sit on tables with a boy. There are 14 little tables in the classroom. How many girls are in that class?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid"><div class="empty">No stem image</div></div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">6</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">10</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">12</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">14</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">16</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q22">
+              <div class="question-head">
+                <div>
+                  <h2>Question 22</h2>
+                  <p>Page 5 | Answer E</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q22_reference.png" alt="Question 22 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">Rita numbered the circles of the figure from 1 to 8, so that the sum of the three numbers on each of the four sides of the square equals 13. What is the sum of the four numbers written on the colored circles?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q22_stem_01.png" alt="q22_stem_01" />
+                  <figcaption>q22_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">12</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">13</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">14</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">15</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">16</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q23">
+              <div class="question-head">
+                <div>
+                  <h2>Question 23</h2>
+                  <p>Page 5 | Answer E</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q23_reference.png" alt="Question 23 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">In the figure, an arrow pointing from one person to another means that the first person is shorter than the second. For example, person B is shorter than person A. Which person is the tallest?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid">
+                <figure class="asset-card">
+                  <img src="../../../data/exams/felix-brazil-2020/assets/q23_stem_01.png" alt="q23_stem_01" />
+                  <figcaption>q23_stem_01</figcaption>
+                </figure>
+                </div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">Person</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">Person</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">Person</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">Person</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">Person</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="question-card" id="q24">
+              <div class="question-head">
+                <div>
+                  <h2>Question 24</h2>
+                  <p>Page 5 | Answer C</p>
+                </div>
+                <div class="status">OK</div>
+              </div>
+              <div class="grid">
+                <div class="panel">
+                  <h3>Original Question Region</h3>
+                  <img src="images/q24_reference.png" alt="Question 24 reference" />
+                </div>
+                <div class="panel">
+                  <h3>Stem Text</h3>
+                  <p class="text-block">5 24. Maia the bee can only walk on colorful houses. How many ways can you color exactly three white houses with the same color so that Maia can walk from A to B?</p>
+                  <h3>Stem Images</h3>
+                  <div class="asset-grid"><div class="empty">No stem image</div></div>
+                </div>
+              </div>
+              <div class="panel">
+                <h3>Options</h3>
+                <div class="options-grid">
+                <div class="option-card">
+                  <div class="option-label">A</div>
+                  <div class="option-text">15</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">B</div>
+                  <div class="option-text">16</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">C</div>
+                  <div class="option-text">17</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">D</div>
+                  <div class="option-text">18</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                
+                <div class="option-card">
+                  <div class="option-label">E</div>
+                  <div class="option-text">20</div>
+                  <div class="option-assets"><div class="empty">No option image</div></div>
+                </div>
+                </div>
+              </div>
+            </section>
+            
+  </main>
+</body>
+</html>
