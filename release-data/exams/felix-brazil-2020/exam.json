@@ -1,0 +1,1738 @@
+{
+  "exam_id": "felix-brazil-2020",
+  "year": 2020,
+  "family": "felix_brazil_24",
+  "level": "level-p",
+  "language": "en",
+  "duration_minutes": null,
+  "question_count": 24,
+  "scoring_rules": [
+    {
+      "from": 1,
+      "to": 8,
+      "points": 3
+    },
+    {
+      "from": 9,
+      "to": 16,
+      "points": 4
+    },
+    {
+      "from": 17,
+      "to": 24,
+      "points": 5
+    }
+  ],
+  "instructions": [
+    "Canguru de Matemática Brasil - Level P - 2020 - Second Application",
+    "3 points"
+  ],
+  "answer_key": {
+    "1": "B",
+    "2": "C",
+    "3": "E",
+    "4": "C",
+    "5": "A",
+    "6": "C",
+    "7": "B",
+    "8": "D",
+    "9": "E",
+    "10": "D",
+    "11": "A",
+    "12": "D",
+    "13": "B",
+    "14": "B",
+    "15": "D",
+    "16": "E",
+    "17": "E",
+    "18": "A",
+    "19": "D",
+    "20": "A",
+    "21": "E",
+    "22": "E",
+    "23": "C",
+    "24": "B"
+  },
+  "assets": [
+    {
+      "id": "q01_stem_01",
+      "path": "assets/q01_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 494,
+      "height": 247
+    },
+    {
+      "id": "q02_stem_01",
+      "path": "assets/q02_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 234,
+      "height": 194
+    },
+    {
+      "id": "q02_option_A_01",
+      "path": "assets/q02_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 113,
+      "height": 175
+    },
+    {
+      "id": "q02_option_B_01",
+      "path": "assets/q02_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 110,
+      "height": 122
+    },
+    {
+      "id": "q02_option_C_01",
+      "path": "assets/q02_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 112,
+      "height": 121
+    },
+    {
+      "id": "q02_option_D_01",
+      "path": "assets/q02_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 236,
+      "height": 71
+    },
+    {
+      "id": "q02_option_E_01",
+      "path": "assets/q02_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 119,
+      "height": 108
+    },
+    {
+      "id": "q03_stem_01",
+      "path": "assets/q03_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 210,
+      "height": 161
+    },
+    {
+      "id": "q03_option_A_01",
+      "path": "assets/q03_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 189,
+      "height": 167
+    },
+    {
+      "id": "q03_option_B_01",
+      "path": "assets/q03_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 180,
+      "height": 152
+    },
+    {
+      "id": "q03_option_C_01",
+      "path": "assets/q03_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 197,
+      "height": 180
+    },
+    {
+      "id": "q03_option_D_01",
+      "path": "assets/q03_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 184,
+      "height": 164
+    },
+    {
+      "id": "q03_option_E_01",
+      "path": "assets/q03_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 185,
+      "height": 168
+    },
+    {
+      "id": "q05_stem_01",
+      "path": "assets/q05_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 808,
+      "height": 101
+    },
+    {
+      "id": "q05_option_A_01",
+      "path": "assets/q05_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 64,
+      "height": 66
+    },
+    {
+      "id": "q05_option_B_01",
+      "path": "assets/q05_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 90,
+      "height": 64
+    },
+    {
+      "id": "q05_option_C_01",
+      "path": "assets/q05_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 52,
+      "height": 59
+    },
+    {
+      "id": "q05_option_D_01",
+      "path": "assets/q05_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 84,
+      "height": 66
+    },
+    {
+      "id": "q05_option_E_01",
+      "path": "assets/q05_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 77,
+      "height": 66
+    },
+    {
+      "id": "q06_stem_01",
+      "path": "assets/q06_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 232,
+      "height": 224
+    },
+    {
+      "id": "q06_stem_02",
+      "path": "assets/q06_stem_02.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 154,
+      "height": 266
+    },
+    {
+      "id": "q06_option_A_01",
+      "path": "assets/q06_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 136,
+      "height": 66
+    },
+    {
+      "id": "q06_option_B_01",
+      "path": "assets/q06_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 150,
+      "height": 57
+    },
+    {
+      "id": "q06_option_C_01",
+      "path": "assets/q06_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 141,
+      "height": 55
+    },
+    {
+      "id": "q06_option_D_01",
+      "path": "assets/q06_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 131,
+      "height": 56
+    },
+    {
+      "id": "q06_option_E_01",
+      "path": "assets/q06_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 77,
+      "height": 52
+    },
+    {
+      "id": "q07_stem_01",
+      "path": "assets/q07_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 194,
+      "height": 161
+    },
+    {
+      "id": "q08_option_A_01",
+      "path": "assets/q08_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 136,
+      "height": 229
+    },
+    {
+      "id": "q08_option_B_01",
+      "path": "assets/q08_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 134,
+      "height": 226
+    },
+    {
+      "id": "q08_option_C_01",
+      "path": "assets/q08_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 132,
+      "height": 224
+    },
+    {
+      "id": "q08_option_D_01",
+      "path": "assets/q08_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 136,
+      "height": 222
+    },
+    {
+      "id": "q08_option_E_01",
+      "path": "assets/q08_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 134,
+      "height": 220
+    },
+    {
+      "id": "q09_stem_01",
+      "path": "assets/q09_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 320,
+      "height": 220
+    },
+    {
+      "id": "q09_option_A_01",
+      "path": "assets/q09_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 75,
+      "height": 80
+    },
+    {
+      "id": "q09_option_B_01",
+      "path": "assets/q09_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 82,
+      "height": 80
+    },
+    {
+      "id": "q09_option_C_01",
+      "path": "assets/q09_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 78,
+      "height": 78
+    },
+    {
+      "id": "q09_option_D_01",
+      "path": "assets/q09_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 77,
+      "height": 78
+    },
+    {
+      "id": "q09_option_E_01",
+      "path": "assets/q09_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 76,
+      "height": 77
+    },
+    {
+      "id": "q10_stem_01",
+      "path": "assets/q10_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 271,
+      "height": 266
+    },
+    {
+      "id": "q11_option_A_01",
+      "path": "assets/q11_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 91,
+      "height": 143
+    },
+    {
+      "id": "q11_option_B_01",
+      "path": "assets/q11_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 124,
+      "height": 124
+    },
+    {
+      "id": "q11_option_C_01",
+      "path": "assets/q11_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 164,
+      "height": 106
+    },
+    {
+      "id": "q11_option_D_01",
+      "path": "assets/q11_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 140,
+      "height": 113
+    },
+    {
+      "id": "q11_option_E_01",
+      "path": "assets/q11_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 143,
+      "height": 143
+    },
+    {
+      "id": "q12_stem_01",
+      "path": "assets/q12_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 266,
+      "height": 296
+    },
+    {
+      "id": "q13_stem_01",
+      "path": "assets/q13_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 334,
+      "height": 180
+    },
+    {
+      "id": "q13_option_A_01",
+      "path": "assets/q13_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 57,
+      "height": 61
+    },
+    {
+      "id": "q13_option_B_01",
+      "path": "assets/q13_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 57,
+      "height": 66
+    },
+    {
+      "id": "q13_option_C_01",
+      "path": "assets/q13_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 62,
+      "height": 57
+    },
+    {
+      "id": "q13_option_D_01",
+      "path": "assets/q13_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 69,
+      "height": 55
+    },
+    {
+      "id": "q13_option_E_01",
+      "path": "assets/q13_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 57,
+      "height": 57
+    },
+    {
+      "id": "q14_stem_01",
+      "path": "assets/q14_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 205,
+      "height": 69
+    },
+    {
+      "id": "q15_stem_01",
+      "path": "assets/q15_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 243,
+      "height": 254
+    },
+    {
+      "id": "q15_option_A_01",
+      "path": "assets/q15_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 124,
+      "height": 138
+    },
+    {
+      "id": "q15_option_B_01",
+      "path": "assets/q15_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 120,
+      "height": 136
+    },
+    {
+      "id": "q15_option_C_01",
+      "path": "assets/q15_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 125,
+      "height": 131
+    },
+    {
+      "id": "q15_option_D_01",
+      "path": "assets/q15_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 120,
+      "height": 129
+    },
+    {
+      "id": "q15_option_E_01",
+      "path": "assets/q15_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 115,
+      "height": 131
+    },
+    {
+      "id": "q17_stem_01",
+      "path": "assets/q17_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 462,
+      "height": 61
+    },
+    {
+      "id": "q17_stem_02",
+      "path": "assets/q17_stem_02.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 205,
+      "height": 210
+    },
+    {
+      "id": "q17_option_A_01",
+      "path": "assets/q17_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 68,
+      "height": 66
+    },
+    {
+      "id": "q17_option_B_01",
+      "path": "assets/q17_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 66,
+      "height": 69
+    },
+    {
+      "id": "q17_option_C_01",
+      "path": "assets/q17_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 71,
+      "height": 66
+    },
+    {
+      "id": "q17_option_D_01",
+      "path": "assets/q17_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 68,
+      "height": 63
+    },
+    {
+      "id": "q17_option_E_01",
+      "path": "assets/q17_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 68,
+      "height": 66
+    },
+    {
+      "id": "q18_stem_01",
+      "path": "assets/q18_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 659,
+      "height": 196
+    },
+    {
+      "id": "q20_stem_01",
+      "path": "assets/q20_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 171,
+      "height": 201
+    },
+    {
+      "id": "q22_stem_01",
+      "path": "assets/q22_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 190,
+      "height": 201
+    },
+    {
+      "id": "q23_stem_01",
+      "path": "assets/q23_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 266,
+      "height": 257
+    },
+    {
+      "id": "q24_stem_01",
+      "path": "assets/q24_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 215,
+      "height": 148
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "number": 1,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "The kangaroo goes up three steps each time the rabbit goes down two steps. When the kangaroo is on step 9, on which step will the rabbit be?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "7",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q01_stem_01"
+      ]
+    },
+    {
+      "id": "q02",
+      "number": 2,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "Julia has 5 pieces of plastic and has stacked these pieces on a table, as shown beside. What was the second piece she put on the table?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q02_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q02_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q02_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q02_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q02_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q02_stem_01"
+      ]
+    },
+    {
+      "id": "q03",
+      "number": 3,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "1 3. Marco's father took a picture of his son in front of the car shown beside. Which of the drawings below could represent this picture?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q03_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q03_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q03_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q03_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q03_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q03_stem_01"
+      ]
+    },
+    {
+      "id": "q04",
+      "number": 4,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "Every night the wizard Tilim makes the weather forecast for the king. When Tilim gets it right he gets 3 gold coins, but when he makes a mistake, he pays a fine of 2 gold coins. After making the prediction for 5 days, Tilim did the math and discovered that he neither won nor lost coins. How many times did he get the weather forecast right in those 5 days?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "none",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "1",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "2",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "4",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q05",
+      "number": 5,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "A magician takes animals out of his hat always in the same order, as shown below. The pattern of the figure is repeated every five animals. What will be the fourteenth animal he will pull out of his hat?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q05_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q05_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q05_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q05_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q05_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q05_stem_01"
+      ]
+    },
+    {
+      "id": "q06",
+      "number": 6,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "Ana has the cards shown on the left. She chooses several of them to assemble the tower shown on the right. Which cards did she not use?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q06_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q06_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q06_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q06_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q06_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q06_stem_01",
+        "q06_stem_02"
+      ]
+    },
+    {
+      "id": "q07",
+      "number": 7,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "Maria made a block using white cubes and colored cubes in equal amounts. How many of the white cubes cannot be seen in the picture?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "5",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q07_stem_01"
+      ]
+    },
+    {
+      "id": "q08",
+      "number": 8,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "2 8. Ana draws some shapes on a sheet. Her drawing has fewer squares than triangles. What could be her drawing?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q08_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q08_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q08_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q08_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q08_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q09",
+      "number": 9,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Which of the tiles below is NOT part of the wall next door?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q09_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q09_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q09_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q09_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q09_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q09_stem_01"
+      ]
+    },
+    {
+      "id": "q10",
+      "number": 10,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "A village of 12 houses has four straight streets and four circular streets. The map shows 11 houses. In each straight street there are three houses and in each circular street there are also three houses. Where should the 12th house be placed on this map?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "On",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "On",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "On",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "On",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "On",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q10_stem_01"
+      ]
+    },
+    {
+      "id": "q11",
+      "number": 11,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Five blocks are built with equal cubes glued face to face. In which of them was the smallest num- ber of cubes used?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q11_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q11_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q11_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q11_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q11_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q12",
+      "number": 12,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Numbers were written on the petals of two flowers, with a number on each petal. One of the petals is hidden. The sum of the numbers written on the back flower is twice the sum of the numbers written on the front flower. What is the number written on the hidden petal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "12",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "25",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "30",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "40",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q12_stem_01"
+      ]
+    },
+    {
+      "id": "q13",
+      "number": 13,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "3 13. Six figures were drawn, one on each side of a cube, as shown be- side, in different positions. On the side that does not appear beside is this drawing: What is the figure on the face opposite to it?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q13_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q13_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q13_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q13_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q13_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q13_stem_01"
+      ]
+    },
+    {
+      "id": "q14",
+      "number": 14,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Maria wants to write whole numbers in the squares of the figure, so that the sum of the numbers in three consecutive squares is always 10. She has al- ready written a number. What number should she write on the gray square?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "8",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q14_stem_01"
+      ]
+    },
+    {
+      "id": "q15",
+      "number": 15,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Turning a card around on the top side, we see the photo of the kangaroo. Instead, if we turn the card around on the right side, what will appear?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q15_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q15_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q15_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q15_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q15_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q15_stem_01"
+      ]
+    },
+    {
+      "id": "q16",
+      "number": 16,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Grandma has just baked 23 cupcakes and wants to give the same amount of them to each of her six grandchildren, eating what is left over. At least how many cupcakes will she have left to eat?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "5 5 points",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q17",
+      "number": 17,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "Tom has these nine cards: He places these cards on the board next to each other so that each horizontal line and each vertical line has three cards with the three different shapes and the three different amounts of drawings. He has already placed three cards, as shown in the picture. Which card should he place in the colored box?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q17_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q17_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q17_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q17_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q17_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q17_stem_01",
+        "q17_stem_02"
+      ]
+    },
+    {
+      "id": "q18",
+      "number": 18,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "4 18. Two equal trains, each with 31 numbered wagons, travel in opposite directions. When the wagon number 7 of a train is side by side with the wagon number 12 of the other train, which wagon is side by side with the wagon number 11?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "8",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "10",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "11",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "12",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "15",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q18_stem_01"
+      ]
+    },
+    {
+      "id": "q19",
+      "number": 19,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "Tania bought 14 chocolates, 8 of them round and the rest square. Half were white chocolates and half were dark chocolates. Among the square chocolates, only two are not white. How many dark round chocolates did Tania buy?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "6",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q20",
+      "number": 20,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "Six different numbers, chosen from integers 1 to 9, are written on the faces of a cube, one number per face. The sum of the numbers on each pair of opposite faces is always the same. Which of the following numbers could have been written on the opposite side with the number 8?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "7",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "9",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q20_stem_01"
+      ]
+    },
+    {
+      "id": "q21",
+      "number": 21,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "In a classroom, there are two chairs for each table. Each of the boys in the class sits with a girl on the same table, but there are four girls who do not sit on tables with a boy. There are 14 little tables in the classroom. How many girls are in that class?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "10",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "12",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "14",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "16",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q22",
+      "number": 22,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "Rita numbered the circles of the figure from 1 to 8, so that the sum of the three numbers on each of the four sides of the square equals 13. What is the sum of the four numbers written on the colored circles?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "12",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "13",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "14",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "15",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "16",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q22_stem_01"
+      ]
+    },
+    {
+      "id": "q23",
+      "number": 23,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "In the figure, an arrow pointing from one person to another means that the first person is shorter than the second. For example, person B is shorter than person A. Which person is the tallest?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Person",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "Person",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "Person",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "Person",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "Person",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q23_stem_01"
+      ]
+    },
+    {
+      "id": "q24",
+      "number": 24,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "5 24. Maia the bee can only walk on colorful houses. How many ways can you color exactly three white houses with the same color so that Maia can walk from A to B?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "15",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "16",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "17",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "18",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "20",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q24_stem_01"
+      ]
+    }
+  ]
+}

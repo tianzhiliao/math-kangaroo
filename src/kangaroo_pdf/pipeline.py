@@ -21,6 +21,7 @@ from .diagram_assets import (
     choice_requires_asset,
     extract_question_assets,
 )
+from .verified_answers import verified_answer_key_for_exam, verified_answer_key_ref
 
 OPTION_LABELS = ("A", "B", "C", "D", "E")
 QUESTION_WORD_RE = re.compile(r"^(\d{1,2})\.$")
@@ -655,6 +656,8 @@ def extract_canada_answers(doc: fitz.Document, question_count: int) -> dict[str,
     row_words = extract_row_words(page, question_count)
     answers: dict[str, str] = {}
     confidences: dict[str, float] = {}
+    page_by_question: dict[str, int] = {}
+    bbox_by_question: dict[str, list[float]] = {}
     warnings: list[str] = []
 
     for number in range(1, question_count + 1):
@@ -680,10 +683,14 @@ def extract_canada_answers(doc: fitz.Document, question_count: int) -> dict[str,
             continue
         answers[str(number)] = selected
         confidences[str(number)] = round(min(1.0, top / max(1.0, top + second)), 3)
+        page_by_question[str(number)] = len(doc)
+        bbox_by_question[str(number)] = round_rect(candidates[selected])
     return {
         "answers": answers,
         "method": "embedded_answer_page_underline",
         "confidence_by_question": confidences,
+        "page_by_question": page_by_question,
+        "bbox_by_question": bbox_by_question,
         "warnings": warnings,
         "raw_excerpt": collapse_inline(page.get_text("text")[:500]),
     }
@@ -756,6 +763,8 @@ def extract_felix_answers(answer_document: ClassifiedDocument, question_count: i
             "answers": {},
             "method": f"answer_table_{answer_document.answer_mode}",
             "confidence_by_question": {},
+            "page_by_question": {},
+            "bbox_by_question": {},
             "warnings": warnings,
             "raw_excerpt": collapse_inline(raw_text[:500]),
         }
@@ -776,10 +785,13 @@ def extract_felix_answers(answer_document: ClassifiedDocument, question_count: i
 
     answers = {str(index + 1): letter for index, letter in enumerate(letters[:question_count])}
     confidences = {question: 0.9 if answer_document.answer_mode == "text" else 0.75 for question in answers}
+    page_by_question = {question: 1 for question in answers}
     return {
         "answers": answers,
         "method": f"answer_table_{answer_document.answer_mode}",
         "confidence_by_question": confidences,
+        "page_by_question": page_by_question,
+        "bbox_by_question": {},
         "warnings": warnings,
         "raw_excerpt": collapse_inline(" ".join(felix_chunks)[:500]),
     }
@@ -799,6 +811,8 @@ def extract_answers(
             "answers": {},
             "method": "missing_answer_table",
             "confidence_by_question": {},
+            "page_by_question": {},
+            "bbox_by_question": {},
             "warnings": [f"No answer table found for {document.filename}."],
             "raw_excerpt": "",
         }
@@ -993,6 +1007,24 @@ def extract_exam(
         assets_dir,
         qa_exam_dir,
     )
+    extracted_answer_key = {str(question["number"]): question["answer"] for question in questions if question["answer"]}
+    verified_answer_key = verified_answer_key_for_exam(exam_id)
+    mismatch_questions: list[int] = []
+    if verified_answer_key:
+        mismatch_questions = [
+            int(question_number)
+            for question_number in sorted(verified_answer_key, key=int)
+            if extracted_answer_key.get(question_number) != verified_answer_key[question_number]
+        ]
+        for question in questions:
+            verified_answer = verified_answer_key.get(str(question["number"]))
+            if verified_answer:
+                question["answer"] = verified_answer
+        for audit_question in audit_questions:
+            verified_answer = verified_answer_key.get(str(audit_question["number"]))
+            if verified_answer:
+                audit_question["answer"] = verified_answer
+                audit_question["answer_confidence"] = 1.0
     warnings = [*answer_payload["warnings"], *extraction_warnings]
     answer_key = {str(question["number"]): question["answer"] for question in questions if question["answer"]}
     exam_json = {
@@ -1016,10 +1048,13 @@ def extract_exam(
         "exam_id": exam_id,
         "source_document": asdict(document),
         "answer_source": {
-            "document": answer_document.path if answer_document else document.path,
+            "document": document.path if document.family == FAMILY_CANADA else (answer_document.path if answer_document else document.path),
             "method": answer_payload["method"],
             "raw_excerpt": answer_payload["raw_excerpt"],
             "warnings": answer_payload["warnings"],
+            "verified_against_source": verified_answer_key is not None,
+            "verified_answer_key_ref": verified_answer_key_ref(exam_id) if verified_answer_key else "",
+            "mismatch_questions": mismatch_questions,
         },
         "question_count_expected": document.question_count,
         "question_count_extracted": len(questions),

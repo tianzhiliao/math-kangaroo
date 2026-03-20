@@ -1,0 +1,1338 @@
+{
+  "exam_id": "canada-gr0102e-2020",
+  "year": 2020,
+  "family": "canada_gr0102e_18",
+  "level": "grade-1-2",
+  "language": "en",
+  "duration_minutes": 45,
+  "question_count": 18,
+  "scoring_rules": [
+    {
+      "from": 1,
+      "to": 6,
+      "points": 3
+    },
+    {
+      "from": 7,
+      "to": 12,
+      "points": 4
+    },
+    {
+      "from": 13,
+      "to": 18,
+      "points": 5
+    }
+  ],
+  "instructions": [
+    "INTERNATIONAL CONTEST-GAME",
+    "MATH KANGAROO",
+    "CANADA, 2020",
+    "INSTRUCTIONS",
+    "GRADE 1-2",
+    "1. You have 45 minutes to solve 18 multiple choice problems. For each problem,",
+    "decide which answer is correct and fill in (blacken) the oval that has the same",
+    "letter as the appropriate answer. If you fill in (blacken) more than one oval",
+    "for a question, your response will be marked as wrong.",
+    "2. Record your answers in the response form. Remember that this is the only",
+    "sheet that is marked, so make sure you have all your answers transferred to",
+    "the response form before giving it back to the contest supervisor.",
+    "3. The problems are arranged in three groups. A correct answer of the first 6",
+    "problems is worth 3 points. A correct answer of problems 7-12 is worth 4",
+    "points. A correct answer of problems 13-18 is worth 5 points. For each",
+    "incorrect answer, one point is deducted from your score. Each unanswered",
+    "question is worth 0 points. To avoid negative scores, you start from 18",
+    "points. The maximum score possible is 90.",
+    "4. The use of external material or aid of any kind is not permitted.",
+    "5. The figures are not drawn to scale. They should be used only for illustration",
+    "purposes.",
+    "6. Remember, you have about 2 to 3 minutes for each problem; hence, if a",
+    "problem appears to be too difficult, save it for later and move on to another",
+    "problem.",
+    "7. At the end of the allotted time, please give the response form to the",
+    "contest supervisor.",
+    "8. Do not forget to pick up your Certificate of Participation on your way out!",
+    "Good luck!",
+    "Canadian Math Kangaroo Contest team",
+    "CMKC 2020",
+    "Grade 1-2",
+    "CANADIAN MATH KANGAROO CONTEST PROBLEMS",
+    "Problems",
+    "PART A: EACH CORRECT ANSWER IS WORTH 3 POINTS"
+  ],
+  "answer_key": {
+    "1": "D",
+    "2": "A",
+    "3": "E",
+    "4": "E",
+    "5": "C",
+    "6": "B",
+    "7": "D",
+    "8": "D",
+    "9": "E",
+    "10": "C",
+    "11": "A",
+    "12": "C",
+    "13": "D",
+    "14": "C",
+    "15": "C",
+    "16": "B",
+    "17": "A",
+    "18": "D"
+  },
+  "assets": [
+    {
+      "id": "q01_stem_01",
+      "path": "assets/q01_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 372,
+      "height": 197
+    },
+    {
+      "id": "q02_stem_01",
+      "path": "assets/q02_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 140,
+      "height": 183
+    },
+    {
+      "id": "q02_option_A_01",
+      "path": "assets/q02_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 97,
+      "height": 123
+    },
+    {
+      "id": "q02_option_B_01",
+      "path": "assets/q02_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 92,
+      "height": 118
+    },
+    {
+      "id": "q02_option_C_01",
+      "path": "assets/q02_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 94,
+      "height": 118
+    },
+    {
+      "id": "q02_option_D_01",
+      "path": "assets/q02_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 94,
+      "height": 118
+    },
+    {
+      "id": "q02_option_E_01",
+      "path": "assets/q02_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 94,
+      "height": 125
+    },
+    {
+      "id": "q03_stem_01",
+      "path": "assets/q03_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 137,
+      "height": 70
+    },
+    {
+      "id": "q03_option_A_01",
+      "path": "assets/q03_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 156,
+      "height": 61
+    },
+    {
+      "id": "q03_option_B_01",
+      "path": "assets/q03_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 144,
+      "height": 59
+    },
+    {
+      "id": "q03_option_C_01",
+      "path": "assets/q03_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 156,
+      "height": 66
+    },
+    {
+      "id": "q03_option_D_01",
+      "path": "assets/q03_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 130,
+      "height": 67
+    },
+    {
+      "id": "q03_option_E_01",
+      "path": "assets/q03_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 131,
+      "height": 60
+    },
+    {
+      "id": "q04_stem_01",
+      "path": "assets/q04_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 759,
+      "height": 77
+    },
+    {
+      "id": "q04_option_A_01",
+      "path": "assets/q04_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 130,
+      "height": 58
+    },
+    {
+      "id": "q04_option_B_01",
+      "path": "assets/q04_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 140,
+      "height": 63
+    },
+    {
+      "id": "q04_option_C_01",
+      "path": "assets/q04_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 135,
+      "height": 68
+    },
+    {
+      "id": "q04_option_D_01",
+      "path": "assets/q04_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 123,
+      "height": 58
+    },
+    {
+      "id": "q04_option_E_01",
+      "path": "assets/q04_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 135,
+      "height": 63
+    },
+    {
+      "id": "q05_stem_01",
+      "path": "assets/q05_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 252,
+      "height": 262
+    },
+    {
+      "id": "q05_option_A_01",
+      "path": "assets/q05_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 80,
+      "height": 84
+    },
+    {
+      "id": "q05_option_B_01",
+      "path": "assets/q05_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 75,
+      "height": 82
+    },
+    {
+      "id": "q05_option_C_01",
+      "path": "assets/q05_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 75,
+      "height": 80
+    },
+    {
+      "id": "q05_option_D_01",
+      "path": "assets/q05_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 73,
+      "height": 80
+    },
+    {
+      "id": "q05_option_E_01",
+      "path": "assets/q05_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 78,
+      "height": 78
+    },
+    {
+      "id": "q06_stem_01",
+      "path": "assets/q06_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 208,
+      "height": 197
+    },
+    {
+      "id": "q06_option_A_01",
+      "path": "assets/q06_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 70,
+      "height": 75
+    },
+    {
+      "id": "q06_option_B_01",
+      "path": "assets/q06_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 68,
+      "height": 72
+    },
+    {
+      "id": "q06_option_C_01",
+      "path": "assets/q06_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 68,
+      "height": 68
+    },
+    {
+      "id": "q06_option_D_01",
+      "path": "assets/q06_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 67,
+      "height": 73
+    },
+    {
+      "id": "q06_option_E_01",
+      "path": "assets/q06_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 68,
+      "height": 72
+    },
+    {
+      "id": "q07_stem_01",
+      "path": "assets/q07_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 335,
+      "height": 276
+    },
+    {
+      "id": "q09_option_A_01",
+      "path": "assets/q09_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 96,
+      "height": 147
+    },
+    {
+      "id": "q09_option_B_01",
+      "path": "assets/q09_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 123,
+      "height": 121
+    },
+    {
+      "id": "q09_option_C_01",
+      "path": "assets/q09_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 161,
+      "height": 111
+    },
+    {
+      "id": "q09_option_D_01",
+      "path": "assets/q09_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 137,
+      "height": 113
+    },
+    {
+      "id": "q09_option_E_01",
+      "path": "assets/q09_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 137,
+      "height": 154
+    },
+    {
+      "id": "q10_stem_01",
+      "path": "assets/q10_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 182,
+      "height": 230
+    },
+    {
+      "id": "q11_stem_01",
+      "path": "assets/q11_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 180,
+      "height": 133
+    },
+    {
+      "id": "q12_stem_01",
+      "path": "assets/q12_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 340,
+      "height": 214
+    },
+    {
+      "id": "q13_stem_01",
+      "path": "assets/q13_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 773,
+      "height": 195
+    },
+    {
+      "id": "q14_stem_01",
+      "path": "assets/q14_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 295,
+      "height": 317
+    },
+    {
+      "id": "q15_stem_01",
+      "path": "assets/q15_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 164,
+      "height": 161
+    },
+    {
+      "id": "q17_stem_01",
+      "path": "assets/q17_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 302,
+      "height": 82
+    },
+    {
+      "id": "q18_stem_01",
+      "path": "assets/q18_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 142,
+      "height": 132
+    },
+    {
+      "id": "q18_stem_02",
+      "path": "assets/q18_stem_02.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 410,
+      "height": 140
+    },
+    {
+      "id": "q18_stem_03",
+      "path": "assets/q18_stem_03.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 68,
+      "height": 71
+    },
+    {
+      "id": "q18_option_A_01",
+      "path": "assets/q18_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 30,
+      "height": 41
+    },
+    {
+      "id": "q18_option_B_01",
+      "path": "assets/q18_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 30,
+      "height": 40
+    },
+    {
+      "id": "q18_option_C_01",
+      "path": "assets/q18_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "q18_option_D_01",
+      "path": "assets/q18_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 37,
+      "height": 30
+    },
+    {
+      "id": "q18_option_E_01",
+      "path": "assets/q18_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 32,
+      "height": 34
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "number": 1,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "The kangaroo jumps up 3 steps each time the rabbit hops down 2 steps. On what step do they meet?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "7",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q01_stem_01"
+      ]
+    },
+    {
+      "id": "q02",
+      "number": 2,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "Elena has a mixed-up picture of a kangaroo in 4 pieces, as shown. How can she put them together to make a good picture?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q02_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q02_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q02_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q02_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q02_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q02_stem_01"
+      ]
+    },
+    {
+      "id": "q03",
+      "number": 3,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "Maria took a photo of herself (selfie) in front of this castle. What picture below could be Maria's photo?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q03_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q03_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q03_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q03_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q03_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q03_stem_01"
+      ]
+    },
+    {
+      "id": "q04",
+      "number": 4,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "A magician is pulling animals out of his top hat. He always pulls out the animals in the same order as shown in the picture. The pattern repeats every 5 animals. What two animals does he pull out next?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q04_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q04_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q04_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q04_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q04_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q04_stem_01"
+      ]
+    },
+    {
+      "id": "q05",
+      "number": 5,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "Thi t i l b d d l ith th i i f th C di M th K C t t C ti P 2 5. What piece completes the picture?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q05_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q05_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q05_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q05_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q05_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q05_stem_01"
+      ]
+    },
+    {
+      "id": "q06",
+      "number": 6,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "In the picture, Tara shades all squares where the result is 13. What does she get?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q06_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q06_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q06_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q06_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "PART B: EACH CORRECT ANSWER IS WORTH 4 POINTS",
+          "asset_refs": [
+            "q06_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q06_stem_01"
+      ]
+    },
+    {
+      "id": "q07",
+      "number": 7,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Two dogs want to walk along the path in the park (marked by the thick black line). One dog goes from P to Q, and the other from Q to P. If they cover the same distance, where are they going to meet?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "at",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "at",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "at",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "at D",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "at E",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q07_stem_01"
+      ]
+    },
+    {
+      "id": "q08",
+      "number": 8,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Grandmother wants to give all her 5 grandchildren the same number of apples. She just bought 12 apples. How many more apples should she buy?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "1",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "2",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "4",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q09",
+      "number": 9,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Five shapes are made by gluing cubes together face to face. What shape uses the most cubes?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q09_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q09_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q09_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q09_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q09_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q10",
+      "number": 10,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Thi t i l b d d l ith th i i f th C di M th K C t t C ti P 3 10. A number is written on each petal of two flowers. One petal is hidden. The sums of the numbers on the two flowers are equal. What number is written on the hidden petal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "7",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "1",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q10_stem_01"
+      ]
+    },
+    {
+      "id": "q11",
+      "number": 11,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Mary writes the numbers 1, 2, 3, 4, 5 and 6 inside six squares, one number per square. The numbers in the blue squares add up to 10, the numbers in the yellow squares also add up to 10. What number is in the square with the question mark?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "5",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q11_stem_01"
+      ]
+    },
+    {
+      "id": "q12",
+      "number": 12,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "How many elastic bands can be seen in the picture?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "7",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "8",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q12_stem_01"
+      ]
+    },
+    {
+      "id": "q13",
+      "number": 13,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "Two identical trains, each with 31 cars, are traveling in opposite directions. When car No. 19 of one train is opposite car No. 19 of the other train, what car is opposite car No. 12?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "7",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "12",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "21",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "26",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "31",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q13_stem_01"
+      ]
+    },
+    {
+      "id": "q14",
+      "number": 14,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "Thi t i l b d d l ith th i i f th C di M th K C t t C ti P 4 14. In this figure, an arrow pointing from one person to another means that the first person is taller than the second. For example, person B is taller than person A. Who is the shortest?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Person A",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "Person B",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "Person C",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "Person D",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "Person E",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q14_stem_01"
+      ]
+    },
+    {
+      "id": "q15",
+      "number": 15,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "Six different numbers chosen from 1 to 9 are written on the faces of a cube, one number on each face. The sums of numbers on each pair of opposite faces are equal. What number could be on the face opposite to the face with the number 5?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "7",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "9",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q15_stem_01"
+      ]
+    },
+    {
+      "id": "q16",
+      "number": 16,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "John and Olivia exchanged sweets. - First, John gave Olivia as many sweets as Olivia had. - Then, Olivia gave John as many sweets as John had left. - After this exchange, they each had 4 sweets. How many sweets did John have at the beginning?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "2",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q17",
+      "number": 17,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "Diane makes a number by writing the numbers from 1 to 18 in a row, with no spaces in between each numbers. She then removes all the digits 1, 3, 5, 7 and 9. What digit is in the middle of this new number?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "8",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q17_stem_01"
+      ]
+    },
+    {
+      "id": "q18",
+      "number": 18,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "Thi t i l b d d l ith th i i f th C di M th K C t t C ti P 5 18. Eloise has a square piece of paper with four digits written on it. She folds the paper in half, and then, in half again, as shown below. After folding the paper, Eloise gets . In what position will the digit 2 be after having folded the paper?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q18_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q18_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q18_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q18_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "1 2 2 2",
+          "asset_refs": [
+            "q18_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q18_stem_01",
+        "q18_stem_02",
+        "q18_stem_03"
+      ]
+    }
+  ]
+}

@@ -1,2 +1,9 @@
 .vendor/
 .DS_Store
+__pycache__/
+*.pyc
+.generated/
+data/
+review-data/
+reports/
+tmp/

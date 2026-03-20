@@ -1,0 +1,1655 @@
+{
+  "exam_id": "felix-brazil-2021",
+  "year": 2021,
+  "family": "felix_brazil_24",
+  "level": "level-p",
+  "language": "en",
+  "duration_minutes": null,
+  "question_count": 24,
+  "scoring_rules": [
+    {
+      "from": 1,
+      "to": 8,
+      "points": 3
+    },
+    {
+      "from": 9,
+      "to": 16,
+      "points": 4
+    },
+    {
+      "from": 17,
+      "to": 24,
+      "points": 5
+    }
+  ],
+  "instructions": [
+    "KSF 2021 - PreEcolier (P)",
+    "3 points problems"
+  ],
+  "answer_key": {
+    "1": "E",
+    "2": "B",
+    "3": "A",
+    "4": "D",
+    "5": "A",
+    "6": "D",
+    "7": "E",
+    "8": "B",
+    "9": "D",
+    "10": "D",
+    "11": "C",
+    "12": "D",
+    "13": "E",
+    "14": "A",
+    "15": "B",
+    "16": "D",
+    "17": "D",
+    "18": "A",
+    "19": "D",
+    "20": "C",
+    "21": "B",
+    "22": "C",
+    "23": "E",
+    "24": "C"
+  },
+  "assets": [
+    {
+      "id": "q01_stem_01",
+      "path": "assets/q01_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 129,
+      "height": 36
+    },
+    {
+      "id": "q01_option_A_01",
+      "path": "assets/q01_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 127,
+      "height": 131
+    },
+    {
+      "id": "q01_option_B_01",
+      "path": "assets/q01_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 103,
+      "height": 145
+    },
+    {
+      "id": "q01_option_C_01",
+      "path": "assets/q01_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 163,
+      "height": 171
+    },
+    {
+      "id": "q01_option_D_01",
+      "path": "assets/q01_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 138,
+      "height": 152
+    },
+    {
+      "id": "q01_option_E_01",
+      "path": "assets/q01_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 124,
+      "height": 131
+    },
+    {
+      "id": "q02_stem_01",
+      "path": "assets/q02_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 241,
+      "height": 288
+    },
+    {
+      "id": "q03_option_A_01",
+      "path": "assets/q03_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 129,
+      "height": 136
+    },
+    {
+      "id": "q03_option_B_01",
+      "path": "assets/q03_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 129,
+      "height": 134
+    },
+    {
+      "id": "q03_option_C_01",
+      "path": "assets/q03_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 131,
+      "height": 134
+    },
+    {
+      "id": "q03_option_D_01",
+      "path": "assets/q03_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 129,
+      "height": 129
+    },
+    {
+      "id": "q03_option_E_01",
+      "path": "assets/q03_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 124,
+      "height": 124
+    },
+    {
+      "id": "q04_stem_01",
+      "path": "assets/q04_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 224,
+      "height": 234
+    },
+    {
+      "id": "q05_stem_01",
+      "path": "assets/q05_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 141,
+      "height": 161
+    },
+    {
+      "id": "q05_option_A_01",
+      "path": "assets/q05_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 111,
+      "height": 61
+    },
+    {
+      "id": "q05_option_B_01",
+      "path": "assets/q05_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 103,
+      "height": 57
+    },
+    {
+      "id": "q05_option_C_01",
+      "path": "assets/q05_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 105,
+      "height": 56
+    },
+    {
+      "id": "q05_option_D_01",
+      "path": "assets/q05_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 104,
+      "height": 47
+    },
+    {
+      "id": "q05_option_E_01",
+      "path": "assets/q05_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 105,
+      "height": 45
+    },
+    {
+      "id": "q07_stem_01",
+      "path": "assets/q07_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 564,
+      "height": 152
+    },
+    {
+      "id": "q08_option_A_01",
+      "path": "assets/q08_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 140,
+      "height": 150
+    },
+    {
+      "id": "q08_option_B_01",
+      "path": "assets/q08_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 134,
+      "height": 117
+    },
+    {
+      "id": "q08_option_C_01",
+      "path": "assets/q08_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 182,
+      "height": 155
+    },
+    {
+      "id": "q08_option_D_01",
+      "path": "assets/q08_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 139,
+      "height": 197
+    },
+    {
+      "id": "q08_option_E_01",
+      "path": "assets/q08_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 136,
+      "height": 131
+    },
+    {
+      "id": "q09_stem_01",
+      "path": "assets/q09_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 240,
+      "height": 273
+    },
+    {
+      "id": "q10_stem_01",
+      "path": "assets/q10_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 306,
+      "height": 274
+    },
+    {
+      "id": "q12_stem_01",
+      "path": "assets/q12_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 326,
+      "height": 189
+    },
+    {
+      "id": "q13_stem_01",
+      "path": "assets/q13_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 213,
+      "height": 203
+    },
+    {
+      "id": "q14_stem_01",
+      "path": "assets/q14_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 261,
+      "height": 149
+    },
+    {
+      "id": "q14_option_A_01",
+      "path": "assets/q14_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 129,
+      "height": 134
+    },
+    {
+      "id": "q14_option_B_01",
+      "path": "assets/q14_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 127,
+      "height": 131
+    },
+    {
+      "id": "q14_option_C_01",
+      "path": "assets/q14_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 129,
+      "height": 131
+    },
+    {
+      "id": "q14_option_D_01",
+      "path": "assets/q14_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 124,
+      "height": 129
+    },
+    {
+      "id": "q14_option_E_01",
+      "path": "assets/q14_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 125,
+      "height": 129
+    },
+    {
+      "id": "q15_stem_01",
+      "path": "assets/q15_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 378,
+      "height": 222
+    },
+    {
+      "id": "q15_option_A_01",
+      "path": "assets/q15_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 69,
+      "height": 59
+    },
+    {
+      "id": "q15_option_B_01",
+      "path": "assets/q15_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 68,
+      "height": 64
+    },
+    {
+      "id": "q15_option_C_01",
+      "path": "assets/q15_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 80,
+      "height": 53
+    },
+    {
+      "id": "q15_option_D_01",
+      "path": "assets/q15_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 62,
+      "height": 62
+    },
+    {
+      "id": "q15_option_E_01",
+      "path": "assets/q15_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 80,
+      "height": 64
+    },
+    {
+      "id": "q17_stem_01",
+      "path": "assets/q17_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 198,
+      "height": 205
+    },
+    {
+      "id": "q17_option_A_01",
+      "path": "assets/q17_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 101,
+      "height": 115
+    },
+    {
+      "id": "q17_option_B_01",
+      "path": "assets/q17_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 101,
+      "height": 152
+    },
+    {
+      "id": "q17_option_C_01",
+      "path": "assets/q17_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 103,
+      "height": 99
+    },
+    {
+      "id": "q17_option_D_01",
+      "path": "assets/q17_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 136,
+      "height": 98
+    },
+    {
+      "id": "q17_option_E_01",
+      "path": "assets/q17_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 173,
+      "height": 101
+    },
+    {
+      "id": "q18_stem_01",
+      "path": "assets/q18_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 296,
+      "height": 194
+    },
+    {
+      "id": "q18_option_A_01",
+      "path": "assets/q18_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 77,
+      "height": 91
+    },
+    {
+      "id": "q18_option_B_01",
+      "path": "assets/q18_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 73,
+      "height": 82
+    },
+    {
+      "id": "q18_option_C_01",
+      "path": "assets/q18_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 113,
+      "height": 94
+    },
+    {
+      "id": "q18_option_D_01",
+      "path": "assets/q18_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 122,
+      "height": 87
+    },
+    {
+      "id": "q18_option_E_01",
+      "path": "assets/q18_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 136,
+      "height": 90
+    },
+    {
+      "id": "q19_stem_01",
+      "path": "assets/q19_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 180,
+      "height": 45
+    },
+    {
+      "id": "q20_stem_01",
+      "path": "assets/q20_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 124,
+      "height": 140
+    },
+    {
+      "id": "q20_option_A_01",
+      "path": "assets/q20_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 113,
+      "height": 147
+    },
+    {
+      "id": "q20_option_B_01",
+      "path": "assets/q20_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 115,
+      "height": 138
+    },
+    {
+      "id": "q20_option_C_01",
+      "path": "assets/q20_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 120,
+      "height": 138
+    },
+    {
+      "id": "q20_option_D_01",
+      "path": "assets/q20_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 118,
+      "height": 138
+    },
+    {
+      "id": "q20_option_E_01",
+      "path": "assets/q20_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 113,
+      "height": 129
+    },
+    {
+      "id": "q22_stem_01",
+      "path": "assets/q22_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 296,
+      "height": 180
+    },
+    {
+      "id": "q22_stem_02",
+      "path": "assets/q22_stem_02.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 319,
+      "height": 166
+    },
+    {
+      "id": "q24_stem_01",
+      "path": "assets/q24_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 207,
+      "height": 257
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "number": 1,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "A kangaroo laid out 3 sticks like this to make a shape. It is not allowed to break or to bend the sticks. Which shape could the kangaroo make?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q01_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q01_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q01_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q01_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q01_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q01_stem_01"
+      ]
+    },
+    {
+      "id": "q02",
+      "number": 2,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "The picture shows 2 mushrooms. What is the difference between their heights?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "11",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "17",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q02_stem_01"
+      ]
+    },
+    {
+      "id": "q03",
+      "number": 3,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "Which of the paths shown in the pictures is the longest?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q03_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q03_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q03_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q03_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q03_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q04",
+      "number": 4,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "Four identical pieces of paper are placed as shown. Michael wants to punch a hole that goes through all four pieces. At which point should Michael punch the hole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "B",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "C",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "D",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "E",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q04_stem_01"
+      ]
+    },
+    {
+      "id": "q05",
+      "number": 5,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "Ella puts on this t-shirt and stands in front of a mirror. Which of these images does she see in the mirror?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q05_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q05_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q05_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q05_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q05_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q05_stem_01"
+      ]
+    },
+    {
+      "id": "q06",
+      "number": 6,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "1 6. The pink tower is taller than the red tower but shorter than the green tower. The silver tower is taller than the green tower. Which tower is the tallest?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "pink tower",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "green tower",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "red tower",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "silver tower",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "impossible to decide",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q07",
+      "number": 7,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "These children are standing in a line. Some are facing forwards and others are facing back- wards. How many children are holding another child's hand with their right hand?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "6",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q07_stem_01"
+      ]
+    },
+    {
+      "id": "q08",
+      "number": 8,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "In the Kangaroo constellation, all stars have a number greater than 3 and their sum is 20. Which is the Kangaroo constellation?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q08_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q08_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q08_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q08_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "4 points problems",
+          "asset_refs": [
+            "q08_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q09",
+      "number": 9,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Edmund cut a ribbon as shown in the picture. How many pieces of the ribbon did he finish with?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "9",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "10",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "11",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "12",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "13",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q09_stem_01"
+      ]
+    },
+    {
+      "id": "q10",
+      "number": 10,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Rose the cat walks along the wall. She starts at point B and follows the direction of the arrows shown in the picture. The cat walks a total of 20 me- tres. Where does she end up?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "B",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "C",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "D",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "E",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q10_stem_01"
+      ]
+    },
+    {
+      "id": "q11",
+      "number": 11,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Julie and Angela played \"kangball\", a ball game. Each goal in their game scores 2 points. Julie scored 5 goals and Angela scored 9 goals. How many more points than Julie did Angela score?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "8",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "10",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "12",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q12",
+      "number": 12,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "2 12. Julia has two pots with flowers, as shown. She keeps the flowers ex- actly where they are. She buys more flowers and puts them in the pots. After that, each pot has the same number of each type of flower. What is the smallest number of flowers she needs to buy?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "8",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "10",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q12_stem_01"
+      ]
+    },
+    {
+      "id": "q13",
+      "number": 13,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Tom encodes words using the board shown. For example, the word PIZZA has the code 2 4 1 1 2 A A C C B . What word did Tom encode as 3 2 4 2 B B C D ?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "MAZE",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "MASK",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "MILK",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "MATE",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "MATH",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q13_stem_01"
+      ]
+    },
+    {
+      "id": "q14",
+      "number": 14,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Which figure can be made from the 2 pieces shown on the right?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q14_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q14_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q14_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q14_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q14_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q14_stem_01"
+      ]
+    },
+    {
+      "id": "q15",
+      "number": 15,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "The picture shows the five houses of five friends and their school. The school is the largest building in the picture. To go to school, Doris and Ali walk past Leo's house. Eva walks past Chole's house. Which is Eva's house?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q15_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q15_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q15_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q15_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q15_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q15_stem_01"
+      ]
+    },
+    {
+      "id": "q16",
+      "number": 16,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "The kangaroo had two branches for lunch. Each branch had 10 leaves. The kangaroo ate some leaves from one branch. Then, from the second branch, it ate as many leaves as were left on the first branch. How many leaves in total were left on the two branches?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "8",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "10",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "15 5 points problems",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q17",
+      "number": 17,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "3 17. Mara built the square by using 4 of the following 5 shapes. Which shape was not used?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q17_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q17_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q17_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q17_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q17_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q17_stem_01"
+      ]
+    },
+    {
+      "id": "q18",
+      "number": 18,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "Every time the witch has 3 apples she turns them in to 1 banana. Every time she has 3 bananas she turns them in to 1 apple. What will she finish with if she starts with 4 apples and 5 bananas?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q18_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q18_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q18_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q18_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q18_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q18_stem_01"
+      ]
+    },
+    {
+      "id": "q19",
+      "number": 19,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "The cards are placed into 2 boxes. The sums of the numbers in each box are the same. Which number must be in the box with the number 4?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "impossible to determine",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q19_stem_01"
+      ]
+    },
+    {
+      "id": "q20",
+      "number": 20,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "The picture beside shows two cogs, each with a black tooth. Where will the black teeth be after the small cog has made one full turn?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q20_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q20_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q20_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q20_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q20_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q20_stem_01"
+      ]
+    },
+    {
+      "id": "q21",
+      "number": 21,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "3 girls and 2 boys were dancing. They danced in pairs so that each girl danced with each boy for exactly 1 minute. At any time, there was only one pair on the dance floor. For how many minutes did they dance?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "8",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "9",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "10",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q22",
+      "number": 22,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "4 22. Each participant in a cooking contest baked one tray of cookies like the one shown beside. What is the smallest number of trays of cookies needed to make the following plate?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "5",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q22_stem_01",
+        "q22_stem_02"
+      ]
+    },
+    {
+      "id": "q23",
+      "number": 23,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "Kangie eats only apples on Monday, Wednesday and Friday. On Tuesdays and Thursdays he eats only man- goes. He eats either 2 apples or 3 mangoes a day. On Saturdays and Sundays he eats nothing. How many pieces of fruit does Kangie eat in two weeks?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "12",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "16",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "18",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "20",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "24",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q24",
+      "number": 24,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "5 24. Stan has five toys: a ball, a set of blocks, a game, a puzzle and a car. He puts each toy on a different shelf of the bookcase. The ball is higher than the blocks and lower than the car. The game is directly above the ball. On which shelf can the puzzle not be placed?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "5",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q24_stem_01"
+      ]
+    }
+  ]
+}

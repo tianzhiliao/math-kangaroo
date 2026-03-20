@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-03-20T16:12:51.979212+00:00",
+  "exams": [
+    {
+      "exam_id": "felix-austria-2014",
+      "path": "exams/felix-austria-2014/exam.json",
+      "family": "felix_austria_15",
+      "year": 2014,
+      "level": "felix",
+      "language": "en",
+      "question_count": 15,
+      "asset_count": 44
+    },
+    {
+      "exam_id": "felix-austria-2015",
+      "path": "exams/felix-austria-2015/exam.json",
+      "family": "felix_austria_15",
+      "year": 2015,
+      "level": "felix",
+      "language": "en",
+      "question_count": 15,
+      "asset_count": 42
+    },
+    {
+      "exam_id": "felix-austria-2016",
+      "path": "exams/felix-austria-2016/exam.json",
+      "family": "felix_austria_15",
+      "year": 2016,
+      "level": "felix",
+      "language": "en",
+      "question_count": 15,
+      "asset_count": 30
+    },
+    {
+      "exam_id": "felix-austria-2017",
+      "path": "exams/felix-austria-2017/exam.json",
+      "family": "felix_austria_15",
+      "year": 2017,
+      "level": "felix",
+      "language": "en",
+      "question_count": 15,
+      "asset_count": 45
+    },
+    {
+      "exam_id": "felix-austria-2018",
+      "path": "exams/felix-austria-2018/exam.json",
+      "family": "felix_austria_15",
+      "year": 2018,
+      "level": "felix",
+      "language": "en",
+      "question_count": 15,
+      "asset_count": 31
+    },
+    {
+      "exam_id": "felix-austria-2019",
+      "path": "exams/felix-austria-2019/exam.json",
+      "family": "felix_austria_15",
+      "year": 2019,
+      "level": "felix",
+      "language": "en",
+      "question_count": 15,
+      "asset_count": 41
+    },
+    {
+      "exam_id": "felix-brazil-2020",
+      "path": "exams/felix-brazil-2020/exam.json",
+      "family": "felix_brazil_24",
+      "year": 2020,
+      "level": "level-p",
+      "language": "en",
+      "question_count": 24,
+      "asset_count": 70
+    },
+    {
+      "exam_id": "canada-gr0102e-2020",
+      "path": "exams/canada-gr0102e-2020/exam.json",
+      "family": "canada_gr0102e_18",
+      "year": 2020,
+      "level": "grade-1-2",
+      "language": "en",
+      "question_count": 18,
+      "asset_count": 52
+    },
+    {
+      "exam_id": "felix-brazil-2021",
+      "path": "exams/felix-brazil-2021/exam.json",
+      "family": "felix_brazil_24",
+      "year": 2021,
+      "level": "level-p",
+      "language": "en",
+      "question_count": 24,
+      "asset_count": 63
+    },
+    {
+      "exam_id": "canada-gr0102e-2021",
+      "path": "exams/canada-gr0102e-2021/exam.json",
+      "family": "canada_gr0102e_18",
+      "year": 2021,
+      "level": "grade-1-2",
+      "language": "en",
+      "question_count": 18,
+      "asset_count": 60
+    },
+    {
+      "exam_id": "felix-austria-2022",
+      "path": "exams/felix-austria-2022/exam.json",
+      "family": "felix_austria_15",
+      "year": 2022,
+      "level": "felix",
+      "language": "en",
+      "question_count": 15,
+      "asset_count": 42
+    },
+    {
+      "exam_id": "canada-gr0102e-2022",
+      "path": "exams/canada-gr0102e-2022/exam.json",
+      "family": "canada_gr0102e_18",
+      "year": 2022,
+      "level": "grade-1-2",
+      "language": "en",
+      "question_count": 18,
+      "asset_count": 42
+    },
+    {
+      "exam_id": "felix-austria-2023",
+      "path": "exams/felix-austria-2023/exam.json",
+      "family": "felix_austria_15",
+      "year": 2023,
+      "level": "felix",
+      "language": "en",
+      "question_count": 15,
+      "asset_count": 50
+    },
+    {
+      "exam_id": "canada-gr0102e-2023",
+      "path": "exams/canada-gr0102e-2023/exam.json",
+      "family": "canada_gr0102e_18",
+      "year": 2023,
+      "level": "grade-1-2",
+      "language": "en",
+      "question_count": 18,
+      "asset_count": 52
+    },
+    {
+      "exam_id": "felix-austria-2024",
+      "path": "exams/felix-austria-2024/exam.json",
+      "family": "felix_austria_15",
+      "year": 2024,
+      "level": "felix",
+      "language": "en",
+      "question_count": 15,
+      "asset_count": 42
+    },
+    {
+      "exam_id": "felix-austria-2025",
+      "path": "exams/felix-austria-2025/exam.json",
+      "family": "felix_austria_15",
+      "year": 2025,
+      "level": "felix",
+      "language": "en",
+      "question_count": 15,
+      "asset_count": 38
+    }
+  ]
+}

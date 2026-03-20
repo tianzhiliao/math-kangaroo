@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
 from kangaroo_pdf.pipeline import SUPPORTED_FAMILIES, build_dataset, classify_documents
+from kangaroo_pdf.verified_answers import load_verified_answer_keys, verified_answer_key_ref
 
 
 class PipelineTests(unittest.TestCase):
@@ -38,9 +39,11 @@ class PipelineTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp_dir:
             output_dir = Path(temp_dir) / "data"
             manifest = build_dataset(self.source_dir, output_dir)
+            verified_answer_keys = load_verified_answer_keys()
             self.assertTrue((output_dir / "manifest.json").exists())
             self.assertEqual(len(manifest["source_documents"]), 28)
             self.assertTrue(Path(manifest["qa_index_ref"]).exists())
+            self.assertEqual({entry["exam_id"] for entry in manifest["exams"]}, set(verified_answer_keys))
 
             checks = {
                 "canada-gr0102e-2023": {"family": "canada_gr0102e_18", "question_count": 18},
@@ -60,6 +63,7 @@ class PipelineTests(unittest.TestCase):
                 self.assertEqual(exam["question_count"], expected["question_count"])
                 self.assertEqual(len(exam["questions"]), expected["question_count"])
                 self.assertEqual(len(exam["answer_key"]), expected["question_count"])
+                self.assertEqual(exam["answer_key"], verified_answer_keys[exam_id])
                 self.assertIn("scoring_rules", exam)
                 self.assertTrue(exam["source_audit_ref"].endswith("audit.json"))
 
@@ -133,6 +137,27 @@ class PipelineTests(unittest.TestCase):
                 sum(1 for choice in brazil_2020["questions"][2]["choices"] if choice["asset_refs"]),
                 5,
             )
+
+            canada_2023_audit = json.loads(
+                (output_dir / "exams" / "canada-gr0102e-2023" / "audit.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual(
+                canada_2023_audit["answer_source"]["document"],
+                str((self.source_dir / "2023gr0102e.pdf").resolve()),
+            )
+            self.assertTrue(canada_2023_audit["answer_source"]["verified_against_source"])
+            self.assertEqual(
+                canada_2023_audit["answer_source"]["verified_answer_key_ref"],
+                verified_answer_key_ref("canada-gr0102e-2023"),
+            )
+            self.assertEqual(canada_2023_audit["answer_source"]["mismatch_questions"], [])
+
+            felix_2014_audit = json.loads(
+                (output_dir / "exams" / "felix-austria-2014" / "audit.json").read_text(encoding="utf-8")
+            )
+            self.assertIn(1, felix_2014_audit["answer_source"]["mismatch_questions"])
+            self.assertIn(15, felix_2014_audit["answer_source"]["mismatch_questions"])
+            self.assertGreaterEqual(len(felix_2014_audit["answer_source"]["mismatch_questions"]), 5)
 
 
 if __name__ == "__main__":

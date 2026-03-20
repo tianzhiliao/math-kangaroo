@@ -1,0 +1,936 @@
+{
+  "exam_id": "felix-austria-2016",
+  "year": 2016,
+  "family": "felix_austria_15",
+  "level": "felix",
+  "language": "en",
+  "duration_minutes": null,
+  "question_count": 15,
+  "scoring_rules": [
+    {
+      "from": 1,
+      "to": 5,
+      "points": 3
+    },
+    {
+      "from": 6,
+      "to": 10,
+      "points": 4
+    },
+    {
+      "from": 11,
+      "to": 15,
+      "points": 5
+    }
+  ],
+  "instructions": [
+    "Känguru der Mathematik 2016",
+    "Level Felix (Grade 1 and 2)",
+    "Österreich - 17. 03. 2016",
+    "- 3 Points Questions -"
+  ],
+  "answer_key": {
+    "1": "B",
+    "2": "E",
+    "3": "C",
+    "4": "B",
+    "5": "C",
+    "6": "A",
+    "7": "C",
+    "8": "C",
+    "9": "B",
+    "10": "E",
+    "11": "A",
+    "12": "D",
+    "13": "D",
+    "14": "E",
+    "15": "C"
+  },
+  "assets": [
+    {
+      "id": "q01_stem_01",
+      "path": "assets/q01_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 235,
+      "height": 180
+    },
+    {
+      "id": "q03_stem_01",
+      "path": "assets/q03_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 301,
+      "height": 266
+    },
+    {
+      "id": "q06_option_A_01",
+      "path": "assets/q06_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 136,
+      "height": 171
+    },
+    {
+      "id": "q06_option_B_01",
+      "path": "assets/q06_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 143,
+      "height": 152
+    },
+    {
+      "id": "q06_option_C_01",
+      "path": "assets/q06_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 147,
+      "height": 140
+    },
+    {
+      "id": "q06_option_D_01",
+      "path": "assets/q06_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 112,
+      "height": 190
+    },
+    {
+      "id": "q06_option_E_01",
+      "path": "assets/q06_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 185,
+      "height": 131
+    },
+    {
+      "id": "q07_stem_01",
+      "path": "assets/q07_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 522,
+      "height": 195
+    },
+    {
+      "id": "q11_stem_01",
+      "path": "assets/q11_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 220,
+      "height": 298
+    },
+    {
+      "id": "q12_stem_01",
+      "path": "assets/q12_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 120,
+      "height": 83
+    },
+    {
+      "id": "q12_option_A_01",
+      "path": "assets/q12_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 162,
+      "height": 94
+    },
+    {
+      "id": "q12_option_B_01",
+      "path": "assets/q12_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 136,
+      "height": 120
+    },
+    {
+      "id": "q12_option_C_01",
+      "path": "assets/q12_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 131,
+      "height": 110
+    },
+    {
+      "id": "q12_option_D_01",
+      "path": "assets/q12_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 135,
+      "height": 110
+    },
+    {
+      "id": "q12_option_E_01",
+      "path": "assets/q12_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 136,
+      "height": 143
+    },
+    {
+      "id": "q13_stem_01",
+      "path": "assets/q13_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 678,
+      "height": 152
+    },
+    {
+      "id": "q14_stem_01",
+      "path": "assets/q14_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 762,
+      "height": 132
+    },
+    {
+      "id": "q14_option_A_01",
+      "path": "assets/q14_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 143,
+      "height": 322
+    },
+    {
+      "id": "q14_option_B_01",
+      "path": "assets/q14_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 129,
+      "height": 318
+    },
+    {
+      "id": "q14_option_C_01",
+      "path": "assets/q14_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 136,
+      "height": 308
+    },
+    {
+      "id": "q14_option_D_01",
+      "path": "assets/q14_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 134,
+      "height": 308
+    },
+    {
+      "id": "q14_option_E_01",
+      "path": "assets/q14_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 128,
+      "height": 311
+    },
+    {
+      "id": "q15_stem_01",
+      "path": "assets/q15_stem_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 529,
+      "height": 250
+    },
+    {
+      "id": "q15_stem_02",
+      "path": "assets/q15_stem_02.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 828,
+      "height": 101
+    },
+    {
+      "id": "q15_stem_03",
+      "path": "assets/q15_stem_03.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 87,
+      "height": 84
+    },
+    {
+      "id": "q15_option_A_01",
+      "path": "assets/q15_option_A_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 73,
+      "height": 94
+    },
+    {
+      "id": "q15_option_B_01",
+      "path": "assets/q15_option_B_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 73,
+      "height": 89
+    },
+    {
+      "id": "q15_option_C_01",
+      "path": "assets/q15_option_C_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 71,
+      "height": 80
+    },
+    {
+      "id": "q15_option_D_01",
+      "path": "assets/q15_option_D_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 71,
+      "height": 85
+    },
+    {
+      "id": "q15_option_E_01",
+      "path": "assets/q15_option_E_01.png",
+      "format": "png",
+      "media_type": "image/png",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 76,
+      "height": 83
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "number": 1,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "How many ropes can you see in this picture?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "6",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q01_stem_01"
+      ]
+    },
+    {
+      "id": "q02",
+      "number": 2,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "In a cave there live a starfish, two seahorses and three turtles. They are visited by three starfish, four turtles and five seahorses. How many animals are there now in the cave altogether?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "9",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "12",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "15",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "18",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q03",
+      "number": 3,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "Which point in the labyrinth can we get to, starting at point O?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "B",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "C",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "D",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "E",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q03_stem_01"
+      ]
+    },
+    {
+      "id": "q04",
+      "number": 4,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "Ten friends go to Robert’s birthday party. Six of which are girls. How many boys in total are at the party?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "5",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "7",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "8",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q05",
+      "number": 5,
+      "part": "part_a",
+      "points": 3,
+      "stem_text": "Johannes hands out flyers to the houses with the numbers 15 to 47. How many houses get a flyer?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "31",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "32",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "33",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "34",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "35",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q06",
+      "number": 6,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Max has 10 dice. Which one of the following solids can he build with them?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q06_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q06_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q06_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q06_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q06_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q07",
+      "number": 7,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "A hen lays white and brown eggs. Lisa takes six of them and puts them in a box as shown. The brown eggs are not allowed to touch each other. What is the maximum number of brown eggs Lisa can place in the box?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "5",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q07_stem_01"
+      ]
+    },
+    {
+      "id": "q08",
+      "number": 8,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Grandma stands in the courtyard calling her cat and all her chickens. After a little while 20 legs are running towards her. How many chickens does Grandma have?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "11",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "9",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "8",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "4",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q09",
+      "number": 9,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "A house has 12 rooms. Each room has two windows and one light. Only when the light is on in a room, both windows are illuminated. Yesterday evening 18 windows were illuminated. In how many of the rooms was the light off?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "3",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "4",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "9",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q10",
+      "number": 10,
+      "part": "part_b",
+      "points": 4,
+      "stem_text": "Together Paul and Josef are 12 years old. How old will they both be together in four years time?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "16",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "17",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "18",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "19",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "20",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": []
+    },
+    {
+      "id": "q11",
+      "number": 11,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "Gerda walks along the road and writes down the letters she can see on her right hand side. Which word is formed while Gerda walks from point 1 to point 2?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "KNAO",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "KNGO",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "KNR",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "AGRO",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "KAO",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q11_stem_01"
+      ]
+    },
+    {
+      "id": "q12",
+      "number": 12,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "Konrad has some pieces of cardboard which all look like this: Which of the shapes below can he not make out of these pieces?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q12_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q12_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q12_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q12_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q12_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q12_stem_01"
+      ]
+    },
+    {
+      "id": "q13",
+      "number": 13,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "Five sparrows are sitting on a rope (see picture). Some of them are looking to the left, some of them are looking to the right. Every sparrow whistles as many times as the number of sparrows he can see sitting in front of him. For example, the third sparrow whistles exactly twice. How often do all sparrows whistle altogether?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6",
+          "asset_refs": []
+        },
+        {
+          "label": "B",
+          "text": "8",
+          "asset_refs": []
+        },
+        {
+          "label": "C",
+          "text": "9",
+          "asset_refs": []
+        },
+        {
+          "label": "D",
+          "text": "10",
+          "asset_refs": []
+        },
+        {
+          "label": "E",
+          "text": "12",
+          "asset_refs": []
+        }
+      ],
+      "shared_asset_refs": [
+        "q13_stem_01"
+      ]
+    },
+    {
+      "id": "q14",
+      "number": 14,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "In the picture above five ladybirds can be seen. Each one is sitting on a certain flower. A ladybird is only allowed to sit on a flower if the following conditions are met: 1) The difference between the number of points on each wing is equal to the number of leaves on the stem. 2) The number of points on the wings of the ladybird is equal to the number of petals on the flower. Which of the following flowers is without a ladybird?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q14_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q14_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q14_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q14_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q14_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q14_stem_01"
+      ]
+    },
+    {
+      "id": "q15",
+      "number": 15,
+      "part": "part_c",
+      "points": 5,
+      "stem_text": "In the picture above we see a cube in two different positions. The six sides of the cube look like this: Which side is opposite to ?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "",
+          "asset_refs": [
+            "q15_option_A_01"
+          ]
+        },
+        {
+          "label": "B",
+          "text": "",
+          "asset_refs": [
+            "q15_option_B_01"
+          ]
+        },
+        {
+          "label": "C",
+          "text": "",
+          "asset_refs": [
+            "q15_option_C_01"
+          ]
+        },
+        {
+          "label": "D",
+          "text": "",
+          "asset_refs": [
+            "q15_option_D_01"
+          ]
+        },
+        {
+          "label": "E",
+          "text": "",
+          "asset_refs": [
+            "q15_option_E_01"
+          ]
+        }
+      ],
+      "shared_asset_refs": [
+        "q15_stem_01",
+        "q15_stem_02",
+        "q15_stem_03"
+      ]
+    }
+  ]
+}
