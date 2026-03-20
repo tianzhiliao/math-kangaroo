@@ -1,0 +1,2204 @@
+{
+  "exam_id": "canada-gr0102e-2021",
+  "updated_at": "2026-03-20T03:18:49.457741+00:00",
+  "source_refs": {
+    "exam_json": "/Users/projects/math_web_app/data/exams/canada-gr0102e-2021/exam.json",
+    "audit_json": "/Users/projects/math_web_app/data/exams/canada-gr0102e-2021/audit.json",
+    "source_pdf": "/Users/projects/math_web_app/original_pdf_data/2021gr0102e.pdf"
+  },
+  "source_revision": {
+    "exam_mtime_ns": 1773902186673429291,
+    "exam_size": 40461,
+    "audit_mtime_ns": 1773902186696096122,
+    "audit_size": 361396
+  },
+  "counts": {
+    "total": 18,
+    "pending": 0,
+    "completed": 15,
+    "confirmed_no_visual": 3,
+    "ready": 18
+  },
+  "questions": {
+    "1": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 1,
+          "bbox": [
+            268.95,
+            185.98,
+            315.57,
+            201.52
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 1,
+            "bbox": [
+              121.92,
+              231.4,
+              168.54,
+              279.21
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 1,
+            "bbox": [
+              213.96,
+              231.4,
+              258.19,
+              279.21
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 1,
+            "bbox": [
+              301.22,
+              223.03,
+              358.6,
+              279.21
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 1,
+            "bbox": [
+              389.68,
+              224.23,
+              443.47,
+              280.41
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 1,
+            "bbox": [
+              480.52,
+              229.61,
+              525.95,
+              278.61
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q01_stem_01",
+            "page": 1,
+            "bbox": [
+              268.95,
+              185.98,
+              315.57,
+              201.52
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "canada-gr0102e-2021/assets/q01_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q01_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q01_option_A_01",
+              "page": 1,
+              "bbox": [
+                121.92,
+                231.4,
+                168.54,
+                279.21
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q01_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q01_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q01_option_B_01",
+              "page": 1,
+              "bbox": [
+                213.96,
+                231.4,
+                258.19,
+                279.21
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q01_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q01_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q01_option_C_01",
+              "page": 1,
+              "bbox": [
+                301.22,
+                223.03,
+                358.6,
+                279.21
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q01_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q01_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q01_option_D_01",
+              "page": 1,
+              "bbox": [
+                389.68,
+                224.23,
+                443.47,
+                280.41
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q01_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q01_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q01_option_E_01",
+              "page": 1,
+              "bbox": [
+                480.52,
+                229.61,
+                525.95,
+                278.61
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q01_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q01_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:17:58.470811+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "2": {
+      "status": "completed",
+      "stem_regions": [],
+      "option_regions": {
+        "A": [
+          {
+            "page": 1,
+            "bbox": [
+              119.53,
+              327.62,
+              185.28,
+              396.95
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 1,
+            "bbox": [
+              209.19,
+              325.23,
+              274.93,
+              396.95
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 1,
+            "bbox": [
+              297.64,
+              327.62,
+              359.79,
+              393.37
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 1,
+            "bbox": [
+              387.29,
+              330.01,
+              450.64,
+              394.56
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 1,
+            "bbox": [
+              475.74,
+              328.82,
+              539.09,
+              395.76
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q02_option_A_01",
+              "page": 1,
+              "bbox": [
+                119.53,
+                327.62,
+                185.28,
+                396.95
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q02_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q02_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q02_option_B_01",
+              "page": 1,
+              "bbox": [
+                209.19,
+                325.23,
+                274.93,
+                396.95
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q02_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q02_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q02_option_C_01",
+              "page": 1,
+              "bbox": [
+                297.64,
+                327.62,
+                359.79,
+                393.37
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q02_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q02_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q02_option_D_01",
+              "page": 1,
+              "bbox": [
+                387.29,
+                330.01,
+                450.64,
+                394.56
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q02_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q02_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q02_option_E_01",
+              "page": 1,
+              "bbox": [
+                475.74,
+                328.82,
+                539.09,
+                395.76
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q02_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q02_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:18:01.568280+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "3": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 1,
+          "bbox": [
+            76.5,
+            444.77,
+            223.53,
+            578.64
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q03_stem_01",
+            "page": 1,
+            "bbox": [
+              76.5,
+              444.77,
+              223.53,
+              578.64
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "canada-gr0102e-2021/assets/q03_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q03_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T03:18:03.609913+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "4": {
+      "status": "completed",
+      "stem_regions": [],
+      "option_regions": {
+        "A": [
+          {
+            "page": 2,
+            "bbox": [
+              117.14,
+              144.74,
+              178.1,
+              230.8
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 2,
+            "bbox": [
+              209.18,
+              145.93,
+              267.75,
+              229.61
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 2,
+            "bbox": [
+              297.64,
+              148.32,
+              358.6,
+              230.8
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 2,
+            "bbox": [
+              386.09,
+              147.13,
+              443.47,
+              229.61
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 2,
+            "bbox": [
+              476.94,
+              145.93,
+              530.73,
+              227.22
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q04_option_A_01",
+              "page": 2,
+              "bbox": [
+                117.14,
+                144.74,
+                178.1,
+                230.8
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q04_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q04_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q04_option_B_01",
+              "page": 2,
+              "bbox": [
+                209.18,
+                145.93,
+                267.75,
+                229.61
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q04_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q04_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q04_option_C_01",
+              "page": 2,
+              "bbox": [
+                297.64,
+                148.32,
+                358.6,
+                230.8
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q04_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q04_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q04_option_D_01",
+              "page": 2,
+              "bbox": [
+                386.09,
+                147.13,
+                443.47,
+                229.61
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q04_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q04_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q04_option_E_01",
+              "page": 2,
+              "bbox": [
+                476.94,
+                145.93,
+                530.73,
+                227.22
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q04_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q04_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:18:05.880767+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "5": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 2,
+          "bbox": [
+            76.5,
+            263.08,
+            221.14,
+            402.93
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q05_stem_01",
+            "page": 2,
+            "bbox": [
+              76.5,
+              263.08,
+              221.14,
+              402.93
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "canada-gr0102e-2021/assets/q05_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q05_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T03:18:08.138523+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "6": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 2,
+          "bbox": [
+            80.09,
+            484.21,
+            200.82,
+            602.55
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 2,
+            "bbox": [
+              119.53,
+              621.67,
+              173.32,
+              651.56
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 2,
+            "bbox": [
+              206.79,
+              622.87,
+              259.39,
+              647.97
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 2,
+            "bbox": [
+              295.25,
+              622.87,
+              349.04,
+              649.17
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 2,
+            "bbox": [
+              388.48,
+              622.87,
+              441.08,
+              651.56
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 2,
+            "bbox": [
+              476.94,
+              625.26,
+              527.14,
+              647.97
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q06_stem_01",
+            "page": 2,
+            "bbox": [
+              80.09,
+              484.21,
+              200.82,
+              602.55
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "canada-gr0102e-2021/assets/q06_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q06_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q06_option_A_01",
+              "page": 2,
+              "bbox": [
+                119.53,
+                621.67,
+                173.32,
+                651.56
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q06_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q06_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q06_option_B_01",
+              "page": 2,
+              "bbox": [
+                206.79,
+                622.87,
+                259.39,
+                647.97
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q06_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q06_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q06_option_C_01",
+              "page": 2,
+              "bbox": [
+                295.25,
+                622.87,
+                349.04,
+                649.17
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q06_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q06_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q06_option_D_01",
+              "page": 2,
+              "bbox": [
+                388.48,
+                622.87,
+                441.08,
+                651.56
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q06_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q06_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q06_option_E_01",
+              "page": 2,
+              "bbox": [
+                476.94,
+                625.26,
+                527.14,
+                647.97
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q06_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q06_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:18:09.902592+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "7": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 3,
+          "bbox": [
+            323.93,
+            132.78,
+            371.75,
+            179.4
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 3,
+            "bbox": [
+              120.73,
+              192.55,
+              158.98,
+              235.58
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 3,
+            "bbox": [
+              209.18,
+              192.55,
+              249.82,
+              234.39
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 3,
+            "bbox": [
+              300.03,
+              192.55,
+              338.28,
+              236.78
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 3,
+            "bbox": [
+              388.48,
+              192.55,
+              429.12,
+              237.97
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 3,
+            "bbox": [
+              478.13,
+              192.55,
+              528.34,
+              234.39
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q07_stem_01",
+            "page": 3,
+            "bbox": [
+              323.93,
+              132.78,
+              371.75,
+              179.4
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "canada-gr0102e-2021/assets/q07_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q07_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q07_option_A_01",
+              "page": 3,
+              "bbox": [
+                120.73,
+                192.55,
+                158.98,
+                235.58
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q07_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q07_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q07_option_B_01",
+              "page": 3,
+              "bbox": [
+                209.18,
+                192.55,
+                249.82,
+                234.39
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q07_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q07_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q07_option_C_01",
+              "page": 3,
+              "bbox": [
+                300.03,
+                192.55,
+                338.28,
+                236.78
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q07_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q07_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q07_option_D_01",
+              "page": 3,
+              "bbox": [
+                388.48,
+                192.55,
+                429.12,
+                237.97
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q07_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q07_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q07_option_E_01",
+              "page": 3,
+              "bbox": [
+                478.13,
+                192.55,
+                528.34,
+                234.39
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q07_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q07_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:18:12.721332+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "8": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 3,
+          "bbox": [
+            78.89,
+            264.27,
+            469.76,
+            339.58
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 3,
+            "bbox": [
+              121.92,
+              353.92,
+              149.42,
+              405.32
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 3,
+            "bbox": [
+              209.18,
+              365.87,
+              252.21,
+              401.73
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 3,
+            "bbox": [
+              300.03,
+              363.48,
+              328.72,
+              404.12
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 3,
+            "bbox": [
+              387.29,
+              365.87,
+              420.76,
+              404.12
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 3,
+            "bbox": [
+              476.94,
+              359.9,
+              512.8,
+              405.32
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q08_stem_01",
+            "page": 3,
+            "bbox": [
+              78.89,
+              264.27,
+              469.76,
+              339.58
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "canada-gr0102e-2021/assets/q08_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q08_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q08_option_A_01",
+              "page": 3,
+              "bbox": [
+                121.92,
+                353.92,
+                149.42,
+                405.32
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q08_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q08_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q08_option_B_01",
+              "page": 3,
+              "bbox": [
+                209.18,
+                365.87,
+                252.21,
+                401.73
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q08_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q08_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q08_option_C_01",
+              "page": 3,
+              "bbox": [
+                300.03,
+                363.48,
+                328.72,
+                404.12
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q08_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q08_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q08_option_D_01",
+              "page": 3,
+              "bbox": [
+                387.29,
+                365.87,
+                420.76,
+                404.12
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q08_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q08_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q08_option_E_01",
+              "page": 3,
+              "bbox": [
+                476.94,
+                359.9,
+                512.8,
+                405.32
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q08_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q08_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:18:14.365301+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "9": {
+      "status": "confirmed_no_visual",
+      "stem_regions": [],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T03:12:41.454737+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "10": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 3,
+          "bbox": [
+            334.69,
+            508.12,
+            456.62,
+            578.64
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 3,
+            "bbox": [
+              120.73,
+              578.64,
+              185.28,
+              644.39
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 3,
+            "bbox": [
+              209.18,
+              577.45,
+              273.73,
+              644.39
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 3,
+            "bbox": [
+              297.64,
+              577.45,
+              364.58,
+              642.0
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 3,
+            "bbox": [
+              387.29,
+              577.45,
+              450.64,
+              642.0
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 3,
+            "bbox": [
+              476.94,
+              577.45,
+              540.29,
+              645.58
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q10_stem_01",
+            "page": 3,
+            "bbox": [
+              334.69,
+              508.12,
+              456.62,
+              578.64
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "canada-gr0102e-2021/assets/q10_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q10_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q10_option_A_01",
+              "page": 3,
+              "bbox": [
+                120.73,
+                578.64,
+                185.28,
+                644.39
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q10_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q10_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q10_option_B_01",
+              "page": 3,
+              "bbox": [
+                209.18,
+                577.45,
+                273.73,
+                644.39
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q10_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q10_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q10_option_C_01",
+              "page": 3,
+              "bbox": [
+                297.64,
+                577.45,
+                364.58,
+                642.0
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q10_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q10_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q10_option_D_01",
+              "page": 3,
+              "bbox": [
+                387.29,
+                577.45,
+                450.64,
+                642.0
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q10_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q10_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q10_option_E_01",
+              "page": 3,
+              "bbox": [
+                476.94,
+                577.45,
+                540.29,
+                645.58
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q10_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q10_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:18:18.813578+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "11": {
+      "status": "confirmed_no_visual",
+      "stem_regions": [],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T03:18:29.148117+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "12": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 4,
+          "bbox": [
+            78.89,
+            125.61,
+            508.02,
+            226.02
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q12_stem_01",
+            "page": 4,
+            "bbox": [
+              78.89,
+              125.61,
+              508.02,
+              226.02
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "canada-gr0102e-2021/assets/q12_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q12_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T03:18:31.824318+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "13": {
+      "status": "confirmed_no_visual",
+      "stem_regions": [],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T03:14:15.735468+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "14": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 4,
+          "bbox": [
+            80.09,
+            463.89,
+            210.38,
+            538.0
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 4,
+            "bbox": [
+              118.34,
+              563.1,
+              151.81,
+              602.55
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 4,
+            "bbox": [
+              210.38,
+              559.52,
+              242.65,
+              598.96
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 4,
+            "bbox": [
+              297.64,
+              557.13,
+              349.04,
+              597.77
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 4,
+            "bbox": [
+              387.29,
+              559.52,
+              447.05,
+              595.38
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 4,
+            "bbox": [
+              474.55,
+              560.71,
+              523.55,
+              602.55
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q14_stem_01",
+            "page": 4,
+            "bbox": [
+              80.09,
+              463.89,
+              210.38,
+              538.0
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "canada-gr0102e-2021/assets/q14_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q14_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q14_option_A_01",
+              "page": 4,
+              "bbox": [
+                118.34,
+                563.1,
+                151.81,
+                602.55
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q14_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q14_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q14_option_B_01",
+              "page": 4,
+              "bbox": [
+                210.38,
+                559.52,
+                242.65,
+                598.96
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q14_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q14_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q14_option_C_01",
+              "page": 4,
+              "bbox": [
+                297.64,
+                557.13,
+                349.04,
+                597.77
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q14_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q14_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q14_option_D_01",
+              "page": 4,
+              "bbox": [
+                387.29,
+                559.52,
+                447.05,
+                595.38
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q14_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q14_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q14_option_E_01",
+              "page": 4,
+              "bbox": [
+                474.55,
+                560.71,
+                523.55,
+                602.55
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q14_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q14_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:18:39.716353+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "15": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 4,
+          "bbox": [
+            294.05,
+            612.71,
+            442.27,
+            653.35
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q15_stem_01",
+            "page": 4,
+            "bbox": [
+              294.05,
+              612.71,
+              442.27,
+              653.35
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "canada-gr0102e-2021/assets/q15_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q15_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T03:18:42.349762+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "16": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 5,
+          "bbox": [
+            343.06,
+            103.5,
+            399.24,
+            169.24
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 5,
+            "bbox": [
+              121.92,
+              184.78,
+              173.32,
+              246.94
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 5,
+            "bbox": [
+              209.18,
+              187.17,
+              262.97,
+              246.94
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 5,
+            "bbox": [
+              300.03,
+              185.98,
+              351.43,
+              246.94
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 5,
+            "bbox": [
+              388.48,
+              184.78,
+              443.47,
+              248.13
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 5,
+            "bbox": [
+              476.94,
+              184.18,
+              528.34,
+              242.75
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q16_stem_01",
+            "page": 5,
+            "bbox": [
+              343.06,
+              103.5,
+              399.24,
+              169.24
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "canada-gr0102e-2021/assets/q16_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q16_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q16_option_A_01",
+              "page": 5,
+              "bbox": [
+                121.92,
+                184.78,
+                173.32,
+                246.94
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q16_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q16_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q16_option_B_01",
+              "page": 5,
+              "bbox": [
+                209.18,
+                187.17,
+                262.97,
+                246.94
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q16_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q16_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q16_option_C_01",
+              "page": 5,
+              "bbox": [
+                300.03,
+                185.98,
+                351.43,
+                246.94
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q16_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q16_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q16_option_D_01",
+              "page": 5,
+              "bbox": [
+                388.48,
+                184.78,
+                443.47,
+                248.13
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q16_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q16_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q16_option_E_01",
+              "page": 5,
+              "bbox": [
+                476.94,
+                184.18,
+                528.34,
+                242.75
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "canada-gr0102e-2021/assets/q16_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q16_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:18:44.111423+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "17": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 5,
+          "bbox": [
+            76.5,
+            306.11,
+            179.3,
+            406.52
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q17_stem_01",
+            "page": 5,
+            "bbox": [
+              76.5,
+              306.11,
+              179.3,
+              406.52
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "canada-gr0102e-2021/assets/q17_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q17_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T03:18:45.903237+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902186696096122,
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_size": 361396
+      }
+    },
+    "18": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 5,
+          "bbox": [
+            285.68,
+            462.7,
+            320.35,
+            499.75
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        },
+        {
+          "page": 5,
+          "bbox": [
+            69.33,
+            546.37,
+            536.7,
+            612.11
+          ],
+          "order": 2,
+          "seed_asset_id": null
+        },
+        {
+          "page": 5,
+          "bbox": [
+            321.54,
+            608.53,
+            375.33,
+            664.71
+          ],
+          "order": 3,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q18_stem_01",
+            "page": 5,
+            "bbox": [
+              285.68,
+              462.7,
+              320.35,
+              499.75
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "canada-gr0102e-2021/assets/q18_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q18_stem_01.png"
+          },
+          {
+            "slot": "stem",
+            "asset_id": "q18_stem_02",
+            "page": 5,
+            "bbox": [
+              69.33,
+              546.37,
+              536.7,
+              612.11
+            ],
+            "order": 2,
+            "seed_asset_id": null,
+            "path": "canada-gr0102e-2021/assets/q18_stem_02.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q18_stem_02.png"
+          },
+          {
+            "slot": "stem",
+            "asset_id": "q18_stem_03",
+            "page": 5,
+            "bbox": [
+              321.54,
+              608.53,
+              375.33,
+              664.71
+            ],
+            "order": 3,
+            "seed_asset_id": null,
+            "path": "canada-gr0102e-2021/assets/q18_stem_03.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/canada-gr0102e-2021/assets/q18_stem_03.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T03:18:49.457741+00:00",
+      "source_revision": {
+        "exam_mtime_ns": 1773902186673429291,
+        "exam_size": 40461,
+        "audit_mtime_ns": 1773902186696096122,
+        "audit_size": 361396
+      }
+    }
+  }
+}

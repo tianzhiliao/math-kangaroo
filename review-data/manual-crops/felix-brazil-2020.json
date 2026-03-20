@@ -1,0 +1,2652 @@
+{
+  "exam_id": "felix-brazil-2020",
+  "updated_at": "2026-03-20T02:08:35.492248+00:00",
+  "source_refs": {
+    "exam_json": "/Users/projects/math_web_app/data/exams/felix-brazil-2020/exam.json",
+    "audit_json": "/Users/projects/math_web_app/data/exams/felix-brazil-2020/audit.json",
+    "source_pdf": "/Users/projects/math_web_app/original_pdf_data/2020_Felix.pdf"
+  },
+  "source_revision": {
+    "exam_mtime_ns": 1773902180260625754,
+    "exam_size": 52341,
+    "audit_mtime_ns": 1773902180289087439,
+    "audit_size": 508600
+  },
+  "counts": {
+    "total": 24,
+    "pending": 0,
+    "completed": 20,
+    "confirmed_no_visual": 4,
+    "ready": 24
+  },
+  "questions": {
+    "1": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 1,
+          "bbox": [
+            330.22,
+            104.19,
+            576.73,
+            227.47
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q01_stem_01",
+            "page": 1,
+            "bbox": [
+              330.22,
+              104.19,
+              576.73,
+              227.47
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q01_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q01_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T02:06:04.388592+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "2": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 1,
+          "bbox": [
+            431.38,
+            257.7,
+            547.66,
+            354.23
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 1,
+            "bbox": [
+              77.9,
+              339.11,
+              133.72,
+              426.34
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 1,
+            "bbox": [
+              152.32,
+              365.86,
+              206.97,
+              426.34
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 1,
+            "bbox": [
+              229.06,
+              367.03,
+              284.87,
+              427.5
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 1,
+            "bbox": [
+              308.13,
+              393.77,
+              425.57,
+              428.66
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 1,
+            "bbox": [
+              444.17,
+              371.1,
+              503.47,
+              424.59
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q02_stem_01",
+            "page": 1,
+            "bbox": [
+              431.38,
+              257.7,
+              547.66,
+              354.23
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q02_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q02_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q02_option_A_01",
+              "page": 1,
+              "bbox": [
+                77.9,
+                339.11,
+                133.72,
+                426.34
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q02_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q02_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q02_option_B_01",
+              "page": 1,
+              "bbox": [
+                152.32,
+                365.86,
+                206.97,
+                426.34
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q02_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q02_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q02_option_C_01",
+              "page": 1,
+              "bbox": [
+                229.06,
+                367.03,
+                284.87,
+                427.5
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q02_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q02_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q02_option_D_01",
+              "page": 1,
+              "bbox": [
+                308.13,
+                393.77,
+                425.57,
+                428.66
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q02_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q02_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q02_option_E_01",
+              "page": 1,
+              "bbox": [
+                444.17,
+                371.1,
+                503.47,
+                424.59
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q02_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q02_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T02:06:15.299050+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "3": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 1,
+          "bbox": [
+            447.66,
+            429.25,
+            552.31,
+            509.49
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 1,
+            "bbox": [
+              80.23,
+              509.49,
+              174.41,
+              592.07
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 1,
+            "bbox": [
+              241.85,
+              514.15,
+              331.38,
+              589.74
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 1,
+            "bbox": [
+              403.47,
+              510.66,
+              501.15,
+              600.21
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 1,
+            "bbox": [
+              82.56,
+              593.23,
+              174.41,
+              674.64
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 1,
+            "bbox": [
+              240.69,
+              589.74,
+              332.55,
+              673.48
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q03_stem_01",
+            "page": 1,
+            "bbox": [
+              447.66,
+              429.25,
+              552.31,
+              509.49
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q03_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q03_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q03_option_A_01",
+              "page": 1,
+              "bbox": [
+                80.23,
+                509.49,
+                174.41,
+                592.07
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q03_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q03_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q03_option_B_01",
+              "page": 1,
+              "bbox": [
+                241.85,
+                514.15,
+                331.38,
+                589.74
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q03_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q03_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q03_option_C_01",
+              "page": 1,
+              "bbox": [
+                403.47,
+                510.66,
+                501.15,
+                600.21
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q03_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q03_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q03_option_D_01",
+              "page": 1,
+              "bbox": [
+                82.56,
+                593.23,
+                174.41,
+                674.64
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q03_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q03_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q03_option_E_01",
+              "page": 1,
+              "bbox": [
+                240.69,
+                589.74,
+                332.55,
+                673.48
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q03_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q03_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T02:06:22.844510+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "4": {
+      "status": "confirmed_no_visual",
+      "stem_regions": [],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T00:02:52.365002+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "5": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 2,
+          "bbox": [
+            80.23,
+            222.23,
+            483.7,
+            272.24
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 2,
+            "bbox": [
+              77.9,
+              314.11,
+              109.3,
+              346.67
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 2,
+            "bbox": [
+              174.41,
+              318.76,
+              218.6,
+              350.16
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 2,
+            "bbox": [
+              273.25,
+              319.92,
+              298.83,
+              349.0
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 2,
+            "bbox": [
+              368.59,
+              315.27,
+              410.45,
+              347.84
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 2,
+            "bbox": [
+              468.59,
+              315.27,
+              506.96,
+              347.84
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q05_stem_01",
+            "page": 2,
+            "bbox": [
+              80.23,
+              222.23,
+              483.7,
+              272.24
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q05_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q05_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q05_option_A_01",
+              "page": 2,
+              "bbox": [
+                77.9,
+                314.11,
+                109.3,
+                346.67
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q05_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q05_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q05_option_B_01",
+              "page": 2,
+              "bbox": [
+                174.41,
+                318.76,
+                218.6,
+                350.16
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q05_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q05_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q05_option_C_01",
+              "page": 2,
+              "bbox": [
+                273.25,
+                319.92,
+                298.83,
+                349.0
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q05_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q05_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q05_option_D_01",
+              "page": 2,
+              "bbox": [
+                368.59,
+                315.27,
+                410.45,
+                347.84
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q05_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q05_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q05_option_E_01",
+              "page": 2,
+              "bbox": [
+                468.59,
+                315.27,
+                506.96,
+                347.84
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q05_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q05_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T02:06:33.813198+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "6": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 2,
+          "bbox": [
+            53.49,
+            375.75,
+            168.6,
+            487.4
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        },
+        {
+          "page": 2,
+          "bbox": [
+            476.73,
+            360.63,
+            553.47,
+            493.21
+          ],
+          "order": 2,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 2,
+            "bbox": [
+              75.58,
+              486.23,
+              143.02,
+              518.8
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 2,
+            "bbox": [
+              173.25,
+              490.89,
+              247.67,
+              518.8
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 2,
+            "bbox": [
+              270.92,
+              490.89,
+              340.69,
+              517.63
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 2,
+            "bbox": [
+              369.76,
+              492.05,
+              434.87,
+              519.96
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 2,
+            "bbox": [
+              479.05,
+              489.72,
+              517.42,
+              515.31
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q06_stem_01",
+            "page": 2,
+            "bbox": [
+              53.49,
+              375.75,
+              168.6,
+              487.4
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q06_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q06_stem_01.png"
+          },
+          {
+            "slot": "stem",
+            "asset_id": "q06_stem_02",
+            "page": 2,
+            "bbox": [
+              476.73,
+              360.63,
+              553.47,
+              493.21
+            ],
+            "order": 2,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q06_stem_02.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q06_stem_02.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q06_option_A_01",
+              "page": 2,
+              "bbox": [
+                75.58,
+                486.23,
+                143.02,
+                518.8
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q06_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q06_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q06_option_B_01",
+              "page": 2,
+              "bbox": [
+                173.25,
+                490.89,
+                247.67,
+                518.8
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q06_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q06_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q06_option_C_01",
+              "page": 2,
+              "bbox": [
+                270.92,
+                490.89,
+                340.69,
+                517.63
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q06_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q06_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q06_option_D_01",
+              "page": 2,
+              "bbox": [
+                369.76,
+                492.05,
+                434.87,
+                519.96
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q06_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q06_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q06_option_E_01",
+              "page": 2,
+              "bbox": [
+                479.05,
+                489.72,
+                517.42,
+                515.31
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q06_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q06_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T02:06:36.573375+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "7": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 2,
+          "bbox": [
+            449.99,
+            524.03,
+            546.49,
+            604.28
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q07_stem_01",
+            "page": 2,
+            "bbox": [
+              449.99,
+              524.03,
+              546.49,
+              604.28
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q07_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q07_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T02:06:40.944268+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "8": {
+      "status": "completed",
+      "stem_regions": [],
+      "option_regions": {
+        "A": [
+          {
+            "page": 2,
+            "bbox": [
+              72.09,
+              641.49,
+              139.53,
+              755.47
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 2,
+            "bbox": [
+              169.76,
+              642.66,
+              236.04,
+              755.47
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 2,
+            "bbox": [
+              267.43,
+              642.66,
+              332.55,
+              754.3
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 2,
+            "bbox": [
+              363.94,
+              643.82,
+              431.38,
+              754.3
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 2,
+            "bbox": [
+              460.45,
+              643.24,
+              526.73,
+              752.56
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q08_option_A_01",
+              "page": 2,
+              "bbox": [
+                72.09,
+                641.49,
+                139.53,
+                755.47
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q08_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q08_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q08_option_B_01",
+              "page": 2,
+              "bbox": [
+                169.76,
+                642.66,
+                236.04,
+                755.47
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q08_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q08_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q08_option_C_01",
+              "page": 2,
+              "bbox": [
+                267.43,
+                642.66,
+                332.55,
+                754.3
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q08_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q08_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q08_option_D_01",
+              "page": 2,
+              "bbox": [
+                363.94,
+                643.82,
+                431.38,
+                754.3
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q08_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q08_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q08_option_E_01",
+              "page": 2,
+              "bbox": [
+                460.45,
+                643.24,
+                526.73,
+                752.56
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q08_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q08_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T02:06:53.180805+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "9": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 3,
+          "bbox": [
+            377.89,
+            65.23,
+            537.19,
+            174.55
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 3,
+            "bbox": [
+              76.74,
+              157.1,
+              113.95,
+              196.65
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 3,
+            "bbox": [
+              139.53,
+              157.1,
+              180.23,
+              196.65
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 3,
+            "bbox": [
+              203.48,
+              158.27,
+              241.85,
+              196.65
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 3,
+            "bbox": [
+              268.6,
+              158.27,
+              306.97,
+              196.65
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 3,
+            "bbox": [
+              331.38,
+              157.1,
+              368.59,
+              195.48
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q09_stem_01",
+            "page": 3,
+            "bbox": [
+              377.89,
+              65.23,
+              537.19,
+              174.55
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q09_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q09_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q09_option_A_01",
+              "page": 3,
+              "bbox": [
+                76.74,
+                157.1,
+                113.95,
+                196.65
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q09_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q09_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q09_option_B_01",
+              "page": 3,
+              "bbox": [
+                139.53,
+                157.1,
+                180.23,
+                196.65
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q09_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q09_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q09_option_C_01",
+              "page": 3,
+              "bbox": [
+                203.48,
+                158.27,
+                241.85,
+                196.65
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q09_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q09_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q09_option_D_01",
+              "page": 3,
+              "bbox": [
+                268.6,
+                158.27,
+                306.97,
+                196.65
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q09_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q09_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q09_option_E_01",
+              "page": 3,
+              "bbox": [
+                331.38,
+                157.1,
+                368.59,
+                195.48
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q09_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q09_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T02:06:58.317302+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "10": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 3,
+          "bbox": [
+            410.45,
+            183.27,
+            545.33,
+            315.85
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q10_stem_01",
+            "page": 3,
+            "bbox": [
+              410.45,
+              183.27,
+              545.33,
+              315.85
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q10_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q10_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T02:07:03.623047+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "11": {
+      "status": "completed",
+      "stem_regions": [],
+      "option_regions": {
+        "A": [
+          {
+            "page": 3,
+            "bbox": [
+              72.09,
+              353.07,
+              117.44,
+              424.01
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 3,
+            "bbox": [
+              172.09,
+              363.54,
+              233.71,
+              425.18
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 3,
+            "bbox": [
+              255.81,
+              369.35,
+              337.2,
+              421.69
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 3,
+            "bbox": [
+              365.1,
+              369.35,
+              434.87,
+              425.18
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 3,
+            "bbox": [
+              461.61,
+              354.81,
+              532.54,
+              425.76
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q11_option_A_01",
+              "page": 3,
+              "bbox": [
+                72.09,
+                353.07,
+                117.44,
+                424.01
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q11_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q11_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q11_option_B_01",
+              "page": 3,
+              "bbox": [
+                172.09,
+                363.54,
+                233.71,
+                425.18
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q11_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q11_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q11_option_C_01",
+              "page": 3,
+              "bbox": [
+                255.81,
+                369.35,
+                337.2,
+                421.69
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q11_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q11_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q11_option_D_01",
+              "page": 3,
+              "bbox": [
+                365.1,
+                369.35,
+                434.87,
+                425.18
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q11_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q11_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q11_option_E_01",
+              "page": 3,
+              "bbox": [
+                461.61,
+                354.81,
+                532.54,
+                425.76
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q11_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q11_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T02:07:06.766181+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "12": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 3,
+          "bbox": [
+            419.75,
+            425.18,
+            552.31,
+            572.88
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q12_stem_01",
+            "page": 3,
+            "bbox": [
+              419.75,
+              425.18,
+              552.31,
+              572.88
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q12_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q12_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T02:07:09.931667+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "13": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 3,
+          "bbox": [
+            398.82,
+            568.22,
+            565.1,
+            657.78
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 3,
+            "bbox": [
+              74.42,
+              656.61,
+              102.32,
+              686.85
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 3,
+            "bbox": [
+              170.92,
+              660.1,
+              198.83,
+              692.67
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 3,
+            "bbox": [
+              256.97,
+              660.1,
+              287.2,
+              688.01
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 3,
+            "bbox": [
+              367.43,
+              662.43,
+              401.15,
+              689.18
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 3,
+            "bbox": [
+              461.61,
+              660.1,
+              489.52,
+              688.01
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q13_stem_01",
+            "page": 3,
+            "bbox": [
+              398.82,
+              568.22,
+              565.1,
+              657.78
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q13_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q13_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q13_option_A_01",
+              "page": 3,
+              "bbox": [
+                74.42,
+                656.61,
+                102.32,
+                686.85
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q13_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q13_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q13_option_B_01",
+              "page": 3,
+              "bbox": [
+                170.92,
+                660.1,
+                198.83,
+                692.67
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q13_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q13_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q13_option_C_01",
+              "page": 3,
+              "bbox": [
+                256.97,
+                660.1,
+                287.2,
+                688.01
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q13_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q13_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q13_option_D_01",
+              "page": 3,
+              "bbox": [
+                367.43,
+                662.43,
+                401.15,
+                689.18
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q13_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q13_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q13_option_E_01",
+              "page": 3,
+              "bbox": [
+                461.61,
+                660.1,
+                489.52,
+                688.01
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q13_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q13_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T02:07:14.804189+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "14": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 4,
+          "bbox": [
+            443.01,
+            63.48,
+            545.33,
+            97.21
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q14_stem_01",
+            "page": 4,
+            "bbox": [
+              443.01,
+              63.48,
+              545.33,
+              97.21
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q14_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q14_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T02:07:20.365804+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "15": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 4,
+          "bbox": [
+            427.89,
+            153.03,
+            548.82,
+            279.8
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 4,
+            "bbox": [
+              73.25,
+              275.15,
+              134.88,
+              343.77
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 4,
+            "bbox": [
+              170.92,
+              276.31,
+              230.22,
+              343.77
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 4,
+            "bbox": [
+              267.43,
+              278.64,
+              329.06,
+              343.77
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 4,
+            "bbox": [
+              366.27,
+              279.22,
+              425.57,
+              343.18
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 4,
+            "bbox": [
+              465.1,
+              278.06,
+              522.08,
+              343.18
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q15_stem_01",
+            "page": 4,
+            "bbox": [
+              427.89,
+              153.03,
+              548.82,
+              279.8
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q15_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q15_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q15_option_A_01",
+              "page": 4,
+              "bbox": [
+                73.25,
+                275.15,
+                134.88,
+                343.77
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q15_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q15_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q15_option_B_01",
+              "page": 4,
+              "bbox": [
+                170.92,
+                276.31,
+                230.22,
+                343.77
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q15_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q15_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q15_option_C_01",
+              "page": 4,
+              "bbox": [
+                267.43,
+                278.64,
+                329.06,
+                343.77
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q15_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q15_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q15_option_D_01",
+              "page": 4,
+              "bbox": [
+                366.27,
+                279.22,
+                425.57,
+                343.18
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q15_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q15_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q15_option_E_01",
+              "page": 4,
+              "bbox": [
+                465.1,
+                278.06,
+                522.08,
+                343.18
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q15_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q15_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T02:07:22.909413+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "16": {
+      "status": "confirmed_no_visual",
+      "stem_regions": [],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T02:02:47.293526+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "17": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 4,
+          "bbox": [
+            198.83,
+            457.16,
+            429.06,
+            487.4
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        },
+        {
+          "page": 4,
+          "bbox": [
+            443.01,
+            443.2,
+            545.33,
+            547.87
+          ],
+          "order": 2,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 4,
+            "bbox": [
+              73.25,
+              558.34,
+              106.97,
+              590.9
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 4,
+            "bbox": [
+              170.92,
+              558.34,
+              203.48,
+              592.07
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 4,
+            "bbox": [
+              267.43,
+              558.34,
+              302.32,
+              590.9
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 4,
+            "bbox": [
+              366.27,
+              559.5,
+              399.99,
+              590.9
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 4,
+            "bbox": [
+              461.61,
+              558.34,
+              495.33,
+              590.9
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q17_stem_01",
+            "page": 4,
+            "bbox": [
+              198.83,
+              457.16,
+              429.06,
+              487.4
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q17_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q17_stem_01.png"
+          },
+          {
+            "slot": "stem",
+            "asset_id": "q17_stem_02",
+            "page": 4,
+            "bbox": [
+              443.01,
+              443.2,
+              545.33,
+              547.87
+            ],
+            "order": 2,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q17_stem_02.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q17_stem_02.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q17_option_A_01",
+              "page": 4,
+              "bbox": [
+                73.25,
+                558.34,
+                106.97,
+                590.9
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q17_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q17_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q17_option_B_01",
+              "page": 4,
+              "bbox": [
+                170.92,
+                558.34,
+                203.48,
+                592.07
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q17_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q17_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q17_option_C_01",
+              "page": 4,
+              "bbox": [
+                267.43,
+                558.34,
+                302.32,
+                590.9
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q17_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q17_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q17_option_D_01",
+              "page": 4,
+              "bbox": [
+                366.27,
+                559.5,
+                399.99,
+                590.9
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q17_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q17_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q17_option_E_01",
+              "page": 4,
+              "bbox": [
+                461.61,
+                558.34,
+                495.33,
+                590.9
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-brazil-2020/assets/q17_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q17_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T02:07:29.549549+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "18": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 4,
+          "bbox": [
+            238.36,
+            610.09,
+            567.42,
+            707.78
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q18_stem_01",
+            "page": 4,
+            "bbox": [
+              238.36,
+              610.09,
+              567.42,
+              707.78
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q18_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q18_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T02:07:32.666563+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "19": {
+      "status": "confirmed_no_visual",
+      "stem_regions": [],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T02:08:28.820844+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "20": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 5,
+          "bbox": [
+            484.87,
+            146.06,
+            569.75,
+            246.07
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q20_stem_01",
+            "page": 5,
+            "bbox": [
+              484.87,
+              146.06,
+              569.75,
+              246.07
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q20_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q20_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T02:07:37.655126+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "21": {
+      "status": "confirmed_no_visual",
+      "stem_regions": [],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T02:08:35.492248+00:00",
+      "source_revision": {
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_mtime_ns": 1773902180289087439,
+        "audit_size": 508600
+      }
+    },
+    "22": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 5,
+          "bbox": [
+            449.99,
+            342.6,
+            544.17,
+            442.62
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q22_stem_01",
+            "page": 5,
+            "bbox": [
+              449.99,
+              342.6,
+              544.17,
+              442.62
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q22_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q22_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T02:07:41.224778+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "23": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 5,
+          "bbox": [
+            431.38,
+            436.81,
+            563.93,
+            564.74
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q23_stem_01",
+            "page": 5,
+            "bbox": [
+              431.38,
+              436.81,
+              563.93,
+              564.74
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q23_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q23_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T02:07:43.369738+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    },
+    "24": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 5,
+          "bbox": [
+            436.03,
+            583.34,
+            543.01,
+            656.61
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q24_stem_01",
+            "page": 5,
+            "bbox": [
+              436.03,
+              583.34,
+              543.01,
+              656.61
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-brazil-2020/assets/q24_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-brazil-2020/assets/q24_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T02:07:58.863100+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902180289087439,
+        "exam_mtime_ns": 1773902180260625754,
+        "exam_size": 52341,
+        "audit_size": 508600
+      }
+    }
+  }
+}

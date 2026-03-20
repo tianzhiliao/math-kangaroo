@@ -93,6 +93,7 @@ function renderOverview() {
           </div>
           <div class="button-row">
             <a class="button primary" href="/review/queue/failures">打开失败队列</a>
+            <a class="ghost-button" href="/crop-review">图形框选台</a>
             <a class="ghost-button" href="/review-files/qa/index.html" target="_blank" rel="noreferrer">只读 QA 总页</a>
           </div>
         </div>
@@ -160,6 +161,7 @@ function renderExamCard(exam) {
 
       <div class="link-row">
         <a class="tiny-link" href="${escapeHtml(exam.review_url)}">整套题工作台</a>
+        <a class="tiny-link" href="/crop-review/${escapeHtml(exam.exam_id)}">图形框选</a>
         <a class="tiny-link" href="${escapeHtml(exam.qa_page_url)}" target="_blank" rel="noreferrer">只读 QA</a>
         <a class="tiny-link" href="${escapeHtml(exam.exam_json_url)}" target="_blank" rel="noreferrer">exam.json</a>
         <a class="tiny-link" href="${escapeHtml(exam.audit_json_url)}" target="_blank" rel="noreferrer">audit.json</a>
@@ -319,6 +321,7 @@ function renderExam() {
           <div class="button-row">
             <a class="button primary" href="/review">回到总览</a>
             <a class="ghost-button" href="/review/queue/failures">失败队列</a>
+            <a class="ghost-button" href="/crop-review/${escapeHtml(state.detail.meta.exam_id)}">图形框选台</a>
             <a class="ghost-button" href="${escapeHtml(state.detail.meta.qa_page_url)}" target="_blank" rel="noreferrer">只读 QA</a>
           </div>
         </div>

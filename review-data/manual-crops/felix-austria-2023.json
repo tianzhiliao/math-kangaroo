@@ -1,0 +1,1844 @@
+{
+  "exam_id": "felix-austria-2023",
+  "updated_at": "2026-03-20T03:52:01.124240+00:00",
+  "source_refs": {
+    "exam_json": "/Users/projects/math_web_app/data/exams/felix-austria-2023/exam.json",
+    "audit_json": "/Users/projects/math_web_app/data/exams/felix-austria-2023/audit.json",
+    "source_pdf": "/Users/projects/math_web_app/original_pdf_data/2023_Felix.pdf"
+  },
+  "source_revision": {
+    "exam_mtime_ns": 1773902195577297837,
+    "exam_size": 35158,
+    "audit_mtime_ns": 1773902195592555892,
+    "audit_size": 254060
+  },
+  "counts": {
+    "total": 15,
+    "pending": 0,
+    "completed": 13,
+    "confirmed_no_visual": 2,
+    "ready": 15
+  },
+  "questions": {
+    "1": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 2,
+          "bbox": [
+            451.15,
+            141.4,
+            543.01,
+            230.96
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q01_stem_01",
+            "page": 2,
+            "bbox": [
+              451.15,
+              141.4,
+              543.01,
+              230.96
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-austria-2023/assets/q01_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q01_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T03:51:18.993004+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902195592555892,
+        "exam_mtime_ns": 1773902195577297837,
+        "exam_size": 35158,
+        "audit_size": 254060
+      }
+    },
+    "2": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 2,
+          "bbox": [
+            293.01,
+            243.75,
+            370.92,
+            301.9
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 2,
+            "bbox": [
+              66.28,
+              307.71,
+              125.58,
+              336.79
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 2,
+            "bbox": [
+              151.16,
+              306.55,
+              211.62,
+              337.95
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 2,
+            "bbox": [
+              236.04,
+              308.88,
+              295.34,
+              335.62
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 2,
+            "bbox": [
+              323.25,
+              308.88,
+              381.38,
+              335.62
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 2,
+            "bbox": [
+              405.8,
+              308.88,
+              463.94,
+              334.46
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q02_stem_01",
+            "page": 2,
+            "bbox": [
+              293.01,
+              243.75,
+              370.92,
+              301.9
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-austria-2023/assets/q02_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q02_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q02_option_A_01",
+              "page": 2,
+              "bbox": [
+                66.28,
+                307.71,
+                125.58,
+                336.79
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q02_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q02_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q02_option_B_01",
+              "page": 2,
+              "bbox": [
+                151.16,
+                306.55,
+                211.62,
+                337.95
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q02_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q02_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q02_option_C_01",
+              "page": 2,
+              "bbox": [
+                236.04,
+                308.88,
+                295.34,
+                335.62
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q02_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q02_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q02_option_D_01",
+              "page": 2,
+              "bbox": [
+                323.25,
+                308.88,
+                381.38,
+                335.62
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q02_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q02_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q02_option_E_01",
+              "page": 2,
+              "bbox": [
+                405.8,
+                308.88,
+                463.94,
+                334.46
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q02_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q02_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:51:22.677392+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902195592555892,
+        "exam_mtime_ns": 1773902195577297837,
+        "exam_size": 35158,
+        "audit_size": 254060
+      }
+    },
+    "3": {
+      "status": "completed",
+      "stem_regions": [],
+      "option_regions": {
+        "A": [
+          {
+            "page": 2,
+            "bbox": [
+              67.44,
+              417.62,
+              133.72,
+              483.91
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 2,
+            "bbox": [
+              153.48,
+              417.62,
+              218.6,
+              483.91
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 2,
+            "bbox": [
+              238.36,
+              417.62,
+              304.64,
+              479.26
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 2,
+            "bbox": [
+              324.41,
+              418.78,
+              389.52,
+              481.58
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 2,
+            "bbox": [
+              406.96,
+              418.78,
+              475.57,
+              479.26
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q03_option_A_01",
+              "page": 2,
+              "bbox": [
+                67.44,
+                417.62,
+                133.72,
+                483.91
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q03_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q03_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q03_option_B_01",
+              "page": 2,
+              "bbox": [
+                153.48,
+                417.62,
+                218.6,
+                483.91
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q03_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q03_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q03_option_C_01",
+              "page": 2,
+              "bbox": [
+                238.36,
+                417.62,
+                304.64,
+                479.26
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q03_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q03_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q03_option_D_01",
+              "page": 2,
+              "bbox": [
+                324.41,
+                418.78,
+                389.52,
+                481.58
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q03_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q03_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q03_option_E_01",
+              "page": 2,
+              "bbox": [
+                406.96,
+                418.78,
+                475.57,
+                479.26
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q03_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q03_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:51:26.837711+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902195592555892,
+        "exam_mtime_ns": 1773902195577297837,
+        "exam_size": 35158,
+        "audit_size": 254060
+      }
+    },
+    "4": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 2,
+          "bbox": [
+            140.69,
+            531.59,
+            461.61,
+            692.08
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 2,
+            "bbox": [
+              68.6,
+              724.65,
+              130.23,
+              766.52
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 2,
+            "bbox": [
+              155.81,
+              726.97,
+              199.99,
+              763.03
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 2,
+            "bbox": [
+              237.2,
+              713.02,
+              282.55,
+              765.35
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 2,
+            "bbox": [
+              323.25,
+              711.85,
+              354.64,
+              765.35
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 2,
+            "bbox": [
+              406.96,
+              710.69,
+              454.64,
+              764.19
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q04_stem_01",
+            "page": 2,
+            "bbox": [
+              140.69,
+              531.59,
+              461.61,
+              692.08
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-austria-2023/assets/q04_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q04_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q04_option_A_01",
+              "page": 2,
+              "bbox": [
+                68.6,
+                724.65,
+                130.23,
+                766.52
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q04_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q04_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q04_option_B_01",
+              "page": 2,
+              "bbox": [
+                155.81,
+                726.97,
+                199.99,
+                763.03
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q04_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q04_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q04_option_C_01",
+              "page": 2,
+              "bbox": [
+                237.2,
+                713.02,
+                282.55,
+                765.35
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q04_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q04_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q04_option_D_01",
+              "page": 2,
+              "bbox": [
+                323.25,
+                711.85,
+                354.64,
+                765.35
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q04_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q04_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q04_option_E_01",
+              "page": 2,
+              "bbox": [
+                406.96,
+                710.69,
+                454.64,
+                764.19
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q04_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q04_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:51:28.466891+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902195592555892,
+        "exam_mtime_ns": 1773902195577297837,
+        "exam_size": 35158,
+        "audit_size": 254060
+      }
+    },
+    "5": {
+      "status": "completed",
+      "stem_regions": [],
+      "option_regions": {
+        "A": [
+          {
+            "page": 3,
+            "bbox": [
+              67.44,
+              103.61,
+              120.93,
+              190.83
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 3,
+            "bbox": [
+              153.48,
+              103.61,
+              204.64,
+              182.69
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 3,
+            "bbox": [
+              238.36,
+              105.93,
+              290.69,
+              181.53
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 3,
+            "bbox": [
+              324.41,
+              107.1,
+              377.89,
+              182.69
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 3,
+            "bbox": [
+              406.96,
+              105.93,
+              460.45,
+              183.85
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q05_option_A_01",
+              "page": 3,
+              "bbox": [
+                67.44,
+                103.61,
+                120.93,
+                190.83
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q05_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q05_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q05_option_B_01",
+              "page": 3,
+              "bbox": [
+                153.48,
+                103.61,
+                204.64,
+                182.69
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q05_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q05_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q05_option_C_01",
+              "page": 3,
+              "bbox": [
+                238.36,
+                105.93,
+                290.69,
+                181.53
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q05_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q05_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q05_option_D_01",
+              "page": 3,
+              "bbox": [
+                324.41,
+                107.1,
+                377.89,
+                182.69
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q05_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q05_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q05_option_E_01",
+              "page": 3,
+              "bbox": [
+                406.96,
+                105.93,
+                460.45,
+                183.85
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q05_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q05_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:51:30.323115+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902195592555892,
+        "exam_mtime_ns": 1773902195577297837,
+        "exam_size": 35158,
+        "audit_size": 254060
+      }
+    },
+    "6": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 3,
+          "bbox": [
+            118.6,
+            288.52,
+            483.7,
+            457.16
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q06_stem_01",
+            "page": 3,
+            "bbox": [
+              118.6,
+              288.52,
+              483.7,
+              457.16
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-austria-2023/assets/q06_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q06_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T03:51:32.024971+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902195592555892,
+        "exam_mtime_ns": 1773902195577297837,
+        "exam_size": 35158,
+        "audit_size": 254060
+      }
+    },
+    "7": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 3,
+          "bbox": [
+            229.06,
+            583.93,
+            381.38,
+            679.29
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 3,
+            "bbox": [
+              67.44,
+              700.22,
+              131.39,
+              768.84
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 3,
+            "bbox": [
+              151.16,
+              701.39,
+              215.11,
+              770.0
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 3,
+            "bbox": [
+              234.88,
+              700.22,
+              298.83,
+              770.0
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 3,
+            "bbox": [
+              323.25,
+              700.22,
+              387.2,
+              767.68
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 3,
+            "bbox": [
+              404.64,
+              701.39,
+              470.91,
+              766.52
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q07_stem_01",
+            "page": 3,
+            "bbox": [
+              229.06,
+              583.93,
+              381.38,
+              679.29
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-austria-2023/assets/q07_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q07_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q07_option_A_01",
+              "page": 3,
+              "bbox": [
+                67.44,
+                700.22,
+                131.39,
+                768.84
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q07_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q07_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q07_option_B_01",
+              "page": 3,
+              "bbox": [
+                151.16,
+                701.39,
+                215.11,
+                770.0
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q07_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q07_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q07_option_C_01",
+              "page": 3,
+              "bbox": [
+                234.88,
+                700.22,
+                298.83,
+                770.0
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q07_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q07_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q07_option_D_01",
+              "page": 3,
+              "bbox": [
+                323.25,
+                700.22,
+                387.2,
+                767.68
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q07_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q07_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q07_option_E_01",
+              "page": 3,
+              "bbox": [
+                404.64,
+                701.39,
+                470.91,
+                766.52
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q07_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q07_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:51:33.908683+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902195592555892,
+        "exam_mtime_ns": 1773902195577297837,
+        "exam_size": 35158,
+        "audit_size": 254060
+      }
+    },
+    "8": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 4,
+          "bbox": [
+            448.82,
+            22.2,
+            544.17,
+            129.19
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q08_stem_01",
+            "page": 4,
+            "bbox": [
+              448.82,
+              22.2,
+              544.17,
+              129.19
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-austria-2023/assets/q08_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q08_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T03:51:35.319927+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902195592555892,
+        "exam_mtime_ns": 1773902195577297837,
+        "exam_size": 35158,
+        "audit_size": 254060
+      }
+    },
+    "9": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 4,
+          "bbox": [
+            80.23,
+            201.3,
+            427.89,
+            271.08
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q09_stem_01",
+            "page": 4,
+            "bbox": [
+              80.23,
+              201.3,
+              427.89,
+              271.08
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-austria-2023/assets/q09_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q09_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T03:51:36.855712+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902195592555892,
+        "exam_mtime_ns": 1773902195577297837,
+        "exam_size": 35158,
+        "audit_size": 254060
+      }
+    },
+    "10": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 4,
+          "bbox": [
+            249.99,
+            409.48,
+            351.15,
+            483.91
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 4,
+            "bbox": [
+              65.11,
+              504.84,
+              194.18,
+              564.15
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 4,
+            "bbox": [
+              234.88,
+              503.68,
+              362.78,
+              561.83
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 4,
+            "bbox": [
+              404.64,
+              506.0,
+              532.54,
+              566.48
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 4,
+            "bbox": [
+              67.44,
+              560.67,
+              166.27,
+              623.47
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 4,
+            "bbox": [
+              234.88,
+              564.15,
+              359.29,
+              618.82
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q10_stem_01",
+            "page": 4,
+            "bbox": [
+              249.99,
+              409.48,
+              351.15,
+              483.91
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-austria-2023/assets/q10_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q10_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q10_option_A_01",
+              "page": 4,
+              "bbox": [
+                65.11,
+                504.84,
+                194.18,
+                564.15
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q10_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q10_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q10_option_B_01",
+              "page": 4,
+              "bbox": [
+                234.88,
+                503.68,
+                362.78,
+                561.83
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q10_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q10_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q10_option_C_01",
+              "page": 4,
+              "bbox": [
+                404.64,
+                506.0,
+                532.54,
+                566.48
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q10_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q10_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q10_option_D_01",
+              "page": 4,
+              "bbox": [
+                67.44,
+                560.67,
+                166.27,
+                623.47
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q10_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q10_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q10_option_E_01",
+              "page": 4,
+              "bbox": [
+                234.88,
+                564.15,
+                359.29,
+                618.82
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q10_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q10_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:51:38.419692+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902195592555892,
+        "exam_mtime_ns": 1773902195577297837,
+        "exam_size": 35158,
+        "audit_size": 254060
+      }
+    },
+    "11": {
+      "status": "confirmed_no_visual",
+      "stem_regions": [],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T03:51:47.720883+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902195592555892,
+        "exam_mtime_ns": 1773902195577297837,
+        "exam_size": 35158,
+        "audit_size": 254060
+      }
+    },
+    "12": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 5,
+          "bbox": [
+            259.29,
+            26.85,
+            296.5,
+            67.55
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [
+          {
+            "page": 5,
+            "bbox": [
+              69.77,
+              95.47,
+              136.04,
+              168.73
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 5,
+            "bbox": [
+              153.48,
+              97.79,
+              219.76,
+              167.57
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 5,
+            "bbox": [
+              238.36,
+              96.63,
+              303.48,
+              167.57
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 5,
+            "bbox": [
+              324.41,
+              98.95,
+              391.85,
+              166.41
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 5,
+            "bbox": [
+              408.13,
+              100.12,
+              475.57,
+              167.57
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q12_stem_01",
+            "page": 5,
+            "bbox": [
+              259.29,
+              26.85,
+              296.5,
+              67.55
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-austria-2023/assets/q12_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q12_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q12_option_A_01",
+              "page": 5,
+              "bbox": [
+                69.77,
+                95.47,
+                136.04,
+                168.73
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q12_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q12_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q12_option_B_01",
+              "page": 5,
+              "bbox": [
+                153.48,
+                97.79,
+                219.76,
+                167.57
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q12_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q12_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q12_option_C_01",
+              "page": 5,
+              "bbox": [
+                238.36,
+                96.63,
+                303.48,
+                167.57
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q12_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q12_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q12_option_D_01",
+              "page": 5,
+              "bbox": [
+                324.41,
+                98.95,
+                391.85,
+                166.41
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q12_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q12_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q12_option_E_01",
+              "page": 5,
+              "bbox": [
+                408.13,
+                100.12,
+                475.57,
+                167.57
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q12_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q12_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:51:50.379327+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902195592555892,
+        "exam_mtime_ns": 1773902195577297837,
+        "exam_size": 35158,
+        "audit_size": 254060
+      }
+    },
+    "13": {
+      "status": "completed",
+      "stem_regions": [],
+      "option_regions": {
+        "A": [
+          {
+            "page": 5,
+            "bbox": [
+              66.28,
+              345.51,
+              122.09,
+              449.02
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "B": [
+          {
+            "page": 5,
+            "bbox": [
+              152.32,
+              349.0,
+              208.13,
+              444.37
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "C": [
+          {
+            "page": 5,
+            "bbox": [
+              236.04,
+              347.84,
+              290.69,
+              437.39
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "D": [
+          {
+            "page": 5,
+            "bbox": [
+              322.08,
+              346.67,
+              377.89,
+              438.55
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ],
+        "E": [
+          {
+            "page": 5,
+            "bbox": [
+              405.8,
+              347.84,
+              461.61,
+              442.04
+            ],
+            "order": 1,
+            "seed_asset_id": null
+          }
+        ]
+      },
+      "resolved_exports": {
+        "stem": [],
+        "options": {
+          "A": [
+            {
+              "slot": "option:A",
+              "asset_id": "q13_option_A_01",
+              "page": 5,
+              "bbox": [
+                66.28,
+                345.51,
+                122.09,
+                449.02
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q13_option_A_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q13_option_A_01.png"
+            }
+          ],
+          "B": [
+            {
+              "slot": "option:B",
+              "asset_id": "q13_option_B_01",
+              "page": 5,
+              "bbox": [
+                152.32,
+                349.0,
+                208.13,
+                444.37
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q13_option_B_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q13_option_B_01.png"
+            }
+          ],
+          "C": [
+            {
+              "slot": "option:C",
+              "asset_id": "q13_option_C_01",
+              "page": 5,
+              "bbox": [
+                236.04,
+                347.84,
+                290.69,
+                437.39
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q13_option_C_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q13_option_C_01.png"
+            }
+          ],
+          "D": [
+            {
+              "slot": "option:D",
+              "asset_id": "q13_option_D_01",
+              "page": 5,
+              "bbox": [
+                322.08,
+                346.67,
+                377.89,
+                438.55
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q13_option_D_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q13_option_D_01.png"
+            }
+          ],
+          "E": [
+            {
+              "slot": "option:E",
+              "asset_id": "q13_option_E_01",
+              "page": 5,
+              "bbox": [
+                405.8,
+                347.84,
+                461.61,
+                442.04
+              ],
+              "order": 1,
+              "seed_asset_id": null,
+              "path": "felix-austria-2023/assets/q13_option_E_01.png",
+              "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q13_option_E_01.png"
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-03-20T03:51:52.363607+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902195592555892,
+        "exam_mtime_ns": 1773902195577297837,
+        "exam_size": 35158,
+        "audit_size": 254060
+      }
+    },
+    "14": {
+      "status": "completed",
+      "stem_regions": [
+        {
+          "page": 5,
+          "bbox": [
+            397.66,
+            496.7,
+            575.56,
+            580.44
+          ],
+          "order": 1,
+          "seed_asset_id": null
+        }
+      ],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [
+          {
+            "slot": "stem",
+            "asset_id": "q14_stem_01",
+            "page": 5,
+            "bbox": [
+              397.66,
+              496.7,
+              575.56,
+              580.44
+            ],
+            "order": 1,
+            "seed_asset_id": null,
+            "path": "felix-austria-2023/assets/q14_stem_01.png",
+            "absolute_path": "/Users/projects/math_web_app/review-data/manual-crops/felix-austria-2023/assets/q14_stem_01.png"
+          }
+        ],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T03:51:54.000571+00:00",
+      "source_revision": {
+        "audit_mtime_ns": 1773902195592555892,
+        "exam_mtime_ns": 1773902195577297837,
+        "exam_size": 35158,
+        "audit_size": 254060
+      }
+    },
+    "15": {
+      "status": "confirmed_no_visual",
+      "stem_regions": [],
+      "option_regions": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": [],
+        "E": []
+      },
+      "resolved_exports": {
+        "stem": [],
+        "options": {
+          "A": [],
+          "B": [],
+          "C": [],
+          "D": [],
+          "E": []
+        }
+      },
+      "updated_at": "2026-03-20T03:52:01.124240+00:00",
+      "source_revision": {
+        "exam_mtime_ns": 1773902195577297837,
+        "exam_size": 35158,
+        "audit_mtime_ns": 1773902195592555892,
+        "audit_size": 254060
+      }
+    }
+  }
+}

@@ -11,6 +11,8 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
+from .crop_review import CropQuestionUpdate, CropReviewRepository, crop_review_shell
+
 REVIEW_STATUSES = ("unreviewed", "passed", "failed", "follow_up")
 REVIEW_STATUS_SET = set(REVIEW_STATUSES)
 
@@ -359,7 +361,10 @@ class ReviewRepository:
 
 def create_review_app(data_dir: Path | str, review_dir: Path | str) -> FastAPI:
     repository = ReviewRepository(Path(data_dir).resolve(), Path(review_dir).resolve())
+    crop_repository = CropReviewRepository(Path(data_dir).resolve(), Path(review_dir).resolve())
     repository.review_dir.mkdir(parents=True, exist_ok=True)
+    crop_repository.manual_root.mkdir(parents=True, exist_ok=True)
+    crop_repository.page_cache_root.mkdir(parents=True, exist_ok=True)
 
     app = FastAPI(title="Math Exam Review Tool")
     app.mount("/review-static", StaticFiles(directory=str(repository.static_root)), name="review-static")
@@ -368,6 +373,16 @@ def create_review_app(data_dir: Path | str, review_dir: Path | str) -> FastAPI:
         "/review-files/qa",
         StaticFiles(directory=str(repository.qa_root), check_dir=False),
         name="review-qa-files",
+    )
+    app.mount(
+        "/review-files/page-cache",
+        StaticFiles(directory=str(crop_repository.page_cache_root), check_dir=False),
+        name="crop-review-page-cache",
+    )
+    app.mount(
+        "/review-files/manual-crops",
+        StaticFiles(directory=str(crop_repository.manual_root), check_dir=False),
+        name="crop-review-manual-files",
     )
 
     @app.get("/", include_in_schema=False)
@@ -400,6 +415,28 @@ def create_review_app(data_dir: Path | str, review_dir: Path | str) -> FastAPI:
     def api_review_repair_backlog() -> dict[str, Any]:
         return repository.repair_backlog()
 
+    @app.get("/api/crop-review/exams")
+    def api_crop_review_exams() -> dict[str, Any]:
+        return crop_repository.list_exam_summaries()
+
+    @app.get("/api/crop-review/exams/{exam_id}")
+    def api_crop_review_exam_detail(exam_id: str) -> dict[str, Any]:
+        try:
+            return crop_repository.exam_detail(exam_id)
+        except KeyError as error:
+            raise HTTPException(status_code=404, detail=f"Exam '{exam_id}' was not found.") from error
+
+    @app.put("/api/crop-review/exams/{exam_id}/questions/{question_number}")
+    def api_crop_review_update_question(
+        exam_id: str,
+        question_number: int,
+        payload: CropQuestionUpdate,
+    ) -> dict[str, Any]:
+        try:
+            return crop_repository.save_question_annotation(exam_id, question_number, payload)
+        except KeyError as error:
+            raise HTTPException(status_code=404, detail=f"Exam '{exam_id}' was not found.") from error
+
     @app.get("/review", response_class=HTMLResponse)
     def review_dashboard() -> HTMLResponse:
         return HTMLResponse(_review_shell(view="overview", exam_id=None))
@@ -415,6 +452,18 @@ def create_review_app(data_dir: Path | str, review_dir: Path | str) -> FastAPI:
         except KeyError as error:
             raise HTTPException(status_code=404, detail=f"Exam '{exam_id}' was not found.") from error
         return HTMLResponse(_review_shell(view="exam", exam_id=exam_id))
+
+    @app.get("/crop-review", response_class=HTMLResponse)
+    def crop_review_dashboard() -> HTMLResponse:
+        return HTMLResponse(crop_review_shell(view="overview", exam_id=None))
+
+    @app.get("/crop-review/{exam_id}", response_class=HTMLResponse)
+    def crop_review_exam_page(exam_id: str) -> HTMLResponse:
+        try:
+            crop_repository.load_exam_bundle(exam_id)
+        except KeyError as error:
+            raise HTTPException(status_code=404, detail=f"Exam '{exam_id}' was not found.") from error
+        return HTMLResponse(crop_review_shell(view="exam", exam_id=exam_id))
 
     return app
 
