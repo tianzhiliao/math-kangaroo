@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f0f9ff;
+  --foreground: #0f172a;
+  --surface: #ffffff;
+  --accent: #22c55e;
+  --accent-2: #3b82f6;
+  --danger: #ef4444;
+  --muted: #94a3b8;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  min-height: 100dvh;
+}
+
+@layer utilities {
+  .tap-target {
+    @apply min-h-[48px] min-w-[48px] flex items-center justify-center;
+  }
+}

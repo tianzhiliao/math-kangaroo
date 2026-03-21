@@ -8,3 +8,5 @@ review-data/
 reports/
 tmp/
 .env
+node_modules/
+apps/web/.next/

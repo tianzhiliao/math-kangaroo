@@ -1,0 +1,22 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.web
+    ports:
+      - "3000:3000"
+    environment:
+      RELEASE_DATA_PATH: /data/release-data
+    volumes:
+      - ./release-data:/data/release-data:ro
+
+  api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.api
+    ports:
+      - "8000:8000"
+    environment:
+      RELEASE_DATA_PATH: /data/release-data
+    volumes:
+      - ./release-data:/data/release-data:ro
