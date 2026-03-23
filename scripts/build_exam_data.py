@@ -17,8 +17,14 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Build structured Math Kangaroo exam JSON from source PDFs.")
     parser.add_argument("--source-dir", default=str(paths.source_dir))
     parser.add_argument("--output-dir", default=str(paths.data_dir))
+    parser.add_argument(
+        "--exam-id",
+        dest="exam_ids",
+        action="append",
+        help="Build only specific exam_id values. Can be repeated.",
+    )
     args = parser.parse_args()
-    build_dataset(Path(args.source_dir), Path(args.output_dir))
+    build_dataset(Path(args.source_dir), Path(args.output_dir), exam_ids=args.exam_ids)
 
 
 if __name__ == "__main__":

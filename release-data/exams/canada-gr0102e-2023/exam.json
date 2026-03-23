@@ -631,7 +631,7 @@
         },
         {
           "label": "E",
-          "text": "9i",
+          "text": "9",
           "asset_refs": []
         }
       ],
@@ -676,7 +676,7 @@
         },
         {
           "label": "E",
-          "text": "i",
+          "text": "",
           "asset_refs": [
             "q02_option_E_01"
           ]
@@ -728,39 +728,39 @@
       "number": 4,
       "part": "part_a",
       "points": 3,
-      "stem_text": "A disc with two holes is put on a clock. 1 2 3 4 5 6 7 8 9 10 11 12 1 5 Which figure can you get by spinning the disc over the clock?",
+      "stem_text": "A disc with two holes is put on a clock. Which figure can you get by spinning the disc over the clock?",
       "choices": [
         {
           "label": "A",
-          "text": "2 7",
+          "text": "",
           "asset_refs": [
             "q04_option_A_01"
           ]
         },
         {
           "label": "B",
-          "text": "3 8",
+          "text": "",
           "asset_refs": [
             "q04_option_B_01"
           ]
         },
         {
           "label": "C",
-          "text": "4 10",
+          "text": "",
           "asset_refs": [
             "q04_option_C_01"
           ]
         },
         {
           "label": "D",
-          "text": "3 7",
+          "text": "",
           "asset_refs": [
             "q04_option_D_01"
           ]
         },
         {
           "label": "E",
-          "text": "5 7 This material may be reproduced only with the permission of the Canadian Math Kangaroo Contest Corporation.",
+          "text": "",
           "asset_refs": [
             "q04_option_E_01"
           ]
@@ -822,7 +822,7 @@
       "number": 6,
       "part": "part_a",
       "points": 3,
-      "stem_text": "Steven drives from point X to point Y. X Y At each crossing (red dot), he stops before continuing straight ahead. In total, how many times does he stop?",
+      "stem_text": "Steven drives from point X to point Y. At each crossing (red dot), he stops before continuing straight ahead. In total, how many times does he stop?",
       "choices": [
         {
           "label": "A",
@@ -859,31 +859,31 @@
       "number": 7,
       "part": "part_b",
       "points": 4,
-      "stem_text": "There are 5 trees in a park. A B C D E A beaver is standing at one of the marked dots and from this place he sees exactly 2 complete trees. Where is the beaver standing?",
+      "stem_text": "There are 5 trees in a park. A beaver is standing at one of the marked dots and from this place he sees exactly 2 complete trees. Where is the beaver standing?",
       "choices": [
         {
           "label": "A",
-          "text": "at",
+          "text": "at A",
           "asset_refs": []
         },
         {
           "label": "B",
-          "text": "at",
+          "text": "at B",
           "asset_refs": []
         },
         {
           "label": "C",
-          "text": "at",
+          "text": "at C",
           "asset_refs": []
         },
         {
           "label": "D",
-          "text": "at",
+          "text": "at D",
           "asset_refs": []
         },
         {
           "label": "E",
-          "text": "at",
+          "text": "at E",
           "asset_refs": []
         }
       ],
@@ -928,7 +928,7 @@
         },
         {
           "label": "E",
-          "text": "This material may be reproduced only with the permission of the Canadian Math Kangaroo Contest Corporation.",
+          "text": "",
           "asset_refs": [
             "q08_option_E_01"
           ]
@@ -941,7 +941,7 @@
       "number": 9,
       "part": "part_b",
       "points": 4,
-      "stem_text": "Robbie must turn right every time he reaches a wall, as shown: START In the maze below, at which point will Robbie exit? START A B C D E",
+      "stem_text": "Robbie must turn right every time he reaches a wall, as shown: In the maze below, at which point will Robbie exit?",
       "choices": [
         {
           "label": "A",
@@ -979,7 +979,7 @@
       "number": 10,
       "part": "part_b",
       "points": 4,
-      "stem_text": "The two tokens with the question mark have the same number. 10 + ? + ? + 2 = 18 What is the missing number?",
+      "stem_text": "The two tokens with the question mark have the same number. What is the missing number?",
       "choices": [
         {
           "label": "A",
@@ -1109,12 +1109,12 @@
         },
         {
           "label": "B",
-          "text": "and",
+          "text": "B and D",
           "asset_refs": []
         },
         {
           "label": "C",
-          "text": "and and and Dl",
+          "text": "C and E",
           "asset_refs": []
         },
         {
@@ -1124,7 +1124,7 @@
         },
         {
           "label": "E",
-          "text": "and",
+          "text": "A and D",
           "asset_refs": []
         }
       ],
@@ -1137,7 +1137,7 @@
       "number": 14,
       "part": "part_c",
       "points": 5,
-      "stem_text": "Sam walks through a two-storey maze from the entrance to the exit, both located at floor 1 (the red arrows). 1 2 In what order will she find the wall stickers?",
+      "stem_text": "Sam walks through a two-storey maze from the entrance to the exit, both located at floor 1 (the red arrows). In what order will she find the wall stickers?",
       "choices": [
         {
           "label": "A",
@@ -1184,7 +1184,7 @@
       "number": 15,
       "part": "part_c",
       "points": 5,
-      "stem_text": "A lighting engineer in a theatre turned on coloured lights according to this plan: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 Blue Red Green For the first minute, only the blue light was on. For the last two minutes, only the green and blue lights were on. For how many minutes were all three lights on together?",
+      "stem_text": "A lighting engineer in a theatre turned on coloured lights according to this plan: For the first minute, only the blue light was on. For the last two minutes, only the green and blue lights were on. For how many minutes were all three lights on together?",
       "choices": [
         {
           "label": "A",
@@ -1208,7 +1208,7 @@
         },
         {
           "label": "E",
-          "text": "1i",
+          "text": "1",
           "asset_refs": []
         }
       ],
@@ -1256,7 +1256,7 @@
       "number": 17,
       "part": "part_c",
       "points": 5,
-      "stem_text": "Malik places one of the five pieces on the grid. He cannot rotate or flip the pieces. 2 8 3 9 5 6 1 4 7 Which piece should Malik use to cover numbers with the maximum possible sum?",
+      "stem_text": "Malik places one of the five pieces on the grid. He cannot rotate or flip the pieces. Which piece should Malik use to cover numbers with the maximum possible sum?",
       "choices": [
         {
           "label": "A",
@@ -1288,7 +1288,7 @@
         },
         {
           "label": "E",
-          "text": "f",
+          "text": "",
           "asset_refs": [
             "q17_option_E_01"
           ]
@@ -1303,7 +1303,7 @@
       "number": 18,
       "part": "part_c",
       "points": 5,
-      "stem_text": "Digits 1, 1, 2 and 3 are printed on four different cards. 1 1 2 3 + Three cards are laid out to make an addition, as shown. How many different results can be obtained?",
+      "stem_text": "Digits 1, 1, 2 and 3 are printed on four different cards. Three cards are laid out to make an addition, as shown. How many different results can be obtained?",
       "choices": [
         {
           "label": "A",

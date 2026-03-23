@@ -27,6 +27,7 @@ export function ExamRun({ exam }: { exam: Exam }) {
   }, [exam.duration_minutes]);
 
   const [secondsLeft, setSecondsLeft] = useState(durationSec);
+  const remainingPercent = Math.round((secondsLeft / durationSec) * 100);
 
   useEffect(() => {
     if (submitted) return;
@@ -75,6 +76,16 @@ export function ExamRun({ exam }: { exam: Exam }) {
 
   const goPrev = () => setIndex((i) => Math.max(0, i - 1));
   const goNext = () => setIndex((i) => Math.min(total - 1, i + 1));
+  const footerButtonBase =
+    "tap-target inline-flex min-h-[50px] w-full items-center justify-center rounded-2xl px-5 py-3 text-base font-semibold transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-white active:translate-y-0 disabled:pointer-events-none disabled:translate-y-0 disabled:shadow-none disabled:opacity-45";
+  const footerButtonNeutral =
+    `${footerButtonBase} bg-slate-200 text-slate-800 shadow-sm hover:bg-slate-300 focus-visible:ring-slate-400`;
+  const footerButtonSubmit =
+    `${footerButtonBase} bg-emerald-500 text-white shadow-sm hover:bg-emerald-600 focus-visible:ring-emerald-500`;
+  const footerButtonExit =
+    `${footerButtonBase} bg-rose-100 text-rose-800 shadow-sm hover:bg-rose-200 focus-visible:ring-rose-400`;
+  const footerButtonBack =
+    `${footerButtonBase} bg-blue-500 text-white shadow-sm hover:bg-blue-600 focus-visible:ring-blue-500`;
 
   const confirmSubmit = () => {
     if (
@@ -93,23 +104,39 @@ export function ExamRun({ exam }: { exam: Exam }) {
   return (
     <div className="flex min-h-[100dvh] flex-col bg-[var(--background)] md:flex-row">
       <aside className="flex shrink-0 flex-col gap-6 border-b border-slate-200 bg-white/90 p-4 md:w-60 md:border-b-0 md:border-r">
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-3">
           <Link
             href="/exam"
-            className="tap-target inline-flex w-fit items-center justify-center rounded-xl bg-slate-200 px-4 text-sm font-bold text-slate-800"
+            className="tap-target inline-flex min-h-[44px] w-full items-center justify-center rounded-xl bg-slate-200 px-4 py-2.5 text-sm font-bold text-slate-800 transition hover:bg-slate-300"
           >
             Back to exams
           </Link>
           <div
-            className="rounded-2xl bg-sky-100 px-4 py-3 text-center shadow-inner"
+            className="group rounded-xl bg-sky-100 px-3 py-2.5 shadow-inner focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500"
             aria-live="polite"
           >
-            <p className="text-xs font-bold uppercase tracking-wide text-sky-800/80">
-              Time left
-            </p>
-            <p className="mt-1 text-2xl font-black tabular-nums text-sky-950">
-              {submitted ? "—" : formatTime(secondsLeft)}
-            </p>
+            <div className="flex items-center justify-between gap-2">
+              <p className="text-[11px] font-bold uppercase tracking-wide text-sky-800/80">
+                Time left
+              </p>
+              <p className="pointer-events-none select-none text-xs font-black tabular-nums text-sky-950 opacity-0 transition-opacity duration-150 group-hover:opacity-100 group-focus-within:opacity-100">
+                {submitted ? "—" : formatTime(secondsLeft)}
+              </p>
+            </div>
+            <div
+              className="mt-2 h-2 rounded-full bg-sky-200/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500 focus-visible:ring-offset-2 focus-visible:ring-offset-sky-100"
+              role="progressbar"
+              aria-label="Exam time remaining"
+              aria-valuemin={0}
+              aria-valuemax={100}
+              aria-valuenow={remainingPercent}
+              tabIndex={0}
+            >
+              <div
+                className="h-full rounded-full bg-sky-500 transition-[width] duration-700 ease-linear"
+                style={{ width: `${remainingPercent}%` }}
+              />
+            </div>
           </div>
         </div>
 
@@ -142,13 +169,12 @@ export function ExamRun({ exam }: { exam: Exam }) {
         </div>
 
         <footer className="sticky bottom-0 border-t border-slate-200 bg-white/95 px-3 py-4 backdrop-blur sm:px-4 sm:py-5">
-          {/* Mobile: row1 = Prev | Next, row2 = actions; Desktop: 3-column row */}
-          <div className="mx-auto grid w-full max-w-4xl grid-cols-2 gap-3 sm:grid-cols-[1fr_auto_1fr] sm:items-center sm:gap-6">
+          <div className="mx-auto grid w-full max-w-5xl grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
             <button
               type="button"
               onClick={goPrev}
               disabled={index === 0}
-              className="tap-target col-start-1 row-start-1 justify-self-stretch rounded-2xl bg-slate-200 px-4 py-3 text-base font-bold text-slate-800 disabled:opacity-40 sm:col-start-1 sm:justify-self-start sm:px-6"
+              className={`${footerButtonNeutral} order-1 md:order-1`}
             >
               Previous
             </button>
@@ -156,45 +182,43 @@ export function ExamRun({ exam }: { exam: Exam }) {
               type="button"
               onClick={goNext}
               disabled={index >= total - 1}
-              className="tap-target col-start-2 row-start-1 justify-self-stretch rounded-2xl bg-slate-200 px-4 py-3 text-base font-bold text-slate-800 disabled:opacity-40 sm:col-start-3 sm:row-start-1 sm:justify-self-end sm:px-6"
+              className={`${footerButtonNeutral} order-2 md:order-4`}
             >
               Next
             </button>
-            <div className="col-span-2 row-start-2 flex flex-col gap-3 sm:col-span-1 sm:col-start-2 sm:row-start-1 sm:flex-row sm:flex-wrap sm:justify-center sm:gap-5">
-              {!submitted ? (
-                <>
-                  <button
-                    type="button"
-                    onClick={confirmSubmit}
-                    className="tap-target inline-flex min-h-[48px] w-full items-center justify-center rounded-2xl bg-emerald-500 px-5 py-3 text-base font-black text-white shadow-md sm:w-auto sm:min-w-0 sm:px-7"
-                  >
-                    Submit exam
-                  </button>
-                  <Link
-                    href="/exam"
-                    onClick={(e) => {
-                      if (
-                        !window.confirm(
-                          "Leave this exam? You will lose any answers that are not submitted.",
-                        )
-                      ) {
-                        e.preventDefault();
-                      }
-                    }}
-                    className="tap-target inline-flex min-h-[48px] w-full items-center justify-center rounded-2xl bg-rose-100 px-5 py-3 text-base font-bold text-rose-800 sm:w-auto sm:px-6"
-                  >
-                    Exit exam
-                  </Link>
-                </>
-              ) : (
+            {!submitted ? (
+              <>
+                <button
+                  type="button"
+                  onClick={confirmSubmit}
+                  className={`${footerButtonSubmit} order-3 font-bold md:order-2`}
+                >
+                  Submit exam
+                </button>
                 <Link
                   href="/exam"
-                  className="tap-target flex min-h-[48px] w-full items-center justify-center rounded-2xl bg-blue-500 px-7 py-3 text-base font-bold text-white sm:w-auto"
+                  onClick={(e) => {
+                    if (
+                      !window.confirm(
+                        "Leave this exam? You will lose any answers that are not submitted.",
+                      )
+                    ) {
+                      e.preventDefault();
+                    }
+                  }}
+                  className={`${footerButtonExit} order-4 md:order-3`}
                 >
-                  Back to exams
+                  Exit exam
                 </Link>
-              )}
-            </div>
+              </>
+            ) : (
+              <Link
+                href="/exam"
+                className={`${footerButtonBack} order-3 col-span-2 md:order-2 md:col-span-2`}
+              >
+                Back to exams
+              </Link>
+            )}
           </div>
         </footer>
       </main>

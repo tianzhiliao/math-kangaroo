@@ -477,7 +477,7 @@
       "number": 1,
       "part": "part_a",
       "points": 3,
-      "stem_text": "Four of these ﬁve pictures show the Great Wheel at the Luna Park. Which picture shows a diﬀerent wheel?",
+      "stem_text": "Four of these five pictures show the Great Wheel at the Luna Park. Which picture shows a different wheel?",
       "choices": [
         {
           "label": "A",
@@ -559,7 +559,7 @@
       "number": 3,
       "part": "part_a",
       "points": 3,
-      "stem_text": "One sandwich and one juice box together cost 12 dollars. One sandwich and two juice boxes together cost 14 dollars. ...... ..... How much do two juice boxes cost?",
+      "stem_text": "One sandwich and one juice box together cost 12 dollars. One sandwich and two juice boxes together cost 14 dollars. How much do two juice boxes cost?",
       "choices": [
         {
           "label": "A",
@@ -596,7 +596,7 @@
       "number": 4,
       "part": "part_a",
       "points": 3,
-      "stem_text": "Justin wants to make sure each column has only 2 coins and that each row has only 2 coins. A B C D E Where does he need to place the last coin?",
+      "stem_text": "Justin wants to make sure each column has only 2 coins and that each row has only 2 coins. Where does he need to place the last coin?",
       "choices": [
         {
           "label": "A",
@@ -717,7 +717,7 @@
       "number": 7,
       "part": "part_b",
       "points": 4,
-      "stem_text": "A koala, fox, ostrich, kangaroo, and puppy are sleeping in ﬁve baskets. One animal sleeps in each of the baskets. basket 1 basket 2 basket 3 basket 4 basket 5 The koala and the fox are sleeping in baskets with the same pattern and shape. The kangaroo and the ostrich have the same pattern on their baskets. Which basket is the puppy sleeping in?",
+      "stem_text": "A koala, fox, ostrich, kangaroo, and puppy are sleeping in five baskets. One animal sleeps in each of the baskets. basket 1 basket 2 basket 3 basket 4 basket 5 The koala and the fox are sleeping in baskets with the same pattern and shape. The kangaroo and the ostrich have the same pattern on their baskets. Which basket is the puppy sleeping in?",
       "choices": [
         {
           "label": "A",
@@ -801,7 +801,7 @@
       "number": 9,
       "part": "part_b",
       "points": 4,
-      "stem_text": "Ann has 4 stickers as shown. She sticks down the star after she sticks down the square. She sticks down the star before she sticks down the circle. Which picture could she end up with?",
+      "stem_text": "Ann has 4 stickers as shown. She sticks down the star after she sticks down the square. She sticks down the star before she sticks down the circle. Which picture could she up with?",
       "choices": [
         {
           "label": "A",
@@ -833,7 +833,7 @@
         },
         {
           "label": "E",
-          "text": "This material may be reproduced only with the permission of the Canadian Math Kangaroo Contest Corporation.",
+          "text": "",
           "asset_refs": [
             "q09_option_E_01"
           ]
@@ -909,7 +909,7 @@
         },
         {
           "label": "E",
-          "text": "ﬁve 1",
+          "text": "five",
           "asset_refs": []
         }
       ],
@@ -922,7 +922,7 @@
       "number": 12,
       "part": "part_b",
       "points": 4,
-      "stem_text": "Katrin builds a path around each square using tiles like the one shown. 2 1 3 5 How many tiles does she use around the square with side 5?",
+      "stem_text": "Katrin builds a path around each square using tiles like the one shown. How many tiles does she use around the square with side 5?",
       "choices": [
         {
           "label": "A",
@@ -960,7 +960,7 @@
       "number": 13,
       "part": "part_c",
       "points": 5,
-      "stem_text": "7 13. The sum of the ﬁve numbers in each house is 20. Some numbers have been painted over. What number is hidden under the question mark?",
+      "stem_text": "The sum of the five numbers in each house is 20. Some numbers have been painted over. What number is hidden under the question mark?",
       "choices": [
         {
           "label": "A",
@@ -997,7 +997,7 @@
       "number": 14,
       "part": "part_c",
       "points": 5,
-      "stem_text": "Jessica wrote down ﬁve digits and then covered each digit with a shape. Diﬀerent digits were covered by diﬀerent shapes, and the same digits were covered by the same shapes. What number is written under the shapes?",
+      "stem_text": "Jessica wrote down five digits and then covered each digit with a shape. Different digits were covered by different shapes, and the same digits were covered by the same shapes. What number is written under the shapes?",
       "choices": [
         {
           "label": "A",
@@ -1034,7 +1034,7 @@
       "number": 15,
       "part": "part_c",
       "points": 5,
-      "stem_text": "Kangu’s car can only turn left. Which of the following ﬁve routes can Kangu take?",
+      "stem_text": "Kangu’s car can only turn left. Which of the following five routes can Kangu take?",
       "choices": [
         {
           "label": "A",
@@ -1079,7 +1079,7 @@
       "number": 16,
       "part": "part_c",
       "points": 5,
-      "stem_text": "Lily wants to choose four diﬀerent cards so that the sum is 20. 3 5 11 13 1 9 7 What is the biggest number that Lily could choose?",
+      "stem_text": "Lily wants to choose four different cards so that the sum is 20. What is the biggest number that Lily could choose?",
       "choices": [
         {
           "label": "A",
@@ -1116,7 +1116,7 @@
       "number": 17,
       "part": "part_c",
       "points": 5,
-      "stem_text": "3 4 1 5 2 17. There are ﬁve numbered cards on the table as shown. You may swap two cards at each step. What is the smallest number of steps needed to put the cards into decreasing order (from largest to smallest)?",
+      "stem_text": "There are five numbered cards on the table as shown. You may swap two cards at each step. What is the smallest number of steps needed to put the cards into decreasing order (from largest to smallest)?",
       "choices": [
         {
           "label": "A",
@@ -1153,7 +1153,7 @@
       "number": 18,
       "part": "part_c",
       "points": 5,
-      "stem_text": "In the picture, diﬀerent shapes stand for diﬀerent numbers. The numbers shown and the question mark indicate the sum of the numbers in the row or column. + + 10 14 18 ? Which number should be written in place of the question mark?",
+      "stem_text": "In the picture, different shapes stand for different numbers. The numbers shown and the question mark indicate the sum of the numbers in the row or column. + + 10 14 18 ? Which number should be written in place of the question mark?",
       "choices": [
         {
           "label": "A",

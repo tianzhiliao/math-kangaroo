@@ -1079,7 +1079,12 @@ def extract_exam(
     }
 
 
-def build_dataset(source_dir: Path | str, output_dir: Path | str) -> dict[str, Any]:
+def build_dataset(
+    source_dir: Path | str,
+    output_dir: Path | str,
+    *,
+    exam_ids: list[str] | None = None,
+) -> dict[str, Any]:
     source_path = Path(source_dir)
     output_path = Path(output_dir)
     qa_root = output_path.parent / "reports" / "asset-qa"
@@ -1088,9 +1093,21 @@ def build_dataset(source_dir: Path | str, output_dir: Path | str) -> dict[str, A
     output_path.mkdir(parents=True, exist_ok=True)
     prepare_clean_dir(qa_root)
 
+    requested_exam_ids = set(exam_ids or [])
+    available_exam_ids = {
+        build_exam_id(document) for document in documents if not document.is_answer_table
+    }
+    if requested_exam_ids:
+        missing_exam_ids = sorted(requested_exam_ids - available_exam_ids)
+        if missing_exam_ids:
+            missing_csv = ", ".join(missing_exam_ids)
+            raise ValueError(f"Unknown exam_id values in dataset build: {missing_csv}")
     exams: list[dict[str, Any]] = []
     for document in documents:
         if document.is_answer_table:
+            continue
+        exam_id = build_exam_id(document)
+        if requested_exam_ids and exam_id not in requested_exam_ids:
             continue
         exams.append(extract_exam(document, answer_documents.get(document.year), output_path, qa_root))
 

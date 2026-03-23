@@ -4,7 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import type { Exam, PracticeBankResponse } from "@/lib/types";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
-import { useCallback, useMemo } from "react";
+import { useCallback, useEffect, useMemo } from "react";
 import { QuestionCard } from "@/components/question/QuestionCard";
 import { usePracticeAnswersStore } from "@/lib/practice-answers-store";
 import {
@@ -65,6 +65,9 @@ export function PracticeBankLoader() {
 
   const answers = usePracticeAnswersStore((s) => s.answers);
   const setAnswer = usePracticeAnswersStore((s) => s.setAnswer);
+  const setLastVisitedQuestion = usePracticeAnswersStore(
+    (s) => s.setLastVisitedQuestion,
+  );
 
   const selected =
     globalOneBased >= 1 && answers[globalOneBased]
@@ -79,7 +82,7 @@ export function PracticeBankLoader() {
   };
 
   const goNext = () => {
-    if (globalOneBased >= total || !revealed) return;
+    if (globalOneBased >= total) return;
     router.push(`/practice/q/${globalOneBased + 1}`);
   };
 
@@ -104,6 +107,25 @@ export function PracticeBankLoader() {
   );
 
   const isCorrect = revealed && selected === correctLabel;
+  const footerButtonBase =
+    "tap-target inline-flex min-h-[50px] w-full items-center justify-center rounded-2xl px-5 py-3 text-base font-semibold transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-white active:translate-y-0 disabled:pointer-events-none disabled:translate-y-0 disabled:shadow-none disabled:opacity-45";
+  const footerButtonNeutral =
+    `${footerButtonBase} bg-slate-200 text-slate-800 shadow-sm hover:bg-slate-300 focus-visible:ring-slate-400`;
+  const footerButtonPrimary =
+    `${footerButtonBase} bg-blue-500 text-white shadow-sm hover:bg-blue-600 focus-visible:ring-blue-500`;
+  const footerButtonDanger =
+    `${footerButtonBase} gap-2 bg-rose-100 text-rose-800 shadow-sm hover:bg-rose-200 focus-visible:ring-rose-400`;
+
+  useEffect(() => {
+    if (
+      Number.isNaN(globalOneBased) ||
+      globalOneBased < 1 ||
+      globalOneBased > total
+    ) {
+      return;
+    }
+    setLastVisitedQuestion(globalOneBased);
+  }, [globalOneBased, total, setLastVisitedQuestion]);
 
   if (bankPending) return <Loading />;
   if (!bank?.entries.length) {
@@ -126,10 +148,10 @@ export function PracticeBankLoader() {
       <div className="p-8 text-center">
         <p className="text-slate-600">Invalid question number.</p>
         <Link
-          href="/practice"
+          href="/practice/q/1"
           className="mt-4 inline-block font-bold text-emerald-600"
         >
-          Back to question list
+          Go to first question
         </Link>
       </div>
     );
@@ -141,19 +163,19 @@ export function PracticeBankLoader() {
 
   return (
     <div className="flex min-h-[100dvh] flex-col bg-[var(--background)] md:flex-row">
-      <aside className="flex max-h-[min(40vh,320px)] shrink-0 flex-col gap-4 overflow-y-auto border-b border-slate-200 bg-white/90 p-4 md:max-h-none md:w-64 md:border-b-0 md:border-r">
-        <div className="flex flex-col gap-3">
+      <aside className="flex max-h-[min(48vh,420px)] shrink-0 flex-col gap-4 overflow-hidden border-b border-slate-200 bg-white/90 p-4 md:max-h-[calc(100dvh-1rem)] md:w-64 md:border-b-0 md:border-r">
+        <div className="flex flex-col gap-2.5">
           <Link
-            href="/practice"
-            className="tap-target inline-flex w-fit items-center justify-center rounded-xl bg-slate-200 px-4 text-sm font-bold text-slate-800"
+            href="/"
+            className="tap-target inline-flex min-h-[44px] w-full items-center justify-center rounded-xl bg-slate-200 px-4 py-2.5 text-sm font-bold text-slate-800 transition hover:bg-slate-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-400 focus-visible:ring-offset-2 focus-visible:ring-offset-white"
           >
-            All questions
+            Back to Home
           </Link>
-          <div className="rounded-2xl border border-emerald-200 bg-emerald-50 px-3 py-2 text-center shadow-inner">
-            <p className="text-[10px] font-bold uppercase tracking-wide text-emerald-900/80">
+          <div className="rounded-xl border border-emerald-200 bg-emerald-50 px-3 py-2.5 text-center shadow-inner">
+            <p className="text-[10px] font-bold uppercase tracking-wide text-emerald-900/75">
               Math Kangaroo · Practice
             </p>
-            <p className="mt-0.5 text-xs font-semibold text-emerald-950">
+            <p className="mt-1 text-sm font-bold text-emerald-950">
               Question {globalOneBased} of {total}
             </p>
           </div>
@@ -164,6 +186,8 @@ export function PracticeBankLoader() {
           currentIndex={globalOneBased - 1}
           getStatus={getStatus}
           onSelectIndex={jumpTo}
+          scrollable
+          maxHeightClassName="max-h-[min(30vh,260px)] md:max-h-[calc(100dvh-14rem)]"
         />
       </aside>
 
@@ -205,27 +229,25 @@ export function PracticeBankLoader() {
         </div>
 
         <footer className="sticky bottom-0 border-t border-slate-200 bg-white/95 px-3 py-4 backdrop-blur sm:px-4 sm:py-5">
-          <div className="mx-auto flex w-full max-w-4xl flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:justify-center sm:gap-4">
-            <div className="grid grid-cols-2 gap-3 sm:flex sm:flex-1 sm:justify-center sm:gap-4">
-              <button
-                type="button"
-                onClick={goPrev}
-                disabled={globalOneBased <= 1}
-                className="tap-target min-h-[48px] rounded-2xl bg-slate-200 px-4 text-base font-bold text-slate-800 disabled:opacity-40 sm:min-w-[7.5rem] sm:px-5"
-              >
-                Previous
-              </button>
-              <button
-                type="button"
-                onClick={goNext}
-                disabled={globalOneBased >= total || !revealed}
-                className="tap-target min-h-[48px] rounded-2xl bg-blue-500 px-4 text-base font-black text-white shadow-md disabled:opacity-40 sm:min-w-[7.5rem] sm:px-6"
-              >
-                Next
-              </button>
-            </div>
+          <div className="mx-auto grid w-full max-w-5xl grid-cols-2 gap-3 md:grid-cols-3 md:gap-4">
+            <button
+              type="button"
+              onClick={goPrev}
+              disabled={globalOneBased <= 1}
+              className={`${footerButtonNeutral} order-1`}
+            >
+              Previous
+            </button>
+            <button
+              type="button"
+              onClick={goNext}
+              disabled={globalOneBased >= total}
+              className={`${footerButtonPrimary} order-2 font-bold`}
+            >
+              Next
+            </button>
             <Link
-              href="/practice"
+              href="/"
               onClick={(e) => {
                 if (
                   !window.confirm(
@@ -235,9 +257,8 @@ export function PracticeBankLoader() {
                   e.preventDefault();
                 }
               }}
-              className="tap-target flex min-h-[48px] w-full items-center justify-center gap-2 rounded-2xl bg-rose-100 px-5 text-base font-bold text-rose-800 sm:w-auto sm:shrink-0 sm:px-6"
+              className={`${footerButtonDanger} order-3 col-span-2 md:col-span-1`}
             >
-              <span aria-hidden>×</span>
               End practice
             </Link>
           </div>
