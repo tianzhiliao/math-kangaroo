@@ -761,7 +761,7 @@
       "number": 5,
       "part": "part_a",
       "points": 3,
-      "stem_text": "Sara says: „My boat has more than one circle. It also has 2 triangles more than squares.“ Which boat belongs to Sara?",
+      "stem_text": "Sara says: \"My boat has more than one circle. It also has 2 triangles more than squares.\" Which boat belongs to Sara?",
       "choices": [
         {
           "label": "A",
@@ -793,7 +793,7 @@
         },
         {
           "label": "E",
-          "text": "- 4 Point Examples -",
+          "text": "",
           "asset_refs": [
             "q05_option_E_01"
           ]
@@ -996,7 +996,7 @@
         },
         {
           "label": "E",
-          "text": "- 5 Point Examples -",
+          "text": "",
           "asset_refs": [
             "q10_option_E_01"
           ]

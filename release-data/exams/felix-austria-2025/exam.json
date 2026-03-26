@@ -645,7 +645,7 @@
         },
         {
           "label": "E",
-          "text": "4 Points",
+          "text": "",
           "asset_refs": [
             "q05_option_E_01"
           ]
@@ -846,7 +846,7 @@
         },
         {
           "label": "E",
-          "text": "5 Points",
+          "text": "",
           "asset_refs": [
             "q10_option_E_01"
           ]

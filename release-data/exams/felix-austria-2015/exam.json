@@ -642,7 +642,7 @@
       "number": 5,
       "part": "part_a",
       "points": 3,
-      "stem_text": "Florian has 10 equally long metal strips with equally many holes. ° ° fe} ° O° ° ° ° fe} ° ° fe} ° ° ° ° ° fe} fe} ° fe} ° ° ° ° ° fe} fe} fe} fe} ° ° ° ° ° fe} fe} ° fe} ° ° ° ° ° fe} ° ° fe} ° ° ° ° ° fe} ° ° ° ° ° ° ° ° ° fe} fo} fo} ° ° ° ce} ° fe} ° ° fe} ° ° ° ° ° fe} ° ° ° ° ° ° ° ° fe} ° ° fe} ° ° ° ° ° He bolts the metal strips together in pairs. Now he has five long strips (see the diagram). ° fe) - ° @ ° 2 B °) @ 9 9 A \\@\\ Cc D a E 5 O (@)) \\@) eS CO) 5 © ) ) ° ° es ° ° }° ° ° co} ° ° ° ° ° ° ° Which of the long strips is the shortest?",
+      "stem_text": "Florian has 10 equally long metal strips with equally many holes. He bolts the metal strips together in pairs. Now he has five long strips (see the diagram). Which of the long strips is the shortest?",
       "choices": [
         {
           "label": "A",
@@ -656,7 +656,7 @@
         },
         {
           "label": "C",
-          "text": "Cc",
+          "text": "C",
           "asset_refs": []
         },
         {
@@ -666,7 +666,7 @@
         },
         {
           "label": "E",
-          "text": "E E 4 point questions -",
+          "text": "E",
           "asset_refs": []
         }
       ],
@@ -684,14 +684,14 @@
       "choices": [
         {
           "label": "A",
-          "text": "om",
+          "text": "",
           "asset_refs": [
             "q06_option_A_01"
           ]
         },
         {
           "label": "B",
-          "text": "ch ope",
+          "text": "",
           "asset_refs": [
             "q06_option_B_01"
           ]
@@ -705,7 +705,7 @@
         },
         {
           "label": "D",
-          "text": "rh act",
+          "text": "",
           "asset_refs": [
             "q06_option_D_01"
           ]
@@ -727,7 +727,7 @@
       "number": 7,
       "part": "part_b",
       "points": 4,
-      "stem_text": "What do you see if you look at the tower, which is made up of two building blocks, exactly from above? wh) WAN a ol ia",
+      "stem_text": "What do you see if you look at the tower, which is made up of two building blocks, exactly from above?",
       "choices": [
         {
           "label": "A",
@@ -778,7 +778,7 @@
       "choices": [
         {
           "label": "A",
-          "text": "6 (",
+          "text": "6",
           "asset_refs": []
         },
         {
@@ -815,17 +815,17 @@
       "choices": [
         {
           "label": "A",
-          "text": "15 minute s",
+          "text": "15 minutes",
           "asset_refs": []
         },
         {
           "label": "B",
-          "text": "30 m inutes",
+          "text": "30 minutes",
           "asset_refs": []
         },
         {
           "label": "C",
-          "text": "40 minu tes",
+          "text": "40 minutes",
           "asset_refs": []
         },
         {
@@ -846,7 +846,7 @@
       "number": 10,
       "part": "part_b",
       "points": 4,
-      "stem_text": "Michael has two building blocks. Each building block is made up of two cubes glued together. Which figure can he not make using the blocks? - A , HL, ab q",
+      "stem_text": "Michael has two building blocks. Each building block is made up of two cubes glued together. Which figure can he not make using the blocks?",
       "choices": [
         {
           "label": "A",
@@ -942,7 +942,7 @@
         },
         {
           "label": "C",
-          "text": "1 2",
+          "text": "12",
           "asset_refs": []
         },
         {
@@ -965,18 +965,18 @@
       "number": 13,
       "part": "part_c",
       "points": 5,
-      "stem_text": "W",
+      "stem_text": "Which piece is missing?",
       "choices": [
         {
           "label": "A",
-          "text": "Which pie ce is mis",
+          "text": "",
           "asset_refs": [
             "q13_option_A_01"
           ]
         },
         {
           "label": "B",
-          "text": "sing?",
+          "text": "",
           "asset_refs": [
             "q13_option_B_01"
           ]

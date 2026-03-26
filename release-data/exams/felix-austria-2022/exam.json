@@ -638,27 +638,27 @@
       "choices": [
         {
           "label": "A",
-          "text": "square",
+          "text": "square A",
           "asset_refs": []
         },
         {
           "label": "B",
-          "text": "square",
+          "text": "square B",
           "asset_refs": []
         },
         {
           "label": "C",
-          "text": "square",
+          "text": "square C",
           "asset_refs": []
         },
         {
           "label": "D",
-          "text": "square",
+          "text": "square D",
           "asset_refs": []
         },
         {
           "label": "E",
-          "text": "square",
+          "text": "square E",
           "asset_refs": []
         }
       ],
@@ -671,7 +671,7 @@
       "number": 5,
       "part": "part_a",
       "points": 3,
-      "stem_text": "A monkey has torn off a piece of Captain Jack‘s map. What does the piece the monkey has torn off look like?",
+      "stem_text": "A monkey has torn off a piece of Captain Jack's map. What does the piece the monkey has torn off look like?",
       "choices": [
         {
           "label": "A",
@@ -703,7 +703,7 @@
         },
         {
           "label": "E",
-          "text": "- 4 Point Examples -",
+          "text": "",
           "asset_refs": [
             "q05_option_E_01"
           ]
@@ -763,7 +763,7 @@
       "number": 7,
       "part": "part_b",
       "points": 4,
-      "stem_text": "There is an animal asleep in each of the five baskets. The koala and the fox sleep in baskets with the same pattern and the same shape. The kangaroo and the rabbit sleep in baskets with the same pattern. Basket 1 Basket 2 Basket 3 Basket 4 Basket 5 In which basket does the mouse sleep?",
+      "stem_text": "There is an animal asleep in each of the five baskets. The koala and the fox sleep in baskets with the same pattern and the same shape. The kangaroo and the rabbit sleep in baskets with the same pattern. In which basket does the mouse sleep?",
       "choices": [
         {
           "label": "A",

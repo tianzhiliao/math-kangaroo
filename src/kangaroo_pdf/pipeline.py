@@ -431,6 +431,35 @@ def normalize_choice_text(text: str) -> str:
     return cleaned
 
 
+def should_apply_repaired_choice_text(original_text: str, repaired_text: str) -> bool:
+    """Guard against geometric segmentation truncating short option tails.
+
+    Example failure: parse_choices => "On A", repaired words => "On".
+    In that case we should keep the original parse result.
+    """
+    original = collapse_inline(original_text)
+    repaired = collapse_inline(repaired_text)
+    if not repaired:
+        return False
+    if not original or repaired == original:
+        return True
+
+    original_tokens = original.split()
+    repaired_tokens = repaired.split()
+    if (
+        len(repaired_tokens) == 1
+        and len(original_tokens) >= 2
+        and repaired_tokens[0].lower() == original_tokens[0].lower()
+        and re.fullmatch(r"[A-E]", original_tokens[-1])
+    ):
+        return False
+    if original.lower().startswith((repaired + " ").lower()):
+        tail_tokens = original[len(repaired) :].strip().split()
+        if len(tail_tokens) == 1 and re.fullmatch(r"[A-E]", tail_tokens[0]):
+            return False
+    return True
+
+
 def repair_choice_texts_from_words(page: fitz.Page, bbox: fitz.Rect) -> dict[str, str]:
     words = page.get_text("words", clip=bbox)
     rows = group_words_into_rows(words)
@@ -857,7 +886,7 @@ def extract_questions(
         if repaired_choice_texts:
             for choice in choices:
                 repaired_text = repaired_choice_texts.get(choice["label"], "")
-                if repaired_text:
+                if should_apply_repaired_choice_text(choice["text"], repaired_text):
                     choice["text"] = repaired_text
         if should_try_question_ocr(cleaned_text, stem_text):
             ocr_text = filter_noise_lines(extract_question_text_ocr(page, text_bbox))
@@ -867,7 +896,7 @@ def extract_questions(
             if ocr_choice_repairs:
                 for choice in ocr_choices:
                     repaired_text = ocr_choice_repairs.get(choice["label"], "")
-                    if repaired_text:
+                    if should_apply_repaired_choice_text(choice["text"], repaired_text):
                         choice["text"] = repaired_text
             if parsed_question_text_score(ocr_stem_text, ocr_choices) > parsed_question_text_score(stem_text, choices):
                 cleaned_text = ocr_text

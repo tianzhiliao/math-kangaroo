@@ -785,7 +785,7 @@
       "number": 5,
       "part": "part_a",
       "points": 3,
-      "stem_text": "Thi t i l b d d l ith th i i f th C di M th K C t t C ti P 2 5. What piece completes the picture?",
+      "stem_text": "What piece completes the picture?",
       "choices": [
         {
           "label": "A",
@@ -864,7 +864,7 @@
         },
         {
           "label": "E",
-          "text": "PART B: EACH CORRECT ANSWER IS WORTH 4 POINTS",
+          "text": "",
           "asset_refs": [
             "q06_option_E_01"
           ]
@@ -883,17 +883,17 @@
       "choices": [
         {
           "label": "A",
-          "text": "at",
+          "text": "at A",
           "asset_refs": []
         },
         {
           "label": "B",
-          "text": "at",
+          "text": "at B",
           "asset_refs": []
         },
         {
           "label": "C",
-          "text": "at",
+          "text": "at C",
           "asset_refs": []
         },
         {
@@ -996,7 +996,7 @@
       "number": 10,
       "part": "part_b",
       "points": 4,
-      "stem_text": "Thi t i l b d d l ith th i i f th C di M th K C t t C ti P 3 10. A number is written on each petal of two flowers. One petal is hidden. The sums of the numbers on the two flowers are equal. What number is written on the hidden petal?",
+      "stem_text": "A number is written on each petal of two flowers. One petal is hidden. The sums of the numbers on the two flowers are equal. What number is written on the hidden petal?",
       "choices": [
         {
           "label": "A",
@@ -1144,7 +1144,7 @@
       "number": 14,
       "part": "part_c",
       "points": 5,
-      "stem_text": "Thi t i l b d d l ith th i i f th C di M th K C t t C ti P 4 14. In this figure, an arrow pointing from one person to another means that the first person is taller than the second. For example, person B is taller than person A. Who is the shortest?",
+      "stem_text": "In this figure, an arrow pointing from one person to another means that the first person is taller than the second. For example, person B is taller than person A. Who is the shortest?",
       "choices": [
         {
           "label": "A",
@@ -1290,7 +1290,7 @@
       "number": 18,
       "part": "part_c",
       "points": 5,
-      "stem_text": "Thi t i l b d d l ith th i i f th C di M th K C t t C ti P 5 18. Eloise has a square piece of paper with four digits written on it. She folds the paper in half, and then, in half again, as shown below. After folding the paper, Eloise gets . In what position will the digit 2 be after having folded the paper?",
+      "stem_text": "Eloise has a square piece of paper with four digits written on it. She folds the paper in half, and then, in half again, as shown below. After folding the paper, Eloise gets. In what position will the digit 2 be after having folded the paper?",
       "choices": [
         {
           "label": "A",
@@ -1322,7 +1322,7 @@
         },
         {
           "label": "E",
-          "text": "1 2 2 2",
+          "text": "",
           "asset_refs": [
             "q18_option_E_01"
           ]

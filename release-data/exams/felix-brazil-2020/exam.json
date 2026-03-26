@@ -845,7 +845,7 @@
       "number": 3,
       "part": "part_a",
       "points": 3,
-      "stem_text": "1 3. Marco's father took a picture of his son in front of the car shown beside. Which of the drawings below could represent this picture?",
+      "stem_text": "Marco's father took a picture of his son in front of the car shown beside. Which of the drawings below could represent this picture?",
       "choices": [
         {
           "label": "A",
@@ -1059,7 +1059,7 @@
       "number": 8,
       "part": "part_a",
       "points": 3,
-      "stem_text": "2 8. Ana draws some shapes on a sheet. Her drawing has fewer squares than triangles. What could be her drawing?",
+      "stem_text": "Ana draws some shapes on a sheet. Her drawing has fewer squares than triangles. What could be her drawing?",
       "choices": [
         {
           "label": "A",
@@ -1155,27 +1155,27 @@
       "choices": [
         {
           "label": "A",
-          "text": "On",
+          "text": "On A",
           "asset_refs": []
         },
         {
           "label": "B",
-          "text": "On",
+          "text": "On B",
           "asset_refs": []
         },
         {
           "label": "C",
-          "text": "On",
+          "text": "On C",
           "asset_refs": []
         },
         {
           "label": "D",
-          "text": "On",
+          "text": "On D",
           "asset_refs": []
         },
         {
           "label": "E",
-          "text": "On",
+          "text": "On E",
           "asset_refs": []
         }
       ],
@@ -1188,7 +1188,7 @@
       "number": 11,
       "part": "part_b",
       "points": 4,
-      "stem_text": "Five blocks are built with equal cubes glued face to face. In which of them was the smallest num- ber of cubes used?",
+      "stem_text": "Five blocks are built with equal cubes glued face to face. In which of them was the smallest number of cubes used?",
       "choices": [
         {
           "label": "A",
@@ -1270,7 +1270,7 @@
       "number": 13,
       "part": "part_b",
       "points": 4,
-      "stem_text": "3 13. Six figures were drawn, one on each side of a cube, as shown be- side, in different positions. On the side that does not appear beside is this drawing: What is the figure on the face opposite to it?",
+      "stem_text": "Six figures were drawn, one on each side of a cube, as shown beside, in different positions. On the side that does not appear beside is this drawing: What is the figure on the face opposite to it?",
       "choices": [
         {
           "label": "A",
@@ -1317,7 +1317,7 @@
       "number": 14,
       "part": "part_b",
       "points": 4,
-      "stem_text": "Maria wants to write whole numbers in the squares of the figure, so that the sum of the numbers in three consecutive squares is always 10. She has al- ready written a number. What number should she write on the gray square?",
+      "stem_text": "Maria wants to write whole numbers in the squares of the figure, so that the sum of the numbers in three consecutive squares is always 10. She has already written a number. What number should she write on the gray square?",
       "choices": [
         {
           "label": "A",
@@ -1425,7 +1425,7 @@
         },
         {
           "label": "E",
-          "text": "5 5 points",
+          "text": "5",
           "asset_refs": []
         }
       ],
@@ -1484,7 +1484,7 @@
       "number": 18,
       "part": "part_c",
       "points": 5,
-      "stem_text": "4 18. Two equal trains, each with 31 numbered wagons, travel in opposite directions. When the wagon number 7 of a train is side by side with the wagon number 12 of the other train, which wagon is side by side with the wagon number 11?",
+      "stem_text": "Two equal trains, each with 31 numbered wagons, travel in opposite directions. When the wagon number 7 of a train is side by side with the wagon number 12 of the other train, which wagon is side by side with the wagon number 11?",
       "choices": [
         {
           "label": "A",
@@ -1702,7 +1702,7 @@
       "number": 24,
       "part": "part_c",
       "points": 5,
-      "stem_text": "5 24. Maia the bee can only walk on colorful houses. How many ways can you color exactly three white houses with the same color so that Maia can walk from A to B?",
+      "stem_text": "Maia the bee can only walk on colorful houses. How many ways can you color exactly three white houses with the same color so that Maia can walk from A to B?",
       "choices": [
         {
           "label": "A",

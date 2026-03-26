@@ -545,35 +545,35 @@
       "choices": [
         {
           "label": "A",
-          "text": ", ,",
+          "text": "",
           "asset_refs": [
             "q02_option_A_01"
           ]
         },
         {
           "label": "B",
-          "text": ", ,",
+          "text": "",
           "asset_refs": [
             "q02_option_B_01"
           ]
         },
         {
           "label": "C",
-          "text": ", ,",
+          "text": "",
           "asset_refs": [
             "q02_option_C_01"
           ]
         },
         {
           "label": "D",
-          "text": ", ,",
+          "text": "",
           "asset_refs": [
             "q02_option_D_01"
           ]
         },
         {
           "label": "E",
-          "text": ", ,",
+          "text": "",
           "asset_refs": [
             "q02_option_E_01"
           ]
@@ -686,7 +686,7 @@
         },
         {
           "label": "E",
-          "text": "5 - 4 Point Questions - 1 2 3 4 5",
+          "text": "5",
           "asset_refs": []
         }
       ],
@@ -901,7 +901,7 @@
         },
         {
           "label": "E",
-          "text": "7 - 5 Point Questions -",
+          "text": "7",
           "asset_refs": []
         }
       ],
@@ -1089,7 +1089,7 @@
         },
         {
           "label": "D",
-          "text": "Yellow",
+          "text": "yellow",
           "asset_refs": []
         },
         {

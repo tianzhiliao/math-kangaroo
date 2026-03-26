@@ -633,7 +633,7 @@
       "number": 5,
       "part": "part_a",
       "points": 3,
-      "stem_text": "A monkey has torn a piece from Captain Jack’s map. Which is the missing piece? (You can rotate the pieces.)",
+      "stem_text": "A monkey has torn a piece from Captain Jack's map. Which is the missing piece? (You can rotate the pieces.)",
       "choices": [
         {
           "label": "A",
@@ -717,7 +717,7 @@
       "number": 7,
       "part": "part_b",
       "points": 4,
-      "stem_text": "A koala, fox, ostrich, kangaroo, and puppy are sleeping in five baskets. One animal sleeps in each of the baskets. basket 1 basket 2 basket 3 basket 4 basket 5 The koala and the fox are sleeping in baskets with the same pattern and shape. The kangaroo and the ostrich have the same pattern on their baskets. Which basket is the puppy sleeping in?",
+      "stem_text": "A koala, fox, ostrich, kangaroo, and puppy are sleeping in five baskets. One animal sleeps in each of the baskets. The koala and the fox are sleeping in baskets with the same pattern and shape. The kangaroo and the ostrich have the same pattern on their baskets. Which basket is the puppy sleeping in?",
       "choices": [
         {
           "label": "A",
@@ -801,7 +801,7 @@
       "number": 9,
       "part": "part_b",
       "points": 4,
-      "stem_text": "Ann has 4 stickers as shown. She sticks down the star after she sticks down the square. She sticks down the star before she sticks down the circle. Which picture could she up with?",
+      "stem_text": "Ann has 4 stickers as shown. She sticks down the star after she sticks down the square. She sticks down the star before she sticks down the circle. Which picture could she end up with?",
       "choices": [
         {
           "label": "A",
@@ -885,7 +885,7 @@
       "number": 11,
       "part": "part_b",
       "points": 4,
-      "stem_text": "Some shapes are drawn on a piece of paper. The teacher folded the paper along the red line. How many of the shapes on the left will fall exactly on top a shape on the right?",
+      "stem_text": "Some shapes are drawn on a piece of paper. The teacher folded the paper along the red line. How many of the shapes on the left will fall exactly on top of a shape on the right?",
       "choices": [
         {
           "label": "A",
@@ -1034,7 +1034,7 @@
       "number": 15,
       "part": "part_c",
       "points": 5,
-      "stem_text": "Kangu’s car can only turn left. Which of the following five routes can Kangu take?",
+      "stem_text": "Kangu's car can only turn left. Which of the following five routes can Kangu take?",
       "choices": [
         {
           "label": "A",
@@ -1153,7 +1153,7 @@
       "number": 18,
       "part": "part_c",
       "points": 5,
-      "stem_text": "In the picture, different shapes stand for different numbers. The numbers shown and the question mark indicate the sum of the numbers in the row or column. + + 10 14 18 ? Which number should be written in place of the question mark?",
+      "stem_text": "In the picture, different shapes stand for different numbers. The numbers shown and the question mark indicate the sum of the numbers in the row or column. Which number should be written in place of the question mark?",
       "choices": [
         {
           "label": "A",

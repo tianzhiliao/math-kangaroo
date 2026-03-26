@@ -904,7 +904,7 @@
       "number": 6,
       "part": "part_a",
       "points": 3,
-      "stem_text": "1 6. The pink tower is taller than the red tower but shorter than the green tower. The silver tower is taller than the green tower. Which tower is the tallest?",
+      "stem_text": "The pink tower is taller than the red tower but shorter than the green tower. The silver tower is taller than the green tower. Which tower is the tallest?",
       "choices": [
         {
           "label": "A",
@@ -939,7 +939,7 @@
       "number": 7,
       "part": "part_a",
       "points": 3,
-      "stem_text": "These children are standing in a line. Some are facing forwards and others are facing back- wards. How many children are holding another child's hand with their right hand?",
+      "stem_text": "These children are standing in a line. Some are facing forwards and others are facing backwards. How many children are holding another child's hand with their right hand?",
       "choices": [
         {
           "label": "A",
@@ -1008,7 +1008,7 @@
         },
         {
           "label": "E",
-          "text": "4 points problems",
+          "text": "",
           "asset_refs": [
             "q08_option_E_01"
           ]
@@ -1058,7 +1058,7 @@
       "number": 10,
       "part": "part_b",
       "points": 4,
-      "stem_text": "Rose the cat walks along the wall. She starts at point B and follows the direction of the arrows shown in the picture. The cat walks a total of 20 me- tres. Where does she end up?",
+      "stem_text": "Rose the cat walks along the wall. She starts at point B and follows the direction of the arrows shown in the picture. The cat walks a total of 20 metres. Where does she end up?",
       "choices": [
         {
           "label": "A",
@@ -1130,7 +1130,7 @@
       "number": 12,
       "part": "part_b",
       "points": 4,
-      "stem_text": "2 12. Julia has two pots with flowers, as shown. She keeps the flowers ex- actly where they are. She buys more flowers and puts them in the pots. After that, each pot has the same number of each type of flower. What is the smallest number of flowers she needs to buy?",
+      "stem_text": "Julia has two pots with flowers, as shown. She keeps the flowers exactly where they are. She buys more flowers and puts them in the pots. After that, each pot has the same number of each type of flower. What is the smallest number of flowers she needs to buy?",
       "choices": [
         {
           "label": "A",
@@ -1167,7 +1167,7 @@
       "number": 13,
       "part": "part_b",
       "points": 4,
-      "stem_text": "Tom encodes words using the board shown. For example, the word PIZZA has the code 2 4 1 1 2 A A C C B . What word did Tom encode as 3 2 4 2 B B C D ?",
+      "stem_text": "Tom encodes words using the board shown. For example, the word PIZZA has the code 2 4 1 1 2. What word did Tom encode as 3 2 4 2?",
       "choices": [
         {
           "label": "A",
@@ -1322,7 +1322,7 @@
         },
         {
           "label": "E",
-          "text": "15 5 points problems",
+          "text": "15",
           "asset_refs": []
         }
       ],
@@ -1333,7 +1333,7 @@
       "number": 17,
       "part": "part_c",
       "points": 5,
-      "stem_text": "3 17. Mara built the square by using 4 of the following 5 shapes. Which shape was not used?",
+      "stem_text": "Mara built the square by using 4 of the following 5 shapes. Which shape was not used?",
       "choices": [
         {
           "label": "A",
@@ -1380,7 +1380,7 @@
       "number": 18,
       "part": "part_c",
       "points": 5,
-      "stem_text": "Every time the witch has 3 apples she turns them in to 1 banana. Every time she has 3 bananas she turns them in to 1 apple. What will she finish with if she starts with 4 apples and 5 bananas?",
+      "stem_text": "Every time the witch has 3 apples she turns them into 1 banana. Every time she has 3 bananas she turns them into 1 apple. What will she finish with if she starts with 4 apples and 5 bananas?",
       "choices": [
         {
           "label": "A",
@@ -1546,7 +1546,7 @@
       "number": 22,
       "part": "part_c",
       "points": 5,
-      "stem_text": "4 22. Each participant in a cooking contest baked one tray of cookies like the one shown beside. What is the smallest number of trays of cookies needed to make the following plate?",
+      "stem_text": "Each participant in a cooking contest baked one tray of cookies like the one shown beside. What is the smallest number of trays of cookies needed to make the following plate?",
       "choices": [
         {
           "label": "A",
@@ -1584,7 +1584,7 @@
       "number": 23,
       "part": "part_c",
       "points": 5,
-      "stem_text": "Kangie eats only apples on Monday, Wednesday and Friday. On Tuesdays and Thursdays he eats only man- goes. He eats either 2 apples or 3 mangoes a day. On Saturdays and Sundays he eats nothing. How many pieces of fruit does Kangie eat in two weeks?",
+      "stem_text": "Kangie eats only apples on Monday, Wednesday and Friday. On Tuesdays and Thursdays he eats only mangoes. He eats either 2 apples or 3 mangoes a day. On Saturdays and Sundays he eats nothing. How many pieces of fruit does Kangie eat in two weeks?",
       "choices": [
         {
           "label": "A",
@@ -1619,7 +1619,7 @@
       "number": 24,
       "part": "part_c",
       "points": 5,
-      "stem_text": "5 24. Stan has five toys: a ball, a set of blocks, a game, a puzzle and a car. He puts each toy on a different shelf of the bookcase. The ball is higher than the blocks and lower than the car. The game is directly above the ball. On which shelf can the puzzle not be placed?",
+      "stem_text": "Stan has five toys: a ball, a set of blocks, a game, a puzzle and a car. He puts each toy on a different shelf of the bookcase. The ball is higher than the blocks and lower than the car. The game is directly above the ball. On which shelf can the puzzle not be placed?",
       "choices": [
         {
           "label": "A",

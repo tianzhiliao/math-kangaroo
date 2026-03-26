@@ -749,7 +749,7 @@
       "number": 3,
       "part": "part_a",
       "points": 3,
-      "stem_text": "Four identical pieces of paper are placed as shown. Michael wants to make a hole that goes through all four pieces of paper. A B C D E Where should Michael make the hole?",
+      "stem_text": "Four identical pieces of paper are placed as shown. Michael wants to make a hole that goes through all four pieces of paper. Where should Michael make the hole?",
       "choices": [
         {
           "label": "A",
@@ -773,7 +773,7 @@
         },
         {
           "label": "E",
-          "text": "E This material may be reproduced only with the permission of the Canadian Math Kangaroo Contest Corporation.",
+          "text": "E",
           "asset_refs": []
         }
       ],
@@ -868,39 +868,39 @@
       "number": 6,
       "part": "part_a",
       "points": 3,
-      "stem_text": "Ella puts on this t-shirt and stands in front of a mirror. 2021 Which of these images does she see in the mirror?",
+      "stem_text": "Ella puts on this t-shirt and stands in front of a mirror. Which of these images does she see in the mirror?",
       "choices": [
         {
           "label": "A",
-          "text": "2021",
+          "text": "",
           "asset_refs": [
             "q06_option_A_01"
           ]
         },
         {
           "label": "B",
-          "text": "1202",
+          "text": "",
           "asset_refs": [
             "q06_option_B_01"
           ]
         },
         {
           "label": "C",
-          "text": "2120",
+          "text": "",
           "asset_refs": [
             "q06_option_C_01"
           ]
         },
         {
           "label": "D",
-          "text": "1202 2",
+          "text": "",
           "asset_refs": [
             "q06_option_D_01"
           ]
         },
         {
           "label": "E",
-          "text": "1202 2",
+          "text": "",
           "asset_refs": [
             "q06_option_E_01"
           ]
@@ -1044,7 +1044,7 @@
       "number": 10,
       "part": "part_b",
       "points": 4,
-      "stem_text": "Which ﬁgure can be made from these two pieces?",
+      "stem_text": "Which figure can be made from these two pieces?",
       "choices": [
         {
           "label": "A",
@@ -1163,7 +1163,7 @@
       "number": 13,
       "part": "part_c",
       "points": 5,
-      "stem_text": "A kangaroo had two branches for lunch. Each branch had 10 leaves. The kangaroo ﬁrst ate some leaves from one branch. Then, from the second branch, it ate as many leaves as were left on the ﬁrst branch. How many leaves in total were left on the two branches?",
+      "stem_text": "A kangaroo had two branches for lunch. Each branch had 10 leaves. The kangaroo first ate some leaves from one branch. Then, from the second branch, it ate as many leaves as were left on the first branch. How many leaves in total were left on the two branches?",
       "choices": [
         {
           "label": "A",
@@ -1198,7 +1198,7 @@
       "number": 14,
       "part": "part_c",
       "points": 5,
-      "stem_text": "Every time the witch has 3 apples she turns them into 1 banana. Every time she has 3 bananas she turns them into 1 apple. What will she ﬁnish with if she starts with 4 apples and 5 bananas?",
+      "stem_text": "Every time the witch has 3 apples she turns them into 1 banana. Every time she has 3 bananas she turns them into 1 apple. What will she finish with if she starts with 4 apples and 5 bananas?",
       "choices": [
         {
           "label": "A",
@@ -1230,7 +1230,7 @@
         },
         {
           "label": "E",
-          "text": "2 3 4 5 6",
+          "text": "",
           "asset_refs": [
             "q14_option_E_01"
           ]
@@ -1329,7 +1329,7 @@
       "number": 17,
       "part": "part_c",
       "points": 5,
-      "stem_text": "Stan has ﬁve toys: a ball, a set of blocks, a chess game, a puzzle and a car. He puts each toy on a diﬀerent shelf of the bookcase. The ball is higher than the blocks and lower than the car. The chess game is directly above the ball. On which shelf can the puzzle not be placed?",
+      "stem_text": "Stan has five toys: a ball, a set of blocks, a chess game, a puzzle and a car. He puts each toy on a different shelf of the bookcase. The ball is higher than the blocks and lower than the car. The chess game is directly above the ball. On which shelf can the puzzle not be placed?",
       "choices": [
         {
           "label": "A",
@@ -1366,7 +1366,7 @@
       "number": 18,
       "part": "part_c",
       "points": 5,
-      "stem_text": "Carl has a shape made up of four squares . He places the shape on a grid ﬁgure so that it completely covers four of the grid cells. Every time Carl does this, he adds 1 to the numbers in the four covered cells. Starting with 0 in every cell of the grid, Carl places his shape several times as shown. 0 0 0 0 0 0 0 0 0 0 0 0 +1+1 +1+1 0 0 0 1 1 0 1 1 0 0 1 1 +1+1 +1+1 1 1 0 2 2 0 1 1 · · · In the end, Carl hid some numbers with stickers: 15 9 8 What is the sum of the numbers behind the three squares?",
+      "stem_text": "Carl has a shape made up of four squares. He places the shape on a grid figure so that it completely covers four of the grid cells. Every time Carl does this, he adds 1 to the numbers in the four covered cells. Starting with 0 in every cell of the grid, Carl places his shape several times as shown. In the end, Carl hid some numbers with stickers. What is the sum of the numbers behind the three squares?",
       "choices": [
         {
           "label": "A",
