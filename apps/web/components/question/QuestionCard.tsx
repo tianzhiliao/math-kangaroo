@@ -1,5 +1,6 @@
 "use client";
 
+import { isAiEnabledOnClient } from "@/lib/ai-features";
 import { getFriendlyAiErrorMessage, readApiError } from "@/lib/api-errors";
 import type { AssetRecord, Question } from "@/lib/types";
 import { useEffect, useRef, useState } from "react";
@@ -196,6 +197,7 @@ export function QuestionCard({
   correctLabel: string;
   displayQuestionNumber?: number;
 }) {
+  const aiEnabled = isAiEnabledOnClient();
   const map = buildAssetMap(allAssets);
   const stemAssets = question.shared_asset_refs
     .map((id) => map[id])
@@ -215,7 +217,7 @@ export function QuestionCard({
             <p className="text-center text-[11px] font-bold uppercase tracking-wider text-slate-500 lg:text-left">
               Question {displayQuestionNumber ?? question.number}
             </p>
-            {hasStemText ? (
+            {aiEnabled && hasStemText ? (
               <StemTtsButton
                 examId={examId}
                 questionNumber={question.number}

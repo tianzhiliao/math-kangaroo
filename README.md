@@ -13,8 +13,8 @@ The repository is designed for developer collaborators. The goal of this documen
 
 - Exam mode with timed question flow
 - Practice mode with per-question feedback
-- AI-generated explanations via FastAPI + OpenAI
-- Text-to-speech generation for question stems
+- Optional AI-generated explanations via FastAPI + OpenAI
+- Optional text-to-speech generation for question stems
 - `release-data` manifest/exam loading through Next.js route handlers
 - PDF extraction, review, and release-data build tooling for content preparation
 
@@ -61,11 +61,18 @@ If you plan to work on the PDF/data pipeline, your Python environment also needs
 
 ### 2. Create `.env`
 
-Copy the example file and fill in at least `OPENAI_API_KEY`:
+Copy the example file:
 
 ```bash
 cp .env.example .env
 ```
+
+For frontend-only usage, keep these flags set to `false`:
+
+- `NEXT_PUBLIC_ENABLE_AI`
+- `ENABLE_AI`
+
+Only set `OPENAI_API_KEY` and point `FASTAPI_BASE_URL` at a running FastAPI service when you want AI explanation and TTS enabled.
 
 ### 3. Start local development
 
@@ -80,7 +87,7 @@ This starts:
 - Next.js at `http://127.0.0.1:3000`
 - FastAPI at `http://127.0.0.1:8000`
 
-The script expects a root `.env` file and a valid `OPENAI_API_KEY`.
+The script expects a root `.env` file. If you enable AI in that file, it also expects a valid `OPENAI_API_KEY`.
 
 ## Alternative startup paths
 
@@ -135,6 +142,8 @@ Notes:
 
 ### Environment variables
 
+- `NEXT_PUBLIC_ENABLE_AI`
+- `ENABLE_AI`
 - `OPENAI_API_KEY`
 - `FASTAPI_BASE_URL`
 - `RELEASE_DATA_PATH`
@@ -175,6 +184,19 @@ FastAPI upstream endpoints:
 - [Troubleshooting](docs/troubleshooting.md)
 - [Contributing](CONTRIBUTING.md)
 - [Web app README](apps/web/README.md)
+
+## Vercel frontend-only deployment
+
+For the first public beta, you can deploy only `apps/web` to Vercel and leave `apps/api` offline.
+
+Use this setup:
+
+- import the GitHub repository into Vercel
+- set the project Root Directory to `apps/web`
+- set `NEXT_PUBLIC_ENABLE_AI=false`
+- set `ENABLE_AI=false`
+
+This keeps exam and practice features online while hiding AI explanation and TTS UI.
 
 ## Known project boundaries
 

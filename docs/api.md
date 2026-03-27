@@ -94,6 +94,7 @@ Failure response:
 Purpose:
 
 - proxies an explanation request to FastAPI `/ai/explanation`
+- returns `404` with `{ "error": "feature_disabled" }` when `ENABLE_AI` is not `"true"`
 
 Request body:
 
@@ -127,6 +128,7 @@ Shape:
 
 Common failure cases:
 
+- feature disabled -> `404`
 - backend unreachable -> `502`
 - upstream validation failure -> proxied status code
 - malformed upstream JSON -> `502`
@@ -136,6 +138,7 @@ Common failure cases:
 Purpose:
 
 - proxies a streaming TTS request to FastAPI `GET /tts`
+- returns `404` with `{ "error": "feature_disabled" }` when `ENABLE_AI` is not `"true"`
 
 Query parameters:
 
@@ -155,6 +158,7 @@ Success response:
 Purpose:
 
 - proxies a JSON TTS request to FastAPI `POST /tts`
+- returns `404` with `{ "error": "feature_disabled" }` when `ENABLE_AI` is not `"true"`
 
 Request body:
 

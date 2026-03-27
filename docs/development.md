@@ -47,8 +47,10 @@ cp .env.example .env
 
 Important variables:
 
-- `OPENAI_API_KEY`: required for AI explanation and TTS
-- `FASTAPI_BASE_URL`: used by the Next.js proxy routes; defaults to `http://127.0.0.1:8000`
+- `NEXT_PUBLIC_ENABLE_AI`: controls whether the frontend renders AI buttons and panels
+- `ENABLE_AI`: controls whether Next.js proxy routes expose AI endpoints
+- `OPENAI_API_KEY`: required only when AI explanation and TTS are enabled
+- `FASTAPI_BASE_URL`: used by the Next.js proxy routes when AI is enabled; defaults to `http://127.0.0.1:8000`
 - `RELEASE_DATA_PATH`: optional override for runtime data location
 - `API_CACHE_DIR`: optional override for FastAPI cache files
 - `OPENAI_TTS_MODEL`
@@ -85,6 +87,8 @@ Web only:
 cd apps/web
 npm run dev -- --hostname 127.0.0.1 --port 3000
 ```
+
+For web-only local work, keep `NEXT_PUBLIC_ENABLE_AI=false` and `ENABLE_AI=false` in `.env`.
 
 API only:
 
@@ -180,4 +184,4 @@ Look in:
 
 - Treat `release-data/` as the runtime contract for the app.
 - Treat `original_pdf_data/` and other working directories as optional local inputs for content-processing workflows.
-- If AI features fail in the browser while page rendering still works, first check whether FastAPI is running and whether `OPENAI_API_KEY` is set.
+- If AI features fail in the browser while page rendering still works, first check whether AI is enabled in `.env`, whether FastAPI is running, and whether `OPENAI_API_KEY` is set.

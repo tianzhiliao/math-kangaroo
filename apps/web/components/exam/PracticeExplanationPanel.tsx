@@ -2,6 +2,7 @@
 
 import { useQuery } from "@tanstack/react-query";
 import { useQueryClient } from "@tanstack/react-query";
+import { isAiEnabledOnClient } from "@/lib/ai-features";
 import {
   getFriendlyAiErrorMessage,
   readApiError,
@@ -20,6 +21,7 @@ export function PracticeExplanationPanel({
   selectedLabel: string | null;
   expectedCorrectLabel: string;
 }) {
+  const aiEnabled = isAiEnabledOnClient();
   const [open, setOpen] = useState(false);
   const [isRegenerating, setIsRegenerating] = useState(false);
   const [regenerateError, setRegenerateError] = useState<string | null>(null);
@@ -101,7 +103,7 @@ export function PracticeExplanationPanel({
     }
   };
 
-  if (!selectedLabel) {
+  if (!aiEnabled || !selectedLabel) {
     return null;
   }
 

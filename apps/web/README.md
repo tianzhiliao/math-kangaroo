@@ -34,7 +34,7 @@ Open:
 
 - <http://127.0.0.1:3000>
 
-If you run only the web app, AI explanation and TTS features will fail unless the FastAPI backend is also running.
+If you run only the web app with `NEXT_PUBLIC_ENABLE_AI=false` and `ENABLE_AI=false`, exam and practice mode still work without FastAPI.
 
 ## Recommended full-stack startup
 
@@ -67,8 +67,21 @@ npm start
 
 | Variable            | Description                                      |
 | ------------------- | ------------------------------------------------ |
+| `NEXT_PUBLIC_ENABLE_AI` | Enables AI UI in the browser when set to `true`. |
+| `ENABLE_AI` | Enables Next.js AI proxy routes when set to `true`. |
 | `RELEASE_DATA_PATH` | Absolute path to `release-data` (Docker / prod). |
-| `FASTAPI_BASE_URL`  | Base URL for the FastAPI backend proxy.          |
+| `FASTAPI_BASE_URL`  | Base URL for the FastAPI backend proxy when AI is enabled. |
+
+## Vercel frontend-only deployment
+
+For the first shareable beta, deploy this app to Vercel without the FastAPI service:
+
+- import the repository into Vercel
+- set Root Directory to `apps/web`
+- set `NEXT_PUBLIC_ENABLE_AI=false`
+- set `ENABLE_AI=false`
+
+This keeps the release-data-backed routes available and hides AI explanation/TTS UI.
 
 ## API surface implemented in this app
 

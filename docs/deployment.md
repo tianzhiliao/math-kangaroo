@@ -1,6 +1,42 @@
 # Deployment
 
-This guide covers the current deployment shape for private or beta environments.
+This guide covers the current deployment shapes for private or beta environments.
+
+## Recommended first public beta: Vercel frontend only
+
+If you want to share the app quickly without deploying FastAPI yet, deploy only `apps/web` to Vercel.
+
+This works because the Next.js app reads the checked-in `release-data/` dataset directly for:
+
+- `/api/exams`
+- `/api/exams/[examId]`
+- `/api/exams/[examId]/raw/[...path]`
+- `/api/practice-bank`
+
+### Vercel project settings
+
+- import the GitHub repository
+- set Root Directory to `apps/web`
+- keep the default Next.js framework detection
+- use Node.js `20`
+- start with the generated production `.vercel.app` domain
+
+### Required Vercel environment variables
+
+- `NEXT_PUBLIC_ENABLE_AI=false`
+- `ENABLE_AI=false`
+
+### Behavior in this mode
+
+- exam and practice flows stay available
+- AI explanation and TTS UI are hidden
+- `/api/ai/explanation` returns `404` with `feature_disabled`
+- `/api/ai/tts` returns `404` with `feature_disabled`
+
+### Why the extra Next.js config exists
+
+The web app lives in `apps/web`, but its runtime data lives in the repo-level `release-data/` directory.
+The Next.js config uses `outputFileTracingRoot` and `outputFileTracingIncludes` so Vercel includes those files in the deployed server bundle.
 
 ## Current deployment model
 
@@ -61,10 +97,16 @@ The compose file wires:
 
 ### Required
 
+- none for the frontend-only Vercel mode
+
+### Required for full-stack AI deployments
+
 - `OPENAI_API_KEY`
 
 ### Runtime configuration
 
+- `NEXT_PUBLIC_ENABLE_AI`
+- `ENABLE_AI`
 - `FASTAPI_BASE_URL`
 - `RELEASE_DATA_PATH`
 - `API_CACHE_DIR`
@@ -80,10 +122,11 @@ Before promoting a build:
 
 1. Ensure `release-data/` is present and matches the version you intend to ship.
 2. Run `cd apps/web && npm run build`.
-3. Run `python3 -m unittest discover -s tests -v` and confirm any failures are understood.
-4. Verify `OPENAI_API_KEY` is configured in the target environment.
-5. Confirm the web service can reach FastAPI through `FASTAPI_BASE_URL`.
-6. Confirm the API service can write to its cache directory.
+3. If you are shipping AI features, run `python3 -m unittest discover -s tests -v` and confirm any failures are understood.
+4. For frontend-only Vercel, verify `NEXT_PUBLIC_ENABLE_AI=false` and `ENABLE_AI=false`.
+5. For full-stack deployments, verify `OPENAI_API_KEY` is configured in the target environment.
+6. For full-stack deployments, confirm the web service can reach FastAPI through `FASTAPI_BASE_URL`.
+7. For full-stack deployments, confirm the API service can write to its cache directory.
 
 ## Health and smoke checks
 
