@@ -1,6 +1,6 @@
 "use client";
 
-import { getFriendlyAiErrorMessage } from "@/lib/api-errors";
+import { getFriendlyAiErrorMessage, readApiError } from "@/lib/api-errors";
 import type { AssetRecord, Question } from "@/lib/types";
 import { useEffect, useRef, useState } from "react";
 import { AssetFigure } from "./AssetFigure";
@@ -41,6 +41,14 @@ function StemTtsButton({
   const [status, setStatus] = useState<TtsStatus>("idle");
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const objectUrlRef = useRef<string | null>(null);
+
+  const releaseObjectUrl = () => {
+    if (objectUrlRef.current) {
+      URL.revokeObjectURL(objectUrlRef.current);
+      objectUrlRef.current = null;
+    }
+  };
 
   const disposeAudio = () => {
     const audio = audioRef.current;
@@ -49,6 +57,7 @@ function StemTtsButton({
       audio.currentTime = 0;
       audioRef.current = null;
     }
+    releaseObjectUrl();
   };
 
   useEffect(() => {
@@ -85,7 +94,22 @@ function StemTtsButton({
         question_number: String(questionNumber),
         format: "opus",
       });
-      const audio = new Audio(`/api/ai/tts?${query.toString()}`);
+      const response = await fetch(`/api/ai/tts?${query.toString()}`);
+      if (!response.ok) {
+        throw await readApiError(response, "Could not load the audio.");
+      }
+      const contentType = response.headers.get("content-type") ?? "";
+      if (!contentType.startsWith("audio/")) {
+        throw new Error("AI backend returned an invalid audio response.");
+      }
+      const audioBlob = await response.blob();
+      if (!audioBlob.size) {
+        throw new Error("AI backend returned an empty audio response.");
+      }
+      const objectUrl = URL.createObjectURL(audioBlob);
+      objectUrlRef.current = objectUrl;
+
+      const audio = new Audio(objectUrl);
       audio.preload = "auto";
       audioRef.current = audio;
       audio.onended = () => {
