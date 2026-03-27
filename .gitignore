@@ -11,3 +11,5 @@ tmp/
 node_modules/
 apps/web/.next/
 .claude/
+.cursor/
+*.tsbuildinfo
