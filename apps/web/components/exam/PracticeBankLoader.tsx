@@ -4,13 +4,15 @@ import { useQuery } from "@tanstack/react-query";
 import type { Exam, PracticeBankResponse } from "@/lib/types";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
-import { useCallback, useEffect, useMemo } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { QuestionCard } from "@/components/question/QuestionCard";
 import { usePracticeAnswersStore } from "@/lib/practice-answers-store";
 import {
   QuestionSidebar,
   type QuestionStatus,
 } from "@/components/exam/QuestionSidebar";
+import { PracticeExplanationPanel } from "@/components/exam/PracticeExplanationPanel";
+import { PracticeExitDialog } from "@/components/exam/PracticeExitDialog";
 
 function Loading() {
   return (
@@ -27,6 +29,7 @@ function Loading() {
 export function PracticeBankLoader() {
   const params = useParams();
   const router = useRouter();
+  const [showExitDialog, setShowExitDialog] = useState(false);
   const raw = params.globalIndex;
   const globalOneBased =
     typeof raw === "string" ? Number.parseInt(raw, 10) : Number.NaN;
@@ -68,6 +71,7 @@ export function PracticeBankLoader() {
   const setLastVisitedQuestion = usePracticeAnswersStore(
     (s) => s.setLastVisitedQuestion,
   );
+  const clearPracticeProgress = usePracticeAnswersStore((s) => s.clear);
 
   const selected =
     globalOneBased >= 1 && answers[globalOneBased]
@@ -226,6 +230,12 @@ export function PracticeBankLoader() {
               )}
             </p>
           ) : null}
+          <PracticeExplanationPanel
+            examId={exam.exam_id}
+            questionNumber={question.number}
+            selectedLabel={selected}
+            expectedCorrectLabel={correctLabel}
+          />
         </div>
 
         <footer className="sticky bottom-0 border-t border-slate-200 bg-white/95 px-3 py-4 backdrop-blur sm:px-4 sm:py-5">
@@ -246,24 +256,29 @@ export function PracticeBankLoader() {
             >
               Next
             </button>
-            <Link
-              href="/"
-              onClick={(e) => {
-                if (
-                  !window.confirm(
-                    "Leave practice? Your progress on this page is not saved.",
-                  )
-                ) {
-                  e.preventDefault();
-                }
-              }}
+            <button
+              type="button"
+              onClick={() => setShowExitDialog(true)}
               className={`${footerButtonDanger} order-3 col-span-2 md:col-span-1`}
             >
               End practice
-            </Link>
+            </button>
           </div>
         </footer>
       </main>
+      <PracticeExitDialog
+        open={showExitDialog}
+        onCancel={() => setShowExitDialog(false)}
+        onKeep={() => {
+          setShowExitDialog(false);
+          router.push("/");
+        }}
+        onClear={() => {
+          clearPracticeProgress();
+          setShowExitDialog(false);
+          router.push("/");
+        }}
+      />
     </div>
   );
 }

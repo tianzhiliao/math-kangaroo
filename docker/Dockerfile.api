@@ -2,7 +2,7 @@ FROM python:3.12-slim
 WORKDIR /app
 COPY apps/api/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-COPY apps/api/main.py ./main.py
+COPY apps/api/ ./
 COPY release-data /data/release-data
 ENV RELEASE_DATA_PATH=/data/release-data
 EXPOSE 8000

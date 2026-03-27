@@ -1,11 +1,153 @@
 "use client";
 
+import { getFriendlyAiErrorMessage } from "@/lib/api-errors";
 import type { AssetRecord, Question } from "@/lib/types";
+import { useEffect, useRef, useState } from "react";
 import { AssetFigure } from "./AssetFigure";
 import { AssetGrid } from "./AssetGrid";
 
 function buildAssetMap(assets: AssetRecord[]): Record<string, AssetRecord> {
   return Object.fromEntries(assets.map((a) => [a.id, a]));
+}
+
+type TtsStatus = "idle" | "loading" | "playing" | "error";
+
+function SpeakerIcon({ className = "" }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+      className={className}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M11 5 6 9H3v6h3l5 4V5Z" />
+      <path d="M15.5 8.5a5 5 0 0 1 0 7" />
+      <path d="M18 6a8 8 0 0 1 0 12" />
+    </svg>
+  );
+}
+
+function StemTtsButton({
+  examId,
+  questionNumber,
+}: {
+  examId: string;
+  questionNumber: number;
+}) {
+  const [status, setStatus] = useState<TtsStatus>("idle");
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  const disposeAudio = () => {
+    const audio = audioRef.current;
+    if (audio) {
+      audio.pause();
+      audio.currentTime = 0;
+      audioRef.current = null;
+    }
+  };
+
+  useEffect(() => {
+    return () => {
+      disposeAudio();
+    };
+    // The button is tied to a single question; clean up on unmount.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    disposeAudio();
+    setStatus("idle");
+    setErrorMessage(null);
+    // Reset the TTS state whenever we navigate to a different question.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [examId, questionNumber]);
+
+  const handleClick = async () => {
+    if (status === "loading") return;
+    if (status === "playing") {
+      disposeAudio();
+      setStatus("idle");
+      return;
+    }
+
+    disposeAudio();
+    setStatus("loading");
+    setErrorMessage(null);
+
+    try {
+      const query = new URLSearchParams({
+        exam_id: examId,
+        question_number: String(questionNumber),
+        format: "opus",
+      });
+      const audio = new Audio(`/api/ai/tts?${query.toString()}`);
+      audio.preload = "auto";
+      audioRef.current = audio;
+      audio.onended = () => {
+        disposeAudio();
+        setStatus("idle");
+      };
+      audio.onerror = () => {
+        disposeAudio();
+        setStatus("error");
+        setErrorMessage("Could not play the audio.");
+      };
+
+      await audio.play();
+      setStatus("playing");
+    } catch (error) {
+      disposeAudio();
+      setStatus("error");
+      setErrorMessage(
+        getFriendlyAiErrorMessage(error, "Could not play the audio."),
+      );
+    }
+  };
+
+  const label =
+    status === "playing"
+      ? "Stop audio"
+      : status === "loading"
+        ? "Loading audio"
+        : "Listen to question";
+
+  return (
+    <div className="flex flex-col items-end gap-1">
+      <button
+        type="button"
+        onClick={handleClick}
+        disabled={status === "loading"}
+        aria-label={label}
+        title={label}
+        aria-busy={status === "loading"}
+        className={`inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
+          status === "playing"
+            ? "border-blue-500 bg-blue-50 text-blue-700 shadow-sm"
+            : status === "loading"
+              ? "cursor-wait border-slate-200 bg-slate-50 text-slate-400"
+              : status === "error"
+                ? "border-rose-300 bg-rose-50 text-rose-700 shadow-sm"
+                : "border-slate-200 bg-white text-slate-700 shadow-sm hover:border-blue-300 hover:bg-blue-50 hover:text-blue-700"
+        }`}
+      >
+        {status === "loading" ? (
+          <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-current border-t-transparent" />
+        ) : (
+          <SpeakerIcon className="h-5 w-5" />
+        )}
+      </button>
+      {errorMessage ? (
+        <p className="max-w-[10rem] text-right text-[10px] leading-tight text-rose-600">
+          {errorMessage}
+        </p>
+      ) : null}
+    </div>
+  );
 }
 
 export function QuestionCard({
@@ -36,6 +178,7 @@ export function QuestionCard({
     .filter(Boolean);
 
   const hasStemFigure = stemAssets.length > 0;
+  const hasStemText = question.stem_text.trim().length > 0;
 
   return (
     <article className="mx-auto flex w-full max-w-4xl flex-col rounded-2xl border-2 border-slate-200/90 bg-white px-3 py-3 shadow-sm sm:px-4 sm:py-4">
@@ -44,10 +187,18 @@ export function QuestionCard({
         className={`flex min-w-0 flex-col gap-3 ${hasStemFigure ? "lg:flex-row lg:items-start lg:gap-4" : ""}`}
       >
         <div className="min-w-0 flex-1">
-          <p className="text-center text-[11px] font-bold uppercase tracking-wider text-slate-500 lg:text-left">
-            Question {displayQuestionNumber ?? question.number}
-          </p>
-          {question.stem_text.trim() ? (
+          <div className="flex items-start justify-between gap-3">
+            <p className="text-center text-[11px] font-bold uppercase tracking-wider text-slate-500 lg:text-left">
+              Question {displayQuestionNumber ?? question.number}
+            </p>
+            {hasStemText ? (
+              <StemTtsButton
+                examId={examId}
+                questionNumber={question.number}
+              />
+            ) : null}
+          </div>
+          {hasStemText ? (
             <p className="mt-1.5 text-balance text-center text-xl font-semibold leading-snug text-slate-900 sm:text-2xl lg:text-left">
               {question.stem_text}
             </p>
@@ -66,7 +217,7 @@ export function QuestionCard({
 
       {/* Options: dense grid; image options use compact inline figures */}
       <div
-        className={`grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-3 ${hasStemFigure || question.stem_text.trim() ? "mt-3 border-t border-slate-100 pt-3" : "mt-1"}`}
+        className={`grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-3 ${hasStemFigure || hasStemText ? "mt-3 border-t border-slate-100 pt-3" : "mt-1"}`}
         role="list"
       >
         {question.choices.map((choice) => {

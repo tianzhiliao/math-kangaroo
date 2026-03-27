@@ -26,6 +26,32 @@ export interface PracticeBankResponse {
   entries: PracticeBankEntry[];
 }
 
+export interface AITextToSpeechRequest {
+  exam_id: string;
+  question_number: number;
+  voice?: string;
+  speed?: number;
+  format?: string;
+}
+
+export interface AIExplanationRequest {
+  exam_id: string;
+  question_number: number;
+  selected_label: string;
+  force_refresh?: boolean;
+}
+
+export interface AIExplanationResponse {
+  exam_id: string;
+  question_number: number;
+  selected_label: string;
+  correct_label: string;
+  explanation: string;
+  model: string;
+  cache_hit: boolean;
+  generated_at: string;
+}
+
 export interface ScoringRule {
   from: number;
   to: number;

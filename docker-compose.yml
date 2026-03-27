@@ -3,10 +3,13 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile.web
+    depends_on:
+      - api
     ports:
       - "3000:3000"
     environment:
       RELEASE_DATA_PATH: /data/release-data
+      FASTAPI_BASE_URL: http://api:8000
     volumes:
       - ./release-data:/data/release-data:ro
 
@@ -18,5 +21,7 @@ services:
       - "8000:8000"
     environment:
       RELEASE_DATA_PATH: /data/release-data
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      API_CACHE_DIR: /tmp/math-api-cache
     volumes:
       - ./release-data:/data/release-data:ro

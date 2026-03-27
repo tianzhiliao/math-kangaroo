@@ -3,16 +3,23 @@
 import { QuestionCard } from "@/components/question/QuestionCard";
 import type { Exam } from "@/lib/types";
 import { useCallback, useState } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
   QuestionSidebar,
   type QuestionStatus,
 } from "@/components/exam/QuestionSidebar";
+import { PracticeExplanationPanel } from "@/components/exam/PracticeExplanationPanel";
+import { PracticeExitDialog } from "@/components/exam/PracticeExitDialog";
+import { usePracticeAnswersStore } from "@/lib/practice-answers-store";
 
 export function PracticeRun({ exam }: { exam: Exam }) {
+  const router = useRouter();
+  const clearPracticeProgress = usePracticeAnswersStore((s) => s.clear);
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [revealed, setRevealed] = useState(false);
+  const [showExitDialog, setShowExitDialog] = useState(false);
 
   const question = exam.questions[index];
   const total = exam.question_count;
@@ -123,6 +130,12 @@ export function PracticeRun({ exam }: { exam: Exam }) {
               )}
             </p>
           ) : null}
+          <PracticeExplanationPanel
+            examId={exam.exam_id}
+            questionNumber={question.number}
+            selectedLabel={selected}
+            expectedCorrectLabel={correctLabel}
+          />
         </div>
 
         <footer className="sticky bottom-0 border-t border-slate-200 bg-white/95 px-3 py-4 backdrop-blur sm:px-4 sm:py-5">
@@ -145,25 +158,30 @@ export function PracticeRun({ exam }: { exam: Exam }) {
                 Next
               </button>
             </div>
-            <Link
-              href="/practice"
-              onClick={(e) => {
-                if (
-                  !window.confirm(
-                    "Leave practice? You can come back and pick this paper again.",
-                  )
-                ) {
-                  e.preventDefault();
-                }
-              }}
+            <button
+              type="button"
+              onClick={() => setShowExitDialog(true)}
               className="tap-target flex min-h-[48px] w-full items-center justify-center gap-2 rounded-2xl bg-rose-100 px-5 text-base font-bold text-rose-800 sm:w-auto sm:shrink-0 sm:px-6"
             >
               <span aria-hidden>×</span>
               End practice
-            </Link>
+            </button>
           </div>
         </footer>
       </main>
+      <PracticeExitDialog
+        open={showExitDialog}
+        onCancel={() => setShowExitDialog(false)}
+        onKeep={() => {
+          setShowExitDialog(false);
+          router.push("/practice");
+        }}
+        onClear={() => {
+          clearPracticeProgress();
+          setShowExitDialog(false);
+          router.push("/practice");
+        }}
+      />
     </div>
   );
 }
