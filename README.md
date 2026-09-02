@@ -20,27 +20,26 @@ The repository is designed for developer collaborators. The goal of this documen
 
 ## Reliability
 
-The product is for 6–7 year olds, so an explanation that states the wrong answer is worse than no explanation at all. The AI path is built around that constraint — see [](apps/api/app/services/explanations.py).
+The product is for 6-7 year olds, so an explanation that states the wrong answer is worse than no explanation at all. The AI path is built around that constraint - see [`apps/api/app/services/explanations.py`](apps/api/app/services/explanations.py).
 
-**Structured output, strictly.** Explanations are generated through the OpenAI Responses API with  JSON schema output ( and , ). The model cannot return free-form prose that the parser then has to guess at.
+**Structured output, strictly.** Explanations are generated through the OpenAI Responses API with `strict: true` JSON schema output (`explanation` and `final_answer`, `additionalProperties: false`). The model cannot return free-form prose that the parser then has to guess at.
 
 **Two independent checks before anything reaches a student.** Each attempt must pass both:
 
-1.  is normalized and compared against the verified answer key from the release dataset. A mismatch discards the attempt.
-2. The explanation *prose* is scanned for answer claims — , , ,  — and any claim that disagrees with the key discards the attempt.
+1. `final_answer` is normalized and compared against the verified answer key from the release dataset. A mismatch discards the attempt.
+2. The explanation *prose* is scanned for answer claims - `answer is X`, `correct answer is X`, `option X is correct`, `X is correct` - and any claim that disagrees with the key discards the attempt.
 
-The second check exists because the first is not enough: a model can fill the  field correctly and still argue for a different letter in the body. Validating only the structured field would let that through.
+The second check exists because the first is not enough: a model can fill the `final_answer` field correctly and still argue for a different letter in the body. Validating only the structured field would let that through.
 
-**Bounded retries, then a safe fallback.** . If both attempts fail validation — bad JSON, empty text, wrong answer, or a contradictory claim — the service returns a deterministic fallback explanation built from the verified key rather than anything the model produced. There is no path where a failed generation reaches a student as a wrong answer.
+**Bounded retries, then a safe fallback.** `MAX_EXPLANATION_ATTEMPTS = 2`. If both attempts fail validation - bad JSON, empty text, wrong answer, or a contradictory claim - the service returns a deterministic fallback explanation built from the verified key rather than anything the model produced. There is no path where a failed generation reaches a student as a wrong answer.
 
-**Every response ends the same way.**  appends  using the verified key, so the closing sentence is never model-authored.
+**Every response ends the same way.** `_finalize_explanation` appends `So the answer is X.` using the verified key, so the closing sentence is never model-authored.
 
-**Caching keyed on what actually changes the output.** The explanation cache key is a SHA-256 over sorted JSON of exam ID, question number, selected choice, model, and  (). Bumping the prompt version invalidates cached explanations automatically instead of silently serving output from an older prompt.
+**Caching keyed on what actually changes the output.** The explanation cache key is a SHA-256 over sorted JSON of exam ID, question number, selected choice, model, and `PROMPT_VERSION` (currently `grade1_v3`). Bumping the prompt version invalidates cached explanations automatically instead of silently serving output from an older prompt.
 
-**TTS cache with a spend ceiling.**  keys audio on the same content-hash scheme and enforces both a TTL (24h default) and a max item count (500 default), pruning oldest-first. Repeat playback costs a local file read; total TTS spend has a ceiling regardless of traffic.
+**TTS cache with a spend ceiling.** `TTSAudioCache` keys audio on the same content-hash scheme and enforces both a TTL (24h default) and a max item count (500 default), pruning oldest-first. Repeat playback costs a local file read, and total TTS spend has a ceiling regardless of traffic.
 
-**Multimodal input.** Many Kangaroo questions are pictures, not text. Question stems and answer choices are sent as  data URLs alongside the text, so the model reasons over the actual diagram rather than a lossy text description.
-
+**Multimodal input.** Many Kangaroo questions are pictures, not text. Question stems and answer choices are sent as `input_image` data URLs alongside the text, so the model reasons over the actual diagram rather than a lossy text description.
 
 ## Repository map
 
