@@ -9,6 +9,15 @@ A full-stack practice platform for Math Kangaroo contest content, with AI-genera
 
 The repository is designed for developer collaborators. The goal of this documentation set is to help a new engineer understand the stack, run it locally, and know where to look for data, AI, and pipeline behavior within a few minutes.
 
+![Practice mode](docs/screenshots/practice.png)
+
+*Practice mode. Most Kangaroo questions are pictures rather than text - stems and answer choices are sent to the model as images, not as a lossy text description. The speaker icon reads the stem aloud.*
+
+![Exam mode](docs/screenshots/exam.png)
+
+*Exam mode, with a countdown across the full question set.*
+
+
 ## Current capabilities
 
 - Exam mode with timed question flow
