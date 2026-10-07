@@ -1,0 +1,98 @@
+{
+  "id": "q11",
+  "number": 11,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Five blocks are built with equal cubes glued face to face. In which of them was the smallest number of cubes used?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": [
+        "q11_option_A_01"
+      ]
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": [
+        "q11_option_B_01"
+      ]
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": [
+        "q11_option_C_01"
+      ]
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": [
+        "q11_option_D_01"
+      ]
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": [
+        "q11_option_E_01"
+      ]
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": [
+    {
+      "id": "q11_option_A_01",
+      "path": "choice-a.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 160,
+      "height": 150
+    },
+    {
+      "id": "q11_option_B_01",
+      "path": "choice-b.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 160,
+      "height": 150
+    },
+    {
+      "id": "q11_option_C_01",
+      "path": "choice-c.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 160,
+      "height": 150
+    },
+    {
+      "id": "q11_option_D_01",
+      "path": "choice-d.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 160,
+      "height": 150
+    },
+    {
+      "id": "q11_option_E_01",
+      "path": "choice-e.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 160,
+      "height": 150
+    }
+  ]
+}

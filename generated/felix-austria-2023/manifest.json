@@ -1,0 +1,82 @@
+{
+  "exam_id": "felix-austria-2023",
+  "questions": [
+    {
+      "id": "q01",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q02",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q03",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q04",
+      "status": "generated",
+      "answer": "D"
+    },
+    {
+      "id": "q05",
+      "status": "generated",
+      "answer": "B"
+    },
+    {
+      "id": "q06",
+      "status": "generated",
+      "answer": "D"
+    },
+    {
+      "id": "q07",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q08",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q09",
+      "status": "generated",
+      "answer": "D"
+    },
+    {
+      "id": "q10",
+      "status": "generated",
+      "answer": "B"
+    },
+    {
+      "id": "q11",
+      "status": "generated",
+      "answer": "D",
+      "no_figure": true
+    },
+    {
+      "id": "q12",
+      "status": "generated",
+      "answer": "A"
+    },
+    {
+      "id": "q13",
+      "status": "generated",
+      "answer": "D"
+    },
+    {
+      "id": "q14",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q15",
+      "status": "generated",
+      "answer": "B",
+      "no_figure": true
+    }
+  ]
+}

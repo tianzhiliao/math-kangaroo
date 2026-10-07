@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="784" height="490" viewBox="0 0 784 490">
+<rect width="784" height="490" fill="#FFFFFF"/>
+<polygon points="80,450 80,426 128,426 128,402 176,402 176,378 224,378 224,354 272,354 272,330 320,330 320,306 368,306 368,282 416,282 416,258 464,258 464,234 512,234 512,210 560,210 560,186 608,186 608,162 656,162 656,138 704,138 704,450" fill="#C9DFF3" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="104.0" y="444" text-anchor="middle" font-family="Noto Serif, Liberation Serif, serif" font-size="14" fill="#1A1A1A">1</text><text x="152.0" y="420" text-anchor="middle" font-family="Noto Serif, Liberation Serif, serif" font-size="14" fill="#1A1A1A">2</text><text x="200.0" y="396" text-anchor="middle" font-family="Noto Serif, Liberation Serif, serif" font-size="14" fill="#1A1A1A">3</text><text x="248.0" y="372" text-anchor="middle" font-family="Noto Serif, Liberation Serif, serif" font-size="14" fill="#1A1A1A">4</text><text x="296.0" y="348" text-anchor="middle" font-family="Noto Serif, Liberation Serif, serif" font-size="14" fill="#1A1A1A">5</text><text x="344.0" y="324" text-anchor="middle" font-family="Noto Serif, Liberation Serif, serif" font-size="14" fill="#1A1A1A">6</text><text x="392.0" y="300" text-anchor="middle" font-family="Noto Serif, Liberation Serif, serif" font-size="14" fill="#1A1A1A">7</text><text x="440.0" y="276" text-anchor="middle" font-family="Noto Serif, Liberation Serif, serif" font-size="14" fill="#1A1A1A">8</text><text x="488.0" y="252" text-anchor="middle" font-family="Noto Serif, Liberation Serif, serif" font-size="14" fill="#1A1A1A">9</text><text x="536.0" y="228" text-anchor="middle" font-family="Noto Serif, Liberation Serif, serif" font-size="14" fill="#1A1A1A">10</text><text x="584.0" y="204" text-anchor="middle" font-family="Noto Serif, Liberation Serif, serif" font-size="14" fill="#1A1A1A">11</text><text x="632.0" y="180" text-anchor="middle" font-family="Noto Serif, Liberation Serif, serif" font-size="14" fill="#1A1A1A">12</text><text x="680.0" y="156" text-anchor="middle" font-family="Noto Serif, Liberation Serif, serif" font-size="14" fill="#1A1A1A">13</text>
+<g id="kangaroo">
+  <polygon points="54.8,420 82.8,406 84.8,422" fill="#D4843C" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+  <ellipse cx="94.8" cy="396" rx="20" ry="16" fill="#E8A15A" stroke="#222222" stroke-width="5"/>
+  <ellipse cx="98.8" cy="400" rx="9" ry="10" fill="#F8D7A6" stroke="#222222" stroke-width="3"/>
+  <ellipse cx="114.8" cy="382" rx="13" ry="12" fill="#E8A15A" stroke="#222222" stroke-width="5"/>
+  <ellipse cx="120.8" cy="366" rx="4.5" ry="9" fill="#E8A15A" stroke="#222222" stroke-width="5"/>
+  <ellipse cx="120.8" cy="364" rx="2.2" ry="5" fill="#F3B4C6" stroke="#222222" stroke-width="2"/>
+  <circle cx="119.8" cy="380" r="2" fill="#222222"/>
+  <ellipse cx="125.8" cy="386" rx="3.5" ry="2.5" fill="#F8D7A6" stroke="#222222" stroke-width="2"/>
+  <rect x="90.8" y="412" width="7" height="14" rx="2" fill="#D4843C" stroke="#222222" stroke-width="3"/>
+  <rect x="102.8" y="412" width="7" height="14" rx="2" fill="#D4843C" stroke="#222222" stroke-width="3"/>
+  <ellipse cx="94.8" cy="425" rx="8" ry="3.5" fill="#D4843C" stroke="#222222" stroke-width="3"/>
+  <ellipse cx="106.8" cy="425" rx="8" ry="3.5" fill="#D4843C" stroke="#222222" stroke-width="3"/>
+</g>
+<g id="rabbit">
+  <ellipse cx="663.6" cy="72" rx="5.5" ry="16" fill="#F7F4EF" stroke="#222222" stroke-width="5"/>
+  <ellipse cx="663.6" cy="70" rx="2.6" ry="10" fill="#F6C0D0" stroke="#222222" stroke-width="2"/>
+  <ellipse cx="676.6" cy="72" rx="5.5" ry="16" fill="#F7F4EF" stroke="#222222" stroke-width="5"/>
+  <ellipse cx="676.6" cy="70" rx="2.6" ry="10" fill="#F6C0D0" stroke="#222222" stroke-width="2"/>
+  <ellipse cx="679.6" cy="108" rx="18" ry="15" fill="#F7F4EF" stroke="#222222" stroke-width="5"/>
+  <circle cx="697.6" cy="112" r="5.5" fill="#F7F4EF" stroke="#222222" stroke-width="5"/>
+  <ellipse cx="665.6" cy="94" rx="12" ry="11" fill="#F7F4EF" stroke="#222222" stroke-width="5"/>
+  <circle cx="661.6" cy="92" r="1.8" fill="#222222"/>
+  <ellipse cx="669.6" cy="98" rx="3" ry="2" fill="#F6C0D0" stroke="#222222" stroke-width="2"/>
+  <rect x="671.6" y="124" width="6" height="14" rx="2" fill="#F7F4EF" stroke="#222222" stroke-width="3"/>
+  <rect x="682.6" y="124" width="6" height="14" rx="2" fill="#F7F4EF" stroke="#222222" stroke-width="3"/>
+  <ellipse cx="674.6" cy="137" rx="7" ry="3" fill="#F7F4EF" stroke="#222222" stroke-width="3"/>
+  <ellipse cx="685.6" cy="137" rx="7" ry="3" fill="#F7F4EF" stroke="#222222" stroke-width="3"/>
+</g>
+</svg>

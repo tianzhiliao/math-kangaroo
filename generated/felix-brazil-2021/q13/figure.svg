@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="500" viewBox="0 0 520 500">
+<rect width="520" height="500" fill="#FFFFFF"/>
+<text x="115.0" y="62" text-anchor="middle" font-family="Liberation Serif, serif" font-size="34" fill="#222222">1</text>
+<text x="205.0" y="62" text-anchor="middle" font-family="Liberation Serif, serif" font-size="34" fill="#222222">2</text>
+<text x="295.0" y="62" text-anchor="middle" font-family="Liberation Serif, serif" font-size="34" fill="#222222">3</text>
+<text x="385.0" y="62" text-anchor="middle" font-family="Liberation Serif, serif" font-size="34" fill="#222222">4</text>
+<rect x="70" y="80" width="90" height="90" fill="#F8E1A0" stroke="#222222" stroke-width="5"/>
+<text x="115.0" y="138" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">Z</text>
+<rect x="160" y="80" width="90" height="90" fill="#B9D4F5" stroke="#222222" stroke-width="5"/>
+<text x="205.0" y="138" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">I</text>
+<rect x="250" y="80" width="90" height="90" fill="#A9D8B8" stroke="#222222" stroke-width="5"/>
+<text x="295.0" y="138" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">M</text>
+<rect x="340" y="80" width="90" height="90" fill="#F4B4C4" stroke="#222222" stroke-width="5"/>
+<text x="385.0" y="138" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">A</text>
+<rect x="70" y="170" width="90" height="90" fill="#B9D4F5" stroke="#222222" stroke-width="5"/>
+<text x="115.0" y="228" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">P</text>
+<rect x="160" y="170" width="90" height="90" fill="#A9D8B8" stroke="#222222" stroke-width="5"/>
+<text x="205.0" y="228" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">H</text>
+<rect x="250" y="170" width="90" height="90" fill="#F4B4C4" stroke="#222222" stroke-width="5"/>
+<text x="295.0" y="228" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">T</text>
+<rect x="340" y="170" width="90" height="90" fill="#F8E1A0" stroke="#222222" stroke-width="5"/>
+<text x="385.0" y="228" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">K</text>
+<rect x="70" y="260" width="90" height="90" fill="#A9D8B8" stroke="#222222" stroke-width="5"/>
+<text x="115.0" y="318" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">L</text>
+<rect x="160" y="260" width="90" height="90" fill="#F4B4C4" stroke="#222222" stroke-width="5"/>
+<text x="205.0" y="318" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">S</text>
+<rect x="250" y="260" width="90" height="90" fill="#F8E1A0" stroke="#222222" stroke-width="5"/>
+<text x="295.0" y="318" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">E</text>
+<rect x="340" y="260" width="90" height="90" fill="#B9D4F5" stroke="#222222" stroke-width="5"/>
+<text x="385.0" y="318" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">R</text>
+<rect x="70" y="350" width="90" height="90" fill="#F4B4C4" stroke="#222222" stroke-width="5"/>
+<text x="115.0" y="408" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">B</text>
+<rect x="160" y="350" width="90" height="90" fill="#F8E1A0" stroke="#222222" stroke-width="5"/>
+<text x="205.0" y="408" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">N</text>
+<rect x="250" y="350" width="90" height="90" fill="#B9D4F5" stroke="#222222" stroke-width="5"/>
+<text x="295.0" y="408" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">D</text>
+<rect x="340" y="350" width="90" height="90" fill="#A9D8B8" stroke="#222222" stroke-width="5"/>
+<text x="385.0" y="408" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">O</text>
+</svg>

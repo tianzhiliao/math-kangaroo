@@ -1,0 +1,110 @@
+{
+  "id": "q13",
+  "number": 13,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Six figures were drawn, one on each face of a cube. Two positions of the cube are shown, and the missing face is the heart. What figure is on the face opposite the heart?",
+  "answer": "E",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": [
+        "q13_option_A_01"
+      ]
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": [
+        "q13_option_B_01"
+      ]
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": [
+        "q13_option_C_01"
+      ]
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": [
+        "q13_option_D_01"
+      ]
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": [
+        "q13_option_E_01"
+      ]
+    }
+  ],
+  "shared_asset_refs": [
+    "q13_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q13_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 560,
+      "height": 200
+    },
+    {
+      "id": "q13_option_A_01",
+      "path": "choice-a.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 180,
+      "height": 140
+    },
+    {
+      "id": "q13_option_B_01",
+      "path": "choice-b.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 180,
+      "height": 140
+    },
+    {
+      "id": "q13_option_C_01",
+      "path": "choice-c.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 180,
+      "height": 140
+    },
+    {
+      "id": "q13_option_D_01",
+      "path": "choice-d.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 180,
+      "height": 140
+    },
+    {
+      "id": "q13_option_E_01",
+      "path": "choice-e.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 180,
+      "height": 140
+    }
+  ]
+}

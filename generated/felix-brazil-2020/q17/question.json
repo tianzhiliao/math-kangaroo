@@ -1,0 +1,110 @@
+{
+  "id": "q17",
+  "number": 17,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Each row and each column must contain three different shapes and three different numbers. Which card should be placed in the colored cell?",
+  "answer": "E",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": [
+        "q17_option_A_01"
+      ]
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": [
+        "q17_option_B_01"
+      ]
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": [
+        "q17_option_C_01"
+      ]
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": [
+        "q17_option_D_01"
+      ]
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": [
+        "q17_option_E_01"
+      ]
+    }
+  ],
+  "shared_asset_refs": [
+    "q17_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q17_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 360,
+      "height": 300
+    },
+    {
+      "id": "q17_option_A_01",
+      "path": "choice-a.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 140,
+      "height": 110
+    },
+    {
+      "id": "q17_option_B_01",
+      "path": "choice-b.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 140,
+      "height": 110
+    },
+    {
+      "id": "q17_option_C_01",
+      "path": "choice-c.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 140,
+      "height": 110
+    },
+    {
+      "id": "q17_option_D_01",
+      "path": "choice-d.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 140,
+      "height": 110
+    },
+    {
+      "id": "q17_option_E_01",
+      "path": "choice-e.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 140,
+      "height": 110
+    }
+  ]
+}

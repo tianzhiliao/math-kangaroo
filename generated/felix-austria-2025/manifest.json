@@ -1,0 +1,125 @@
+{
+  "exam_id": "felix-austria-2025",
+  "questions": [
+    {
+      "id": "q01",
+      "status": "generated",
+      "answer": "B",
+      "duplicate_of": null,
+      "error": null,
+      "no_figure": false
+    },
+    {
+      "id": "q02",
+      "status": "generated",
+      "answer": "C",
+      "duplicate_of": null,
+      "error": null,
+      "no_figure": false
+    },
+    {
+      "id": "q03",
+      "status": "generated",
+      "answer": "D",
+      "duplicate_of": null,
+      "error": null,
+      "no_figure": false
+    },
+    {
+      "id": "q04",
+      "status": "generated",
+      "answer": "D",
+      "duplicate_of": null,
+      "error": null,
+      "no_figure": false
+    },
+    {
+      "id": "q05",
+      "status": "generated",
+      "answer": "C",
+      "duplicate_of": null,
+      "error": null,
+      "no_figure": false
+    },
+    {
+      "id": "q06",
+      "status": "generated",
+      "answer": "C",
+      "duplicate_of": null,
+      "error": null,
+      "no_figure": false
+    },
+    {
+      "id": "q07",
+      "status": "generated",
+      "answer": "B",
+      "duplicate_of": null,
+      "error": null,
+      "no_figure": false
+    },
+    {
+      "id": "q08",
+      "status": "generated",
+      "answer": "C",
+      "duplicate_of": null,
+      "error": null,
+      "no_figure": false
+    },
+    {
+      "id": "q09",
+      "status": "generated",
+      "answer": "B",
+      "duplicate_of": null,
+      "error": null,
+      "no_figure": true
+    },
+    {
+      "id": "q10",
+      "status": "generated",
+      "answer": "A",
+      "duplicate_of": null,
+      "error": null,
+      "no_figure": false
+    },
+    {
+      "id": "q11",
+      "status": "generated",
+      "answer": "B",
+      "duplicate_of": null,
+      "error": null,
+      "no_figure": false
+    },
+    {
+      "id": "q12",
+      "status": "generated",
+      "answer": "C",
+      "duplicate_of": null,
+      "error": null,
+      "no_figure": true
+    },
+    {
+      "id": "q13",
+      "status": "generated",
+      "answer": "D",
+      "duplicate_of": null,
+      "error": null,
+      "no_figure": false
+    },
+    {
+      "id": "q14",
+      "status": "generated",
+      "answer": "C",
+      "duplicate_of": null,
+      "error": null,
+      "no_figure": false
+    },
+    {
+      "id": "q15",
+      "status": "generated",
+      "answer": "C",
+      "duplicate_of": null,
+      "error": null,
+      "no_figure": false
+    }
+  ]
+}

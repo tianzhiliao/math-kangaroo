@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="700" viewBox="0 0 980 700">
+<rect width="980" height="700" fill="#FFFFFF"/>
+<rect x="250" y="30" width="52" height="52" rx="4" fill="#ACD0EC" stroke="#222222" stroke-width="4"/>
+<rect x="350" y="30" width="52" height="52" rx="4" fill="#ACD0EC" stroke="#222222" stroke-width="4"/>
+<rect x="450" y="30" width="52" height="52" rx="4" fill="#ACD0EC" stroke="#222222" stroke-width="4"/>
+<rect x="550" y="30" width="52" height="52" rx="4" fill="#ACD0EC" stroke="#222222" stroke-width="4"/>
+<text x="490" y="140" text-anchor="middle" font-family="Liberation Serif" font-size="28" fill="#222222">the four pieces</text>
+<rect x="40" y="190" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<rect x="100" y="190" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<rect x="40" y="250" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<rect x="100" y="250" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<text x="96.0" y="338.0" text-anchor="middle" font-family="Liberation Serif" font-size="32" font-weight="700" fill="#222222">A</text>
+<rect x="240" y="220" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<rect x="300" y="220" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<rect x="360" y="220" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<rect x="420" y="220" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<text x="356.0" y="308.0" text-anchor="middle" font-family="Liberation Serif" font-size="32" font-weight="700" fill="#222222">B</text>
+<rect x="700" y="180" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<rect x="700" y="240" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<rect x="700" y="300" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<rect x="760" y="300" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<text x="756.0" y="388.0" text-anchor="middle" font-family="Liberation Serif" font-size="32" font-weight="700" fill="#222222">C</text>
+<rect x="60" y="450" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<rect x="120" y="450" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<rect x="180" y="450" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<rect x="120" y="510" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<text x="146.0" y="598.0" text-anchor="middle" font-family="Liberation Serif" font-size="32" font-weight="700" fill="#222222">D</text>
+<rect x="580" y="430" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<rect x="520" y="490" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<rect x="580" y="490" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<rect x="640" y="490" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<rect x="580" y="550" width="52" height="52" rx="4" fill="#F6C48A" stroke="#222222" stroke-width="4"/>
+<text x="606.0" y="638.0" text-anchor="middle" font-family="Liberation Serif" font-size="32" font-weight="700" fill="#222222">E</text>
+</svg>

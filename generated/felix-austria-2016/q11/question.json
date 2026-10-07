@@ -1,0 +1,50 @@
+{
+  "id": "q11",
+  "number": 11,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Eva walks from point 1 to point 2 and reads the letters on her right. Which word does she read?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "MATO",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "KATO",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "KBTR",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "MBPR",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "KAT",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q11_stem"
+  ],
+  "assets": [
+    {
+      "id": "q11_stem",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 700,
+      "height": 640
+    }
+  ]
+}

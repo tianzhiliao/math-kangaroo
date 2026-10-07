@@ -1,0 +1,28 @@
+{
+  "id": "q08",
+  "number": 8,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "A room floor is covered with equally big rectangular tiles, as in the picture. The shorter side of the room is 6 m. How long is the room?",
+  "answer": "C",
+  "choices": [
+    {"label": "A", "text": "8 m", "asset_refs": []},
+    {"label": "B", "text": "12 m", "asset_refs": []},
+    {"label": "C", "text": "16 m", "asset_refs": []},
+    {"label": "D", "text": "18 m", "asset_refs": []},
+    {"label": "E", "text": "20 m", "asset_refs": []}
+  ],
+  "shared_asset_refs": ["q08_stem_01"],
+  "assets": [
+    {
+      "id": "q08_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 520,
+      "height": 230
+    }
+  ]
+}

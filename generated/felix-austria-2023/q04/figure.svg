@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+<rect width="1000" height="520" fill="#FFFFFF"/>
+<rect id="piece_square" x="50" y="70" width="110" height="110" fill="#A9CEF0" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<polygon id="piece_roof" points="200,190 320,190 260,70" fill="#F6D56A" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect id="piece_door" x="70" y="250" width="56" height="100" fill="#8FD48A" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<circle id="piece_circle" cx="270" cy="300" r="42" fill="#F09A9A" stroke="#222222" stroke-width="6"/>
+<polygon id="arrow" points="400,210 460,210 460,190 510,230 460,270 460,250 400,250" fill="#C8C8C8" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect id="house_wall" x="620" y="200" width="170" height="150" fill="#A9CEF0" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<polygon id="house_roof" points="600,200 810,200 705,80" fill="#F6D56A" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect id="house_door" x="675" y="260" width="56" height="70" fill="#8FD48A" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<text x="110" y="408" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">A</text>
+<rect id="optA" x="82" y="420" width="56" height="56" fill="#A9CEF0" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<text x="270" y="408" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">B</text>
+<polygon id="optB" points="234,476 306,476 270,420" fill="#F6D56A" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<text x="430" y="408" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">C</text>
+<rect id="optC" x="414" y="420" width="32" height="56" fill="#8FD48A" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<text x="590" y="408" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">D</text>
+<circle id="optD" cx="590" cy="448" r="26" fill="#F09A9A" stroke="#222222" stroke-width="6"/>
+<text x="750" y="408" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">E</text>
+<rect id="optE" x="722" y="420" width="56" height="56" fill="#F09A9A" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+</svg>

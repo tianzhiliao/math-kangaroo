@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="340" viewBox="0 0 1120 340">
+<rect width="1120" height="340" fill="#FFFFFF"/>
+<rect x="30" y="250" width="1060" height="26" fill="#D9C49A" stroke="#222222" stroke-width="4"/>
+<rect x="40" y="130" width="110" height="120" fill="#F4B4C4" stroke="#222222" stroke-width="6"/>
+<polygon points="32,130 95,68 158,130" fill="#E07A5F" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<text x="95" y="200" text-anchor="middle" font-family="Liberation Serif, serif" font-size="36" fill="#222222">A</text>
+<rect x="210" y="130" width="110" height="120" fill="#F8E1A0" stroke="#222222" stroke-width="6"/>
+<polygon points="202,130 265,68 328,130" fill="#E07A5F" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<text x="265" y="200" text-anchor="middle" font-family="Liberation Serif, serif" font-size="36" fill="#222222">B</text>
+<rect x="380" y="130" width="110" height="120" fill="#A9D8B8" stroke="#222222" stroke-width="6"/>
+<polygon points="372,130 435,68 498,130" fill="#E07A5F" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<text x="435" y="200" text-anchor="middle" font-family="Liberation Serif, serif" font-size="36" fill="#222222">C</text>
+<rect x="550" y="130" width="110" height="120" fill="#B9D4F5" stroke="#222222" stroke-width="6"/>
+<polygon points="542,130 605,68 668,130" fill="#E07A5F" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<text x="605" y="200" text-anchor="middle" font-family="Liberation Serif, serif" font-size="36" fill="#222222">D</text>
+<rect x="720" y="130" width="110" height="120" fill="#D7C4EC" stroke="#222222" stroke-width="6"/>
+<polygon points="712,130 775,68 838,130" fill="#E07A5F" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<text x="775" y="200" text-anchor="middle" font-family="Liberation Serif, serif" font-size="36" fill="#222222">E</text>
+<rect x="900" y="70" width="140" height="180" fill="#F6C48A" stroke="#222222" stroke-width="6"/>
+<polygon points="888,70 970,16 1052,70" fill="#C4554A" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<text x="970" y="300" text-anchor="middle" font-family="Liberation Serif, serif" font-size="24" fill="#222222">school</text>
+</svg>

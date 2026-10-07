@@ -1,0 +1,37 @@
+{
+  "id": "q10",
+  "number": 10,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Together Mia and Noah are 11 years old. How old will they be together in three years?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "14",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "15",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "16",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "17",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "18",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

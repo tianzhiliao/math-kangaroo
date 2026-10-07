@@ -1,0 +1,37 @@
+{
+  "id": "q21",
+  "number": 21,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "In a classroom there are two chairs for each table. Each boy in the class sits with a girl at the same table, but there are six girls who do not sit at a table with a boy. There are 12 little tables in the classroom. How many girls are in that class?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "9",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "12",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "15",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "16",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "18",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

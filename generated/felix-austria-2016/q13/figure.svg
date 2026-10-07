@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360">
+<rect width="980" height="360" fill="#FFFFFF"/>
+<rect x="40" y="248" width="900" height="14" rx="7" fill="#D5DDE6" stroke="#222222" stroke-width="4"/>
+<polygon points="72.0,206.0 102.0,184.0 114.0,174.0 140.0,170.0 168.0,154.0 186.0,164.0 208.0,178.0 184.0,184.0 178.0,194.0 166.0,218.0 142.0,226.0 110.0,216.0 98.0,206.0" fill="#F7C6D0" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="172.0" cy="172.0" r="4.5" fill="#222222"/>
+<rect x="135.0" y="220.0" width="6" height="22" rx="2" fill="#222222"/>
+<rect x="155.0" y="220.0" width="6" height="22" rx="2" fill="#222222"/>
+<polygon points="448.0,206.0 418.0,184.0 406.0,174.0 380.0,170.0 352.0,154.0 334.0,164.0 312.0,178.0 336.0,184.0 342.0,194.0 354.0,218.0 378.0,226.0 410.0,216.0 422.0,206.0" fill="#C9E2F8" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="348.0" cy="172.0" r="4.5" fill="#222222"/>
+<rect x="379.0" y="220.0" width="6" height="22" rx="2" fill="#222222"/>
+<rect x="359.0" y="220.0" width="6" height="22" rx="2" fill="#222222"/>
+<polygon points="512.0,206.0 542.0,184.0 554.0,174.0 580.0,170.0 608.0,154.0 626.0,164.0 648.0,178.0 624.0,184.0 618.0,194.0 606.0,218.0 582.0,226.0 550.0,216.0 538.0,206.0" fill="#D5F0D4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="612.0" cy="172.0" r="4.5" fill="#222222"/>
+<rect x="575.0" y="220.0" width="6" height="22" rx="2" fill="#222222"/>
+<rect x="595.0" y="220.0" width="6" height="22" rx="2" fill="#222222"/>
+<polygon points="888.0,206.0 858.0,184.0 846.0,174.0 820.0,170.0 792.0,154.0 774.0,164.0 752.0,178.0 776.0,184.0 782.0,194.0 794.0,218.0 818.0,226.0 850.0,216.0 862.0,206.0" fill="#FDE8B8" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="788.0" cy="172.0" r="4.5" fill="#222222"/>
+<rect x="819.0" y="220.0" width="6" height="22" rx="2" fill="#222222"/>
+<rect x="799.0" y="220.0" width="6" height="22" rx="2" fill="#222222"/>
+</svg>

@@ -1,0 +1,110 @@
+{
+  "id": "q02",
+  "number": 2,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "Leo has 5 pieces of plastic and has stacked these pieces on a table, as shown. What was the second piece he put on the table?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": [
+        "q02_option_A_01"
+      ]
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": [
+        "q02_option_B_01"
+      ]
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": [
+        "q02_option_C_01"
+      ]
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": [
+        "q02_option_D_01"
+      ]
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": [
+        "q02_option_E_01"
+      ]
+    }
+  ],
+  "shared_asset_refs": [
+    "q02_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q02_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 420,
+      "height": 500
+    },
+    {
+      "id": "q02_option_A_01",
+      "path": "choice-a.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 220,
+      "height": 180
+    },
+    {
+      "id": "q02_option_B_01",
+      "path": "choice-b.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 220,
+      "height": 180
+    },
+    {
+      "id": "q02_option_C_01",
+      "path": "choice-c.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 220,
+      "height": 180
+    },
+    {
+      "id": "q02_option_D_01",
+      "path": "choice-d.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 220,
+      "height": 180
+    },
+    {
+      "id": "q02_option_E_01",
+      "path": "choice-e.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 220,
+      "height": 180
+    }
+  ]
+}

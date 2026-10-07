@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="392" height="310" viewBox="0 0 392 310">
+<rect width="392" height="310" fill="#FFFFFF"/>
+<rect id="cube_0" x="40" y="36" width="78" height="78" fill="#F0C040" stroke="#222222" stroke-width="6"/>
+<rect id="cube_1" x="118" y="36" width="78" height="78" fill="#F0C040" stroke="#222222" stroke-width="6"/>
+<rect id="cube_2" x="196" y="36" width="78" height="78" fill="#F0C040" stroke="#222222" stroke-width="6"/>
+<rect id="cube_3" x="40" y="114" width="78" height="78" fill="#F0C040" stroke="#222222" stroke-width="6"/>
+<rect id="cube_4" x="118" y="114" width="78" height="78" fill="#F0C040" stroke="#222222" stroke-width="6"/>
+<rect id="cube_5" x="40" y="192" width="78" height="78" fill="#F0C040" stroke="#222222" stroke-width="6"/>
+<rect id="cube_6" x="118" y="192" width="78" height="78" fill="#F0C040" stroke="#222222" stroke-width="6"/>
+<rect id="cube_7" x="196" y="192" width="78" height="78" fill="#F0C040" stroke="#222222" stroke-width="6"/>
+<rect id="cube_8" x="274" y="192" width="78" height="78" fill="#F0C040" stroke="#222222" stroke-width="6"/>
+</svg>

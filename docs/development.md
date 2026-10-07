@@ -50,6 +50,7 @@ Important variables:
 - `OPENAI_API_KEY`: required for AI explanation and TTS
 - `FASTAPI_BASE_URL`: used by the Next.js proxy routes; defaults to `http://127.0.0.1:8000`
 - `RELEASE_DATA_PATH`: optional override for runtime data location
+- `GENERATED_QUESTIONS_PATH`: optional override for generated similar questions; defaults to `generated/`
 - `API_CACHE_DIR`: optional override for FastAPI cache files
 - `OPENAI_TTS_MODEL`
 - `OPENAI_TTS_VOICE`

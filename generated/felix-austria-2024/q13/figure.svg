@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="480" viewBox="0 0 980 480">
+<rect width="980" height="480" fill="#FFFFFF"/>
+<rect x="40" y="400" width="900" height="6" fill="#222222"/>
+<rect x="90" y="288" width="78" height="112" fill="#F7C6CE" stroke="#222222" stroke-width="4"/>
+<rect x="90" y="232" width="78" height="56" fill="#F8E7A8" stroke="#222222" stroke-width="4"/>
+<rect x="184" y="232" width="4" height="168" fill="#222222"/>
+<rect x="178" y="232" width="16" height="4" fill="#222222"/>
+<rect x="178" y="396" width="16" height="4" fill="#222222"/>
+<text x="206" y="316.0" dominant-baseline="central" font-family="Noto Sans" font-size="32" font-weight="700" fill="#222222">6</text>
+<rect x="310" y="316" width="78" height="84" fill="#B9D7F5" stroke="#222222" stroke-width="4"/>
+<rect x="310" y="232" width="78" height="84" fill="#B9D7F5" stroke="#222222" stroke-width="4"/>
+<rect x="310" y="176" width="78" height="56" fill="#F8E7A8" stroke="#222222" stroke-width="4"/>
+<rect x="404" y="176" width="4" height="224" fill="#222222"/>
+<rect x="398" y="176" width="16" height="4" fill="#222222"/>
+<rect x="398" y="396" width="16" height="4" fill="#222222"/>
+<text x="426" y="288.0" dominant-baseline="central" font-family="Noto Sans" font-size="32" font-weight="700" fill="#222222">8</text>
+<rect x="530" y="288" width="78" height="112" fill="#F7C6CE" stroke="#222222" stroke-width="4"/>
+<rect x="530" y="204" width="78" height="84" fill="#B9D7F5" stroke="#222222" stroke-width="4"/>
+<rect x="624" y="204" width="4" height="196" fill="#222222"/>
+<rect x="618" y="204" width="16" height="4" fill="#222222"/>
+<rect x="618" y="396" width="16" height="4" fill="#222222"/>
+<text x="646" y="302.0" dominant-baseline="central" font-family="Noto Sans" font-size="32" font-weight="700" fill="#222222">7</text>
+<rect x="760" y="288" width="78" height="112" fill="#F7C6CE" stroke="#222222" stroke-width="4"/>
+<rect x="760" y="204" width="78" height="84" fill="#B9D7F5" stroke="#222222" stroke-width="4"/>
+<rect x="760" y="148" width="78" height="56" fill="#F8E7A8" stroke="#222222" stroke-width="4"/>
+<rect x="854" y="148" width="4" height="252" fill="#222222"/>
+<rect x="848" y="148" width="16" height="4" fill="#222222"/>
+<rect x="848" y="396" width="16" height="4" fill="#222222"/>
+<text x="876" y="274.0" dominant-baseline="central" font-family="Noto Sans" font-size="32" font-weight="700" fill="#222222">?</text>
+</svg>

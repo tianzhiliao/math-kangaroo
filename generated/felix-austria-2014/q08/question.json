@@ -1,0 +1,50 @@
+{
+  "id": "q08",
+  "number": 8,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "When the ant walks from home 2 steps right and 2 steps up, he gets to the bee. Which animal does the ant get to when he walks from home along these steps: 1 right, 1 up, 3 right, 2 up, 1 right?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "bee",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "frog",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "mouse",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "bird",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "ladybird",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q08_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q08_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 808,
+      "height": 568
+    }
+  ]
+}

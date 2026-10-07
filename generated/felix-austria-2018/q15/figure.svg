@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#FFFFFF"/>
+<circle cx="450.0" cy="232.0" r="8.0" fill="#8A8F98"/>
+<circle cx="450.0" cy="132.0" r="8.0" fill="#8A8F98"/>
+<polygon points="458.0,232.0 458.0,132.0 442.0,132.0 442.0,232.0" fill="#8A8F98" stroke="#8A8F98" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="434.1" cy="258.4" r="8.0" fill="#8A8F98"/>
+<circle cx="177.7" cy="394.7" r="8.0" fill="#8A8F98"/>
+<polygon points="430.4,251.4 173.9,387.6 181.4,401.7 437.9,265.5" fill="#8A8F98" stroke="#8A8F98" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="465.9" cy="258.4" r="8.0" fill="#8A8F98"/>
+<circle cx="722.3" cy="394.7" r="8.0" fill="#8A8F98"/>
+<polygon points="462.1,265.5 718.6,401.7 726.1,387.6 469.6,251.4" fill="#8A8F98" stroke="#8A8F98" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="450" cy="250" r="16" fill="#F7E7A3" stroke="#222222" stroke-width="4"/>
+<rect x="94" y="410" width="72" height="52" rx="3" fill="#8ECAE6" stroke="#222222" stroke-width="4"/>
+<polygon points="84,414 130,372 176,414" fill="#E07A5F" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="130" y="488" text-anchor="middle" font-family="Liberation Serif" font-size="28" fill="#222222">Ben</text>
+<rect x="734" y="410" width="72" height="52" rx="3" fill="#A8D5A2" stroke="#222222" stroke-width="4"/>
+<polygon points="724,414 770,372 816,414" fill="#6B4C7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="770" y="488" text-anchor="middle" font-family="Liberation Serif" font-size="28" fill="#222222">Leo</text>
+<rect x="414" y="68" width="72" height="52" rx="3" fill="#F6D58A" stroke="#222222" stroke-width="4"/>
+<polygon points="404,72 450,30 496,72" fill="#C44536" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="450" y="146" text-anchor="middle" font-family="Liberation Serif" font-size="28" fill="#222222">Sara</text>
+<text x="488" y="168" font-family="Liberation Serif" font-size="28" fill="#222222">6 km</text>
+</svg>

@@ -1,0 +1,50 @@
+{
+  "id": "q16",
+  "number": 16,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "The picture shows two cogs at the top. The smaller cog has 6 teeth and the larger cog has 12 teeth. Each cog has one black tooth, and both black teeth start at the top. The cogs turn together. Where are the black teeth after the smaller cog has made one full turn?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q16_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q16_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1500,
+      "height": 860
+    }
+  ]
+}

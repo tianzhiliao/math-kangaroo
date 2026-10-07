@@ -1,0 +1,28 @@
+{
+  "id": "q10",
+  "number": 10,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Which of the figures can be cut into these 3 pieces?",
+  "answer": "D",
+  "choices": [
+    {"label": "A", "text": "parallelogram", "asset_refs": []},
+    {"label": "B", "text": "pentagon", "asset_refs": []},
+    {"label": "C", "text": "circle", "asset_refs": []},
+    {"label": "D", "text": "rectangle", "asset_refs": []},
+    {"label": "E", "text": "triangle", "asset_refs": []}
+  ],
+  "shared_asset_refs": ["q10_stem_01"],
+  "assets": [
+    {
+      "id": "q10_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 980,
+      "height": 360
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520">
+<rect width="980" height="420" fill="#FFFFFF"/>
+<circle cx="100" cy="64" r="28" fill="#F0C000" stroke="#222222" stroke-width="4"/>
+<rect x="224.0" y="38.0" width="52" height="52" fill="#7EB6E8" stroke="#222222" stroke-width="4"/>
+<polygon points="400.0,37.5 372.0,85.7 428.0,85.7" fill="#F09090" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<rect x="524.0" y="38.0" width="52" height="52" fill="#7EB6E8" stroke="#222222" stroke-width="4"/>
+<polygon points="700.0,35.0 706.6,55.0 727.6,55.0 710.6,67.4 717.0,87.5 700.0,75.2 683.0,87.5 689.4,67.4 672.4,55.0 693.4,55.0" fill="#C080E0" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="70" cy="190" r="28" fill="#F0C000" stroke="#222222" stroke-width="4"/>
+<text x="130" y="202" font-family="Noto Serif, serif" font-size="40" fill="#222222">+</text>
+<circle cx="200" cy="190" r="28" fill="#F0C000" stroke="#222222" stroke-width="4"/>
+<text x="270" y="202" font-family="Noto Serif, serif" font-size="40" fill="#222222">=</text>
+<rect x="324.0" y="164.0" width="52" height="52" fill="#7EB6E8" stroke="#222222" stroke-width="4"/>
+<polygon points="70.0,293.5 42.0,341.7 98.0,341.7" fill="#F09090" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="130" y="332" font-family="Noto Serif, serif" font-size="40" fill="#222222">+</text>
+<polygon points="200.0,293.5 172.0,341.7 228.0,341.7" fill="#F09090" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="270" y="332" font-family="Noto Serif, serif" font-size="40" fill="#222222">+</text>
+<polygon points="340.0,293.5 312.0,341.7 368.0,341.7" fill="#F09090" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="420" y="332" font-family="Noto Serif, serif" font-size="40" fill="#222222">=</text>
+<circle cx="500" cy="320" r="28" fill="#F0C000" stroke="#222222" stroke-width="4"/>
+<polygon points="70.0,421.0 76.6,441.0 97.6,441.0 80.6,453.4 87.0,473.5 70.0,461.2 53.0,473.5 59.4,453.4 42.4,441.0 63.4,441.0" fill="#C080E0" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="140" y="462" font-family="Noto Serif, serif" font-size="40" fill="#222222">+</text>
+<polygon points="220.0,423.5 192.0,471.7 248.0,471.7" fill="#F09090" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="290" y="462" font-family="Noto Serif, serif" font-size="40" fill="#222222">+</text>
+<polygon points="370.0,423.5 342.0,471.7 398.0,471.7" fill="#F09090" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="450" y="462" font-family="Noto Serif, serif" font-size="40" fill="#222222">=</text>
+<rect x="514.0" y="424.0" width="52" height="52" fill="#7EB6E8" stroke="#222222" stroke-width="4"/>
+</svg>

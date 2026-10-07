@@ -1,0 +1,50 @@
+{
+  "id": "q03",
+  "number": 3,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "Mia cuts the picture into two halves with one straight cut down the middle. She then puts the two pieces together to make a new picture. Which picture can she make?",
+  "answer": "A",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q03_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q03_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1280,
+      "height": 640
+    }
+  ]
+}

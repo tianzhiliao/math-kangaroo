@@ -1,0 +1,50 @@
+{
+  "id": "q04",
+  "number": 4,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "Nora builds a square from 25 small grey tiles. She then takes some tiles away, as shown. How many small tiles did she take away?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "5",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "7",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "9",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q04_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q04_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 640,
+      "height": 640
+    }
+  ]
+}

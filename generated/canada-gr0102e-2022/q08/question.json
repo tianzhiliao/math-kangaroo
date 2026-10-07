@@ -1,0 +1,50 @@
+{
+  "id": "q08",
+  "number": 8,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "The rabbit wants to reach the bird. She can step up, down, left, or right, but not onto a blue square, and she must stay on the grid. Which path can she take?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q08_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q08_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 564,
+      "height": 882
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "q04",
+  "number": 4,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "A clown pulls shapes out of a box in the same order every time. The pattern repeats every 5 shapes. Which two shapes does he pull out next?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q04_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q04_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1200,
+      "height": 360
+    }
+  ]
+}

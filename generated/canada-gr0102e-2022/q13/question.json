@@ -1,0 +1,50 @@
+{
+  "id": "q13",
+  "number": 13,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "The five numbers in each house add up to 18. What number is hidden under the question mark?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "2",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "5",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "9",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q13_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q13_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 760,
+      "height": 360
+    }
+  ]
+}

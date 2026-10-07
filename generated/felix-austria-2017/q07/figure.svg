@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="720" viewBox="0 0 1680 720">
+<rect width="1680" height="720" fill="#FFFFFF"/>
+<rect x="80.0" y="70.0" width="150.0" height="150.0" fill="#FFF4D2" stroke="#222222" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="194.0" cy="145.0" r="16.0" fill="#F04B6A" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="155.0" y="270.0" fill="#222222" font-family="Noto Serif" font-size="40" font-weight="700" text-anchor="middle">1</text>
+<rect x="310.0" y="70.0" width="150.0" height="150.0" fill="#FFF4D2" stroke="#222222" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="385.0" cy="184.0" r="16.0" fill="#F04B6A" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="385.0" y="270.0" fill="#222222" font-family="Noto Serif" font-size="40" font-weight="700" text-anchor="middle">2</text>
+<rect x="540.0" y="70.0" width="150.0" height="150.0" fill="#FFF4D2" stroke="#222222" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="576.0" cy="145.0" r="16.0" fill="#F04B6A" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="615.0" y="270.0" fill="#222222" font-family="Noto Serif" font-size="40" font-weight="700" text-anchor="middle">3</text>
+<rect x="70.0" y="340.0" width="150.0" height="150.0" fill="#FFF4D2" stroke="#222222" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="145.0" cy="376.0" r="16.0" fill="#F04B6A" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="145.0" y="540.0" fill="#222222" font-family="Noto Serif" font-size="44" font-weight="700" text-anchor="middle">A</text>
+<rect x="390.0" y="340.0" width="150.0" height="150.0" fill="#FFF4D2" stroke="#222222" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="504.0" cy="415.0" r="16.0" fill="#F04B6A" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="465.0" y="540.0" fill="#222222" font-family="Noto Serif" font-size="44" font-weight="700" text-anchor="middle">B</text>
+<rect x="710.0" y="340.0" width="150.0" height="150.0" fill="#FFF4D2" stroke="#222222" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="746.0" cy="415.0" r="16.0" fill="#F04B6A" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="785.0" y="540.0" fill="#222222" font-family="Noto Serif" font-size="44" font-weight="700" text-anchor="middle">C</text>
+<rect x="1030.0" y="340.0" width="150.0" height="150.0" fill="#FFF4D2" stroke="#222222" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1105.0" cy="454.0" r="16.0" fill="#F04B6A" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1105.0" y="540.0" fill="#222222" font-family="Noto Serif" font-size="44" font-weight="700" text-anchor="middle">D</text>
+<rect x="1350.0" y="340.0" width="150.0" height="150.0" fill="#FFF4D2" stroke="#222222" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1386.0" cy="376.0" r="16.0" fill="#F04B6A" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1425.0" y="540.0" fill="#222222" font-family="Noto Serif" font-size="44" font-weight="700" text-anchor="middle">E</text>
+</svg>

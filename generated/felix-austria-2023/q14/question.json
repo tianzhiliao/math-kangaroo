@@ -1,0 +1,50 @@
+{
+  "id": "q14",
+  "number": 14,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Nora has a total of 20 apples in 3 baskets. She takes the same number of apples from each basket. Then there are 2, 4 and 5 apples in the baskets. How many apples did Nora take from each basket?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "1",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "2",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "3",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "5",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q14_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q14_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 900,
+      "height": 340
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "q21",
+  "number": 21,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "4 girls and 3 boys were dancing. They danced in pairs so that each girl danced with each boy for exactly 1 minute. At any time, there was only one pair on the dance floor. For how many minutes did they dance?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "7",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "9",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "12",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "14",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "21",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

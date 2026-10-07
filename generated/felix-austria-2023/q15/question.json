@@ -1,0 +1,37 @@
+{
+  "id": "q15",
+  "number": 15,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Three owls live in a barn. Each night only one owl hoots. After 10 nights the first owl has hooted 4 times. The second owl has listened to 7 hoots. How many hoots did the third owl listen to?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "7",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "5",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "4",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "q23",
+  "number": 23,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "In the figure, an arrow pointing from one person to another means that the first person is shorter than the second. For example, person P is shorter than person Q. Which person is the tallest?",
+  "answer": "E",
+  "choices": [
+    {
+      "label": "A",
+      "text": "Person P",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "Person Q",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "Person R",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "Person S",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "Person T",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q23_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q23_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 520,
+      "height": 400
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "q18",
+  "number": 18,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Nina has a square piece of paper with four digits on it. First she folds the right half over the left half. Then she folds the bottom half over the top half. In which layer is the digit 2, counting from the top?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "the top layer",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "the 2nd layer",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "the 3rd layer",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "the bottom layer",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "it is folded outside",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q18_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q18_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 560,
+      "height": 430
+    }
+  ]
+}

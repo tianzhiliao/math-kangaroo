@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="320" viewBox="0 0 1500 320">
+  <rect width="1500" height="320" fill="#FFFFFF"/>
+  <g font-family="Liberation Serif" fill="#222222">
+    <g transform="translate(30,24)">
+      <path d="M40,92 C22,58 62,30 96,48 C108,16 164,12 186,46 C220,22 268,48 252,88 C286,108 262,162 214,152 C194,184 118,186 90,158 C42,176 8,138 40,92 Z" fill="#F6C9D4" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+      <text x="108" y="108" font-size="36" text-anchor="middle">3</text>
+      <text x="168" y="88" font-size="36" text-anchor="middle">9</text>
+      <text x="200" y="132" font-size="36" text-anchor="middle">4</text>
+      <text x="146" y="230" font-size="32" text-anchor="middle">A</text>
+    </g>
+    <g transform="translate(320,24)">
+      <path d="M48,100 C18,70 48,28 92,42 C100,8 168,6 190,40 C232,16 280,52 258,96 C296,116 270,176 210,160 C188,198 100,190 78,158 C28,178 4,140 48,100 Z" fill="#B7E2D2" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+      <text x="100" y="96" font-size="34" text-anchor="middle">1</text>
+      <text x="158" y="78" font-size="34" text-anchor="middle">6</text>
+      <text x="196" y="118" font-size="34" text-anchor="middle">2</text>
+      <text x="130" y="140" font-size="34" text-anchor="middle">5</text>
+      <text x="150" y="230" font-size="32" text-anchor="middle">B</text>
+    </g>
+    <g transform="translate(610,24)">
+      <path d="M36,88 C16,52 64,24 100,46 C112,12 176,14 194,48 C234,26 276,58 256,98 C290,120 258,170 206,156 C184,188 104,184 80,154 C34,170 6,132 36,88 Z" fill="#F8E3A8" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+      <text x="108" y="100" font-size="36" text-anchor="middle">7</text>
+      <text x="172" y="92" font-size="36" text-anchor="middle">8</text>
+      <text x="140" y="142" font-size="36" text-anchor="middle">1</text>
+      <text x="146" y="230" font-size="32" text-anchor="middle">C</text>
+    </g>
+    <g transform="translate(890,24)">
+      <path d="M44,96 C20,60 66,26 104,46 C116,10 178,10 200,44 C240,20 284,54 264,96 C300,118 268,172 214,158 C190,194 108,188 82,156 C36,176 8,136 44,96 Z" fill="#C9D7F5" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+      <text x="110" y="100" font-size="36" text-anchor="middle">4</text>
+      <text x="178" y="92" font-size="36" text-anchor="middle">10</text>
+      <text x="142" y="144" font-size="36" text-anchor="middle">2</text>
+      <text x="150" y="230" font-size="32" text-anchor="middle">D</text>
+    </g>
+    <g transform="translate(1180,24)">
+      <path d="M38,90 C14,54 60,24 98,46 C110,12 170,10 194,46 C232,22 278,56 256,96 C292,118 260,170 208,156 C186,190 106,186 80,154 C32,172 4,132 38,90 Z" fill="#E6C8F2" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+      <text x="108" y="98" font-size="36" text-anchor="middle">6</text>
+      <text x="172" y="94" font-size="36" text-anchor="middle">5</text>
+      <text x="140" y="142" font-size="36" text-anchor="middle">9</text>
+      <text x="146" y="230" font-size="32" text-anchor="middle">E</text>
+    </g>
+  </g>
+</svg>

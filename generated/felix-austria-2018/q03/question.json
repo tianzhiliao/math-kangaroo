@@ -1,0 +1,50 @@
+{
+  "id": "q03",
+  "number": 3,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "Which beetle has to fly away so that the remaining beetles have 16 dots altogether?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "Beetle with 3 dots",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "Beetle with 6 dots",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "Beetle with 8 dots",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "Beetle with 5 dots",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "no beetle",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q03_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q03_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1340,
+      "height": 360
+    }
+  ]
+}

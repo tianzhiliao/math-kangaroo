@@ -1,0 +1,50 @@
+{
+  "id": "q17",
+  "number": 17,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Mara built the square on the left by using 4 of the 5 shapes on the right. Which shape was not used?",
+  "answer": "E",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q17_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q17_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 980,
+      "height": 420
+    }
+  ]
+}

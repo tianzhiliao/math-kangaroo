@@ -1,5 +1,6 @@
 "use client";
 
+import { GeneratedQuestionSection } from "@/components/question/GeneratedQuestionSection";
 import { QuestionCard } from "@/components/question/QuestionCard";
 import type { Exam } from "@/lib/types";
 import { useCallback, useState } from "react";
@@ -107,6 +108,10 @@ export function PracticeRun({ exam }: { exam: Exam }) {
             disabled={revealed}
             showOutcome={showOutcome}
             correctLabel={correctLabel}
+          />
+          <GeneratedQuestionSection
+            examId={exam.exam_id}
+            questionId={question.id}
           />
           {revealed ? (
             <p

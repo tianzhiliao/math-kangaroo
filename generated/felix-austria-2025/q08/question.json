@@ -1,0 +1,50 @@
+{
+  "id": "q08",
+  "number": 8,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "A goat has 2 kids that both weigh the same. Picture 1 shows that the goat and one kid together weigh 16 kilograms. Picture 2 shows that the goat and both kids together weigh 21 kilograms. How many kilograms does the goat weigh?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "9",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "10",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "11",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "12",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "13",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q08_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q08_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1460,
+      "height": 500
+    }
+  ]
+}

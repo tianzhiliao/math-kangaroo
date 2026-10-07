@@ -1,0 +1,50 @@
+{
+  "id": "q06",
+  "number": 6,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "A sheet of paper has 20 squares. Some blue ink spilled, as shown. How many of the squares have ink on them?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "11",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "12",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "13",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "14",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "15",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q06_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q06_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 462,
+      "height": 384
+    }
+  ]
+}

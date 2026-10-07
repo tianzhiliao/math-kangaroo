@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+<rect width="760" height="460" fill="#FFFFFF"/>
+<rect x="70" y="36" width="150" height="170" rx="16" fill="#F7C6CE" stroke="#222222" stroke-width="5"/>
+<text x="145" y="126" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="64" font-weight="700" fill="#222222">1</text>
+<rect x="290" y="36" width="150" height="170" rx="16" fill="#B9D7F5" stroke="#222222" stroke-width="5"/>
+<text x="365" y="126" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="64" font-weight="700" fill="#222222">7</text>
+<rect x="510" y="36" width="150" height="170" rx="16" fill="#F8E7A8" stroke="#222222" stroke-width="5"/>
+<text x="585" y="126" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="64" font-weight="700" fill="#222222">4</text>
+<rect x="180" y="230" width="150" height="170" rx="16" fill="#C6E8C4" stroke="#222222" stroke-width="5"/>
+<text x="255" y="320" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="64" font-weight="700" fill="#222222">8</text>
+<rect x="400" y="230" width="150" height="170" rx="16" fill="#E4C6F2" stroke="#222222" stroke-width="5"/>
+<text x="475" y="320" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="64" font-weight="700" fill="#222222">3</text>
+</svg>

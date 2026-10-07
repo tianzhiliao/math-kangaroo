@@ -1,0 +1,50 @@
+{
+  "id": "q10",
+  "number": 10,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Sam picks 2 of these numbers and adds them. How many different sums can he get?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "7",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "9",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "10",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q10_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q10_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 760,
+      "height": 460
+    }
+  ]
+}

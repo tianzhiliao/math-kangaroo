@@ -1,0 +1,50 @@
+{
+  "id": "q10",
+  "number": 10,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "A number is written on each petal of two flowers. One petal is hidden. The sums of the numbers on the two flowers are equal. What number is written on the hidden petal?",
+  "answer": "E",
+  "choices": [
+    {
+      "label": "A",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "5",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "9",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "6",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q10_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q10_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 980,
+      "height": 420
+    }
+  ]
+}

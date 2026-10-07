@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="390" viewBox="0 0 1360 390">
+<rect width="1360" height="390" fill="#FFFFFF"/>
+<circle cx="140" cy="150" r="78" fill="#F0C88C" stroke="#222222" stroke-width="6"/>
+<rect x="92" y="108" width="96" height="12" rx="3" fill="#F07814"/>
+<rect x="92" y="132" width="96" height="12" rx="3" fill="#F07814"/>
+<rect x="92" y="156" width="96" height="12" rx="3" fill="#F07814"/>
+<rect x="92" y="180" width="96" height="12" rx="3" fill="#F07814"/>
+<text x="140" y="320" text-anchor="middle" font-family="Noto Serif" font-size="34" fill="#222222">1</text>
+<rect x="312" y="80" width="156" height="140" rx="8" fill="#F0C88C" stroke="#222222" stroke-width="6"/>
+<rect x="338" y="104" width="104" height="12" rx="3" fill="#F07814"/>
+<rect x="338" y="130" width="104" height="12" rx="3" fill="#F07814"/>
+<rect x="338" y="156" width="104" height="12" rx="3" fill="#F07814"/>
+<rect x="338" y="182" width="104" height="12" rx="3" fill="#F07814"/>
+<text x="390" y="320" text-anchor="middle" font-family="Noto Serif" font-size="34" fill="#222222">2</text>
+<circle cx="640" cy="150" r="78" fill="#F0C88C" stroke="#222222" stroke-width="6"/>
+<rect x="592" y="108" width="96" height="12" rx="3" fill="#F07814"/>
+<rect x="592" y="132" width="96" height="12" rx="3" fill="#F07814"/>
+<rect x="592" y="156" width="96" height="12" rx="3" fill="#F07814"/>
+<rect x="592" y="180" width="96" height="12" rx="3" fill="#F07814"/>
+<text x="640" y="320" text-anchor="middle" font-family="Noto Serif" font-size="34" fill="#222222">3</text>
+<circle cx="890" cy="150" r="78" fill="#F0C88C" stroke="#222222" stroke-width="6"/>
+<circle cx="862" cy="126" r="9" fill="#3030A0"/>
+<circle cx="862" cy="166" r="9" fill="#3030A0"/>
+<circle cx="890" cy="126" r="9" fill="#3030A0"/>
+<circle cx="890" cy="166" r="9" fill="#3030A0"/>
+<circle cx="918" cy="126" r="9" fill="#3030A0"/>
+<circle cx="918" cy="166" r="9" fill="#3030A0"/>
+<text x="890" y="320" text-anchor="middle" font-family="Noto Serif" font-size="34" fill="#222222">4</text>
+<rect x="1062" y="80" width="156" height="140" rx="8" fill="#F0C88C" stroke="#222222" stroke-width="6"/>
+<circle cx="1100" cy="120" r="9" fill="#3030A0"/>
+<circle cx="1100" cy="160" r="9" fill="#3030A0"/>
+<circle cx="1140" cy="120" r="9" fill="#3030A0"/>
+<circle cx="1140" cy="160" r="9" fill="#3030A0"/>
+<circle cx="1180" cy="120" r="9" fill="#3030A0"/>
+<circle cx="1180" cy="160" r="9" fill="#3030A0"/>
+<text x="1140" y="320" text-anchor="middle" font-family="Noto Serif" font-size="34" fill="#222222">5</text>
+</svg>

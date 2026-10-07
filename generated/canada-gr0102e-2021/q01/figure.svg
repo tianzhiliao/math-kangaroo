@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" fill="#FFFFFF"/>
+<rect x="267.0" y="36.0" width="150.0" height="36.0" rx="8" ry="8" fill="#F4B4B4" stroke="#222222" stroke-width="8" stroke-linejoin="round"/>
+<rect x="439.0" y="36.0" width="150.0" height="36.0" rx="8" ry="8" fill="#F8D98A" stroke="#222222" stroke-width="8" stroke-linejoin="round"/>
+<rect x="611.0" y="36.0" width="150.0" height="36.0" rx="8" ry="8" fill="#A8DDB8" stroke="#222222" stroke-width="8" stroke-linejoin="round"/>
+<rect x="783.0" y="36.0" width="150.0" height="36.0" rx="8" ry="8" fill="#A7C7F2" stroke="#222222" stroke-width="8" stroke-linejoin="round"/>
+<polygon points="140.0,265.0 65.0,395.0 215.0,395.0" fill="#F7C1D9" stroke="#222222" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="140.0" y="575" text-anchor="middle" font-family="Noto Serif" font-size="42" fill="#222222">A</text>
+<polygon points="370.0,242.0 453.7,302.8 421.7,401.2 318.3,401.2 286.3,302.8" fill="#C9B6E4" stroke="#222222" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="370.0" y="575" text-anchor="middle" font-family="Noto Serif" font-size="42" fill="#222222">B</text>
+<polygon points="525.0,255.0 675.0,255.0 675.0,405.0 525.0,405.0" fill="#9FD9C2" stroke="#222222" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="600.0" y="575" text-anchor="middle" font-family="Noto Serif" font-size="42" fill="#222222">C</text>
+<polygon points="830.0,242.0 906.2,286.0 906.2,374.0 830.0,418.0 753.8,374.0 753.8,286.0" fill="#F6C98B" stroke="#222222" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830.0" y="575" text-anchor="middle" font-family="Noto Serif" font-size="42" fill="#222222">D</text>
+<polygon points="955.0,282.0 1165.0,282.0 1165.0,378.0 955.0,378.0" fill="#F3B7A3" stroke="#222222" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1060.0" y="575" text-anchor="middle" font-family="Noto Serif" font-size="42" fill="#222222">E</text>
+</svg>

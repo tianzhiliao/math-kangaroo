@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="462" height="384" viewBox="0 0 462 384">
+<rect width="462" height="384" fill="#FFFFFF"/>
+<polygon points="120.2,42.2 419.8,42.2 419.8,185.8 341.8,185.8 341.8,263.8 263.8,263.8 263.8,315.2 120.2,315.2" fill="#5090D0" stroke="#005090" stroke-width="5" stroke-linejoin="round"/>
+<rect x="33.5" y="36" width="5" height="312" fill="#222222"/>
+<rect x="111.5" y="36" width="5" height="312" fill="#222222"/>
+<rect x="189.5" y="36" width="5" height="312" fill="#222222"/>
+<rect x="267.5" y="36" width="5" height="312" fill="#222222"/>
+<rect x="345.5" y="36" width="5" height="312" fill="#222222"/>
+<rect x="423.5" y="36" width="5" height="312" fill="#222222"/>
+<rect x="36" y="33.5" width="390" height="5" fill="#222222"/>
+<rect x="36" y="111.5" width="390" height="5" fill="#222222"/>
+<rect x="36" y="189.5" width="390" height="5" fill="#222222"/>
+<rect x="36" y="267.5" width="390" height="5" fill="#222222"/>
+<rect x="36" y="345.5" width="390" height="5" fill="#222222"/>
+</svg>

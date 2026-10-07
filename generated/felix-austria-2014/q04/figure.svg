@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<rect width="512" height="512" fill="#FFFFFF"/>
+<rect x="26" y="26" width="460" height="460" fill="#E7EEF5" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="40" y="40" width="96" height="96" fill="#B4B4B4" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="152" y="40" width="96" height="96" fill="#B4B4B4" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="264" y="40" width="96" height="96" fill="#FFFFFF" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="376" y="40" width="96" height="96" fill="#B4B4B4" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="40" y="152" width="96" height="96" fill="#B4B4B4" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="152" y="152" width="96" height="96" fill="#FFFFFF" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="264" y="152" width="96" height="96" fill="#B4B4B4" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="376" y="152" width="96" height="96" fill="#B4B4B4" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="40" y="264" width="96" height="96" fill="#FFFFFF" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="152" y="264" width="96" height="96" fill="#B4B4B4" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="264" y="264" width="96" height="96" fill="#B4B4B4" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="376" y="264" width="96" height="96" fill="#B4B4B4" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="40" y="376" width="96" height="96" fill="#B4B4B4" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="152" y="376" width="96" height="96" fill="#B4B4B4" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="264" y="376" width="96" height="96" fill="#FFFFFF" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="376" y="376" width="96" height="96" fill="#FFFFFF" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+</svg>

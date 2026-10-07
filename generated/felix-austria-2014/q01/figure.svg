@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500">
+<rect width="1500" height="500" fill="#FFFFFF"/>
+<ellipse cx="110.0" cy="232.1" rx="26.0" ry="14.0" fill="#2E9A12" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="190.0" cy="288.1" rx="26.0" ry="14.0" fill="#2E9A12" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="110.0" cy="344.1" rx="26.0" ry="14.0" fill="#2E9A12" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="150.0" cy="78.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="199.5" cy="113.9" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="180.6" cy="172.1" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="119.4" cy="172.1" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="100.5" cy="113.9" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="142.0" y="204.1" width="16.0" height="168.0" rx="3" fill="#1B7A12" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="150.0" cy="130.0" r="36.0" fill="#F0E000" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="150.0" y="414.1" text-anchor="middle" font-family="Liberation Serif" font-size="40" font-weight="700" fill="#222222">A</text>
+<ellipse cx="400.0" cy="230.0" rx="26.0" ry="14.0" fill="#2E9A12" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="480.0" cy="300.0" rx="26.0" ry="14.0" fill="#2E9A12" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="440.0" cy="78.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="485.0" cy="156.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="395.0" cy="156.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="432.0" y="188.0" width="16.0" height="168.0" rx="3" fill="#1B7A12" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="440.0" cy="130.0" r="36.0" fill="#F0E000" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="440.0" y="398.0" text-anchor="middle" font-family="Liberation Serif" font-size="40" font-weight="700" fill="#222222">B</text>
+<ellipse cx="690.0" cy="256.0" rx="26.0" ry="14.0" fill="#2E9A12" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="770.0" cy="326.0" rx="26.0" ry="14.0" fill="#2E9A12" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="730.0" cy="78.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="782.0" cy="130.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="730.0" cy="182.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="678.0" cy="130.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="722.0" y="214.0" width="16.0" height="168.0" rx="3" fill="#1B7A12" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="730.0" cy="130.0" r="36.0" fill="#F0E000" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="730.0" y="424.0" text-anchor="middle" font-family="Liberation Serif" font-size="40" font-weight="700" fill="#222222">C</text>
+<ellipse cx="1060.0" cy="292.0" rx="26.0" ry="14.0" fill="#2E9A12" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1020.0" cy="78.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1072.0" cy="130.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1020.0" cy="182.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="968.0" cy="130.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1012.0" y="214.0" width="16.0" height="168.0" rx="3" fill="#1B7A12" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1020.0" cy="130.0" r="36.0" fill="#F0E000" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1020.0" y="424.0" text-anchor="middle" font-family="Liberation Serif" font-size="40" font-weight="700" fill="#222222">D</text>
+<ellipse cx="1270.0" cy="256.0" rx="26.0" ry="14.0" fill="#2E9A12" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="1350.0" cy="326.0" rx="26.0" ry="14.0" fill="#2E9A12" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1310.0" cy="78.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1355.0" cy="104.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1355.0" cy="156.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1310.0" cy="182.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1265.0" cy="156.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1265.0" cy="104.0" r="18.0" fill="#F05090" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1302.0" y="214.0" width="16.0" height="168.0" rx="3" fill="#1B7A12" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1310.0" cy="130.0" r="36.0" fill="#F0E000" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1310.0" y="424.0" text-anchor="middle" font-family="Liberation Serif" font-size="40" font-weight="700" fill="#222222">E</text>
+</svg>

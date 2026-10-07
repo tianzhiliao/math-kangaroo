@@ -1,0 +1,50 @@
+{
+  "id": "q02",
+  "number": 2,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "The picture shows 2 towers beside a ruler. What is the difference between their heights?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "5",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "9",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "15",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "24",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q02_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q02_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 740,
+      "height": 640
+    }
+  ]
+}

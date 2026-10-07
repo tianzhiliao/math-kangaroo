@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420">
+<rect width="760" height="420" fill="#FFFFFF"/>
+<rect x="150" y="240" width="520" height="48" rx="8" fill="#F7C1D8" stroke="#222222" stroke-width="5"/>
+<text x="90" y="274.0" text-anchor="middle" font-family="Liberation Serif" font-size="32" font-weight="700" fill="#222222">5</text>
+<rect x="150" y="206" width="520" height="48" rx="8" fill="#ACD0EC" stroke="#222222" stroke-width="5"/>
+<text x="90" y="240.0" text-anchor="middle" font-family="Liberation Serif" font-size="32" font-weight="700" fill="#222222">1</text>
+<rect x="150" y="172" width="520" height="48" rx="8" fill="#FFE6A7" stroke="#222222" stroke-width="5"/>
+<text x="90" y="206.0" text-anchor="middle" font-family="Liberation Serif" font-size="32" font-weight="700" fill="#222222">4</text>
+<rect x="150" y="138" width="520" height="48" rx="8" fill="#9BD2AD" stroke="#222222" stroke-width="5"/>
+<text x="90" y="172.0" text-anchor="middle" font-family="Liberation Serif" font-size="32" font-weight="700" fill="#222222">7</text>
+<rect x="150" y="104" width="520" height="48" rx="8" fill="#F6C48A" stroke="#222222" stroke-width="5"/>
+<text x="90" y="138.0" text-anchor="middle" font-family="Liberation Serif" font-size="32" font-weight="700" fill="#222222">2</text>
+<rect x="150" y="70" width="520" height="48" rx="8" fill="#C9B6E4" stroke="#222222" stroke-width="5"/>
+<text x="90" y="104.0" text-anchor="middle" font-family="Liberation Serif" font-size="32" font-weight="700" fill="#222222">3</text>
+<rect x="150" y="36" width="520" height="48" rx="8" fill="#F4A5A5" stroke="#222222" stroke-width="5"/>
+<text x="90" y="70.0" text-anchor="middle" font-family="Liberation Serif" font-size="32" font-weight="700" fill="#222222">6</text>
+</svg>

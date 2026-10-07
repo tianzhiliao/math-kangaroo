@@ -1,0 +1,37 @@
+{
+  "id": "q09",
+  "number": 9,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Sam and Noor play a game called hopball. Each goal is worth 3 points. Sam scored 4 goals and Noor scored 7 goals. How many more points did Noor score than Sam?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "9",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "12",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "15",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "21",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

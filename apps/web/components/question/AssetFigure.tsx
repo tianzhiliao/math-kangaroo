@@ -10,14 +10,16 @@ export function AssetFigure({
   alt,
   className = "",
   variant = "stem",
+  srcOverride,
 }: {
   examId: string;
   asset: AssetRecord;
   alt: string;
   className?: string;
   variant?: "stem" | "choice";
+  srcOverride?: string;
 }) {
-  const src = rawExamFileUrl(examId, asset.path);
+  const src = srcOverride ?? rawExamFileUrl(examId, asset.path);
   const shortSide = Math.min(asset.width, asset.height);
 
   const stemClasses =

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="430" viewBox="0 0 1100 430">
+<rect width="1100" height="430" fill="#FFFFFF"/>
+<rect x="392.0" y="24" width="96" height="96" fill="#E0F2F1" stroke="#222222" stroke-width="5" stroke-linejoin="round"/><circle cx="440.0" cy="72.0" r="28" fill="#4DB6AC" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="502.0" y="24" width="96" height="96" fill="#FBE9E7" stroke="#222222" stroke-width="5" stroke-linejoin="round"/><rect x="526.0" y="48" width="48" height="48" fill="#FF8A65" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="612.0" y="24" width="96" height="96" fill="#E8EAF6" stroke="#222222" stroke-width="5" stroke-linejoin="round"/><polygon points="660.0,44 634.0,98 686.0,98" fill="#7986CB" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="392.0" y="134" width="96" height="96" fill="#E0F2F1" stroke="#222222" stroke-width="5" stroke-linejoin="round"/><circle cx="440.0" cy="182.0" r="28" fill="#4DB6AC" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="502.0" y="134" width="96" height="96" fill="#FBE9E7" stroke="#222222" stroke-width="5" stroke-linejoin="round"/><rect x="526.0" y="158" width="48" height="48" fill="#FF8A65" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="612.0" y="134" width="96" height="96" fill="#F3F4F6" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="286.0" y="288" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">A</text>
+<rect x="238.0" y="300" width="96" height="96" fill="#FBE9E7" stroke="#222222" stroke-width="5" stroke-linejoin="round"/><rect x="262.0" y="324" width="48" height="48" fill="#FF8A65" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="418.0" y="288" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">B</text>
+<rect x="370.0" y="300" width="96" height="96" fill="#E0F2F1" stroke="#222222" stroke-width="5" stroke-linejoin="round"/><circle cx="418.0" cy="348.0" r="28" fill="#4DB6AC" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="550.0" y="288" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">C</text>
+<rect x="502.0" y="300" width="96" height="96" fill="#E8EAF6" stroke="#222222" stroke-width="5" stroke-linejoin="round"/><polygon points="550.0,376 524.0,322 576.0,322" fill="#7986CB" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="682.0" y="288" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">D</text>
+<rect x="634.0" y="300" width="96" height="96" fill="#E8EAF6" stroke="#222222" stroke-width="5" stroke-linejoin="round"/><polygon points="682.0,320 656.0,374 708.0,374" fill="#7986CB" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="814.0" y="288" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">E</text>
+<rect x="766.0" y="300" width="96" height="96" fill="#F3E5F5" stroke="#222222" stroke-width="5" stroke-linejoin="round"/><polygon points="814.0,318 844.0,348 814.0,378 784.0,348" fill="#BA68C8" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+</svg>

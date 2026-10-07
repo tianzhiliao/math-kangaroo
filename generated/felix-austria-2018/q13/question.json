@@ -1,0 +1,37 @@
+{
+  "id": "q13",
+  "number": 13,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Nora has 4 red, 2 blue and 3 yellow sheets of paper. First she cuts every sheet that is not blue into two pieces. Then she halves every piece that is not red. How many pieces of paper does she have in total?",
+  "answer": "E",
+  "choices": [
+    {
+      "label": "A",
+      "text": "16",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "18",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "20",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "22",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "24",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

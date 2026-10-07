@@ -185,6 +185,9 @@ export function QuestionCard({
   correctLabel,
   /** When set (e.g. practice bank), overrides the printed question index */
   displayQuestionNumber,
+  readOnly = false,
+  hideAudio = false,
+  resolveAssetUrl,
 }: {
   examId: string;
   question: Question;
@@ -195,6 +198,9 @@ export function QuestionCard({
   showOutcome: boolean;
   correctLabel: string;
   displayQuestionNumber?: number;
+  readOnly?: boolean;
+  hideAudio?: boolean;
+  resolveAssetUrl?: (asset: AssetRecord) => string;
 }) {
   const map = buildAssetMap(allAssets);
   const stemAssets = question.shared_asset_refs
@@ -215,7 +221,7 @@ export function QuestionCard({
             <p className="text-center text-[11px] font-bold uppercase tracking-wider text-slate-500 lg:text-left">
               Question {displayQuestionNumber ?? question.number}
             </p>
-            {hasStemText ? (
+            {hasStemText && !hideAudio ? (
               <StemTtsButton
                 examId={examId}
                 questionNumber={question.number}
@@ -234,6 +240,7 @@ export function QuestionCard({
               examId={examId}
               assets={stemAssets}
               altPrefix={`Question ${question.number}`}
+              srcFor={resolveAssetUrl}
             />
           </div>
         ) : null}
@@ -266,25 +273,32 @@ export function QuestionCard({
             .map((id) => map[id])
             .filter(Boolean);
           const multiImg = assetList.length > 1;
+          const interactive = !disabled && !readOnly;
 
           return (
             <div
               key={choice.label}
-              role="button"
-              tabIndex={disabled ? -1 : 0}
-              aria-disabled={disabled}
-              aria-pressed={isSelected}
+              role={readOnly ? undefined : "button"}
+              tabIndex={interactive ? 0 : -1}
+              aria-disabled={disabled || readOnly ? true : undefined}
+              aria-pressed={readOnly ? undefined : isSelected}
               onKeyDown={(e) => {
-                if (disabled) return;
+                if (!interactive) return;
                 if (e.key === "Enter" || e.key === " ") {
                   e.preventDefault();
                   onSelect(choice.label);
                 }
               }}
               onClick={() => {
-                if (!disabled) onSelect(choice.label);
+                if (interactive) onSelect(choice.label);
               }}
-              className={`flex min-h-[44px] cursor-pointer flex-col gap-2 rounded-xl border-2 p-2.5 text-left transition sm:min-h-[48px] sm:p-3 ${tone} ${disabled ? "cursor-not-allowed opacity-60" : ""}`}
+              className={`flex min-h-[44px] flex-col gap-2 rounded-xl border-2 p-2.5 text-left transition sm:min-h-[48px] sm:p-3 ${tone} ${
+                readOnly
+                  ? "cursor-default"
+                  : disabled
+                    ? "cursor-not-allowed opacity-60"
+                    : "cursor-pointer"
+              }`}
             >
               <div className="flex items-start gap-2 sm:gap-2.5">
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-slate-800 text-base font-bold text-white sm:h-11 sm:w-11 sm:text-lg">
@@ -312,6 +326,7 @@ export function QuestionCard({
                       alt={`Option ${choice.label} figure ${i + 1}`}
                       variant="choice"
                       className={multiImg ? "max-w-[calc(50%-0.25rem)]" : ""}
+                      srcOverride={resolveAssetUrl?.(a)}
                     />
                   ))}
                 </div>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="230" viewBox="0 0 520 230">
+  <rect width="520" height="230" fill="#FFFFFF"/>
+  <text x="8" y="112" font-family="Liberation Serif" font-size="28" fill="#222222">6 m</text>
+  <path d="M78 40 L64 58 L72 58 L72 142 L64 142 L78 160 L92 142 L84 142 L84 58 L92 58 Z" fill="#222222"/>
+  <g fill="#F8E3A8" stroke="#222222" stroke-width="4">
+    <rect x="120" y="40" width="80" height="40"/>
+    <rect x="200" y="40" width="80" height="40"/>
+    <rect x="280" y="40" width="80" height="40"/>
+    <rect x="360" y="40" width="80" height="40"/>
+    <rect x="120" y="80" width="80" height="40"/>
+    <rect x="200" y="80" width="80" height="40"/>
+    <rect x="280" y="80" width="80" height="40"/>
+    <rect x="360" y="80" width="80" height="40"/>
+    <rect x="120" y="120" width="80" height="40"/>
+    <rect x="200" y="120" width="80" height="40"/>
+    <rect x="280" y="120" width="80" height="40"/>
+    <rect x="360" y="120" width="80" height="40"/>
+  </g>
+</svg>

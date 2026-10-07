@@ -1,0 +1,37 @@
+{
+  "id": "q23",
+  "number": 23,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Kangie eats only pears on Monday, Wednesday and Friday. On Tuesday and Thursday he eats only plums. He eats 2 pears or 4 plums a day. On Saturday and Sunday he eats nothing. How many pieces of fruit does Kangie eat in two weeks?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "14",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "20",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "24",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "28",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "32",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

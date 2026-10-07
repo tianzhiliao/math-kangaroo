@@ -1,0 +1,50 @@
+{
+  "id": "q13",
+  "number": 13,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "A square is cut into four equal smaller squares. Which shape can you not make with these four pieces?",
+  "answer": "E",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q13_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q13_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 980,
+      "height": 700
+    }
+  ]
+}

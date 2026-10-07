@@ -1,0 +1,50 @@
+{
+  "id": "q07",
+  "number": 7,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Ben puts eight eggs in a box, as shown. Brown eggs must not touch each other. What is the largest number of brown eggs he can put in the box?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "2",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "3",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "5",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "6",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q07_stem"
+  ],
+  "assets": [
+    {
+      "id": "q07_stem",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 476,
+      "height": 292
+    }
+  ]
+}

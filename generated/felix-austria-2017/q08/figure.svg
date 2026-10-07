@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1650" height="620" viewBox="0 0 1650 620">
+<rect width="1650" height="620" fill="#FFFFFF"/>
+<rect x="30.0" y="30.0" width="300.0" height="460.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="85.0,74.0 107.5,113.0 62.5,113.0" fill="#F7C1D4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="180.0,74.0 202.5,113.0 157.5,113.0" fill="#F7C1D4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="275.0" cy="100.0" r="20.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="85.0" cy="200.0" r="20.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="162.0" y="182.0" width="36.0" height="36.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="257.0" y="182.0" width="36.0" height="36.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="180.0" y="550.0" fill="#222222" font-family="Noto Serif" font-size="42" font-weight="700" text-anchor="middle">A</text>
+<rect x="354.0" y="30.0" width="300.0" height="460.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="409.0,74.0 431.5,113.0 386.5,113.0" fill="#F7C1D4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="504.0,74.0 526.5,113.0 481.5,113.0" fill="#F7C1D4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="599.0" cy="100.0" r="20.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="391.0" y="182.0" width="36.0" height="36.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="486.0" y="182.0" width="36.0" height="36.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="581.0" y="182.0" width="36.0" height="36.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="391.0" y="282.0" width="36.0" height="36.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="504.0" y="550.0" fill="#222222" font-family="Noto Serif" font-size="42" font-weight="700" text-anchor="middle">B</text>
+<rect x="678.0" y="30.0" width="300.0" height="460.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="733.0,74.0 755.5,113.0 710.5,113.0" fill="#F7C1D4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="828.0,74.0 850.5,113.0 805.5,113.0" fill="#F7C1D4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="923.0,74.0 945.5,113.0 900.5,113.0" fill="#F7C1D4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="733.0,174.0 755.5,213.0 710.5,213.0" fill="#F7C1D4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="828.0" cy="200.0" r="20.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="923.0" cy="200.0" r="20.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="715.0" y="282.0" width="36.0" height="36.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="810.0" y="282.0" width="36.0" height="36.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="828.0" y="550.0" fill="#222222" font-family="Noto Serif" font-size="42" font-weight="700" text-anchor="middle">C</text>
+<rect x="1002.0" y="30.0" width="300.0" height="460.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="1057.0,74.0 1079.5,113.0 1034.5,113.0" fill="#F7C1D4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="1152.0,74.0 1174.5,113.0 1129.5,113.0" fill="#F7C1D4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1247.0" cy="100.0" r="20.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1039.0" y="182.0" width="36.0" height="36.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1134.0" y="182.0" width="36.0" height="36.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1152.0" y="550.0" fill="#222222" font-family="Noto Serif" font-size="42" font-weight="700" text-anchor="middle">D</text>
+<rect x="1326.0" y="30.0" width="300.0" height="460.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="1381.0,74.0 1403.5,113.0 1358.5,113.0" fill="#F7C1D4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="1476.0,74.0 1498.5,113.0 1453.5,113.0" fill="#F7C1D4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="1571.0,74.0 1593.5,113.0 1548.5,113.0" fill="#F7C1D4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="1381.0,174.0 1403.5,213.0 1358.5,213.0" fill="#F7C1D4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1476.0" cy="200.0" r="20.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1553.0" y="182.0" width="36.0" height="36.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1363.0" y="282.0" width="36.0" height="36.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1458.0" y="282.0" width="36.0" height="36.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1553.0" y="282.0" width="36.0" height="36.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1476.0" y="550.0" fill="#222222" font-family="Noto Serif" font-size="42" font-weight="700" text-anchor="middle">E</text>
+</svg>

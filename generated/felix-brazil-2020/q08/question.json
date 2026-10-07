@@ -1,0 +1,98 @@
+{
+  "id": "q08",
+  "number": 8,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "Ana draws some shapes on a sheet. Her drawing has fewer squares than triangles. What could be her drawing?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": [
+        "q08_option_A_01"
+      ]
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": [
+        "q08_option_B_01"
+      ]
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": [
+        "q08_option_C_01"
+      ]
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": [
+        "q08_option_D_01"
+      ]
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": [
+        "q08_option_E_01"
+      ]
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": [
+    {
+      "id": "q08_option_A_01",
+      "path": "choice-a.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 220,
+      "height": 140
+    },
+    {
+      "id": "q08_option_B_01",
+      "path": "choice-b.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 220,
+      "height": 140
+    },
+    {
+      "id": "q08_option_C_01",
+      "path": "choice-c.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 220,
+      "height": 140
+    },
+    {
+      "id": "q08_option_D_01",
+      "path": "choice-d.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 220,
+      "height": 140
+    },
+    {
+      "id": "q08_option_E_01",
+      "path": "choice-e.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 220,
+      "height": 140
+    }
+  ]
+}

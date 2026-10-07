@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 760" width="820" height="760">
+<text x="30" y="34" font-family="Noto Serif, serif" font-size="28" fill="#222222">Folded paper</text>
+<rect x="40" y="56" width="100" height="160" fill="#F7F1DE" stroke="#222222" stroke-width="5"/>
+<rect x="40" y="56" width="10" height="160" fill="#8D6A45"/>
+<rect x="102" y="84" width="26" height="26" fill="#F09010" stroke="#222222" stroke-width="4"/>
+<circle cx="72" cy="166" r="14" fill="#2B6CB0" stroke="#222222" stroke-width="4"/>
+<text x="140" y="292" text-anchor="middle" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">A</text>
+<rect x="40" y="300" width="200" height="160" fill="#F7F1DE" stroke="#222222" stroke-width="5"/>
+<rect x="136" y="300" width="8" height="160" fill="#8D6A45"/>
+<rect x="202" y="328" width="26" height="26" fill="#F09010" stroke="#222222" stroke-width="4"/>
+<circle cx="172" cy="410" r="14" fill="#2B6CB0" stroke="#222222" stroke-width="4"/>
+<text x="400" y="292" text-anchor="middle" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">B</text>
+<rect x="300" y="300" width="200" height="160" fill="#F7F1DE" stroke="#222222" stroke-width="5"/>
+<rect x="396" y="300" width="8" height="160" fill="#8D6A45"/>
+<rect x="312" y="328" width="26" height="26" fill="#F09010" stroke="#222222" stroke-width="4"/>
+<rect x="462" y="328" width="26" height="26" fill="#F09010" stroke="#222222" stroke-width="4"/>
+<circle cx="368" cy="410" r="14" fill="#2B6CB0" stroke="#222222" stroke-width="4"/>
+<circle cx="432" cy="410" r="14" fill="#2B6CB0" stroke="#222222" stroke-width="4"/>
+<text x="660" y="292" text-anchor="middle" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">C</text>
+<rect x="560" y="300" width="200" height="160" fill="#F7F1DE" stroke="#222222" stroke-width="5"/>
+<rect x="656" y="300" width="8" height="160" fill="#8D6A45"/>
+<rect x="572" y="400" width="26" height="26" fill="#F09010" stroke="#222222" stroke-width="4"/>
+<rect x="722" y="400" width="26" height="26" fill="#F09010" stroke="#222222" stroke-width="4"/>
+<circle cx="628" cy="340" r="14" fill="#2B6CB0" stroke="#222222" stroke-width="4"/>
+<circle cx="692" cy="340" r="14" fill="#2B6CB0" stroke="#222222" stroke-width="4"/>
+<text x="270" y="532" text-anchor="middle" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">D</text>
+<rect x="170" y="540" width="200" height="160" fill="#F7F1DE" stroke="#222222" stroke-width="5"/>
+<rect x="266" y="540" width="8" height="160" fill="#8D6A45"/>
+<circle cx="238" cy="580" r="14" fill="#2B6CB0" stroke="#222222" stroke-width="4"/>
+<circle cx="302" cy="580" r="14" fill="#2B6CB0" stroke="#222222" stroke-width="4"/>
+<circle cx="238" cy="650" r="14" fill="#2B6CB0" stroke="#222222" stroke-width="4"/>
+<circle cx="302" cy="650" r="14" fill="#2B6CB0" stroke="#222222" stroke-width="4"/>
+<text x="530" y="532" text-anchor="middle" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">E</text>
+<rect x="430" y="540" width="200" height="160" fill="#F7F1DE" stroke="#222222" stroke-width="5"/>
+<rect x="526" y="540" width="8" height="160" fill="#8D6A45"/>
+<rect x="442" y="568" width="26" height="26" fill="#F09010" stroke="#222222" stroke-width="4"/>
+<rect x="592" y="568" width="26" height="26" fill="#F09010" stroke="#222222" stroke-width="4"/>
+<circle cx="530" cy="650" r="14" fill="#2B6CB0" stroke="#222222" stroke-width="4"/>
+</svg>

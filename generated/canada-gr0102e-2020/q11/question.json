@@ -1,0 +1,50 @@
+{
+  "id": "q11",
+  "number": 11,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Leo writes the numbers 1, 2, 3, 4, 5 and 6 in the six squares, one number in each square. The numbers in the blue squares add up to 10. The numbers in the yellow squares also add up to 10. What number is in the square with the question mark?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "1",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "3",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "5",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q11_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q11_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 520,
+      "height": 360
+    }
+  ]
+}

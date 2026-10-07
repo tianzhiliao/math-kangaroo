@@ -1,0 +1,28 @@
+{
+  "id": "q03",
+  "number": 3,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "Father kangaroo and his daughter Lina together weigh 45 kg. The father on his own weighs 39 kg. How heavy is Lina?",
+  "answer": "A",
+  "choices": [
+    {"label": "A", "text": "6 kg", "asset_refs": []},
+    {"label": "B", "text": "4 kg", "asset_refs": []},
+    {"label": "C", "text": "9 kg", "asset_refs": []},
+    {"label": "D", "text": "42 kg", "asset_refs": []},
+    {"label": "E", "text": "84 kg", "asset_refs": []}
+  ],
+  "shared_asset_refs": ["q03_stem_01"],
+  "assets": [
+    {
+      "id": "q03_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 860,
+      "height": 500
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1180" height="430" viewBox="0 0 1180 430">
+<rect width="1180" height="430" fill="#FFFFFF"/>
+<defs>
+<g id="p1">
+  <rect x="0" y="0" width="92" height="92" fill="#B3E5FC" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <polygon points="16,84 88,26 88,84" fill="#E57373" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="22" cy="46" r="10" fill="#FFE082" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="p2">
+  <rect x="0" y="0" width="92" height="92" fill="#B3E5FC" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <polygon points="4,26 76,84 4,84" fill="#E57373" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <ellipse cx="70" cy="40" rx="14" ry="9" fill="#ECEFF1" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="p3">
+  <rect x="0" y="0" width="92" height="92" fill="#FFE0B2" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="6" y="74" width="80" height="12" fill="#A5D6A7" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="60" y="26" width="26" height="40" fill="#A1887F" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="p4">
+  <rect x="0" y="0" width="92" height="92" fill="#FFE0B2" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="6" y="74" width="80" height="12" fill="#A5D6A7" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="4" y="26" width="26" height="40" fill="#A1887F" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="42" y="12" width="28" height="20" fill="#4FC3F7" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="20" cy="46" r="3" fill="#FFE082"/>
+</g>
+</defs>
+<use xlink:href="#p4" href="#p4" x="373.0" y="12"/>
+<use xlink:href="#p2" href="#p2" x="487.0" y="12"/>
+<use xlink:href="#p3" href="#p3" x="601.0" y="12"/>
+<use xlink:href="#p1" href="#p1" x="715.0" y="12"/>
+<text x="170.0" y="160" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">A</text>
+<use xlink:href="#p2" href="#p2" x="74.0" y="168"/>
+<use xlink:href="#p1" href="#p1" x="174.0" y="168"/>
+<use xlink:href="#p3" href="#p3" x="74.0" y="268"/>
+<use xlink:href="#p4" href="#p4" x="174.0" y="268"/>
+<text x="380.0" y="160" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">B</text>
+<use xlink:href="#p1" href="#p1" x="284.0" y="168"/>
+<use xlink:href="#p2" href="#p2" x="384.0" y="168"/>
+<use xlink:href="#p4" href="#p4" x="284.0" y="268"/>
+<use xlink:href="#p3" href="#p3" x="384.0" y="268"/>
+<text x="590.0" y="160" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">C</text>
+<use xlink:href="#p1" href="#p1" x="494.0" y="168"/>
+<use xlink:href="#p2" href="#p2" x="594.0" y="168"/>
+<use xlink:href="#p3" href="#p3" x="494.0" y="268"/>
+<use xlink:href="#p4" href="#p4" x="594.0" y="268"/>
+<text x="800.0" y="160" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">D</text>
+<use xlink:href="#p3" href="#p3" x="704.0" y="168"/>
+<use xlink:href="#p4" href="#p4" x="804.0" y="168"/>
+<use xlink:href="#p1" href="#p1" x="704.0" y="268"/>
+<use xlink:href="#p2" href="#p2" x="804.0" y="268"/>
+<text x="1010.0" y="160" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">E</text>
+<use xlink:href="#p2" href="#p2" x="914.0" y="168"/>
+<use xlink:href="#p4" href="#p4" x="1014.0" y="168"/>
+<use xlink:href="#p1" href="#p1" x="914.0" y="268"/>
+<use xlink:href="#p3" href="#p3" x="1014.0" y="268"/>
+</svg>

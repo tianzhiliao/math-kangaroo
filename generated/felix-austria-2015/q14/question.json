@@ -1,0 +1,37 @@
+{
+  "id": "q14",
+  "number": 14,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "9 flags stand along a straight path. The first flag is at the start and the last flag is at the finish. Neighbouring flags are always 6 meters apart. How long is the path?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "36 meters",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "42 meters",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "48 meters",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "54 meters",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "60 meters",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "q06",
+  "number": 6,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Which card can be turned so that it looks the same as the card on the right?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "A",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "B",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "C",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "D",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "E",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q06_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q06_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1560,
+      "height": 460
+    }
+  ]
+}

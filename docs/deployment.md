@@ -26,7 +26,9 @@ Behavior:
 - installs `apps/web` dependencies
 - copies the web app into the image
 - copies `release-data/` into `/data/release-data`
+- copies `generated/` into `/data/generated`
 - sets `RELEASE_DATA_PATH=/data/release-data`
+- sets `GENERATED_QUESTIONS_PATH=/data/generated`
 - builds the Next.js application
 - starts the app with `npm start`
 
@@ -56,6 +58,7 @@ The compose file wires:
 - `api` on port `8000`
 - `FASTAPI_BASE_URL=http://api:8000` inside the web container
 - `RELEASE_DATA_PATH=/data/release-data` for both services
+- `GENERATED_QUESTIONS_PATH=/data/generated` for the web service
 
 ## Required environment variables
 
@@ -67,6 +70,7 @@ The compose file wires:
 
 - `FASTAPI_BASE_URL`
 - `RELEASE_DATA_PATH`
+- `GENERATED_QUESTIONS_PATH`
 - `API_CACHE_DIR`
 - `OPENAI_TTS_MODEL`
 - `OPENAI_TTS_VOICE`

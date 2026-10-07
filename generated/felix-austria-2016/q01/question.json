@@ -1,0 +1,50 @@
+{
+  "id": "q01",
+  "number": 1,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "How many ropes are there in the picture?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "2",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "3",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "5",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "6",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q01_stem"
+  ],
+  "assets": [
+    {
+      "id": "q01_stem",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 900,
+      "height": 540
+    }
+  ]
+}

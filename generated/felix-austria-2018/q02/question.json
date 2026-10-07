@@ -1,0 +1,50 @@
+{
+  "id": "q02",
+  "number": 2,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "The same number of frogs should sit in both ponds. How many frogs have to hop from the left pond to the right pond?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "1",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "2",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "3",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "6",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q02_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q02_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1100,
+      "height": 520
+    }
+  ]
+}

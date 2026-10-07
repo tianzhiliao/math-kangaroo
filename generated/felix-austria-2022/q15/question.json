@@ -1,0 +1,37 @@
+{
+  "id": "q15",
+  "number": 15,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "The three parrots Pip, Coco and Lala have a contest. The winner is the parrot with the most feathers on its tail. Pip has 11 feathers. Coco has 5 feathers more than Pip. Pip has 8 feathers less than Lala. How many feathers does the winner have?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "14",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "16",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "17",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "19",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "21",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

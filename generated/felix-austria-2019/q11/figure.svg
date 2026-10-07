@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="400" viewBox="0 0 460 400">
+  <rect width="460" height="400" fill="#FFFFFF"/>
+  <polygon points="120,340 175,158 265,158 320,340" fill="#F8E3A8" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="70" y="340" width="320" height="14" rx="4" fill="#D7E8C8" stroke="#222222" stroke-width="3"/>
+  <rect x="203" y="80" width="14" height="156" fill="#8C6A4A" stroke="#222222" stroke-width="3"/>
+  <polygon points="217,84 278,104 217,124" fill="#F6C9D4" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+  <text x="290" y="96" font-family="Liberation Serif" font-size="28" fill="#222222">20 m</text>
+  <text x="310" y="248" font-family="Liberation Serif" font-size="28" fill="#222222">8 m</text>
+</svg>

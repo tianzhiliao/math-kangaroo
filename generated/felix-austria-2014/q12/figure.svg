@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="340" viewBox="0 0 920 340">
+<rect width="920" height="340" fill="#FFFFFF"/>
+<circle cx="70" cy="78" r="26" fill="#C9854A" stroke="#222222" stroke-width="5"/>
+<ellipse cx="70" cy="68" rx="8" ry="5" fill="#E7C59A" stroke="#222222" stroke-width="3"/>
+<circle cx="148" cy="78" r="26" fill="#C9854A" stroke="#222222" stroke-width="5"/>
+<ellipse cx="148" cy="68" rx="8" ry="5" fill="#E7C59A" stroke="#222222" stroke-width="3"/>
+<circle cx="226" cy="78" r="26" fill="#C9854A" stroke="#222222" stroke-width="5"/>
+<ellipse cx="226" cy="68" rx="8" ry="5" fill="#E7C59A" stroke="#222222" stroke-width="3"/>
+<circle cx="304" cy="78" r="26" fill="#C9854A" stroke="#222222" stroke-width="5"/>
+<ellipse cx="304" cy="68" rx="8" ry="5" fill="#E7C59A" stroke="#222222" stroke-width="3"/>
+<circle cx="70" cy="156" r="26" fill="#C9854A" stroke="#222222" stroke-width="5"/>
+<ellipse cx="70" cy="146" rx="8" ry="5" fill="#E7C59A" stroke="#222222" stroke-width="3"/>
+<circle cx="148" cy="156" r="26" fill="#C9854A" stroke="#222222" stroke-width="5"/>
+<ellipse cx="148" cy="146" rx="8" ry="5" fill="#E7C59A" stroke="#222222" stroke-width="3"/>
+<circle cx="226" cy="156" r="26" fill="#C9854A" stroke="#222222" stroke-width="5"/>
+<ellipse cx="226" cy="146" rx="8" ry="5" fill="#E7C59A" stroke="#222222" stroke-width="3"/>
+<circle cx="304" cy="156" r="26" fill="#C9854A" stroke="#222222" stroke-width="5"/>
+<ellipse cx="304" cy="146" rx="8" ry="5" fill="#E7C59A" stroke="#222222" stroke-width="3"/>
+<text x="187" y="250" text-anchor="middle" font-family="Liberation Serif" font-size="28" fill="#222222">8 nuts = one day</text>
+<text x="460" y="140" text-anchor="middle" font-family="Liberation Serif" font-size="32" fill="#222222">or</text>
+<polygon points="600,60 552,176 648,176" fill="#FFE6A7" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="592" cy="130" r="6" fill="#F4A261" stroke="#222222" stroke-width="3"/>
+<circle cx="612" cy="146" r="5" fill="#F4A261" stroke="#222222" stroke-width="3"/>
+<polygon points="720,60 672,176 768,176" fill="#FFE6A7" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="712" cy="130" r="6" fill="#F4A261" stroke="#222222" stroke-width="3"/>
+<circle cx="732" cy="146" r="5" fill="#F4A261" stroke="#222222" stroke-width="3"/>
+<polygon points="840,60 792,176 888,176" fill="#FFE6A7" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="832" cy="130" r="6" fill="#F4A261" stroke="#222222" stroke-width="3"/>
+<circle cx="852" cy="146" r="5" fill="#F4A261" stroke="#222222" stroke-width="3"/>
+<text x="720" y="250" text-anchor="middle" font-family="Liberation Serif" font-size="28" fill="#222222">3 cheeses = one day</text>
+</svg>

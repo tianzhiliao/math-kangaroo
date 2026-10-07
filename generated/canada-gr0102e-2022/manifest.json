@@ -1,0 +1,149 @@
+{
+  "exam_id": "canada-gr0102e-2022",
+  "questions": [
+    {
+      "id": "q01",
+      "status": "generated",
+      "answer": "C",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q02",
+      "status": "generated",
+      "answer": "D",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q03",
+      "status": "generated",
+      "answer": "B",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q04",
+      "status": "generated",
+      "answer": "B",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q05",
+      "status": "generated",
+      "answer": "C",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q06",
+      "status": "generated",
+      "answer": "C",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q07",
+      "status": "generated",
+      "answer": "C",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q08",
+      "status": "generated",
+      "answer": "D",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q09",
+      "status": "generated",
+      "answer": "B",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q10",
+      "status": "generated",
+      "answer": "C",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q11",
+      "status": "generated",
+      "answer": "B",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q12",
+      "status": "generated",
+      "answer": "C",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q13",
+      "status": "generated",
+      "answer": "B",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q14",
+      "status": "generated",
+      "answer": "D",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q15",
+      "status": "generated",
+      "answer": "A",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q16",
+      "status": "generated",
+      "answer": "D",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q17",
+      "status": "generated",
+      "answer": "B",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    },
+    {
+      "id": "q18",
+      "status": "generated",
+      "answer": "C",
+      "no_figure": false,
+      "duplicate_of": null,
+      "error": null
+    }
+  ]
+}

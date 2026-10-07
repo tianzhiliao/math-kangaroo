@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340">
+<rect x="80" y="80" width="180" height="220" rx="24" fill="#90C030" stroke="#222222" stroke-width="6"/>
+<rect x="130" y="40" width="80" height="50" rx="10" fill="#906030" stroke="#222222" stroke-width="6"/>
+<circle cx="170" cy="190" r="48" fill="#F0E0A0" stroke="#222222" stroke-width="6"/>
+<text x="170" y="190" text-anchor="middle" dominant-baseline="central" font-family="Noto Serif, serif" font-size="42" font-weight="700" fill="#222222">4</text>
+<rect x="360" y="80" width="180" height="220" rx="24" fill="#90C030" stroke="#222222" stroke-width="6"/>
+<rect x="410" y="40" width="80" height="50" rx="10" fill="#906030" stroke="#222222" stroke-width="6"/>
+<circle cx="450" cy="190" r="48" fill="#F0E0A0" stroke="#222222" stroke-width="6"/>
+<text x="450" y="190" text-anchor="middle" dominant-baseline="central" font-family="Noto Serif, serif" font-size="42" font-weight="700" fill="#222222">5</text>
+<rect x="640" y="80" width="180" height="220" rx="24" fill="#90C030" stroke="#222222" stroke-width="6"/>
+<rect x="690" y="40" width="80" height="50" rx="10" fill="#906030" stroke="#222222" stroke-width="6"/>
+<circle cx="730" cy="190" r="48" fill="#F0E0A0" stroke="#222222" stroke-width="6"/>
+<text x="730" y="190" text-anchor="middle" dominant-baseline="central" font-family="Noto Serif, serif" font-size="42" font-weight="700" fill="#222222">6</text>
+</svg>

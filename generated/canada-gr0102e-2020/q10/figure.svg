@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="420" viewBox="0 0 980 420">
+<rect width="980" height="420" fill="#FFFFFF"/>
+<ellipse cx="250" cy="108" rx="40" ry="30" fill="#F48FB1" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="250" y="108" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="central">2</text>
+<ellipse cx="346" cy="200" rx="30" ry="40" fill="#F48FB1" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="346" y="200" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="central">5</text>
+<ellipse cx="250" cy="292" rx="40" ry="30" fill="#F48FB1" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="250" y="292" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="central">1</text>
+<ellipse cx="154" cy="200" rx="30" ry="40" fill="#F48FB1" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="154" y="200" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="central">4</text>
+<circle cx="250" cy="200" r="34" fill="#FFD54F" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<ellipse cx="720" cy="108" rx="40" ry="30" fill="#F8BBD0" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="720" y="108" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="central">3</text>
+<ellipse cx="816" cy="200" rx="30" ry="40" fill="#C5CAE9" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="816" y="200" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="central">?</text>
+<ellipse cx="720" cy="292" rx="40" ry="30" fill="#F8BBD0" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="720" y="292" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="central">2</text>
+<ellipse cx="624" cy="200" rx="30" ry="40" fill="#F8BBD0" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="624" y="200" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="central">1</text>
+<circle cx="720" cy="200" r="34" fill="#AED581" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+</svg>

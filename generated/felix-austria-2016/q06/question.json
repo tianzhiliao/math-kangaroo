@@ -1,0 +1,50 @@
+{
+  "id": "q06",
+  "number": 6,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Sara has 8 cubes. Which solid can she build if she uses every cube?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q06_stem"
+  ],
+  "assets": [
+    {
+      "id": "q06_stem",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1500,
+      "height": 480
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="500" viewBox="0 0 860 500">
+  <rect width="860" height="500" fill="#FFFFFF"/>
+  <!-- ground, gap below the feet -->
+  <rect x="40" y="448" width="780" height="16" rx="8" fill="#D7E8C8" stroke="#222222" stroke-width="4"/>
+  <!-- adult kangaroo, one filled silhouette -->
+  <path d="M210 168
+           C188 120 214 78 252 70
+           C244 36 278 22 292 52
+           C312 18 348 36 334 74
+           C390 92 418 150 400 214
+           C430 290 408 360 348 378
+           C338 412 292 424 270 392
+           L236 392
+           C214 418 168 406 176 368
+           C120 386 72 352 78 300
+           C84 248 140 246 168 278
+           C176 250 186 210 210 168 Z"
+        fill="#F0C27A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+  <!-- nested belly, not touching the outline -->
+  <ellipse cx="292" cy="250" rx="46" ry="58" fill="#F8E2B8" stroke="#222222" stroke-width="4"/>
+  <circle cx="300" cy="118" r="8" fill="#222222"/>
+  <circle cx="274" cy="124" r="6" fill="#222222"/>
+  <!-- child, separate, not touching the adult -->
+  <path d="M590 230
+           C576 198 596 168 622 164
+           C616 142 640 132 648 152
+           C662 132 684 144 674 166
+           C708 178 724 214 712 252
+           C728 292 712 334 678 344
+           C672 362 646 368 634 350
+           L614 350
+           C602 366 574 358 580 336
+           C548 346 522 326 526 298
+           C530 270 562 270 576 290
+           C580 272 584 248 590 230 Z"
+        fill="#F6B7C4" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+  <ellipse cx="640" cy="278" rx="28" ry="34" fill="#F8D5DE" stroke="#222222" stroke-width="4"/>
+  <circle cx="646" cy="196" r="6" fill="#222222"/>
+  <circle cx="630" cy="200" r="4.5" fill="#222222"/>
+</svg>

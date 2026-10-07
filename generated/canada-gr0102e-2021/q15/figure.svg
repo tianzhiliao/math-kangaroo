@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+<rect width="900" height="260" fill="#FFFFFF"/>
+<rect x="74" y="82" width="72" height="96" rx="8" fill="#FFF6D8" stroke="#222222" stroke-width="5"/><text x="110" y="144" text-anchor="middle" font-family="Noto Serif" font-size="42" fill="#222222">1</text>
+<rect x="234" y="82" width="72" height="96" rx="8" fill="#FFF6D8" stroke="#222222" stroke-width="5"/><text x="270" y="144" text-anchor="middle" font-family="Noto Serif" font-size="42" fill="#222222">3</text>
+<rect x="394" y="82" width="72" height="96" rx="8" fill="#FFF6D8" stroke="#222222" stroke-width="5"/><text x="430" y="144" text-anchor="middle" font-family="Noto Serif" font-size="42" fill="#222222">4</text>
+<rect x="554" y="82" width="72" height="96" rx="8" fill="#FFF6D8" stroke="#222222" stroke-width="5"/><text x="590" y="144" text-anchor="middle" font-family="Noto Serif" font-size="42" fill="#222222">5</text>
+<rect x="714" y="82" width="72" height="96" rx="8" fill="#FFF6D8" stroke="#222222" stroke-width="5"/><text x="750" y="144" text-anchor="middle" font-family="Noto Serif" font-size="42" fill="#222222">7</text>
+</svg>

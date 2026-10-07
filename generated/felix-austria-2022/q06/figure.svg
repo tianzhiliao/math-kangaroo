@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1290" height="430" viewBox="0 0 1290 430">
+<rect width="1290" height="430" fill="#FFFFFF"/>
+<rect x="24" y="12" width="230" height="310" rx="12" fill="#F7F7F7" stroke="#222222" stroke-width="4"/>
+<text x="139.0" y="368" text-anchor="middle" font-family="Noto Serif" font-size="34" fill="#222222">A</text>
+<rect x="276" y="12" width="230" height="310" rx="12" fill="#F7F7F7" stroke="#222222" stroke-width="4"/>
+<text x="391.0" y="368" text-anchor="middle" font-family="Noto Serif" font-size="34" fill="#222222">B</text>
+<rect x="528" y="12" width="230" height="310" rx="12" fill="#F7F7F7" stroke="#222222" stroke-width="4"/>
+<text x="643.0" y="368" text-anchor="middle" font-family="Noto Serif" font-size="34" fill="#222222">C</text>
+<rect x="780" y="12" width="230" height="310" rx="12" fill="#F7F7F7" stroke="#222222" stroke-width="4"/>
+<text x="895.0" y="368" text-anchor="middle" font-family="Noto Serif" font-size="34" fill="#222222">D</text>
+<rect x="1032" y="12" width="230" height="310" rx="12" fill="#F7F7F7" stroke="#222222" stroke-width="4"/>
+<text x="1147.0" y="368" text-anchor="middle" font-family="Noto Serif" font-size="34" fill="#222222">E</text>
+<circle cx="144" cy="160" r="42" fill="#00A8F0" stroke="#222222" stroke-width="8"/>
+<polygon points="204,148 236,160 204,172" fill="#00A8F0" stroke="#222222" stroke-width="8" stroke-linejoin="round"/>
+<rect x="36" y="140" width="48" height="40" fill="#00A8F0" stroke="#222222" stroke-width="8"/>
+<circle cx="400" cy="180" r="40" fill="#F0D800" stroke="#222222" stroke-width="8"/>
+<polygon points="342,162 300,180 342,198" fill="#F0D800" stroke="#222222" stroke-width="8" stroke-linejoin="round"/>
+<polygon points="400,70 428,98 400,126 372,98" fill="#F0D800" stroke="#222222" stroke-width="8" stroke-linejoin="round"/>
+<rect x="570" y="175" width="100" height="100" fill="#00C800" stroke="#222222" stroke-width="8"/>
+<circle cx="620" cy="112" r="32" fill="#00C800" stroke="#222222" stroke-width="8"/>
+<polygon points="672,100 710,100 691,62" fill="#00C800" stroke="#222222" stroke-width="8" stroke-linejoin="round"/>
+<rect x="820" y="180" width="130" height="64" fill="#A860A8" stroke="#222222" stroke-width="8"/>
+<circle cx="800" cy="130" r="30" fill="#A860A8" stroke="#222222" stroke-width="8"/>
+<rect x="860" y="262" width="26" height="44" fill="#A860A8" stroke="#222222" stroke-width="8"/>
+<circle cx="1160" cy="170" r="38" fill="#C03060" stroke="#222222" stroke-width="8"/>
+<polygon points="1140,112 1180,112 1160,74" fill="#C03060" stroke="#222222" stroke-width="8" stroke-linejoin="round"/>
+<rect x="1048" y="158" width="56" height="24" fill="#C03060" stroke="#222222" stroke-width="8"/>
+</svg>

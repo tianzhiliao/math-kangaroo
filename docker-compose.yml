@@ -9,9 +9,11 @@ services:
       - "3000:3000"
     environment:
       RELEASE_DATA_PATH: /data/release-data
+      GENERATED_QUESTIONS_PATH: /data/generated
       FASTAPI_BASE_URL: http://api:8000
     volumes:
       - ./release-data:/data/release-data:ro
+      - ./generated:/data/generated:ro
 
   api:
     build:

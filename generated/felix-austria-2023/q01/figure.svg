@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="560" viewBox="0 0 740 560">
+  <rect width="740" height="560" fill="#FFFFFF"/>
+  <!-- seven circles: body, head, two ears, eye, nose, tail -->
+  <circle id="body" cx="430" cy="340" r="140" fill="#FEE9AC" stroke="#222222" stroke-width="8"/>
+  <circle id="head" cx="230" cy="300" r="110" fill="#FEE9AC" stroke="#222222" stroke-width="8"/>
+  <circle id="ear_left" cx="155" cy="178" r="50" fill="#ABC0E4" stroke="#222222" stroke-width="8"/>
+  <circle id="ear_right" cx="268" cy="162" r="46" fill="#9374B1" stroke="#222222" stroke-width="8"/>
+  <circle id="tail" cx="600" cy="210" r="48" fill="#F19213" stroke="#222222" stroke-width="8"/>
+  <circle id="eye" cx="198" cy="285" r="22" fill="#9374B1" stroke="#222222" stroke-width="8"/>
+  <circle id="nose" cx="128" cy="318" r="20" fill="#F19213" stroke="#222222" stroke-width="8"/>
+</svg>

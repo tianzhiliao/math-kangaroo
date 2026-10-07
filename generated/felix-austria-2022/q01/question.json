@@ -1,0 +1,50 @@
+{
+  "id": "q01",
+  "number": 1,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "Which box contains the most triangles?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q01_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q01_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1528,
+      "height": 360
+    }
+  ]
+}

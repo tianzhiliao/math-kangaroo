@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700">
+<rect width="1180" height="700" fill="#FFFFFF"/>
+<text x="180" y="40" text-anchor="middle" font-family="Liberation Serif, serif" font-size="30" fill="#222222">start</text>
+<circle cx="110" cy="170" r="40" fill="#D7E4F5" stroke="#222222" stroke-width="5"/>
+<circle cx="151.8" cy="170.0" r="12" fill="#111111" stroke="#222222" stroke-width="3"/>
+<circle cx="110.0" cy="211.8" r="12" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="68.2" cy="170.0" r="12" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="110.0" cy="128.2" r="12" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="110" cy="170" r="11.2" fill="#FFF6D8" stroke="#222222" stroke-width="4"/>
+<circle cx="270" cy="170" r="64" fill="#D7E4F5" stroke="#222222" stroke-width="5"/>
+<circle cx="336.1" cy="170.0" r="14" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="316.7" cy="216.7" r="14" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="270.0" cy="236.1" r="14" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="223.3" cy="216.7" r="14" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="203.9" cy="170.0" r="14" fill="#111111" stroke="#222222" stroke-width="3"/>
+<circle cx="223.3" cy="123.3" r="14" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="270.0" cy="103.9" r="14" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="316.7" cy="123.3" r="14" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="270" cy="170" r="17.9" fill="#FFF6D8" stroke="#222222" stroke-width="4"/>
+<circle cx="70" cy="470" r="28" fill="#D7E4F5" stroke="#222222" stroke-width="5"/>
+<circle cx="99.3" cy="470.0" r="9" fill="#111111" stroke="#222222" stroke-width="3"/>
+<circle cx="70.0" cy="499.4" r="9" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="40.6" cy="470.0" r="9" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="70.0" cy="440.6" r="9" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="70" cy="470" r="7.8" fill="#FFF6D8" stroke="#222222" stroke-width="4"/>
+<circle cx="190" cy="470" r="46" fill="#D7E4F5" stroke="#222222" stroke-width="5"/>
+<circle cx="237.5" cy="470.0" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="223.6" cy="503.6" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="190.0" cy="517.5" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="156.4" cy="503.6" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="142.5" cy="470.0" r="10" fill="#111111" stroke="#222222" stroke-width="3"/>
+<circle cx="156.4" cy="436.4" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="190.0" cy="422.5" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="223.6" cy="436.4" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="190" cy="470" r="12.9" fill="#FFF6D8" stroke="#222222" stroke-width="4"/>
+<text x="130" y="580" text-anchor="middle" font-family="Liberation Serif, serif" font-size="34" fill="#222222">A</text>
+<circle cx="300" cy="470" r="28" fill="#D7E4F5" stroke="#222222" stroke-width="5"/>
+<circle cx="329.4" cy="470.0" r="9" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="300.0" cy="499.4" r="9" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="270.6" cy="470.0" r="9" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="300.0" cy="440.6" r="9" fill="#111111" stroke="#222222" stroke-width="3"/>
+<circle cx="300" cy="470" r="7.8" fill="#FFF6D8" stroke="#222222" stroke-width="4"/>
+<circle cx="420" cy="470" r="46" fill="#D7E4F5" stroke="#222222" stroke-width="5"/>
+<circle cx="467.5" cy="470.0" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="453.6" cy="503.6" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="420.0" cy="517.5" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="386.4" cy="503.6" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="372.5" cy="470.0" r="10" fill="#111111" stroke="#222222" stroke-width="3"/>
+<circle cx="386.4" cy="436.4" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="420.0" cy="422.5" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="453.6" cy="436.4" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="420" cy="470" r="12.9" fill="#FFF6D8" stroke="#222222" stroke-width="4"/>
+<text x="360" y="580" text-anchor="middle" font-family="Liberation Serif, serif" font-size="34" fill="#222222">B</text>
+<circle cx="530" cy="470" r="28" fill="#D7E4F5" stroke="#222222" stroke-width="5"/>
+<circle cx="559.4" cy="470.0" r="9" fill="#111111" stroke="#222222" stroke-width="3"/>
+<circle cx="530.0" cy="499.4" r="9" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="500.6" cy="470.0" r="9" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="530.0" cy="440.6" r="9" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="530" cy="470" r="7.8" fill="#FFF6D8" stroke="#222222" stroke-width="4"/>
+<circle cx="650" cy="470" r="46" fill="#D7E4F5" stroke="#222222" stroke-width="5"/>
+<circle cx="697.5" cy="470.0" r="10" fill="#111111" stroke="#222222" stroke-width="3"/>
+<circle cx="683.6" cy="503.6" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="650.0" cy="517.5" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="616.4" cy="503.6" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="602.5" cy="470.0" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="616.4" cy="436.4" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="650.0" cy="422.5" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="683.6" cy="436.4" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="650" cy="470" r="12.9" fill="#FFF6D8" stroke="#222222" stroke-width="4"/>
+<text x="590" y="580" text-anchor="middle" font-family="Liberation Serif, serif" font-size="34" fill="#222222">C</text>
+<circle cx="760" cy="470" r="28" fill="#D7E4F5" stroke="#222222" stroke-width="5"/>
+<circle cx="789.4" cy="470.0" r="9" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="760.0" cy="499.4" r="9" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="730.6" cy="470.0" r="9" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="760.0" cy="440.6" r="9" fill="#111111" stroke="#222222" stroke-width="3"/>
+<circle cx="760" cy="470" r="7.8" fill="#FFF6D8" stroke="#222222" stroke-width="4"/>
+<circle cx="880" cy="470" r="46" fill="#D7E4F5" stroke="#222222" stroke-width="5"/>
+<circle cx="927.5" cy="470.0" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="913.6" cy="503.6" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="880.0" cy="517.5" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="846.4" cy="503.6" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="832.5" cy="470.0" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="846.4" cy="436.4" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="880.0" cy="422.5" r="10" fill="#111111" stroke="#222222" stroke-width="3"/>
+<circle cx="913.6" cy="436.4" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="880" cy="470" r="12.9" fill="#FFF6D8" stroke="#222222" stroke-width="4"/>
+<text x="820" y="580" text-anchor="middle" font-family="Liberation Serif, serif" font-size="34" fill="#222222">D</text>
+<circle cx="990" cy="470" r="28" fill="#D7E4F5" stroke="#222222" stroke-width="5"/>
+<circle cx="1019.4" cy="470.0" r="9" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="990.0" cy="499.4" r="9" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="960.6" cy="470.0" r="9" fill="#111111" stroke="#222222" stroke-width="3"/>
+<circle cx="990.0" cy="440.6" r="9" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="990" cy="470" r="7.8" fill="#FFF6D8" stroke="#222222" stroke-width="4"/>
+<circle cx="1110" cy="470" r="46" fill="#D7E4F5" stroke="#222222" stroke-width="5"/>
+<circle cx="1157.5" cy="470.0" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="1143.6" cy="503.6" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="1110.0" cy="517.5" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="1076.4" cy="503.6" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="1062.5" cy="470.0" r="10" fill="#111111" stroke="#222222" stroke-width="3"/>
+<circle cx="1076.4" cy="436.4" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="1110.0" cy="422.5" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="1143.6" cy="436.4" r="10" fill="#F4C7A2" stroke="#222222" stroke-width="3"/>
+<circle cx="1110" cy="470" r="12.9" fill="#FFF6D8" stroke="#222222" stroke-width="4"/>
+<text x="1050" y="580" text-anchor="middle" font-family="Liberation Serif, serif" font-size="34" fill="#222222">E</text>
+</svg>

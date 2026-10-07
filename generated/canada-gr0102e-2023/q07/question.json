@@ -1,0 +1,50 @@
+{
+  "id": "q07",
+  "number": 7,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Five trees stand in a park. A beaver is at one of the marked dots and can see exactly 2 complete trees. Trees in front hide trees behind them. Where is the beaver standing?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "at A",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "at B",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "at C",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "at D",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "at E",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q07_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q07_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 840,
+      "height": 560
+    }
+  ]
+}

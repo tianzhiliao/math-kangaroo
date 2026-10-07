@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="460" viewBox="0 0 1040 460">
+<rect width="1040" height="460" fill="#FFFFFF"/>
+<text x="120" y="34" text-anchor="middle" font-family="Liberation Serif, serif" font-size="30" fill="#222222">A</text>
+<polygon id="A_t0" points="80.0,88 116.0,88 98.0,52" fill="#F6D56A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<polygon id="A_t1" points="124.0,88 160.0,88 142.0,52" fill="#F6D56A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<polygon id="A_t2" points="80.0,132 116.0,132 98.0,96" fill="#F6D56A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect id="A_s3" x="124.0" y="96" width="36" height="36" fill="#8FD48A" stroke="#222222" stroke-width="5"/>
+<circle id="A_c4" cx="98.0" cy="158.0" r="17.0" fill="#A9CEF0" stroke="#222222" stroke-width="5"/>
+<polygon id="A_hull" points="50,190 190,190 170,232 70,232" fill="#E7B48A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="320" y="34" text-anchor="middle" font-family="Liberation Serif, serif" font-size="30" fill="#222222">B</text>
+<circle id="B_c0" cx="298.0" cy="70.0" r="17.0" fill="#A9CEF0" stroke="#222222" stroke-width="5"/>
+<circle id="B_c1" cx="342.0" cy="70.0" r="17.0" fill="#A9CEF0" stroke="#222222" stroke-width="5"/>
+<polygon id="B_t2" points="280.0,132 316.0,132 298.0,96" fill="#F6D56A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<polygon id="B_t3" points="324.0,132 360.0,132 342.0,96" fill="#F6D56A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<polygon id="B_t4" points="280.0,176 316.0,176 298.0,140" fill="#F6D56A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect id="B_s5" x="324.0" y="140" width="36" height="36" fill="#8FD48A" stroke="#222222" stroke-width="5"/>
+<polygon id="B_hull" points="250,190 390,190 370,232 270,232" fill="#E7B48A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="520" y="34" text-anchor="middle" font-family="Liberation Serif, serif" font-size="30" fill="#222222">C</text>
+<circle id="C_c0" cx="498.0" cy="70.0" r="17.0" fill="#A9CEF0" stroke="#222222" stroke-width="5"/>
+<circle id="C_c1" cx="542.0" cy="70.0" r="17.0" fill="#A9CEF0" stroke="#222222" stroke-width="5"/>
+<polygon id="C_t2" points="480.0,132 516.0,132 498.0,96" fill="#F6D56A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<polygon id="C_t3" points="524.0,132 560.0,132 542.0,96" fill="#F6D56A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect id="C_s4" x="480.0" y="140" width="36" height="36" fill="#8FD48A" stroke="#222222" stroke-width="5"/>
+<polygon id="C_hull" points="450,190 590,190 570,232 470,232" fill="#E7B48A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="720" y="34" text-anchor="middle" font-family="Liberation Serif, serif" font-size="30" fill="#222222">D</text>
+<circle id="D_c0" cx="698.0" cy="70.0" r="17.0" fill="#A9CEF0" stroke="#222222" stroke-width="5"/>
+<circle id="D_c1" cx="742.0" cy="70.0" r="17.0" fill="#A9CEF0" stroke="#222222" stroke-width="5"/>
+<circle id="D_c2" cx="698.0" cy="114.0" r="17.0" fill="#A9CEF0" stroke="#222222" stroke-width="5"/>
+<polygon id="D_t3" points="724.0,132 760.0,132 742.0,96" fill="#F6D56A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect id="D_s4" x="680.0" y="140" width="36" height="36" fill="#8FD48A" stroke="#222222" stroke-width="5"/>
+<polygon id="D_hull" points="650,190 790,190 770,232 670,232" fill="#E7B48A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="920" y="34" text-anchor="middle" font-family="Liberation Serif, serif" font-size="30" fill="#222222">E</text>
+<circle id="E_c0" cx="898.0" cy="70.0" r="17.0" fill="#A9CEF0" stroke="#222222" stroke-width="5"/>
+<circle id="E_c1" cx="942.0" cy="70.0" r="17.0" fill="#A9CEF0" stroke="#222222" stroke-width="5"/>
+<polygon id="E_t2" points="880.0,132 916.0,132 898.0,96" fill="#F6D56A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<polygon id="E_t3" points="924.0,132 960.0,132 942.0,96" fill="#F6D56A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<polygon id="E_t4" points="880.0,176 916.0,176 898.0,140" fill="#F6D56A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect id="E_s5" x="924.0" y="140" width="36" height="36" fill="#8FD48A" stroke="#222222" stroke-width="5"/>
+<rect id="E_s6" x="880.0" y="184" width="36" height="36" fill="#8FD48A" stroke="#222222" stroke-width="5"/>
+<polygon id="E_hull" points="850,234 990,234 970,276 870,276" fill="#E7B48A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+</svg>

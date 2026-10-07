@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="420" viewBox="0 0 1040 420">
+<rect width="1040" height="420" fill="#FFFFFF"/>
+<rect id="folded" x="36" y="48" width="140" height="280" fill="#FFF4D2" stroke="#222222" stroke-width="5"/>
+<rect id="crease" x="166" y="48" width="10" height="280" fill="#C8B88A" stroke="#222222" stroke-width="5"/>
+<circle id="punch_0" cx="141.0" cy="106.3" r="11" fill="#222222"/>
+<circle id="punch_1" cx="71.0" cy="258.0" r="11" fill="#222222"/>
+<text x="309.0" y="58" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">A</text>
+<rect id="opt_A" x="250" y="70" width="118" height="118" fill="#FFF4D2" stroke="#222222" stroke-width="5"/>
+<rect id="optfold_A" x="307.0" y="70" width="4" height="118" fill="#C8B88A"/>
+<circle id="h_A_0" cx="294.2" cy="94.6" r="7" fill="#222222"/>
+<circle id="h_A_1" cx="323.8" cy="94.6" r="7" fill="#222222"/>
+<circle id="h_A_2" cx="294.2" cy="158.5" r="7" fill="#222222"/>
+<circle id="h_A_3" cx="323.8" cy="158.5" r="7" fill="#222222"/>
+<text x="455.0" y="58" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">B</text>
+<rect id="opt_B" x="396" y="70" width="118" height="118" fill="#FFF4D2" stroke="#222222" stroke-width="5"/>
+<rect id="optfold_B" x="453.0" y="70" width="4" height="118" fill="#C8B88A"/>
+<circle id="h_B_0" cx="410.8" cy="94.6" r="7" fill="#222222"/>
+<circle id="h_B_1" cx="499.2" cy="94.6" r="7" fill="#222222"/>
+<circle id="h_B_2" cx="410.8" cy="158.5" r="7" fill="#222222"/>
+<circle id="h_B_3" cx="499.2" cy="158.5" r="7" fill="#222222"/>
+<text x="601.0" y="58" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">C</text>
+<rect id="opt_C" x="542" y="70" width="118" height="118" fill="#FFF4D2" stroke="#222222" stroke-width="5"/>
+<rect id="optfold_C" x="599.0" y="70" width="4" height="118" fill="#C8B88A"/>
+<circle id="h_C_0" cx="586.2" cy="94.6" r="7" fill="#222222"/>
+<circle id="h_C_1" cx="615.8" cy="94.6" r="7" fill="#222222"/>
+<circle id="h_C_2" cx="556.8" cy="158.5" r="7" fill="#222222"/>
+<circle id="h_C_3" cx="645.2" cy="158.5" r="7" fill="#222222"/>
+<text x="747.0" y="58" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">D</text>
+<rect id="opt_D" x="688" y="70" width="118" height="118" fill="#FFF4D2" stroke="#222222" stroke-width="5"/>
+<rect id="optfold_D" x="745.0" y="70" width="4" height="118" fill="#C8B88A"/>
+<circle id="h_D_0" cx="702.8" cy="94.6" r="7" fill="#222222"/>
+<circle id="h_D_1" cx="791.2" cy="94.6" r="7" fill="#222222"/>
+<circle id="h_D_2" cx="732.2" cy="158.5" r="7" fill="#222222"/>
+<circle id="h_D_3" cx="761.8" cy="158.5" r="7" fill="#222222"/>
+<text x="893.0" y="58" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">E</text>
+<rect id="opt_E" x="834" y="70" width="118" height="118" fill="#FFF4D2" stroke="#222222" stroke-width="5"/>
+<rect id="optfold_E" x="891.0" y="70" width="4" height="118" fill="#C8B88A"/>
+<circle id="h_E_0" cx="863.5" cy="94.6" r="7" fill="#222222"/>
+<circle id="h_E_1" cx="922.5" cy="94.6" r="7" fill="#222222"/>
+<circle id="h_E_2" cx="863.5" cy="158.5" r="7" fill="#222222"/>
+<circle id="h_E_3" cx="922.5" cy="158.5" r="7" fill="#222222"/>
+</svg>

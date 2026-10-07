@@ -1,0 +1,50 @@
+{
+  "id": "q10",
+  "number": 10,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "A farmer has two dogs, one cat and one rabbit. How many more cats does she need so that exactly half of all her animals are cats?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "1",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "2",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "3",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "5",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q10_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q10_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1000,
+      "height": 340
+    }
+  ]
+}

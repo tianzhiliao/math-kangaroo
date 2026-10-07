@@ -67,8 +67,9 @@ npm start
 
 | Variable            | Description                                      |
 | ------------------- | ------------------------------------------------ |
-| `RELEASE_DATA_PATH` | Absolute path to `release-data` (Docker / prod). |
-| `FASTAPI_BASE_URL`  | Base URL for the FastAPI backend proxy.          |
+| `RELEASE_DATA_PATH`        | Absolute path to `release-data` (Docker / prod). |
+| `GENERATED_QUESTIONS_PATH` | Absolute path to `generated` (Docker / prod).    |
+| `FASTAPI_BASE_URL`         | Base URL for the FastAPI backend proxy.          |
 
 ## API surface implemented in this app
 
@@ -77,6 +78,8 @@ These route handlers are implemented in `apps/web/app/api`:
 - `/api/exams`
 - `/api/exams/[examId]`
 - `/api/exams/[examId]/raw/[...path]`
+- `/api/generated/[examId]/[questionId]`
+- `/api/generated/[examId]/[questionId]/raw/[...path]`
 - `/api/practice-bank`
 - `/api/ai/explanation`
 - `/api/ai/tts`

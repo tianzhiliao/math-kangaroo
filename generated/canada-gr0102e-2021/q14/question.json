@@ -1,0 +1,50 @@
+{
+  "id": "q14",
+  "number": 14,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Every time the cook has 3 pears, she turns them into 1 orange. Every time she has 3 oranges, she turns them into 1 pear. She starts with the fruits shown above: 5 pears and 4 oranges. She keeps turning fruits until she cannot turn any more. Which picture shows what she has left?",
+  "answer": "A",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q14_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q14_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1200,
+      "height": 640
+    }
+  ]
+}

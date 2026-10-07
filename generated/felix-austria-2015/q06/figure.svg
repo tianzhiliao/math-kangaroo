@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="460" viewBox="0 0 1560 460">
+<rect width="1560" height="460" fill="#FFFFFF"/>
+<rect x="40" y="40" width="200" height="200" rx="18" fill="#F4F1E8" stroke="#222222" stroke-width="5"/>
+<polygon points="71,117 117,117 163,117 209,117 209,163 163,163 117,163 71,163" fill="#5BA3D4" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="140.0" y="282" text-anchor="middle" font-family="Noto Serif, serif" font-size="36" fill="#222222">A</text>
+<rect x="270" y="40" width="200" height="200" rx="18" fill="#F4F1E8" stroke="#222222" stroke-width="5"/>
+<polygon points="347,71 393,71 393,117 347,117 347,163 301,163 301,117 301,71" fill="#5BA3D4" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="370.0" y="282" text-anchor="middle" font-family="Noto Serif, serif" font-size="36" fill="#222222">B</text>
+<rect x="500" y="40" width="200" height="200" rx="18" fill="#F4F1E8" stroke="#222222" stroke-width="5"/>
+<polygon points="577,71 623,71 623,117 623,163 623,209 577,209 577,163 531,163 531,117 577,117" fill="#5BA3D4" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="600.0" y="282" text-anchor="middle" font-family="Noto Serif, serif" font-size="36" fill="#222222">C</text>
+<rect x="730" y="40" width="200" height="200" rx="18" fill="#F4F1E8" stroke="#222222" stroke-width="5"/>
+<polygon points="807,71 853,71 853,117 853,163 807,163 761,163 761,117 761,71" fill="#5BA3D4" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="830.0" y="282" text-anchor="middle" font-family="Noto Serif, serif" font-size="36" fill="#222222">D</text>
+<rect x="960" y="40" width="200" height="200" rx="18" fill="#F4F1E8" stroke="#222222" stroke-width="5"/>
+<polygon points="991,71 1037,71 1037,117 1083,117 1083,163 1129,163 1129,209 1083,209 1083,163 1037,163 1037,117 991,117" fill="#5BA3D4" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="1060.0" y="282" text-anchor="middle" font-family="Noto Serif, serif" font-size="36" fill="#222222">E</text>
+<rect x="1280" y="40" width="200" height="200" rx="18" fill="#F4F1E8" stroke="#222222" stroke-width="5"/>
+<polygon points="1311,117 1357,117 1357,163 1403,163 1403,209 1357,209 1311,209 1311,163" fill="#5BA3D4" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="420" viewBox="0 0 1180 420">
+<rect width="1180" height="420" fill="#FFFFFF"/>
+<rect x="20" y="30" width="560" height="360" rx="16" fill="#E7F6D4" stroke="#222222" stroke-width="6"/>
+<rect x="600" y="30" width="560" height="360" rx="16" fill="#FFF1CC" stroke="#222222" stroke-width="6"/>
+<ellipse cx="110" cy="208" rx="42" ry="50" fill="#7EC84A" stroke="#222222" stroke-width="6"/>
+<ellipse cx="116" cy="164" rx="16" ry="20" fill="#7EC84A" stroke="#222222" stroke-width="6"/>
+<rect x="118" y="132" width="8" height="22" rx="3" fill="#6B4A2A" stroke="#222222" stroke-width="3"/>
+<ellipse cx="138" cy="142" rx="16" ry="8" fill="#4E9A32" stroke="#222222" stroke-width="3" transform="rotate(-30 138 142)"/>
+<rect x="204" y="172" width="12" height="56" rx="2" fill="#222222"/>
+<rect x="182" y="194" width="56" height="12" rx="2" fill="#222222"/>
+<rect x="274" y="174" width="92" height="52" rx="26" fill="#E8A838" stroke="#222222" stroke-width="6"/>
+<rect x="292" y="196" width="56" height="8" rx="4" fill="#F6D48A"/>
+<rect x="404" y="184" width="52" height="10" rx="2" fill="#222222"/>
+<rect x="404" y="206" width="52" height="10" rx="2" fill="#222222"/>
+<text x="490" y="218" font-family="Noto Serif" font-size="64" font-weight="700" fill="#222222">8</text>
+<ellipse cx="690" cy="208" rx="42" ry="50" fill="#7EC84A" stroke="#222222" stroke-width="6"/>
+<ellipse cx="696" cy="164" rx="16" ry="20" fill="#7EC84A" stroke="#222222" stroke-width="6"/>
+<rect x="698" y="132" width="8" height="22" rx="3" fill="#6B4A2A" stroke="#222222" stroke-width="3"/>
+<ellipse cx="718" cy="142" rx="16" ry="8" fill="#4E9A32" stroke="#222222" stroke-width="3" transform="rotate(-30 718 142)"/>
+<rect x="784" y="172" width="12" height="56" rx="2" fill="#222222"/>
+<rect x="762" y="194" width="56" height="12" rx="2" fill="#222222"/>
+<rect x="854" y="124" width="92" height="52" rx="26" fill="#E8A838" stroke="#222222" stroke-width="6"/>
+<rect x="872" y="146" width="56" height="8" rx="4" fill="#F6D48A"/>
+<rect x="854" y="184" width="92" height="52" rx="26" fill="#E8A838" stroke="#222222" stroke-width="6"/>
+<rect x="872" y="206" width="56" height="8" rx="4" fill="#F6D48A"/>
+<rect x="854" y="244" width="92" height="52" rx="26" fill="#E8A838" stroke="#222222" stroke-width="6"/>
+<rect x="872" y="266" width="56" height="8" rx="4" fill="#F6D48A"/>
+<rect x="984" y="184" width="52" height="10" rx="2" fill="#222222"/>
+<rect x="984" y="206" width="52" height="10" rx="2" fill="#222222"/>
+<text x="1055" y="218" font-family="Noto Serif" font-size="64" font-weight="700" fill="#222222">14</text>
+</svg>

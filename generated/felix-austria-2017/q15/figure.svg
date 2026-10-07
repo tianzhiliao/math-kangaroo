@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="640" viewBox="0 0 1100 640">
+<rect width="1100" height="640" fill="#FFFFFF"/>
+<rect x="60.0" y="40.0" width="180.0" height="90.0" fill="#FFF3C9" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="150.0" y="100.0" fill="#222222" font-family="Noto Serif" font-size="40" font-weight="700" text-anchor="middle">242</text>
+<rect x="310.0" y="40.0" width="180.0" height="90.0" fill="#FFF3C9" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="400.0" y="100.0" fill="#222222" font-family="Noto Serif" font-size="40" font-weight="700" text-anchor="middle">355</text>
+<rect x="560.0" y="40.0" width="180.0" height="90.0" fill="#FFF3C9" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="650.0" y="100.0" fill="#222222" font-family="Noto Serif" font-size="40" font-weight="700" text-anchor="middle">523</text>
+<rect x="810.0" y="40.0" width="180.0" height="90.0" fill="#FFF3C9" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="900.0" y="100.0" fill="#222222" font-family="Noto Serif" font-size="40" font-weight="700" text-anchor="middle">454</text>
+<rect x="60.0" y="220.0" width="180.0" height="90.0" fill="#D9F3D4" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="150.0" y="280.0" fill="#222222" font-family="Noto Serif" font-size="40" font-weight="700" text-anchor="middle">XYX</text>
+<rect x="310.0" y="220.0" width="180.0" height="90.0" fill="#D9F3D4" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="400.0" y="280.0" fill="#222222" font-family="Noto Serif" font-size="40" font-weight="700" text-anchor="middle">MNN</text>
+<rect x="560.0" y="220.0" width="180.0" height="90.0" fill="#D9F3D4" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="650.0" y="280.0" fill="#222222" font-family="Noto Serif" font-size="40" font-weight="700" text-anchor="middle">NXM</text>
+<rect x="810.0" y="220.0" width="180.0" height="90.0" fill="#F8D5E4" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="900.0" y="280.0" fill="#222222" font-family="Noto Serif" font-size="40" font-weight="700" text-anchor="middle">?</text>
+</svg>

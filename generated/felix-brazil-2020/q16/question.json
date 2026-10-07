@@ -1,0 +1,37 @@
+{
+  "id": "q16",
+  "number": 16,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Grandpa has just baked 27 biscuits and wants to give the same number of them to each of his five grandchildren, eating what is left over. At least how many biscuits will he have left to eat?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "1",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "2",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "3",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "5",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

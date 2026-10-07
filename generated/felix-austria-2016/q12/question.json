@@ -1,0 +1,50 @@
+{
+  "id": "q12",
+  "number": 12,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Lina has pieces of cardboard that all look like the shape at the top. Which of the shapes below can she not build from those pieces?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q12_stem"
+  ],
+  "assets": [
+    {
+      "id": "q12_stem",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1500,
+      "height": 640
+    }
+  ]
+}

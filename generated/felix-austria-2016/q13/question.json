@@ -1,0 +1,50 @@
+{
+  "id": "q13",
+  "number": 13,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Four birds sit on a wire. Some look to the left and some look to the right. Each bird whistles once for every bird it can see in front of it. For example, the second bird whistles once. How many whistles are there altogether?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "7",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "9",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "10",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q13_stem"
+  ],
+  "assets": [
+    {
+      "id": "q13_stem",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 980,
+      "height": 360
+    }
+  ]
+}

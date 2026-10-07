@@ -1,0 +1,37 @@
+{
+  "id": "q16",
+  "number": 16,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Sam finished fifth in a swimming race. There were three swimmers between Sam and last place. How many swimmers were in the race?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "7",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "9",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "10",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "11",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

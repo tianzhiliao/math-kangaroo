@@ -1,0 +1,50 @@
+{
+  "id": "q15",
+  "number": 15,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "The road from Ben's house to Sara's house is 15 km long. The road from Sara's house to Leo's house is 18 km long. The road from the crossing to Sara's house is 6 km long. How long is the road from Ben's house to Leo's house?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "12 km",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "15 km",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "18 km",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "21 km",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "24 km",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q15_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q15_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 900,
+      "height": 520
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "q09",
+  "number": 9,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "The fox wants to visit the hen. It must not step on a square with water. Each arrow is one jump to a neighbouring square. Which path can the fox take?",
+  "answer": "A",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q09_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q09_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1100,
+      "height": 760
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "q05",
+  "number": 5,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "Which piece fills the empty square?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q05_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q05_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1100,
+      "height": 430
+    }
+  ]
+}

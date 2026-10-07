@@ -1,0 +1,50 @@
+{
+  "id": "q14",
+  "number": 14,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Maria wants to write whole numbers in the squares so that the sum of the numbers in any three consecutive squares is always 10. She has already written one number. What number should she write in the gray square?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "1",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "3",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "5",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "7",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "9",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q14_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q14_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 520,
+      "height": 150
+    }
+  ]
+}

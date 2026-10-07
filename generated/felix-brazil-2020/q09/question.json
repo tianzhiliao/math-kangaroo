@@ -1,0 +1,110 @@
+{
+  "id": "q09",
+  "number": 9,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Which of the tiles below is NOT part of the wall shown?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": [
+        "q09_option_A_01"
+      ]
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": [
+        "q09_option_B_01"
+      ]
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": [
+        "q09_option_C_01"
+      ]
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": [
+        "q09_option_D_01"
+      ]
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": [
+        "q09_option_E_01"
+      ]
+    }
+  ],
+  "shared_asset_refs": [
+    "q09_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q09_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 270,
+      "height": 270
+    },
+    {
+      "id": "q09_option_A_01",
+      "path": "choice-a.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 110,
+      "height": 110
+    },
+    {
+      "id": "q09_option_B_01",
+      "path": "choice-b.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 110,
+      "height": 110
+    },
+    {
+      "id": "q09_option_C_01",
+      "path": "choice-c.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 110,
+      "height": 110
+    },
+    {
+      "id": "q09_option_D_01",
+      "path": "choice-d.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 110,
+      "height": 110
+    },
+    {
+      "id": "q09_option_E_01",
+      "path": "choice-e.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "option",
+      "width": 110,
+      "height": 110
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360">
+  <rect width="980" height="360" fill="#FFFFFF"/>
+  <rect x="30" y="28" width="70" height="70" fill="#F6C9D4" stroke="#222222" stroke-width="4"/>
+  <polygon points="140,98 210,98 140,28" fill="#B7E2D2" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="250,98 320,98 320,28" fill="#F8E3A8" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+  <g font-family="Liberation Serif" font-size="28" fill="#222222" text-anchor="middle">
+    <text x="90" y="300">A</text>
+    <text x="250" y="300">B</text>
+    <text x="400" y="300">C</text>
+    <text x="590" y="300">D</text>
+    <text x="820" y="300">E</text>
+  </g>
+  <polygon points="40,250 130,250 160,180 70,180" fill="#C9D7F5" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="250.0,168.0 289.9,197.0 274.7,244.0 225.3,244.0 210.1,197.0" fill="#E6C8F2" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="400" cy="215" r="40" fill="#F6D7BE" stroke="#222222" stroke-width="4"/>
+  <rect x="500" y="180" width="140" height="70" fill="#D7E8C8" stroke="#222222" stroke-width="4"/>
+  <polygon points="760,250 880,250 820,146" fill="#F8C9B0" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+</svg>

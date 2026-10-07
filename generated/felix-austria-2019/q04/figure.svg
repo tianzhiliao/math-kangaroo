@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="240" viewBox="0 0 1500 240">
+<rect width="1500" height="240" fill="#FFFFFF"/>
+<rect x="36" y="78" width="78" height="110" rx="4" fill="#E6D3B0" stroke="#222222" stroke-width="4"/>
+<rect x="56" y="118" width="38" height="70" fill="#C4A574" stroke="#222222" stroke-width="3"/>
+<text x="75" y="214" font-family="Liberation Serif" font-size="26" text-anchor="middle" fill="#222222">front</text>
+<circle cx="200" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
+<rect x="180" y="102" width="40" height="48" rx="8" fill="#F8E3A8" stroke="#222222" stroke-width="3"/>
+<circle cx="308" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
+<rect x="288" y="102" width="40" height="48" rx="8" fill="#C9D7F5" stroke="#222222" stroke-width="3"/>
+<circle cx="416" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
+<rect x="396" y="102" width="40" height="48" rx="8" fill="#E6C8F2" stroke="#222222" stroke-width="3"/>
+<circle cx="524" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
+<rect x="504" y="102" width="40" height="48" rx="8" fill="#F6C9D4" stroke="#222222" stroke-width="3"/>
+<text x="524" y="48" font-family="Liberation Serif" font-size="26" text-anchor="middle" fill="#222222">Pia</text>
+<circle cx="632" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
+<rect x="612" y="102" width="40" height="48" rx="8" fill="#B7E2D2" stroke="#222222" stroke-width="3"/>
+<circle cx="740" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
+<rect x="720" y="102" width="40" height="48" rx="8" fill="#F8E3A8" stroke="#222222" stroke-width="3"/>
+<circle cx="848" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
+<rect x="828" y="102" width="40" height="48" rx="8" fill="#C9D7F5" stroke="#222222" stroke-width="3"/>
+<circle cx="956" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
+<rect x="936" y="102" width="40" height="48" rx="8" fill="#E6C8F2" stroke="#222222" stroke-width="3"/>
+<circle cx="1064" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
+<rect x="1044" y="102" width="40" height="48" rx="8" fill="#B7E2D2" stroke="#222222" stroke-width="3"/>
+<text x="1064" y="48" font-family="Liberation Serif" font-size="26" text-anchor="middle" fill="#222222">Leo</text>
+<circle cx="1172" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
+<rect x="1152" y="102" width="40" height="48" rx="8" fill="#F8E3A8" stroke="#222222" stroke-width="3"/>
+<circle cx="1280" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
+<rect x="1260" y="102" width="40" height="48" rx="8" fill="#C9D7F5" stroke="#222222" stroke-width="3"/>
+<text x="1380" y="214" font-family="Liberation Serif" font-size="26" text-anchor="middle" fill="#222222">back</text>
+</svg>

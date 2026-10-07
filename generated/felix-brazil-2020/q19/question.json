@@ -1,0 +1,37 @@
+{
+  "id": "q19",
+  "number": 19,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Pedro bought 18 stickers, 10 of them round and the rest square. Half of the stickers were blue and half were red. Among the square stickers, only one is not blue. How many red round stickers did Pedro buy?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "5",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "7",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "9",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

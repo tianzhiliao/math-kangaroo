@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="558" height="558" viewBox="0 0 558 558">
+<rect width="558" height="558" fill="#FFFFFF"/>
+<rect x="36" y="36" width="6" height="486" fill="#222222"/>
+<rect x="36" y="36" width="486" height="6" fill="#222222"/>
+<rect x="156" y="36" width="6" height="486" fill="#222222"/>
+<rect x="36" y="156" width="486" height="6" fill="#222222"/>
+<rect x="276" y="36" width="6" height="486" fill="#222222"/>
+<rect x="36" y="276" width="486" height="6" fill="#222222"/>
+<rect x="396" y="36" width="6" height="486" fill="#222222"/>
+<rect x="36" y="396" width="486" height="6" fill="#222222"/>
+<rect x="516" y="36" width="6" height="486" fill="#222222"/>
+<rect x="36" y="516" width="486" height="6" fill="#222222"/>
+<circle cx="219.0" cy="99.0" r="36" fill="#F0DCC8" stroke="#222222" stroke-width="6"/>
+<circle cx="459.0" cy="339.0" r="36" fill="#F0DCC8" stroke="#222222" stroke-width="6"/>
+<circle cx="459.0" cy="459.0" r="36" fill="#F0DCC8" stroke="#222222" stroke-width="6"/>
+<circle cx="219.0" cy="339.0" r="36" fill="#F0DCC8" stroke="#222222" stroke-width="6"/>
+<circle cx="99.0" cy="99.0" r="36" fill="#F0DCC8" stroke="#222222" stroke-width="6"/>
+<circle cx="99.0" cy="219.0" r="36" fill="#F0DCC8" stroke="#222222" stroke-width="6"/>
+<circle cx="339.0" cy="459.0" r="36" fill="#F0DCC8" stroke="#222222" stroke-width="6"/>
+<text x="339.0" y="115.0" text-anchor="middle" font-family="Noto Serif, serif" font-size="54" fill="#222222">A</text>
+<text x="339.0" y="235.0" text-anchor="middle" font-family="Noto Serif, serif" font-size="54" fill="#222222">B</text>
+<text x="459.0" y="235.0" text-anchor="middle" font-family="Noto Serif, serif" font-size="54" fill="#222222">C</text>
+<text x="99.0" y="355.0" text-anchor="middle" font-family="Noto Serif, serif" font-size="54" fill="#222222">D</text>
+<text x="99.0" y="475.0" text-anchor="middle" font-family="Noto Serif, serif" font-size="54" fill="#222222">E</text>
+</svg>

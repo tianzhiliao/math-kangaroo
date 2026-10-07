@@ -1,0 +1,50 @@
+{
+  "id": "q14",
+  "number": 14,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Four ladybirds are shown at the top. A ladybird may sit on a flower only when both of these are true: the difference between the spots on its two wings equals the number of leaves, and the total number of spots equals the number of petals. Which flower is without a ladybird?",
+  "answer": "E",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q14_stem"
+  ],
+  "assets": [
+    {
+      "id": "q14_stem",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1500,
+      "height": 860
+    }
+  ]
+}

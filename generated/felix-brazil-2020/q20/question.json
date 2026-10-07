@@ -1,0 +1,50 @@
+{
+  "id": "q20",
+  "number": 20,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Six different numbers, chosen from the integers 1 to 9, are written on the faces of a cube, one number per face. The sum of the numbers on each pair of opposite faces is always the same. The picture shows three faces that meet at one corner. Which of the following numbers could be written on the face opposite 8?",
+  "answer": "A",
+  "choices": [
+    {
+      "label": "A",
+      "text": "2",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "5",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "9",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q20_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q20_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 420,
+      "height": 380
+    }
+  ]
+}
