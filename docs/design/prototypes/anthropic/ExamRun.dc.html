@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Exam in progress</title>
+<script src="../support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="min-height: 900px; background: #faf9f5; color: #141413; font-family: 'Source Serif 4', Georgia, serif; display: flex; flex-wrap: wrap;">
+
+  <aside style="flex: 1 1 264px; max-width: 100%; box-sizing: border-box; background: #f0eee6; border-right: 1px solid rgba(20,20,19,0.1); padding: 24px; display: flex; flex-direction: column; gap: 24px; font-family: 'Inter Tight', sans-serif;">
+    <a href="ExamPicker.dc.html" style="font-size: 15px; font-weight: 500; color: #5e5d59; text-decoration: none;">← Leave exam</a>
+    <div style="display: flex; flex-direction: column; gap: 4px;">
+      <p style="margin: 0; font-size: 14px; font-weight: 500; color: #5e5d59;">Timed exam</p>
+      <p style="margin: 0; font-size: 20px; line-height: 1.3; font-weight: 700;">Level P · Brazil 2020</p>
+    </div>
+
+    <div style="background: #ffffff; border: 1px solid rgba(20,20,19,0.1); border-radius: 8px; padding: 16px; display: flex; flex-direction: column; gap: 10px;">
+      <div style="display: flex; justify-content: space-between; align-items: baseline;">
+        <span style="font-size: 14px; font-weight: 500; color: #5e5d59;">Time left</span>
+        <span style="font-size: 28px; font-weight: 600; font-variant-numeric: tabular-nums;">31:24</span>
+      </div>
+      <div role="progressbar" aria-label="Exam time remaining" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70" style="height: 6px; border-radius: 9999px; background: rgba(20,20,19,0.1);">
+        <div style="width: 70%; height: 6px; border-radius: 9999px; background: #141413;"></div>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; justify-content: space-between; align-items: baseline;">
+        <h2 style="margin: 0; font-size: 14px; font-weight: 500; color: #5e5d59;">Questions</h2>
+        <span style="font-size: 14px; font-weight: 500;">5 of 24 answered</span>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px;">
+        <sc-for list="{{chips}}" as="c" hint-placeholder-count="24">
+          <button type="button" aria-label="{{c.aria}}" style="{{c.style}}">{{c.n}}</button>
+        </sc-for>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 16px; font-size: 13px; font-weight: 500; color: #5e5d59;">
+        <span style="display: inline-flex; align-items: center; gap: 6px;"><span style="width: 12px; height: 12px; border-radius: 4px; background: #141413;"></span>Now</span>
+        <span style="display: inline-flex; align-items: center; gap: 6px;"><span style="width: 12px; height: 12px; border-radius: 4px; background: #e3dacc;"></span>Answered</span>
+        <span style="display: inline-flex; align-items: center; gap: 6px;"><span style="width: 10px; height: 10px; border-radius: 4px; background: #ffffff; border: 1px solid rgba(20,20,19,0.2);"></span>Not yet</span>
+      </div>
+    </div>
+
+    <div style="margin-top: auto; display: flex; flex-direction: column; gap: 8px;">
+      <button type="button" style="min-height: 52px; border-radius: 9999px; border: 1px solid #141413; background: transparent; color: #141413; font-family: 'Inter Tight', sans-serif; font-size: 16px; font-weight: 500; letter-spacing: -0.005em;">Submit exam</button>
+      <p style="margin: 0; text-align: center; font-size: 13px; font-weight: 500; color: #5e5d59;">You can still change answers before you submit.</p>
+    </div>
+  </aside>
+
+  <main style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column;">
+    <div style="flex: 1; padding: 32px; display: flex; justify-content: center;">
+      <article style="width: 100%; max-width: 880px; display: flex; flex-direction: column; gap: 28px;">
+        <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start;">
+          <div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 14px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px;">
+              <p style="margin: 0; font-family: 'Inter Tight', sans-serif; font-size: 15px; font-weight: 500; color: #5e5d59;">Question 2 · 3 points</p>
+              <button type="button" aria-label="Listen to question" style="width: 48px; height: 48px; border-radius: 9999px; border: 1px solid rgba(20,20,19,0.2); background: #ffffff; color: #141413; display: flex; align-items: center; justify-content: center;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18 6a8 8 0 0 1 0 12"/></svg>
+              </button>
+            </div>
+            <p style="margin: 0; font-size: 26px; line-height: 1.4;">Julia has 5 pieces of plastic and has stacked these pieces on a table, as shown beside. What was the second piece she put on the table?</p>
+          </div>
+          <figure style="margin: 0; flex: 0 0 auto; background: #ffffff; border: 1px solid rgba(20,20,19,0.1); border-radius: 8px; padding: 12px;">
+            <img src="../assets/stack.svg" alt="Five stacked plastic pieces" style="display: block; width: 168px; height: 200px; object-fit: contain;">
+          </figure>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; padding-top: 24px; border-top: 1px solid rgba(20,20,19,0.1);">
+          <sc-for list="{{choices}}" as="o" hint-placeholder-count="5">
+            <button type="button" aria-pressed="{{o.pressed}}" style="{{o.card}}">
+              <span style="{{o.badge}}">{{o.label}}</span>
+              <img src="{{o.src}}" alt="{{o.alt}}" style="display: block; width: 100%; height: 104px; object-fit: contain;">
+            </button>
+          </sc-for>
+        </div>
+      </article>
+    </div>
+
+    <footer style="border-top: 1px solid rgba(20,20,19,0.1); background: #faf9f5; padding: 16px 32px;">
+      <div style="max-width: 880px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; font-family: 'Inter Tight', sans-serif;">
+        <button type="button" style="min-height: 52px; min-width: 140px; padding: 0 28px; border-radius: 9999px; border: 1px solid #141413; background: transparent; color: #141413; font: inherit; font-size: 16px; font-weight: 500;">← Previous</button>
+        <span style="font-size: 15px; font-weight: 500; color: #5e5d59;">2 of 24</span>
+        <button type="button" style="min-height: 52px; min-width: 140px; padding: 0 28px; border-radius: 9999px; border: 1px solid #141413; background: #141413; color: #faf9f5; font: inherit; font-size: 16px; font-weight: 500;">Next →</button>
+      </div>
+    </footer>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const answered = { 1: 1, 2: 1, 3: 1, 4: 1, 5: 1 };
+    const base = 'height: 48px; border-radius: 8px; font-family: "Inter Tight", sans-serif; font-size: 17px; font-weight: 600; font-variant-numeric: tabular-nums; box-sizing: border-box;';
+    const chips = [];
+    for (let n = 1; n <= 24; n++) {
+      let s;
+      if (n === 2) s = 'background: #141413; color: #faf9f5; border: 1px solid #141413;';
+      else if (answered[n]) s = 'background: #e3dacc; color: #141413; border: 1px solid #e3dacc;';
+      else s = 'background: #ffffff; color: #5e5d59; border: 1px solid rgba(20,20,19,0.1);';
+      chips.push({ n, aria: 'Question ' + n, style: base + s });
+    }
+    const imgs = {
+      A: '../assets/choice-a.svg', B: '../assets/choice-b.svg',
+      C: '../assets/choice-c.svg', D: '../assets/choice-d.svg',
+      E: '../assets/choice-e.svg'
+    };
+    const choices = ['A', 'B', 'C', 'D', 'E'].map((l) => {
+      const sel = l === 'B';
+      return {
+        label: l, src: imgs[l], alt: 'Option ' + l, pressed: sel ? 'true' : 'false',
+        card: 'display: flex; flex-direction: column; align-items: flex-start; gap: 8px; padding: 12px; border-radius: 8px; cursor: pointer; text-align: left; ' +
+          (sel ? 'background: #f5f4ed; border: 2px solid #141413;' : 'background: #ffffff; border: 2px solid rgba(20,20,19,0.1);'),
+        badge: 'width: 40px; height: 40px; border-radius: 9999px; display: flex; align-items: center; justify-content: center; font-family: "Inter Tight", sans-serif; font-size: 17px; font-weight: 600; box-sizing: border-box; ' +
+          (sel ? 'background: #141413; color: #faf9f5; border: 1px solid #141413;' : 'background: transparent; color: #141413; border: 1px solid #141413;')
+      };
+    });
+    return { chips, choices };
+  }
+}
+</script>
+</body>
+</html>

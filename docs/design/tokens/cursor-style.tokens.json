@@ -1,0 +1,1254 @@
+{
+  "name": "Cursor Style",
+  "version": 1,
+  "meta": {
+    "source": "local",
+    "repo": "notes/design-patterns",
+    "ref": "master@2d3e223",
+    "package": "cursor",
+    "paths": {
+      "tokens": [
+        "cursor/02-tokens/tokens.json",
+        "cursor/02-tokens/cursor-theme.css",
+        "cursor/02-tokens/tailwind-preset.css"
+      ],
+      "docs": [
+        "cursor/01-design-language",
+        "cursor/02-tokens",
+        "cursor/03-components",
+        "cursor/04-page-patterns",
+        "cursor/05-subsystems"
+      ]
+    },
+    "measured": "cursor.com, 2026-08-12",
+    "synced": "2026-10-05"
+  },
+  "color": {
+    "themes": [
+      {
+        "id": "light",
+        "name": "Light"
+      },
+      {
+        "id": "dark",
+        "name": "Dark"
+      }
+    ],
+    "tokens": [
+      {
+        "name": "color-theme-bg",
+        "value": {
+          "light": "#f7f7f4",
+          "dark": "#14120b"
+        },
+        "usage": "★ 锚点：页面底。暖白纸 / 偏橄榄的暖黑——都不是中性灰，不要换成 #fff / #fafafa / #0a0a0a。"
+      },
+      {
+        "name": "color-theme-fg",
+        "value": {
+          "light": "#26251e",
+          "dark": "#edecec"
+        },
+        "usage": "★ 锚点：前景。暖近黑，不是纯黑。正文与标题（亮 14.3:1，暗 15.9:1）。也是主按钮底。"
+      },
+      {
+        "name": "color-theme-fg-02",
+        "value": {
+          "light": "#3b3a33",
+          "dark": "#d7d6d5"
+        },
+        "usage": "锚点：前景次级，只用于主按钮 hover——按钮“退后”而不是“前进”。"
+      },
+      {
+        "name": "color-theme-accent",
+        "value": "#f54e00",
+        "usage": "★ 全站唯一强调色，亮暗相同。一屏 ≤2–3 次：文字链接按钮、活跃导航、博客文末 ■。不做主 CTA。⚠ 作文字时亮底仅 3.3:1（源值），暗底 5.3:1。"
+      },
+      {
+        "name": "color-theme-card-hex",
+        "value": {
+          "light": "#f2f1ed",
+          "dark": "#1b1913"
+        },
+        "usage": "默认卡片面（实色，不用透明叠加，嵌套不发脏）。也是 ghost 按钮 hover 底、行内 code 底。"
+      },
+      {
+        "name": "color-theme-card-01-hex",
+        "value": {
+          "light": "#f0efeb",
+          "dark": "#1d1b15"
+        },
+        "usage": "卡片层 01。"
+      },
+      {
+        "name": "color-theme-card-02-hex",
+        "value": {
+          "light": "#ebeae5",
+          "dark": "#201e18"
+        },
+        "usage": "卡片层 02：嵌套卡片的内层（card--bg-02）。"
+      },
+      {
+        "name": "color-theme-card-03-hex",
+        "value": {
+          "light": "#e6e5e0",
+          "dark": "#26241e"
+        },
+        "usage": "卡片层 03：次级按钮底、禁用态、嵌套分段控件底。"
+      },
+      {
+        "name": "color-theme-card-04-hex",
+        "value": {
+          "light": "#e1e0db",
+          "dark": "#2b2923"
+        },
+        "usage": "卡片层 04：次级按钮 hover。"
+      },
+      {
+        "name": "color-theme-card-warm-hex",
+        "value": {
+          "light": "#f3ede6",
+          "dark": "#1c1713"
+        },
+        "usage": "偏暖的特殊卡片。"
+      },
+      {
+        "name": "color-theme-card-hover-hex",
+        "value": {
+          "light": "#ebeae5",
+          "dark": "#201e18"
+        },
+        "usage": "卡片 hover：往下跳一档实色（= card-02）。不位移、不加阴影。"
+      },
+      {
+        "name": "color-theme-card-hover-light-hex",
+        "value": {
+          "light": "#f0efeb",
+          "dark": "#1d1b15"
+        },
+        "usage": "特性卡 hover：往上跳一档（变浅），用在深底区块上。"
+      },
+      {
+        "name": "color-theme-text",
+        "value": "{color-theme-fg}",
+        "usage": "文本 100%：标题与正文。卡片里只有标题是 100%。"
+      },
+      {
+        "name": "color-theme-text-sec",
+        "value": {
+          "light": "#26251e99",
+          "dark": "#edecec99"
+        },
+        "usage": "文本 60%：元信息、摘要、署名、eyebrow、价格。⚠ 源值：亮底约 4.1:1（略低于 4.5:1），暗底 6.3:1。源站写作 color-mix(in oklab, var(--color-theme-fg) 60%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-text-mid",
+        "value": {
+          "light": "#26251e80",
+          "dark": "#edecec80"
+        },
+        "usage": "文本 50%：prose 锚点 #。源站写作 color-mix(in oklab, var(--color-theme-fg) 50%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-text-tertiary",
+        "value": {
+          "light": "#26251e66",
+          "dark": "#edecec66"
+        },
+        "usage": "文本 40%：占位符、列表方块符号、极次要元信息。⚠ 亮底仅 2.4:1，不给必须被读的文字。源站写作 color-mix(in oklab, var(--color-theme-fg) 40%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-border-01",
+        "value": {
+          "light": "#26251e06",
+          "dark": "#edecec06"
+        },
+        "usage": "★ 默认 hairline：fg 2.5%，几乎看不见——结构靠暗示。卡片 ::before 边框、行内 code 边。源站写作 color-mix(in oklab, var(--color-theme-fg) 2.5%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-border-01-5",
+        "value": {
+          "light": "#26251e0d",
+          "dark": "#edecec0d"
+        },
+        "usage": "fg 5%：浮层（card--flyout）边框，比普通卡片明显。源站写作 color-mix(in oklab, var(--color-theme-fg) 5%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-border-02",
+        "value": {
+          "light": "#26251e1a",
+          "dark": "#edecec1a"
+        },
+        "usage": "fg 10%：分隔线、表格线、prose hr、引用竖线。源站写作 color-mix(in oklab, var(--color-theme-fg) 10%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-border-02-5",
+        "value": {
+          "light": "#26251e33",
+          "dark": "#edecec33"
+        },
+        "usage": "fg 20%：ghost 按钮描边。源站写作 color-mix(in oklab, var(--color-theme-fg) 20%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-border-03",
+        "value": {
+          "light": "#26251e99",
+          "dark": "#edecec99"
+        },
+        "usage": "fg 60%：次级按钮描边、quadtree 描边——唯一明确可见的边。源站写作 color-mix(in oklab, var(--color-theme-fg) 60%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-fg-01",
+        "value": {
+          "light": "#26251e03",
+          "dark": "#edecec03"
+        },
+        "usage": "前景透明度阶梯 1%：叠加层与微弱背景。源站写作 color-mix(in oklab, var(--color-theme-fg) 1%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-fg-02-5",
+        "value": {
+          "light": "#26251e06",
+          "dark": "#edecec06"
+        },
+        "usage": "前景透明度阶梯 2.5%：叠加层与微弱背景。源站写作 color-mix(in oklab, var(--color-theme-fg) 2.5%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-fg-05",
+        "value": {
+          "light": "#26251e0d",
+          "dark": "#edecec0d"
+        },
+        "usage": "前景透明度阶梯 5%：叠加层与微弱背景。源站写作 color-mix(in oklab, var(--color-theme-fg) 5%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-fg-07-5",
+        "value": {
+          "light": "#26251e13",
+          "dark": "#edecec13"
+        },
+        "usage": "前景透明度阶梯 7.5%：叠加层与微弱背景。源站写作 color-mix(in oklab, var(--color-theme-fg) 7.5%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-fg-08",
+        "value": {
+          "light": "#26251e14",
+          "dark": "#edecec14"
+        },
+        "usage": "前景透明度阶梯 8%：叠加层与微弱背景。源站写作 color-mix(in oklab, var(--color-theme-fg) 8%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-fg-10",
+        "value": {
+          "light": "#26251e1a",
+          "dark": "#edecec1a"
+        },
+        "usage": "前景透明度阶梯 10%：叠加层与微弱背景。分段控件选中滑块（半透明，任何底色上都成立）。源站写作 color-mix(in oklab, var(--color-theme-fg) 10%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-fg-15",
+        "value": {
+          "light": "#26251e26",
+          "dark": "#edecec26"
+        },
+        "usage": "前景透明度阶梯 15%：叠加层与微弱背景。源站写作 color-mix(in oklab, var(--color-theme-fg) 15%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-fg-20",
+        "value": {
+          "light": "#26251e33",
+          "dark": "#edecec33"
+        },
+        "usage": "前景透明度阶梯 20%：叠加层与微弱背景。源站写作 color-mix(in oklab, var(--color-theme-fg) 20%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-button-bg",
+        "value": "{color-theme-fg}",
+        "usage": "主按钮底 = 前景色：fg/bg 直接反转，暗色下自动变浅色按钮。"
+      },
+      {
+        "name": "color-theme-button-text",
+        "value": "{color-theme-bg}",
+        "usage": "主按钮文字 = 背景色（亮 14.3:1，暗 15.9:1）。"
+      },
+      {
+        "name": "color-theme-button-hover-bg",
+        "value": "{color-theme-fg-02}",
+        "usage": "主按钮 hover 底与边框。"
+      },
+      {
+        "name": "color-theme-button-sec-border",
+        "value": "{color-theme-border-03}",
+        "usage": "描边型次级按钮的边。"
+      },
+      {
+        "name": "color-theme-product-chrome",
+        "value": {
+          "light": "{color-theme-card-hex}",
+          "dark": "{color-theme-bg}"
+        },
+        "usage": "产品仿真：窗口外框 / 侧栏。暗色下与 editor 互换，保证“编辑区永远比外框亮”。"
+      },
+      {
+        "name": "color-theme-product-editor",
+        "value": {
+          "light": "{color-theme-bg}",
+          "dark": "{color-theme-card-hex}"
+        },
+        "usage": "产品仿真：编辑区。"
+      },
+      {
+        "name": "color-theme-product-text",
+        "value": {
+          "light": "#26251eeb",
+          "dark": "#edececeb"
+        },
+        "usage": "产品仿真正文 fg 92%——比营销页略淡，暗示“这是另一个应用”。源站写作 color-mix(in oklab, var(--color-theme-fg) 92%, transparent)；这里给出等价的带 alpha 值，bundle.css 写回原公式（随 fg 自动重算）。"
+      },
+      {
+        "name": "color-theme-product-text-sec",
+        "value": {
+          "light": "#26251e99",
+          "dark": "#edecec99"
+        },
+        "usage": "产品仿真次级文字 fg 60%。"
+      },
+      {
+        "name": "color-theme-product-text-tertiary",
+        "value": {
+          "light": "#26251e66",
+          "dark": "#edecec66"
+        },
+        "usage": "产品仿真三级文字 fg 40%。"
+      },
+      {
+        "name": "color-theme-product-ansi-green",
+        "value": "#1f8a65",
+        "usage": "diff 新增 / 成功，亮暗相同（亮底 4.0:1、暗底 4.4:1，源值）。"
+      },
+      {
+        "name": "color-theme-product-ansi-red",
+        "value": "#cf2d56",
+        "usage": "diff 删除 / 失败，亮暗相同（亮底 4.7:1、暗底 3.7:1，源值）。"
+      },
+      {
+        "name": "color-theme-product-line-inserted-line-background",
+        "value": "#1f8a6514",
+        "usage": "新增行底：ansi-green 8%（源站 color-mix in srgb）。"
+      },
+      {
+        "name": "color-theme-product-removed-line-background",
+        "value": "#cf2d560f",
+        "usage": "删除行底：ansi-red 6%——红更“重”，压低 2 个点与绿平衡。"
+      },
+      {
+        "name": "chart-background",
+        "value": {
+          "light": "#ffffff",
+          "dark": "#000000"
+        },
+        "usage": "图表底——全站唯一用纯白纯黑的地方，让数据色对比最大。"
+      },
+      {
+        "name": "chart-orange-primary",
+        "value": "#ed4c00",
+        "usage": "图表 orange 主色——亮暗不变，读者的色彩记忆得以保持。"
+      },
+      {
+        "name": "chart-orange-secondary",
+        "value": {
+          "light": "#f6a57f",
+          "dark": "#772600"
+        },
+        "usage": "图表 orange 次级：亮色往白走、暗色往黑走。"
+      },
+      {
+        "name": "chart-orange-tertiary",
+        "value": {
+          "light": "#fbdbcc",
+          "dark": "#2f0f00"
+        },
+        "usage": "图表 orange 三级（浅填充 / 深填充）。"
+      },
+      {
+        "name": "chart-brown-primary",
+        "value": "#916031",
+        "usage": "图表 brown 主色——亮暗不变，读者的色彩记忆得以保持。"
+      },
+      {
+        "name": "chart-brown-secondary",
+        "value": {
+          "light": "#c8b098",
+          "dark": "#493019"
+        },
+        "usage": "图表 brown 次级：亮色往白走、暗色往黑走。"
+      },
+      {
+        "name": "chart-brown-tertiary",
+        "value": {
+          "light": "#e9dfd6",
+          "dark": "#1d130a"
+        },
+        "usage": "图表 brown 三级（浅填充 / 深填充）。"
+      },
+      {
+        "name": "chart-salmon-primary",
+        "value": "#ff7433",
+        "usage": "图表 salmon 主色——亮暗不变，读者的色彩记忆得以保持。"
+      },
+      {
+        "name": "chart-salmon-secondary",
+        "value": {
+          "light": "#ffb999",
+          "dark": "#803a1a"
+        },
+        "usage": "图表 salmon 次级：亮色往白走、暗色往黑走。"
+      },
+      {
+        "name": "chart-salmon-tertiary",
+        "value": {
+          "light": "#ffe3d6",
+          "dark": "#33170a"
+        },
+        "usage": "图表 salmon 三级（浅填充 / 深填充）。"
+      },
+      {
+        "name": "chart-amber-primary",
+        "value": "#a88d02",
+        "usage": "图表 amber 主色——亮暗不变，读者的色彩记忆得以保持。"
+      },
+      {
+        "name": "chart-amber-secondary",
+        "value": {
+          "light": "#d3c680",
+          "dark": "#544701"
+        },
+        "usage": "图表 amber 次级：亮色往白走、暗色往黑走。"
+      },
+      {
+        "name": "chart-amber-tertiary",
+        "value": {
+          "light": "#eee8cc",
+          "dark": "#221c00"
+        },
+        "usage": "图表 amber 三级（浅填充 / 深填充）。"
+      },
+      {
+        "name": "chart-green-primary",
+        "value": "#2c9f28",
+        "usage": "图表 green 主色——亮暗不变，读者的色彩记忆得以保持。"
+      },
+      {
+        "name": "chart-green-secondary",
+        "value": {
+          "light": "#95cf93",
+          "dark": "#165014"
+        },
+        "usage": "图表 green 次级：亮色往白走、暗色往黑走。"
+      },
+      {
+        "name": "chart-green-tertiary",
+        "value": {
+          "light": "#d5ecd4",
+          "dark": "#092008"
+        },
+        "usage": "图表 green 三级（浅填充 / 深填充）。"
+      },
+      {
+        "name": "chart-sky-primary",
+        "value": "#31a8bf",
+        "usage": "图表 sky 主色——亮暗不变，读者的色彩记忆得以保持。"
+      },
+      {
+        "name": "chart-sky-secondary",
+        "value": {
+          "light": "#98d3df",
+          "dark": "#195460"
+        },
+        "usage": "图表 sky 次级：亮色往白走、暗色往黑走。"
+      },
+      {
+        "name": "chart-sky-tertiary",
+        "value": {
+          "light": "#d6eef2",
+          "dark": "#0a2226"
+        },
+        "usage": "图表 sky 三级（浅填充 / 深填充）。"
+      },
+      {
+        "name": "chart-blue-primary",
+        "value": "#2268ff",
+        "usage": "图表 blue 主色——亮暗不变，读者的色彩记忆得以保持。"
+      },
+      {
+        "name": "chart-blue-secondary",
+        "value": {
+          "light": "#90b3ff",
+          "dark": "#113480"
+        },
+        "usage": "图表 blue 次级：亮色往白走、暗色往黑走。"
+      },
+      {
+        "name": "chart-blue-tertiary",
+        "value": {
+          "light": "#d3e1ff",
+          "dark": "#071533"
+        },
+        "usage": "图表 blue 三级（浅填充 / 深填充）。"
+      },
+      {
+        "name": "chart-lavender-primary",
+        "value": "#8c89e7",
+        "usage": "图表 lavender 主色——亮暗不变，读者的色彩记忆得以保持。"
+      },
+      {
+        "name": "chart-lavender-secondary",
+        "value": {
+          "light": "#c5c4f3",
+          "dark": "#464574"
+        },
+        "usage": "图表 lavender 次级：亮色往白走、暗色往黑走。"
+      },
+      {
+        "name": "chart-lavender-tertiary",
+        "value": {
+          "light": "#e8e7fa",
+          "dark": "#1c1b2e"
+        },
+        "usage": "图表 lavender 三级（浅填充 / 深填充）。"
+      },
+      {
+        "name": "chart-pink-primary",
+        "value": "#ec77bf",
+        "usage": "图表 pink 主色——亮暗不变，读者的色彩记忆得以保持。"
+      },
+      {
+        "name": "chart-pink-secondary",
+        "value": {
+          "light": "#f5bbdf",
+          "dark": "#763c60"
+        },
+        "usage": "图表 pink 次级：亮色往白走、暗色往黑走。"
+      },
+      {
+        "name": "chart-pink-tertiary",
+        "value": {
+          "light": "#fbe4f2",
+          "dark": "#2f1826"
+        },
+        "usage": "图表 pink 三级（浅填充 / 深填充）。"
+      },
+      {
+        "name": "chart-red-primary",
+        "value": "#dc322f",
+        "usage": "图表 red 主色——亮暗不变，读者的色彩记忆得以保持。"
+      },
+      {
+        "name": "chart-red-secondary",
+        "value": {
+          "light": "#ed9897",
+          "dark": "#6e1918"
+        },
+        "usage": "图表 red 次级：亮色往白走、暗色往黑走。"
+      },
+      {
+        "name": "chart-red-tertiary",
+        "value": {
+          "light": "#f8d6d5",
+          "dark": "#2c0a09"
+        },
+        "usage": "图表 red 三级（浅填充 / 深填充）。"
+      },
+      {
+        "name": "mobile-phone-bg",
+        "value": "#f8f8f6",
+        "usage": "iOS 仿真底。仿真用纯黑 alpha 与系统蓝，不用品牌暖色。"
+      },
+      {
+        "name": "mobile-phone-text-primary",
+        "value": "#000000d1",
+        "usage": "iOS 仿真主文字：纯黑 82%。"
+      },
+      {
+        "name": "mobile-phone-text-soft",
+        "value": "#000000b3",
+        "usage": "iOS 仿真次级文字：纯黑 70%。"
+      },
+      {
+        "name": "mobile-phone-muted",
+        "value": "#00000061",
+        "usage": "iOS 仿真弱文字：纯黑 38%。"
+      },
+      {
+        "name": "mobile-phone-row-border",
+        "value": "#00000009",
+        "usage": "iOS 仿真行分隔：纯黑 3.5%。"
+      },
+      {
+        "name": "mobile-phone-dot-active",
+        "value": "#278dcc",
+        "usage": "iOS 仿真活跃点：系统蓝。"
+      },
+      {
+        "name": "mobile-phone-link",
+        "value": "#2b7fa3",
+        "usage": "iOS 仿真链接。"
+      },
+      {
+        "name": "mobile-phone-green",
+        "value": "#16896a",
+        "usage": "iOS 仿真绿。"
+      },
+      {
+        "name": "mobile-phone-red",
+        "value": "#c73d59",
+        "usage": "iOS 仿真红。"
+      }
+    ]
+  },
+  "type": {
+    "fonts": [],
+    "families": {
+      "sans": "Inter, \"Geist Sans\", ui-sans-serif, system-ui, sans-serif",
+      "serif": "\"EB Garamond\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "mono": "\"JetBrains Mono\", \"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+      "system": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+      "slack": "Lato, system-ui, sans-serif"
+    },
+    "groups": [
+      {
+        "name": "Brand scale · 一律 400（字号↑ 行高↓ 字距↓）",
+        "family": "sans",
+        "styles": [
+          {
+            "name": "type-xs",
+            "fontSize": "0.75rem",
+            "lineHeight": 1.5,
+            "fontWeight": 400,
+            "usage": "12px：元信息、标签、脚注。小字放宽 +0.01em。",
+            "letterSpacing": "0.01em",
+            "sample": "Aug 12, 2026 · Research"
+          },
+          {
+            "name": "type-sm",
+            "fontSize": "0.875rem",
+            "lineHeight": 1.5,
+            "fontWeight": 400,
+            "usage": "14px：导航、说明、表格、图注；也是“视觉是标签的 h2”。",
+            "letterSpacing": "0.01em",
+            "sample": "Trusted every day by teams that build world-class software"
+          },
+          {
+            "name": "type-base",
+            "fontSize": "1rem",
+            "lineHeight": 1.5,
+            "fontWeight": 400,
+            "usage": "16px：正文、按钮。",
+            "letterSpacing": "0.005em",
+            "sample": "We find that reducing pretraining loss improves downstream RL performance, with better base knowledge reliably translating into a better agent."
+          },
+          {
+            "name": "type-md-sm",
+            "fontSize": "1.125rem",
+            "lineHeight": 1.4,
+            "fontWeight": 400,
+            "usage": "18px：小标题。",
+            "letterSpacing": "0em",
+            "sample": "Agents turn ideas into code"
+          },
+          {
+            "name": "type-md",
+            "fontSize": "1.375rem",
+            "lineHeight": 1.3,
+            "fontWeight": 400,
+            "usage": "22px：区块标题、卡片标题、定价方案名。",
+            "letterSpacing": "-0.005em",
+            "sample": "Stay on the frontier"
+          },
+          {
+            "name": "type-md-lg",
+            "fontSize": "1.625rem",
+            "lineHeight": 1.25,
+            "fontWeight": 400,
+            "usage": "26px：★ 首页 h1——首屏标题不喊。",
+            "letterSpacing": "-0.0125em",
+            "sample": "Cursor is your coding agent for building ambitious software."
+          },
+          {
+            "name": "type-lg",
+            "fontSize": "2.25rem",
+            "lineHeight": 1.2,
+            "fontWeight": 400,
+            "usage": "36px：收尾 CTA 标题、移动端全屏导航项。",
+            "letterSpacing": "-0.02em",
+            "sample": "The new way to build software."
+          },
+          {
+            "name": "type-xl",
+            "fontSize": "3.25rem",
+            "lineHeight": 1.15,
+            "fontWeight": 400,
+            "usage": "52px：页面主标题。",
+            "letterSpacing": "-0.025em",
+            "sample": "Pricing"
+          },
+          {
+            "name": "type-2xl",
+            "fontSize": "4.5rem",
+            "lineHeight": 1.1,
+            "fontWeight": 400,
+            "usage": "72px：展示级大字。",
+            "letterSpacing": "-0.03em",
+            "sample": "COMPOSER"
+          }
+        ]
+      },
+      {
+        "name": "Prose · 长文才用 700",
+        "family": "sans",
+        "styles": [
+          {
+            "name": "prose-h2",
+            "fontSize": "1.375rem",
+            "lineHeight": 1.3,
+            "fontWeight": 700,
+            "usage": "prose h1/h2：22px / 700；上 v2、下 v6/12（4:1）。",
+            "letterSpacing": "-0.005em",
+            "sample": "Continued pretraining and RL"
+          },
+          {
+            "name": "prose-h3",
+            "fontSize": "1.125rem",
+            "lineHeight": 1.4,
+            "fontWeight": 700,
+            "usage": "prose h3：18px / 700；上 v1.5。",
+            "letterSpacing": "0em",
+            "sample": "Real-world evaluation"
+          },
+          {
+            "name": "type-base-bold",
+            "fontSize": "1rem",
+            "lineHeight": 1.5,
+            "fontWeight": 700,
+            "usage": "prose h4–h6、strong、表头。",
+            "letterSpacing": "0.005em",
+            "sample": "Google Drive:"
+          }
+        ]
+      },
+      {
+        "name": "Editorial serif · 产品演示里的“作品”",
+        "family": "serif",
+        "styles": [
+          {
+            "name": "type-serif-demo",
+            "fontSize": "17.28px",
+            "lineHeight": 1.35,
+            "fontWeight": 400,
+            "usage": "首页演示里被做出来的网页正文（EB Garamond，颜色 fg 55%）。",
+            "sample": "Software creation is changing. We are a group of researchers, engineers, and designers."
+          }
+        ]
+      },
+      {
+        "name": "Product simulation · system-ui 微字阶",
+        "family": "system",
+        "styles": [
+          {
+            "name": "type-product-sm",
+            "fontSize": "0.6875rem",
+            "lineHeight": 1.27273,
+            "fontWeight": 400,
+            "usage": "11px 仿真小字。",
+            "letterSpacing": "0.0044em",
+            "sample": "IN PROGRESS 2"
+          },
+          {
+            "name": "type-product-sm-medium",
+            "fontSize": "0.6875rem",
+            "lineHeight": 1.27273,
+            "fontWeight": 500,
+            "usage": "11px medium——仿真界面才用 500。",
+            "letterSpacing": "0.0044em",
+            "sample": "READY FOR REVIEW"
+          },
+          {
+            "name": "type-product-base",
+            "fontSize": "0.75rem",
+            "lineHeight": 1.33333,
+            "fontWeight": 400,
+            "usage": "12px 仿真正文。",
+            "letterSpacing": "0em",
+            "sample": "Reading docs/about-acme.md"
+          },
+          {
+            "name": "type-product-base-medium",
+            "fontSize": "0.75rem",
+            "lineHeight": 1.33333,
+            "fontWeight": 500,
+            "usage": "12px medium：文件名、选中项。",
+            "letterSpacing": "0em",
+            "sample": "Build Landing Page"
+          },
+          {
+            "name": "type-product-lg",
+            "fontSize": "0.8125rem",
+            "lineHeight": 1.33333,
+            "fontWeight": 400,
+            "usage": "13px 仿真大字。",
+            "letterSpacing": "0em",
+            "sample": "make a landing page based on attached docs"
+          },
+          {
+            "name": "type-product-base-mono",
+            "fontSize": "0.75rem",
+            "lineHeight": "1.25rem",
+            "fontWeight": 400,
+            "usage": "12px 代码行，行高 20px 绝对值保证等距。",
+            "letterSpacing": "0em",
+            "sample": "const app = createApp()",
+            "family": "mono"
+          }
+        ]
+      },
+      {
+        "name": "Slack simulation · Lato",
+        "family": "slack",
+        "styles": [
+          {
+            "name": "type-slack-sm",
+            "fontSize": "0.75rem",
+            "lineHeight": 1.27273,
+            "fontWeight": 400,
+            "usage": "Slack 仿真 12px。",
+            "letterSpacing": "0.0044em",
+            "sample": "8 members"
+          },
+          {
+            "name": "type-slack-base",
+            "fontSize": "0.875rem",
+            "lineHeight": 1.33333,
+            "fontWeight": 400,
+            "usage": "Slack 仿真 14px。",
+            "sample": "Opened a PR for realtime sync."
+          },
+          {
+            "name": "type-slack-base-semibold",
+            "fontSize": "0.875rem",
+            "lineHeight": 1.33333,
+            "fontWeight": 600,
+            "usage": "Slack 仿真用户名（600）。",
+            "sample": "swhitmore"
+          },
+          {
+            "name": "type-slack-lg-semibold",
+            "fontSize": "1rem",
+            "lineHeight": 1.33333,
+            "fontWeight": 600,
+            "usage": "Slack 仿真频道名。",
+            "sample": "#feature-realtime-sync"
+          }
+        ]
+      }
+    ]
+  },
+  "spacing": {
+    "note": "双单位制：g 管水平（10px 网格），v 管垂直（22.4px = 一个正文行高，以 1/12 行为最小分度）。全部 rem，响应式只靠根字号 15 → 16px。",
+    "tokens": [
+      {
+        "name": "g",
+        "value": "0.625rem",
+        "usage": "★ 水平单位 10px（16px 根）。卡片内边距、列间距、图标间隙都落在它的倍数上。"
+      },
+      {
+        "name": "v",
+        "value": "1.4rem",
+        "usage": "★ 垂直单位 22.4px = 一个正文行高。所有垂直间距都是“若干行”。"
+      },
+      {
+        "name": "grid-gap",
+        "value": "0.8rem",
+        "usage": "网格间隙 12.8px（按 15px 根算的 12px）。"
+      },
+      {
+        "name": "spacing-g0-25",
+        "value": "0.15625rem",
+        "usage": "2.5px：图标与文字贴合。"
+      },
+      {
+        "name": "spacing-g0-5",
+        "value": "0.3125rem",
+        "usage": "5px：紧凑元素间距。"
+      },
+      {
+        "name": "spacing-g0-75",
+        "value": "0.46875rem",
+        "usage": "7.5px：✓ 与特性文字的间距。"
+      },
+      {
+        "name": "spacing-g1",
+        "value": "0.625rem",
+        "usage": "10px：基准；相邻卡片/图片靠拢到 10px。"
+      },
+      {
+        "name": "spacing-g1-25",
+        "value": "0.78125rem",
+        "usage": "12.5px：统计卡上内边距。"
+      },
+      {
+        "name": "spacing-g1-5",
+        "value": "0.9375rem",
+        "usage": "15px：紧凑卡片内边距、导航项左右。"
+      },
+      {
+        "name": "spacing-g1-75",
+        "value": "1.09375rem",
+        "usage": "★ 17.5px：卡片内边距默认（上边再减 0.1rem 光学补偿）。"
+      },
+      {
+        "name": "spacing-g2",
+        "value": "1.25rem",
+        "usage": "★ 20px：section 左右留白。"
+      },
+      {
+        "name": "spacing-g2-5",
+        "value": "1.5625rem",
+        "usage": "25px。"
+      },
+      {
+        "name": "spacing-g3",
+        "value": "1.875rem",
+        "usage": "30px：最大水平间距。"
+      },
+      {
+        "name": "spacing-v1-12",
+        "value": "0.11667rem",
+        "usage": "1/12 行：极微调。"
+      },
+      {
+        "name": "spacing-v2-12",
+        "value": "0.23333rem",
+        "usage": "2/12 行：面包屑与标题贴紧。"
+      },
+      {
+        "name": "spacing-v3-12",
+        "value": "0.35rem",
+        "usage": "3/12 行：导航项上下内边距。"
+      },
+      {
+        "name": "spacing-v4-12",
+        "value": "0.46667rem",
+        "usage": "4/12 行：图注上间距。"
+      },
+      {
+        "name": "spacing-v5-12",
+        "value": "0.58333rem",
+        "usage": "5/12 行。"
+      },
+      {
+        "name": "spacing-v6-12",
+        "value": "0.7rem",
+        "usage": "★ 半行：标题下间距。"
+      },
+      {
+        "name": "spacing-v7-12",
+        "value": "0.81667rem",
+        "usage": "7/12 行。"
+      },
+      {
+        "name": "spacing-v8-12",
+        "value": "0.93333rem",
+        "usage": "8/12 行。"
+      },
+      {
+        "name": "spacing-v9-12",
+        "value": "1.05rem",
+        "usage": "9/12 行。"
+      },
+      {
+        "name": "spacing-v10-12",
+        "value": "1.16667rem",
+        "usage": "10/12 行。"
+      },
+      {
+        "name": "spacing-v1",
+        "value": "1.4rem",
+        "usage": "★ 一行：段落下间距。"
+      },
+      {
+        "name": "spacing-v1-25",
+        "value": "1.75rem",
+        "usage": "1.25 行。"
+      },
+      {
+        "name": "spacing-v1-5",
+        "value": "2.1rem",
+        "usage": "1.5 行：prose h3 上间距。"
+      },
+      {
+        "name": "spacing-v2",
+        "value": "2.8rem",
+        "usage": "★ 两行：图/表/代码块上下、prose h2 上间距、紧凑区块。"
+      },
+      {
+        "name": "spacing-v2-5",
+        "value": "3.5rem",
+        "usage": "2.5 行。"
+      },
+      {
+        "name": "spacing-v3",
+        "value": "4.2rem",
+        "usage": "★ 三行：section 标准上下留白。"
+      },
+      {
+        "name": "spacing-v4",
+        "value": "5.6rem",
+        "usage": "四行：换底色区块的内部留白。"
+      },
+      {
+        "name": "spacing-v4-5",
+        "value": "6.3rem",
+        "usage": "4.5 行。"
+      },
+      {
+        "name": "spacing-v5",
+        "value": "7rem",
+        "usage": "五行：面包屑区上留白。"
+      },
+      {
+        "name": "spacing-v6",
+        "value": "8.4rem",
+        "usage": "六行：长文起始、换色区块之后的标题区。"
+      },
+      {
+        "name": "spacing-v8",
+        "value": "11.2rem",
+        "usage": "八行：最大垂直留白。"
+      }
+    ]
+  },
+  "radius": {
+    "note": "二元：4px 容器 / 胶囊可操作。中间值存在但不用。",
+    "tokens": [
+      {
+        "name": "radius-2xs",
+        "value": "2px",
+        "usage": "2px。"
+      },
+      {
+        "name": "radius-xs",
+        "value": "4px",
+        "usage": "★ 容器：卡片、代码块、媒体、prose 图片、块级按钮。方的 = 承载信息。"
+      },
+      {
+        "name": "radius-sm",
+        "value": "0.25rem",
+        "usage": "Tailwind 遗留档，营销站基本不用。"
+      },
+      {
+        "name": "radius-md",
+        "value": "8px",
+        "usage": "中间值——不要用。"
+      },
+      {
+        "name": "radius-lg",
+        "value": "0.5rem",
+        "usage": "中间值——不要用。"
+      },
+      {
+        "name": "radius-xl",
+        "value": "0.75rem",
+        "usage": "中间值——不要用。"
+      },
+      {
+        "name": "radius-2xl",
+        "value": "1rem",
+        "usage": "中间值——不要用。"
+      },
+      {
+        "name": "radius-pill",
+        "value": "9999px",
+        "usage": "★ 可操作：按钮、标签、分段控件、头像。圆的 = 能点。源站计算值为 3.40282e38px。"
+      }
+    ]
+  },
+  "shadow": {
+    "tokens": [
+      {
+        "name": "shadow-flyout",
+        "value": "0 0 1rem #00000005, 0 0 0.5rem #00000002",
+        "usage": "全站最强的阴影——下拉与浮层，alpha 2% / 0.8%，几乎不可见。卡片零阴影。"
+      },
+      {
+        "name": "shadow-outline-theme",
+        "value": {
+          "light": "0 0 0 1px rgba(38, 37, 30, 0.1)",
+          "dark": "0 0 0 1px rgba(237, 236, 236, 0.1)"
+        },
+        "usage": "用 box-shadow 语法画的 1px 描边（border-02）。"
+      },
+      {
+        "name": "window-shadow-inner",
+        "value": {
+          "light": "0 -1px 0 0 rgba(38, 37, 30, 0.1) inset",
+          "dark": "0 -1px 0 0 rgba(237, 236, 236, 0.1) inset"
+        },
+        "usage": "仿真窗口 chrome 的顶部内分隔线。"
+      }
+    ]
+  },
+  "layout": {
+    "tokens": [
+      {
+        "name": "max-width-container",
+        "value": "1300px",
+        "usage": "页面容器——不是 1200，不是 1440。"
+      },
+      {
+        "name": "site-header-height",
+        "value": "52px",
+        "usage": "固定头：桌面 52px，移动 56px（移动端触控更高）。"
+      },
+      {
+        "name": "site-sticky-top",
+        "value": "64px",
+        "usage": "粘性侧栏目录的 top。"
+      },
+      {
+        "name": "breakpoint-md",
+        "value": "660px",
+        "usage": "自定义 md 断点。"
+      },
+      {
+        "name": "breakpoint-main",
+        "value": "900px",
+        "usage": "唯一的主开关：根字号 15px → 16px、按钮内边距与头部高度在此切换。"
+      },
+      {
+        "name": "measure-narrow",
+        "value": "48ch",
+        "usage": "★ 正文行宽：技术文档读起来更轻快。"
+      },
+      {
+        "name": "measure-medium-wide",
+        "value": "80ch",
+        "usage": "中宽行宽。"
+      },
+      {
+        "name": "measure-wide",
+        "value": "96ch",
+        "usage": "宽表格、代码。"
+      },
+      {
+        "name": "focus-ring-width",
+        "value": "2px",
+        "usage": "焦点环 2px solid fg（不是蓝，不是橙）。"
+      },
+      {
+        "name": "focus-ring-offset",
+        "value": "0.3ch",
+        "usage": "★ 焦点偏移用 ch：跟着字号走，大按钮远、小按钮近。"
+      }
+    ]
+  },
+  "button": {
+    "tokens": [
+      {
+        "name": "button-padding-default",
+        "value": "0.78em 1.35em 0.8em",
+        "usage": "默认按钮（桌面）；移动 0.89em 1.45em 0.91em。em 随字号缩放，下比上多 0.02em 做光学居中。实测 44px 高。"
+      },
+      {
+        "name": "button-padding-md-sm",
+        "value": "0.6em 1.25em 0.62em",
+        "usage": "md-sm（桌面）；移动 0.64em 1.2em 0.66em。字号仍 16px，只是更紧——导航栏用。"
+      },
+      {
+        "name": "button-padding-sm",
+        "value": "0.4em 0.75em 0.42em",
+        "usage": "sm（桌面，14px 字）；移动 0.45em 0.8em 0.46em。"
+      },
+      {
+        "name": "button-padding-xs",
+        "value": "0.15em 0.5em",
+        "usage": "xs（12px 字）：太小，不做光学补偿。"
+      }
+    ]
+  },
+  "duration": {
+    "tokens": [
+      {
+        "name": "duration",
+        "value": "0.14s",
+        "usage": "★ 默认：几乎所有交互。快到几乎是“立刻”。"
+      },
+      {
+        "name": "duration-slow",
+        "value": "0.25s",
+        "usage": "需要被察觉的转场：下拉展开、移动面板。超过它就不像了。"
+      }
+    ]
+  },
+  "easing": {
+    "tokens": [
+      {
+        "name": "ease-out-spring",
+        "value": "cubic-bezier(0.25, 1, 0.5, 1)",
+        "usage": "★ 品牌曲线：迅速启动、柔和落定，不过冲。"
+      },
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0, 0, 0.2, 1)",
+        "usage": "标准 ease-out。"
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "usage": "标准 ease-in-out。"
+      }
+    ]
+  },
+  "displacement": {
+    "tokens": [
+      {
+        "name": "shift-micro",
+        "value": "2px",
+        "usage": "内容入场 fadeSlideUp / fadeSlideRight。"
+      },
+      {
+        "name": "shift-small",
+        "value": "4px",
+        "usage": "导航项进出、交互反馈。"
+      },
+      {
+        "name": "shift-menu",
+        "value": "0.4rem",
+        "usage": "下拉菜单展开。"
+      },
+      {
+        "name": "shift-sheet",
+        "value": "12px",
+        "usage": "移动面板——上限，超过就不像了。"
+      }
+    ]
+  },
+  "blur": {
+    "tokens": [
+      {
+        "name": "blur-sm",
+        "value": "8px",
+        "usage": "移动导航遮罩。"
+      },
+      {
+        "name": "blur-md",
+        "value": "12px",
+        "usage": "毛玻璃 md（很少用）。"
+      },
+      {
+        "name": "blur-lg",
+        "value": "16px",
+        "usage": "毛玻璃 lg（很少用）。"
+      }
+    ]
+  }
+}

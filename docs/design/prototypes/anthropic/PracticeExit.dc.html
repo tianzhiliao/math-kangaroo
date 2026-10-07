@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>End practice dialog</title>
+<script src="../support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1280px; height: 900px; position: relative; overflow: hidden; background: #faf9f5; color: #141413; font-family: 'Source Serif 4', Georgia, serif;">
+  <dc-import name="Practice" hint-size="1280px,1180px"></dc-import>
+  <div style="position: absolute; inset: 0; background: rgba(20,20,19,0.5); display: flex; align-items: center; justify-content: center; padding: 24px;">
+    <div role="dialog" aria-modal="true" aria-labelledby="exit-title" style="width: 100%; max-width: 520px; box-sizing: border-box; background: #faf9f5; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 2px 2px rgba(0,0,0,0.01), 0 4px 4px rgba(0,0,0,0.02), 0 16px 24px rgba(0,0,0,0.04);">
+      <h2 id="exit-title" style="margin: 0; font-family: 'Inter Tight', sans-serif; font-size: 28px; line-height: 1.2; font-weight: 600;">Keep your place?</h2>
+      <p style="margin: 0; font-size: 18px; line-height: 1.45; color: #30302e;">You are on question 78. Keep your answers to pick up here next time, or clear them and start again from question 1.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-end; align-items: center; margin-top: 12px; font-family: 'Inter Tight', sans-serif;">
+        <button type="button" style="min-height: 48px; padding: 0 16px; border: none; background: transparent; color: #5e5d59; font: inherit; font-size: 16px; font-weight: 500;">Cancel</button>
+        <button type="button" style="min-height: 48px; padding: 0 22px; border-radius: 9999px; border: 1px solid #bf4d43; background: transparent; color: #a8402f; font: inherit; font-size: 16px; font-weight: 500;">Clear and start over</button>
+        <button type="button" style="min-height: 48px; padding: 0 22px; border-radius: 9999px; border: 1px solid #141413; background: #141413; color: #faf9f5; font: inherit; font-size: 16px; font-weight: 500;">Keep and exit</button>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":900}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

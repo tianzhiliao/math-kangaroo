@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Practice on phone</title>
+<script src="../support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 390px; height: 844px; position: relative; overflow: hidden; background: #faf9f5; color: #141413; font-family: 'Source Serif 4', Georgia, serif;">
+  <header style="height: 56px; padding: 0 8px 0 4px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(20,20,19,0.1); font-family: 'Inter Tight', sans-serif;">
+    <a href="Home.dc.html" aria-label="Home" style="width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; color: #141413; text-decoration: none; font-size: 22px;">←</a>
+    <p style="margin: 0; font-size: 16px; font-weight: 600;">Practice · 78 of 270</p>
+    <a href="PracticeExit.dc.html" style="min-height: 44px; padding: 0 12px; display: flex; align-items: center; color: #5e5d59; font-size: 15px; font-weight: 500; text-decoration: none;">End</a>
+  </header>
+
+  <div style="background: #f0eee6; padding: 12px 16px; display: flex; gap: 8px; overflow: hidden;">
+    <sc-for list="{{chips}}" as="c" hint-placeholder-count="8">
+      <button type="button" aria-label="{{c.aria}}" style="{{c.style}}">{{c.n}}</button>
+    </sc-for>
+  </div>
+
+  <main style="padding: 20px 16px 120px; display: flex; flex-direction: column; gap: 16px;">
+    <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px;">
+      <p style="margin: 0; font-family: 'Inter Tight', sans-serif; font-size: 14px; font-weight: 500; color: #5e5d59;">Felix · Austria 2019 · Q3 · 3 points</p>
+      <button type="button" aria-label="Listen to question" style="width: 44px; height: 44px; flex: none; border-radius: 9999px; border: 1px solid rgba(20,20,19,0.2); background: #ffffff; color: #141413; display: flex; align-items: center; justify-content: center;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18 6a8 8 0 0 1 0 12"/></svg>
+      </button>
+    </div>
+    <p style="margin: 0; font-size: 21px; line-height: 1.4;">Mother kangaroo and her son Max together weigh 60 kg. The mother on her own weighs 52 kg. How heavy is Max?</p>
+    <figure style="margin: 0; background: #ffffff; border: 1px solid rgba(20,20,19,0.1); border-radius: 8px; padding: 8px;">
+      <img src="../assets/kangaroos.svg" alt="Two kangaroos" style="display: block; width: 100%; height: 120px; object-fit: contain;">
+    </figure>
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+      <sc-for list="{{choices}}" as="o" hint-placeholder-count="5">
+        <div style="{{o.card}}">
+          <span style="{{o.badge}}">{{o.label}}</span>
+          <span style="flex: 1; font-size: 20px;">{{o.text}}</span>
+          <span style="font-family: 'Inter Tight', sans-serif; font-size: 13px; font-weight: 600;">{{o.tag}}</span>
+        </div>
+      </sc-for>
+    </div>
+  </main>
+
+  <div style="position: absolute; left: 0; right: 0; bottom: 0; background: #faf9f5; border-top: 1px solid rgba(20,20,19,0.1); padding: 12px 16px 20px; display: flex; flex-direction: column; gap: 10px; font-family: 'Inter Tight', sans-serif;">
+    <p aria-live="polite" style="margin: 0; padding: 10px 14px; border-radius: 8px; background: #788c5d; color: #141413; font-size: 17px; font-weight: 600;">Right. Max weighs 8 kg.</p>
+    <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 8px;">
+      <button type="button" style="min-height: 52px; border-radius: 9999px; border: 1px solid #141413; background: transparent; color: #141413; font: inherit; font-size: 16px; font-weight: 500;">←</button>
+      <button type="button" style="min-height: 52px; border-radius: 9999px; border: 1px solid #141413; background: #141413; color: #faf9f5; font: inherit; font-size: 16px; font-weight: 500;">Next question →</button>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const wrong = { 74: 1 };
+    const base = 'width: 44px; height: 44px; flex: none; border-radius: 8px; font-family: "Inter Tight", sans-serif; font-size: 18px; font-weight: 700; box-sizing: border-box; color: #141413;';
+    const chips = [];
+    for (let n = 73; n <= 80; n++) {
+      let s;
+      if (n > 78) s = 'background: #ffffff; border: 1px solid rgba(20,20,19,0.1); color: #5e5d59; font-weight: 600;';
+      else if (wrong[n]) s = 'background: #ebcece; border: 2px solid #bf4d43;';
+      else s = 'background: #788c5d; border: 2px solid #788c5d;';
+      if (n === 78) s += ' outline: 2px solid #141413; outline-offset: 2px;';
+      chips.push({ n, aria: 'Question ' + n, style: base + s });
+    }
+    const opts = [['A', '4 kg'], ['B', '8 kg'], ['C', '30 kg'], ['D', '56 kg'], ['E', '112 kg']];
+    const choices = opts.map(([l, t]) => {
+      let card = 'display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 6px 14px 6px 8px; border-radius: 8px; box-sizing: border-box; ';
+      let badge = 'width: 40px; height: 40px; flex: none; border-radius: 9999px; display: flex; align-items: center; justify-content: center; font-family: "Inter Tight", sans-serif; font-size: 17px; font-weight: 600; box-sizing: border-box; ';
+      let tag = '';
+      if (l === 'B') { card += 'background: #eef1e8; border: 2px solid #788c5d;'; badge += 'background: #788c5d; color: #141413;'; tag = 'Your answer'; }
+      else { card += 'background: #ffffff; border: 2px solid rgba(20,20,19,0.1); opacity: 0.55;'; badge += 'border: 1px solid #141413; color: #141413;'; }
+      return { label: l, text: t, card, badge, tag };
+    });
+    return { chips, choices };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Choose a paper</title>
+<script src="../support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&amp;family=JetBrains+Mono:wght@400&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="min-height: 900px; background: #f7f7f4; color: #26251e; font-family: 'Inter', system-ui, sans-serif; font-weight: 400;">
+  <header style="height: 56px; box-shadow: inset 0 -1px 0 rgba(38,37,30,0.1);">
+    <nav style="max-width: 1300px; height: 56px; margin: 0 auto; padding: 0 20px; box-sizing: border-box; display: flex; align-items: center; justify-content: space-between; gap: 16px;">
+      <div style="display: flex; align-items: center; gap: 10px; font-size: 15px;">
+        <a href="Home.dc.html" style="font-size: 17px; color: #26251e; text-decoration: none;">Math Kangaroo</a>
+        <span style="color: rgba(38,37,30,0.4);">/</span>
+        <span style="color: rgba(38,37,30,0.6);">Exam</span>
+      </div>
+      <div style="display: flex; gap: 24px; font-size: 15px;">
+        <a href="#" style="color: #26251e; text-decoration: none;">Exam</a>
+        <a href="Practice.dc.html" style="color: rgba(38,37,30,0.6); text-decoration: none;">Practice</a>
+      </div>
+    </nav>
+  </header>
+
+  <main style="max-width: 1300px; margin: 0 auto; padding: 44px 20px 64px; box-sizing: border-box; display: flex; flex-direction: column; gap: 28px;">
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 20px;">
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <h1 style="margin: 0; font-size: 36px; line-height: 1.2; font-weight: 400; letter-spacing: -0.02em;">Choose a paper</h1>
+        <p style="margin: 0; font-size: 17px; line-height: 1.5; color: rgba(38,37,30,0.6); max-width: 48ch;">The timer starts when the paper opens. You can change answers until you submit.</p>
+      </div>
+      <div role="tablist" style="display: flex; flex-wrap: wrap; gap: 4px; padding: 4px; border-radius: 9999px; background: #ebeae5;">
+        <button type="button" role="tab" aria-selected="true" style="min-height: 44px; padding: 0 18px; border: none; border-radius: 9999px; background: #f7f7f4; color: #26251e; font: inherit; font-size: 15px; box-shadow: 0 0 0 1px rgba(38,37,30,0.1);">All · 16</button>
+        <button type="button" role="tab" aria-selected="false" style="min-height: 44px; padding: 0 18px; border: none; border-radius: 9999px; background: transparent; color: rgba(38,37,30,0.6); font: inherit; font-size: 15px;">Felix · 10</button>
+        <button type="button" role="tab" aria-selected="false" style="min-height: 44px; padding: 0 18px; border: none; border-radius: 9999px; background: transparent; color: rgba(38,37,30,0.6); font: inherit; font-size: 15px;">Level P · 2</button>
+        <button type="button" role="tab" aria-selected="false" style="min-height: 44px; padding: 0 18px; border: none; border-radius: 9999px; background: transparent; color: rgba(38,37,30,0.6); font: inherit; font-size: 15px;">Grade 1–2 · 4</button>
+      </div>
+    </div>
+
+    <div style="overflow-x: auto;">
+      <div style="min-width: 720px;">
+        <div style="display: grid; grid-template-columns: 96px minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr) 120px; gap: 12.8px; padding: 10px 0; box-shadow: inset 0 -1px 0 rgba(38,37,30,0.1); font-size: 13px; letter-spacing: 0.01em; color: rgba(38,37,30,0.6);">
+          <span>Year</span><span>Paper</span><span>Questions</span><span>Time</span><span></span>
+        </div>
+        <sc-for list="{{rows}}" as="r" hint-placeholder-count="16">
+          <a href="ExamRun.dc.html" style="display: grid; grid-template-columns: 96px minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr) 120px; gap: 12.8px; align-items: center; min-height: 52px; box-shadow: inset 0 -1px 0 rgba(38,37,30,0.1); color: #26251e; text-decoration: none; font-size: 17px;">
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 15px;">{{r.year}}</span>
+            <span>{{r.series}}</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 15px; color: rgba(38,37,30,0.6);">{{r.q}}</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 15px; color: rgba(38,37,30,0.6);">{{r.t}}</span>
+            <span style="justify-self: end; display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border-radius: 9999px; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.2); font-size: 15px;">Start →</span>
+          </a>
+        </sc-for>
+      </div>
+    </div>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const F = (y, t) => ({ year: y, series: 'Felix · Austria', q: '15', t: t + ' min' });
+    const B = (y) => ({ year: y, series: 'Level P · Brazil', q: '24', t: '45 min' });
+    const C = (y) => ({ year: y, series: 'Grade 1–2 · Canada', q: '18', t: '45 min' });
+    return {
+      rows: [F('2025', 60), F('2024', 60), F('2023', 60), C('2023'), F('2022', 60), C('2022'), B('2021'), C('2021'), B('2020'), C('2020'),
+        F('2019', 45), F('2018', 45), F('2017', 45), F('2016', 45), F('2015', 45), F('2014', 45)]
+    };
+  }
+}
+</script>
+</body>
+</html>

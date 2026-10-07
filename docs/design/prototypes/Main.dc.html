@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>三版方案对比</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&amp;family=Inter+Tight:wght@500;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;family=JetBrains+Mono:wght@400&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1440px; height: 960px; box-sizing: border-box; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); background: #e8e8e4; gap: 1px; font-family: 'Inter', system-ui, sans-serif;">
+
+  <!-- A · Anthropic -->
+  <section style="background: #faf9f5; color: #141413; padding: 48px 40px; display: flex; flex-direction: column; gap: 28px;">
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+      <p style="margin: 0; font-family: 'Inter Tight', sans-serif; font-size: 14px; font-weight: 500; color: #5e5d59;">方案 A · Anthropic Style</p>
+      <h2 style="margin: 0; font-family: 'Inter Tight', sans-serif; font-size: 32px; line-height: 1.1; font-weight: 600;">Calm paper, serif reading</h2>
+      <p style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 18px; line-height: 1.4; color: #30302e;">暖纸底 + 衬线题干，像在读一本练习册。安静、可信，家长视角最舒服。</p>
+    </div>
+    <div style="display: flex; gap: 8px;">
+      <div style="width: 52px; height: 52px; border-radius: 8px; background: #faf9f5; border: 1px solid rgba(20,20,19,0.1);"></div>
+      <div style="width: 52px; height: 52px; border-radius: 8px; background: #f0eee6;"></div>
+      <div style="width: 52px; height: 52px; border-radius: 8px; background: #141413;"></div>
+      <div style="width: 52px; height: 52px; border-radius: 8px; background: #d97757;"></div>
+      <div style="width: 52px; height: 52px; border-radius: 8px; background: #788c5d;"></div>
+      <div style="width: 52px; height: 52px; border-radius: 8px; background: #ebcece;"></div>
+      <div style="width: 52px; height: 52px; border-radius: 8px; background: #e3dacc;"></div>
+    </div>
+    <div style="background: #ffffff; border: 1px solid rgba(20,20,19,0.1); border-radius: 8px; padding: 24px; display: flex; flex-direction: column; gap: 16px;">
+      <p style="margin: 0; font-family: 'Inter Tight', sans-serif; font-size: 13px; font-weight: 500; color: #5e5d59;">Question 78 · 3 points</p>
+      <p style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 22px; line-height: 1.35;">Mother kangaroo and her son Max together weigh 60 kg. The mother on her own weighs 52 kg. How heavy is Max?</p>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px;">
+        <div style="display: flex; align-items: center; gap: 12px; border: 2px solid #bf4d43; background: #faf0ee; border-radius: 8px; padding: 10px;"><span style="width: 36px; height: 36px; border-radius: 9999px; background: #bf4d43; color: #faf9f5; display: flex; align-items: center; justify-content: center; font-family: 'Inter Tight', sans-serif; font-weight: 600;">A</span><span style="font-family: 'Source Serif 4', serif; font-size: 18px;">4 kg</span></div>
+        <div style="display: flex; align-items: center; gap: 12px; border: 2px solid #788c5d; background: #eef1e8; border-radius: 8px; padding: 10px;"><span style="width: 36px; height: 36px; border-radius: 9999px; background: #788c5d; color: #141413; display: flex; align-items: center; justify-content: center; font-family: 'Inter Tight', sans-serif; font-weight: 600;">B</span><span style="font-family: 'Source Serif 4', serif; font-size: 18px;">8 kg</span></div>
+      </div>
+    </div>
+    <div style="display: flex; gap: 10px; align-items: center;">
+      <span style="display: inline-flex; align-items: center; height: 48px; padding: 0 24px; border-radius: 9999px; background: #141413; color: #faf9f5; font-family: 'Inter Tight', sans-serif; font-size: 16px; font-weight: 500;">Next question →</span>
+      <span style="display: inline-flex; align-items: center; height: 48px; padding: 0 24px; border-radius: 9999px; border: 1px solid #141413; font-family: 'Inter Tight', sans-serif; font-size: 16px; font-weight: 500;">Previous</span>
+    </div>
+    <div style="display: flex; gap: 8px;">
+      <span style="width: 44px; height: 44px; border-radius: 8px; background: #fff; border: 1px solid rgba(20,20,19,0.1); display: flex; align-items: center; justify-content: center; font-family: 'Inter Tight', sans-serif; font-weight: 600; color: #5e5d59;">9</span>
+      <span style="width: 44px; height: 44px; border-radius: 8px; background: #e3dacc; display: flex; align-items: center; justify-content: center; font-family: 'Inter Tight', sans-serif; font-weight: 600;">10</span>
+      <span style="width: 44px; height: 44px; border-radius: 8px; background: #141413; color: #faf9f5; display: flex; align-items: center; justify-content: center; font-family: 'Inter Tight', sans-serif; font-weight: 600;">11</span>
+      <span style="width: 44px; height: 44px; border-radius: 8px; background: #788c5d; color: #141413; display: flex; align-items: center; justify-content: center; font-family: 'Inter Tight', sans-serif; font-weight: 600;">12</span>
+      <span style="width: 44px; height: 44px; box-sizing: border-box; border-radius: 8px; background: #ebcece; border: 2px solid #bf4d43; display: flex; align-items: center; justify-content: center; font-family: 'Inter Tight', sans-serif; font-weight: 600;">13</span>
+    </div>
+    <div style="margin-top: auto; font-family: 'Source Serif 4', serif; font-size: 16px; line-height: 1.5; color: #30302e;">
+      <p style="margin: 0;">适合：重视阅读体验、希望界面“像书不像游戏”。</p>
+      <p style="margin: 0;">风险：对 6–7 岁孩子略偏沉静，需靠插图与大字补足活泼感。</p>
+    </div>
+  </section>
+
+  <!-- B · Cursor -->
+  <section style="background: #f7f7f4; color: #26251e; padding: 48px 40px; display: flex; flex-direction: column; gap: 28px;">
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+      <p style="margin: 0; font-size: 14px; color: rgba(38,37,30,0.6); letter-spacing: 0.01em;">方案 B · Cursor Style</p>
+      <h2 style="margin: 0; font-size: 32px; line-height: 1.2; font-weight: 400; letter-spacing: -0.02em;">A quiet tool for focus</h2>
+      <p style="margin: 0; font-size: 17px; line-height: 1.5; color: rgba(38,37,30,0.6);">全 400 字重、4px 容器、胶囊按钮。像专业工具一样干净，状态用符号与等宽数字表达。</p>
+    </div>
+    <div style="display: flex; gap: 8px;">
+      <div style="width: 52px; height: 52px; border-radius: 4px; background: #f7f7f4; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.1);"></div>
+      <div style="width: 52px; height: 52px; border-radius: 4px; background: #f2f1ed;"></div>
+      <div style="width: 52px; height: 52px; border-radius: 4px; background: #e6e5e0;"></div>
+      <div style="width: 52px; height: 52px; border-radius: 4px; background: #26251e;"></div>
+      <div style="width: 52px; height: 52px; border-radius: 4px; background: #f54e00;"></div>
+      <div style="width: 52px; height: 52px; border-radius: 4px; background: #1f8a65;"></div>
+      <div style="width: 52px; height: 52px; border-radius: 4px; background: #cf2d56;"></div>
+    </div>
+    <div style="background: #f2f1ed; border-radius: 4px; padding: 24px; display: flex; flex-direction: column; gap: 16px; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.025);">
+      <p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: rgba(38,37,30,0.6);">Q78 · felix-austria-2019 · 3 pts</p>
+      <p style="margin: 0; font-size: 22px; line-height: 1.3; letter-spacing: -0.005em;">Mother kangaroo and her son Max together weigh 60 kg. The mother on her own weighs 52 kg. How heavy is Max?</p>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px;">
+        <div style="display: flex; align-items: center; gap: 12px; background: #fbe9ec; box-shadow: inset 0 0 0 1px #cf2d56; border-radius: 4px; padding: 10px;"><span style="width: 36px; height: 36px; border-radius: 9999px; background: #cf2d56; color: #fff; display: flex; align-items: center; justify-content: center;">×</span><span style="font-size: 18px;">A · 4 kg</span></div>
+        <div style="display: flex; align-items: center; gap: 12px; background: #e3f1ea; box-shadow: inset 0 0 0 1px #1f8a65; border-radius: 4px; padding: 10px;"><span style="width: 36px; height: 36px; border-radius: 9999px; background: #1f8a65; color: #fff; display: flex; align-items: center; justify-content: center;">✓</span><span style="font-size: 18px;">B · 8 kg</span></div>
+      </div>
+    </div>
+    <div style="display: flex; gap: 10px; align-items: center;">
+      <span style="display: inline-flex; align-items: center; height: 48px; padding: 0 24px; border-radius: 9999px; background: #26251e; color: #f7f7f4; font-size: 16px;">Next question →</span>
+      <span style="display: inline-flex; align-items: center; height: 48px; padding: 0 24px; border-radius: 9999px; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.2); font-size: 16px;">Previous</span>
+    </div>
+    <div style="display: flex; gap: 8px; font-family: 'JetBrains Mono', monospace; font-size: 15px;">
+      <span style="width: 44px; height: 44px; border-radius: 4px; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.1); display: flex; align-items: center; justify-content: center; color: rgba(38,37,30,0.6);">9</span>
+      <span style="width: 44px; height: 44px; border-radius: 4px; background: #e1e0db; display: flex; align-items: center; justify-content: center;">10</span>
+      <span style="width: 44px; height: 44px; border-radius: 4px; background: #26251e; color: #f7f7f4; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 2px #f7f7f4, 0 0 0 4px #f54e00;">11</span>
+      <span style="width: 44px; height: 44px; border-radius: 4px; background: #1f8a65; color: #fff; display: flex; align-items: center; justify-content: center;">12</span>
+      <span style="width: 44px; height: 44px; border-radius: 4px; background: #fbe9ec; color: #a8213f; box-shadow: inset 0 0 0 1px #cf2d56; display: flex; align-items: center; justify-content: center;">13</span>
+    </div>
+    <div style="margin-top: auto; font-size: 15px; line-height: 1.6; color: rgba(38,37,30,0.6);">
+      <p style="margin: 0;">适合：希望界面极简、信息密度高、家长/老师也会用来复盘。</p>
+      <p style="margin: 0;">风险：全细字重 + 低对比层级，对低龄孩子识别“哪里能点”的提示最弱。</p>
+    </div>
+  </section>
+
+  <!-- C · OpenAI -->
+  <section style="background: #ffffff; color: #000000; padding: 48px 40px; display: flex; flex-direction: column; gap: 28px;">
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+      <p style="margin: 0; font-size: 14px; font-weight: 500; color: rgba(0,0,0,0.6);">方案 C · OpenAI Style</p>
+      <h2 style="margin: 0; font-size: 30px; line-height: 1.3; font-weight: 500; letter-spacing: -0.01em;">Plain frame, bold moments</h2>
+      <p style="margin: 0; font-size: 17px; line-height: 1.65; color: rgba(0,0,0,0.8);">白底黑字和一根 12% 细线做骨架；首页 hero 与结果页才放开表达色和生成式算式背景。</p>
+    </div>
+    <div style="display: flex; gap: 8px;">
+      <div style="width: 52px; height: 52px; border-radius: 6px; background: #ffffff; border: 1px solid rgba(0,0,0,0.12); box-sizing: border-box;"></div>
+      <div style="width: 52px; height: 52px; border-radius: 6px; background: #f1f1f1;"></div>
+      <div style="width: 52px; height: 52px; border-radius: 6px; background: #000000;"></div>
+      <div style="width: 52px; height: 52px; border-radius: 6px; background: #29bdfd;"></div>
+      <div style="width: 52px; height: 52px; border-radius: 6px; background: #ffaf00;"></div>
+      <div style="width: 52px; height: 52px; border-radius: 6px; background: #027f41;"></div>
+      <div style="width: 52px; height: 52px; border-radius: 6px; background: #f22f4d;"></div>
+    </div>
+    <div style="background: #ffffff; border: 1px solid rgba(0,0,0,0.12); border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 16px;">
+      <p style="margin: 0; font-size: 14px; font-weight: 500; color: rgba(0,0,0,0.6);">Question 78 · 3 points</p>
+      <p style="margin: 0; font-size: 22px; line-height: 1.35; font-weight: 500; letter-spacing: -0.01em;">Mother kangaroo and her son Max together weigh 60 kg. The mother on her own weighs 52 kg. How heavy is Max?</p>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px;">
+        <div style="display: flex; align-items: center; gap: 12px; background: #ffebe9; border: 1px solid #f22f4d; border-radius: 6px; padding: 10px;"><span style="width: 36px; height: 36px; border-radius: 9999px; background: #92201d; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 500;">A</span><span style="font-size: 18px;">4 kg</span></div>
+        <div style="display: flex; align-items: center; gap: 12px; background: #e6ffec; border: 1px solid #027f41; border-radius: 6px; padding: 10px;"><span style="width: 36px; height: 36px; border-radius: 9999px; background: #027f41; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 500;">B</span><span style="font-size: 18px;">8 kg</span></div>
+      </div>
+    </div>
+    <div style="display: flex; gap: 10px; align-items: center;">
+      <span style="display: inline-flex; align-items: center; height: 48px; padding: 0 24px; border-radius: 9999px; background: #000; color: #fff; font-size: 16px; font-weight: 500;">Next question</span>
+      <span style="display: inline-flex; align-items: center; height: 48px; padding: 0 24px; border-radius: 9999px; background: #f1f1f1; font-size: 16px; font-weight: 500;">Previous</span>
+    </div>
+    <div style="display: flex; gap: 8px; font-size: 16px; font-weight: 500;">
+      <span style="width: 44px; height: 44px; box-sizing: border-box; border-radius: 9999px; border: 1px solid rgba(0,0,0,0.12); display: flex; align-items: center; justify-content: center; color: rgba(0,0,0,0.6);">9</span>
+      <span style="width: 44px; height: 44px; border-radius: 9999px; background: #f1f1f1; display: flex; align-items: center; justify-content: center;">10</span>
+      <span style="width: 44px; height: 44px; border-radius: 9999px; background: #000; color: #fff; display: flex; align-items: center; justify-content: center;">11</span>
+      <span style="width: 44px; height: 44px; border-radius: 9999px; background: #def3e5; color: #2c6732; display: flex; align-items: center; justify-content: center;">12</span>
+      <span style="width: 44px; height: 44px; border-radius: 9999px; background: #ffe5e0; color: #92201d; display: flex; align-items: center; justify-content: center;">13</span>
+    </div>
+    <div style="margin-top: auto; font-size: 15px; line-height: 1.6; color: rgba(0,0,0,0.6);">
+      <p style="margin: 0;">适合：想要最“通用、现代”的观感，且首页有记忆点。</p>
+      <p style="margin: 0;">风险：主体极度中性，品牌个性主要靠首页和结果页，做题页偏素。</p>
+    </div>
+  </section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":960}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

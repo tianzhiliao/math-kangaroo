@@ -1,0 +1,92 @@
+/*
+ * Plan C (OpenAI Style) — implementation tokens for apps/web.
+ *
+ * Source of truth for values: docs/design/tokens/openai-style.tokens.json
+ * (the design system), narrowed to what this app uses, plus the documented
+ * kid-friendly deviations (48px buttons, 26px stems). See docs/design/plan-c.md.
+ *
+ * Intended destination: merge into apps/web/app/globals.css (:root block) and
+ * map in apps/web/tailwind.config.ts (theme.extend), as plan-c.md §8 describes.
+ */
+:root {
+  /* ---- Surfaces & ink (light theme; names = alpha) ---- */
+  --mk-bg: #ffffff;                     /* color-background */
+  --mk-ink-100: #000000;                /* color-primary-100: titles, body, primary button fill */
+  --mk-ink-80: rgba(0, 0, 0, 0.8);      /* color-primary-80: long body copy */
+  --mk-ink-60: rgba(0, 0, 0, 0.6);      /* color-primary-60: meta, secondary text (5.7:1) */
+  --mk-ink-44: rgba(0, 0, 0, 0.44);     /* color-primary-44: placeholders, dashed borders ONLY (3.2:1) */
+  --mk-ink-12: rgba(0, 0, 0, 0.12);     /* color-primary-12: THE one border */
+  --mk-ink-4: rgba(0, 0, 0, 0.04);      /* color-primary-4: tracks, image placeholder, disabled fill */
+  --mk-ink-2: rgba(0, 0, 0, 0.02);      /* color-primary-2: hover wash */
+  --mk-raised: #f1f1f1;                 /* color-tertiary-100: secondary buttons, icon buttons, badges */
+  --mk-solid-12: #e0e0e0;               /* color-primary-solid-12: "answered" chip */
+  --mk-inverse-fg: #ffffff;             /* text on ink fills */
+
+  /* ---- Answer outcome (status) ---- */
+  --mk-right-strong: #027f41;           /* color-syntax-string: badge fill, card border, tag text */
+  --mk-right-surface: #e6ffec;          /* color-diff-add-content: right-answer card */
+  --mk-right-soft: #def3e5;             /* color-brand-green-50: chips, pills */
+  --mk-right-fg: #2c6732;               /* color-brand-green-700: text on soft green (5.8:1) */
+  --mk-right-dot: #9fddb1;              /* color-brand-green-100: legend dot */
+  --mk-wrong-strong: #f22f4d;           /* color-syntax-error: wrong-card border only (not text) */
+  --mk-wrong-surface: #ffebe9;          /* color-diff-del-content: wrong-answer card */
+  --mk-wrong-soft: #ffe5e0;             /* color-brand-red-50: chips, pills, danger-soft button */
+  --mk-wrong-subtle: #fff4f3;           /* color-brand-red-25: error panel */
+  --mk-wrong-fg: #92201d;               /* color-brand-red-700: text/badge on red (9.8:1) */
+  --mk-wrong-dot: #ffc9c0;              /* color-brand-red-75: legend dot */
+  --mk-warn-fg: #ac4f23;                /* color-brand-orange-600: "under 5 minutes" text */
+  --mk-warn-bar: #ffaf00;               /* color-hue-yellow: low-time bar */
+
+  /* ---- Expressive (never carries status) ---- */
+  --mk-hue-blue: #29bdfd;               /* color-hue-blue */
+  --mk-hue-yellow: #ffaf00;             /* color-hue-yellow */
+  --mk-hue-magenta: #eb56c5;            /* color-hue-magenta */
+  --mk-series-felix: #e8f3fe;           /* color-brand-blue-50: Felix · Austria cover */
+  --mk-series-level-p: #fdf6dc;         /* color-brand-yellow-50: Level P · Brazil cover; also 变式题 panel */
+  --mk-series-grade-1-2: #fbe8db;       /* color-brand-orange-50: Grade 1–2 · Canada cover */
+  --mk-scrim: rgba(0, 0, 0, 0.44);      /* dialog backdrop */
+  --mk-focus: #1e60e4;                  /* color-syntax-keyword: keyboard focus ring (distinct from "current") */
+
+  /* ---- Type (Inter 400/500 only; no 700 anywhere) ---- */
+  --mk-font-sans: var(--font-inter), "Inter", system-ui, sans-serif;
+  --mk-font-mono: ui-monospace, "SF Mono", Consolas, "Liberation Mono", monospace;
+  /* size / line-height / tracking / weight are always used together — see plan-c.md §3.2 */
+
+  /* ---- Space (4px base) ---- */
+  --mk-space-1: 4px;
+  --mk-space-2: 8px;
+  --mk-space-3: 12px;
+  --mk-space-4: 16px;
+  --mk-space-5: 20px;
+  --mk-space-6: 24px;
+  --mk-space-7: 28px;
+  --mk-space-8: 32px;
+  --mk-space-10: 40px;
+  --mk-space-12: 48px;
+  --mk-header-h: 64px;                  /* 54px below 768px */
+
+  /* ---- Radius (pick by value; system names are non-monotonic) ---- */
+  --mk-radius-md: 6px;                  /* inputs, count tiles */
+  --mk-radius-lg: 16px;                 /* cards, choice cards, figures, paper covers */
+  --mk-radius-3xl: 24px;                /* panels, dialogs, score card */
+  --mk-radius-button: 2.5rem;           /* pill buttons */
+  --mk-radius-full: 9999px;             /* chips, icon buttons, badges */
+
+  /* ---- Elevation ---- */
+  --mk-shadow-popover: 0 18px 60px rgba(0, 0, 0, 0.08); /* dialogs only */
+
+  /* ---- Motion ---- */
+  --mk-dur-fast: 100ms;                 /* nav/link hover */
+  --mk-dur-base: 200ms;                 /* colour transitions, dialog */
+  --mk-ease-linear: linear;             /* colour transitions (curve-a) */
+  --mk-ease-popover: cubic-bezier(0.2, 0, 0, 1);
+  --mk-shift-enter: 4px;                /* dialog / panel entrance offset (≤ 8px) */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --mk-dur-fast: 0ms;
+    --mk-dur-base: 0ms;
+    --mk-shift-enter: 0px;
+  }
+}

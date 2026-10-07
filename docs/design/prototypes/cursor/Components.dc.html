@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Components and states</title>
+<script src="../support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&amp;family=JetBrains+Mono:wght@400&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1440px; height: 1960px; box-sizing: border-box; padding: 56px; background: #f7f7f4; color: #26251e; font-family: 'Inter', system-ui, sans-serif; font-weight: 400; display: flex; flex-direction: column; gap: 36px;">
+  <div style="display: flex; flex-direction: column; gap: 6px;">
+    <p style="margin: 0; font-size: 14px; letter-spacing: 0.01em; color: rgba(38,37,30,0.6);">Version B · Cursor Style</p>
+    <h1 style="margin: 0; font-size: 36px; line-height: 1.2; font-weight: 400; letter-spacing: -0.02em;">Components and states</h1>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px 44px;">
+
+    <section style="display: flex; flex-direction: column; gap: 14px; padding-top: 18px; box-shadow: inset 0 1px 0 rgba(38,37,30,0.1);">
+      <h2 style="margin: 0; font-size: 14px; font-weight: 400; letter-spacing: 0.01em; color: rgba(38,37,30,0.6);">Buttons</h2>
+      <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+        <button type="button" style="min-height: 52px; padding: 0 26px; border: none; border-radius: 9999px; background: #26251e; color: #f7f7f4; font: inherit; font-size: 16px;">Next question →</button>
+        <button type="button" style="min-height: 52px; padding: 0 26px; border: none; border-radius: 9999px; background: #3b3a33; color: #f7f7f4; font: inherit; font-size: 16px;">Hover</button>
+        <button type="button" style="min-height: 52px; padding: 0 26px; border: none; border-radius: 9999px; background: transparent; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.2); color: #26251e; font: inherit; font-size: 16px;">← Previous</button>
+        <button type="button" disabled style="min-height: 52px; padding: 0 26px; border: none; border-radius: 9999px; background: transparent; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.1); color: rgba(38,37,30,0.4); font: inherit; font-size: 16px; cursor: not-allowed;">Disabled</button>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+        <button type="button" style="min-height: 52px; padding: 0 26px; border: none; border-radius: 9999px; background: transparent; box-shadow: inset 0 0 0 1px #cf2d56; color: #a8213f; font: inherit; font-size: 16px;">Clear and exit</button>
+        <span style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 26px; border-radius: 9999px; background: #26251e; color: #f7f7f4; font-size: 16px; outline: 2px solid #26251e; outline-offset: 0.3ch;">Focus</span>
+        <button type="button" style="display: block; padding: 0; border: none; border-radius: 4px; background: #f2f1ed; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.1); color: #26251e; font: inherit; text-align: left;"><span style="display: flex; flex-direction: column; padding: 12px 16px; gap: 2px;"><span style="font-size: 16px;">Block button</span><span style="font-size: 13px; color: rgba(38,37,30,0.6);">4px · for card-like rows</span></span></button>
+      </div>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 14px; padding-top: 18px; box-shadow: inset 0 1px 0 rgba(38,37,30,0.1);">
+      <h2 style="margin: 0; font-size: 14px; font-weight: 400; letter-spacing: 0.01em; color: rgba(38,37,30,0.6);">Question chips</h2>
+      <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+        <sc-for list="{{chips}}" as="c" hint-placeholder-count="7">
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+            <span style="{{c.style}}">{{c.n}}</span>
+            <span style="font-size: 13px; color: rgba(38,37,30,0.6);">{{c.name}}</span>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 14px; padding-top: 18px; box-shadow: inset 0 1px 0 rgba(38,37,30,0.1);">
+      <h2 style="margin: 0; font-size: 14px; font-weight: 400; letter-spacing: 0.01em; color: rgba(38,37,30,0.6);">Answer choices</h2>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;">
+        <sc-for list="{{choices}}" as="o" hint-placeholder-count="6">
+          <div style="display: flex; flex-direction: column; gap: 6px;">
+            <div style="{{o.card}}">
+              <span style="{{o.badge}}">{{o.mark}}</span>
+              <span style="flex: 1; font-size: 21px;">{{o.text}}</span>
+              <span style="font-size: 13px;">{{o.tag}}</span>
+            </div>
+            <span style="font-size: 13px; color: rgba(38,37,30,0.6);">{{o.name}}</span>
+          </div>
+        </sc-for>
+      </div>
+      <div style="display: flex; gap: 12px;">
+        <div style="width: 170px; display: flex; flex-direction: column; gap: 10px; padding: 10px; border-radius: 4px; background: #f2f1ed; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.1);">
+          <span style="width: 40px; height: 40px; border-radius: 9999px; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.6); display: flex; align-items: center; justify-content: center; font-size: 17px;">A</span>
+          <img src="../assets/choice-a.svg" alt="Option A" style="display: block; width: 100%; height: 96px; object-fit: contain; background: #ffffff; border-radius: 2px;">
+        </div>
+        <div style="width: 170px; display: flex; flex-direction: column; gap: 10px; padding: 10px; border-radius: 4px; background: #e6e5e0; box-shadow: inset 0 0 0 2px #26251e;">
+          <span style="width: 40px; height: 40px; border-radius: 9999px; background: #26251e; color: #f7f7f4; display: flex; align-items: center; justify-content: center; font-size: 17px;">C</span>
+          <img src="../assets/choice-c.svg" alt="Option C" style="display: block; width: 100%; height: 96px; object-fit: contain; background: #ffffff; border-radius: 2px;">
+        </div>
+        <p style="margin: 0; align-self: center; font-size: 15px; line-height: 1.5; color: rgba(38,37,30,0.6);">Pictures sit on the chart white (#fff), the only pure white in the system, so the line art reads clearly.</p>
+      </div>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 14px; padding-top: 18px; box-shadow: inset 0 1px 0 rgba(38,37,30,0.1);">
+      <h2 style="margin: 0; font-size: 14px; font-weight: 400; letter-spacing: 0.01em; color: rgba(38,37,30,0.6);">Listen · Timer · Feedback</h2>
+      <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+        <button type="button" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border: none; border-radius: 9999px; background: transparent; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.2); color: #26251e; font: inherit; font-size: 15px;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18 6a8 8 0 0 1 0 12"/></svg>Listen</button>
+        <button type="button" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border: none; border-radius: 9999px; background: #ebeae5; color: rgba(38,37,30,0.6); font: inherit; font-size: 15px; cursor: wait;"><span style="width: 14px; height: 14px; box-sizing: border-box; border-radius: 9999px; border: 1.5px solid rgba(38,37,30,0.6); border-top-color: transparent;"></span>Loading</button>
+        <button type="button" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border: none; border-radius: 9999px; background: #26251e; color: #f7f7f4; font: inherit; font-size: 15px;"><span style="width: 10px; height: 10px; border-radius: 1px; background: #f7f7f4;"></span>Stop</button>
+        <button type="button" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border: none; border-radius: 9999px; background: transparent; box-shadow: inset 0 0 0 1px #cf2d56; color: #a8213f; font: inherit; font-size: 15px;">Couldn’t play · Retry</button>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;">
+        <div style="position: relative; background: #f2f1ed; border-radius: 4px; padding: 14px 16px 16px; display: flex; justify-content: space-between; align-items: baseline;"><span style="font-size: 13px; color: rgba(38,37,30,0.6);">Time left</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 22px;">31:24</span><div style="position: absolute; left: 0; right: 0; bottom: 0; height: 2px;"><div style="width: 70%; height: 2px; background: #26251e;"></div></div></div>
+        <div style="position: relative; background: #f2f1ed; border-radius: 4px; padding: 14px 16px 16px; display: flex; justify-content: space-between; align-items: baseline;"><span style="font-size: 13px; color: #c43f00;">Under 5 min</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 22px; color: #c43f00;">4:12</span><div style="position: absolute; left: 0; right: 0; bottom: 0; height: 2px;"><div style="width: 9%; height: 2px; background: #f54e00;"></div></div></div>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;">
+        <p style="margin: 0; padding: 12px 16px; border-radius: 4px; background: #e3f1ea; font-size: 18px;"><span style="color: #1f8a65;">✓</span> Right. Max weighs 8 kg.</p>
+        <p style="margin: 0; padding: 12px 16px; border-radius: 4px; background: #fbe9ec; font-size: 18px;"><span style="color: #cf2d56;">×</span> Not quite. Right answer: B.</p>
+      </div>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 12px; padding-top: 18px; box-shadow: inset 0 1px 0 rgba(38,37,30,0.1);">
+      <h2 style="margin: 0; font-size: 14px; font-weight: 400; letter-spacing: 0.01em; color: rgba(38,37,30,0.6);">Explanation panel</h2>
+      <button type="button" aria-expanded="false" style="display: flex; align-items: center; justify-content: space-between; min-height: 60px; padding: 0 20px; border: none; border-radius: 4px; background: #f2f1ed; color: #26251e; font: inherit; text-align: left;"><span style="display: flex; flex-direction: column;"><span style="font-size: 17px;">Why is it B?</span><span style="font-size: 14px; color: rgba(38,37,30,0.6);">A short explanation in simple English</span></span><span style="font-size: 18px;">↓</span></button>
+      <div style="display: flex; align-items: center; gap: 10px; padding: 18px 20px; border-radius: 4px; background: #f2f1ed;"><span style="font-size: 17px; color: rgba(38,37,30,0.4);">Writing the explanation…</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: rgba(38,37,30,0.4);">streams in from 40%</span></div>
+      <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 20px; border-radius: 4px; background: #fbe9ec;"><span style="font-size: 16px; color: #a8213f;">Sorry, we could not load the explanation.</span><button type="button" style="min-height: 44px; padding: 0 16px; border: none; border-radius: 9999px; background: #26251e; color: #f7f7f4; font: inherit; font-size: 15px;">Try again</button></div>
+      <div style="display: flex; flex-direction: column; gap: 8px; padding: 18px 20px; border-radius: 4px; background: #f2f1ed;"><div style="display: flex; justify-content: space-between;"><span style="font-size: 17px;">Why is it B?</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: rgba(38,37,30,0.6);">saved · checked against key</span></div><p style="margin: 0; font-size: 17px; line-height: 1.5;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 15px; padding: 2px 6px; border-radius: 4px; background: #e6e5e0;">60 − 52 = 8</span> Max weighs 8 kg. So the answer is B.</p></div>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 12px; padding-top: 18px; box-shadow: inset 0 1px 0 rgba(38,37,30,0.1);">
+      <h2 style="margin: 0; font-size: 14px; font-weight: 400; letter-spacing: 0.01em; color: rgba(38,37,30,0.6);">变式题 · open</h2>
+      <div style="border-radius: 4px; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.1); overflow: hidden;">
+        <button type="button" aria-expanded="true" style="width: 100%; display: flex; align-items: center; justify-content: space-between; min-height: 56px; padding: 0 20px; border: none; background: #f2f1ed; color: #26251e; font: inherit; font-size: 17px; text-align: left;"><span>变式题 · Try a similar question</span><span>↑</span></button>
+        <div style="padding: 18px 20px; display: flex; flex-direction: column; gap: 14px;">
+          <div style="display: flex; gap: 16px; align-items: center;">
+            <p style="margin: 0; flex: 1; font-size: 19px; line-height: 1.35;">Father kangaroo and his daughter Lina together weigh 45 kg. The father on his own weighs 39 kg. How heavy is Lina?</p>
+            <img src="../assets/kangaroos.svg" alt="Two kangaroos" style="width: 150px; height: 88px; object-fit: contain; background: #ffffff; border-radius: 2px;">
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px;">
+            <sc-for list="{{variant}}" as="v" hint-placeholder-count="5">
+              <div style="display: flex; align-items: center; gap: 8px; padding: 6px; border-radius: 4px; background: #f2f1ed;">
+                <span style="width: 32px; height: 32px; flex: none; border-radius: 9999px; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.6); display: flex; align-items: center; justify-content: center; font-size: 14px;">{{v.l}}</span>
+                <span style="font-size: 16px;">{{v.t}}</span>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 12px; padding-top: 18px; box-shadow: inset 0 1px 0 rgba(38,37,30,0.1);">
+      <h2 style="margin: 0; font-size: 14px; font-weight: 400; letter-spacing: 0.01em; color: rgba(38,37,30,0.6);">Confirm dialogs (replace window.confirm)</h2>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;">
+        <div style="background: #f7f7f4; border-radius: 4px; padding: 22px; display: flex; flex-direction: column; gap: 10px; box-shadow: 0 0 0 1px rgba(38,37,30,0.05);">
+          <p style="margin: 0; font-size: 20px;">Submit your exam?</p>
+          <p style="margin: 0; font-size: 15px; line-height: 1.5; color: rgba(38,37,30,0.6);"><span style="font-family: 'JetBrains Mono', monospace; color: #26251e;">19 / 24</span> answered. Answers lock after you submit.</p>
+          <div style="display: flex; gap: 8px; justify-content: flex-end; flex-wrap: wrap;">
+            <button type="button" style="min-height: 44px; padding: 0 16px; border: none; border-radius: 9999px; background: transparent; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.2); color: #26251e; font: inherit; font-size: 15px;">Keep working</button>
+            <button type="button" style="min-height: 44px; padding: 0 16px; border: none; border-radius: 9999px; background: #26251e; color: #f7f7f4; font: inherit; font-size: 15px;">Submit</button>
+          </div>
+        </div>
+        <div style="background: #f7f7f4; border-radius: 4px; padding: 22px; display: flex; flex-direction: column; gap: 10px; box-shadow: 0 0 0 1px rgba(38,37,30,0.05);">
+          <p style="margin: 0; font-size: 20px;">Leave this exam?</p>
+          <p style="margin: 0; font-size: 15px; line-height: 1.5; color: rgba(38,37,30,0.6);">Answers you have not submitted will be lost.</p>
+          <div style="display: flex; gap: 8px; justify-content: flex-end; flex-wrap: wrap;">
+            <button type="button" style="min-height: 44px; padding: 0 16px; border: none; border-radius: 9999px; background: transparent; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.2); color: #26251e; font: inherit; font-size: 15px;">Stay</button>
+            <button type="button" style="min-height: 44px; padding: 0 16px; border: none; border-radius: 9999px; background: transparent; box-shadow: inset 0 0 0 1px #cf2d56; color: #a8213f; font: inherit; font-size: 15px;">Leave</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="grid-column: 1 / -1; display: flex; flex-direction: column; gap: 12px; padding-top: 18px; box-shadow: inset 0 1px 0 rgba(38,37,30,0.1);">
+      <h2 style="margin: 0; font-size: 14px; font-weight: 400; letter-spacing: 0.01em; color: rgba(38,37,30,0.6);">Page states</h2>
+      <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12.8px;">
+        <div style="height: 200px; border-radius: 4px; background: #f2f1ed; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px;">
+          <span style="width: 28px; height: 28px; box-sizing: border-box; border-radius: 9999px; border: 2px solid rgba(38,37,30,0.6); border-top-color: transparent;"></span>
+          <span style="font-size: 16px; color: rgba(38,37,30,0.6);">Loading papers…</span>
+        </div>
+        <div style="height: 200px; border-radius: 4px; background: #f2f1ed; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 16px; text-align: center;">
+          <span style="font-size: 18px;">No papers yet</span>
+          <span style="font-size: 14px; color: rgba(38,37,30,0.6);">They appear here once added.</span>
+          <a href="Home.dc.html" style="color: #26251e; font-size: 15px;">← Home</a>
+        </div>
+        <div style="height: 200px; border-radius: 4px; background: #f2f1ed; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 16px; text-align: center;">
+          <span style="font-size: 18px;">Couldn’t load this exam</span>
+          <span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: rgba(38,37,30,0.6);">GET /api/exams/felix-brazil-2020 · 502</span>
+          <button type="button" style="min-height: 44px; padding: 0 16px; border: none; border-radius: 9999px; background: #26251e; color: #f7f7f4; font: inherit; font-size: 15px;">Try again</button>
+        </div>
+        <div style="height: 200px; border-radius: 4px; background: #f2f1ed; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 16px; text-align: center;">
+          <span style="font-size: 18px;">There is no Q300</span>
+          <span style="font-size: 14px; color: rgba(38,37,30,0.6);">Practice runs from Q1 to Q270.</span>
+          <a href="Practice.dc.html" style="color: #26251e; font-size: 15px;">Go to Q1 →</a>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1960}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const base = 'width: 48px; height: 48px; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-family: "JetBrains Mono", monospace; font-size: 16px; box-sizing: border-box;';
+    const chips = [
+      { n: 9, name: 'Not yet', style: base + 'color: rgba(38,37,30,0.6); box-shadow: inset 0 0 0 1px rgba(38,37,30,0.2);' },
+      { n: 10, name: 'Answered', style: base + 'background: #26251e; color: #f7f7f4;' },
+      { n: 11, name: 'Now', style: base + 'color: #26251e; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.2), 0 0 0 2px #f7f7f4, 0 0 0 4px #f54e00;' },
+      { n: 12, name: 'Right', style: base + 'background: #1f8a65; color: #ffffff;' },
+      { n: 13, name: 'Wrong', style: base + 'background: #f8d6d5; color: #a8213f; box-shadow: inset 0 0 0 1px #cf2d56;' },
+      { n: 14, name: 'Skipped', style: base + 'color: rgba(38,37,30,0.6); outline: 1px dashed rgba(38,37,30,0.4); outline-offset: -1px;' },
+      { n: 15, name: 'Now + wrong', style: base + 'background: #f8d6d5; color: #a8213f; box-shadow: inset 0 0 0 1px #cf2d56, 0 0 0 2px #f7f7f4, 0 0 0 4px #f54e00;' }
+    ];
+    const card = 'display: flex; align-items: center; gap: 14px; min-height: 60px; padding: 8px 16px 8px 10px; border-radius: 4px; box-sizing: border-box; ';
+    const badge = 'width: 42px; height: 42px; flex: none; border-radius: 9999px; display: flex; align-items: center; justify-content: center; font-size: 17px; box-sizing: border-box; ';
+    const plain = badge + 'box-shadow: inset 0 0 0 1px rgba(38,37,30,0.6);';
+    const choices = [
+      { name: 'Default', mark: 'A', text: '4 kg', tag: '', card: card + 'background: #f2f1ed; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.1);', badge: plain },
+      { name: 'Hover (one card step down)', mark: 'A', text: '4 kg', tag: '', card: card + 'background: #ebeae5; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.1);', badge: plain },
+      { name: 'Selected (exam)', mark: 'B', text: '8 kg', tag: '', card: card + 'background: #e6e5e0; box-shadow: inset 0 0 0 2px #26251e;', badge: badge + 'background: #26251e; color: #f7f7f4;' },
+      { name: 'Right answer', mark: '✓', text: '8 kg', tag: 'B · right answer', card: card + 'background: #e3f1ea; box-shadow: inset 0 0 0 2px #1f8a65;', badge: badge + 'background: #1f8a65; color: #ffffff;' },
+      { name: 'Your wrong answer', mark: '×', text: '4 kg', tag: 'A · your answer', card: card + 'background: #fbe9ec; box-shadow: inset 0 0 0 2px #cf2d56;', badge: badge + 'background: #cf2d56; color: #ffffff;' },
+      { name: 'Other, after answering', mark: 'C', text: '30 kg', tag: '', card: card + 'background: #f2f1ed; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.1); opacity: 0.5;', badge: plain }
+    ];
+    const variant = [['A', '6 kg'], ['B', '4 kg'], ['C', '9 kg'], ['D', '42 kg'], ['E', '84 kg']].map(([l, t]) => ({ l, t }));
+    return { chips, choices, variant };
+  }
+}
+</script>
+</body>
+</html>

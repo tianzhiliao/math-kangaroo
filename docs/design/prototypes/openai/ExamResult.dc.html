@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Exam submitted</title>
+<script src="../support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="min-height: 900px; background: #ffffff; color: #000000; font-family: 'Inter', system-ui, sans-serif; display: flex; flex-direction: column;">
+  <header style="min-height: 64px; padding: 8px 24px; box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; border-bottom: 1px solid rgba(0,0,0,0.12);">
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <a href="ExamPicker.dc.html" aria-label="All papers" style="width: 40px; height: 40px; border-radius: 9999px; display: flex; align-items: center; justify-content: center; color: rgba(0,0,0,0.6); text-decoration: none;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+      </a>
+      <div style="display: flex; flex-direction: column;">
+        <span style="font-size: 14px; font-weight: 500; color: rgba(0,0,0,0.6);">Exam · Submitted · 38 min</span>
+        <span style="font-size: 18px; line-height: 24px; font-weight: 500; letter-spacing: -0.01em;">Level P · Brazil 2020</span>
+      </div>
+    </div>
+    <div style="display: flex; gap: 8px;">
+      <a href="ExamRun.dc.html" style="display: inline-flex; align-items: center; height: 44px; padding: 0 20px; border-radius: 2.5rem; background: #f1f1f1; color: #000000; font-size: 14px; font-weight: 500; text-decoration: none;">Try this paper again</a>
+      <a href="ExamPicker.dc.html" style="display: inline-flex; align-items: center; height: 44px; padding: 0 20px; border-radius: 2.5rem; background: #000000; color: #ffffff; font-size: 14px; font-weight: 500; text-decoration: none;">Choose another paper</a>
+    </div>
+  </header>
+
+  <div style="flex: 1; display: flex; flex-wrap: wrap;">
+    <aside style="flex: 1 1 280px; max-width: 100%; box-sizing: border-box; padding: 24px; border-right: 1px solid rgba(0,0,0,0.12); display: flex; flex-direction: column; gap: 20px;">
+      <div style="background: #000000; color: #ffffff; border-radius: 24px; padding: 22px; display: flex; flex-direction: column; gap: 16px;">
+        <div>
+          <span style="font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.6);">Score</span>
+          <p style="margin: 0; display: flex; align-items: baseline; gap: 8px;"><span style="font-size: 48px; line-height: 56px; font-weight: 500; letter-spacing: -0.03em;">79</span><span style="font-size: 17px; font-weight: 500; color: rgba(255,255,255,0.6);">of 120</span></p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <sc-for list="{{tiers}}" as="t" hint-placeholder-count="3">
+            <div style="display: flex; flex-direction: column; gap: 4px;">
+              <div style="display: flex; justify-content: space-between; font-size: 13px; font-weight: 500;"><span style="color: rgba(255,255,255,0.6);">{{t.name}}</span><span>{{t.val}}</span></div>
+              <div style="height: 6px; border-radius: 9999px; background: rgba(255,255,255,0.2);"><div style="{{t.bar}}"></div></div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; text-align: center;">
+        <div style="padding: 10px 4px; border-radius: 6px; background: #def3e5;"><p style="margin: 0; font-size: 22px; font-weight: 500; color: #2c6732;">15</p><p style="margin: 0; font-size: 13px; font-weight: 500; color: #2c6732;">right</p></div>
+        <div style="padding: 10px 4px; border-radius: 6px; background: #ffe5e0;"><p style="margin: 0; font-size: 22px; font-weight: 500; color: #92201d;">4</p><p style="margin: 0; font-size: 13px; font-weight: 500; color: #92201d;">wrong</p></div>
+        <div style="padding: 10px 4px; border-radius: 6px; background: #f1f1f1;"><p style="margin: 0; font-size: 22px; font-weight: 500;">5</p><p style="margin: 0; font-size: 13px; font-weight: 500; color: rgba(0,0,0,0.6);">skipped</p></div>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; justify-items: center;">
+        <sc-for list="{{chips}}" as="c" hint-placeholder-count="24">
+          <button type="button" aria-label="{{c.aria}}" style="{{c.style}}">{{c.n}}</button>
+        </sc-for>
+      </div>
+    </aside>
+
+    <main style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column;">
+      <div style="flex: 1; padding: 40px 48px; display: flex; justify-content: center;">
+        <article style="width: 100%; max-width: 860px; display: flex; flex-direction: column; gap: 24px;">
+          <div style="display: flex; flex-wrap: wrap; gap: 28px; align-items: flex-start;">
+            <div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 14px;">
+              <p style="margin: 0; font-size: 14px; font-weight: 500; color: rgba(0,0,0,0.6);">Question 2 · 3 points</p>
+              <p style="margin: 0; font-size: 26px; line-height: 34px; font-weight: 500; letter-spacing: -0.01em;">Julia has 5 pieces of plastic and has stacked these pieces on a table, as shown beside. What was the second piece she put on the table?</p>
+              <p style="margin: 0; align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border-radius: 9999px; background: #ffe5e0; color: #92201d; font-size: 14px; font-weight: 500;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>You chose B—the right answer is C. −1 point
+              </p>
+            </div>
+            <figure style="margin: 0; flex: 0 0 auto; border: 1px solid rgba(0,0,0,0.12); border-radius: 16px; padding: 12px;">
+              <img src="../assets/stack.svg" alt="Five stacked plastic pieces" style="display: block; width: 168px; height: 200px; object-fit: contain;">
+            </figure>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px;">
+            <sc-for list="{{choices}}" as="o" hint-placeholder-count="5">
+              <div style="{{o.card}}">
+                <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+                  <span style="{{o.badge}}">{{o.label}}</span>
+                  <span style="{{o.tagStyle}}">{{o.tag}}</span>
+                </div>
+                <img src="{{o.src}}" alt="{{o.alt}}" style="display: block; width: 100%; height: 104px; object-fit: contain;">
+              </div>
+            </sc-for>
+          </div>
+        </article>
+      </div>
+
+      <footer style="border-top: 1px solid rgba(0,0,0,0.12); padding: 16px 48px;">
+        <div style="max-width: 860px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;">
+          <button type="button" style="height: 48px; min-width: 132px; padding: 0 24px; border: none; border-radius: 2.5rem; background: #f1f1f1; color: #000000; font: inherit; font-size: 15px; font-weight: 500;">Previous</button>
+          <a href="#" style="font-size: 14px; font-weight: 500; color: #000000;">Next mistake: question 5</a>
+          <button type="button" style="height: 48px; min-width: 132px; padding: 0 24px; border: none; border-radius: 2.5rem; background: #000000; color: #ffffff; font: inherit; font-size: 15px; font-weight: 500;">Next</button>
+        </div>
+      </footer>
+    </main>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const bar = (pct, c) => 'width: ' + pct + '%; height: 6px; border-radius: 9999px; background: ' + c + ';';
+    const tiers = [
+      { name: 'Questions 1–8 · 3 points each', val: '15 / 24', bar: bar(62, '#29bdfd') },
+      { name: 'Questions 9–16 · 4 points each', val: '24 / 32', bar: bar(75, '#ffaf00') },
+      { name: 'Questions 17–24 · 5 points each', val: '20 / 40', bar: bar(50, '#eb56c5') }
+    ];
+    const wrong = { 2: 1, 5: 1, 11: 1, 17: 1 };
+    const skipped = { 8: 1, 14: 1, 19: 1, 22: 1, 24: 1 };
+    const base = 'width: 44px; height: 44px; border-radius: 9999px; font-family: Inter, sans-serif; font-size: 15px; font-weight: 500; box-sizing: border-box;';
+    const chips = [];
+    for (let n = 1; n <= 24; n++) {
+      let s;
+      if (wrong[n]) s = 'background: #ffe5e0; color: #92201d; border: none;';
+      else if (skipped[n]) s = 'background: #ffffff; color: rgba(0,0,0,0.6); border: 1px dashed rgba(0,0,0,0.44);';
+      else s = 'background: #def3e5; color: #2c6732; border: none;';
+      if (n === 2) s += ' outline: 2px solid #000000; outline-offset: 2px;';
+      chips.push({ n, aria: 'Question ' + n, style: base + s });
+    }
+    const imgs = {
+      A: '../assets/choice-a.svg', B: '../assets/choice-b.svg',
+      C: '../assets/choice-c.svg', D: '../assets/choice-d.svg',
+      E: '../assets/choice-e.svg'
+    };
+    const choices = ['A', 'B', 'C', 'D', 'E'].map((l) => {
+      let card = 'display: flex; flex-direction: column; gap: 8px; padding: 12px; border-radius: 16px; ';
+      let badge = 'width: 40px; height: 40px; border-radius: 9999px; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 500; ';
+      let tag = '', tagStyle = 'font-size: 13px; font-weight: 500;';
+      if (l === 'C') { card += 'background: #e6ffec; border: 2px solid #027f41;'; badge += 'background: #027f41; color: #ffffff;'; tag = 'Right answer'; tagStyle += ' color: #027f41;'; }
+      else if (l === 'B') { card += 'background: #ffebe9; border: 2px solid #f22f4d;'; badge += 'background: #92201d; color: #ffffff;'; tag = 'Your answer'; tagStyle += ' color: #92201d;'; }
+      else { card += 'background: #ffffff; border: 2px solid rgba(0,0,0,0.12); opacity: 0.5;'; badge += 'background: #f1f1f1;'; }
+      return { label: l, src: imgs[l], alt: 'Option ' + l, card, badge, tag, tagStyle };
+    });
+    return { tiers, chips, choices };
+  }
+}
+</script>
+</body>
+</html>

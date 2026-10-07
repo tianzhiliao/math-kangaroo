@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Choose a paper</title>
+<script src="../support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="min-height: 900px; background: #faf9f5; color: #141413; font-family: 'Source Serif 4', Georgia, serif;">
+  <header style="border-bottom: 1px solid rgba(20,20,19,0.1);">
+    <nav style="max-width: 1200px; margin: 0 auto; padding: 0 32px; height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-family: 'Inter Tight', sans-serif;">
+      <a href="Home.dc.html" style="font-size: 20px; font-weight: 600; color: #141413; text-decoration: none;">Math Kangaroo</a>
+      <div style="display: flex; gap: 28px; font-size: 15px;">
+        <a href="#" style="color: #141413; text-decoration: underline; text-underline-offset: 6px;">Exam</a>
+        <a href="Practice.dc.html" style="color: #141413; text-decoration: none;">Practice</a>
+      </div>
+    </nav>
+  </header>
+
+  <main style="max-width: 1200px; margin: 0 auto; padding: 48px 32px 64px; box-sizing: border-box; display: flex; flex-direction: column; gap: 32px;">
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+      <a href="Home.dc.html" style="font-family: 'Inter Tight', sans-serif; font-size: 15px; font-weight: 500; color: #5e5d59; text-decoration: none;">← Home</a>
+      <h1 style="margin: 0; font-family: 'Inter Tight', sans-serif; font-size: 40px; line-height: 1.1; font-weight: 700;">Choose a paper</h1>
+      <p style="margin: 0; font-size: 18px; line-height: 1.4; color: #30302e; max-width: 52ch;">Each paper is timed. You can move between questions and change answers until you submit.</p>
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 8px; font-family: 'Inter Tight', sans-serif; font-size: 15px; font-weight: 500;">
+      <button type="button" style="min-height: 44px; padding: 0 20px; border-radius: 9999px; border: 1px solid #141413; background: #141413; color: #faf9f5; font: inherit;">All papers</button>
+      <button type="button" style="min-height: 44px; padding: 0 20px; border-radius: 9999px; border: 1px solid rgba(20,20,19,0.2); background: transparent; color: #141413; font: inherit;">Felix · Austria</button>
+      <button type="button" style="min-height: 44px; padding: 0 20px; border-radius: 9999px; border: 1px solid rgba(20,20,19,0.2); background: transparent; color: #141413; font: inherit;">Level P · Brazil</button>
+      <button type="button" style="min-height: 44px; padding: 0 20px; border-radius: 9999px; border: 1px solid rgba(20,20,19,0.2); background: transparent; color: #141413; font: inherit;">Grade 1–2 · Canada</button>
+    </div>
+
+    <div style="display: flex; flex-direction: column;">
+      <sc-for list="{{years}}" as="y" hint-placeholder-count="6">
+        <div style="display: flex; flex-wrap: wrap; gap: 16px 24px; align-items: center; padding: 16px 0; border-top: 1px solid rgba(20,20,19,0.1);">
+          <p style="margin: 0; width: 96px; font-family: 'Inter Tight', sans-serif; font-size: 24px; line-height: 1.3; font-weight: 600; font-variant-numeric: tabular-nums;">{{y.year}}</p>
+          <div style="flex: 1 1 480px; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px;">
+            <sc-for list="{{y.papers}}" as="p" hint-placeholder-count="1">
+              <a href="ExamRun.dc.html" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 72px; padding: 14px 20px; box-sizing: border-box; background: #ffffff; border: 1px solid rgba(20,20,19,0.1); border-radius: 8px; color: #141413; text-decoration: none;">
+                <span style="display: flex; flex-direction: column; gap: 2px;">
+                  <span style="font-family: 'Inter Tight', sans-serif; font-size: 18px; font-weight: 600;">{{p.series}}</span>
+                  <span style="font-family: 'Inter Tight', sans-serif; font-size: 14px; font-weight: 500; color: #5e5d59;">{{p.meta}}</span>
+                </span>
+                <span style="font-family: 'Inter Tight', sans-serif; font-size: 20px; color: #5e5d59;">→</span>
+              </a>
+            </sc-for>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const felix = (m) => ({ series: 'Felix · Austria', meta: '15 questions · ' + m + ' min' });
+    const brazil = { series: 'Level P · Brazil', meta: '24 questions · 45 min' };
+    const canada = { series: 'Grade 1–2 · Canada', meta: '18 questions · 45 min' };
+    return {
+      years: [
+        { year: '2025', papers: [felix(60)] },
+        { year: '2024', papers: [felix(60)] },
+        { year: '2023', papers: [felix(60), canada] },
+        { year: '2022', papers: [felix(60), canada] },
+        { year: '2021', papers: [brazil, canada] },
+        { year: '2020', papers: [brazil, canada] },
+        { year: '2019', papers: [felix(45)] },
+        { year: '2018', papers: [felix(45)] },
+        { year: '2017', papers: [felix(45)] },
+        { year: '2016', papers: [felix(45)] },
+        { year: '2015', papers: [felix(45)] },
+        { year: '2014', papers: [felix(45)] }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,1114 @@
+{
+  "name": "Anthropic Style",
+  "version": 1,
+  "meta": {
+    "source": "local",
+    "repo": "notes/design-patterns",
+    "ref": "master@2d3e223",
+    "package": "anthropic",
+    "paths": {
+      "tokens": [
+        "anthropic/02-tokens/tokens.json",
+        "anthropic/02-tokens/anthropic-theme.css"
+      ],
+      "docs": [
+        "anthropic/01-design-language",
+        "anthropic/02-tokens",
+        "anthropic/03-components",
+        "anthropic/04-page-patterns",
+        "anthropic/05-subsystems"
+      ]
+    },
+    "measured": "anthropic.com, 2026-08-12",
+    "synced": "2026-10-05"
+  },
+  "color": {
+    "themes": [
+      {
+        "id": "ivory",
+        "name": "Ivory（亮）"
+      },
+      {
+        "id": "slate",
+        "name": "Slate（深）"
+      }
+    ],
+    "tokens": [
+      {
+        "name": "slate-1000",
+        "value": "#0f0f0e",
+        "usage": "最深一档。编辑站导航文字。"
+      },
+      {
+        "name": "slate-950",
+        "value": "#141413",
+        "usage": "★ 锚点。深色区块的底、亮色区块的墨（正文/标题/主按钮底）。"
+      },
+      {
+        "name": "slate-900",
+        "value": "#1a1918",
+        "usage": "ramp 中间档，少用。"
+      },
+      {
+        "name": "slate-850",
+        "value": "#1f1e1d",
+        "usage": "slate 主题的次级面（bg-secondary）。"
+      },
+      {
+        "name": "slate-800",
+        "value": "#262624",
+        "usage": "ramp 中间档，少用。"
+      },
+      {
+        "name": "slate-750",
+        "value": "#30302e",
+        "usage": "ivory 主题的次级文字；slate 主题的三级面。"
+      },
+      {
+        "name": "slate-700",
+        "value": "#3d3d3a",
+        "usage": "ivory 主按钮 hover；slate 主题卡片面；终端标题栏。Webflow 名 slate-medium。"
+      },
+      {
+        "name": "slate-650",
+        "value": "#4d4c48",
+        "usage": "ramp 中间档，少用。"
+      },
+      {
+        "name": "slate-600",
+        "value": "#5e5d59",
+        "usage": "ivory 主题三级文字、链接 hover、图注。Webflow 名 slate-light。"
+      },
+      {
+        "name": "slate-550",
+        "value": "#73726c",
+        "usage": "ramp 中间档，少用。"
+      },
+      {
+        "name": "slate-500",
+        "value": "#87867f",
+        "usage": "slate 主题三级文字。Webflow 名 cloud-dark。"
+      },
+      {
+        "name": "slate-450",
+        "value": "#9c9a92",
+        "usage": "ramp 中间档，少用。"
+      },
+      {
+        "name": "slate-400",
+        "value": "#b0aea5",
+        "usage": "“Agate”——最弱的文字档：占位符、输入框边框、终端正文。Webflow 名 cloud-medium。"
+      },
+      {
+        "name": "slate-350",
+        "value": "#c2c0b6",
+        "usage": "ramp 中间档，少用。"
+      },
+      {
+        "name": "slate-300",
+        "value": "#d1cfc5",
+        "usage": "亮色上的不透明细线（border-subtle）。Webflow 名 cloud-light。"
+      },
+      {
+        "name": "slate-250",
+        "value": "#dedcd1",
+        "usage": "ramp 中间档，少用。"
+      },
+      {
+        "name": "slate-200",
+        "value": "#e8e6dc",
+        "usage": "ivory 主题三级面、次级面 hover。Webflow 名 ivory-dark。"
+      },
+      {
+        "name": "slate-150",
+        "value": "#f0eee6",
+        "usage": "ivory 主题次级面（比纸暗，读作陷下去）。Webflow 名 ivory-medium。"
+      },
+      {
+        "name": "slate-100",
+        "value": "#f5f4ed",
+        "usage": "ramp 中间档，少用。"
+      },
+      {
+        "name": "slate-050",
+        "value": "#faf9f5",
+        "usage": "★ 锚点。亮色区块的底（纸）、深色区块的墨。Webflow 名 ivory-light。"
+      },
+      {
+        "name": "slate-000",
+        "value": "#ffffff",
+        "usage": "纯白，只给 ivory 主题的卡片面——全站唯一出现纯白的地方，不做页面底。"
+      },
+      {
+        "name": "clay",
+        "value": "#d97757",
+        "usage": "★ Anthropic 橙。品牌最被记住的颜色；用作区块底色、插画填充、导航 CTA 的 hover 态。几乎不做文字。一屏 ≤1 处。"
+      },
+      {
+        "name": "oat",
+        "value": "#e3dacc",
+        "usage": "强调色（燕麦）。区块底色与插画填充，不做文字。"
+      },
+      {
+        "name": "olive",
+        "value": "#788c5d",
+        "usage": "强调色（橄榄）。theme-olive（原名 color-dark）区块的底，配墨色文字。"
+      },
+      {
+        "name": "cactus",
+        "value": "#bcd1ca",
+        "usage": "强调色（仙人掌）。插画填充、区块底色。"
+      },
+      {
+        "name": "sky",
+        "value": "#6a9bcc",
+        "usage": "强调色（天空）。插画填充、区块底色。"
+      },
+      {
+        "name": "heather",
+        "value": "#cbcadb",
+        "usage": "强调色（石楠）。插画填充、区块底色。"
+      },
+      {
+        "name": "fig",
+        "value": "#c46686",
+        "usage": "强调色（无花果）。插画填充、区块底色。"
+      },
+      {
+        "name": "coral",
+        "value": "#ebcece",
+        "usage": "强调色（珊瑚）。插画填充、区块底色。"
+      },
+      {
+        "name": "kraft",
+        "value": "#d4a27f",
+        "usage": "强调色（牛皮纸），仅营销站。插画填充。"
+      },
+      {
+        "name": "manilla",
+        "value": "#ebdbbc",
+        "usage": "强调色（马尼拉纸），仅营销站。插画填充。"
+      },
+      {
+        "name": "accent",
+        "value": "#c6613f",
+        "usage": "导航 CTA（“Try Claude”）静止态的填充，配 slate-050 文字（3.9:1——源站原值，低于 4.5:1；只用于 15px/500 的导航按钮，保留原值并在此标注）。全站唯一的强调色填充按钮。"
+      },
+      {
+        "name": "accent-hover",
+        "value": "{clay}",
+        "usage": "导航 CTA hover：变到 clay，即变亮、变饱和——与常见的“按下变暗”相反。"
+      },
+      {
+        "name": "slate-faded-10",
+        "value": "#1414131a",
+        "usage": "10% 墨。亮色上的默认细线、半透明卡片面。"
+      },
+      {
+        "name": "slate-faded-20",
+        "value": "#14141333",
+        "usage": "20% 墨。亮色上的细线 hover、半透明卡片 hover。"
+      },
+      {
+        "name": "ivory-faded-10",
+        "value": "#faf9f51a",
+        "usage": "10% 纸色。深色上的默认细线、半透明卡片面。"
+      },
+      {
+        "name": "ivory-faded-20",
+        "value": "#faf9f533",
+        "usage": "20% 纸色。深色上的细线 hover。"
+      },
+      {
+        "name": "color-focus",
+        "value": "#2c84db",
+        "usage": "编辑站的焦点色。营销站不定义焦点色，焦点环用 currentColor。"
+      },
+      {
+        "name": "color-error",
+        "value": "#bf4d43",
+        "usage": "编辑站的错误色（营销站没有）。只用于补齐的 error 态：输入框边框与错误提示文字（ivory 上 4.6:1；⚠ slate 上仅 3.8:1——源值只有这一个，深色区块里的错误提示要同时给出文字说明，不能只靠颜色）。"
+      },
+      {
+        "name": "terminal-close",
+        "value": "#ed6a5e",
+        "usage": "终端仿真交通灯·关闭。macOS 原色，不要换成品牌色。"
+      },
+      {
+        "name": "terminal-minimize",
+        "value": "#f4bf4f",
+        "usage": "终端仿真交通灯·最小化。"
+      },
+      {
+        "name": "terminal-maximize",
+        "value": "#61c554",
+        "usage": "终端仿真交通灯·最大化。"
+      },
+      {
+        "name": "terminal-scrollbar",
+        "value": "rgba(250, 249, 240, 0.3)",
+        "usage": "终端内容区的滚动条滑块；hover 升到 0.5。"
+      },
+      {
+        "name": "bg",
+        "value": {
+          "ivory": "{slate-050}",
+          "slate": "{slate-950}"
+        },
+        "usage": "区块底色。ivory = 暖白纸，slate = 近黑墨。组件只读这个，不读 palette。"
+      },
+      {
+        "name": "bg-secondary",
+        "value": {
+          "ivory": "{slate-150}",
+          "slate": "{slate-850}"
+        },
+        "usage": "次级面：代码按钮、chip 按下、比纸暗的陷入面。slate 用 850（Webflow 原值 700 离底色仅 4%，已改用编辑站的值）。"
+      },
+      {
+        "name": "bg-tertiary",
+        "value": {
+          "ivory": "{slate-200}",
+          "slate": "{slate-750}"
+        },
+        "usage": "三级面。"
+      },
+      {
+        "name": "bg-secondary-hover",
+        "value": {
+          "ivory": "{slate-200}",
+          "slate": "{slate-600}"
+        },
+        "usage": "次级面 hover（代码按钮 hover）。"
+      },
+      {
+        "name": "fg",
+        "value": {
+          "ivory": "{slate-950}",
+          "slate": "{slate-050}"
+        },
+        "usage": "主文字与标题，在 bg / card 上（ivory / slate 均为 17.5:1）。也是“反色表达当前”时的填充色。"
+      },
+      {
+        "name": "fg-secondary",
+        "value": {
+          "ivory": "{slate-750}",
+          "slate": "{slate-400}"
+        },
+        "usage": "次级文字，在 bg 上（ivory 12.6:1，slate 8.3:1）。"
+      },
+      {
+        "name": "fg-tertiary",
+        "value": {
+          "ivory": "{slate-600}",
+          "slate": "{slate-500}"
+        },
+        "usage": "三级文字、元信息、图注，在 bg 上（ivory 6.3:1，slate 5.0:1）。"
+      },
+      {
+        "name": "fg-agate",
+        "value": {
+          "ivory": "{slate-400}",
+          "slate": "{slate-400}"
+        },
+        "usage": "最弱一档：占位符、输入框/复选框边框、页脚弱链接。⚠ 源站原值，ivory 上仅 2.1:1——不要用于必须被读的正文。"
+      },
+      {
+        "name": "border",
+        "value": {
+          "ivory": "{slate-faded-10}",
+          "slate": "{ivory-faded-10}"
+        },
+        "usage": "默认 1px 细线（卡片、列表分隔、三级按钮）。半透明，一个值适配任意底色。"
+      },
+      {
+        "name": "border-hover",
+        "value": {
+          "ivory": "{slate-faded-20}",
+          "slate": "{ivory-faded-20}"
+        },
+        "usage": "细线 hover：卡片 hover 只把边框从 10% 升到 20%，不位移、不加阴影。"
+      },
+      {
+        "name": "border-subtle",
+        "value": {
+          "ivory": "{slate-300}",
+          "slate": "{slate-600}"
+        },
+        "usage": "不透明细线：引用块左边线。"
+      },
+      {
+        "name": "border-strong",
+        "value": {
+          "ivory": "{slate-950}",
+          "slate": "{slate-050}"
+        },
+        "usage": "满强度边框：次按钮描边、三级按钮 hover 边框。"
+      },
+      {
+        "name": "card",
+        "value": {
+          "ivory": "{slate-000}",
+          "slate": "{slate-700}"
+        },
+        "usage": "实色卡片面。ivory 上是纯白（比纸亮，读作浮起）；slate 上是 slate-700。"
+      },
+      {
+        "name": "card-faded",
+        "value": {
+          "ivory": "{slate-faded-10}",
+          "slate": "{ivory-faded-10}"
+        },
+        "usage": "半透明卡片：可叠在任何底色（包括强调色区块）上。不可嵌套。"
+      },
+      {
+        "name": "card-faded-hover",
+        "value": {
+          "ivory": "{slate-faded-20}",
+          "slate": "{ivory-faded-20}"
+        },
+        "usage": "半透明卡片 hover。"
+      },
+      {
+        "name": "link",
+        "value": {
+          "ivory": "{slate-950}",
+          "slate": "{slate-050}"
+        },
+        "usage": "行内链接：与正文同色，靠下划线区分。slate 值已修正（源站 Webflow 写成 slate-950，深色区块里链接隐形）。"
+      },
+      {
+        "name": "link-hover",
+        "value": {
+          "ivory": "{slate-600}",
+          "slate": "{slate-150}"
+        },
+        "usage": "链接 hover——变淡而不是变色；文章列表行 hover 也用它。"
+      },
+      {
+        "name": "btn-primary-bg",
+        "value": {
+          "ivory": "{slate-950}",
+          "slate": "{slate-050}"
+        },
+        "usage": "主按钮底：墨底反白。slate 主题自动反转，从不写暗色按钮规则。"
+      },
+      {
+        "name": "btn-primary-bg-hover",
+        "value": {
+          "ivory": "{slate-700}",
+          "slate": "{slate-150}"
+        },
+        "usage": "主按钮 hover：沿 ramp 走一档。"
+      },
+      {
+        "name": "btn-primary-fg",
+        "value": {
+          "ivory": "{slate-050}",
+          "slate": "{slate-950}"
+        },
+        "usage": "主按钮文字，在 btn-primary-bg 上（17.5:1）。"
+      },
+      {
+        "name": "btn-primary-border",
+        "value": {
+          "ivory": "{slate-950}",
+          "slate": "{slate-050}"
+        },
+        "usage": "主按钮描边（与底同色）。"
+      },
+      {
+        "name": "btn-primary-border-hover",
+        "value": {
+          "ivory": "{slate-700}",
+          "slate": "{slate-150}"
+        },
+        "usage": "主按钮 hover 描边。"
+      },
+      {
+        "name": "btn-secondary-fg",
+        "value": {
+          "ivory": "{slate-950}",
+          "slate": "{slate-050}"
+        },
+        "usage": "次按钮文字（底透明）。"
+      },
+      {
+        "name": "btn-secondary-border",
+        "value": {
+          "ivory": "{slate-950}",
+          "slate": "{slate-050}"
+        },
+        "usage": "次按钮描边。"
+      },
+      {
+        "name": "btn-secondary-bg-hover",
+        "value": {
+          "ivory": "{slate-950}",
+          "slate": "{slate-050}"
+        },
+        "usage": "次按钮 hover 填充成主按钮——“次要 = 未填充的主要”。"
+      },
+      {
+        "name": "btn-secondary-fg-hover",
+        "value": {
+          "ivory": "{slate-050}",
+          "slate": "{slate-950}"
+        },
+        "usage": "次按钮 hover 文字。"
+      }
+    ]
+  },
+  "type": {
+    "fonts": [],
+    "families": {
+      "sans": "\"Inter Tight\", Arial, Helvetica, sans-serif",
+      "serif": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, monospace"
+    },
+    "groups": [
+      {
+        "name": "Display · 无衬线标题",
+        "family": "sans",
+        "styles": [
+          {
+            "name": "display-xxl",
+            "fontSize": "72px",
+            "lineHeight": 1.1,
+            "fontWeight": 700,
+            "usage": "首页 hero 标题。流体 44→72px（375→1600 窗口）。text-wrap: balance。",
+            "letterSpacing": "0em",
+            "sample": "AI research and products that put safety at the frontier"
+          },
+          {
+            "name": "display-xl",
+            "fontSize": "64px",
+            "lineHeight": 1.1,
+            "fontWeight": 700,
+            "usage": "页面主标题。流体 40→64px。",
+            "letterSpacing": "0em",
+            "sample": "AI research and products that put safety at the frontier"
+          },
+          {
+            "name": "display-l",
+            "fontSize": "48px",
+            "lineHeight": 1.1,
+            "fontWeight": 700,
+            "usage": "区块标题。流体 36→48px。",
+            "letterSpacing": "0em",
+            "sample": "Anthropic is built on hard questions."
+          },
+          {
+            "name": "display-m",
+            "fontSize": "32px",
+            "lineHeight": 1.1,
+            "fontWeight": 600,
+            "usage": "次级区块标题。流体 28→32px；字重降到 600。",
+            "letterSpacing": "0em",
+            "sample": "How does AI work?"
+          },
+          {
+            "name": "display-s",
+            "fontSize": "24px",
+            "lineHeight": 1.3,
+            "fontWeight": 600,
+            "usage": "卡片标题。24px 固定（≤24px 不流体）。",
+            "letterSpacing": "0em",
+            "sample": "Claude Code"
+          },
+          {
+            "name": "display-xs",
+            "fontSize": "20px",
+            "lineHeight": 1.3,
+            "fontWeight": 700,
+            "usage": "小标题。★ 字重回跳到 700：20px 的 600 无衬线放在衬线正文旁读不出是标题。",
+            "letterSpacing": "0em",
+            "sample": "Claude Science"
+          }
+        ]
+      },
+      {
+        "name": "Paragraph · 衬线正文",
+        "family": "serif",
+        "styles": [
+          {
+            "name": "paragraph-l",
+            "fontSize": "24px",
+            "lineHeight": 1.4,
+            "fontWeight": 400,
+            "usage": "导语、大号陈述。★ 正文是衬线。",
+            "letterSpacing": "0em",
+            "sample": "AI will have a vast impact on the world. Anthropic is a public benefit corporation dedicated to securing its benefits and mitigating its risks."
+          },
+          {
+            "name": "paragraph-m",
+            "fontSize": "20px",
+            "lineHeight": 1.4,
+            "fontWeight": 400,
+            "usage": "营销站正文默认（手机 18px）。配 measure-40。text-wrap: pretty。",
+            "letterSpacing": "0em",
+            "sample": "AI will have a vast impact on the world. Anthropic is a public benefit corporation dedicated to securing its benefits and mitigating its risks."
+          },
+          {
+            "name": "paragraph-s",
+            "fontSize": "18px",
+            "lineHeight": 1.4,
+            "fontWeight": 400,
+            "usage": "较小正文（手机 16px）。",
+            "letterSpacing": "0em",
+            "sample": "AI will have a vast impact on the world. Anthropic is a public benefit corporation dedicated to securing its benefits and mitigating its risks."
+          },
+          {
+            "name": "paragraph-xs",
+            "fontSize": "16px",
+            "lineHeight": 1.4,
+            "fontWeight": 400,
+            "usage": "最小正文。",
+            "letterSpacing": "0em",
+            "sample": "AI will have a vast impact on the world. Anthropic is a public benefit corporation dedicated to securing its benefits and mitigating its risks."
+          }
+        ]
+      },
+      {
+        "name": "Detail · 无衬线标签",
+        "family": "sans",
+        "styles": [
+          {
+            "name": "detail-xl",
+            "fontSize": "20px",
+            "lineHeight": 1.4,
+            "fontWeight": 500,
+            "usage": "大标签。",
+            "sample": "Research · Policy"
+          },
+          {
+            "name": "detail-l",
+            "fontSize": "18px",
+            "lineHeight": 1.4,
+            "fontWeight": 500,
+            "usage": "标签。",
+            "sample": "Research · Policy"
+          },
+          {
+            "name": "detail-m",
+            "fontSize": "16px",
+            "lineHeight": 1.4,
+            "fontWeight": 500,
+            "usage": "chip、表单 label、元信息。",
+            "sample": "Announcements"
+          },
+          {
+            "name": "detail-s",
+            "fontSize": "14px",
+            "lineHeight": 1.3,
+            "fontWeight": 500,
+            "usage": "tag、图注、表格。",
+            "sample": "Aug 12, 2026 · Product"
+          },
+          {
+            "name": "detail-xs",
+            "fontSize": "12px",
+            "lineHeight": 1.3,
+            "fontWeight": 500,
+            "usage": "最小标签。页脚链接在此基础上加 -0.02em 字距。",
+            "sample": "© 2026 Anthropic PBC"
+          }
+        ]
+      },
+      {
+        "name": "Interface chrome · 唯一允许负字距的地方",
+        "family": "sans",
+        "styles": [
+          {
+            "name": "nav-link",
+            "fontSize": "15px",
+            "lineHeight": 1.4,
+            "fontWeight": 400,
+            "usage": "桌面导航链接。padding-block 1.4rem 撑满 68px 导航高度。",
+            "letterSpacing": "-0.0025em",
+            "sample": "Research  Economic Futures  Company"
+          },
+          {
+            "name": "button-label",
+            "fontSize": "15px",
+            "lineHeight": 1,
+            "fontWeight": 500,
+            "usage": "按钮标签。line-height 1 只在这里出现。",
+            "letterSpacing": "-0.005em",
+            "sample": "Try Claude"
+          }
+        ]
+      },
+      {
+        "name": "Mono",
+        "family": "mono",
+        "styles": [
+          {
+            "name": "text-mono",
+            "fontSize": "18px",
+            "lineHeight": 1.5,
+            "fontWeight": 400,
+            "usage": "终端与代码块。行高 1.5 全站唯一。",
+            "letterSpacing": "0em",
+            "sample": "npm install -g @anthropic-ai/claude-code"
+          }
+        ]
+      },
+      {
+        "name": "Editorial · 编辑站长文（/news /research）",
+        "family": "sans",
+        "styles": [
+          {
+            "name": "editorial-display-1",
+            "fontSize": "72px",
+            "lineHeight": 1.0,
+            "fontWeight": 700,
+            "usage": "文章页超大标题。断点阶跃 42 / 58 / 72px（992、1024）。",
+            "sample": "AI research and products that put safety at the frontier"
+          },
+          {
+            "name": "editorial-display-2",
+            "fontSize": "64px",
+            "lineHeight": 1.0,
+            "fontWeight": 700,
+            "usage": "断点阶跃 36 / 48 / 64px。",
+            "sample": "AI research and products that put safety at the frontier"
+          },
+          {
+            "name": "headline-1",
+            "fontSize": "52px",
+            "lineHeight": 1.1,
+            "fontWeight": 700,
+            "usage": "文章标题。32 / 44 / 52px。",
+            "sample": "Claude's Constitution"
+          },
+          {
+            "name": "headline-2",
+            "fontSize": "44px",
+            "lineHeight": 1.0,
+            "fontWeight": 700,
+            "usage": "30 / 36 / 44px。",
+            "sample": "Responsible Scaling Policy"
+          },
+          {
+            "name": "headline-3",
+            "fontSize": "36px",
+            "lineHeight": 1.2,
+            "fontWeight": 700,
+            "usage": "28 / 30 / 36px。",
+            "sample": "Economic Futures"
+          },
+          {
+            "name": "headline-4",
+            "fontSize": "32px",
+            "lineHeight": 1.2,
+            "fontWeight": 600,
+            "usage": "23 / 23 / 32px。",
+            "sample": "Transparency"
+          },
+          {
+            "name": "headline-5",
+            "fontSize": "25px",
+            "lineHeight": 1.2,
+            "fontWeight": 600,
+            "usage": "20 / 20 / 25px。",
+            "sample": "Interpretability"
+          },
+          {
+            "name": "headline-6",
+            "fontSize": "19px",
+            "lineHeight": 1.2,
+            "fontWeight": 600,
+            "usage": "17 / 17 / 19px。",
+            "sample": "Alignment"
+          },
+          {
+            "name": "body-1",
+            "fontSize": "20px",
+            "lineHeight": 1.55,
+            "fontWeight": 400,
+            "usage": "文章导语。",
+            "sample": "AI will have a vast impact on the world. Anthropic is a public benefit corporation dedicated to securing its benefits and mitigating its risks.",
+            "family": "serif"
+          },
+          {
+            "name": "body-2",
+            "fontSize": "17px",
+            "lineHeight": 1.55,
+            "fontWeight": 400,
+            "usage": "★ 文章阅读字号，所有断点不变。配 640px 阅读栏。",
+            "sample": "AI will have a vast impact on the world. Anthropic is a public benefit corporation dedicated to securing its benefits and mitigating its risks.",
+            "family": "serif"
+          },
+          {
+            "name": "body-3",
+            "fontSize": "15px",
+            "lineHeight": 1.4,
+            "fontWeight": 400,
+            "usage": "无衬线辅助正文。",
+            "sample": "Read the full paper"
+          },
+          {
+            "name": "body-4",
+            "fontSize": "12px",
+            "lineHeight": 1.4,
+            "fontWeight": 400,
+            "usage": "无衬线小字。",
+            "sample": "Published Aug 12, 2026"
+          },
+          {
+            "name": "caption",
+            "fontSize": "14px",
+            "lineHeight": 1.2,
+            "fontWeight": 400,
+            "usage": "图注。★ 全系统唯一的正字距（+0.15px）。颜色 fg-tertiary。",
+            "letterSpacing": "0.15px",
+            "sample": "Figure 1. Results across evaluations."
+          },
+          {
+            "name": "micro",
+            "fontSize": "10px",
+            "lineHeight": 1.4,
+            "fontWeight": 400,
+            "usage": "最小字。",
+            "sample": "BETA"
+          }
+        ]
+      }
+    ]
+  },
+  "spacing": {
+    "note": "≤24px 固定；≥32px 全部在同一个 375→1600px 窗口里流体（这里列桌面上限，bundle.css 写回 clamp()）。",
+    "tokens": [
+      {
+        "name": "space-1",
+        "value": "4px",
+        "usage": "固定。图标与文字的微间距。"
+      },
+      {
+        "name": "space-2",
+        "value": "8px",
+        "usage": "固定。label 与 input、按钮内 gap（gap-xs）。"
+      },
+      {
+        "name": "space-3",
+        "value": "12px",
+        "usage": "固定。选项之间。"
+      },
+      {
+        "name": "space-4",
+        "value": "16px",
+        "usage": "固定。卡片内小间距、图注上边距。"
+      },
+      {
+        "name": "space-5",
+        "value": "24px",
+        "usage": "固定（最大的静态值）。卡片内边距、按钮左右内边距、表单字段之间。"
+      },
+      {
+        "name": "space-6",
+        "value": "32px",
+        "usage": "流体 28→32px。列表行上下、栅格 gutter、display 标题下边距。"
+      },
+      {
+        "name": "space-7",
+        "value": "40px",
+        "usage": "流体 32→40px。display 标题上边距。"
+      },
+      {
+        "name": "space-8",
+        "value": "48px",
+        "usage": "流体 36→48px。图片上下、大面板内边距。"
+      },
+      {
+        "name": "space-9",
+        "value": "64px",
+        "usage": "流体 40→64px。"
+      },
+      {
+        "name": "space-10",
+        "value": "80px",
+        "usage": "流体 48→80px。"
+      },
+      {
+        "name": "space-11",
+        "value": "96px",
+        "usage": "流体 56→96px。"
+      },
+      {
+        "name": "space-12",
+        "value": "160px",
+        "usage": "流体 88→160px。"
+      },
+      {
+        "name": "gap-xs",
+        "value": "8px",
+        "usage": "flex/grid 命名间距：按钮图标与文字。"
+      },
+      {
+        "name": "gap-s",
+        "value": "16px",
+        "usage": "命名间距 s。"
+      },
+      {
+        "name": "gap-m",
+        "value": "24px",
+        "usage": "命名间距 m。"
+      },
+      {
+        "name": "gap-l",
+        "value": "48px",
+        "usage": "命名间距 l（流体 36→48）。"
+      },
+      {
+        "name": "gap-xl",
+        "value": "64px",
+        "usage": "命名间距 xl（流体 40→64）。"
+      },
+      {
+        "name": "section-xs",
+        "value": "32px",
+        "usage": "区块上下留白 xs，流体 28→32。"
+      },
+      {
+        "name": "section-s",
+        "value": "64px",
+        "usage": "区块留白 s，流体 40→64。"
+      },
+      {
+        "name": "section-m",
+        "value": "96px",
+        "usage": "区块留白 m，流体 56→96。"
+      },
+      {
+        "name": "section-main",
+        "value": "160px",
+        "usage": "★ 默认区块留白，流体 88→160。区块靠空气分隔——不再叠加分隔线和交替背景。"
+      },
+      {
+        "name": "section-l",
+        "value": "224px",
+        "usage": "区块留白 l，流体 112→224。"
+      },
+      {
+        "name": "section-top",
+        "value": "192px",
+        "usage": "页面第一个区块上方，流体 96→192。"
+      },
+      {
+        "name": "site-margin",
+        "value": "80px",
+        "usage": "页面左右边距，流体 32→80（同一个 375→1600 窗口）。"
+      },
+      {
+        "name": "site-gutter",
+        "value": "32px",
+        "usage": "12 栏栅格 gutter，流体 28→32。"
+      }
+    ]
+  },
+  "radius": {
+    "tokens": [
+      {
+        "name": "radius-small",
+        "value": "4px",
+        "usage": "小控件：输入框、复选框、终端窗口、tag 以外的小件。"
+      },
+      {
+        "name": "radius-main",
+        "value": "8px",
+        "usage": "默认：卡片、代码按钮、图片。"
+      },
+      {
+        "name": "radius-large",
+        "value": "16px",
+        "usage": "大面板：嵌入式深色区块（section--inset）、大图。"
+      },
+      {
+        "name": "radius-round",
+        "value": "9999px",
+        "usage": "胶囊：按钮、chip、tag。源站写作 100vw，bundle.css 中恢复为 100vw。只有这四档，不用 6/12/20/24px。"
+      }
+    ]
+  },
+  "shadow": {
+    "note": "只有两个阴影，且都只给产品仿真。卡片靠表面台阶 + 1px 细线分层。",
+    "tokens": [
+      {
+        "name": "shadow-m",
+        "value": "0 2px 2px rgba(0,0,0,0.01), 0 4px 4px rgba(0,0,0,0.02), 0 16px 24px rgba(0,0,0,0.04)",
+        "usage": "仅首页 Claude 输入框。普通卡片一律不用阴影。"
+      },
+      {
+        "name": "shadow-l",
+        "value": "0 4px 3px rgba(0,0,0,0.02), 0 10px 8px rgba(0,0,0,0.03), 0 19px 15px rgba(0,0,0,0.04), 0 34px 27px rgba(0,0,0,0.04), 0 63px 50px rgba(0,0,0,0.05), 0 150px 120px rgba(0,0,0,0.07)",
+        "usage": "仅产品仿真窗口（终端、应用截图）。六层渐进，alpha 随模糊从 2% 升到 7%。"
+      }
+    ]
+  },
+  "measure": {
+    "tokens": [
+      {
+        "name": "measure-20",
+        "value": "20ch",
+        "usage": "短标题行长。"
+      },
+      {
+        "name": "measure-30",
+        "value": "30ch",
+        "usage": "窄栏。"
+      },
+      {
+        "name": "measure-40",
+        "value": "40ch",
+        "usage": "★ 最常用：hero 与导语正文。行长用 ch，换字号也成立。"
+      },
+      {
+        "name": "measure-50",
+        "value": "50ch",
+        "usage": "中等行长。"
+      },
+      {
+        "name": "measure-60",
+        "value": "60ch",
+        "usage": "宽行长。"
+      },
+      {
+        "name": "measure-reading",
+        "value": "640px",
+        "usage": "编辑站阅读栏，所有断点恒定；800px 以下解除。"
+      },
+      {
+        "name": "measure-media",
+        "value": "880px",
+        "usage": "编辑站图片最大宽——图可以比 640px 正文宽。"
+      }
+    ]
+  },
+  "layout": {
+    "tokens": [
+      {
+        "name": "site-width",
+        "value": "89.5rem",
+        "usage": "1432px，页面外沿。"
+      },
+      {
+        "name": "nav-height",
+        "value": "4.25rem",
+        "usage": "68px 导航条。"
+      },
+      {
+        "name": "nav-banner-height",
+        "value": "2.75rem",
+        "usage": "44px 顶部公告条。"
+      },
+      {
+        "name": "button-min-height",
+        "value": "2.25rem",
+        "usage": "36px。用 min-height 不用 height，允许换行。"
+      },
+      {
+        "name": "input-height",
+        "value": "3rem",
+        "usage": "48px 输入框。"
+      },
+      {
+        "name": "checkbox-size",
+        "value": "1.5rem",
+        "usage": "24px 复选框/单选框。"
+      },
+      {
+        "name": "terminal-header-height",
+        "value": "41px",
+        "usage": "终端标题栏（手机 44px）。"
+      },
+      {
+        "name": "terminal-content-height",
+        "value": "480px",
+        "usage": "终端内容区固定高度（767px 下 400，479px 下 360）。"
+      },
+      {
+        "name": "autofit-floor",
+        "value": "13rem",
+        "usage": "卡片网格 repeat(auto-fit, minmax(min(100%, 13rem), 1fr))。"
+      }
+    ]
+  },
+  "focus": {
+    "tokens": [
+      {
+        "name": "focus-width",
+        "value": "2px",
+        "usage": "焦点环宽度，颜色 currentColor。"
+      },
+      {
+        "name": "focus-offset-outer",
+        "value": "4px",
+        "usage": "行内链接、按钮——四周有空气的元素，焦点环外推。"
+      },
+      {
+        "name": "focus-offset-inner",
+        "value": "-2px",
+        "usage": "导航 logo、汉堡、下拉行——贴边元素，焦点环内收，祖先 overflow 裁不掉。"
+      }
+    ]
+  },
+  "duration": {
+    "tokens": [
+      {
+        "name": "duration-instant",
+        "value": "100ms",
+        "usage": "极快反馈。"
+      },
+      {
+        "name": "duration-base",
+        "value": "200ms",
+        "usage": "★ 默认：所有按钮、chip、链接、卡片 hover，只过渡颜色。"
+      },
+      {
+        "name": "duration-moderate",
+        "value": "300ms",
+        "usage": "中等。"
+      },
+      {
+        "name": "duration-slow",
+        "value": "400ms",
+        "usage": "移动菜单 clip-path 擦除开合。"
+      },
+      {
+        "name": "duration-slower",
+        "value": "500ms",
+        "usage": "较慢。"
+      },
+      {
+        "name": "duration-slowest",
+        "value": "800ms",
+        "usage": "仅装饰性揭示。"
+      }
+    ]
+  },
+  "easing": {
+    "tokens": [
+      {
+        "name": "ease-default",
+        "value": "ease",
+        "usage": "组件过渡的默认缓动——就是 ease，常见场景没有定制。"
+      },
+      {
+        "name": "ease-out-quart",
+        "value": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+        "usage": "出场缓动。"
+      },
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "usage": "出场缓动（更急）。"
+      },
+      {
+        "name": "ease-in-out-quart",
+        "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+        "usage": "进出缓动。"
+      }
+    ]
+  }
+}

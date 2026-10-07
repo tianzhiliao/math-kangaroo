@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Choose a paper</title>
+<script src="../support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="min-height: 900px; background: #ffffff; color: #000000; font-family: 'Inter', system-ui, sans-serif;">
+  <header style="height: 64px; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; gap: 16px;">
+    <a href="Home.dc.html" style="font-size: 17px; font-weight: 500; letter-spacing: -0.01em; color: #000000; text-decoration: none;">Math Kangaroo</a>
+    <div style="display: flex; gap: 28px; font-size: 14px; font-weight: 500;">
+      <a href="#" style="color: #000000; text-decoration: none;">Exam</a>
+      <a href="Practice.dc.html" style="color: rgba(0,0,0,0.6); text-decoration: none;">Practice</a>
+    </div>
+  </header>
+
+  <main style="max-width: 1216px; margin: 0 auto; padding: 40px 32px 80px; box-sizing: border-box; display: flex; flex-direction: column; gap: 32px;">
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+      <h1 style="margin: 0; font-size: 38px; line-height: 44px; font-weight: 500; letter-spacing: -0.02em;">Choose a paper</h1>
+      <p style="margin: 0; max-width: 56ch; font-size: 17px; line-height: 28px; letter-spacing: -0.01em; color: rgba(0,0,0,0.8);">The timer starts when the paper opens. Move between questions freely and change answers until you submit.</p>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px; font-size: 14px; font-weight: 500;">
+      <button type="button" style="height: 44px; padding: 0 18px; border: none; border-radius: 2.5rem; background: #000000; color: #ffffff; font: inherit;">All</button>
+      <button type="button" style="height: 44px; padding: 0 18px; border: none; border-radius: 2.5rem; background: #f1f1f1; color: #000000; font: inherit;">Felix · Austria</button>
+      <button type="button" style="height: 44px; padding: 0 18px; border: none; border-radius: 2.5rem; background: #f1f1f1; color: #000000; font: inherit;">Level P · Brazil</button>
+      <button type="button" style="height: 44px; padding: 0 18px; border: none; border-radius: 2.5rem; background: #f1f1f1; color: #000000; font: inherit;">Grade 1–2 · Canada</button>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 24px 16px;">
+      <sc-for list="{{papers}}" as="p" hint-placeholder-count="16">
+        <a href="ExamRun.dc.html" style="display: flex; flex-direction: column; gap: 12px; color: #000000; text-decoration: none;">
+          <span style="{{p.cover}}">{{p.year}}</span>
+          <span style="display: flex; flex-direction: column; gap: 4px;">
+            <span style="font-size: 14px; font-weight: 500; color: rgba(0,0,0,0.6);">{{p.meta}}</span>
+            <span style="font-size: 18px; line-height: 24px; font-weight: 500; letter-spacing: -0.01em;">{{p.series}}</span>
+          </span>
+        </a>
+      </sc-for>
+    </div>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const cover = (bg) => 'display: flex; align-items: flex-end; height: 104px; padding: 16px 18px; box-sizing: border-box; border-radius: 16px; background: ' + bg + '; font-size: 30px; line-height: 1; font-weight: 500; letter-spacing: -0.02em; font-variant-numeric: tabular-nums;';
+    const F = (y, t) => ({ year: y, series: 'Felix · Austria', meta: '15 questions · ' + t + ' min', cover: cover('#e8f3fe') });
+    const B = (y) => ({ year: y, series: 'Level P · Brazil', meta: '24 questions · 45 min', cover: cover('#fdf6dc') });
+    const C = (y) => ({ year: y, series: 'Grade 1–2 · Canada', meta: '18 questions · 45 min', cover: cover('#fbe8db') });
+    return {
+      papers: [F('2025', 60), F('2024', 60), F('2023', 60), C('2023'), F('2022', 60), C('2022'), B('2021'), C('2021'),
+        B('2020'), C('2020'), F('2019', 45), F('2018', 45), F('2017', 45), F('2016', 45), F('2015', 45), F('2014', 45)]
+    };
+  }
+}
+</script>
+</body>
+</html>

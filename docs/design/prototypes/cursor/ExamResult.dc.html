@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Exam submitted</title>
+<script src="../support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&amp;family=JetBrains+Mono:wght@400&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="min-height: 900px; background: #f7f7f4; color: #26251e; font-family: 'Inter', system-ui, sans-serif; font-weight: 400; display: flex; flex-direction: column;">
+  <header style="box-shadow: inset 0 -1px 0 rgba(38,37,30,0.1);">
+    <div style="min-height: 64px; padding: 8px 20px; box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px;">
+      <div style="display: flex; align-items: center; gap: 10px; font-size: 15px;">
+        <a href="Home.dc.html" style="font-size: 17px; color: #26251e; text-decoration: none;">Math Kangaroo</a>
+        <span style="color: rgba(38,37,30,0.4);">/</span>
+        <span>Level P · Brazil 2020</span>
+        <span style="color: rgba(38,37,30,0.4);">/</span>
+        <span style="color: rgba(38,37,30,0.6);">Review</span>
+      </div>
+      <div style="display: flex; gap: 8px;">
+        <a href="ExamRun.dc.html" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 9999px; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.2); color: #26251e; font-size: 15px; text-decoration: none;">Try this paper again</a>
+        <a href="ExamPicker.dc.html" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border-radius: 9999px; background: #26251e; color: #f7f7f4; font-size: 15px; text-decoration: none;">Choose another paper</a>
+      </div>
+    </div>
+  </header>
+
+  <div style="flex: 1; display: flex; flex-wrap: wrap;">
+    <aside style="flex: 1 1 260px; max-width: 100%; box-sizing: border-box; background: #f2f1ed; padding: 22px 20px; display: flex; flex-direction: column; gap: 20px;">
+      <div style="display: flex; flex-direction: column; gap: 2px;">
+        <span style="font-size: 14px; letter-spacing: 0.01em; color: rgba(38,37,30,0.6);">Score</span>
+        <p style="margin: 0; display: flex; align-items: baseline; gap: 8px;"><span style="font-size: 52px; line-height: 1.15; letter-spacing: -0.025em;">79</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 15px; color: rgba(38,37,30,0.6);">/ 120 · 38 min</span></p>
+      </div>
+      <div style="display: flex; flex-direction: column; font-size: 15px;">
+        <div style="display: flex; justify-content: space-between; padding: 8px 0; box-shadow: inset 0 -1px 0 rgba(38,37,30,0.1);"><span style="color: rgba(38,37,30,0.6);">Starting points</span><span style="font-family: 'JetBrains Mono', monospace;">24</span></div>
+        <div style="display: flex; justify-content: space-between; padding: 8px 0; box-shadow: inset 0 -1px 0 rgba(38,37,30,0.1);"><span><span style="color: #1f8a65;">✓</span> 15 right</span><span style="font-family: 'JetBrains Mono', monospace;">+59</span></div>
+        <div style="display: flex; justify-content: space-between; padding: 8px 0; box-shadow: inset 0 -1px 0 rgba(38,37,30,0.1);"><span><span style="color: #cf2d56;">×</span> 4 wrong</span><span style="font-family: 'JetBrains Mono', monospace;">−4</span></div>
+        <div style="display: flex; justify-content: space-between; padding: 8px 0;"><span style="color: rgba(38,37,30,0.6);">5 skipped</span><span style="font-family: 'JetBrains Mono', monospace;">0</span></div>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px;">
+        <sc-for list="{{chips}}" as="c" hint-placeholder-count="24">
+          <button type="button" aria-label="{{c.aria}}" style="{{c.style}}">{{c.n}}</button>
+        </sc-for>
+      </div>
+    </aside>
+
+    <main style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column;">
+      <div style="flex: 1; padding: 32px 40px; display: flex; justify-content: center;">
+        <article style="width: 100%; max-width: 880px; display: flex; flex-direction: column; gap: 22px;">
+          <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start;">
+            <div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 12px;">
+              <p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: rgba(38,37,30,0.6);">Q2 · 3 pts</p>
+              <p style="margin: 0; font-size: 26px; line-height: 1.3; letter-spacing: -0.0125em;">Julia has 5 pieces of plastic and has stacked these pieces on a table, as shown beside. What was the second piece she put on the table?</p>
+              <p style="margin: 0; align-self: flex-start; display: inline-flex; gap: 12px; align-items: center; padding: 8px 14px; border-radius: 4px; background: #f8d6d5; font-size: 15px;"><span>You chose B</span><span style="color: rgba(38,37,30,0.6);">·</span><span>Right answer C</span><span style="color: rgba(38,37,30,0.6);">·</span><span style="font-family: 'JetBrains Mono', monospace;">−1</span></p>
+            </div>
+            <figure style="margin: 0; flex: 0 0 auto; background: #ffffff; border-radius: 4px; padding: 12px; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.1);">
+              <img src="../assets/stack.svg" alt="Five stacked plastic pieces" style="display: block; width: 168px; height: 200px; object-fit: contain;">
+            </figure>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12.8px;">
+            <sc-for list="{{choices}}" as="o" hint-placeholder-count="5">
+              <div style="{{o.card}}">
+                <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+                  <span style="{{o.badge}}">{{o.mark}}</span>
+                  <span style="font-size: 13px; letter-spacing: 0.01em;">{{o.tag}}</span>
+                </div>
+                <img src="{{o.src}}" alt="{{o.alt}}" style="display: block; width: 100%; height: 104px; object-fit: contain; background: #ffffff; border-radius: 2px;">
+              </div>
+            </sc-for>
+          </div>
+        </article>
+      </div>
+
+      <footer style="box-shadow: inset 0 1px 0 rgba(38,37,30,0.1); padding: 14px 40px;">
+        <div style="max-width: 880px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;">
+          <button type="button" style="min-height: 52px; min-width: 140px; padding: 0 26px; border: none; border-radius: 9999px; background: transparent; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.2); color: #26251e; font: inherit; font-size: 16px;">← Previous</button>
+          <a href="#" style="color: #26251e; font-size: 15px;">Next mistake · Q5 ↓</a>
+          <button type="button" style="min-height: 52px; min-width: 140px; padding: 0 26px; border: none; border-radius: 9999px; background: #26251e; color: #f7f7f4; font: inherit; font-size: 16px;">Next →</button>
+        </div>
+      </footer>
+    </main>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const wrong = { 2: 1, 5: 1, 11: 1, 17: 1 };
+    const skipped = { 8: 1, 14: 1, 19: 1, 22: 1, 24: 1 };
+    const base = 'height: 46px; border: none; border-radius: 4px; font-family: "JetBrains Mono", monospace; font-size: 15px; box-sizing: border-box;';
+    const chips = [];
+    for (let n = 1; n <= 24; n++) {
+      let s;
+      if (wrong[n]) s = 'background: #f8d6d5; color: #a8213f; box-shadow: inset 0 0 0 1px #cf2d56;';
+      else if (skipped[n]) s = 'background: transparent; color: rgba(38,37,30,0.6); outline: 1px dashed rgba(38,37,30,0.4); outline-offset: -1px;';
+      else s = 'background: #1f8a65; color: #ffffff;';
+      if (n === 2) s += ' box-shadow: inset 0 0 0 1px #cf2d56, 0 0 0 2px #f2f1ed, 0 0 0 4px #f54e00;';
+      chips.push({ n, aria: 'Question ' + n, style: base + s });
+    }
+    const imgs = {
+      A: '../assets/choice-a.svg', B: '../assets/choice-b.svg',
+      C: '../assets/choice-c.svg', D: '../assets/choice-d.svg',
+      E: '../assets/choice-e.svg'
+    };
+    const choices = ['A', 'B', 'C', 'D', 'E'].map((l) => {
+      let card = 'display: flex; flex-direction: column; gap: 10px; padding: 10px; border-radius: 4px; ';
+      let badge = 'width: 40px; height: 40px; border-radius: 9999px; display: flex; align-items: center; justify-content: center; font-size: 17px; box-sizing: border-box; ';
+      let mark = l, tag = '';
+      if (l === 'C') { card += 'background: #e3f1ea; box-shadow: inset 0 0 0 2px #1f8a65;'; badge += 'background: #1f8a65; color: #ffffff;'; mark = '✓'; tag = 'C · right answer'; }
+      else if (l === 'B') { card += 'background: #fbe9ec; box-shadow: inset 0 0 0 2px #cf2d56;'; badge += 'background: #cf2d56; color: #ffffff;'; mark = '×'; tag = 'B · your answer'; }
+      else { card += 'background: #f2f1ed; box-shadow: inset 0 0 0 1px rgba(38,37,30,0.1); opacity: 0.5;'; badge += 'box-shadow: inset 0 0 0 1px rgba(38,37,30,0.6);'; }
+      return { src: imgs[l], alt: 'Option ' + l, card, badge, mark, tag };
+    });
+    return { chips, choices };
+  }
+}
+</script>
+</body>
+</html>

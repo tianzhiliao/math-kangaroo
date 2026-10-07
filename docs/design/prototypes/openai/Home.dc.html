@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<script src="../support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="min-height: 800px; background: #ffffff; color: #000000; font-family: 'Inter', system-ui, sans-serif; display: flex; flex-direction: column;">
+  <header style="height: 64px; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; gap: 16px; position: relative; z-index: 1;">
+    <a href="#" style="font-size: 17px; font-weight: 500; letter-spacing: -0.01em; color: #000000; text-decoration: none;">Math Kangaroo</a>
+    <div style="display: flex; gap: 28px; font-size: 14px; font-weight: 500;">
+      <a href="ExamPicker.dc.html" style="color: #000000; text-decoration: none;">Exam</a>
+      <a href="Practice.dc.html" style="color: #000000; text-decoration: none;">Practice</a>
+    </div>
+  </header>
+
+  <section style="position: relative; overflow: hidden; margin-top: -64px; padding: 136px 32px 72px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 24px;">
+    <div aria-hidden="true" style="position: absolute; inset: 0; pointer-events: none;">
+      <sc-for list="{{marks}}" as="m" hint-placeholder-count="30">
+        <span style="{{m.style}}">{{m.t}}</span>
+      </sc-for>
+    </div>
+    <p style="position: relative; margin: 0; font-size: 14px; font-weight: 500; color: rgba(0,0,0,0.6);">Felix · Level P · Grade 1–2 · 2014–2025</p>
+    <h1 style="position: relative; margin: 0; max-width: 16ch; font-size: 64px; line-height: 64px; font-weight: 500; letter-spacing: -0.03em; text-wrap: balance;">Get ready for Math Kangaroo</h1>
+    <p style="position: relative; margin: 0; max-width: 48ch; font-size: 17px; line-height: 28px; font-weight: 400; letter-spacing: -0.01em; color: rgba(0,0,0,0.8);">270 real contest questions. Sit a timed past paper, or practise one question at a time—with the right answer and a short explanation after every try.</p>
+    <div style="position: relative; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+      <a href="Practice.dc.html" style="display: inline-flex; align-items: center; height: 48px; padding: 0 24px; border-radius: 2.5rem; background: #000000; color: #ffffff; font-size: 15px; font-weight: 500; text-decoration: none;">Continue practice at question 78</a>
+      <a href="ExamPicker.dc.html" style="display: inline-flex; align-items: center; height: 48px; padding: 0 24px; border-radius: 2.5rem; background: #f1f1f1; color: #000000; font-size: 15px; font-weight: 500; text-decoration: none;">Choose an exam paper</a>
+    </div>
+  </section>
+
+  <section style="width: 100%; max-width: 1120px; margin: 0 auto; padding: 0 32px 64px; box-sizing: border-box; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px;">
+    <a href="ExamPicker.dc.html" style="display: flex; flex-direction: column; gap: 10px; padding: 28px; border-radius: 16px; border: 1px solid rgba(0,0,0,0.12); color: #000000; text-decoration: none;">
+      <span style="font-size: 14px; font-weight: 500; color: rgba(0,0,0,0.6);">Exam · 16 papers · 45–60 min</span>
+      <span style="font-size: 22px; line-height: 28px; font-weight: 500; letter-spacing: -0.01em;">Sit a timed past paper</span>
+      <span style="font-size: 17px; line-height: 28px; font-weight: 400; letter-spacing: -0.01em; color: rgba(0,0,0,0.8);">Scored like the contest: right answers earn 3, 4 or 5 points, wrong ones cost 1.</span>
+    </a>
+    <a href="Practice.dc.html" style="display: flex; flex-direction: column; gap: 10px; padding: 28px; border-radius: 16px; border: 1px solid rgba(0,0,0,0.12); color: #000000; text-decoration: none;">
+      <span style="font-size: 14px; font-weight: 500; color: rgba(0,0,0,0.6);">Practice · 78 of 270 done</span>
+      <span style="font-size: 22px; line-height: 28px; font-weight: 500; letter-spacing: -0.01em;">Learn one question at a time</span>
+      <span style="display: block; height: 4px; border-radius: 9999px; background: rgba(0,0,0,0.04); margin: 6px 0;"><span style="display: block; width: 29%; height: 4px; border-radius: 9999px; background: #000000;"></span></span>
+      <span style="font-size: 17px; line-height: 28px; font-weight: 400; letter-spacing: -0.01em; color: rgba(0,0,0,0.8);">Listen to each question, see the answer straight away, then try a similar one.</span>
+    </a>
+  </section>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":800}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const items = [
+      ['60 − 52 = 8', 6, 22, 0], ['3 + 5', 18, 64, 0], ['12', 30, 14, 1], ['⅓', 84, 18, 0], ['9 → 6', 90, 46, 0],
+      ['2 × 4', 74, 70, 2], ['15', 12, 82, 0], ['△ □ ○', 4, 50, 0], ['5 − 4 − 3 − 2 − 1', 62, 12, 0], ['10', 95, 74, 3],
+      ['7th', 40, 86, 0], ['8 kg', 24, 40, 1], ['= ?', 80, 34, 0], ['24', 52, 92, 0], ['1 + 2 + 3', 70, 88, 0],
+      ['45 min', 2, 32, 0], ['6 m', 88, 92, 2], ['4 × 3', 36, 6, 0], ['□□□', 96, 10, 0], ['112', 16, 6, 3]
+    ];
+    const hue = ['rgba(0,0,0,0.12)', '#29bdfd', '#ffaf00', '#eb56c5'];
+    const marks = items.map(([t, x, y, h]) => ({
+      t,
+      style: 'position: absolute; left: ' + x + '%; top: ' + y + '%; transform: translate(-50%, -50%) rotate(' + ((x * 7) % 9 - 4) + 'deg); font-family: "SF Mono", Consolas, monospace; font-size: ' + (16 + (y % 3) * 6) + 'px; white-space: nowrap; color: ' + hue[h] + ';' + (h ? ' opacity: 0.85;' : '')
+    }));
+    return { marks };
+  }
+}
+</script>
+</body>
+</html>

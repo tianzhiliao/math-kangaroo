@@ -1,0 +1,2185 @@
+{
+  "name": "OpenAI Style",
+  "version": 1,
+  "meta": {
+    "source": "local",
+    "repo": "notes/design-patterns",
+    "ref": "master@2d3e223",
+    "package": "openai",
+    "paths": {
+      "tokens": [
+        "openai/02-tokens/tokens.json",
+        "openai/02-tokens/openai-theme.css",
+        "openai/02-tokens/tailwind-preset.css"
+      ],
+      "docs": [
+        "openai/01-design-language",
+        "openai/02-tokens",
+        "openai/03-components",
+        "openai/04-page-patterns",
+        "openai/05-subsystems"
+      ]
+    },
+    "measured": "openai.com, 2026-08-12",
+    "synced": "2026-10-05"
+  },
+  "color": {
+    "themes": [
+      {
+        "id": "light",
+        "name": "Light"
+      },
+      {
+        "id": "dark",
+        "name": "Dark"
+      }
+    ],
+    "tokens": [
+      {
+        "name": "color-background",
+        "value": {
+          "light": "#ffffff",
+          "dark": "#000000"
+        },
+        "usage": "页面底。纯白 / 纯黑，零色温。永远写 var(--color-background)，不要写 #fff。"
+      },
+      {
+        "name": "color-background-pink",
+        "value": {
+          "light": "#fef5fb",
+          "dark": "#180b15"
+        },
+        "usage": "唯一带色的面。暗色值源站为 color-mix(in srgb, hue-magenta 12%, background)，此处为其计算结果。"
+      },
+      {
+        "name": "color-primary-2",
+        "value": {
+          "light": "#00000005",
+          "dark": "#ffffff14"
+        },
+        "usage": "primary 2%——数字就是 alpha。极淡分区底（暗色抬到 8%）。"
+      },
+      {
+        "name": "color-primary-4",
+        "value": {
+          "light": "#0000000a",
+          "dark": "#ffffff1f"
+        },
+        "usage": "primary 4%——数字就是 alpha。卡片底、次级按钮底、图片占位底（暗色 12%）。"
+      },
+      {
+        "name": "color-primary-12",
+        "value": {
+          "light": "#0000001f",
+          "dark": "#ffffff33"
+        },
+        "usage": "primary 12%——数字就是 alpha。★ 全站唯一的描边色：1px solid。次级按钮 hover 底（暗色 20%）。"
+      },
+      {
+        "name": "color-primary-44",
+        "value": {
+          "light": "#00000070",
+          "dark": "#ffffff70"
+        },
+        "usage": "primary 44%——数字就是 alpha。提示文字、占位符、hover 描边、prose 链接下划线。⚠ 源值：白底上约 3.2:1、黑底上约 4.2:1，低于 4.5:1——只给提示与辅助信息，不给必须被读的正文。"
+      },
+      {
+        "name": "color-primary-60",
+        "value": {
+          "light": "#00000099",
+          "dark": "#ffffff99"
+        },
+        "usage": "primary 60%——数字就是 alpha。二级文字：meta、导航项静止态、ghost 按钮（白底 5.7:1，黑底 7.4:1）。"
+      },
+      {
+        "name": "color-primary-80",
+        "value": {
+          "light": "#000000cc",
+          "dark": "#ffffffcc"
+        },
+        "usage": "primary 80%——数字就是 alpha。主按钮 hover 底；菜单项文字。"
+      },
+      {
+        "name": "color-primary-100",
+        "value": {
+          "light": "#000000",
+          "dark": "#ffffff"
+        },
+        "usage": "primary 100%——数字就是 alpha。当前背景上的墨：正文、标题、主按钮底（21:1）。"
+      },
+      {
+        "name": "color-primary-nav",
+        "value": "#ffffff70",
+        "usage": "压在媒体上的导航文字。亮暗取值相同——它压的是媒体，不是页面底。"
+      },
+      {
+        "name": "color-primary-inactive",
+        "value": "#ffffff70",
+        "usage": "压在媒体上的未激活项。亮暗相同。"
+      },
+      {
+        "name": "color-primary-solid-4",
+        "value": {
+          "light": "#f5f5f5",
+          "dark": "#1f1f1f"
+        },
+        "usage": "primary-4 预合成在背景上的不透明孪生。凡会互相叠加的元素（网格线、SVG 填充、重叠层）用它，避免叠出脏色。"
+      },
+      {
+        "name": "color-primary-solid-12",
+        "value": {
+          "light": "#e0e0e0",
+          "dark": "#333333"
+        },
+        "usage": "primary-12 预合成在背景上的不透明孪生。凡会互相叠加的元素（网格线、SVG 填充、重叠层）用它，避免叠出脏色。"
+      },
+      {
+        "name": "color-primary-solid-44",
+        "value": {
+          "light": "#8f8f8f",
+          "dark": "#707070"
+        },
+        "usage": "primary-44 预合成在背景上的不透明孪生。凡会互相叠加的元素（网格线、SVG 填充、重叠层）用它，避免叠出脏色。"
+      },
+      {
+        "name": "color-primary-solid-60",
+        "value": {
+          "light": "#666666",
+          "dark": "#999999"
+        },
+        "usage": "primary-60 预合成在背景上的不透明孪生。凡会互相叠加的元素（网格线、SVG 填充、重叠层）用它，避免叠出脏色。"
+      },
+      {
+        "name": "color-primary-solid-80",
+        "value": {
+          "light": "#333333",
+          "dark": "#cccccc"
+        },
+        "usage": "primary-80 预合成在背景上的不透明孪生。凡会互相叠加的元素（网格线、SVG 填充、重叠层）用它，避免叠出脏色。"
+      },
+      {
+        "name": "color-primary-solid-100",
+        "value": {
+          "light": "#000000",
+          "dark": "#ffffff"
+        },
+        "usage": "primary-100 预合成在背景上的不透明孪生。凡会互相叠加的元素（网格线、SVG 填充、重叠层）用它，避免叠出脏色。"
+      },
+      {
+        "name": "color-primary-solid-nav",
+        "value": "#707070",
+        "usage": "nav 的不透明孪生。亮暗相同。"
+      },
+      {
+        "name": "color-primary-solid-inactive",
+        "value": "#707070",
+        "usage": "inactive 的不透明孪生。亮暗相同。"
+      },
+      {
+        "name": "color-secondary-4",
+        "value": {
+          "light": "#ffffff0a",
+          "dark": "#0000000a"
+        },
+        "usage": "secondary——primary 的精确反面，用在反相面上。"
+      },
+      {
+        "name": "color-secondary-12",
+        "value": {
+          "light": "#ffffff1f",
+          "dark": "#0000001f"
+        },
+        "usage": "secondary——primary 的精确反面，用在反相面上。"
+      },
+      {
+        "name": "color-secondary-44",
+        "value": {
+          "light": "#ffffff70",
+          "dark": "#00000070"
+        },
+        "usage": "secondary——primary 的精确反面，用在反相面上。"
+      },
+      {
+        "name": "color-secondary-60",
+        "value": {
+          "light": "#ffffff99",
+          "dark": "#00000099"
+        },
+        "usage": "secondary——primary 的精确反面，用在反相面上。"
+      },
+      {
+        "name": "color-secondary-80",
+        "value": {
+          "light": "#ffffffcc",
+          "dark": "#000000cc"
+        },
+        "usage": "secondary——primary 的精确反面，用在反相面上。"
+      },
+      {
+        "name": "color-secondary-100",
+        "value": {
+          "light": "#ffffff",
+          "dark": "#000000"
+        },
+        "usage": "反相面上的墨：主按钮文字、反相 chip 文字（在 color-primary-100 上 21:1）。"
+      },
+      {
+        "name": "color-secondary-solid-4",
+        "value": {
+          "light": "#0a0a0a",
+          "dark": "#f5f5f5"
+        },
+        "usage": "secondary-4 的不透明孪生。"
+      },
+      {
+        "name": "color-secondary-solid-12",
+        "value": {
+          "light": "#1f1f1f",
+          "dark": "#e0e0e0"
+        },
+        "usage": "secondary-12 的不透明孪生。"
+      },
+      {
+        "name": "color-secondary-solid-44",
+        "value": {
+          "light": "#707070",
+          "dark": "#8f8f8f"
+        },
+        "usage": "secondary-44 的不透明孪生。"
+      },
+      {
+        "name": "color-secondary-solid-60",
+        "value": {
+          "light": "#999999",
+          "dark": "#666666"
+        },
+        "usage": "secondary-60 的不透明孪生。"
+      },
+      {
+        "name": "color-secondary-solid-80",
+        "value": {
+          "light": "#cccccc",
+          "dark": "#333333"
+        },
+        "usage": "secondary-80 的不透明孪生。"
+      },
+      {
+        "name": "color-secondary-solid-100",
+        "value": {
+          "light": "#ffffff",
+          "dark": "#000000"
+        },
+        "usage": "secondary-100 的不透明孪生。"
+      },
+      {
+        "name": "color-tertiary-60",
+        "value": {
+          "light": "#f1f1f1ad",
+          "dark": "#505050ad"
+        },
+        "usage": "抬起面，68% 不透明。"
+      },
+      {
+        "name": "color-tertiary-80",
+        "value": {
+          "light": "#f1f1f1cc",
+          "dark": "#333333cc"
+        },
+        "usage": "抬起面，80%：图表浮层、菜单底（配 backdrop blur）。"
+      },
+      {
+        "name": "color-tertiary-100",
+        "value": {
+          "light": "#f1f1f1",
+          "dark": "#1f1f1f"
+        },
+        "usage": "抬起的实体面：代码块、暗色下的浮层底。独立挑的灰，不从 primary 派生。"
+      },
+      {
+        "name": "color-tertiary-hint",
+        "value": "#ffffff70",
+        "usage": "tertiary 提示色。亮暗相同。"
+      },
+      {
+        "name": "color-tertiary-solid-60",
+        "value": {
+          "light": "#a4a4a4",
+          "dark": "#888888"
+        },
+        "usage": "tertiary-60 的不透明孪生。"
+      },
+      {
+        "name": "color-tertiary-solid-80",
+        "value": {
+          "light": "#c1c1c1",
+          "dark": "#5c5c5c"
+        },
+        "usage": "tertiary-80 的不透明孪生。"
+      },
+      {
+        "name": "color-tertiary-solid-100",
+        "value": {
+          "light": "#f1f1f1",
+          "dark": "#1f1f1f"
+        },
+        "usage": "tertiary-100 的不透明孪生。"
+      },
+      {
+        "name": "color-tertiary-solid-hint",
+        "value": "#707070",
+        "usage": "tertiary-hint 的不透明孪生。"
+      },
+      {
+        "name": "color-hue-red",
+        "value": {
+          "light": "#f53255",
+          "dark": "#ed6079"
+        },
+        "usage": "表达色，不是状态色。暗色降饱和而不是提亮。不承载语义（红 ≠ 错误）。"
+      },
+      {
+        "name": "color-hue-lime",
+        "value": {
+          "light": "#9dca1c",
+          "dark": "#8fac39"
+        },
+        "usage": "表达色，不是状态色。暗色降饱和而不是提亮。不承载语义（红 ≠ 错误）。"
+      },
+      {
+        "name": "color-hue-magenta",
+        "value": {
+          "light": "#eb56c5",
+          "dark": "#c759ab"
+        },
+        "usage": "表达色，不是状态色。暗色降饱和而不是提亮。不承载语义（红 ≠ 错误）。"
+      },
+      {
+        "name": "color-hue-blue",
+        "value": {
+          "light": "#29bdfd",
+          "dark": "#36a6d7"
+        },
+        "usage": "表达色，不是状态色。暗色降饱和而不是提亮。不承载语义（红 ≠ 错误）。"
+      },
+      {
+        "name": "color-hue-yellow",
+        "value": {
+          "light": "#ffaf00",
+          "dark": "#e2a727"
+        },
+        "usage": "表达色，不是状态色。暗色降饱和而不是提亮。不承载语义（红 ≠ 错误）。"
+      },
+      {
+        "name": "color-syntax-copy",
+        "value": {
+          "light": "#000000",
+          "dark": "#ffffff"
+        },
+        "usage": "语法高亮——全站唯一允许高饱和文字的地方。代码默认文字。"
+      },
+      {
+        "name": "color-syntax-comment",
+        "value": {
+          "light": "#00000070",
+          "dark": "#ffffff70"
+        },
+        "usage": "语法高亮——全站唯一允许高饱和文字的地方。注释——复用 primary-44 的层级。"
+      },
+      {
+        "name": "color-syntax-highlight",
+        "value": {
+          "light": "#0000000a",
+          "dark": "#ffffff14"
+        },
+        "usage": "语法高亮——全站唯一允许高饱和文字的地方。代码行高亮底。"
+      },
+      {
+        "name": "color-syntax-error",
+        "value": {
+          "light": "#f22f4d",
+          "dark": "#e80d2f"
+        },
+        "usage": "语法高亮——全站唯一允许高饱和文字的地方。语法错误；也借作表单错误态（全站没有独立的 error 语义色）。⚠ 源值：白底 4.0:1、黑底 4.5:1——错误提示必须同时给出文字说明。"
+      },
+      {
+        "name": "color-syntax-operator",
+        "value": {
+          "light": "#c93b00",
+          "dark": "#ed4b00"
+        },
+        "usage": "语法高亮——全站唯一允许高饱和文字的地方。运算符。"
+      },
+      {
+        "name": "color-syntax-variable",
+        "value": {
+          "light": "#8a6e07",
+          "dark": "#ac8601"
+        },
+        "usage": "语法高亮——全站唯一允许高饱和文字的地方。变量。"
+      },
+      {
+        "name": "color-syntax-string",
+        "value": {
+          "light": "#027f41",
+          "dark": "#03a354"
+        },
+        "usage": "语法高亮——全站唯一允许高饱和文字的地方。字符串。"
+      },
+      {
+        "name": "color-syntax-data",
+        "value": {
+          "light": "#1d7899",
+          "dark": "#2392ba"
+        },
+        "usage": "语法高亮——全站唯一允许高饱和文字的地方。数字/数据。"
+      },
+      {
+        "name": "color-syntax-keyword",
+        "value": {
+          "light": "#1e60e4",
+          "dark": "#4080ff"
+        },
+        "usage": "语法高亮——全站唯一允许高饱和文字的地方。关键字。"
+      },
+      {
+        "name": "color-syntax-function",
+        "value": {
+          "light": "#7a4ff5",
+          "dark": "#916bff"
+        },
+        "usage": "语法高亮——全站唯一允许高饱和文字的地方。函数名。"
+      },
+      {
+        "name": "color-syntax-const",
+        "value": {
+          "light": "#d6008d",
+          "dark": "#ff00a8"
+        },
+        "usage": "语法高亮——全站唯一允许高饱和文字的地方。常量。"
+      },
+      {
+        "name": "color-diff-add-content",
+        "value": {
+          "light": "#e6ffec",
+          "dark": "#14261f"
+        },
+        "usage": "diff 新增行底。"
+      },
+      {
+        "name": "color-diff-del-content",
+        "value": {
+          "light": "#ffebe9",
+          "dark": "#311b1f"
+        },
+        "usage": "diff 删除行底。"
+      },
+      {
+        "name": "color-supply-accent-color",
+        "value": {
+          "light": "#0000ff",
+          "dark": "#4da3ff"
+        },
+        "usage": "/supply 子系统的强调色（mono 大写标签）。"
+      },
+      {
+        "name": "color-brand-blue-25",
+        "value": "#f6fafe",
+        "usage": "原始颜料（blue 25），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-blue-50",
+        "value": "#e8f3fe",
+        "usage": "原始颜料（blue 50），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-blue-75",
+        "value": "#d1e5fd",
+        "usage": "原始颜料（blue 75），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-blue-100",
+        "value": "#a4cdfb",
+        "usage": "原始颜料（blue 100），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-blue-200",
+        "value": "#63a8f8",
+        "usage": "原始颜料（blue 200），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-blue-300",
+        "value": "#539af8",
+        "usage": "原始颜料（blue 300），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-blue-400",
+        "value": "#3a83f7",
+        "usage": "原始颜料（blue 400），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-blue-500",
+        "value": "#2c67c5",
+        "usage": "原始颜料（blue 500），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-blue-600",
+        "value": "#1f4e94",
+        "usage": "原始颜料（blue 600），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-blue-700",
+        "value": "#173e76",
+        "usage": "原始颜料（blue 700），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-blue-800",
+        "value": "#133463",
+        "usage": "原始颜料（blue 800），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-blue-900",
+        "value": "#0c274a",
+        "usage": "原始颜料（blue 900），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-blue-1000",
+        "value": "#020d18",
+        "usage": "原始颜料（blue 1000），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-purple-25",
+        "value": "#f8f5fd",
+        "usage": "原始颜料（purple 25），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-purple-50",
+        "value": "#ede5fc",
+        "usage": "原始颜料（purple 50），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-purple-75",
+        "value": "#ddcffa",
+        "usage": "原始颜料（purple 75），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-purple-100",
+        "value": "#c9b1f6",
+        "usage": "原始颜料（purple 100），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-purple-200",
+        "value": "#b897f4",
+        "usage": "原始颜料（purple 200），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-purple-300",
+        "value": "#a67df2",
+        "usage": "原始颜料（purple 300），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-purple-400",
+        "value": "#8952ee",
+        "usage": "原始颜料（purple 400），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-purple-500",
+        "value": "#7849d1",
+        "usage": "原始颜料（purple 500），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-purple-600",
+        "value": "#643cae",
+        "usage": "原始颜料（purple 600），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-purple-700",
+        "value": "#4e2f88",
+        "usage": "原始颜料（purple 700），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-purple-800",
+        "value": "#3b2366",
+        "usage": "原始颜料（purple 800），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-purple-900",
+        "value": "#291947",
+        "usage": "原始颜料（purple 900），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-purple-1000",
+        "value": "#0f0a18",
+        "usage": "原始颜料（purple 1000），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-pink-25",
+        "value": "#fef8fb",
+        "usage": "原始颜料（pink 25），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-pink-50",
+        "value": "#fdedf4",
+        "usage": "原始颜料（pink 50），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-pink-75",
+        "value": "#fcd8e7",
+        "usage": "原始颜料（pink 75），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-pink-100",
+        "value": "#fbbfd7",
+        "usage": "原始颜料（pink 100），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-pink-200",
+        "value": "#f8a6c8",
+        "usage": "原始颜料（pink 200），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-pink-300",
+        "value": "#f68ebc",
+        "usage": "原始颜料（pink 300），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-pink-400",
+        "value": "#f077af",
+        "usage": "原始颜料（pink 400），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-pink-500",
+        "value": "#cf6194",
+        "usage": "原始颜料（pink 500），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-pink-600",
+        "value": "#ab4f7a",
+        "usage": "原始颜料（pink 600），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-pink-700",
+        "value": "#873e60",
+        "usage": "原始颜料（pink 700），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-pink-800",
+        "value": "#663049",
+        "usage": "原始颜料（pink 800），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-pink-900",
+        "value": "#462132",
+        "usage": "原始颜料（pink 900），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-pink-1000",
+        "value": "#1d0f15",
+        "usage": "原始颜料（pink 1000），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-orange-25",
+        "value": "#fdf5f1",
+        "usage": "原始颜料（orange 25），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-orange-50",
+        "value": "#fbe8db",
+        "usage": "原始颜料（orange 50），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-orange-75",
+        "value": "#f7d1b8",
+        "usage": "原始颜料（orange 75），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-orange-100",
+        "value": "#f4ba96",
+        "usage": "原始颜料（orange 100），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-orange-200",
+        "value": "#f1a275",
+        "usage": "原始颜料（orange 200），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-orange-300",
+        "value": "#ef8b57",
+        "usage": "原始颜料（orange 300），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-orange-400",
+        "value": "#ee7c37",
+        "usage": "原始颜料（orange 400），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-orange-500",
+        "value": "#d25e28",
+        "usage": "原始颜料（orange 500），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-orange-600",
+        "value": "#ac4f23",
+        "usage": "原始颜料（orange 600），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-orange-700",
+        "value": "#87401d",
+        "usage": "原始颜料（orange 700），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-orange-800",
+        "value": "#653218",
+        "usage": "原始颜料（orange 800），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-orange-900",
+        "value": "#45240d",
+        "usage": "原始颜料（orange 900），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-orange-1000",
+        "value": "#1f1209",
+        "usage": "原始颜料（orange 1000），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-yellow-25",
+        "value": "#fefbee",
+        "usage": "原始颜料（yellow 25），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-yellow-50",
+        "value": "#fdf6dc",
+        "usage": "原始颜料（yellow 50），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-yellow-75",
+        "value": "#fcefbe",
+        "usage": "原始颜料（yellow 75），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-yellow-100",
+        "value": "#fae598",
+        "usage": "原始颜料（yellow 100），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-yellow-200",
+        "value": "#f9dc78",
+        "usage": "原始颜料（yellow 200），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-yellow-300",
+        "value": "#f8d45d",
+        "usage": "原始颜料（yellow 300），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-yellow-400",
+        "value": "#f6c543",
+        "usage": "原始颜料（yellow 400），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-yellow-500",
+        "value": "#d9a337",
+        "usage": "原始颜料（yellow 500），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-yellow-600",
+        "value": "#b8802b",
+        "usage": "原始颜料（yellow 600），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-yellow-700",
+        "value": "#95611f",
+        "usage": "原始颜料（yellow 700），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-yellow-800",
+        "value": "#734615",
+        "usage": "原始颜料（yellow 800），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-yellow-900",
+        "value": "#51300c",
+        "usage": "原始颜料（yellow 900），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-yellow-1000",
+        "value": "#221403",
+        "usage": "原始颜料（yellow 1000），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-green-25",
+        "value": "#effaf3",
+        "usage": "原始颜料（green 25），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-green-50",
+        "value": "#def3e5",
+        "usage": "原始颜料（green 50），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-green-75",
+        "value": "#c2eace",
+        "usage": "原始颜料（green 75），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-green-100",
+        "value": "#9fddb1",
+        "usage": "原始颜料（green 100），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-green-200",
+        "value": "#83d197",
+        "usage": "原始颜料（green 200），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-green-300",
+        "value": "#6bc67f",
+        "usage": "原始颜料（green 300），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-green-400",
+        "value": "#53b559",
+        "usage": "原始颜料（green 400），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-green-500",
+        "value": "#48a04c",
+        "usage": "原始颜料（green 500），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-green-600",
+        "value": "#3a843f",
+        "usage": "原始颜料（green 600），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-green-700",
+        "value": "#2c6732",
+        "usage": "原始颜料（green 700），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-green-800",
+        "value": "#1f4e25",
+        "usage": "原始颜料（green 800），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-green-900",
+        "value": "#14361a",
+        "usage": "原始颜料（green 900），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-green-1000",
+        "value": "#041208",
+        "usage": "原始颜料（green 1000），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-red-25",
+        "value": "#fff4f3",
+        "usage": "原始颜料（red 25），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-red-50",
+        "value": "#ffe5e0",
+        "usage": "原始颜料（red 50），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-red-75",
+        "value": "#ffc9c0",
+        "usage": "原始颜料（red 75），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-red-100",
+        "value": "#ffaa9c",
+        "usage": "原始颜料（red 100），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-red-200",
+        "value": "#ff8583",
+        "usage": "原始颜料（red 200），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-red-300",
+        "value": "#ff6764",
+        "usage": "原始颜料（red 300），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-red-400",
+        "value": "#fa423e",
+        "usage": "原始颜料（red 400），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-red-500",
+        "value": "#de282f",
+        "usage": "原始颜料（red 500），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-red-600",
+        "value": "#ba2623",
+        "usage": "原始颜料（red 600），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-red-700",
+        "value": "#92201d",
+        "usage": "原始颜料（red 700），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-red-800",
+        "value": "#6d1b18",
+        "usage": "原始颜料（red 800），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-red-900",
+        "value": "#4a130d",
+        "usage": "原始颜料（red 900），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-red-1000",
+        "value": "#1f0a07",
+        "usage": "原始颜料（red 1000），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-teal-25",
+        "value": "#f0fdfb",
+        "usage": "原始颜料（teal 25），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-teal-50",
+        "value": "#dff9f4",
+        "usage": "原始颜料（teal 50），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-teal-75",
+        "value": "#c2f5eb",
+        "usage": "原始颜料（teal 75），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-teal-100",
+        "value": "#9ceede",
+        "usage": "原始颜料（teal 100），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-teal-200",
+        "value": "#79e8d1",
+        "usage": "原始颜料（teal 200），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-teal-300",
+        "value": "#47e2c2",
+        "usage": "原始颜料（teal 300），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-teal-400",
+        "value": "#0fd9ae",
+        "usage": "原始颜料（teal 400），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-teal-500",
+        "value": "#05c099",
+        "usage": "原始颜料（teal 500），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-teal-600",
+        "value": "#049f7f",
+        "usage": "原始颜料（teal 600），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-teal-700",
+        "value": "#0a7c64",
+        "usage": "原始颜料（teal 700），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-teal-800",
+        "value": "#055f4c",
+        "usage": "原始颜料（teal 800），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-teal-900",
+        "value": "#074236",
+        "usage": "原始颜料（teal 900），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-teal-1000",
+        "value": "#031714",
+        "usage": "原始颜料（teal 1000），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-gray-0",
+        "value": "#ffffff",
+        "usage": "原始颜料（gray 0），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-gray-50",
+        "value": "#f9f9f9",
+        "usage": "原始颜料（gray 50），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-gray-75",
+        "value": "#f3f3f3",
+        "usage": "原始颜料（gray 75），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-gray-100",
+        "value": "#e8e8e8",
+        "usage": "原始颜料（gray 100），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-gray-200",
+        "value": "#cdcdcd",
+        "usage": "原始颜料（gray 200），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-gray-300",
+        "value": "#afafaf",
+        "usage": "原始颜料（gray 300），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-gray-400",
+        "value": "#8f8f8f",
+        "usage": "原始颜料（gray 400），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-gray-500",
+        "value": "#5d5d5d",
+        "usage": "原始颜料（gray 500），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-gray-600",
+        "value": "#414141",
+        "usage": "原始颜料（gray 600），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-gray-700",
+        "value": "#303030",
+        "usage": "原始颜料（gray 700），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-gray-800",
+        "value": "#212121",
+        "usage": "原始颜料（gray 800），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-gray-900",
+        "value": "#181818",
+        "usage": "原始颜料（gray 900），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "color-brand-gray-1000",
+        "value": "#000000",
+        "usage": "原始颜料（gray 1000），不随主题翻转。只给图表与插画，不做 UI 文字或面。"
+      },
+      {
+        "name": "chart-color-blue-1",
+        "value": "{color-brand-blue-800}",
+        "usage": "图表 blue 第 1 级（1 最深）。手挑自 brand 800，让八个色相同级感知明度对齐；也是该色相所有系列的 keyline（描边）。"
+      },
+      {
+        "name": "chart-color-blue-2",
+        "value": "{color-brand-blue-600}",
+        "usage": "图表 blue 第 2 级（1 最深）。手挑自 brand 600，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-blue-3",
+        "value": "{color-brand-blue-500}",
+        "usage": "图表 blue 第 3 级（1 最深）。手挑自 brand 500，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-blue-4",
+        "value": "{color-brand-blue-300}",
+        "usage": "图表 blue 第 4 级（1 最深）。手挑自 brand 300，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-blue-5",
+        "value": "{color-brand-blue-100}",
+        "usage": "图表 blue 第 5 级（1 最深）。手挑自 brand 100，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-purple-1",
+        "value": "{color-brand-purple-800}",
+        "usage": "图表 purple 第 1 级（1 最深）。手挑自 brand 800，让八个色相同级感知明度对齐；也是该色相所有系列的 keyline（描边）。"
+      },
+      {
+        "name": "chart-color-purple-2",
+        "value": "{color-brand-purple-700}",
+        "usage": "图表 purple 第 2 级（1 最深）。手挑自 brand 700，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-purple-3",
+        "value": "{color-brand-purple-500}",
+        "usage": "图表 purple 第 3 级（1 最深）。手挑自 brand 500，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-purple-4",
+        "value": "{color-brand-purple-300}",
+        "usage": "图表 purple 第 4 级（1 最深）。手挑自 brand 300，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-purple-5",
+        "value": "{color-brand-purple-100}",
+        "usage": "图表 purple 第 5 级（1 最深）。手挑自 brand 100，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-green-1",
+        "value": "{color-brand-green-900}",
+        "usage": "图表 green 第 1 级（1 最深）。手挑自 brand 900，让八个色相同级感知明度对齐；也是该色相所有系列的 keyline（描边）。"
+      },
+      {
+        "name": "chart-color-green-2",
+        "value": "{color-brand-green-700}",
+        "usage": "图表 green 第 2 级（1 最深）。手挑自 brand 700，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-green-3",
+        "value": "{color-brand-green-600}",
+        "usage": "图表 green 第 3 级（1 最深）。手挑自 brand 600，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-green-4",
+        "value": "{color-brand-green-400}",
+        "usage": "图表 green 第 4 级（1 最深）。手挑自 brand 400，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-green-5",
+        "value": "{color-brand-green-200}",
+        "usage": "图表 green 第 5 级（1 最深）。手挑自 brand 200，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-yellow-1",
+        "value": "{color-brand-yellow-800}",
+        "usage": "图表 yellow 第 1 级（1 最深）。手挑自 brand 800，让八个色相同级感知明度对齐；也是该色相所有系列的 keyline（描边）。"
+      },
+      {
+        "name": "chart-color-yellow-2",
+        "value": "{color-brand-yellow-700}",
+        "usage": "图表 yellow 第 2 级（1 最深）。手挑自 brand 700，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-yellow-3",
+        "value": "{color-brand-yellow-600}",
+        "usage": "图表 yellow 第 3 级（1 最深）。手挑自 brand 600，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-yellow-4",
+        "value": "{color-brand-yellow-500}",
+        "usage": "图表 yellow 第 4 级（1 最深）。手挑自 brand 500，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-yellow-5",
+        "value": "{color-brand-yellow-400}",
+        "usage": "图表 yellow 第 5 级（1 最深）。手挑自 brand 400，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-orange-1",
+        "value": "{color-brand-orange-900}",
+        "usage": "图表 orange 第 1 级（1 最深）。手挑自 brand 900，让八个色相同级感知明度对齐；也是该色相所有系列的 keyline（描边）。"
+      },
+      {
+        "name": "chart-color-orange-2",
+        "value": "{color-brand-orange-700}",
+        "usage": "图表 orange 第 2 级（1 最深）。手挑自 brand 700，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-orange-3",
+        "value": "{color-brand-orange-500}",
+        "usage": "图表 orange 第 3 级（1 最深）。手挑自 brand 500，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-orange-4",
+        "value": "{color-brand-orange-300}",
+        "usage": "图表 orange 第 4 级（1 最深）。手挑自 brand 300，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-orange-5",
+        "value": "{color-brand-orange-100}",
+        "usage": "图表 orange 第 5 级（1 最深）。手挑自 brand 100，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-pink-1",
+        "value": "{color-brand-pink-900}",
+        "usage": "图表 pink 第 1 级（1 最深）。手挑自 brand 900，让八个色相同级感知明度对齐；也是该色相所有系列的 keyline（描边）。"
+      },
+      {
+        "name": "chart-color-pink-2",
+        "value": "{color-brand-pink-700}",
+        "usage": "图表 pink 第 2 级（1 最深）。手挑自 brand 700，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-pink-3",
+        "value": "{color-brand-pink-600}",
+        "usage": "图表 pink 第 3 级（1 最深）。手挑自 brand 600，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-pink-4",
+        "value": "{color-brand-pink-400}",
+        "usage": "图表 pink 第 4 级（1 最深）。手挑自 brand 400，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-pink-5",
+        "value": "{color-brand-pink-200}",
+        "usage": "图表 pink 第 5 级（1 最深）。手挑自 brand 200，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-red-1",
+        "value": "{color-brand-red-800}",
+        "usage": "图表 red 第 1 级（1 最深）。手挑自 brand 800，让八个色相同级感知明度对齐；也是该色相所有系列的 keyline（描边）。"
+      },
+      {
+        "name": "chart-color-red-2",
+        "value": "{color-brand-red-700}",
+        "usage": "图表 red 第 2 级（1 最深）。手挑自 brand 700，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-red-3",
+        "value": "{color-brand-red-500}",
+        "usage": "图表 red 第 3 级（1 最深）。手挑自 brand 500，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-red-4",
+        "value": "{color-brand-red-300}",
+        "usage": "图表 red 第 4 级（1 最深）。手挑自 brand 300，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-red-5",
+        "value": "{color-brand-red-100}",
+        "usage": "图表 red 第 5 级（1 最深）。手挑自 brand 100，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-gray-1",
+        "value": "{color-brand-gray-700}",
+        "usage": "图表 gray 第 1 级（1 最深）。手挑自 brand 700，让八个色相同级感知明度对齐；也是该色相所有系列的 keyline（描边）。"
+      },
+      {
+        "name": "chart-color-gray-2",
+        "value": "{color-brand-gray-600}",
+        "usage": "图表 gray 第 2 级（1 最深）。手挑自 brand 600，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-gray-3",
+        "value": "{color-brand-gray-500}",
+        "usage": "图表 gray 第 3 级（1 最深）。手挑自 brand 500，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-gray-4",
+        "value": "{color-brand-gray-400}",
+        "usage": "图表 gray 第 4 级（1 最深）。手挑自 brand 400，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "chart-color-gray-5",
+        "value": "{color-brand-gray-300}",
+        "usage": "图表 gray 第 5 级（1 最深）。手挑自 brand 300，让八个色相同级感知明度对齐。"
+      },
+      {
+        "name": "color-blue-20",
+        "value": {
+          "light": "{chart-color-blue-5}",
+          "dark": "{chart-color-blue-1}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。blue-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-blue-40",
+        "value": {
+          "light": "{chart-color-blue-4}",
+          "dark": "{chart-color-blue-2}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。blue-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-blue-60",
+        "value": {
+          "light": "{chart-color-blue-3}",
+          "dark": "{chart-color-blue-3}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。blue-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-blue-80",
+        "value": {
+          "light": "{chart-color-blue-2}",
+          "dark": "{chart-color-blue-4}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。blue-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-blue-100",
+        "value": {
+          "light": "{chart-color-blue-1}",
+          "dark": "{chart-color-blue-5}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。blue-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-orange-20",
+        "value": {
+          "light": "{chart-color-orange-5}",
+          "dark": "{chart-color-orange-1}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。orange-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-orange-40",
+        "value": {
+          "light": "{chart-color-orange-4}",
+          "dark": "{chart-color-orange-2}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。orange-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-orange-60",
+        "value": {
+          "light": "{chart-color-orange-3}",
+          "dark": "{chart-color-orange-3}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。orange-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-orange-80",
+        "value": {
+          "light": "{chart-color-orange-2}",
+          "dark": "{chart-color-orange-4}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。orange-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-orange-100",
+        "value": {
+          "light": "{chart-color-orange-1}",
+          "dark": "{chart-color-orange-5}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。orange-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-yellow-20",
+        "value": {
+          "light": "{chart-color-yellow-5}",
+          "dark": "{chart-color-yellow-1}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。yellow-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-yellow-40",
+        "value": {
+          "light": "{chart-color-yellow-4}",
+          "dark": "{chart-color-yellow-2}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。yellow-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-yellow-60",
+        "value": {
+          "light": "{chart-color-yellow-3}",
+          "dark": "{chart-color-yellow-3}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。yellow-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-yellow-80",
+        "value": {
+          "light": "{chart-color-yellow-2}",
+          "dark": "{chart-color-yellow-4}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。yellow-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-yellow-100",
+        "value": {
+          "light": "{chart-color-yellow-1}",
+          "dark": "{chart-color-yellow-5}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。yellow-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-green-20",
+        "value": {
+          "light": "{chart-color-green-5}",
+          "dark": "{chart-color-green-1}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。green-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-green-40",
+        "value": {
+          "light": "{chart-color-green-4}",
+          "dark": "{chart-color-green-2}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。green-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-green-60",
+        "value": {
+          "light": "{chart-color-green-3}",
+          "dark": "{chart-color-green-3}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。green-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-green-80",
+        "value": {
+          "light": "{chart-color-green-2}",
+          "dark": "{chart-color-green-4}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。green-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-green-100",
+        "value": {
+          "light": "{chart-color-green-1}",
+          "dark": "{chart-color-green-5}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。green-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-pink-20",
+        "value": {
+          "light": "{chart-color-pink-5}",
+          "dark": "{chart-color-pink-1}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。pink-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-pink-40",
+        "value": {
+          "light": "{chart-color-pink-4}",
+          "dark": "{chart-color-pink-2}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。pink-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-pink-60",
+        "value": {
+          "light": "{chart-color-pink-3}",
+          "dark": "{chart-color-pink-3}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。pink-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-pink-80",
+        "value": {
+          "light": "{chart-color-pink-2}",
+          "dark": "{chart-color-pink-4}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。pink-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-pink-100",
+        "value": {
+          "light": "{chart-color-pink-1}",
+          "dark": "{chart-color-pink-5}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。pink-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-gray-20",
+        "value": {
+          "light": "{chart-color-gray-5}",
+          "dark": "{chart-color-gray-1}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。gray-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-gray-40",
+        "value": {
+          "light": "{chart-color-gray-4}",
+          "dark": "{chart-color-gray-2}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。gray-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-gray-60",
+        "value": {
+          "light": "{chart-color-gray-3}",
+          "dark": "{chart-color-gray-3}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。gray-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-gray-80",
+        "value": {
+          "light": "{chart-color-gray-2}",
+          "dark": "{chart-color-gray-4}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。gray-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "color-gray-100",
+        "value": {
+          "light": "{chart-color-gray-1}",
+          "dark": "{chart-color-gray-5}"
+        },
+        "usage": "数据色：数字 = 强度不是明度，暗色下索引翻转。gray-100 永远是当前主题最抢眼的系列。"
+      },
+      {
+        "name": "chatgptmini-background",
+        "value": {
+          "light": "#ffffff",
+          "dark": "#000000"
+        },
+        "usage": "chatgpt-mini 子系统：产品仿真底。"
+      },
+      {
+        "name": "chatgptmini-foreground",
+        "value": {
+          "light": "#0d0d0d",
+          "dark": "#f5f5f5"
+        },
+        "usage": "chatgpt-mini 子系统：产品仿真墨——刻意用产品自己的 #0d0d0d / #f5f5f5，不是官网纯黑纯白。"
+      },
+      {
+        "name": "chatgptmini-sidebar",
+        "value": {
+          "light": "#f9f9f9",
+          "dark": "#171717"
+        },
+        "usage": "chatgpt-mini 子系统：仿真侧栏底。"
+      },
+      {
+        "name": "chatgptmini-sidebar-selected",
+        "value": {
+          "light": "#ededed",
+          "dark": "#303030"
+        },
+        "usage": "chatgpt-mini 子系统：仿真侧栏选中项底。"
+      },
+      {
+        "name": "chatgptmini-border",
+        "value": {
+          "light": "#0d0d0d1a",
+          "dark": "#ffffff26"
+        },
+        "usage": "chatgpt-mini 子系统：仿真内描边（亮 10% / 暗 15%）。"
+      },
+      {
+        "name": "chatgptmini-border-heavy",
+        "value": {
+          "light": "#0d0d0d33",
+          "dark": "#ffffff33"
+        },
+        "usage": "chatgpt-mini 子系统：仿真输入框描边（20%）。"
+      },
+      {
+        "name": "chatgptmini-hover",
+        "value": {
+          "light": "#0d0d0d0a",
+          "dark": "#ffffff14"
+        },
+        "usage": "chatgpt-mini 子系统：仿真 hover 底。"
+      },
+      {
+        "name": "chatgptmini-muted",
+        "value": {
+          "light": "#0d0d0d99",
+          "dark": "#ffffff99"
+        },
+        "usage": "chatgpt-mini 子系统：仿真次级文字、占位符（60%）。"
+      }
+    ]
+  },
+  "type": {
+    "fonts": [],
+    "families": {
+      "sans": "Inter, ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "serif": "\"Source Serif 4\", ui-serif, Georgia, serif",
+      "mono": "\"SF Mono\", Consolas, \"Liberation Mono\", ui-monospace, monospace"
+    },
+    "groups": [
+      {
+        "name": "Display · 流体（375→1440 一根轨道）",
+        "family": "sans",
+        "styles": [
+          {
+            "name": "text-xl",
+            "fontSize": "7rem",
+            "lineHeight": "7rem",
+            "fontWeight": 500,
+            "usage": "hero 超大字。流体 64→112px，行高比 1.00。",
+            "letterSpacing": "-0.02em",
+            "sample": "What can I help with?"
+          },
+          {
+            "name": "text-h1",
+            "fontSize": "4rem",
+            "lineHeight": "4rem",
+            "fontWeight": 500,
+            "usage": "文章标题。32→64px；行高比自身也流体 1.14→1.00；全系统最紧字距。text-wrap: balance。",
+            "letterSpacing": "-0.03em",
+            "sample": "Frontier intelligence that scales with your ambition"
+          },
+          {
+            "name": "text-h2",
+            "fontSize": "3rem",
+            "lineHeight": "3.48rem",
+            "fontWeight": 500,
+            "usage": "整页唯一的终点 CTA 标题。32→48px；字距在窄屏放松到 −0.01em。",
+            "letterSpacing": "-0.03em",
+            "sample": "Get started today"
+          },
+          {
+            "name": "text-h2-5",
+            "fontSize": "2.38rem",
+            "lineHeight": "2.737rem",
+            "fontWeight": 500,
+            "usage": "24→38.08px。",
+            "letterSpacing": "-0.02em",
+            "sample": "Frontier intelligence that scales with your ambition"
+          },
+          {
+            "name": "text-h3",
+            "fontSize": "1.875rem",
+            "lineHeight": "2.475rem",
+            "fontWeight": 500,
+            "usage": "文章内章节标题。24→30px。",
+            "letterSpacing": "-0.01em",
+            "sample": "Performance and cost"
+          },
+          {
+            "name": "text-h4",
+            "fontSize": "1.375rem",
+            "lineHeight": "1.7325rem",
+            "fontWeight": 500,
+            "usage": "★ 索引页区块标题（语义 h2，视觉 h4）。20→22px。",
+            "letterSpacing": "-0.01em",
+            "sample": "Recent news"
+          },
+          {
+            "name": "text-h5",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.485rem",
+            "fontWeight": 500,
+            "usage": "卡片标题。16→18px。h6 取值完全相同，不要当两档用。",
+            "letterSpacing": "-0.01em",
+            "sample": "Ten advances in mathematics"
+          }
+        ]
+      },
+      {
+        "name": "Body & UI · 固定（不缩放）",
+        "family": "sans",
+        "styles": [
+          {
+            "name": "text-p1",
+            "fontSize": "1.0625rem",
+            "lineHeight": "1.74994rem",
+            "fontWeight": 400,
+            "usage": "★ 正文 17px，手机和 4K 上都是。唯二的 400 之一。text-wrap: pretty。",
+            "letterSpacing": "-0.01em",
+            "sample": "More intelligence from every token, at a third of the cost. Available today to every workspace, with API access rolling out next week."
+          },
+          {
+            "name": "text-p2",
+            "fontSize": "0.875rem",
+            "lineHeight": "1.435rem",
+            "fontWeight": 400,
+            "usage": "小正文 14px。",
+            "letterSpacing": "-0.01em",
+            "sample": "More intelligence from every token, at a third of the cost. Available today to every workspace, with API access rolling out next week."
+          },
+          {
+            "name": "text-caption",
+            "fontSize": "0.875rem",
+            "lineHeight": "1.435rem",
+            "fontWeight": 400,
+            "usage": "图注 14px，字距 0。",
+            "letterSpacing": "0em",
+            "sample": "Figure 1. Accuracy across evaluations."
+          },
+          {
+            "name": "text-meta",
+            "fontSize": "0.875rem",
+            "lineHeight": "1.225rem",
+            "fontWeight": 500,
+            "usage": "元信息：分类 · 日期 · 时长，放在标题上方。",
+            "letterSpacing": "0em",
+            "sample": "Product · Jul 23, 2026 · 7 min read"
+          },
+          {
+            "name": "text-cta",
+            "fontSize": "0.875rem",
+            "lineHeight": "0.875rem",
+            "fontWeight": 500,
+            "usage": "按钮文字。行高 = 字号，按钮高度完全由 padding 决定。",
+            "letterSpacing": "0em",
+            "sample": "Get started"
+          },
+          {
+            "name": "text-nav",
+            "fontSize": "0.875rem",
+            "lineHeight": "1.435rem",
+            "fontWeight": 500,
+            "usage": "桌面导航项 14px（通用 nav 角色反向流体：375px 时 16px）。",
+            "letterSpacing": "0em",
+            "sample": "Research  Business  Developers"
+          },
+          {
+            "name": "text-nav-mobile",
+            "fontSize": "1rem",
+            "lineHeight": "1.25rem",
+            "fontWeight": 500,
+            "usage": "移动抽屉项 16px。",
+            "letterSpacing": "0em",
+            "sample": "Research"
+          },
+          {
+            "name": "text-nav-header",
+            "fontSize": "0.8125rem",
+            "lineHeight": "1.23rem",
+            "fontWeight": 500,
+            "usage": "下拉面板分组标题 13px——全站出现频率最高的字号。",
+            "letterSpacing": "0em",
+            "sample": "Products"
+          },
+          {
+            "name": "text-nav-header-secondary",
+            "fontSize": "0.8125rem",
+            "lineHeight": "1.05rem",
+            "fontWeight": 600,
+            "usage": "面板次级标题。整套字阶里唯一的 600。",
+            "letterSpacing": "-0.01em",
+            "sample": "Explore"
+          },
+          {
+            "name": "text-xs",
+            "fontSize": "0.625rem",
+            "lineHeight": "0.825rem",
+            "fontWeight": 400,
+            "usage": "10px 小字；字距窄屏放松。",
+            "letterSpacing": "0em",
+            "sample": "BETA"
+          },
+          {
+            "name": "text-2xs",
+            "fontSize": "0.5rem",
+            "lineHeight": "0.66rem",
+            "fontWeight": 400,
+            "usage": "8px 极小字。",
+            "letterSpacing": "0em",
+            "sample": "NEW"
+          }
+        ]
+      },
+      {
+        "name": "Mono",
+        "family": "mono",
+        "styles": [
+          {
+            "name": "text-code-snippet",
+            "fontSize": "0.875rem",
+            "lineHeight": "1.435rem",
+            "fontWeight": 400,
+            "usage": "代码 13→14px。没有自研等宽体，走系统栈。",
+            "letterSpacing": "0em",
+            "sample": "client.responses.create(model=\"…\")"
+          },
+          {
+            "name": "text-supply-accent",
+            "fontSize": "0.875rem",
+            "lineHeight": "1.05rem",
+            "fontWeight": 500,
+            "usage": "/supply 子系统：mono + uppercase。",
+            "letterSpacing": "-0.015rem",
+            "sample": "SUPPLY · 2026"
+          }
+        ]
+      },
+      {
+        "name": "Chart · 图表子系统内部尺度",
+        "family": "sans",
+        "styles": [
+          {
+            "name": "text-chart-title",
+            "fontSize": "0.94625rem",
+            "lineHeight": 1.44,
+            "fontWeight": 500,
+            "usage": "图表标题。非整数 rem，从设计稿导出；不要当主字阶用。",
+            "letterSpacing": "0.0016rem",
+            "sample": "Accuracy by model"
+          },
+          {
+            "name": "text-chart-label",
+            "fontSize": "0.94625rem",
+            "lineHeight": 1.17,
+            "fontWeight": 400,
+            "usage": "坐标轴标签。",
+            "letterSpacing": "0.0016em",
+            "sample": "2024  2025  2026"
+          },
+          {
+            "name": "text-chart-legend",
+            "fontSize": "0.8425rem",
+            "lineHeight": 1.44,
+            "fontWeight": 400,
+            "usage": "图例。",
+            "sample": "Baseline · Ours"
+          },
+          {
+            "name": "text-chart-legend-detail",
+            "fontSize": "0.655rem",
+            "lineHeight": 1.44,
+            "fontWeight": 400,
+            "usage": "图例细节。",
+            "sample": "n = 1,024"
+          },
+          {
+            "name": "text-chart-tooltip-label",
+            "fontSize": "0.84375rem",
+            "lineHeight": 1.44,
+            "fontWeight": 500,
+            "usage": "浮层标签。",
+            "sample": "March"
+          },
+          {
+            "name": "text-chart-tooltip-metric",
+            "fontSize": "0.84375rem",
+            "lineHeight": 1.44,
+            "fontWeight": 400,
+            "usage": "浮层数值。",
+            "sample": "72.4%"
+          }
+        ]
+      }
+    ]
+  },
+  "spacing": {
+    "note": "4px 基数网格；展示级尺寸走 clamp(MIN, calc(MIN + Δ × ((100vw − 23.4375rem) / 66.5625)), MAX) 一根 375→1440 轨道（bundle.css 写回）。",
+    "tokens": [
+      {
+        "name": "spacing",
+        "value": "0.25rem",
+        "usage": "4px 基数：所有数字工具类的乘数（p-6 = 24px，gap-20 = 80px）。"
+      },
+      {
+        "name": "spacing-v",
+        "value": "1.6875rem",
+        "usage": "27px 垂直节奏：长文段后距。= 移动端 header 高度的一半。不做通用间距。"
+      },
+      {
+        "name": "header-h",
+        "value": "4rem",
+        "usage": "header 高度：≥48rem 时 64px，以下 54px（3.375rem）。全站唯一被媒体查询覆盖的 token。"
+      },
+      {
+        "name": "toc-button-h",
+        "value": "1.75rem",
+        "usage": "目录按钮高 28px；宽屏有常驻目录时归零。"
+      },
+      {
+        "name": "grid-gap",
+        "value": "24px",
+        "usage": "12 栏列间隙：base 8px / ≥48rem 16px / ≥64rem 24px。"
+      },
+      {
+        "name": "grid-padding",
+        "value": "32px",
+        "usage": "页面网格左右内边距：base 24px / ≥48rem 32px。"
+      },
+      {
+        "name": "section-gap-index",
+        "value": "7.5rem",
+        "usage": "索引页区块间距：base 80px（5rem）/ @md 120px。"
+      },
+      {
+        "name": "section-gap-article",
+        "value": "4rem",
+        "usage": "文章页区块间距：base 48px（3rem）/ @md 64px。"
+      },
+      {
+        "name": "button-height",
+        "value": "2.5rem",
+        "usage": "按钮高 40px。"
+      },
+      {
+        "name": "button-min-height",
+        "value": "2rem",
+        "usage": "按钮最小高 32px。"
+      },
+      {
+        "name": "button-padding-inline",
+        "value": "1.25rem",
+        "usage": "按钮左右内边距 20px = 高度的一半 = 圆角半径。"
+      },
+      {
+        "name": "icon-button-size",
+        "value": "2.5rem",
+        "usage": "图标按钮 40×40。"
+      },
+      {
+        "name": "nav-l2-width",
+        "value": "15.625rem",
+        "usage": "二级导航面板宽 250px。"
+      },
+      {
+        "name": "nav-drawer-gap",
+        "value": "3.5rem",
+        "usage": "移动抽屉右侧留 56px（宽度 = 100vw − 3.5rem）。"
+      },
+      {
+        "name": "section-head-gap",
+        "value": "1.5rem",
+        "usage": "区块标题行与内容的间距 24px。"
+      }
+    ]
+  },
+  "radius": {
+    "note": "⚠ 非单调：2xl = lg < xl，3xl < xl。",
+    "tokens": [
+      {
+        "name": "radius-none",
+        "value": "0",
+        "usage": "无圆角。"
+      },
+      {
+        "name": "radius-xs",
+        "value": "0.125rem",
+        "usage": "2px：tooltip 箭头、行内 code。"
+      },
+      {
+        "name": "radius-sm",
+        "value": "0.25rem",
+        "usage": "4px：小徽章。"
+      },
+      {
+        "name": "radius-md",
+        "value": "0.38rem",
+        "usage": "★ 6.08px 全站默认：卡片、媒体框、代码块、输入框（首页 42/49）。刻意不是 0.375rem。"
+      },
+      {
+        "name": "radius-lg",
+        "value": "1rem",
+        "usage": "16px。"
+      },
+      {
+        "name": "radius-xl",
+        "value": "2rem",
+        "usage": "32px。⚠ 要 32px 用这个，不是 2xl。"
+      },
+      {
+        "name": "radius-2xl",
+        "value": "1rem",
+        "usage": "⚠ 16px，与 lg 相同——阶梯非单调，按值选，别按名字选。"
+      },
+      {
+        "name": "radius-3xl",
+        "value": "1.5rem",
+        "usage": "⚠ 24px，比 xl 小。"
+      },
+      {
+        "name": "radius-full",
+        "value": "9999px",
+        "usage": "图标按钮、胶囊组、头像——圆形控件才用 full。"
+      },
+      {
+        "name": "radius-button",
+        "value": "2.5rem",
+        "usage": "文字按钮固定 40px = 按钮高度。换行变高时不会变椭圆。"
+      }
+    ]
+  },
+  "shadow": {
+    "note": "实际上没有 elevation 系统：首页零真实阴影，层级靠背景色阶 + 一根 1px primary-12 描边 + 留白。",
+    "tokens": [
+      {
+        "name": "shadow-popover",
+        "value": "0 18px 60px rgba(0, 0, 0, 0.08)",
+        "usage": "全站唯一真实 box-shadow：只给脱离文档流的浮层（popover、下拉面板）。页面内卡片零阴影。"
+      },
+      {
+        "name": "drop-shadow-sm",
+        "value": "0 1px 2px #00000026",
+        "usage": "filter: drop-shadow——压在媒体上的图标/文字的可读性，不是高度。"
+      }
+    ]
+  },
+  "container": {
+    "tokens": [
+      {
+        "name": "container-sm",
+        "value": "32.5rem",
+        "usage": "520px。品牌只用 sm–2xl。"
+      },
+      {
+        "name": "container-md",
+        "value": "44rem",
+        "usage": "704px。"
+      },
+      {
+        "name": "container-lg",
+        "value": "60rem",
+        "usage": "960px。"
+      },
+      {
+        "name": "container-xl",
+        "value": "76rem",
+        "usage": "1216px。"
+      },
+      {
+        "name": "container-2xl",
+        "value": "90rem",
+        "usage": "1440px。"
+      },
+      {
+        "name": "max-width-container-desktop",
+        "value": "90rem",
+        "usage": "1440px 页面框。"
+      },
+      {
+        "name": "reading-column",
+        "value": "68rem",
+        "usage": "1088px 阅读栏（--gutter-size 由它推出）。"
+      },
+      {
+        "name": "media-column",
+        "value": "1728px",
+        "usage": "媒体栏比页面框还宽：超宽屏上图可以铺到 1728px，文字仍在 1088px。"
+      },
+      {
+        "name": "max-width-fullbleed",
+        "value": "3840px",
+        "usage": "全幅上限（4K）。"
+      }
+    ]
+  },
+  "blur": {
+    "tokens": [
+      {
+        "name": "blur-xs",
+        "value": "4px",
+        "usage": "毛玻璃 xs。"
+      },
+      {
+        "name": "blur-sm",
+        "value": "8px",
+        "usage": "毛玻璃 sm。"
+      },
+      {
+        "name": "blur-md",
+        "value": "12px",
+        "usage": "菜单、图表浮层的 backdrop blur。"
+      },
+      {
+        "name": "blur-lg",
+        "value": "16px",
+        "usage": "毛玻璃 lg。"
+      },
+      {
+        "name": "blur-xl",
+        "value": "24px",
+        "usage": "毛玻璃 xl。"
+      },
+      {
+        "name": "blur-2xl",
+        "value": "40px",
+        "usage": "毛玻璃 2xl。"
+      },
+      {
+        "name": "blur-3xl",
+        "value": "64px",
+        "usage": "毛玻璃 3xl。"
+      }
+    ]
+  },
+  "duration": {
+    "tokens": [
+      {
+        "name": "transition-duration-fast",
+        "value": "0.1s",
+        "usage": "导航 hover——鼠标扫过多项时 0.2s 会拖成一片。"
+      },
+      {
+        "name": "transition-duration-short",
+        "value": "0.2s",
+        "usage": "★ 主力：按钮/链接颜色、遮罩、弹窗。"
+      },
+      {
+        "name": "transition-duration-medium",
+        "value": "0.3s",
+        "usage": "侧边面板、空间转场。"
+      },
+      {
+        "name": "transition-duration-long",
+        "value": "0.4s",
+        "usage": "较长转场。"
+      },
+      {
+        "name": "transition-duration-sidebar",
+        "value": "0.64s",
+        "usage": "侧栏展开专用，最重的一次转场。"
+      },
+      {
+        "name": "transition-duration-600",
+        "value": "0.6s",
+        "usage": "一次性编排。"
+      },
+      {
+        "name": "transition-duration-800",
+        "value": "0.8s",
+        "usage": "一次性编排。"
+      },
+      {
+        "name": "transition-duration-2000",
+        "value": "2s",
+        "usage": "环境动画。"
+      },
+      {
+        "name": "transition-delay-fast",
+        "value": "0.1s",
+        "usage": "延迟 fast。"
+      },
+      {
+        "name": "transition-delay-normal",
+        "value": "0.3s",
+        "usage": "延迟 normal。"
+      },
+      {
+        "name": "transition-delay-slow",
+        "value": "0.8s",
+        "usage": "延迟 slow。"
+      }
+    ]
+  },
+  "easing": {
+    "tokens": [
+      {
+        "name": "transition-timing-function-primary",
+        "value": "cubic-bezier(0.17, 0.17, 0.3, 1)",
+        "usage": "house curve：所有浮层、弹窗、面板——出现得干脆但不弹。"
+      },
+      {
+        "name": "transition-timing-function-curve-a",
+        "value": "cubic-bezier(0, 0, 1, 1)",
+        "usage": "★ 线性，全站最常用——只给颜色过渡。颜色没有惯性。"
+      },
+      {
+        "name": "transition-timing-function-curve-b",
+        "value": "cubic-bezier(0.25, 0, 0.75, 1)",
+        "usage": "对称 ease-in-out。"
+      },
+      {
+        "name": "transition-timing-function-curve-c",
+        "value": "cubic-bezier(0, 0.56, 0.46, 1)",
+        "usage": "强 ease-out。"
+      },
+      {
+        "name": "transition-timing-function-curve-d",
+        "value": "cubic-bezier(0.6, 0, 0.4, 1)",
+        "usage": "强 ease-in-out。"
+      },
+      {
+        "name": "transition-timing-function-curve-e",
+        "value": "cubic-bezier(0.5, 1.25, 0, 1)",
+        "usage": "唯一带过冲的曲线，极省着用。"
+      },
+      {
+        "name": "transition-timing-function-curve-f",
+        "value": "cubic-bezier(0.6, 0.01, 0.49, 1)",
+        "usage": "curve-f。"
+      },
+      {
+        "name": "transition-timing-function-curve-sidebar",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "usage": "侧栏专用，配 0.64s。"
+      },
+      {
+        "name": "transition-timing-function-out-cubic",
+        "value": "cubic-bezier(0.33, 1, 0.68, 1)",
+        "usage": "out-cubic。"
+      }
+    ]
+  }
+}
