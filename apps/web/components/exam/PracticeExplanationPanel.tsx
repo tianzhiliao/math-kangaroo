@@ -8,6 +8,9 @@ import {
 } from "@/lib/api-errors";
 import type { AIExplanationRequest, AIExplanationResponse } from "@/lib/types";
 import { useEffect, useState } from "react";
+import { Button } from "@/components/ui/Button";
+import { IconButton } from "@/components/ui/IconButton";
+import { RefreshIcon, Spinner } from "@/components/ui/icons";
 
 export function PracticeExplanationPanel({
   examId,
@@ -123,82 +126,120 @@ export function PracticeExplanationPanel({
         "Sorry, we could not load the explanation.",
       );
 
-  return (
-    <section className="mt-3 rounded-2xl border border-amber-200 bg-amber-50/80 px-4 py-4 shadow-sm">
-      <div className="flex items-center justify-between gap-3">
-        <div>
-          <p className="text-[11px] font-bold uppercase tracking-wide text-amber-900/75">
-            Explanation
-          </p>
-          <p className="mt-1 text-sm font-semibold text-amber-950">
-            Get a short answer in simple English.
-          </p>
-        </div>
-        <button
-          type="button"
-          onClick={() => setOpen((value) => !value)}
-          className="tap-target inline-flex min-h-[44px] items-center justify-center rounded-xl bg-amber-600 px-4 py-2 text-sm font-bold text-white shadow-sm transition hover:bg-amber-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2"
-        >
-          {open ? "Hide explanation" : "Show explanation"}
-        </button>
-      </div>
+  const header = (meta: React.ReactNode, title: React.ReactNode) => (
+    <div className="min-w-0">
+      <p className="text-meta text-mk-ink-60">{meta}</p>
+      <h2 className="mt-0.5 text-h4">{title}</h2>
+    </div>
+  );
 
-      {open ? (
-        <div className="mt-4 rounded-xl border border-amber-200 bg-white/90 p-4">
-          <div className="mb-3 flex justify-end">
-            <button
-              type="button"
-              onClick={() => void handleRegenerate()}
-              disabled={isRegenerating || isLoading}
-              className="tap-target inline-flex min-h-[36px] items-center justify-center rounded-lg border border-amber-300 bg-white px-3 py-1.5 text-xs font-bold text-amber-900 transition hover:bg-amber-50 disabled:cursor-not-allowed disabled:opacity-50"
-            >
-              {isRegenerating ? "Regenerating..." : "Regenerate explanation"}
-            </button>
-          </div>
-          {isLoading ? (
-            <div className="flex items-center gap-3 text-slate-700">
-              <span
-                className="inline-block h-5 w-5 animate-spin rounded-full border-2 border-amber-500 border-t-transparent"
-                aria-hidden
-              />
-              <span className="text-sm font-medium">
-                Writing the explanation...
-              </span>
-            </div>
-          ) : hasError ? (
-            <div className="space-y-3">
-              <p className="text-sm font-medium text-rose-700">
-                {errorMessage}
-              </p>
-              <button
-                type="button"
-                onClick={() => void explanationQuery.refetch()}
-                className="tap-target inline-flex min-h-[40px] items-center justify-center rounded-xl bg-rose-600 px-4 py-2 text-sm font-bold text-white shadow-sm transition hover:bg-rose-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-500 focus-visible:ring-offset-2"
-              >
-                Try again
-              </button>
-            </div>
-          ) : explanation ? (
-            <div className="space-y-3">
-              <div className="rounded-lg bg-amber-50 px-3 py-2 text-sm font-semibold text-amber-950">
-                Correct answer: {explanation.correct_label}
-                {explanation.cache_hit ? (
-                  <span className="ml-2 text-[11px] font-bold uppercase tracking-wide text-amber-700">
-                    Cached
-                  </span>
-                ) : null}
-              </div>
-              <p className="text-base leading-relaxed text-slate-900">
-                {explanation.explanation}
-              </p>
-            </div>
-          ) : (
-            <p className="text-sm text-slate-700">
-              Tap the button to get the explanation.
-            </p>
-          )}
+  const hideButton = (
+    <Button variant="secondary" size="sm" onClick={() => setOpen(false)}>
+      Hide
+    </Button>
+  );
+
+  if (!open) {
+    return (
+      <section className="flex flex-wrap items-center justify-between gap-4 rounded-panel border border-mk-ink-12 px-6 py-5 md:px-7">
+        <div className="min-w-0">
+          <h2 className="text-h5">Want to know why?</h2>
+          <p className="mt-0.5 text-meta text-mk-ink-60">
+            A short explanation in simple English
+          </p>
         </div>
-      ) : null}
+        <Button onClick={() => setOpen(true)}>Show explanation</Button>
+      </section>
+    );
+  }
+
+  if (isLoading || (!explanation && !hasError)) {
+    return (
+      <section
+        className="rounded-panel border border-mk-ink-12 px-6 py-6 md:px-7"
+        aria-busy="true"
+      >
+        <p className="text-meta text-mk-ink-60" role="status">
+          Writing the explanation…
+        </p>
+        <div className="mt-4 flex flex-col gap-3" aria-hidden>
+          <span className="h-3 w-[80%] rounded-full bg-mk-ink-4" />
+          <span className="h-3 w-[62%] rounded-full bg-mk-ink-4" />
+        </div>
+      </section>
+    );
+  }
+
+  if (hasError) {
+    return (
+      <section className="flex flex-wrap items-center justify-between gap-4 rounded-panel bg-mk-wrong-subtle px-6 py-5 md:px-7">
+        <p className="min-w-0 flex-1 text-[16px] leading-6 text-mk-wrong-fg" role="alert">
+          {errorMessage}
+        </p>
+        <div className="flex items-center gap-2">
+          <Button
+            size="sm"
+            onClick={() => {
+              setRegenerateError(null);
+              void explanationQuery.refetch();
+            }}
+          >
+            Try again
+          </Button>
+          {hideButton}
+        </div>
+      </section>
+    );
+  }
+
+  if (!explanation) {
+    return null;
+  }
+
+  const paragraphs = splitParagraphs(explanation.explanation);
+
+  return (
+    <section className="mk-fade-in rounded-panel border border-mk-ink-12 px-6 py-6 md:px-7">
+      <div className="flex items-start justify-between gap-4">
+        {header(
+          <>
+            Explanation · checked against the answer key
+            {explanation.cache_hit ? " · Saved" : ""}
+          </>,
+          `Why the answer is ${explanation.correct_label}`,
+        )}
+        <div className="flex shrink-0 items-center gap-2">
+          <IconButton
+            aria-label="Write the explanation again"
+            title="Write the explanation again"
+            aria-busy={isRegenerating}
+            disabled={isRegenerating}
+            onClick={() => void handleRegenerate()}
+            className="disabled:cursor-wait"
+          >
+            {isRegenerating ? <Spinner /> : <RefreshIcon />}
+          </IconButton>
+          {hideButton}
+        </div>
+      </div>
+      <div className="mt-4 flex max-w-[60ch] flex-col gap-3 text-explain-m md:text-explain">
+        {paragraphs.map((text, i) => (
+          <p key={i}>{text}</p>
+        ))}
+      </div>
     </section>
   );
+}
+
+/** Newlines first; a single block is split into one sentence per paragraph. */
+function splitParagraphs(text: string): string[] {
+  const blocks = text
+    .split(/\n+/)
+    .map((b) => b.trim())
+    .filter(Boolean);
+  if (blocks.length > 1) return blocks;
+  return (blocks[0] ?? "")
+    .split(/(?<=[.!?])\s+(?=[A-Z0-9])/)
+    .map((b) => b.trim())
+    .filter(Boolean);
 }

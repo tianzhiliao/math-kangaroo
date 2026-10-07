@@ -1,99 +1,135 @@
 "use client";
 
-import { useQuery } from "@tanstack/react-query";
-import type { Manifest } from "@/lib/types";
-import Link from "next/link";
-import { useMemo } from "react";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { Suspense, useMemo } from "react";
+import { PaperCard } from "@/components/exam/PaperCard";
+import { Button, ButtonLink } from "@/components/ui/Button";
+import { PageState } from "@/components/ui/PageState";
+import { SiteNav } from "@/components/ui/SiteNav";
+import { useManifest } from "@/lib/queries";
+import { SERIES } from "@/lib/series";
 
-export default function ExamPickerPage() {
-  const { data, isPending } = useQuery({
-    queryKey: ["manifest"],
-    queryFn: async () => {
-      const r = await fetch("/api/exams");
-      if (!r.ok) throw new Error("bad");
-      return r.json() as Promise<Manifest>;
-    },
-  });
+const SERIES_ORDER = new Map(SERIES.map((s, i) => [s.key, i]));
+
+function ExamPicker() {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const { data, isPending, isError, refetch } = useManifest();
 
   const sortedExams = useMemo(() => {
     if (!data?.exams?.length) return [];
     return [...data.exams].sort((a, b) => {
       if (b.year !== a.year) return b.year - a.year;
+      const sa = SERIES_ORDER.get(a.level) ?? SERIES.length;
+      const sb = SERIES_ORDER.get(b.level) ?? SERIES.length;
+      if (sa !== sb) return sa - sb;
       return a.exam_id.localeCompare(b.exam_id);
     });
   }, [data?.exams]);
 
-  /** Same calendar year → "2023-1", "2023-2"; single exam for that year → "2023". */
-  const yearLabelByExamId = useMemo(() => {
-    const countByYear = new Map<number, number>();
-    for (const e of sortedExams) {
-      countByYear.set(e.year, (countByYear.get(e.year) ?? 0) + 1);
-    }
-    const indexInYear = new Map<number, number>();
-    const map = new Map<string, string>();
-    for (const e of sortedExams) {
-      const n = countByYear.get(e.year) ?? 1;
-      if (n > 1) {
-        const next = (indexInYear.get(e.year) ?? 0) + 1;
-        indexInYear.set(e.year, next);
-        map.set(e.exam_id, `${e.year}-${next}`);
-      } else {
-        map.set(e.exam_id, String(e.year));
-      }
-    }
-    return map;
+  const filters = useMemo(() => {
+    const levels = new Set(sortedExams.map((e) => e.level));
+    return SERIES.filter((s) => levels.has(s.key));
   }, [sortedExams]);
 
-  if (isPending) {
+  const requested = searchParams.get("series");
+  const active = filters.some((f) => f.key === requested) ? requested : null;
+  const visible = active
+    ? sortedExams.filter((e) => e.level === active)
+    : sortedExams;
+
+  const setFilter = (key: string | null) => {
+    const params = new URLSearchParams(searchParams.toString());
+    if (key) params.set("series", key);
+    else params.delete("series");
+    const qs = params.toString();
+    router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
+  };
+
+  if (isPending) return <PageState message="Loading papers…" />;
+
+  if (isError) {
     return (
-      <div className="flex min-h-[100dvh] flex-col items-center justify-center gap-3 text-slate-600">
-        <span
-          className="inline-block h-10 w-10 animate-spin rounded-full border-4 border-blue-500 border-t-transparent"
-          aria-hidden
-        />
-        <span className="text-lg font-medium">Loading exams…</span>
-      </div>
+      <PageState
+        title="Could not load the papers"
+        message="Check the connection and try again."
+        actions={
+          <>
+            <Button onClick={() => void refetch()}>Try again</Button>
+            <ButtonLink href="/" variant="secondary">
+              Back to home
+            </ButtonLink>
+          </>
+        }
+      />
     );
   }
 
   if (!sortedExams.length) {
     return (
-      <div className="p-8 text-center">
-        <p className="text-slate-600">No exams available yet.</p>
-        <Link href="/" className="mt-4 inline-block font-bold text-blue-600">
-          Back to Home
-        </Link>
-      </div>
+      <PageState
+        title="No papers yet"
+        message="They appear here once added."
+        actions={
+          <ButtonLink href="/" variant="secondary">
+            Back to home
+          </ButtonLink>
+        }
+      />
     );
   }
 
+  const pill = (key: string | null, label: string) => {
+    const selected = active === key;
+    return (
+      <button
+        key={key ?? "all"}
+        type="button"
+        aria-pressed={selected}
+        onClick={() => setFilter(key)}
+        className={`mk-transition min-h-[44px] whitespace-nowrap rounded-full px-[18px] text-[14px] font-medium leading-5 ${
+          selected
+            ? "bg-mk-ink-100 text-mk-inverse"
+            : "bg-mk-raised text-mk-ink-100 hover:bg-mk-solid-12"
+        }`}
+      >
+        {label}
+      </button>
+    );
+  };
+
   return (
-    <div className="mx-auto flex min-h-[100dvh] w-full max-w-6xl flex-col gap-6 p-4 sm:p-6">
-      <div className="flex flex-wrap items-center gap-3">
-        <Link
-          href="/"
-          className="tap-target rounded-xl bg-slate-200 px-4 text-sm font-bold text-slate-800"
-        >
-          Back to Home
-        </Link>
-      </div>
-      <h1 className="text-2xl font-black text-slate-900">Choose a year</h1>
-      <p className="-mt-2 text-slate-600">
-        Tap a year to start a timed exam for that paper.
+    <div className="mx-auto w-full max-w-[1216px] px-4 pb-16 pt-6 md:px-8 md:pt-10">
+      <h1 className="text-title-m md:text-title">Choose a paper</h1>
+      <p className="mt-3 max-w-[600px] text-p1 text-mk-ink-80">
+        The timer starts when the paper opens. Move between questions freely
+        and change answers until you submit.
       </p>
-      <div className="grid grid-cols-[repeat(auto-fill,minmax(13rem,1fr))] gap-4 sm:gap-5">
-        {sortedExams.map((e) => (
-          <Link
-            key={e.exam_id}
-            href={`/exam/${encodeURIComponent(e.exam_id)}`}
-            className="tap-target flex min-h-[5.5rem] flex-col items-center justify-center rounded-2xl border-2 border-slate-200 bg-white px-4 py-6 text-center shadow-sm transition hover:border-blue-400 hover:shadow-md sm:min-h-[6rem]"
-          >
-            <span className="text-3xl font-black tabular-nums text-slate-900">
-              {yearLabelByExamId.get(e.exam_id) ?? String(e.year)}
-            </span>
-          </Link>
+      <div
+        className="-mx-4 mt-8 flex gap-2 overflow-x-auto px-4 pb-1 md:mx-0 md:flex-wrap md:px-0"
+        role="group"
+        aria-label="Filter by series"
+      >
+        {pill(null, "All")}
+        {filters.map((f) => pill(f.key, f.name))}
+      </div>
+      <div className="mt-8 grid grid-cols-[repeat(auto-fill,minmax(min(100%,260px),1fr))] gap-x-4 gap-y-6">
+        {visible.map((e) => (
+          <PaperCard key={e.exam_id} exam={e} />
         ))}
       </div>
     </div>
+  );
+}
+
+export default function ExamPickerPage() {
+  return (
+    <main className="min-h-[100dvh] bg-mk-bg">
+      <SiteNav current="exam" />
+      <Suspense fallback={<PageState message="Loading papers…" />}>
+        <ExamPicker />
+      </Suspense>
+    </main>
   );
 }

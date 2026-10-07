@@ -2,25 +2,154 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+ * Plan C (OpenAI Style) tokens. Source: docs/design/tokens/plan-c.tokens.css,
+ * spec: docs/design/plan-c.md. Components use these through the `mk-*`
+ * Tailwind mappings in tailwind.config.ts — no raw hex values in components.
+ */
 :root {
-  --background: #f0f9ff;
-  --foreground: #0f172a;
-  --surface: #ffffff;
-  --accent: #22c55e;
-  --accent-2: #3b82f6;
-  --danger: #ef4444;
-  --muted: #94a3b8;
+  /* Surfaces & ink */
+  --mk-bg: #ffffff;
+  --mk-ink-100: #000000;
+  --mk-ink-80: rgba(0, 0, 0, 0.8);
+  --mk-ink-60: rgba(0, 0, 0, 0.6);
+  --mk-ink-44: rgba(0, 0, 0, 0.44);
+  --mk-ink-12: rgba(0, 0, 0, 0.12);
+  --mk-ink-4: rgba(0, 0, 0, 0.04);
+  --mk-ink-2: rgba(0, 0, 0, 0.02);
+  --mk-raised: #f1f1f1;
+  --mk-solid-12: #e0e0e0;
+  --mk-inverse-fg: #ffffff;
+  --mk-inverse-60: rgba(255, 255, 255, 0.6);
+  --mk-inverse-20: rgba(255, 255, 255, 0.2);
+
+  /* Answer outcome */
+  --mk-right-strong: #027f41;
+  --mk-right-surface: #e6ffec;
+  --mk-right-soft: #def3e5;
+  --mk-right-fg: #2c6732;
+  --mk-right-dot: #9fddb1;
+  --mk-wrong-strong: #f22f4d;
+  --mk-wrong-surface: #ffebe9;
+  --mk-wrong-soft: #ffe5e0;
+  --mk-wrong-subtle: #fff4f3;
+  --mk-wrong-fg: #92201d;
+  --mk-wrong-dot: #ffc9c0;
+  --mk-warn-fg: #ac4f23;
+  --mk-warn-bar: #ffaf00;
+
+  /* Expressive (never carries status) */
+  --mk-hue-blue: #29bdfd;
+  --mk-hue-yellow: #ffaf00;
+  --mk-hue-magenta: #eb56c5;
+  --mk-series-felix: #e8f3fe;
+  --mk-series-level-p: #fdf6dc;
+  --mk-series-grade-1-2: #fbe8db;
+  --mk-scrim: rgba(0, 0, 0, 0.44);
+  --mk-focus: #1e60e4;
+
+  /* Type */
+  --mk-font-sans: var(--font-inter), "Inter", system-ui, sans-serif;
+  --mk-font-mono: ui-monospace, "SF Mono", Consolas, "Liberation Mono",
+    monospace;
+
+  /* Elevation (dialogs only) */
+  --mk-shadow-popover: 0 18px 60px rgba(0, 0, 0, 0.08);
+
+  /* Motion */
+  --mk-dur-fast: 100ms;
+  --mk-dur-base: 200ms;
+  --mk-ease-popover: cubic-bezier(0.2, 0, 0, 1);
+  --mk-shift-enter: 4px;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  color: var(--mk-ink-100);
+  background: var(--mk-bg);
+  font-family: var(--mk-font-sans);
+  font-weight: 400;
   min-height: 100dvh;
+}
+
+:focus-visible {
+  outline: 2px solid var(--mk-focus);
+  outline-offset: 2px;
 }
 
 @layer utilities {
   .tap-target {
-    @apply min-h-[48px] min-w-[48px] flex items-center justify-center;
+    @apply flex min-h-[44px] min-w-[44px] items-center justify-center;
+  }
+
+  /* The only transition style: colour-ish properties, 200ms linear. */
+  .mk-transition {
+    transition-property: background-color, border-color, color, opacity,
+      outline-color;
+    transition-duration: var(--mk-dur-base);
+    transition-timing-function: linear;
+  }
+
+  .mk-transition-fast {
+    transition-property: color, text-decoration-color, opacity;
+    transition-duration: var(--mk-dur-fast);
+    transition-timing-function: linear;
+  }
+
+  .mk-fade-in {
+    animation: mk-fade-in var(--mk-dur-base) linear both;
+  }
+
+  .mk-pop-in {
+    animation: mk-pop-in var(--mk-dur-base) var(--mk-ease-popover) both;
+  }
+}
+
+@keyframes mk-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes mk-pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(var(--mk-shift-enter));
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes mk-drift {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  37% {
+    transform: translate(1px, -2px);
+  }
+  71% {
+    transform: translate(-2px, 1px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --mk-dur-fast: 0ms;
+    --mk-dur-base: 0ms;
+    --mk-shift-enter: 0px;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0ms !important;
+    scroll-behavior: auto !important;
   }
 }

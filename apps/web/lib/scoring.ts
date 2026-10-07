@@ -12,6 +12,37 @@ export function pointsForQuestionNumber(
   return 0;
 }
 
+export type TierBreakdown = {
+  from: number;
+  to: number;
+  points: number;
+  /** Points earned from correct answers in this tier (wrong-answer penalties excluded). */
+  earned: number;
+  max: number;
+};
+
+/**
+ * Per-tier points from correct answers, for the result score card.
+ * question_count + Σ earned − wrong count = the untruncated computeExamScore total.
+ */
+export function computeTierBreakdown(
+  exam: Exam,
+  answers: Record<number, string | null | undefined>,
+): TierBreakdown[] {
+  return exam.scoring_rules.map((rule) => {
+    let earned = 0;
+    let max = 0;
+    for (let q = rule.from; q <= Math.min(rule.to, exam.question_count); q++) {
+      max += rule.points;
+      const selected = answers[q];
+      if (selected && selected === exam.answer_key[String(q)]) {
+        earned += rule.points;
+      }
+    }
+    return { from: rule.from, to: rule.to, points: rule.points, earned, max };
+  });
+}
+
 /**
  * Kangaroo-style scoring: start from N points (N = question count),
  * add tier points for each correct, subtract 1 for each wrong, unanswered neutral.

@@ -11,11 +11,11 @@ This is a local/private-beta project. The setup below runs the web app and API; 
 
 ![Practice mode](docs/screenshots/practice.png)
 
-*Practice mode. Most Kangaroo questions are pictures rather than text - stems and answer choices are sent to the model as images, not as a lossy text description. The speaker icon reads the stem aloud.*
+*Practice mode, with the question list, a jump-to-question box and the similar-question panel. Most Kangaroo questions are pictures rather than text - stems and answer choices are sent to the model as images, not as a lossy text description. The speaker icon reads the stem aloud.*
 
 ![Exam mode](docs/screenshots/exam.png)
 
-*Exam mode, with a countdown across the full question set.*
+*Exam mode: the countdown and Submit sit in the header, so the footer only moves between questions.*
 
 
 ## Current capabilities

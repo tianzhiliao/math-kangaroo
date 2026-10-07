@@ -1,6 +1,6 @@
 # 方案 C · OpenAI Style — 实施规格
 
-> 状态：待实施 · 设计稿：[Design 画布 › C 页](https://claude.ai/artifact/YRgumGEh7ifRoBokMNQdMp)（私有，需所有者分享）· 本地原型：`docs/design/prototypes/openai/` · 截图：`docs/design/screenshots/openai-*.png` · Token：`docs/design/tokens/plan-c.tokens.css`（取值来源 `docs/design/tokens/openai-style.tokens.json`）
+> 状态：已实施（`apps/web`，见文末“实施记录”）· 设计稿：[Design 画布 › C 页](https://claude.ai/artifact/YRgumGEh7ifRoBokMNQdMp)（私有，需所有者分享）· 本地原型：`docs/design/prototypes/openai/` · 截图：`docs/design/screenshots/openai-*.png` · Token：`docs/design/tokens/plan-c.tokens.css`（取值来源 `docs/design/tokens/openai-style.tokens.json`）
 
 本文件是把方案 C 落到 `apps/web` 的完整规格。它不改变任何业务逻辑（计分、答案校验、AI 解释、TTS、数据加载），只替换视觉层并做少量交互调整（§6）。凡是本文没写到的行为，以现有代码为准。
 
@@ -507,6 +507,14 @@
 - [ ] README 截图更新为新版界面。
 
 ---
+
+## 实施记录
+
+- §7.3 时长：采用“过渡”方案——选卷卡和首页考试卡只显示题数/试卷数，不显示时长；manifest 未改。
+- §5.15 手机端 hero 算式：手机正文列占满屏宽，两侧 15% 仍会压到文字，因此改为只放在导航与 meta 之间、按钮与卡片之间两条空白带里。
+- 结果页“答对”的题也显示结果胶囊：`You chose C—that’s right. +3 points`（规格只写了答错与跳过两种）。
+- 解释失败面板除 `Try again` 外保留 `Hide`，方便收起。
+- 新增共用组件 `components/exam/SessionLayout.tsx`（header + 侧栏 + 860px 主列 + 底栏），考试、结果、练习三种页面共用。
 
 ## 附：参考产物
 

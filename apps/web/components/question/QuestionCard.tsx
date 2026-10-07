@@ -5,31 +5,13 @@ import type { AssetRecord, Question } from "@/lib/types";
 import { useEffect, useRef, useState } from "react";
 import { AssetFigure } from "./AssetFigure";
 import { AssetGrid } from "./AssetGrid";
+import { SpeakerIcon, Spinner } from "@/components/ui/icons";
 
 function buildAssetMap(assets: AssetRecord[]): Record<string, AssetRecord> {
   return Object.fromEntries(assets.map((a) => [a.id, a]));
 }
 
 type TtsStatus = "idle" | "loading" | "playing" | "error";
-
-function SpeakerIcon({ className = "" }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      aria-hidden="true"
-      className={className}
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.8"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M11 5 6 9H3v6h3l5 4V5Z" />
-      <path d="M15.5 8.5a5 5 0 0 1 0 7" />
-      <path d="M18 6a8 8 0 0 1 0 12" />
-    </svg>
-  );
-}
 
 function StemTtsButton({
   examId,
@@ -140,8 +122,17 @@ function StemTtsButton({
         ? "Loading audio"
         : "Listen to question";
 
+  const tone =
+    status === "playing"
+      ? "bg-mk-ink-100 text-mk-inverse hover:bg-mk-ink-80"
+      : status === "loading"
+        ? "cursor-wait bg-mk-ink-4 text-mk-ink-60"
+        : status === "error"
+          ? "bg-mk-wrong-soft text-mk-wrong-fg hover:bg-mk-wrong-dot"
+          : "bg-mk-raised text-mk-ink-100 hover:bg-mk-solid-12";
+
   return (
-    <div className="flex flex-col items-end gap-1">
+    <div className="flex shrink-0 flex-col items-end gap-1">
       <button
         type="button"
         onClick={handleClick}
@@ -149,30 +140,42 @@ function StemTtsButton({
         aria-label={label}
         title={label}
         aria-busy={status === "loading"}
-        className={`inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
-          status === "playing"
-            ? "border-blue-500 bg-blue-50 text-blue-700 shadow-sm"
-            : status === "loading"
-              ? "cursor-wait border-slate-200 bg-slate-50 text-slate-400"
-              : status === "error"
-                ? "border-rose-300 bg-rose-50 text-rose-700 shadow-sm"
-                : "border-slate-200 bg-white text-slate-700 shadow-sm hover:border-blue-300 hover:bg-blue-50 hover:text-blue-700"
-        }`}
+        className={`mk-transition inline-flex h-11 w-11 items-center justify-center rounded-full ${tone}`}
       >
         {status === "loading" ? (
-          <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-current border-t-transparent" />
+          <Spinner />
+        ) : status === "playing" ? (
+          <span aria-hidden className="h-3 w-3 rounded-[3px] bg-current" />
         ) : (
-          <SpeakerIcon className="h-5 w-5" />
+          <SpeakerIcon />
         )}
       </button>
       {errorMessage ? (
-        <p className="max-w-[10rem] text-right text-[10px] leading-tight text-rose-600">
+        <p className="max-w-[160px] text-right text-caption text-mk-wrong-fg">
           {errorMessage}
         </p>
       ) : null}
     </div>
   );
 }
+
+type ChoiceState = "default" | "selected" | "right" | "wrong" | "dim";
+
+const CARD_TONE: Record<ChoiceState, string> = {
+  default: "border-mk-ink-12 bg-mk-bg",
+  selected: "border-mk-ink-100 bg-mk-bg",
+  right: "border-mk-right-strong bg-mk-right-surface",
+  wrong: "border-mk-wrong-strong bg-mk-wrong-surface",
+  dim: "border-mk-ink-12 bg-mk-bg opacity-50",
+};
+
+const BADGE_TONE: Record<ChoiceState, string> = {
+  default: "bg-mk-raised text-mk-ink-100",
+  selected: "bg-mk-ink-100 text-mk-inverse",
+  right: "bg-mk-right-strong text-mk-inverse",
+  wrong: "bg-mk-wrong-fg text-mk-inverse",
+  dim: "bg-mk-raised text-mk-ink-100",
+};
 
 export function QuestionCard({
   examId,
@@ -185,8 +188,16 @@ export function QuestionCard({
   correctLabel,
   /** When set (e.g. practice bank), overrides the printed question index */
   displayQuestionNumber,
+  /** Replaces the default "Question n · p points" meta line. */
+  metaLabel,
+  /** Points for the meta line when the question record has none. */
+  points,
+  /** Rendered under the stem, e.g. the result pill after submitting. */
+  outcomeNote,
   readOnly = false,
   hideAudio = false,
+  /** Dense layout for the read-only similar question. */
+  compact = false,
   resolveAssetUrl,
 }: {
   examId: string;
@@ -198,8 +209,12 @@ export function QuestionCard({
   showOutcome: boolean;
   correctLabel: string;
   displayQuestionNumber?: number;
+  metaLabel?: string;
+  points?: number;
+  outcomeNote?: React.ReactNode;
   readOnly?: boolean;
   hideAudio?: boolean;
+  compact?: boolean;
   resolveAssetUrl?: (asset: AssetRecord) => string;
 }) {
   const map = buildAssetMap(allAssets);
@@ -209,18 +224,26 @@ export function QuestionCard({
 
   const hasStemFigure = stemAssets.length > 0;
   const hasStemText = question.stem_text.trim().length > 0;
+  const imageChoices = question.choices.some((c) => c.asset_refs.length > 0);
+  const questionPoints = question.points ?? points;
+  const meta =
+    metaLabel ??
+    `Question ${displayQuestionNumber ?? question.number}${
+      questionPoints ? ` · ${questionPoints} points` : ""
+    }`;
+
+  const gridCols = compact
+    ? "grid-cols-[repeat(auto-fill,minmax(120px,1fr))]"
+    : imageChoices
+      ? "grid-cols-1 md:grid-cols-[repeat(auto-fill,minmax(150px,1fr))]"
+      : "grid-cols-1 md:grid-cols-[repeat(auto-fill,minmax(250px,1fr))]";
 
   return (
-    <article className="mx-auto flex w-full max-w-4xl flex-col rounded-2xl border-2 border-slate-200/90 bg-white px-3 py-3 shadow-sm sm:px-4 sm:py-4">
-      {/* Stem: text + figure side-by-side on wide screens to save vertical space */}
-      <div
-        className={`flex min-w-0 flex-col gap-3 ${hasStemFigure ? "lg:flex-row lg:items-start lg:gap-4" : ""}`}
-      >
-        <div className="min-w-0 flex-1">
-          <div className="flex items-start justify-between gap-3">
-            <p className="text-center text-[11px] font-bold uppercase tracking-wider text-slate-500 lg:text-left">
-              Question {displayQuestionNumber ?? question.number}
-            </p>
+    <article className="w-full">
+      <div className="flex flex-wrap items-start gap-x-7 gap-y-4">
+        <div className="min-w-0 flex-[1_1_360px]">
+          <div className="flex min-h-[44px] items-center justify-between gap-3">
+            <p className="text-meta-m text-mk-ink-60 md:text-meta">{meta}</p>
             {hasStemText && !hideAudio ? (
               <StemTtsButton
                 examId={examId}
@@ -229,13 +252,16 @@ export function QuestionCard({
             ) : null}
           </div>
           {hasStemText ? (
-            <p className="mt-1.5 text-balance text-center text-xl font-semibold leading-snug text-slate-900 sm:text-2xl lg:text-left">
+            <p
+              className={`mt-3 text-pretty ${compact ? "text-h5" : "text-stem-m md:text-stem"}`}
+            >
               {question.stem_text}
             </p>
           ) : null}
+          {outcomeNote ? <div className="mt-4">{outcomeNote}</div> : null}
         </div>
         {hasStemFigure ? (
-          <div className="shrink-0 lg:max-w-[min(48%,320px)] lg:self-center">
+          <div className="flex w-full justify-center rounded-card border border-mk-ink-12 bg-mk-bg p-3 md:w-auto md:min-w-[180px] md:max-w-[min(45%,360px)]">
             <AssetGrid
               examId={examId}
               assets={stemAssets}
@@ -246,76 +272,76 @@ export function QuestionCard({
         ) : null}
       </div>
 
-      {/* Options: dense grid; image options use compact inline figures */}
       <div
-        className={`grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-3 ${hasStemFigure || hasStemText ? "mt-3 border-t border-slate-100 pt-3" : "mt-1"}`}
+        className={`grid ${gridCols} ${compact ? "mt-4 gap-2" : "mt-7 gap-2 md:gap-3"}`}
         role="list"
       >
         {question.choices.map((choice) => {
           const isSelected = selectedLabel === choice.label;
           const isCorrect = choice.label === correctLabel;
-          let tone =
-            "border-slate-200 bg-slate-50/80 hover:border-blue-300 hover:bg-blue-50/50";
+          const interactive = !disabled && !readOnly;
+
+          let state: ChoiceState = "default";
+          let tag: { text: string; className: string } | null = null;
           if (showOutcome) {
             if (isCorrect) {
-              tone =
-                "border-emerald-500 bg-emerald-50 ring-2 ring-emerald-400";
-            } else if (isSelected && !isCorrect) {
-              tone = "border-red-400 bg-red-50 ring-2 ring-red-300";
+              state = "right";
+              tag = {
+                text: isSelected ? "Your answer" : "Right answer",
+                className: "text-mk-right-strong",
+              };
+            } else if (isSelected) {
+              state = "wrong";
+              tag = { text: "Your answer", className: "text-mk-wrong-fg" };
             } else {
-              tone = "border-slate-100 bg-slate-50/60 opacity-90";
+              state = "dim";
             }
           } else if (isSelected) {
-            tone = "border-blue-500 bg-blue-50 ring-2 ring-blue-400";
+            state = "selected";
+          } else if (disabled && !readOnly) {
+            state = "dim";
           }
 
           const assetList = choice.asset_refs
             .map((id) => map[id])
             .filter(Boolean);
           const multiImg = assetList.length > 1;
-          const interactive = !disabled && !readOnly;
+          const hasText = choice.text.trim().length > 0;
 
-          return (
-            <div
-              key={choice.label}
-              role={readOnly ? undefined : "button"}
-              tabIndex={interactive ? 0 : -1}
-              aria-disabled={disabled || readOnly ? true : undefined}
-              aria-pressed={readOnly ? undefined : isSelected}
-              onKeyDown={(e) => {
-                if (!interactive) return;
-                if (e.key === "Enter" || e.key === " ") {
-                  e.preventDefault();
-                  onSelect(choice.label);
-                }
-              }}
-              onClick={() => {
-                if (interactive) onSelect(choice.label);
-              }}
-              className={`flex min-h-[44px] flex-col gap-2 rounded-xl border-2 p-2.5 text-left transition sm:min-h-[48px] sm:p-3 ${tone} ${
-                readOnly
-                  ? "cursor-default"
-                  : disabled
-                    ? "cursor-not-allowed opacity-60"
-                    : "cursor-pointer"
+          const badge = (
+            <span
+              className={`mk-transition flex shrink-0 items-center justify-center rounded-full ${BADGE_TONE[state]} ${
+                compact
+                  ? "h-8 w-8 text-[16px] font-medium leading-5"
+                  : imageChoices
+                    ? "h-10 w-10 text-choice-m md:text-choice"
+                    : "h-11 w-11 text-choice-m md:text-choice"
               }`}
             >
-              <div className="flex items-start gap-2 sm:gap-2.5">
-                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-slate-800 text-base font-bold text-white sm:h-11 sm:w-11 sm:text-lg">
-                  {choice.label}
-                </span>
-                {choice.text.trim() ? (
-                  <span className="min-w-0 flex-1 text-base font-medium leading-snug text-slate-800 sm:text-lg">
-                    {choice.text}
-                  </span>
+              {choice.label}
+            </span>
+          );
+          const tagEl = tag ? (
+            <span className={`ml-auto shrink-0 text-caption ${tag.className}`}>
+              {tag.text}
+            </span>
+          ) : null;
+
+          const body = imageChoices ? (
+            <>
+              <span className="flex min-h-[40px] items-center gap-3">
+                {badge}
+                {hasText ? (
+                  <span className="min-w-0 text-h5">{choice.text}</span>
                 ) : null}
-              </div>
+                {tagEl}
+              </span>
               {assetList.length > 0 ? (
-                <div
+                <span
                   className={
                     multiImg
-                      ? "flex flex-row flex-wrap justify-center gap-1.5 sm:justify-start"
-                      : "flex justify-center sm:justify-start"
+                      ? "flex flex-row flex-wrap justify-center gap-1.5"
+                      : "flex justify-center"
                   }
                 >
                   {assetList.map((a, i) => (
@@ -324,13 +350,50 @@ export function QuestionCard({
                       examId={examId}
                       asset={a}
                       alt={`Option ${choice.label} figure ${i + 1}`}
-                      variant="choice"
+                      variant={compact ? "choice-compact" : "choice"}
                       className={multiImg ? "max-w-[calc(50%-0.25rem)]" : ""}
                       srcOverride={resolveAssetUrl?.(a)}
                     />
                   ))}
-                </div>
+                </span>
               ) : null}
+            </>
+          ) : (
+            <>
+              {badge}
+              {hasText ? (
+                <span
+                  className={`min-w-0 flex-1 ${compact ? "text-[16px] font-medium leading-6" : "text-choice-m md:text-choice"}`}
+                >
+                  {choice.text}
+                </span>
+              ) : null}
+              {tagEl}
+            </>
+          );
+
+          const cardClass = `mk-transition flex w-full rounded-card border-2 text-left ${CARD_TONE[state]} ${
+            imageChoices
+              ? `flex-col items-stretch gap-2 ${compact ? "p-2" : "p-3"}`
+              : `items-center gap-3 ${compact ? "min-h-[48px] py-2 pl-2 pr-3" : "min-h-[54px] py-[10px] pl-3 pr-[18px] md:min-h-[64px]"}`
+          } ${interactive && state === "default" ? "hover:border-mk-ink-44 hover:bg-mk-ink-2" : ""}`;
+
+          return (
+            <div key={choice.label} role="listitem" className="flex">
+              {readOnly ? (
+                <div className={cardClass}>{body}</div>
+              ) : (
+                <button
+                  type="button"
+                  aria-pressed={isSelected}
+                  aria-label={`Option ${choice.label}${hasText ? `: ${choice.text}` : ""}${tag ? ` (${tag.text})` : ""}`}
+                  disabled={disabled}
+                  onClick={() => onSelect(choice.label)}
+                  className={`${cardClass} ${disabled ? "cursor-default" : "cursor-pointer"}`}
+                >
+                  {body}
+                </button>
+              )}
             </div>
           );
         })}

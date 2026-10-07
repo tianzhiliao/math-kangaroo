@@ -1,8 +1,12 @@
+"use client";
+
 import { rawExamFileUrl } from "@/lib/asset-url";
 import type { AssetRecord } from "@/lib/types";
+import { useEffect, useRef, useState } from "react";
 
 /**
- * Inline figure only (no lightbox). Sized for one-screen question layouts.
+ * Inline figure only (no lightbox). Shows an --mk-ink-4 placeholder until the
+ * image has loaded.
  */
 export function AssetFigure({
   examId,
@@ -16,29 +20,39 @@ export function AssetFigure({
   asset: AssetRecord;
   alt: string;
   className?: string;
-  variant?: "stem" | "choice";
+  variant?: "stem" | "choice" | "choice-compact";
   srcOverride?: string;
 }) {
   const src = srcOverride ?? rawExamFileUrl(examId, asset.path);
-  const shortSide = Math.min(asset.width, asset.height);
+  const imgRef = useRef<HTMLImageElement>(null);
+  const [loaded, setLoaded] = useState(false);
 
-  const stemClasses =
-    "max-h-[min(26vh,200px)] w-auto max-w-[min(100%,min(92vw,480px))]";
+  useEffect(() => {
+    setLoaded(Boolean(imgRef.current?.complete));
+  }, [src]);
 
-  const choiceClasses =
-    shortSide < 80
-      ? "max-h-[min(14vh,100px)] w-auto max-w-[min(100%,110px)]"
-      : "max-h-[min(20vh,150px)] w-auto max-w-[min(100%,min(42vw,180px))]";
+  const sizeClasses =
+    variant === "stem"
+      ? "max-h-[116px] md:max-h-[220px]"
+      : variant === "choice"
+        ? "h-[104px]"
+        : "h-[64px]";
 
   return (
-    <div className={`mx-auto flex max-w-full justify-center ${className}`}>
+    <div
+      className={`mk-transition flex max-w-full items-center justify-center rounded-[10px] ${
+        loaded ? "bg-transparent" : "bg-mk-ink-4"
+      } ${className}`}
+    >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
+        ref={imgRef}
         src={src}
         alt={alt}
         width={asset.width}
         height={asset.height}
-        className={`h-auto object-contain ${variant === "stem" ? stemClasses : choiceClasses}`}
+        onLoad={() => setLoaded(true)}
+        className={`w-auto max-w-full object-contain ${sizeClasses}`}
         loading="lazy"
         decoding="async"
       />

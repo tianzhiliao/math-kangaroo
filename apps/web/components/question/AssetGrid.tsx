@@ -25,7 +25,7 @@ export function AssetGrid({
     );
   }
   return (
-    <div className="grid w-full grid-cols-2 gap-2 sm:gap-3">
+    <div className="grid w-full grid-cols-2 gap-2 md:gap-3">
       {assets.map((a, i) => (
         <AssetFigure
           key={a.id}
