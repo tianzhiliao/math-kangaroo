@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140">
 <rect width="180" height="140" fill="#FFFFFF"/>
-<rect x="20" y="30" width="140" height="80" fill="#F4B6C8" stroke="#222222" stroke-width="4"/><text x="90" y="78" text-anchor="middle" font-family="Noto Serif, serif" font-size="20" fill="#222222">circle</text>
+<g transform="matrix(140.00 0.00 0.00 140.00 20.00 0.00)"><circle cx="0.5" cy="0.5" r="0.3" fill="#4A86D8" stroke="#222222" stroke-width="3" stroke-linejoin="round" vector-effect="non-scaling-stroke"/></g>
 </svg>

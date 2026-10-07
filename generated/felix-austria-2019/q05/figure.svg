@@ -1,43 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460">
 <rect width="1280" height="460" fill="#FFFFFF"/>
-<g transform="translate(40,30)">
-<path d="M30 12 L30 58 Q30 78 52 84 L96 96 Q112 100 106 84 L68 74 Q56 68 56 50 L56 12 Q56 4 43 4 Q30 4 30 12 Z" fill="#F6C9D4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<text x="43" y="48" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">1</text>
+<g transform="translate(40,30) scale(1.6)">
+<path d="M20 12 L20 60 Q20 84 46 90 L100 104 Q118 108 112 88 L78 78 Q68 72 68 54 L68 12 Q68 4 44 4 Q20 4 20 12 Z" fill="#F6C9D4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="44" y="50" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">1</text>
 </g>
-<g transform="translate(290,30)">
-<path d="M30 12 L30 58 Q30 78 52 84 L96 96 Q112 100 106 84 L68 74 Q56 68 56 50 L56 12 Q56 4 43 4 Q30 4 30 12 Z" fill="#B7E2D2" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<text x="43" y="48" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">4</text>
+<g transform="translate(290,30) scale(1.6)">
+<path d="M20 12 L20 60 Q20 84 46 90 L100 104 Q118 108 112 88 L78 78 Q68 72 68 54 L68 12 Q68 4 44 4 Q20 4 20 12 Z" fill="#B7E2D2" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="44" y="50" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">4</text>
 </g>
-<g transform="translate(540,30)">
-<path d="M30 12 L30 58 Q30 78 52 84 L96 96 Q112 100 106 84 L68 74 Q56 68 56 50 L56 12 Q56 4 43 4 Q30 4 30 12 Z" fill="#F8E3A8" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<text x="43" y="48" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">1</text>
+<g transform="translate(540,30) scale(1.6)">
+<path d="M20 12 L20 60 Q20 84 46 90 L100 104 Q118 108 112 88 L78 78 Q68 72 68 54 L68 12 Q68 4 44 4 Q20 4 20 12 Z" fill="#F8E3A8" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="44" y="50" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">1</text>
 </g>
-<g transform="translate(790,30)">
-<path d="M30 12 L30 58 Q30 78 52 84 L96 96 Q112 100 106 84 L68 74 Q56 68 56 50 L56 12 Q56 4 43 4 Q30 4 30 12 Z" fill="#C9D7F5" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<text x="43" y="48" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">6</text>
+<g transform="translate(790,30) scale(1.6)">
+<path d="M20 12 L20 60 Q20 84 46 90 L100 104 Q118 108 112 88 L78 78 Q68 72 68 54 L68 12 Q68 4 44 4 Q20 4 20 12 Z" fill="#C9D7F5" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="44" y="50" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">6</text>
 </g>
-<g transform="translate(1040,30)">
-<path d="M30 12 L30 58 Q30 78 52 84 L96 96 Q112 100 106 84 L68 74 Q56 68 56 50 L56 12 Q56 4 43 4 Q30 4 30 12 Z" fill="#E6C8F2" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<text x="43" y="48" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">2</text>
+<g transform="translate(1040,30) scale(1.6)">
+<path d="M20 12 L20 60 Q20 84 46 90 L100 104 Q118 108 112 88 L78 78 Q68 72 68 54 L68 12 Q68 4 44 4 Q20 4 20 12 Z" fill="#E6C8F2" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="44" y="50" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">2</text>
 </g>
-<g transform="translate(40,250)">
-<path d="M30 12 L30 58 Q30 78 52 84 L96 96 Q112 100 106 84 L68 74 Q56 68 56 50 L56 12 Q56 4 43 4 Q30 4 30 12 Z" fill="#F6D7BE" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<text x="43" y="48" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">4</text>
+<g transform="translate(40,250) scale(1.6)">
+<path d="M20 12 L20 60 Q20 84 46 90 L100 104 Q118 108 112 88 L78 78 Q68 72 68 54 L68 12 Q68 4 44 4 Q20 4 20 12 Z" fill="#F6D7BE" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="44" y="50" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">4</text>
 </g>
-<g transform="translate(290,250)">
-<path d="M30 12 L30 58 Q30 78 52 84 L96 96 Q112 100 106 84 L68 74 Q56 68 56 50 L56 12 Q56 4 43 4 Q30 4 30 12 Z" fill="#D7E8C8" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<text x="43" y="48" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">9</text>
+<g transform="translate(290,250) scale(1.6)">
+<path d="M20 12 L20 60 Q20 84 46 90 L100 104 Q118 108 112 88 L78 78 Q68 72 68 54 L68 12 Q68 4 44 4 Q20 4 20 12 Z" fill="#D7E8C8" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="44" y="50" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">9</text>
 </g>
-<g transform="translate(540,250)">
-<path d="M30 12 L30 58 Q30 78 52 84 L96 96 Q112 100 106 84 L68 74 Q56 68 56 50 L56 12 Q56 4 43 4 Q30 4 30 12 Z" fill="#F8C9B0" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<text x="43" y="48" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">2</text>
+<g transform="translate(540,250) scale(1.6)">
+<path d="M20 12 L20 60 Q20 84 46 90 L100 104 Q118 108 112 88 L78 78 Q68 72 68 54 L68 12 Q68 4 44 4 Q20 4 20 12 Z" fill="#F8C9B0" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="44" y="50" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">2</text>
 </g>
-<g transform="translate(790,250)">
-<path d="M30 12 L30 58 Q30 78 52 84 L96 96 Q112 100 106 84 L68 74 Q56 68 56 50 L56 12 Q56 4 43 4 Q30 4 30 12 Z" fill="#D5C6F2" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<text x="43" y="48" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">6</text>
+<g transform="translate(790,250) scale(1.6)">
+<path d="M20 12 L20 60 Q20 84 46 90 L100 104 Q118 108 112 88 L78 78 Q68 72 68 54 L68 12 Q68 4 44 4 Q20 4 20 12 Z" fill="#D5C6F2" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="44" y="50" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">6</text>
 </g>
-<g transform="translate(1040,250)">
-<path d="M30 12 L30 58 Q30 78 52 84 L96 96 Q112 100 106 84 L68 74 Q56 68 56 50 L56 12 Q56 4 43 4 Q30 4 30 12 Z" fill="#C6E4F2" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<text x="43" y="48" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">3</text>
+<g transform="translate(1040,250) scale(1.6)">
+<path d="M20 12 L20 60 Q20 84 46 90 L100 104 Q118 108 112 88 L78 78 Q68 72 68 54 L68 12 Q68 4 44 4 Q20 4 20 12 Z" fill="#C6E4F2" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="44" y="50" font-family="Liberation Serif" font-size="28" text-anchor="middle" fill="#222222">3</text>
 </g>
 </svg>

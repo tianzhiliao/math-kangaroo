@@ -1,31 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="500" viewBox="0 0 1460 500">
-<rect width="1460" height="500" fill="#FFFFFF"/>
-<text x="360" y="46" text-anchor="middle" font-family="Liberation Serif" font-size="36" fill="#222222">1</text>
-<polygon points="360.0,400.0 332.0,462.0 388.0,462.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="60.0,150.0 660.0,150.0 660.0,170.0 60.0,170.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="60.0,300.0 290.0,300.0 276.0,334.0 74.0,334.0" fill="#8AA0B4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="68.0,186.0 80.0,186.0 80.0,286.0 68.0,286.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="270.0,186.0 282.0,186.0 282.0,286.0 270.0,286.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="430.0,300.0 660.0,300.0 646.0,334.0 444.0,334.0" fill="#8AA0B4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="438.0,186.0 450.0,186.0 450.0,286.0 438.0,286.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="640.0,186.0 652.0,186.0 652.0,286.0 640.0,286.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="122.3,269.6 132.1,261.4 142.0,259.8 146.9,256.5 153.4,261.4 161.6,259.8 171.5,264.7 173.1,271.2 168.2,276.2 171.5,284.4 160.0,282.7 156.7,286.0 132.1,286.0 128.8,281.1 120.6,279.4 119.0,272.9" fill="#C48A4A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="192.7,274.4 199.7,268.6 206.6,267.4 210.1,265.1 214.8,268.6 220.6,267.4 227.5,270.9 228.7,275.6 225.2,279.0 227.5,284.8 219.4,283.7 217.1,286.0 199.7,286.0 197.4,282.5 191.6,281.4 190.4,276.7" fill="#E2B56A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="495.0,214.0 595.0,214.0 595.0,286.0 495.0,286.0" fill="#F0D060" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<text x="545.0" y="258" text-anchor="middle" font-family="Liberation Serif" font-size="28" fill="#222222">16 kg</text>
-<text x="1100" y="46" text-anchor="middle" font-family="Liberation Serif" font-size="36" fill="#222222">2</text>
-<polygon points="1100.0,400.0 1072.0,462.0 1128.0,462.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="800.0,150.0 1400.0,150.0 1400.0,170.0 800.0,170.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="800.0,300.0 1030.0,300.0 1016.0,334.0 814.0,334.0" fill="#8AA0B4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="808.0,186.0 820.0,186.0 820.0,286.0 808.0,286.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="1010.0,186.0 1022.0,186.0 1022.0,286.0 1010.0,286.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="1170.0,300.0 1400.0,300.0 1386.0,334.0 1184.0,334.0" fill="#8AA0B4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="1178.0,186.0 1190.0,186.0 1190.0,286.0 1178.0,286.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="1380.0,186.0 1392.0,186.0 1392.0,286.0 1380.0,286.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="835.0,269.6 844.8,261.4 854.7,259.8 859.6,256.5 866.1,261.4 874.3,259.8 884.2,264.7 885.8,271.2 880.9,276.2 884.2,284.4 872.7,282.7 869.4,286.0 844.8,286.0 841.5,281.1 833.3,279.4 831.7,272.9" fill="#C48A4A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="905.4,274.4 912.4,268.6 919.3,267.4 922.8,265.1 927.5,268.6 933.3,267.4 940.2,270.9 941.4,275.6 937.9,279.0 940.2,284.8 932.1,283.7 929.8,286.0 912.4,286.0 910.1,282.5 904.3,281.4 903.1,276.7" fill="#E2B56A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="960.0,274.4 967.0,268.6 973.9,267.4 977.4,265.1 982.1,268.6 987.9,267.4 994.8,270.9 996.0,275.6 992.5,279.0 994.8,284.8 986.7,283.7 984.4,286.0 967.0,286.0 964.7,282.5 958.9,281.4 957.7,276.7" fill="#E2B56A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<polygon points="1235.0,214.0 1335.0,214.0 1335.0,286.0 1235.0,286.0" fill="#F0D060" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<text x="1285.0" y="258" text-anchor="middle" font-family="Liberation Serif" font-size="28" fill="#222222">21 kg</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="270" viewBox="0 0 880 270">
+<rect width="880" height="270" fill="#FFFFFF"/>
+<g transform="translate(0,-80)"><rect x="212" y="222" width="16" height="60" fill="#5B6773" stroke="#222222" stroke-width="3"/>
+<polygon points="174.0,294.0 266.0,294.0 250.0,280.0 190.0,280.0" fill="#5B6773" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="25" y="214" width="390" height="12" rx="4" fill="#8A97A6" stroke="#222222" stroke-width="3"/>
+<polygon points="20.0,202.0 196.0,202.0 184.0,214.0 32.0,214.0" fill="#C8D3DE" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="51.900000000000006" y="179.9" width="6.8" height="22.099999999999998" fill="#E8E2D6" stroke="#222222" stroke-width="3"/>
+<rect x="85.9" y="179.9" width="6.8" height="22.099999999999998" fill="#E8E2D6" stroke="#222222" stroke-width="3"/>
+<ellipse cx="74" cy="169.7" rx="28.9" ry="15.299999999999999" fill="#E8E2D6" stroke="#222222" stroke-width="4"/>
+<path d="M 102.9 147.6 q -3.4 -15.299999999999999 -11.9 -18.7" fill="none" stroke="#8C6A4A" stroke-width="4.2" stroke-linecap="round"/>
+<ellipse cx="106.3" cy="154.4" rx="11.9" ry="10.2" fill="#E8E2D6" stroke="#222222" stroke-width="4"/>
+<polygon points="108.0,162.9 113.1,173.1 116.5,161.2" fill="#E8E2D6" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="109.69999999999999" cy="151.85" r="2.1" fill="#222222"/><rect x="135.7" y="187.7" width="4.4" height="14.3" fill="#E8E2D6" stroke="#222222" stroke-width="3"/>
+<rect x="157.7" y="187.7" width="4.4" height="14.3" fill="#E8E2D6" stroke="#222222" stroke-width="3"/>
+<ellipse cx="150" cy="181.1" rx="18.700000000000003" ry="9.9" fill="#E8E2D6" stroke="#222222" stroke-width="4"/>
+<path d="M 168.7 166.8 q -2.2 -9.9 -7.700000000000001 -12.100000000000001" fill="none" stroke="#8C6A4A" stroke-width="2.8" stroke-linecap="round"/>
+<ellipse cx="170.9" cy="171.2" rx="7.700000000000001" ry="6.6000000000000005" fill="#E8E2D6" stroke="#222222" stroke-width="4"/>
+<polygon points="172.0,176.7 175.3,183.3 177.5,175.6" fill="#E8E2D6" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="173.1" cy="169.55" r="1.4" fill="#222222"/>
+<polygon points="244.0,202.0 420.0,202.0 408.0,214.0 256.0,214.0" fill="#C8D3DE" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="290" y="156" width="84" height="46" rx="6" fill="#F2CC5A" stroke="#222222" stroke-width="4"/><text x="332.0" y="189.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="26" font-weight="bold" fill="#222222">16 kg</text>
+<text x="220.0" y="332.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="32" font-weight="bold" fill="#222222">1</text>
+<rect x="652" y="222" width="16" height="60" fill="#5B6773" stroke="#222222" stroke-width="3"/>
+<polygon points="614.0,294.0 706.0,294.0 690.0,280.0 630.0,280.0" fill="#5B6773" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="465" y="214" width="390" height="12" rx="4" fill="#8A97A6" stroke="#222222" stroke-width="3"/>
+<polygon points="460.0,202.0 636.0,202.0 624.0,214.0 472.0,214.0" fill="#C8D3DE" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="469.9" y="179.9" width="6.8" height="22.099999999999998" fill="#E8E2D6" stroke="#222222" stroke-width="3"/>
+<rect x="503.9" y="179.9" width="6.8" height="22.099999999999998" fill="#E8E2D6" stroke="#222222" stroke-width="3"/>
+<ellipse cx="492" cy="169.7" rx="28.9" ry="15.299999999999999" fill="#E8E2D6" stroke="#222222" stroke-width="4"/>
+<path d="M 520.9 147.6 q -3.4 -15.299999999999999 -11.9 -18.7" fill="none" stroke="#8C6A4A" stroke-width="4.2" stroke-linecap="round"/>
+<ellipse cx="524.3" cy="154.4" rx="11.9" ry="10.2" fill="#E8E2D6" stroke="#222222" stroke-width="4"/>
+<polygon points="526.0,162.9 531.1,173.1 534.5,161.2" fill="#E8E2D6" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="527.7" cy="151.85" r="2.1" fill="#222222"/><rect x="545.7" y="187.7" width="4.4" height="14.3" fill="#E8E2D6" stroke="#222222" stroke-width="3"/>
+<rect x="567.7" y="187.7" width="4.4" height="14.3" fill="#E8E2D6" stroke="#222222" stroke-width="3"/>
+<ellipse cx="560" cy="181.1" rx="18.700000000000003" ry="9.9" fill="#E8E2D6" stroke="#222222" stroke-width="4"/>
+<path d="M 578.7 166.8 q -2.2 -9.9 -7.700000000000001 -12.100000000000001" fill="none" stroke="#8C6A4A" stroke-width="2.8" stroke-linecap="round"/>
+<ellipse cx="580.9" cy="171.2" rx="7.700000000000001" ry="6.6000000000000005" fill="#E8E2D6" stroke="#222222" stroke-width="4"/>
+<polygon points="582.0,176.7 585.3,183.3 587.5,175.6" fill="#E8E2D6" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="583.1" cy="169.55" r="1.4" fill="#222222"/><rect x="597.7" y="187.7" width="4.4" height="14.3" fill="#E8E2D6" stroke="#222222" stroke-width="3"/>
+<rect x="619.7" y="187.7" width="4.4" height="14.3" fill="#E8E2D6" stroke="#222222" stroke-width="3"/>
+<ellipse cx="612" cy="181.1" rx="18.700000000000003" ry="9.9" fill="#E8E2D6" stroke="#222222" stroke-width="4"/>
+<path d="M 630.7 166.8 q -2.2 -9.9 -7.700000000000001 -12.100000000000001" fill="none" stroke="#8C6A4A" stroke-width="2.8" stroke-linecap="round"/>
+<ellipse cx="632.9" cy="171.2" rx="7.700000000000001" ry="6.6000000000000005" fill="#E8E2D6" stroke="#222222" stroke-width="4"/>
+<polygon points="634.0,176.7 637.3,183.3 639.5,175.6" fill="#E8E2D6" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="635.1" cy="169.55" r="1.4" fill="#222222"/>
+<polygon points="684.0,202.0 860.0,202.0 848.0,214.0 696.0,214.0" fill="#C8D3DE" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="730" y="156" width="84" height="46" rx="6" fill="#F2CC5A" stroke="#222222" stroke-width="4"/><text x="772.0" y="189.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="26" font-weight="bold" fill="#222222">21 kg</text>
+<text x="660.0" y="332.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="32" font-weight="bold" fill="#222222">2</text></g>
 </svg>

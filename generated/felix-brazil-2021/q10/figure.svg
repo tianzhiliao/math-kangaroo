@@ -11,11 +11,11 @@
 <polygon points="297.0,80.0 327.0,66.0 327.0,94.0" fill="#1F6F8C" stroke="#222" stroke-width="3"/>
 <polygon points="180.0,175.0 166.0,145.0 194.0,145.0" fill="#1F6F8C" stroke="#222" stroke-width="3"/>
 <polygon points="114.5,311.6 120.6,279.1 143.4,295.4" fill="#1F6F8C" stroke="#222" stroke-width="3"/>
-<text x="280" y="340" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222">6 m</text>
-<text x="510" y="220" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222">5 m</text>
-<text x="300" y="60" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222">4 m</text>
-<text x="145" y="150" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222">5 m</text>
-<text x="100" y="300" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222">7 m</text>
+<text x="200" y="412" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222">6 m</text>
+<text x="540" y="290" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222">5 m</text>
+<text x="400" y="50" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222">4 m</text>
+<text x="122" y="120" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222">5 m</text>
+<text x="86" y="262" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222">7 m</text>
 <circle cx="80" cy="360" r="22" fill="#FFF6D8" stroke="#222" stroke-width="5"/>
 <text x="80" y="368" text-anchor="middle" font-family="Liberation Serif, serif" font-size="26" fill="#222">B</text>
 <circle cx="480" cy="360" r="22" fill="#FFF6D8" stroke="#222" stroke-width="5"/>

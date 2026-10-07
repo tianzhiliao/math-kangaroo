@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="460" viewBox="0 0 1100 460">
 <rect width="1100" height="460" fill="#FFFFFF"/>
-<polygon points="207.0,200.0 207.0,78.0 193.0,78.0 193.0,200.0" fill="#F0B45A"/>
-<polygon points="160.0,223.0 70.0,223.0 70.0,237.0 160.0,237.0" fill="#F0B45A"/>
-<polygon points="193.0,290.0 193.0,380.0 207.0,380.0 207.0,290.0" fill="#F0B45A"/>
-<polygon points="244.3,195.5 334.3,125.5 325.7,114.5 235.7,184.5" fill="#F0B45A"/>
-<polygon points="238.9,236.9 368.9,256.9 371.1,243.1 241.1,223.1" fill="#F0B45A"/>
-<polygon points="547.0,190.0 547.0,78.0 533.0,78.0 533.0,190.0" fill="#7EB6E0"/>
-<polygon points="506.3,186.9 476.3,126.9 463.7,133.1 493.7,193.1" fill="#7EB6E0"/>
-<polygon points="533.0,290.0 533.0,380.0 547.0,380.0 547.0,290.0" fill="#7EB6E0"/>
-<polygon points="499.5,233.0 369.5,243.0 370.5,257.0 500.5,247.0" fill="#7EB6E0"/>
-<polygon points="579.5,247.0 709.5,257.0 710.5,243.0 580.5,233.0" fill="#7EB6E0"/>
-<polygon points="887.0,190.0 887.0,78.0 873.0,78.0 873.0,190.0" fill="#8FCB6B"/>
-<polygon points="920.0,237.0 1010.0,237.0 1010.0,223.0 920.0,223.0" fill="#8FCB6B"/>
-<polygon points="873.0,290.0 873.0,380.0 887.0,380.0 887.0,290.0" fill="#8FCB6B"/>
-<polygon points="925.3,194.6 985.3,124.6 974.7,115.4 914.7,185.4" fill="#8FCB6B"/>
-<polygon points="839.5,233.0 709.5,243.0 710.5,257.0 840.5,247.0" fill="#8FCB6B"/>
+<line x1="200" y1="255" x2="200" y2="78" stroke="#F0B45A" stroke-width="14"/>
+<line x1="200" y1="255" x2="70" y2="230" stroke="#F0B45A" stroke-width="14"/>
+<line x1="200" y1="255" x2="200" y2="380" stroke="#F0B45A" stroke-width="14"/>
+<line x1="200" y1="255" x2="330" y2="120" stroke="#F0B45A" stroke-width="14"/>
+<line x1="200" y1="255" x2="370" y2="250" stroke="#F0B45A" stroke-width="14"/>
+<line x1="540" y1="255" x2="540" y2="78" stroke="#7EB6E0" stroke-width="14"/>
+<line x1="540" y1="255" x2="470" y2="130" stroke="#7EB6E0" stroke-width="14"/>
+<line x1="540" y1="255" x2="540" y2="380" stroke="#7EB6E0" stroke-width="14"/>
+<line x1="540" y1="255" x2="370" y2="250" stroke="#7EB6E0" stroke-width="14"/>
+<line x1="540" y1="255" x2="710" y2="250" stroke="#7EB6E0" stroke-width="14"/>
+<line x1="880" y1="255" x2="880" y2="78" stroke="#8FCB6B" stroke-width="14"/>
+<line x1="880" y1="255" x2="1010" y2="230" stroke="#8FCB6B" stroke-width="14"/>
+<line x1="880" y1="255" x2="880" y2="380" stroke="#8FCB6B" stroke-width="14"/>
+<line x1="880" y1="255" x2="980" y2="120" stroke="#8FCB6B" stroke-width="14"/>
+<line x1="880" y1="255" x2="710" y2="250" stroke="#8FCB6B" stroke-width="14"/>
 <rect x="160" y="220" width="80" height="70" fill="#F0B45A" stroke="#222222" stroke-width="5"/>
 <polygon points="148,222 200,172 252,222" fill="#F0B45A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
 <rect x="500" y="220" width="80" height="70" fill="#7EB6E0" stroke="#222222" stroke-width="5"/>

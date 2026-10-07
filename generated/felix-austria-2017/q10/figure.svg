@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340">
-<rect width="1000" height="340" fill="#FFFFFF"/>
-<path d="M 116,188 C 110,160 130,152 134,162 L 128,128 L 146,158 L 154,158 L 172,128 L 166,162 C 178,150 192,170 184,196 C 170,220 130,220 116,188 Z" fill="#E7B15A" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M 326,188 C 320,160 340,152 344,162 L 338,128 L 356,158 L 364,158 L 382,128 L 376,162 C 388,150 402,170 394,196 C 380,220 340,220 326,188 Z" fill="#E7B15A" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M 560,200 C 554,170 572,156 576,164 L 562,128 L 584,160 L 596,160 L 618,128 L 604,164 C 614,154 626,172 620,200 C 606,220 574,220 560,200 Z" fill="#F7A8C4" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M 822,172 C 820,150 808,144 814,110 C 818,140 826,152 830,160 C 834,152 842,140 846,110 C 852,144 840,150 838,172 C 866,184 858,222 830,222 C 802,222 794,184 822,172 Z" fill="#D7CFF5" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="790" height="190" viewBox="0 0 790 190">
+<rect width="790" height="190" fill="#FFFFFF"/>
+<g transform="translate(110.0 118.0) scale(1.6)"><circle cx="0" cy="0" r="27" fill="#E0A36A" stroke="#222222" stroke-width="4"/>
+<ellipse cx="-27" cy="2" rx="10" ry="20" fill="#C9844A" stroke="#222222" stroke-width="4" transform="rotate(15 -27 2)"/>
+<ellipse cx="27" cy="2" rx="10" ry="20" fill="#C9844A" stroke="#222222" stroke-width="4" transform="rotate(-15 27 2)"/>
+<circle cx="-9" cy="-6" r="3.5" fill="#222222"/>
+<circle cx="9" cy="-6" r="3.5" fill="#222222"/>
+<ellipse cx="0" cy="8" rx="7" ry="5" fill="#222222"/>
+<path d="M 0 13 L 0 18" stroke="#222222" stroke-width="3"/>
+<ellipse cx="0" cy="22" rx="5" ry="4" fill="#E07A8A" stroke="#222222" stroke-width="2"/></g>
+<g transform="translate(300.0 118.0) scale(1.6)"><circle cx="0" cy="0" r="27" fill="#E0A36A" stroke="#222222" stroke-width="4"/>
+<ellipse cx="-27" cy="2" rx="10" ry="20" fill="#C9844A" stroke="#222222" stroke-width="4" transform="rotate(15 -27 2)"/>
+<ellipse cx="27" cy="2" rx="10" ry="20" fill="#C9844A" stroke="#222222" stroke-width="4" transform="rotate(-15 27 2)"/>
+<circle cx="-9" cy="-6" r="3.5" fill="#222222"/>
+<circle cx="9" cy="-6" r="3.5" fill="#222222"/>
+<ellipse cx="0" cy="8" rx="7" ry="5" fill="#222222"/>
+<path d="M 0 13 L 0 18" stroke="#222222" stroke-width="3"/>
+<ellipse cx="0" cy="22" rx="5" ry="4" fill="#E07A8A" stroke="#222222" stroke-width="2"/></g>
+<g transform="translate(490.0 118.0) scale(1.6)"><polygon points="-26.0,-10.0 -22.0,-40.0 -6.0,-24.0" fill="#F4C27A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="26.0,-10.0 22.0,-40.0 6.0,-24.0" fill="#F4C27A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="0" cy="0" r="28" fill="#F4C27A" stroke="#222222" stroke-width="4"/>
+<circle cx="-10" cy="-4" r="3.5" fill="#222222"/>
+<circle cx="10" cy="-4" r="3.5" fill="#222222"/>
+<polygon points="-5.0,6.0 5.0,6.0 0.0,11.0" fill="#E07A8A" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<path d="M -30 8 L -12 9 M 30 8 L 12 9" stroke="#222222" stroke-width="2"/></g>
+<g transform="translate(680.0 118.0) scale(1.6)"><ellipse cx="-12" cy="-40" rx="9" ry="26" fill="#F2F2F2" stroke="#222222" stroke-width="4"/>
+<ellipse cx="12" cy="-40" rx="9" ry="26" fill="#F2F2F2" stroke="#222222" stroke-width="4"/>
+<ellipse cx="-12" cy="-40" rx="4" ry="17" fill="#F2C4CE"/>
+<ellipse cx="12" cy="-40" rx="4" ry="17" fill="#F2C4CE"/>
+<circle cx="0" cy="0" r="26" fill="#F2F2F2" stroke="#222222" stroke-width="4"/>
+<circle cx="-9" cy="-4" r="3.5" fill="#222222"/>
+<circle cx="9" cy="-4" r="3.5" fill="#222222"/>
+<polygon points="-5.0,6.0 5.0,6.0 0.0,11.0" fill="#E07A8A" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 0 11 L 0 16 M -8 18 Q 0 22 8 18" fill="none" stroke="#222222" stroke-width="2.5"/></g>
 </svg>

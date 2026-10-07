@@ -4,14 +4,14 @@
 <rect x="100" y="90" width="220" height="160" fill="#F8D56A" fill-opacity="0.55" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
 <rect x="70" y="120" width="220" height="160" fill="#7DCEA0" fill-opacity="0.55" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
 <rect x="130" y="60" width="220" height="160" fill="#8EB7F0" fill-opacity="0.55" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
-<circle cx="60" cy="60" r="8" fill="#222222" stroke="#222222" stroke-width="2"/>
-<text x="74" y="50" font-family="Noto Serif" font-size="28" fill="#222222">A</text>
-<circle cx="180" cy="100" r="8" fill="#222222" stroke="#222222" stroke-width="2"/>
-<text x="194" y="90" font-family="Noto Serif" font-size="28" fill="#222222">B</text>
-<circle cx="280" cy="230" r="8" fill="#222222" stroke="#222222" stroke-width="2"/>
-<text x="294" y="220" font-family="Noto Serif" font-size="28" fill="#222222">C</text>
-<circle cx="190" cy="160" r="8" fill="#222222" stroke="#222222" stroke-width="2"/>
-<text x="204" y="150" font-family="Noto Serif" font-size="28" fill="#222222">D</text>
-<circle cx="90" cy="240" r="8" fill="#222222" stroke="#222222" stroke-width="2"/>
-<text x="104" y="230" font-family="Noto Serif" font-size="28" fill="#222222">E</text>
+<circle cx="60" cy="60" r="9" fill="#222222" stroke="#222222" stroke-width="2"/>
+<text x="74" y="50" font-family="Noto Serif" font-size="30" font-weight="700" fill="#222222" stroke="#FFFFFF" stroke-width="7" paint-order="stroke" stroke-linejoin="round">A</text>
+<circle cx="180" cy="100" r="9" fill="#222222" stroke="#222222" stroke-width="2"/>
+<text x="194" y="90" font-family="Noto Serif" font-size="30" font-weight="700" fill="#222222" stroke="#FFFFFF" stroke-width="7" paint-order="stroke" stroke-linejoin="round">B</text>
+<circle cx="280" cy="230" r="9" fill="#222222" stroke="#222222" stroke-width="2"/>
+<text x="294" y="220" font-family="Noto Serif" font-size="30" font-weight="700" fill="#222222" stroke="#FFFFFF" stroke-width="7" paint-order="stroke" stroke-linejoin="round">C</text>
+<circle cx="190" cy="160" r="9" fill="#222222" stroke="#222222" stroke-width="2"/>
+<text x="204" y="150" font-family="Noto Serif" font-size="30" font-weight="700" fill="#222222" stroke="#FFFFFF" stroke-width="7" paint-order="stroke" stroke-linejoin="round">D</text>
+<circle cx="90" cy="240" r="9" fill="#222222" stroke="#222222" stroke-width="2"/>
+<text x="104" y="230" font-family="Noto Serif" font-size="30" font-weight="700" fill="#222222" stroke="#FFFFFF" stroke-width="7" paint-order="stroke" stroke-linejoin="round">E</text>
 </svg>

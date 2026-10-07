@@ -31,21 +31,21 @@
 <rect x="560" y="40" width="36" height="36" fill="#F09010" stroke="#222222" stroke-width="3"/>
 <rect x="560" y="76" width="36" height="36" fill="#F09010" stroke="#222222" stroke-width="3"/>
 <rect x="560" y="112" width="36" height="36" fill="#F09010" stroke="#222222" stroke-width="3"/>
-<text x="360" y="212" font-family="Noto Serif, serif" font-size="28" font-weight="700" fill="#222222">C</text>
+<g transform="translate(400 -180)"><text x="360" y="212" font-family="Noto Serif, serif" font-size="28" font-weight="700" fill="#222222">C</text>
 <rect x="360" y="220" width="36" height="36" fill="#F09010" stroke="#222222" stroke-width="3"/>
 <rect x="396" y="220" width="36" height="36" fill="#FFFFFF" stroke="#222222" stroke-width="3"/>
 <rect x="432" y="220" width="36" height="36" fill="#FFFFFF" stroke="#222222" stroke-width="3"/>
 <rect x="360" y="256" width="36" height="36" fill="#FFFFFF" stroke="#222222" stroke-width="3"/>
 <rect x="396" y="256" width="36" height="36" fill="#F09010" stroke="#222222" stroke-width="3"/>
-<rect x="432" y="256" width="36" height="36" fill="#F09010" stroke="#222222" stroke-width="3"/>
-<text x="560" y="212" font-family="Noto Serif, serif" font-size="28" font-weight="700" fill="#222222">D</text>
+<rect x="432" y="256" width="36" height="36" fill="#F09010" stroke="#222222" stroke-width="3"/></g>
+<g transform="translate(-200 0)"><text x="560" y="212" font-family="Noto Serif, serif" font-size="28" font-weight="700" fill="#222222">D</text>
 <rect x="560" y="220" width="36" height="36" fill="#F09010" stroke="#222222" stroke-width="3"/>
 <rect x="596" y="220" width="36" height="36" fill="#FFFFFF" stroke="#222222" stroke-width="3"/>
 <rect x="560" y="256" width="36" height="36" fill="#F09010" stroke="#222222" stroke-width="3"/>
 <rect x="596" y="256" width="36" height="36" fill="#FFFFFF" stroke="#222222" stroke-width="3"/>
 <rect x="560" y="292" width="36" height="36" fill="#F09010" stroke="#222222" stroke-width="3"/>
-<rect x="596" y="292" width="36" height="36" fill="#F09010" stroke="#222222" stroke-width="3"/>
-<text x="760" y="32" font-family="Noto Serif, serif" font-size="28" font-weight="700" fill="#222222">E</text>
+<rect x="596" y="292" width="36" height="36" fill="#F09010" stroke="#222222" stroke-width="3"/></g>
+<g transform="translate(-200 180)"><text x="760" y="32" font-family="Noto Serif, serif" font-size="28" font-weight="700" fill="#222222">E</text>
 <rect x="760" y="40" width="36" height="36" fill="#F09010" stroke="#222222" stroke-width="3"/>
 <rect x="796" y="40" width="36" height="36" fill="#FFFFFF" stroke="#222222" stroke-width="3"/>
 <rect x="832" y="40" width="36" height="36" fill="#FFFFFF" stroke="#222222" stroke-width="3"/>
@@ -54,5 +54,5 @@
 <rect x="832" y="76" width="36" height="36" fill="#FFFFFF" stroke="#222222" stroke-width="3"/>
 <rect x="760" y="112" width="36" height="36" fill="#FFFFFF" stroke="#222222" stroke-width="3"/>
 <rect x="796" y="112" width="36" height="36" fill="#FFFFFF" stroke="#222222" stroke-width="3"/>
-<rect x="832" y="112" width="36" height="36" fill="#F09010" stroke="#222222" stroke-width="3"/>
+<rect x="832" y="112" width="36" height="36" fill="#F09010" stroke="#222222" stroke-width="3"/></g>
 </svg>

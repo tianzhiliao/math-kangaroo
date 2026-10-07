@@ -53,8 +53,8 @@
       "media_type": "image/svg+xml",
       "kind": "question_figure",
       "role": "stem",
-      "width": 480,
-      "height": 280
+      "width": 432,
+      "height": 172
     },
     {
       "id": "q03_option_A_01",
@@ -63,8 +63,8 @@
       "media_type": "image/svg+xml",
       "kind": "question_figure",
       "role": "option",
-      "width": 480,
-      "height": 280
+      "width": 432,
+      "height": 172
     },
     {
       "id": "q03_option_B_01",
@@ -73,8 +73,8 @@
       "media_type": "image/svg+xml",
       "kind": "question_figure",
       "role": "option",
-      "width": 480,
-      "height": 280
+      "width": 432,
+      "height": 172
     },
     {
       "id": "q03_option_C_01",
@@ -83,8 +83,8 @@
       "media_type": "image/svg+xml",
       "kind": "question_figure",
       "role": "option",
-      "width": 480,
-      "height": 280
+      "width": 432,
+      "height": 172
     },
     {
       "id": "q03_option_D_01",
@@ -93,8 +93,8 @@
       "media_type": "image/svg+xml",
       "kind": "question_figure",
       "role": "option",
-      "width": 480,
-      "height": 280
+      "width": 432,
+      "height": 172
     },
     {
       "id": "q03_option_E_01",
@@ -103,8 +103,8 @@
       "media_type": "image/svg+xml",
       "kind": "question_figure",
       "role": "option",
-      "width": 480,
-      "height": 280
+      "width": 432,
+      "height": 172
     }
   ]
 }

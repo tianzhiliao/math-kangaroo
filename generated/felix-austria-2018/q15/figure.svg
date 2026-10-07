@@ -19,6 +19,6 @@
 <text x="770" y="488" text-anchor="middle" font-family="Liberation Serif" font-size="28" fill="#222222">Leo</text>
 <rect x="414" y="68" width="72" height="52" rx="3" fill="#F6D58A" stroke="#222222" stroke-width="4"/>
 <polygon points="404,72 450,30 496,72" fill="#C44536" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
-<text x="450" y="146" text-anchor="middle" font-family="Liberation Serif" font-size="28" fill="#222222">Sara</text>
+<text x="396" y="112" text-anchor="end" font-family="Liberation Serif" font-size="28" fill="#222222">Sara</text>
 <text x="488" y="168" font-family="Liberation Serif" font-size="28" fill="#222222">6 km</text>
 </svg>
