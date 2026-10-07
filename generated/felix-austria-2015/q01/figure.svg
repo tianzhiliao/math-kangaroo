@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+<rect width="1600" height="520" fill="#FFFFFF"/>
+<rect x="40" y="40" width="480" height="440" fill="#F3F3F3" stroke="#222222" stroke-width="2"/>
+<rect x="80" y="76" width="90" height="90" fill="#0090D0" stroke="#222222" stroke-width="2"/>
+<circle cx="400" cy="120" r="40" fill="#E03030" stroke="#222222" stroke-width="2"/>
+<polygon points="90,360 230,360 160,240" fill="#00A050" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<rect x="290" y="220" width="180" height="70" fill="#E03030" stroke="#222222" stroke-width="2"/>
+<circle cx="340" cy="380" r="50" fill="#0090D0" stroke="#222222" stroke-width="2"/>
+<rect x="560" y="40" width="480" height="440" fill="#F3F3F3" stroke="#222222" stroke-width="2"/>
+<rect x="860" y="80" width="100" height="100" fill="#0090D0" stroke="#222222" stroke-width="2"/>
+<circle cx="640" cy="110" r="36" fill="#E03030" stroke="#222222" stroke-width="2"/>
+<polygon points="855,330 985,330 920,220" fill="#00A050" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="700" cy="340" r="55" fill="#0090D0" stroke="#222222" stroke-width="2"/>
+<circle cx="900" cy="400" r="32" fill="#E03030" stroke="#222222" stroke-width="2"/>
+<rect x="1080" y="40" width="480" height="440" fill="#F3F3F3" stroke="#222222" stroke-width="2"/>
+<circle cx="1170" cy="130" r="42" fill="#E03030" stroke="#222222" stroke-width="2"/>
+<polygon points="1365,210 1515,210 1440,80" fill="#00A050" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1120" y="240" width="160" height="64" fill="#E03030" stroke="#222222" stroke-width="2"/>
+<rect x="1300" y="340" width="80" height="80" fill="#0090D0" stroke="#222222" stroke-width="2"/>
+<circle cx="1460" cy="360" r="42" fill="#0090D0" stroke="#222222" stroke-width="2"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="220" viewBox="0 0 520 220">
+<rect width="520" height="220" fill="#FFFFFF"/>
+<polygon points="470,48 500,62 470,76" fill="#5C6BC0" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="50,150 20,164 50,178" fill="#EF6C00" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="40" y="40" width="52" height="36" rx="4" fill="#C5CAE9" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="66.0" y="58.0" fill="#222222" font-family="Noto Serif, serif" font-size="18" text-anchor="middle" dominant-baseline="central">13</text>
+<rect x="98" y="40" width="52" height="36" rx="4" fill="#C5CAE9" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="124.0" y="58.0" fill="#222222" font-family="Noto Serif, serif" font-size="18" text-anchor="middle" dominant-baseline="central">12</text>
+<rect x="156" y="40" width="52" height="36" rx="4" fill="#9FA8DA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="182.0" y="58.0" fill="#222222" font-family="Noto Serif, serif" font-size="18" text-anchor="middle" dominant-baseline="central">11</text>
+<rect x="214" y="40" width="52" height="36" rx="4" fill="#C5CAE9" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="240.0" y="58.0" fill="#222222" font-family="Noto Serif, serif" font-size="18" text-anchor="middle" dominant-baseline="central">10</text>
+<rect x="272" y="40" width="52" height="36" rx="4" fill="#C5CAE9" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="298.0" y="58.0" fill="#222222" font-family="Noto Serif, serif" font-size="18" text-anchor="middle" dominant-baseline="central">9</text>
+<rect x="40" y="130" width="52" height="36" rx="4" fill="#FFE0B2" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="66.0" y="148.0" fill="#222222" font-family="Noto Serif, serif" font-size="18" text-anchor="middle" dominant-baseline="central">9</text>
+<rect x="98" y="130" width="52" height="36" rx="4" fill="#FFE0B2" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="124.0" y="148.0" fill="#222222" font-family="Noto Serif, serif" font-size="18" text-anchor="middle" dominant-baseline="central">10</text>
+<rect x="156" y="130" width="52" height="36" rx="4" fill="#FFCC80" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="182.0" y="148.0" fill="#222222" font-family="Noto Serif, serif" font-size="18" text-anchor="middle" dominant-baseline="central">11</text>
+<rect x="214" y="130" width="52" height="36" rx="4" fill="#FFE0B2" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="240.0" y="148.0" fill="#222222" font-family="Noto Serif, serif" font-size="18" text-anchor="middle" dominant-baseline="central">12</text>
+<rect x="272" y="130" width="52" height="36" rx="4" fill="#FFE0B2" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="298.0" y="148.0" fill="#222222" font-family="Noto Serif, serif" font-size="18" text-anchor="middle" dominant-baseline="central">13</text>
+</svg>

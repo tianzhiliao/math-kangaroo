@@ -1,0 +1,50 @@
+{
+  "id": "q14",
+  "number": 14,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Tim makes this pattern with ice-lolly sticks. Each stick is 5 cm long and 1 cm wide. How long is Tim's pattern?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "15 cm",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "18 cm",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "20 cm",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "16 cm",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "14 cm",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q14_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q14_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 740,
+      "height": 290
+    }
+  ]
+}

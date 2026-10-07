@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#FFFFFF"/>
+<polygon points="527.5,104.0 672.5,104.0 672.5,136.2 640.2,136.2 640.2,209.8 559.8,209.8 559.8,136.2 527.5,136.2" fill="#A7C7F2" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="577.0,124.7 581.7,136.6 594.5,137.4 584.7,145.6 587.8,158.0 577.0,151.2 566.2,158.0 569.3,145.6 559.5,137.4 572.3,136.6" fill="#F8D56A" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="625.3" cy="145.4" r="13.8" fill="#E24B4B" stroke="#222222" stroke-width="3"/>
+<polygon points="579.3,166.1 565.5,191.4 593.1,191.4" fill="#7DCEA0" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="60.2,432.0 179.8,432.0 179.8,458.6 153.2,458.6 153.2,519.4 86.8,519.4 86.8,458.6 60.2,458.6" fill="#A7C7F2" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="139.0,449.1 142.9,458.9 153.5,459.6 145.3,466.4 147.9,476.6 139.0,470.9 130.1,476.6 132.7,466.4 124.5,459.6 135.1,458.9" fill="#F8D56A" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="99.1" cy="466.2" r="11.4" fill="#E24B4B" stroke="#222222" stroke-width="3"/>
+<polygon points="137.1,483.3 125.7,504.2 148.5,504.2" fill="#7DCEA0" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="120" y="660" text-anchor="middle" font-family="Noto Serif" font-size="40" fill="#222222">A</text>
+<polygon points="300.1,432.0 419.9,432.0 419.9,458.6 393.2,458.6 393.2,519.4 326.8,519.4 326.8,458.6 300.1,458.6" fill="#A7C7F2" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="341.0,449.1 344.9,458.9 355.5,459.6 347.3,466.4 349.9,476.6 341.0,470.9 332.1,476.6 334.7,466.4 326.5,459.6 337.1,458.9" fill="#F8D56A" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="380.9" cy="466.2" r="11.4" fill="#E24B4B" stroke="#222222" stroke-width="3"/>
+<polygon points="342.9,483.3 331.5,504.2 354.3,504.2" fill="#7DCEA0" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="360" y="660" text-anchor="middle" font-family="Noto Serif" font-size="40" fill="#222222">B</text>
+<polygon points="540.1,432.0 659.9,432.0 659.9,458.6 633.2,458.6 633.2,519.4 566.8,519.4 566.8,458.6 540.1,458.6" fill="#A7C7F2" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="581.0,460.5 584.9,470.3 595.5,471.0 587.3,477.8 589.9,488.0 581.0,482.3 572.1,488.0 574.7,477.8 566.5,471.0 577.1,470.3" fill="#F8D56A" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="620.9" cy="473.8" r="11.4" fill="#E24B4B" stroke="#222222" stroke-width="3"/>
+<polygon points="582.9,433.9 571.5,454.8 594.3,454.8" fill="#7DCEA0" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="600" y="660" text-anchor="middle" font-family="Noto Serif" font-size="40" fill="#222222">C</text>
+<polygon points="780.1,432.0 899.9,432.0 899.9,458.6 873.2,458.6 873.2,519.4 806.8,519.4 806.8,458.6 780.1,458.6" fill="#A7C7F2" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="821.0,449.1 824.9,458.9 835.5,459.6 827.3,466.4 829.9,476.6 821.0,470.9 812.1,476.6 814.7,466.4 806.5,459.6 817.1,458.9" fill="#F8D56A" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="813.4" cy="477.6" r="11.4" fill="#E24B4B" stroke="#222222" stroke-width="3"/>
+<polygon points="822.9,483.3 811.5,504.2 834.3,504.2" fill="#7DCEA0" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="840" y="660" text-anchor="middle" font-family="Noto Serif" font-size="40" fill="#222222">D</text>
+<polygon points="1020.1,432.0 1139.8,432.0 1139.8,458.6 1113.2,458.6 1113.2,519.4 1046.8,519.4 1046.8,458.6 1020.1,458.6" fill="#A7C7F2" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1099.0,460.5 1102.9,470.3 1113.5,471.0 1105.3,477.8 1107.9,488.0 1099.0,482.3 1090.1,488.0 1092.7,477.8 1084.5,471.0 1095.1,470.3" fill="#F8D56A" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="1059.1" cy="473.8" r="11.4" fill="#E24B4B" stroke="#222222" stroke-width="3"/>
+<polygon points="1097.1,433.9 1085.7,454.8 1108.5,454.8" fill="#7DCEA0" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="1080" y="660" text-anchor="middle" font-family="Noto Serif" font-size="40" fill="#222222">E</text>
+</svg>

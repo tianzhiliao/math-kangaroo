@@ -1,0 +1,50 @@
+{
+  "id": "q22",
+  "number": 22,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Rita wrote the numbers from 1 to 8, one in each circle, so that the sum of the three numbers on each side of the square is 15. What is the sum of the four numbers in the colored circles?",
+  "answer": "E",
+  "choices": [
+    {
+      "label": "A",
+      "text": "16",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "18",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "20",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "22",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "24",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q22_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q22_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 460,
+      "height": 460
+    }
+  ]
+}

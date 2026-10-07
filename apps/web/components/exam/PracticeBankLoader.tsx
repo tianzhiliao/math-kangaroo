@@ -5,6 +5,7 @@ import type { Exam, PracticeBankResponse } from "@/lib/types";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { GeneratedQuestionSection } from "@/components/question/GeneratedQuestionSection";
 import { QuestionCard } from "@/components/question/QuestionCard";
 import { usePracticeAnswersStore } from "@/lib/practice-answers-store";
 import {
@@ -207,6 +208,10 @@ export function PracticeBankLoader() {
             showOutcome={revealed}
             correctLabel={correctLabel}
             displayQuestionNumber={globalOneBased}
+          />
+          <GeneratedQuestionSection
+            examId={exam.exam_id}
+            questionId={question.id}
           />
           {revealed ? (
             <p

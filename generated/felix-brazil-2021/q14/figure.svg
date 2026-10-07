@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="680" viewBox="0 0 980 680">
+<rect width="980" height="680" fill="#FFFFFF"/>
+<text x="40" y="44" text-anchor="start" font-family="Liberation Serif, serif" font-size="28" fill="#222222">pieces</text>
+<rect x="40" y="70" width="160" height="80" fill="#F4A3B5" stroke="#222222" stroke-width="6"/>
+<rect x="230" y="70" width="80" height="80" fill="#8FCBF0" stroke="#222222" stroke-width="6"/>
+<rect x="40" y="240" width="160" height="160" fill="#F4A3B5" stroke="#222222" stroke-width="6"/>
+<text x="120" y="440" text-anchor="middle" font-family="Liberation Serif, serif" font-size="34" fill="#222222">A</text>
+<rect x="280" y="280" width="160" height="80" fill="#F4A3B5" stroke="#222222" stroke-width="6"/>
+<rect x="440" y="280" width="80" height="80" fill="#8FCBF0" stroke="#222222" stroke-width="6"/>
+<text x="400" y="440" text-anchor="middle" font-family="Liberation Serif, serif" font-size="34" fill="#222222">B</text>
+<rect x="640" y="280" width="160" height="80" fill="#F4A3B5" stroke="#222222" stroke-width="6"/>
+<text x="720" y="440" text-anchor="middle" font-family="Liberation Serif, serif" font-size="34" fill="#222222">C</text>
+<rect x="80" y="520" width="80" height="80" fill="#8FCBF0" stroke="#222222" stroke-width="6"/>
+<rect x="160" y="520" width="80" height="80" fill="#A8D5A2" stroke="#222222" stroke-width="6"/>
+<text x="160" y="650" text-anchor="middle" font-family="Liberation Serif, serif" font-size="34" fill="#222222">D</text>
+<rect x="360" y="520" width="160" height="80" fill="#F4A3B5" stroke="#222222" stroke-width="6"/>
+<rect x="520" y="520" width="80" height="80" fill="#8FCBF0" stroke="#222222" stroke-width="6"/>
+<rect x="600" y="520" width="80" height="80" fill="#8FCBF0" stroke="#222222" stroke-width="6"/>
+<text x="520" y="650" text-anchor="middle" font-family="Liberation Serif, serif" font-size="34" fill="#222222">E</text>
+</svg>

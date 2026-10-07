@@ -1,0 +1,50 @@
+{
+  "id": "q13",
+  "number": 13,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Which piece belongs in the empty space?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "A",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "B",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "C",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "D",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "E",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q13_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q13_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1120,
+      "height": 500
+    }
+  ]
+}

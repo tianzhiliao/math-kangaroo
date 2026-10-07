@@ -1,0 +1,50 @@
+{
+  "id": "q08",
+  "number": 8,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Leo needs exactly 3 pieces to fill the white hole. Which piece is left over?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "A",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "B",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "C",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "D",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "A or B",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q08_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q08_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1020,
+      "height": 280
+    }
+  ]
+}

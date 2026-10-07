@@ -1,0 +1,37 @@
+{
+  "id": "q04",
+  "number": 4,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "Every night the fairy Nila makes the weather forecast for the queen. When Nila gets it right she gets 4 gold coins, but when she makes a mistake she pays a fine of 2 gold coins. After 7 days, Nila has 10 more coins than when she started. How many times did she get the forecast right in those 7 days?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "2",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "3",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "5",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "6",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

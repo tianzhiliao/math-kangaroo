@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500">
+<rect width="960" height="500" fill="#FFFFFF"/>
+<circle id="key_c" cx="90" cy="80" r="32" fill="#F6D56A" stroke="#222222" stroke-width="5"/>
+<text x="150" y="92" font-family="Liberation Serif, serif" font-size="36" fill="#222222">2</text>
+<polygon id="key_t" points="58,204 122,204 90.0,140" fill="#F6C07A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<text x="150" y="190" font-family="Liberation Serif, serif" font-size="36" fill="#222222">3</text>
+<rect id="key_s" x="58" y="250" width="64" height="64" fill="#A9CEF0" stroke="#222222" stroke-width="5"/>
+<text x="150" y="298" font-family="Liberation Serif, serif" font-size="36" fill="#222222">4</text>
+<ellipse id="body" cx="640" cy="250" rx="46" ry="110" fill="#FEE9AC" stroke="#222222" stroke-width="5"/>
+<circle id="head" cx="640" cy="120" r="28" fill="#FEE9AC" stroke="#222222" stroke-width="5"/>
+<circle id="have_c" cx="500" cy="150" r="30" fill="#F6D56A" stroke="#222222" stroke-width="5"/>
+<polygon id="have_t" points="470,294 534,294 502.0,230" fill="#F6C07A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<circle id="miss_c" cx="780" cy="150" r="30" fill="#E4E4E4" stroke="#222222" stroke-width="5"/>
+<polygon id="miss_t1" points="746,294 810,294 778.0,230" fill="#E4E4E4" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<polygon id="miss_t2" points="470,404 534,404 502.0,340" fill="#E4E4E4" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect id="miss_s" x="748" y="350" width="64" height="64" fill="#E4E4E4" stroke="#222222" stroke-width="5"/>
+</svg>

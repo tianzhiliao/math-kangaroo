@@ -1,0 +1,50 @@
+{
+  "id": "q10",
+  "number": 10,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "A village of 9 houses has three straight streets and three circular streets. The map shows 8 houses. Each straight street has three houses and each circular street also has three houses. Where should the 9th house be placed?",
+  "answer": "A",
+  "choices": [
+    {
+      "label": "A",
+      "text": "On A",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "On B",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "On C",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "On D",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "On E",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q10_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q10_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 540,
+      "height": 460
+    }
+  ]
+}

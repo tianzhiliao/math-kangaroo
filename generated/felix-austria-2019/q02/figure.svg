@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+  <rect width="1500" height="640" fill="#FFFFFF"/>
+  <g fill="#222222" stroke="#222222" stroke-width="4" stroke-linejoin="round" font-family="Liberation Serif">
+    <!-- chain: circle, square, circle, triangle, square, triangle, circle -->
+    <circle cx="160" cy="55" r="30" fill="#F6C9D4"/>
+    <rect x="130" y="105" width="60" height="60" rx="6" fill="#B7E2D2"/>
+    <circle cx="160" cy="215" r="30" fill="#F6C9D4"/>
+    <polygon points="160,265 120,330 200,330" fill="#F8E3A8"/>
+    <rect x="130" y="350" width="60" height="60" rx="6" fill="#B7E2D2"/>
+    <polygon points="160,430 120,495 200,495" fill="#F8E3A8"/>
+    <circle cx="160" cy="545" r="30" fill="#F6C9D4"/>
+
+    <!-- A circle square circle -->
+    <text x="400" y="78" font-size="32" fill="#222222" stroke="none">A</text>
+    <circle cx="500" cy="68" r="26" fill="#F6C9D4"/>
+    <rect x="574" y="42" width="52" height="52" rx="6" fill="#B7E2D2"/>
+    <circle cx="700" cy="68" r="26" fill="#F6C9D4"/>
+
+    <!-- B square square triangle -->
+    <text x="400" y="198" font-size="32" fill="#222222" stroke="none">B</text>
+    <rect x="474" y="162" width="52" height="52" rx="6" fill="#B7E2D2"/>
+    <rect x="574" y="162" width="52" height="52" rx="6" fill="#B7E2D2"/>
+    <polygon points="700,150 668,214 732,214" fill="#F8E3A8"/>
+
+    <!-- C triangle circle square -->
+    <text x="400" y="318" font-size="32" fill="#222222" stroke="none">C</text>
+    <polygon points="500,280 468,344 532,344" fill="#F8E3A8"/>
+    <circle cx="600" cy="312" r="26" fill="#F6C9D4"/>
+    <rect x="674" y="286" width="52" height="52" rx="6" fill="#B7E2D2"/>
+
+    <!-- D circle circle triangle -->
+    <text x="400" y="438" font-size="32" fill="#222222" stroke="none">D</text>
+    <circle cx="500" cy="432" r="26" fill="#F6C9D4"/>
+    <circle cx="600" cy="432" r="26" fill="#F6C9D4"/>
+    <polygon points="700,400 668,464 732,464" fill="#F8E3A8"/>
+
+    <!-- E triangle square circle -->
+    <text x="400" y="558" font-size="32" fill="#222222" stroke="none">E</text>
+    <polygon points="500,520 468,584 532,584" fill="#F8E3A8"/>
+    <rect x="574" y="526" width="52" height="52" rx="6" fill="#B7E2D2"/>
+    <circle cx="700" cy="552" r="26" fill="#F6C9D4"/>
+  </g>
+</svg>

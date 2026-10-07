@@ -1,0 +1,37 @@
+{
+  "id": "q02",
+  "number": 2,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "A garden has one rabbit, three birds and two snails. Four birds, two rabbits and one snail come to visit. How many animals are in the garden now?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "9",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "11",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "13",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "15",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "17",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<rect width="900" height="420" fill="#FFFFFF"/>
+<polygon points="38,108 58,70 92,46 138,42 178,66 192,100 180,114 154,92 116,76 82,92 60,122" fill="#E0C000" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="178,60 198,78 180,88" fill="#C47020" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="210" y="120" font-family="Noto Serif, serif" font-size="64" fill="#222222">+</text>
+<rect x="270" y="46" width="86" height="92" rx="10" fill="#F6E0C0" stroke="#222222" stroke-width="4"/>
+<ellipse cx="313" cy="64" rx="30" ry="12" fill="#7A3E1D" stroke="#222222" stroke-width="4"/>
+<polygon points="348,64 388,64 388,124 348,124 348,108 372,108 372,80 348,80" fill="#F6E0C0" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="430" y="120" font-family="Noto Serif, serif" font-size="64" fill="#222222">=</text>
+<text x="490" y="125" font-family="Noto Serif, serif" font-size="64" fill="#222222">15</text>
+<polygon points="38,288 58,250 92,226 138,222 178,246 192,280 180,294 154,272 116,256 82,272 60,302" fill="#E0C000" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="178,240 198,258 180,268" fill="#C47020" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="210" y="300" font-family="Noto Serif, serif" font-size="64" fill="#222222">+</text>
+<rect x="270" y="226" width="86" height="92" rx="10" fill="#F6E0C0" stroke="#222222" stroke-width="4"/>
+<ellipse cx="313" cy="244" rx="30" ry="12" fill="#7A3E1D" stroke="#222222" stroke-width="4"/>
+<polygon points="348,244 388,244 388,304 348,304 348,288 372,288 372,260 348,260" fill="#F6E0C0" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="430" y="300" font-family="Noto Serif, serif" font-size="64" fill="#222222">+</text>
+<rect x="500" y="226" width="86" height="92" rx="10" fill="#F6E0C0" stroke="#222222" stroke-width="4"/>
+<ellipse cx="543" cy="244" rx="30" ry="12" fill="#7A3E1D" stroke="#222222" stroke-width="4"/>
+<polygon points="578,244 618,244 618,304 578,304 578,288 602,288 602,260 578,260" fill="#F6E0C0" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="680" y="300" font-family="Noto Serif, serif" font-size="64" fill="#222222">=</text>
+<text x="740" y="305" font-family="Noto Serif, serif" font-size="64" fill="#222222">18</text>
+</svg>

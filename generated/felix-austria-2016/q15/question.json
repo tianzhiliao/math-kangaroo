@@ -1,0 +1,50 @@
+{
+  "id": "q15",
+  "number": 15,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "The same cube is drawn in two positions. Its six faces are the shapes in the bottom row. Which shape is opposite the circle?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "square",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "triangle",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "plus",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "diamond",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "star",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q15_stem"
+  ],
+  "assets": [
+    {
+      "id": "q15_stem",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1400,
+      "height": 820
+    }
+  ]
+}

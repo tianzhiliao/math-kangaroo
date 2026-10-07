@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="640" viewBox="0 0 800 640">
+  <rect width="800" height="640" fill="#FFFFFF"/>
+  <defs>
+    <clipPath id="cC" clipPathUnits="userSpaceOnUse"><circle cx="300" cy="300" r="210"/></clipPath>
+    <clipPath id="cS" clipPathUnits="userSpaceOnUse"><rect x="380" y="140" width="340" height="340"/></clipPath>
+    <clipPath id="cT" clipPathUnits="userSpaceOnUse"><polygon points="200,520 500,80 680,560"/></clipPath>
+  </defs>
+  <circle cx="300" cy="300" r="210" fill="#F7C6CE"/>
+  <rect x="380" y="140" width="340" height="340" fill="#B9D7F5"/>
+  <polygon points="200,520 500,80 680,560" fill="#F8E7A8"/>
+  <g clip-path="url(#cC)"><g clip-path="url(#cS)"><rect width="800" height="640" fill="#D9C6F2"/></g></g>
+  <g clip-path="url(#cC)"><g clip-path="url(#cT)"><rect width="800" height="640" fill="#F8CBA8"/></g></g>
+  <g clip-path="url(#cS)"><g clip-path="url(#cT)"><rect width="800" height="640" fill="#C6E8C4"/></g></g>
+  <g clip-path="url(#cC)"><g clip-path="url(#cS)"><g clip-path="url(#cT)"><rect width="800" height="640" fill="#F3B6D0"/></g></g></g>
+  <path d="M 510.00,300.00 A 210.00,210.00 0 1 1 90.00,300.00 A 210.00,210.00 0 1 1 510.00,300.00 Z M 505.00,300.00 A 205.00,205.00 0 1 0 95.00,300.00 A 205.00,205.00 0 1 0 505.00,300.00 Z" fill="#222222" fill-rule="evenodd"/>
+  <path d="M 380,140 L 720,140 L 720,480 L 380,480 Z M 385.0,145.0 L 385.0,475.0 L 715.0,475.0 L 715.0,145.0 Z" fill="#222222" fill-rule="evenodd"/>
+  <path d="M 200.00,520.00 L 500.00,80.00 L 680.00,560.00 Z M 672.55,554.36 L 498.70,90.78 L 208.96,515.73 Z" fill="#222222" fill-rule="evenodd"/>
+  <text x="232" y="250" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="28" fill="#222222">2</text>
+  <text x="638" y="220" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="28" fill="#222222">9</text>
+  <text x="624" y="518" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="28" fill="#222222">4</text>
+  <text x="408" y="168" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="28" fill="#222222">8</text>
+  <text x="320" y="450" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="28" fill="#222222">11</text>
+  <text x="554" y="412" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="28" fill="#222222">7</text>
+  <text x="444" y="276" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="28" fill="#222222">3</text>
+</svg>

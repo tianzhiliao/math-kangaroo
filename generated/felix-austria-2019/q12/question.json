@@ -1,0 +1,28 @@
+{
+  "id": "q12",
+  "number": 12,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "White, grey and black squares make the pattern at the top. First Anni changes every black square to white. Then Bob changes every grey square to black. Finally Chris changes every white square to grey. Which picture do the squares show now?",
+  "answer": "C",
+  "choices": [
+    {"label": "A", "text": "grey, black, grey, black, grey, black, grey, black", "asset_refs": []},
+    {"label": "B", "text": "black, grey, black, grey, black, grey, black, grey", "asset_refs": []},
+    {"label": "C", "text": "grey, black, grey, grey, black, grey, black, grey", "asset_refs": []},
+    {"label": "D", "text": "grey, grey, black, grey, black, grey, grey, black", "asset_refs": []},
+    {"label": "E", "text": "white, grey, black, white, grey, black, grey, white", "asset_refs": []}
+  ],
+  "shared_asset_refs": ["q12_stem_01"],
+  "assets": [
+    {
+      "id": "q12_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 520,
+      "height": 460
+    }
+  ]
+}

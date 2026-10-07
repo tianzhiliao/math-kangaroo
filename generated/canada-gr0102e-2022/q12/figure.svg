@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="460" viewBox="0 0 980 460">
+<rect width="980" height="460" fill="#FFFFFF"/>
+<rect x="40" y="36" width="90" height="36" rx="6" fill="#5BA3E0" stroke="#222222" stroke-width="5"/>
+<text x="150" y="64" font-family="Noto Serif, serif" font-size="32" fill="#222222">tile</text>
+<rect x="160" y="160" width="70" height="70" fill="#FFF3D6" stroke="#222222" stroke-width="5"/>
+<text x="195.0" y="209.0" text-anchor="middle" font-family="Noto Serif, serif" font-size="36" fill="#222222">1</text>
+<rect x="170.0" y="130" width="50.0" height="22" rx="6" fill="#5BA3E0" stroke="#222222" stroke-width="5"/>
+<rect x="170.0" y="238" width="50.0" height="22" rx="6" fill="#5BA3E0" stroke="#222222" stroke-width="5"/>
+<rect x="130" y="170.0" width="22" height="50.0" rx="6" fill="#5BA3E0" stroke="#222222" stroke-width="5"/>
+<rect x="238" y="170.0" width="22" height="50.0" rx="6" fill="#5BA3E0" stroke="#222222" stroke-width="5"/>
+<rect x="520" y="130" width="112" height="112" fill="#FFF3D6" stroke="#222222" stroke-width="5"/>
+<text x="576.0" y="200.0" text-anchor="middle" font-family="Noto Serif, serif" font-size="36" fill="#222222">2</text>
+<rect x="530.0" y="100" width="41.0" height="22" rx="6" fill="#5BA3E0" stroke="#222222" stroke-width="5"/>
+<rect x="530.0" y="250" width="41.0" height="22" rx="6" fill="#5BA3E0" stroke="#222222" stroke-width="5"/>
+<rect x="581.0" y="100" width="41.0" height="22" rx="6" fill="#5BA3E0" stroke="#222222" stroke-width="5"/>
+<rect x="581.0" y="250" width="41.0" height="22" rx="6" fill="#5BA3E0" stroke="#222222" stroke-width="5"/>
+<rect x="490" y="140.0" width="22" height="41.0" rx="6" fill="#5BA3E0" stroke="#222222" stroke-width="5"/>
+<rect x="640" y="140.0" width="22" height="41.0" rx="6" fill="#5BA3E0" stroke="#222222" stroke-width="5"/>
+<rect x="490" y="191.0" width="22" height="41.0" rx="6" fill="#5BA3E0" stroke="#222222" stroke-width="5"/>
+<rect x="640" y="191.0" width="22" height="41.0" rx="6" fill="#5BA3E0" stroke="#222222" stroke-width="5"/>
+</svg>

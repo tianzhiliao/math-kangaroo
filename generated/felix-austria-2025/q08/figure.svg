@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="500" viewBox="0 0 1460 500">
+<rect width="1460" height="500" fill="#FFFFFF"/>
+<text x="360" y="46" text-anchor="middle" font-family="Liberation Serif" font-size="36" fill="#222222">1</text>
+<polygon points="360.0,400.0 332.0,462.0 388.0,462.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="60.0,150.0 660.0,150.0 660.0,170.0 60.0,170.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="60.0,300.0 290.0,300.0 276.0,334.0 74.0,334.0" fill="#8AA0B4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="68.0,186.0 80.0,186.0 80.0,286.0 68.0,286.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="270.0,186.0 282.0,186.0 282.0,286.0 270.0,286.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="430.0,300.0 660.0,300.0 646.0,334.0 444.0,334.0" fill="#8AA0B4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="438.0,186.0 450.0,186.0 450.0,286.0 438.0,286.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="640.0,186.0 652.0,186.0 652.0,286.0 640.0,286.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="122.3,269.6 132.1,261.4 142.0,259.8 146.9,256.5 153.4,261.4 161.6,259.8 171.5,264.7 173.1,271.2 168.2,276.2 171.5,284.4 160.0,282.7 156.7,286.0 132.1,286.0 128.8,281.1 120.6,279.4 119.0,272.9" fill="#C48A4A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="192.7,274.4 199.7,268.6 206.6,267.4 210.1,265.1 214.8,268.6 220.6,267.4 227.5,270.9 228.7,275.6 225.2,279.0 227.5,284.8 219.4,283.7 217.1,286.0 199.7,286.0 197.4,282.5 191.6,281.4 190.4,276.7" fill="#E2B56A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="495.0,214.0 595.0,214.0 595.0,286.0 495.0,286.0" fill="#F0D060" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="545.0" y="258" text-anchor="middle" font-family="Liberation Serif" font-size="28" fill="#222222">16 kg</text>
+<text x="1100" y="46" text-anchor="middle" font-family="Liberation Serif" font-size="36" fill="#222222">2</text>
+<polygon points="1100.0,400.0 1072.0,462.0 1128.0,462.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="800.0,150.0 1400.0,150.0 1400.0,170.0 800.0,170.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="800.0,300.0 1030.0,300.0 1016.0,334.0 814.0,334.0" fill="#8AA0B4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="808.0,186.0 820.0,186.0 820.0,286.0 808.0,286.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1010.0,186.0 1022.0,186.0 1022.0,286.0 1010.0,286.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1170.0,300.0 1400.0,300.0 1386.0,334.0 1184.0,334.0" fill="#8AA0B4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1178.0,186.0 1190.0,186.0 1190.0,286.0 1178.0,286.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1380.0,186.0 1392.0,186.0 1392.0,286.0 1380.0,286.0" fill="#5C6B7A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="835.0,269.6 844.8,261.4 854.7,259.8 859.6,256.5 866.1,261.4 874.3,259.8 884.2,264.7 885.8,271.2 880.9,276.2 884.2,284.4 872.7,282.7 869.4,286.0 844.8,286.0 841.5,281.1 833.3,279.4 831.7,272.9" fill="#C48A4A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="905.4,274.4 912.4,268.6 919.3,267.4 922.8,265.1 927.5,268.6 933.3,267.4 940.2,270.9 941.4,275.6 937.9,279.0 940.2,284.8 932.1,283.7 929.8,286.0 912.4,286.0 910.1,282.5 904.3,281.4 903.1,276.7" fill="#E2B56A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="960.0,274.4 967.0,268.6 973.9,267.4 977.4,265.1 982.1,268.6 987.9,267.4 994.8,270.9 996.0,275.6 992.5,279.0 994.8,284.8 986.7,283.7 984.4,286.0 967.0,286.0 964.7,282.5 958.9,281.4 957.7,276.7" fill="#E2B56A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1235.0,214.0 1335.0,214.0 1335.0,286.0 1235.0,286.0" fill="#F0D060" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="1285.0" y="258" text-anchor="middle" font-family="Liberation Serif" font-size="28" fill="#222222">21 kg</text>
+</svg>

@@ -1,0 +1,50 @@
+{
+  "id": "q15",
+  "number": 15,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Nora has 3 red, 2 blue and 1 green cube. She uses all of them to build the wall below. Cubes with the same colour do not touch along a side. Which colour is the cube with the question mark?",
+  "answer": "A",
+  "choices": [
+    {
+      "label": "A",
+      "text": "red",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "blue",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "green",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "yellow",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "This cannot be worked out for certain.",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q15_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q15_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 432,
+      "height": 312
+    }
+  ]
+}

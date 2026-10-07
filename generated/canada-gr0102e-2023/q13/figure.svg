@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 480" width="920" height="480">
+<polygon points="562.2,214.5 570.7,210.4 579.1,206.6 587.5,203.2 596.0,200.0 604.4,197.2 612.8,194.6 621.2,192.4 629.6,190.4 638.0,188.7 646.4,187.4 654.8,186.3 663.2,185.6 671.6,185.1 680.0,185.0 688.4,185.1 696.8,185.6 705.2,186.3 713.6,187.4 722.0,188.7 730.4,190.4 738.8,192.4 747.2,194.6 755.6,197.2 764.0,200.0 772.5,203.2 780.9,206.6 789.3,210.4 797.8,214.5 802.2,205.5 793.5,201.3 784.8,197.4 776.1,193.9 767.4,190.6 758.7,187.6 749.9,185.0 741.2,182.6 732.5,180.6 723.7,178.9 715.0,177.5 706.2,176.4 697.5,175.6 688.7,175.2 680.0,175.0 671.3,175.2 662.5,175.6 653.8,176.4 645.0,177.5 636.3,178.9 627.5,180.6 618.8,182.6 610.1,185.0 601.3,187.6 592.6,190.6 583.9,193.9 575.2,197.4 566.5,201.3 557.8,205.5" fill="#555555"/>
+<polygon points="557.8,234.5 566.5,238.7 575.2,242.6 583.9,246.1 592.6,249.4 601.3,252.4 610.1,255.0 618.8,257.4 627.5,259.4 636.3,261.1 645.0,262.5 653.8,263.6 662.5,264.4 671.3,264.8 680.0,265.0 688.7,264.8 697.5,264.4 706.2,263.6 715.0,262.5 723.7,261.1 732.5,259.4 741.2,257.4 749.9,255.0 758.7,252.4 767.4,249.4 776.1,246.1 784.8,242.6 793.5,238.7 802.2,234.5 797.8,225.5 789.3,229.6 780.9,233.4 772.5,236.8 764.0,240.0 755.6,242.8 747.2,245.4 738.8,247.6 730.4,249.6 722.0,251.3 713.6,252.6 705.2,253.7 696.8,254.4 688.4,254.9 680.0,255.0 671.6,254.9 663.2,254.4 654.8,253.7 646.4,252.6 638.0,251.3 629.6,249.6 621.2,247.6 612.8,245.4 604.4,242.8 596.0,240.0 587.5,236.8 579.1,233.4 570.7,229.6 562.2,225.5" fill="#555555"/>
+<text x="680" y="136" text-anchor="middle" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">3</text>
+<text x="680" y="320" text-anchor="middle" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">5</text>
+<line x1="120" y1="220" x2="320" y2="80" stroke="#555555" stroke-width="8" stroke-linecap="round"/>
+<text x="220.0" y="128.0" text-anchor="middle" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">4</text>
+<line x1="320" y1="80" x2="560" y2="220" stroke="#555555" stroke-width="8" stroke-linecap="round"/>
+<text x="440.0" y="128.0" text-anchor="middle" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">3</text>
+<line x1="120" y1="220" x2="320" y2="380" stroke="#555555" stroke-width="8" stroke-linecap="round"/>
+<text x="220.0" y="278.0" text-anchor="middle" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">2</text>
+<line x1="320" y1="380" x2="560" y2="220" stroke="#555555" stroke-width="8" stroke-linecap="round"/>
+<text x="440.0" y="278.0" text-anchor="middle" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">5</text>
+<circle cx="120" cy="220" r="28" fill="#F0E0A0" stroke="#222222" stroke-width="6"/>
+<text x="120" y="220" text-anchor="middle" dominant-baseline="central" font-family="Noto Serif, serif" font-size="28" font-weight="700" fill="#222222">A</text>
+<circle cx="320" cy="80" r="28" fill="#F0E0A0" stroke="#222222" stroke-width="6"/>
+<text x="320" y="80" text-anchor="middle" dominant-baseline="central" font-family="Noto Serif, serif" font-size="28" font-weight="700" fill="#222222">B</text>
+<circle cx="560" cy="220" r="28" fill="#F0E0A0" stroke="#222222" stroke-width="6"/>
+<text x="560" y="220" text-anchor="middle" dominant-baseline="central" font-family="Noto Serif, serif" font-size="28" font-weight="700" fill="#222222">E</text>
+<circle cx="320" cy="380" r="28" fill="#F0E0A0" stroke="#222222" stroke-width="6"/>
+<text x="320" y="380" text-anchor="middle" dominant-baseline="central" font-family="Noto Serif, serif" font-size="28" font-weight="700" fill="#222222">D</text>
+<circle cx="800" cy="220" r="28" fill="#F0E0A0" stroke="#222222" stroke-width="6"/>
+<text x="800" y="220" text-anchor="middle" dominant-baseline="central" font-family="Noto Serif, serif" font-size="28" font-weight="700" fill="#222222">C</text>
+</svg>

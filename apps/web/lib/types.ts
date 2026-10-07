@@ -85,6 +85,11 @@ export interface Question {
   choices: Choice[];
 }
 
+export interface GeneratedQuestion extends Question {
+  answer: string;
+  assets: AssetRecord[];
+}
+
 export interface Exam {
   exam_id: string;
   year: number;

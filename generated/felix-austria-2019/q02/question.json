@@ -1,0 +1,28 @@
+{
+  "id": "q02",
+  "number": 2,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "Which of the 5 pictures shows a part of this chain?",
+  "answer": "A",
+  "choices": [
+    {"label": "A", "text": "circle, square, circle", "asset_refs": []},
+    {"label": "B", "text": "square, square, triangle", "asset_refs": []},
+    {"label": "C", "text": "triangle, circle, square", "asset_refs": []},
+    {"label": "D", "text": "circle, circle, triangle", "asset_refs": []},
+    {"label": "E", "text": "triangle, square, circle", "asset_refs": []}
+  ],
+  "shared_asset_refs": ["q02_stem_01"],
+  "assets": [
+    {
+      "id": "q02_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1500,
+      "height": 640
+    }
+  ]
+}

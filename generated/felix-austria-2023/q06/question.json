@@ -1,0 +1,50 @@
+{
+  "id": "q06",
+  "number": 6,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "The butterfly on the right is missing a few pieces. Each piece costs the points shown on the left. How many points does Maya need to complete the butterfly?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "9",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "10",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "11",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "12",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "14",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q06_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q06_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 960,
+      "height": 500
+    }
+  ]
+}

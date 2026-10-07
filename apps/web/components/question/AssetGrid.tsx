@@ -5,10 +5,12 @@ export function AssetGrid({
   examId,
   assets,
   altPrefix,
+  srcFor,
 }: {
   examId: string;
   assets: AssetRecord[];
   altPrefix: string;
+  srcFor?: (asset: AssetRecord) => string;
 }) {
   if (assets.length === 0) return null;
   if (assets.length === 1) {
@@ -18,6 +20,7 @@ export function AssetGrid({
         asset={assets[0]}
         alt={`${altPrefix} figure`}
         variant="stem"
+        srcOverride={srcFor?.(assets[0])}
       />
     );
   }
@@ -30,6 +33,7 @@ export function AssetGrid({
           asset={a}
           alt={`${altPrefix} figure ${i + 1}`}
           variant="stem"
+          srcOverride={srcFor?.(a)}
         />
       ))}
     </div>

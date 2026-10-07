@@ -1,0 +1,50 @@
+{
+  "id": "q07",
+  "number": 7,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Each picture shows the card after one more quarter turn to the right. The first three turns are shown. What does the card look like after 10 turns?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q07_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q07_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1680,
+      "height": 720
+    }
+  ]
+}

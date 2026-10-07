@@ -1,0 +1,50 @@
+{
+  "id": "q11",
+  "number": 11,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "A sheet of paper is folded in half along the brown edge. A square hole and a round hole are punched. Which picture shows the sheet after it is unfolded?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q11_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q11_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 820,
+      "height": 760
+    }
+  ]
+}

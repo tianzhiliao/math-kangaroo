@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+<rect width="1000" height="560" fill="#FFFFFF"/>
+<rect id="p_0_0" x="40" y="36" width="58" height="58" fill="#7EB6E8" stroke="#222222" stroke-width="4"/>
+<rect id="p_0_1" x="98" y="36" width="58" height="58" fill="#F4EFE4" stroke="#222222" stroke-width="4"/>
+<rect id="p_0_2" x="156" y="36" width="58" height="58" fill="#7EB6E8" stroke="#222222" stroke-width="4"/>
+<rect id="p_0_3" x="214" y="36" width="58" height="58" fill="#7EB6E8" stroke="#222222" stroke-width="4"/>
+<rect id="p_1_0" x="40" y="94" width="58" height="58" fill="#F4EFE4" stroke="#222222" stroke-width="4"/>
+<rect id="p_1_1" x="98" y="94" width="58" height="58" fill="#F4EFE4" stroke="#222222" stroke-width="4"/>
+<rect id="p_1_2" x="156" y="94" width="58" height="58" fill="#7EB6E8" stroke="#222222" stroke-width="4"/>
+<rect id="p_1_3" x="214" y="94" width="58" height="58" fill="#7EB6E8" stroke="#222222" stroke-width="4"/>
+<rect id="p_2_0" x="40" y="152" width="58" height="58" fill="#7EB6E8" stroke="#222222" stroke-width="4"/>
+<rect id="p_2_1" x="98" y="152" width="58" height="58" fill="#F4EFE4" stroke="#222222" stroke-width="4"/>
+<rect id="p_2_2" x="156" y="152" width="58" height="58" fill="#F4EFE4" stroke="#222222" stroke-width="4"/>
+<rect id="p_2_3" x="214" y="152" width="58" height="58" fill="#7EB6E8" stroke="#222222" stroke-width="4"/>
+<text x="110" y="242" text-anchor="middle" font-family="Liberation Serif, serif" font-size="30" fill="#222222">A</text>
+<rect id="A0_0" x="40" y="258" width="36" height="36" fill="#F6C07A" stroke="#222222" stroke-width="4"/>
+<rect id="A0_1" x="40" y="294" width="36" height="36" fill="#F6C07A" stroke="#222222" stroke-width="4"/>
+<rect id="A0_2" x="40" y="330" width="36" height="36" fill="#F6C07A" stroke="#222222" stroke-width="4"/>
+<rect id="A1_0" x="112" y="380" width="36" height="36" fill="#8FD48A" stroke="#222222" stroke-width="4"/>
+<rect id="A1_1" x="148" y="380" width="36" height="36" fill="#8FD48A" stroke="#222222" stroke-width="4"/>
+<text x="300" y="242" text-anchor="middle" font-family="Liberation Serif, serif" font-size="30" fill="#222222">B</text>
+<rect id="B0_0" x="230" y="258" width="36" height="36" fill="#F6C07A" stroke="#222222" stroke-width="4"/>
+<rect id="B0_1" x="230" y="294" width="36" height="36" fill="#F6C07A" stroke="#222222" stroke-width="4"/>
+<rect id="B0_2" x="266" y="294" width="36" height="36" fill="#F6C07A" stroke="#222222" stroke-width="4"/>
+<rect id="B1_0" x="338" y="344" width="36" height="36" fill="#8FD48A" stroke="#222222" stroke-width="4"/>
+<rect id="B1_1" x="374" y="344" width="36" height="36" fill="#8FD48A" stroke="#222222" stroke-width="4"/>
+<text x="500" y="242" text-anchor="middle" font-family="Liberation Serif, serif" font-size="30" fill="#222222">C</text>
+<rect id="C0_0" x="430" y="258" width="36" height="36" fill="#F0A0C0" stroke="#222222" stroke-width="4"/>
+<rect id="C0_1" x="502" y="258" width="36" height="36" fill="#F0A0C0" stroke="#222222" stroke-width="4"/>
+<rect id="C0_2" x="430" y="294" width="36" height="36" fill="#F0A0C0" stroke="#222222" stroke-width="4"/>
+<rect id="C0_3" x="466" y="294" width="36" height="36" fill="#F0A0C0" stroke="#222222" stroke-width="4"/>
+<rect id="C0_4" x="502" y="294" width="36" height="36" fill="#F0A0C0" stroke="#222222" stroke-width="4"/>
+<text x="690" y="242" text-anchor="middle" font-family="Liberation Serif, serif" font-size="30" fill="#222222">D</text>
+<rect id="D0_0" x="620" y="258" width="36" height="36" fill="#F0A0C0" stroke="#222222" stroke-width="4"/>
+<rect id="D0_1" x="620" y="294" width="36" height="36" fill="#F0A0C0" stroke="#222222" stroke-width="4"/>
+<rect id="D0_2" x="620" y="330" width="36" height="36" fill="#F0A0C0" stroke="#222222" stroke-width="4"/>
+<rect id="D0_3" x="656" y="330" width="36" height="36" fill="#F0A0C0" stroke="#222222" stroke-width="4"/>
+<rect id="D0_4" x="692" y="330" width="36" height="36" fill="#F0A0C0" stroke="#222222" stroke-width="4"/>
+<text x="880" y="242" text-anchor="middle" font-family="Liberation Serif, serif" font-size="30" fill="#222222">E</text>
+<rect id="E0_0" x="810" y="258" width="36" height="36" fill="#F0A0C0" stroke="#222222" stroke-width="4"/>
+<rect id="E0_1" x="810" y="294" width="36" height="36" fill="#F0A0C0" stroke="#222222" stroke-width="4"/>
+<rect id="E0_2" x="846" y="294" width="36" height="36" fill="#F0A0C0" stroke="#222222" stroke-width="4"/>
+<rect id="E0_3" x="846" y="330" width="36" height="36" fill="#F0A0C0" stroke="#222222" stroke-width="4"/>
+<rect id="E0_4" x="882" y="330" width="36" height="36" fill="#F0A0C0" stroke="#222222" stroke-width="4"/>
+</svg>

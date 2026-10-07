@@ -1,0 +1,50 @@
+{
+  "id": "q05",
+  "number": 5,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "Four of the numbers 1, 3, 6, 8 and 9 are written into the boxes so that the calculation is correct. Which number was not used?",
+  "answer": "E",
+  "choices": [
+    {
+      "label": "A",
+      "text": "1",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "3",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "9",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q05_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q05_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 980,
+      "height": 280
+    }
+  ]
+}

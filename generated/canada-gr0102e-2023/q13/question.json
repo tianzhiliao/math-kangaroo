@@ -1,0 +1,50 @@
+{
+  "id": "q13",
+  "number": 13,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "The map shows five villages and the roads between them. The numbers are the lengths of the roads. Which two villages are the same distance apart no matter which roads you take?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "B and D",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "A and E",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "C and E",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "A and C",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "B and C",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q13_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q13_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 920,
+      "height": 480
+    }
+  ]
+}

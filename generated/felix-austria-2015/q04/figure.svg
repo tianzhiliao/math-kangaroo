@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+<rect width="1400" height="520" fill="#FFFFFF"/>
+<ellipse cx="190" cy="270" rx="125" ry="95" fill="#F7B6C2" stroke="#222222" stroke-width="11"/>
+<circle cx="72" cy="278" r="40" fill="#3E342C" stroke="#222222" stroke-width="11"/>
+<circle cx="162" cy="234" r="14" fill="#222222" stroke="#222222" stroke-width="2"/>
+<circle cx="226" cy="242" r="14" fill="#222222" stroke="#222222" stroke-width="2"/>
+<circle cx="154" cy="288" r="14" fill="#222222" stroke="#222222" stroke-width="2"/>
+<circle cx="218" cy="286" r="14" fill="#222222" stroke="#222222" stroke-width="2"/>
+<circle cx="190" cy="322" r="14" fill="#222222" stroke="#222222" stroke-width="2"/>
+<ellipse cx="520" cy="270" rx="125" ry="95" fill="#F6C48A" stroke="#222222" stroke-width="11"/>
+<circle cx="402" cy="278" r="40" fill="#3E342C" stroke="#222222" stroke-width="11"/>
+<circle cx="512" cy="234" r="14" fill="#222222" stroke="#222222" stroke-width="2"/>
+<circle cx="560" cy="274" r="14" fill="#222222" stroke="#222222" stroke-width="2"/>
+<circle cx="496" cy="302" r="14" fill="#222222" stroke="#222222" stroke-width="2"/>
+<ellipse cx="850" cy="270" rx="125" ry="95" fill="#F7E3A1" stroke="#222222" stroke-width="11"/>
+<circle cx="732" cy="278" r="40" fill="#3E342C" stroke="#222222" stroke-width="11"/>
+<circle cx="810" cy="238" r="14" fill="#222222" stroke="#222222" stroke-width="2"/>
+<circle cx="870" cy="230" r="14" fill="#222222" stroke="#222222" stroke-width="2"/>
+<circle cx="908" cy="262" r="14" fill="#222222" stroke="#222222" stroke-width="2"/>
+<circle cx="814" cy="290" r="14" fill="#222222" stroke="#222222" stroke-width="2"/>
+<circle cx="874" cy="288" r="14" fill="#222222" stroke="#222222" stroke-width="2"/>
+<circle cx="850" cy="324" r="14" fill="#222222" stroke="#222222" stroke-width="2"/>
+<ellipse cx="1180" cy="270" rx="125" ry="95" fill="#C9E4B0" stroke="#222222" stroke-width="11"/>
+<circle cx="1062" cy="278" r="40" fill="#3E342C" stroke="#222222" stroke-width="11"/>
+<circle cx="1164" cy="242" r="14" fill="#222222" stroke="#222222" stroke-width="2"/>
+<circle cx="1212" cy="294" r="14" fill="#222222" stroke="#222222" stroke-width="2"/>
+</svg>

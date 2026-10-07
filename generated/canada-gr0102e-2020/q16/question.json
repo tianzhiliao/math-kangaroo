@@ -1,0 +1,37 @@
+{
+  "id": "q16",
+  "number": 16,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Sam and Mia exchanged stickers. First, Sam gave Mia as many stickers as Mia had. Then, Mia gave Sam as many stickers as Sam had left. After this, they each had 8 stickers. How many stickers did Sam have at the beginning?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "10",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "12",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "14",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

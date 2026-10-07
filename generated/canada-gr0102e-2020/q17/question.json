@@ -1,0 +1,50 @@
+{
+  "id": "q17",
+  "number": 17,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Nora writes the numbers from 1 to 12 in a row, with no spaces between them. She then removes every even digit 0, 2, 4, 6 and 8. What digit is in the middle of the digits that are left?",
+  "answer": "E",
+  "choices": [
+    {
+      "label": "A",
+      "text": "1",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "3",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "5",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "7",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "9",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q17_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q17_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 784,
+      "height": 140
+    }
+  ]
+}

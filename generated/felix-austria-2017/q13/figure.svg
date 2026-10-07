@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1650" height="560" viewBox="0 0 1650 560">
+<rect width="1650" height="560" fill="#FFFFFF"/>
+<rect x="40.0" y="40.0" width="174.0" height="174.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="52.0" y="52.0" width="70.0" height="70.0" fill="#F7A8C4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="132.0" y="52.0" width="70.0" height="70.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="52.0" y="132.0" width="70.0" height="70.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="132.0" y="132.0" width="70.0" height="70.0" fill="#8FD18A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="30.0" y="250.0" width="240.0" height="128.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="42.0" y="262.0" width="48.0" height="48.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="98.0" y="262.0" width="48.0" height="48.0" fill="#F7A8C4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="154.0" y="262.0" width="48.0" height="48.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="210.0" y="262.0" width="48.0" height="48.0" fill="#F7A8C4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="42.0" y="318.0" width="48.0" height="48.0" fill="#8FD18A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="98.0" y="318.0" width="48.0" height="48.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="154.0" y="318.0" width="48.0" height="48.0" fill="#8FD18A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="210.0" y="318.0" width="48.0" height="48.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="150.0" y="430.0" fill="#222222" font-family="Noto Serif" font-size="42" font-weight="700" text-anchor="middle">A</text>
+<rect x="354.0" y="250.0" width="240.0" height="128.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="366.0" y="262.0" width="48.0" height="48.0" fill="#F7A8C4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="422.0" y="262.0" width="48.0" height="48.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="478.0" y="262.0" width="48.0" height="48.0" fill="#8FD18A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="534.0" y="262.0" width="48.0" height="48.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="366.0" y="318.0" width="48.0" height="48.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="422.0" y="318.0" width="48.0" height="48.0" fill="#8FD18A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="478.0" y="318.0" width="48.0" height="48.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="534.0" y="318.0" width="48.0" height="48.0" fill="#F7A8C4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="474.0" y="430.0" fill="#222222" font-family="Noto Serif" font-size="42" font-weight="700" text-anchor="middle">B</text>
+<rect x="678.0" y="250.0" width="240.0" height="128.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="690.0" y="262.0" width="48.0" height="48.0" fill="#F7A8C4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="746.0" y="262.0" width="48.0" height="48.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="802.0" y="262.0" width="48.0" height="48.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="858.0" y="262.0" width="48.0" height="48.0" fill="#F7A8C4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="690.0" y="318.0" width="48.0" height="48.0" fill="#8FD18A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="746.0" y="318.0" width="48.0" height="48.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="802.0" y="318.0" width="48.0" height="48.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="858.0" y="318.0" width="48.0" height="48.0" fill="#8FD18A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="798.0" y="430.0" fill="#222222" font-family="Noto Serif" font-size="42" font-weight="700" text-anchor="middle">C</text>
+<rect x="1002.0" y="250.0" width="240.0" height="128.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1014.0" y="262.0" width="48.0" height="48.0" fill="#F7A8C4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1070.0" y="262.0" width="48.0" height="48.0" fill="#F7A8C4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1126.0" y="262.0" width="48.0" height="48.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1182.0" y="262.0" width="48.0" height="48.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1014.0" y="318.0" width="48.0" height="48.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1070.0" y="318.0" width="48.0" height="48.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1126.0" y="318.0" width="48.0" height="48.0" fill="#8FD18A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1182.0" y="318.0" width="48.0" height="48.0" fill="#8FD18A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1122.0" y="430.0" fill="#222222" font-family="Noto Serif" font-size="42" font-weight="700" text-anchor="middle">D</text>
+<rect x="1326.0" y="250.0" width="240.0" height="128.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1338.0" y="262.0" width="48.0" height="48.0" fill="#F7A8C4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1394.0" y="262.0" width="48.0" height="48.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1450.0" y="262.0" width="48.0" height="48.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1506.0" y="262.0" width="48.0" height="48.0" fill="#8FD18A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1338.0" y="318.0" width="48.0" height="48.0" fill="#FFE08A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1394.0" y="318.0" width="48.0" height="48.0" fill="#8FD18A" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1450.0" y="318.0" width="48.0" height="48.0" fill="#F7A8C4" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1506.0" y="318.0" width="48.0" height="48.0" fill="#7ED0F2" stroke="#222222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1446.0" y="430.0" fill="#222222" font-family="Noto Serif" font-size="42" font-weight="700" text-anchor="middle">E</text>
+</svg>

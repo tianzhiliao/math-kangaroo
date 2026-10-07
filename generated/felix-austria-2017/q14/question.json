@@ -1,0 +1,37 @@
+{
+  "id": "q14",
+  "number": 14,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "A rabbit does 5 jumps in one minute. Then it rests for 2 minutes. How many minutes does it need to do 20 jumps?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "9",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "10",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "11",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "12",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

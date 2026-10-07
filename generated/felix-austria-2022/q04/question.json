@@ -1,0 +1,50 @@
+{
+  "id": "q04",
+  "number": 4,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "Each row of four squares must contain exactly two coins. Each column of four squares must also contain exactly two coins. On which square must one more coin be placed?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "square A",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "square B",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "square C",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "square D",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "square E",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q04_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q04_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 552,
+      "height": 552
+    }
+  ]
+}

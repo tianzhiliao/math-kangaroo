@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="680" viewBox="0 0 1000 680">
+<rect width="1000" height="680" fill="#FFFFFF"/>
+<text x="40" y="70" dominant-baseline="central" font-family="Noto Sans" font-size="32" font-weight="700" fill="#222222">Amy</text>
+<g transform="translate(280,70)"><circle r="20" fill="#F7C6CE" stroke="#222222" stroke-width="3"/></g>
+<g transform="translate(390,70)"><rect x="-18" y="-18" width="36" height="36" fill="#B9D7F5" stroke="#222222" stroke-width="3"/></g>
+<g transform="translate(500,70)"><polygon points="0.00,-22.00 5.29,-7.28 20.92,-6.80 8.56,2.78 12.93,17.80 0.00,9.00 -12.93,17.80 -8.56,2.78 -20.92,-6.80 -5.29,-7.28" fill="#C6E8C4" stroke="#222222" stroke-width="3" stroke-linejoin="round"/></g>
+<text x="40" y="180" dominant-baseline="central" font-family="Noto Sans" font-size="32" font-weight="700" fill="#222222">Ben</text>
+<g transform="translate(280,180)"><rect x="-18" y="-18" width="36" height="36" fill="#B9D7F5" stroke="#222222" stroke-width="3"/></g>
+<g transform="translate(390,180)"><polygon points="0.00,-24.00 20.78,12.00 -20.78,12.00" fill="#F8E7A8" stroke="#222222" stroke-width="3" stroke-linejoin="round"/></g>
+<g transform="translate(500,180)"><path d="M0,16 C-4,16 -22,2 -22,-8 C-22,-18 -10,-20 0,-10 C10,-20 22,-18 22,-8 C22,2 4,16 0,16 Z" fill="#F5A3C7" stroke="#222222" stroke-width="3" stroke-linejoin="round"/></g>
+<text x="40" y="290" dominant-baseline="central" font-family="Noto Sans" font-size="32" font-weight="700" fill="#222222">Cleo</text>
+<g transform="translate(280,290)"><polygon points="0.00,-22.00 5.29,-7.28 20.92,-6.80 8.56,2.78 12.93,17.80 0.00,9.00 -12.93,17.80 -8.56,2.78 -20.92,-6.80 -5.29,-7.28" fill="#C6E8C4" stroke="#222222" stroke-width="3" stroke-linejoin="round"/></g>
+<g transform="translate(390,290)"><path d="M0,16 C-4,16 -22,2 -22,-8 C-22,-18 -10,-20 0,-10 C10,-20 22,-18 22,-8 C22,2 4,16 0,16 Z" fill="#F5A3C7" stroke="#222222" stroke-width="3" stroke-linejoin="round"/></g>
+<g transform="translate(500,290)"><polygon points="0,-22 18,0 0,22 -18,0" fill="#E4C6F2" stroke="#222222" stroke-width="3" stroke-linejoin="round"/></g>
+<rect x="40" y="390" width="920" height="5" rx="2" fill="#222222"/>
+<text x="140" y="440" text-anchor="middle" font-family="Noto Sans" font-size="28" font-weight="700" fill="#222222">A</text>
+<g transform="translate(90,540)"><circle r="20" fill="#F7C6CE" stroke="#222222" stroke-width="3"/></g>
+<g transform="translate(145,540)"><rect x="-18" y="-18" width="36" height="36" fill="#B9D7F5" stroke="#222222" stroke-width="3"/></g>
+<g transform="translate(200,540)"><polygon points="0.00,-24.00 20.78,12.00 -20.78,12.00" fill="#F8E7A8" stroke="#222222" stroke-width="3" stroke-linejoin="round"/></g>
+<text x="330" y="440" text-anchor="middle" font-family="Noto Sans" font-size="28" font-weight="700" fill="#222222">B</text>
+<g transform="translate(280,540)"><rect x="-18" y="-18" width="36" height="36" fill="#B9D7F5" stroke="#222222" stroke-width="3"/></g>
+<g transform="translate(335,540)"><path d="M0,16 C-4,16 -22,2 -22,-8 C-22,-18 -10,-20 0,-10 C10,-20 22,-18 22,-8 C22,2 4,16 0,16 Z" fill="#F5A3C7" stroke="#222222" stroke-width="3" stroke-linejoin="round"/></g>
+<g transform="translate(390,540)"><polygon points="0,-22 18,0 0,22 -18,0" fill="#E4C6F2" stroke="#222222" stroke-width="3" stroke-linejoin="round"/></g>
+<text x="520" y="440" text-anchor="middle" font-family="Noto Sans" font-size="28" font-weight="700" fill="#222222">C</text>
+<g transform="translate(470,540)"><polygon points="0.00,-22.00 5.29,-7.28 20.92,-6.80 8.56,2.78 12.93,17.80 0.00,9.00 -12.93,17.80 -8.56,2.78 -20.92,-6.80 -5.29,-7.28" fill="#C6E8C4" stroke="#222222" stroke-width="3" stroke-linejoin="round"/></g>
+<g transform="translate(525,540)"><polygon points="0.00,-24.00 20.78,12.00 -20.78,12.00" fill="#F8E7A8" stroke="#222222" stroke-width="3" stroke-linejoin="round"/></g>
+<g transform="translate(580,540)"><polygon points="0,-22 18,0 0,22 -18,0" fill="#E4C6F2" stroke="#222222" stroke-width="3" stroke-linejoin="round"/></g>
+<text x="710" y="440" text-anchor="middle" font-family="Noto Sans" font-size="28" font-weight="700" fill="#222222">D</text>
+<g transform="translate(660,540)"><circle r="20" fill="#F7C6CE" stroke="#222222" stroke-width="3"/></g>
+<g transform="translate(715,540)"><path d="M0,16 C-4,16 -22,2 -22,-8 C-22,-18 -10,-20 0,-10 C10,-20 22,-18 22,-8 C22,2 4,16 0,16 Z" fill="#F5A3C7" stroke="#222222" stroke-width="3" stroke-linejoin="round"/></g>
+<g transform="translate(770,540)"><rect x="-18" y="-18" width="36" height="36" fill="#B9D7F5" stroke="#222222" stroke-width="3"/></g>
+<text x="900" y="440" text-anchor="middle" font-family="Noto Sans" font-size="28" font-weight="700" fill="#222222">E</text>
+<g transform="translate(850,540)"><circle r="20" fill="#F7C6CE" stroke="#222222" stroke-width="3"/></g>
+<g transform="translate(905,540)"><polygon points="0.00,-24.00 20.78,12.00 -20.78,12.00" fill="#F8E7A8" stroke="#222222" stroke-width="3" stroke-linejoin="round"/></g>
+<g transform="translate(960,540)"><polygon points="0,-22 18,0 0,22 -18,0" fill="#E4C6F2" stroke="#222222" stroke-width="3" stroke-linejoin="round"/></g>
+</svg>

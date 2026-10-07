@@ -1,0 +1,50 @@
+{
+  "id": "q03",
+  "number": 3,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "Start at the point marked O. Which letter can you reach?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "A",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "B",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "C",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "D",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "E",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q03_stem"
+  ],
+  "assets": [
+    {
+      "id": "q03_stem",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 680,
+      "height": 680
+    }
+  ]
+}

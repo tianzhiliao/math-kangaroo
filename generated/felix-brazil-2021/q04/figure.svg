@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="420" viewBox="0 0 480 420">
+<rect width="480" height="420" fill="#FFFFFF"/>
+<rect x="40" y="50" width="200" height="130" fill="#F4A3B5" fill-opacity="0.45" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="110" y="90" width="200" height="130" fill="#F8D56A" fill-opacity="0.45" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="80" y="140" width="200" height="130" fill="#8FCBF0" fill-opacity="0.45" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<rect x="160" y="70" width="200" height="130" fill="#A8D5A2" fill-opacity="0.45" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<circle cx="70" cy="80" r="9" fill="#222222" stroke="#FFFFFF" stroke-width="2"/>
+<text x="84" y="88" font-family="Liberation Serif, serif" font-size="28" fill="#222222">A</text>
+<circle cx="140" cy="120" r="9" fill="#222222" stroke="#FFFFFF" stroke-width="2"/>
+<text x="154" y="128" font-family="Liberation Serif, serif" font-size="28" fill="#222222">B</text>
+<circle cx="200" cy="110" r="9" fill="#222222" stroke="#FFFFFF" stroke-width="2"/>
+<text x="214" y="118" font-family="Liberation Serif, serif" font-size="28" fill="#222222">C</text>
+<circle cx="190" cy="160" r="9" fill="#222222" stroke="#FFFFFF" stroke-width="2"/>
+<text x="204" y="168" font-family="Liberation Serif, serif" font-size="28" fill="#222222">D</text>
+<circle cx="230" cy="200" r="9" fill="#222222" stroke="#FFFFFF" stroke-width="2"/>
+<text x="244" y="208" font-family="Liberation Serif, serif" font-size="28" fill="#222222">E</text>
+</svg>

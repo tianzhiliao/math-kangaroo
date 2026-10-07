@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="640" viewBox="0 0 1100 640">
+<rect width="1100" height="640" fill="#FFFFFF"/>
+<g transform="translate(90,100) rotate(12)">
+<polygon points="-50,0 0,-18 240,-18 240,18 0,18" fill="#E4CC90" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="-26,-3 -10,0 -26,3" fill="#333333"/>
+<text x="132.0" y="1" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="26" font-weight="700" fill="#222222">A</text>
+</g>
+<g transform="translate(70,230) rotate(20)">
+<polygon points="-50,0 0,-18 400,-18 400,18 0,18" fill="#E4CC90" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="-26,-3 -10,0 -26,3" fill="#333333"/>
+<text x="220.0" y="1" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="26" font-weight="700" fill="#222222">B</text>
+</g>
+<g transform="translate(620,70) rotate(62)">
+<polygon points="-50,0 0,-18 180,-18 180,18 0,18" fill="#E4CC90" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="-26,-3 -10,0 -26,3" fill="#333333"/>
+<text x="99.0" y="1" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="26" font-weight="700" fill="#222222">C</text>
+</g>
+<g transform="translate(560,470) rotate(-28)">
+<polygon points="-50,0 0,-18 310,-18 310,18 0,18" fill="#E4CC90" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="-26,-3 -10,0 -26,3" fill="#333333"/>
+<text x="170.5" y="1" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="26" font-weight="700" fill="#222222">D</text>
+</g>
+<g transform="translate(100,520) rotate(-6)">
+<polygon points="-50,0 0,-18 270,-18 270,18 0,18" fill="#E4CC90" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="-26,-3 -10,0 -26,3" fill="#333333"/>
+<text x="148.5" y="1" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans" font-size="26" font-weight="700" fill="#222222">E</text>
+</g>
+</svg>

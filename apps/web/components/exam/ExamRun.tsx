@@ -1,5 +1,6 @@
 "use client";
 
+import { GeneratedQuestionSection } from "@/components/question/GeneratedQuestionSection";
 import { QuestionCard } from "@/components/question/QuestionCard";
 import type { Exam } from "@/lib/types";
 import { computeExamScore } from "@/lib/scoring";
@@ -165,6 +166,10 @@ export function ExamRun({ exam }: { exam: Exam }) {
             disabled={submitted}
             showOutcome={submitted}
             correctLabel={correctLabel}
+          />
+          <GeneratedQuestionSection
+            examId={exam.exam_id}
+            questionId={question.id}
           />
         </div>
 

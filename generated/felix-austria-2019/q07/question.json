@@ -1,0 +1,17 @@
+{
+  "id": "q07",
+  "number": 7,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "A zoo keeps two kinds of camels. Bactrian camels have 2 humps and dromedaries have 1 hump. There are 9 camels altogether and they have 13 humps. How many bactrian camels are there?",
+  "answer": "A",
+  "choices": [
+    {"label": "A", "text": "4", "asset_refs": []},
+    {"label": "B", "text": "2", "asset_refs": []},
+    {"label": "C", "text": "3", "asset_refs": []},
+    {"label": "D", "text": "5", "asset_refs": []},
+    {"label": "E", "text": "6", "asset_refs": []}
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

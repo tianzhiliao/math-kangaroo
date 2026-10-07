@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="280" viewBox="0 0 1020 280">
+<rect width="1020" height="280" fill="#FFFFFF"/>
+<rect x="36" y="36" width="320" height="230" rx="10" fill="#8FB8E0" stroke="#222222" stroke-width="5"/>
+<rect x="70" y="100" width="216" height="72" fill="#FFFFFF" stroke="#222222" stroke-width="4"/>
+<rect x="140" y="106" width="4" height="60" fill="#C5D0DC"/>
+<rect x="212" y="106" width="4" height="60" fill="#C5D0DC"/>
+<rect x="420" y="100" width="72" height="72" rx="4" fill="#F6D58A" stroke="#222222" stroke-width="4"/>
+<text x="456.0" y="208" text-anchor="middle" font-family="Liberation Serif" font-size="32" fill="#222222">A</text>
+<rect x="530" y="100" width="72" height="72" rx="4" fill="#A8D5A2" stroke="#222222" stroke-width="4"/>
+<text x="566.0" y="208" text-anchor="middle" font-family="Liberation Serif" font-size="32" fill="#222222">B</text>
+<rect x="660" y="100" width="144" height="72" rx="4" fill="#F4B183" stroke="#222222" stroke-width="4"/>
+<text x="732.0" y="208" text-anchor="middle" font-family="Liberation Serif" font-size="32" fill="#222222">C</text>
+<rect x="860" y="100" width="72" height="72" rx="4" fill="#C5B3E6" stroke="#222222" stroke-width="4"/>
+<text x="896.0" y="208" text-anchor="middle" font-family="Liberation Serif" font-size="32" fill="#222222">D</text>
+</svg>

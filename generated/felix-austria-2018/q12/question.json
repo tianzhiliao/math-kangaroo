@@ -1,0 +1,37 @@
+{
+  "id": "q12",
+  "number": 12,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "You make two-digit numbers with the digits 2, 4, 5 or 9. Each number is bigger than 30 and smaller than 60. The two digits are different. How many different numbers can you make?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "5",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "7",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "8",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "q12",
+  "number": 12,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "23 birds are sitting in 5 trees. There are at least 2 birds in each tree. The number of birds is different in each tree. What is the largest possible number of birds in one tree?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "7",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "9",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "10",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "11",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

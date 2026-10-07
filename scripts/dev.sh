@@ -108,6 +108,7 @@ fi
 
 export FASTAPI_BASE_URL="${FASTAPI_BASE_URL:-http://127.0.0.1:8000}"
 export RELEASE_DATA_PATH="${RELEASE_DATA_PATH:-$ROOT_DIR/release-data}"
+export GENERATED_QUESTIONS_PATH="${GENERATED_QUESTIONS_PATH:-$ROOT_DIR/generated}"
 
 check_port_available 8000 "$API_URL" "FastAPI"
 check_port_available 3000 "$WEB_URL" "Next.js"

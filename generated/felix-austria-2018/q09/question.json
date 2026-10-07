@@ -1,0 +1,50 @@
+{
+  "id": "q09",
+  "number": 9,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Mia cuts a string into 3 pieces of the same length. She ties 1 knot in one piece, 2 knots in another, and 3 knots in the last. Each knot uses up some string, so that piece gets shorter. She then lays the pieces down. Which picture can she see?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "A",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "B",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "C",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "D",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "E",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q09_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q09_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1486,
+      "height": 236
+    }
+  ]
+}

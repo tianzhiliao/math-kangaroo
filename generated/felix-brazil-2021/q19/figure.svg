@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="180" viewBox="0 0 860 180">
+<rect width="860" height="180" fill="#FFFFFF"/>
+<rect x="40" y="40" width="110" height="90" rx="8" fill="#FFF6D8" stroke="#222222" stroke-width="6"/>
+<text x="95" y="98" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">2</text>
+<rect x="175" y="40" width="110" height="90" rx="8" fill="#FFF6D8" stroke="#222222" stroke-width="6"/>
+<text x="230" y="98" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">3</text>
+<rect x="310" y="40" width="110" height="90" rx="8" fill="#FFF6D8" stroke="#222222" stroke-width="6"/>
+<text x="365" y="98" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">4</text>
+<rect x="445" y="40" width="110" height="90" rx="8" fill="#FFF6D8" stroke="#222222" stroke-width="6"/>
+<text x="500" y="98" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">5</text>
+<rect x="580" y="40" width="110" height="90" rx="8" fill="#FFF6D8" stroke="#222222" stroke-width="6"/>
+<text x="635" y="98" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">6</text>
+<rect x="715" y="40" width="110" height="90" rx="8" fill="#FFF6D8" stroke="#222222" stroke-width="6"/>
+<text x="770" y="98" text-anchor="middle" font-family="Liberation Serif, serif" font-size="40" fill="#222222">8</text>
+</svg>

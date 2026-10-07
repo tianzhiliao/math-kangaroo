@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520">
+<rect width="760" height="520" fill="#FFFFFF"/>
+<circle cx="300" cy="240" r="130" fill="#ACD0EC" stroke="#222222" stroke-width="6"/>
+<circle cx="470" cy="250" r="125" fill="#F7C1D8" stroke="#222222" stroke-width="6"/>
+<circle cx="170" cy="360" r="85" fill="#FFE6A7" stroke="#222222" stroke-width="6"/>
+<circle cx="580" cy="370" r="95" fill="#C9B6E4" stroke="#222222" stroke-width="6"/>
+<circle cx="390" cy="105" r="72" fill="#9BD2AD" stroke="#222222" stroke-width="6"/>
+<ellipse cx="380" cy="282" rx="16" ry="12" fill="#3FA34D" stroke="#222222" stroke-width="6"/>
+<circle cx="372" cy="272" r="6" fill="#3FA34D" stroke="#222222" stroke-width="6"/>
+<circle cx="388" cy="272" r="6" fill="#3FA34D" stroke="#222222" stroke-width="6"/>
+<circle cx="372" cy="272" r="2.4" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+<circle cx="388" cy="272" r="2.4" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+<circle cx="372" cy="272" r="1.1" fill="#222222"/>
+<circle cx="388" cy="272" r="1.1" fill="#222222"/>
+</svg>

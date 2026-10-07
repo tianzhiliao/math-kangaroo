@@ -1,0 +1,37 @@
+{
+  "id": "q15",
+  "number": 15,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Pirates climb onto a ship one after another. The captain is exactly in the middle. He is the seventh pirate to climb on. How many pirates climb onto the ship?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "12",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "14",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "7",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "13",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "15",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

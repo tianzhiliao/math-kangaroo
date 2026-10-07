@@ -1,0 +1,37 @@
+{
+  "id": "q05",
+  "number": 5,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "Leo puts a sticker on every locker numbered from 8 to 26. How many lockers get a sticker?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "17",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "18",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "19",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "20",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "21",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

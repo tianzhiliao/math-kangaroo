@@ -1,0 +1,129 @@
+{
+  "exam_id": "felix-brazil-2020",
+  "questions": [
+    {
+      "id": "q01",
+      "status": "generated",
+      "answer": "D"
+    },
+    {
+      "id": "q02",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q03",
+      "status": "generated",
+      "answer": "B"
+    },
+    {
+      "id": "q04",
+      "status": "generated",
+      "answer": "C",
+      "no_figure": true
+    },
+    {
+      "id": "q05",
+      "status": "generated",
+      "answer": "E"
+    },
+    {
+      "id": "q06",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q07",
+      "status": "generated",
+      "answer": "B"
+    },
+    {
+      "id": "q08",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q09",
+      "status": "generated",
+      "answer": "D"
+    },
+    {
+      "id": "q10",
+      "status": "generated",
+      "answer": "A"
+    },
+    {
+      "id": "q11",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q12",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q13",
+      "status": "generated",
+      "answer": "E"
+    },
+    {
+      "id": "q14",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q15",
+      "status": "generated",
+      "answer": "D"
+    },
+    {
+      "id": "q16",
+      "status": "generated",
+      "answer": "B",
+      "no_figure": true
+    },
+    {
+      "id": "q17",
+      "status": "generated",
+      "answer": "E"
+    },
+    {
+      "id": "q18",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q19",
+      "status": "generated",
+      "answer": "D",
+      "no_figure": true
+    },
+    {
+      "id": "q20",
+      "status": "generated",
+      "answer": "A"
+    },
+    {
+      "id": "q21",
+      "status": "generated",
+      "answer": "C",
+      "no_figure": true
+    },
+    {
+      "id": "q22",
+      "status": "generated",
+      "answer": "E"
+    },
+    {
+      "id": "q23",
+      "status": "generated",
+      "answer": "E"
+    },
+    {
+      "id": "q24",
+      "status": "generated",
+      "answer": "C"
+    }
+  ]
+}

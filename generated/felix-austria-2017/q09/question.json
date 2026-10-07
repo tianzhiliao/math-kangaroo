@@ -1,0 +1,37 @@
+{
+  "id": "q09",
+  "number": 9,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "There are 9 children in a line. There are 4 children in front of Nina. Tom stands directly behind Nina. How many children are behind Tom?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "1",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "2",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "3",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "5",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

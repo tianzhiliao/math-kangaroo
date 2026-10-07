@@ -1,0 +1,50 @@
+{
+  "id": "q10",
+  "number": 10,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Nina writes a five-digit number. She covers each digit with a shape. She uses different shapes for different digits and the same shape for the same digits. Which number did Nina hide?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "48491",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "48484",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "48474",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "48874",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "47484",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q10_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q10_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 980,
+      "height": 280
+    }
+  ]
+}

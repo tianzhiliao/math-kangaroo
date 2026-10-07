@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
+<rect width="1000" height="300" fill="#FFFFFF"/>
+<text x="100" y="36" text-anchor="middle" font-family="Liberation Serif, serif" font-size="30" fill="#222222">A</text>
+<rect id="cake_A" x="45" y="120" width="110" height="90" rx="8" fill="#F6C07A" stroke="#222222" stroke-width="4"/>
+<ellipse id="frost_A" cx="100" cy="120" rx="62" ry="22" fill="#FFF6E8" stroke="#222222" stroke-width="4"/>
+<circle id="age_A" cx="100" cy="78" r="24" fill="#FFF3C4" stroke="#222222" stroke-width="4"/>
+<text x="100" y="88" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">7</text>
+<rect id="candle_A" x="96" y="48" width="8" height="22" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<text x="290" y="36" text-anchor="middle" font-family="Liberation Serif, serif" font-size="30" fill="#222222">B</text>
+<rect id="cake_B" x="235" y="120" width="110" height="90" rx="8" fill="#F09AB0" stroke="#222222" stroke-width="4"/>
+<ellipse id="frost_B" cx="290" cy="120" rx="62" ry="22" fill="#FFF6E8" stroke="#222222" stroke-width="4"/>
+<circle id="age_B" cx="290" cy="78" r="24" fill="#FFF3C4" stroke="#222222" stroke-width="4"/>
+<text x="290" y="88" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">6</text>
+<rect id="candle_B" x="286" y="48" width="8" height="22" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<text x="480" y="36" text-anchor="middle" font-family="Liberation Serif, serif" font-size="30" fill="#222222">C</text>
+<rect id="cake_C" x="425" y="120" width="110" height="90" rx="8" fill="#A9CEF0" stroke="#222222" stroke-width="4"/>
+<ellipse id="frost_C" cx="480" cy="120" rx="62" ry="22" fill="#FFF6E8" stroke="#222222" stroke-width="4"/>
+<circle id="age_C" cx="480" cy="78" r="24" fill="#FFF3C4" stroke="#222222" stroke-width="4"/>
+<text x="480" y="88" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">3</text>
+<rect id="candle_C" x="476" y="48" width="8" height="22" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<text x="670" y="36" text-anchor="middle" font-family="Liberation Serif, serif" font-size="30" fill="#222222">D</text>
+<rect id="cake_D" x="615" y="120" width="110" height="90" rx="8" fill="#B7E0A8" stroke="#222222" stroke-width="4"/>
+<ellipse id="frost_D" cx="670" cy="120" rx="62" ry="22" fill="#FFF6E8" stroke="#222222" stroke-width="4"/>
+<circle id="age_D" cx="670" cy="78" r="24" fill="#FFF3C4" stroke="#222222" stroke-width="4"/>
+<text x="670" y="88" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">5</text>
+<rect id="candle_D" x="666" y="48" width="8" height="22" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<text x="860" y="36" text-anchor="middle" font-family="Liberation Serif, serif" font-size="30" fill="#222222">E</text>
+<rect id="cake_E" x="805" y="120" width="110" height="90" rx="8" fill="#E6C6F2" stroke="#222222" stroke-width="4"/>
+<ellipse id="frost_E" cx="860" cy="120" rx="62" ry="22" fill="#FFF6E8" stroke="#222222" stroke-width="4"/>
+<circle id="age_E" cx="860" cy="78" r="24" fill="#FFF3C4" stroke="#222222" stroke-width="4"/>
+<text x="860" y="88" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">4</text>
+<rect id="candle_E" x="856" y="48" width="8" height="22" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+</svg>

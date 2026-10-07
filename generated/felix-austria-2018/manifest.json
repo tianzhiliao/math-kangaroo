@@ -1,0 +1,112 @@
+{
+  "exam_id": "felix-austria-2018",
+  "questions": [
+    {
+      "id": "q01",
+      "status": "generated",
+      "duplicate_of": null,
+      "answer": "C",
+      "error": null
+    },
+    {
+      "id": "q02",
+      "status": "generated",
+      "duplicate_of": null,
+      "answer": "D",
+      "error": null
+    },
+    {
+      "id": "q03",
+      "status": "generated",
+      "duplicate_of": null,
+      "answer": "C",
+      "error": null
+    },
+    {
+      "id": "q04",
+      "status": "generated",
+      "duplicate_of": null,
+      "answer": "B",
+      "error": null
+    },
+    {
+      "id": "q05",
+      "status": "generated",
+      "duplicate_of": null,
+      "answer": "D",
+      "error": null
+    },
+    {
+      "id": "q06",
+      "status": "generated",
+      "duplicate_of": null,
+      "answer": "A",
+      "error": null
+    },
+    {
+      "id": "q07",
+      "status": "generated",
+      "duplicate_of": null,
+      "answer": "C",
+      "error": null
+    },
+    {
+      "id": "q08",
+      "status": "generated",
+      "duplicate_of": null,
+      "answer": "C",
+      "error": null
+    },
+    {
+      "id": "q09",
+      "status": "generated",
+      "duplicate_of": null,
+      "answer": "D",
+      "error": null
+    },
+    {
+      "id": "q10",
+      "status": "generated",
+      "duplicate_of": null,
+      "answer": "B",
+      "error": null
+    },
+    {
+      "id": "q11",
+      "status": "generated",
+      "duplicate_of": null,
+      "answer": "D",
+      "error": null
+    },
+    {
+      "id": "q12",
+      "status": "generated",
+      "duplicate_of": null,
+      "answer": "D",
+      "error": null,
+      "no_figure": true
+    },
+    {
+      "id": "q13",
+      "status": "generated",
+      "duplicate_of": null,
+      "answer": "E",
+      "error": null,
+      "no_figure": true
+    },
+    {
+      "id": "q14",
+      "status": "generated",
+      "duplicate_of": null,
+      "answer": "D",
+      "error": null
+    },
+    {
+      "id": "q15",
+      "status": "generated",
+      "duplicate_of": null,
+      "answer": "D",
+      "error": null
+    }
+  ]
+}

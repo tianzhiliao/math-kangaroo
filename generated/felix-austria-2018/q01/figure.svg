@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700">
+<rect width="1000" height="700" fill="#FFFFFF"/>
+<ellipse id="bug1" cx="180" cy="540" rx="78" ry="70" fill="#F00000" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<circle cx="180" cy="500" r="22" fill="#222222"/>
+<circle cx="170" cy="496" r="6" fill="#F7E7A3" stroke="#222222" stroke-width="2"/>
+<circle cx="190" cy="496" r="6" fill="#F7E7A3" stroke="#222222" stroke-width="2"/>
+<circle cx="180" cy="562" r="12" fill="#222222"/>
+<ellipse id="bug2" cx="180" cy="180" rx="78" ry="70" fill="#F00000" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<circle cx="180" cy="140" r="22" fill="#222222"/>
+<circle cx="170" cy="136" r="6" fill="#F7E7A3" stroke="#222222" stroke-width="2"/>
+<circle cx="190" cy="136" r="6" fill="#F7E7A3" stroke="#222222" stroke-width="2"/>
+<circle cx="156" cy="206" r="12" fill="#222222"/>
+<circle cx="204" cy="206" r="12" fill="#222222"/>
+<ellipse id="bug3" cx="500" cy="180" rx="78" ry="70" fill="#F00000" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<circle cx="500" cy="140" r="22" fill="#222222"/>
+<circle cx="490" cy="136" r="6" fill="#F7E7A3" stroke="#222222" stroke-width="2"/>
+<circle cx="510" cy="136" r="6" fill="#F7E7A3" stroke="#222222" stroke-width="2"/>
+<circle cx="500" cy="188" r="12" fill="#222222"/>
+<circle cx="474" cy="216" r="12" fill="#222222"/>
+<circle cx="526" cy="216" r="12" fill="#222222"/>
+<ellipse id="bug4" cx="820" cy="180" rx="78" ry="70" fill="#F00000" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<circle cx="820" cy="140" r="22" fill="#222222"/>
+<circle cx="810" cy="136" r="6" fill="#F7E7A3" stroke="#222222" stroke-width="2"/>
+<circle cx="830" cy="136" r="6" fill="#F7E7A3" stroke="#222222" stroke-width="2"/>
+<circle cx="798" cy="190" r="12" fill="#222222"/>
+<circle cx="842" cy="190" r="12" fill="#222222"/>
+<circle cx="798" cy="220" r="12" fill="#222222"/>
+<circle cx="842" cy="220" r="12" fill="#222222"/>
+<ellipse id="bug5" cx="820" cy="540" rx="78" ry="70" fill="#F00000" stroke="#222222" stroke-width="6" stroke-linejoin="round"/>
+<circle cx="820" cy="500" r="22" fill="#222222"/>
+<circle cx="810" cy="496" r="6" fill="#F7E7A3" stroke="#222222" stroke-width="2"/>
+<circle cx="830" cy="496" r="6" fill="#F7E7A3" stroke="#222222" stroke-width="2"/>
+<circle cx="820" cy="568" r="12" fill="#222222"/>
+<circle cx="794" cy="548" r="12" fill="#222222"/>
+<circle cx="846" cy="548" r="12" fill="#222222"/>
+<circle cx="794" cy="588" r="12" fill="#222222"/>
+<circle cx="846" cy="588" r="12" fill="#222222"/>
+</svg>

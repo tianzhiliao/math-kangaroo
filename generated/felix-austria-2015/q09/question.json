@@ -1,0 +1,37 @@
+{
+  "id": "q09",
+  "number": 9,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "It takes Sara 15 minutes to cycle one third of the way to school. How long does the whole ride take?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "15 minutes",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "30 minutes",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "45 minutes",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "1 hour",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "1 hour 15 minutes",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

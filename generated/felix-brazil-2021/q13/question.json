@@ -1,0 +1,50 @@
+{
+  "id": "q13",
+  "number": 13,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Tom encodes words using the columns of the board. For example, the word BITE has the code 1 2 3 3. What word has the code 1 2 4 3?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "HOME",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "SHIP",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "BIKE",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "STAR",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "NEST",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q13_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q13_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 520,
+      "height": 500
+    }
+  ]
+}

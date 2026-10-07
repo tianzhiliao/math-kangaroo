@@ -1,0 +1,37 @@
+{
+  "id": "q11",
+  "number": 11,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "How many numbers, which are only allowed to contain the digits 2, 4 or 5, are bigger than 20 and smaller than 45? The digits can be used more than once in the numbers.",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "3",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "5",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "7",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

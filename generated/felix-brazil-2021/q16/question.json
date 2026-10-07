@@ -1,0 +1,37 @@
+{
+  "id": "q16",
+  "number": 16,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "The kangaroo had two branches for lunch. Each branch had 8 leaves. The kangaroo ate some leaves from one branch. Then, from the second branch, it ate as many leaves as were left on the first branch. How many leaves in total were left on the two branches?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "12",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "16",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

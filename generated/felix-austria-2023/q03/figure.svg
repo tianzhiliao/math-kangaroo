@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="300" viewBox="0 0 980 300">
+<rect width="980" height="300" fill="#FFFFFF"/>
+<text x="130" y="36" text-anchor="middle" font-family="Liberation Serif, serif" font-size="32" fill="#222222">A</text>
+<path id="bowl_A" d="M 58 118 Q 52 250 130 258 Q 208 250 202 118 Z" fill="#D5DEE8" stroke="#6A7C96" stroke-width="4" stroke-linejoin="round"/>
+<rect id="rim_A" x="52" y="100" width="156" height="22" rx="11" fill="#6A7C96" stroke="#222222" stroke-width="4"/>
+<circle id="ball_A_0" cx="96" cy="160" r="26" fill="#F0E020" stroke="#222222" stroke-width="4"/>
+<text x="96" y="170" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">1</text>
+<circle id="ball_A_1" cx="164" cy="160" r="26" fill="#7FE4EC" stroke="#222222" stroke-width="4"/>
+<text x="164" y="170" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">6</text>
+<circle id="ball_A_2" cx="96" cy="220" r="26" fill="#34C46A" stroke="#222222" stroke-width="4"/>
+<text x="96" y="230" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">4</text>
+<circle id="ball_A_3" cx="164" cy="220" r="26" fill="#F04848" stroke="#222222" stroke-width="4"/>
+<text x="164" y="230" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">5</text>
+<text x="310" y="36" text-anchor="middle" font-family="Liberation Serif, serif" font-size="32" fill="#222222">B</text>
+<path id="bowl_B" d="M 238 118 Q 232 250 310 258 Q 388 250 382 118 Z" fill="#D5DEE8" stroke="#6A7C96" stroke-width="4" stroke-linejoin="round"/>
+<rect id="rim_B" x="232" y="100" width="156" height="22" rx="11" fill="#6A7C96" stroke="#222222" stroke-width="4"/>
+<circle id="ball_B_0" cx="276" cy="160" r="26" fill="#F0E020" stroke="#222222" stroke-width="4"/>
+<text x="276" y="170" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">2</text>
+<circle id="ball_B_1" cx="344" cy="160" r="26" fill="#7FE4EC" stroke="#222222" stroke-width="4"/>
+<text x="344" y="170" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">3</text>
+<circle id="ball_B_2" cx="276" cy="220" r="26" fill="#34C46A" stroke="#222222" stroke-width="4"/>
+<text x="276" y="230" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">8</text>
+<circle id="ball_B_3" cx="344" cy="220" r="26" fill="#F04848" stroke="#222222" stroke-width="4"/>
+<text x="344" y="230" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">4</text>
+<text x="490" y="36" text-anchor="middle" font-family="Liberation Serif, serif" font-size="32" fill="#222222">C</text>
+<path id="bowl_C" d="M 418 118 Q 412 250 490 258 Q 568 250 562 118 Z" fill="#D5DEE8" stroke="#6A7C96" stroke-width="4" stroke-linejoin="round"/>
+<rect id="rim_C" x="412" y="100" width="156" height="22" rx="11" fill="#6A7C96" stroke="#222222" stroke-width="4"/>
+<circle id="ball_C_0" cx="456" cy="160" r="26" fill="#F0E020" stroke="#222222" stroke-width="4"/>
+<text x="456" y="170" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">9</text>
+<circle id="ball_C_1" cx="524" cy="160" r="26" fill="#7FE4EC" stroke="#222222" stroke-width="4"/>
+<text x="524" y="170" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">1</text>
+<circle id="ball_C_2" cx="456" cy="220" r="26" fill="#34C46A" stroke="#222222" stroke-width="4"/>
+<text x="456" y="230" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">2</text>
+<circle id="ball_C_3" cx="524" cy="220" r="26" fill="#F04848" stroke="#222222" stroke-width="4"/>
+<text x="524" y="230" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">6</text>
+<text x="670" y="36" text-anchor="middle" font-family="Liberation Serif, serif" font-size="32" fill="#222222">D</text>
+<path id="bowl_D" d="M 598 118 Q 592 250 670 258 Q 748 250 742 118 Z" fill="#D5DEE8" stroke="#6A7C96" stroke-width="4" stroke-linejoin="round"/>
+<rect id="rim_D" x="592" y="100" width="156" height="22" rx="11" fill="#6A7C96" stroke="#222222" stroke-width="4"/>
+<circle id="ball_D_0" cx="636" cy="160" r="26" fill="#F0E020" stroke="#222222" stroke-width="4"/>
+<text x="636" y="170" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">5</text>
+<circle id="ball_D_1" cx="704" cy="160" r="26" fill="#7FE4EC" stroke="#222222" stroke-width="4"/>
+<text x="704" y="170" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">5</text>
+<circle id="ball_D_2" cx="636" cy="220" r="26" fill="#34C46A" stroke="#222222" stroke-width="4"/>
+<text x="636" y="230" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">3</text>
+<circle id="ball_D_3" cx="704" cy="220" r="26" fill="#F04848" stroke="#222222" stroke-width="4"/>
+<text x="704" y="230" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">4</text>
+<text x="850" y="36" text-anchor="middle" font-family="Liberation Serif, serif" font-size="32" fill="#222222">E</text>
+<path id="bowl_E" d="M 778 118 Q 772 250 850 258 Q 928 250 922 118 Z" fill="#D5DEE8" stroke="#6A7C96" stroke-width="4" stroke-linejoin="round"/>
+<rect id="rim_E" x="772" y="100" width="156" height="22" rx="11" fill="#6A7C96" stroke="#222222" stroke-width="4"/>
+<circle id="ball_E_0" cx="816" cy="160" r="26" fill="#F0E020" stroke="#222222" stroke-width="4"/>
+<text x="816" y="170" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">7</text>
+<circle id="ball_E_1" cx="884" cy="160" r="26" fill="#7FE4EC" stroke="#222222" stroke-width="4"/>
+<text x="884" y="170" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">2</text>
+<circle id="ball_E_2" cx="816" cy="220" r="26" fill="#34C46A" stroke="#222222" stroke-width="4"/>
+<text x="816" y="230" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">3</text>
+<circle id="ball_E_3" cx="884" cy="220" r="26" fill="#F04848" stroke="#222222" stroke-width="4"/>
+<text x="884" y="230" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" font-weight="700" fill="#222222">4</text>
+</svg>

@@ -1,0 +1,50 @@
+{
+  "id": "q06",
+  "number": 6,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Lea sticks black and white squares on the inside of a window and sees the big pattern. Which pattern is seen from the outside?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q06_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q06_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 980,
+      "height": 620
+    }
+  ]
+}

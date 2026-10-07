@@ -1,0 +1,50 @@
+{
+  "id": "q14",
+  "number": 14,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Five digits are hidden by shapes. The same shape always hides the same digit, and different shapes hide different digits. Which number is hidden?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "36161",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "36364",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "26164",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "36164",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "36166",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q14_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q14_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 980,
+      "height": 520
+    }
+  ]
+}

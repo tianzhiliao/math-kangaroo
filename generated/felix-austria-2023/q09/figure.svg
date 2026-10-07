@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="240" viewBox="0 0 980 240">
+<rect width="980" height="240" fill="#FFFFFF"/>
+<circle id="m0" cx="110" cy="120" r="72" fill="#FFF3C4" stroke="#222222" stroke-width="6"/>
+<text x="110" y="136" text-anchor="middle" font-family="Liberation Serif, serif" font-size="54" fill="#222222">10</text>
+<circle id="m1" cx="340" cy="120" r="72" fill="#C9E4F8" stroke="#222222" stroke-width="6"/>
+<text x="340" y="136" text-anchor="middle" font-family="Liberation Serif, serif" font-size="54" fill="#222222">?</text>
+<circle id="m2" cx="590" cy="120" r="72" fill="#C9E4F8" stroke="#222222" stroke-width="6"/>
+<text x="590" y="136" text-anchor="middle" font-family="Liberation Serif, serif" font-size="54" fill="#222222">?</text>
+<circle id="m3" cx="820" cy="120" r="72" fill="#FFF3C4" stroke="#222222" stroke-width="6"/>
+<text x="820" y="136" text-anchor="middle" font-family="Liberation Serif, serif" font-size="54" fill="#222222">2</text>
+<text x="225" y="138" text-anchor="middle" font-family="Liberation Serif, serif" font-size="54" fill="#222222">−</text>
+<text x="465" y="138" text-anchor="middle" font-family="Liberation Serif, serif" font-size="54" fill="#222222">=</text>
+<text x="705" y="138" text-anchor="middle" font-family="Liberation Serif, serif" font-size="54" fill="#222222">+</text>
+</svg>

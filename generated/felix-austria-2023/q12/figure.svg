@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="420" viewBox="0 0 1040 420">
+<rect width="1040" height="420" fill="#FFFFFF"/>
+<polygon id="sample" points="50,70 50,190 170,190" fill="#FFF3C4" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<circle id="sample_dot" cx="74" cy="166" r="10" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<text x="94.0" y="270" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">A</text>
+<polygon id="A0a" points="40,280 40,316 76,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon id="A0b" points="40,280 76,280 76,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="A0d0" cx="54" cy="302" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<circle id="A0d1" cx="62" cy="294" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<polygon id="A1a" points="76,280 76,316 112,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon id="A1b" points="76,280 112,280 112,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="A1d0" cx="90" cy="302" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<circle id="A1d1" cx="98" cy="294" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<polygon id="A2a" points="112,280 112,316 148,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon id="A2b" points="112,280 148,280 148,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="A2d0" cx="126" cy="302" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<circle id="A2d1" cx="134" cy="294" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<text x="226.0" y="270" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">B</text>
+<polygon id="B0a" points="172,280 172,316 208,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon id="B0b" points="172,280 208,280 208,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="B0d0" cx="186" cy="294" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<circle id="B0d1" cx="194" cy="302" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<polygon id="B1a" points="208,280 208,316 244,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon id="B1b" points="208,280 244,280 244,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="B1d0" cx="222" cy="294" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<circle id="B1d1" cx="230" cy="302" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<polygon id="B2a" points="244,280 244,316 280,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon id="B2b" points="244,280 280,280 280,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="B2d0" cx="258" cy="294" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<circle id="B2d1" cx="266" cy="302" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<text x="340.0" y="270" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">C</text>
+<polygon id="C0a" points="304,280 304,316 340,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon id="C0b" points="304,280 340,280 340,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="C0d0" cx="318" cy="302" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<circle id="C0d1" cx="326" cy="294" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<polygon id="C1a" points="340,280 340,316 376,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon id="C1b" points="340,280 376,280 376,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="C1d0" cx="354" cy="302" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<circle id="C1d1" cx="362" cy="294" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<text x="472.0" y="270" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">D</text>
+<polygon id="D0a" points="400,280 400,316 436,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon id="D0b" points="400,280 436,280 436,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="D0d0" cx="414" cy="302" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<circle id="D0d1" cx="422" cy="294" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<polygon id="D1a" points="436,280 436,316 472,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon id="D1b" points="436,280 472,280 472,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="D1d0" cx="450" cy="302" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<circle id="D1d1" cx="458" cy="294" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<polygon id="D2a" points="472,280 472,316 508,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon id="D2b" points="472,280 508,280 508,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="D2d0" cx="486" cy="302" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<circle id="D2d1" cx="494" cy="294" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<polygon id="D3a" points="508,280 508,316 544,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon id="D3b" points="508,280 544,280 544,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="D3d0" cx="522" cy="302" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<circle id="D3d1" cx="530" cy="294" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<text x="622.0" y="270" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">E</text>
+<polygon id="E0a" points="568,280 568,316 604,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon id="E0b" points="568,280 604,280 604,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="E0d0" cx="586.0" cy="298.0" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<polygon id="E1a" points="604,280 604,316 640,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon id="E1b" points="604,280 640,280 640,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="E1d0" cx="622.0" cy="298.0" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+<polygon id="E2a" points="640,280 640,316 676,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon id="E2b" points="640,280 676,280 676,316" fill="#FFF3C4" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="E2d0" cx="658.0" cy="298.0" r="6" fill="#F08A24" stroke="#222222" stroke-width="2"/>
+</svg>

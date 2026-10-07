@@ -1,0 +1,37 @@
+{
+  "id": "q11",
+  "number": 11,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Nora came fourth in a singing contest. 3 singers came between her and the last singer. How many singers took part in the contest?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "5",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "7",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "9",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

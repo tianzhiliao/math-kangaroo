@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="620" viewBox="0 0 760 620">
+<rect width="760" height="620" fill="#FFFFFF"/>
+<rect x="40.0" y="36.0" width="132.0" height="132.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="106.0" y="118.0" fill="#222222" font-family="Noto Serif" font-size="46" font-weight="700" text-anchor="middle">+</text>
+<rect x="190.0" y="36.0" width="132.0" height="132.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="256.0" y="118.0" fill="#222222" font-family="Noto Serif" font-size="46" font-weight="700" text-anchor="middle">3</text>
+<rect x="340.0" y="36.0" width="132.0" height="132.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="406.0" y="118.0" fill="#222222" font-family="Noto Serif" font-size="46" font-weight="700" text-anchor="middle">6</text>
+<rect x="490.0" y="36.0" width="132.0" height="132.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="556.0" y="118.0" fill="#222222" font-family="Noto Serif" font-size="46" font-weight="700" text-anchor="middle">★</text>
+<rect x="40.0" y="186.0" width="132.0" height="132.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="106.0" y="268.0" fill="#222222" font-family="Noto Serif" font-size="46" font-weight="700" text-anchor="middle">2</text>
+<rect x="190.0" y="186.0" width="132.0" height="132.0" fill="#D9F3D4" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="256.0" y="268.0" fill="#222222" font-family="Noto Serif" font-size="46" font-weight="700" text-anchor="middle">5</text>
+<rect x="340.0" y="186.0" width="132.0" height="132.0" fill="#F8D5E4" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="406.0" y="268.0" fill="#222222" font-family="Noto Serif" font-size="46" font-weight="700" text-anchor="middle">8</text>
+<rect x="490.0" y="186.0" width="132.0" height="132.0" fill="#E7F0FA" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="556.0" y="268.0" fill="#222222" font-family="Noto Serif" font-size="46" font-weight="700" text-anchor="middle">11</text>
+<rect x="40.0" y="336.0" width="132.0" height="132.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="106.0" y="418.0" fill="#222222" font-family="Noto Serif" font-size="46" font-weight="700" text-anchor="middle">5</text>
+<rect x="190.0" y="336.0" width="132.0" height="132.0" fill="#F8D5E4" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="256.0" y="418.0" fill="#222222" font-family="Noto Serif" font-size="46" font-weight="700" text-anchor="middle">8</text>
+<rect x="340.0" y="336.0" width="132.0" height="132.0" fill="#E7F0FA" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="406.0" y="418.0" fill="#222222" font-family="Noto Serif" font-size="46" font-weight="700" text-anchor="middle">11</text>
+<rect x="490.0" y="336.0" width="132.0" height="132.0" fill="#FFF3C9" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="556.0" y="418.0" fill="#222222" font-family="Noto Serif" font-size="46" font-weight="700" text-anchor="middle">14</text>
+<rect x="40.0" y="486.0" width="132.0" height="132.0" fill="#F4F7FB" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="106.0" y="568.0" fill="#222222" font-family="Noto Serif" font-size="46" font-weight="700" text-anchor="middle">8</text>
+<rect x="190.0" y="486.0" width="132.0" height="132.0" fill="#E7F0FA" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="256.0" y="568.0" fill="#222222" font-family="Noto Serif" font-size="46" font-weight="700" text-anchor="middle">11</text>
+<rect x="340.0" y="486.0" width="132.0" height="132.0" fill="#FFF3C9" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="406.0" y="568.0" fill="#222222" font-family="Noto Serif" font-size="46" font-weight="700" text-anchor="middle">14</text>
+<rect x="490.0" y="486.0" width="132.0" height="132.0" fill="#D9F3D4" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="556.0" y="568.0" fill="#222222" font-family="Noto Serif" font-size="46" font-weight="700" text-anchor="middle">17</text>
+</svg>

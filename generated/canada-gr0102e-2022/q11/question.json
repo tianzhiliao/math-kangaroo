@@ -1,0 +1,50 @@
+{
+  "id": "q11",
+  "number": 11,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Some shapes are drawn on a piece of paper. The paper is folded along the red line. How many shapes on the left will land exactly on a shape on the right?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "one",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "two",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "three",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "four",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "five",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q11_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q11_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 860,
+      "height": 540
+    }
+  ]
+}

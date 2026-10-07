@@ -1,0 +1,37 @@
+{
+  "id": "q11",
+  "number": 11,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Pia eats 2 berries on Monday, Wednesday and Friday. She eats 4 berries on Tuesday and Thursday. She eats no berries on Saturday or Sunday. How many berries does Pia eat in two weeks?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "14",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "20",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "24",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "28",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "32",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

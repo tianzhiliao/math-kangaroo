@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<rect width="1200" height="360" fill="#FFFFFF"/>
+<circle cx="313.0" cy="68.0" r="26.0" fill="#EF9A9A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<rect x="371.0" y="44" width="48" height="48" fill="#90CAF9" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="477.0,44 453.0,92 501.0,92" fill="#FFE082" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="559.0,42 585.0,68.0 559.0,94 533.0,68.0" fill="#A5D6A7" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="641.0" cy="68.0" rx="28.0" ry="16.0" fill="#CE93D8" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="723.0" cy="68.0" r="26.0" fill="#EF9A9A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<rect x="781.0" y="44" width="48" height="48" fill="#90CAF9" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="887.0,44 863.0,92 911.0,92" fill="#FFE082" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="264.0" y="200" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">A</text>
+<circle cx="225.0" cy="242.0" r="26.0" fill="#EF9A9A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<rect x="279.0" y="218" width="48" height="48" fill="#90CAF9" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="432.0" y="200" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">B</text>
+<polygon points="393.0,216 419.0,242.0 393.0,268 367.0,242.0" fill="#A5D6A7" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="471.0" cy="242.0" rx="28.0" ry="16.0" fill="#CE93D8" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="600.0" y="200" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">C</text>
+<ellipse cx="561.0" cy="242.0" rx="28.0" ry="16.0" fill="#CE93D8" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="639.0" cy="242.0" r="26.0" fill="#EF9A9A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="768.0" y="200" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">D</text>
+<polygon points="729.0,218 705.0,266 753.0,266" fill="#FFE082" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="807.0,216 833.0,242.0 807.0,268 781.0,242.0" fill="#A5D6A7" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<text x="936.0" y="200" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">E</text>
+<rect x="873.0" y="218" width="48" height="48" fill="#90CAF9" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="975.0,218 951.0,266 999.0,266" fill="#FFE082" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+</svg>

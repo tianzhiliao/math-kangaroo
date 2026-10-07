@@ -1,0 +1,50 @@
+{
+  "id": "q12",
+  "number": 12,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Mia puts tiles like the blue one around a square, one tile for each unit of a side. The pictures show a square of side 1 and a square of side 2. How many tiles does she need around a square of side 4?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "12",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "16",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "18",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "20",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q12_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q12_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 980,
+      "height": 460
+    }
+  ]
+}

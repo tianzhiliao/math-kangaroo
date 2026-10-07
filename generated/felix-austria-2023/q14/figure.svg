@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340">
+<rect width="900" height="340" fill="#FFFFFF"/>
+<path id="basket_0" d="M 72 150 Q 62 290 150 300 Q 238 290 228 150 Z" fill="#E7B48A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="apple_0_0" cx="124" cy="210" r="16" fill="#E24B4B" stroke="#222222" stroke-width="4"/>
+<circle id="apple_0_1" cx="176" cy="210" r="16" fill="#E24B4B" stroke="#222222" stroke-width="4"/>
+<rect id="rim_0" x="64" y="136" width="172" height="24" rx="10" fill="#C4844A" stroke="#222222" stroke-width="4"/>
+<path id="basket_1" d="M 372 150 Q 362 290 450 300 Q 538 290 528 150 Z" fill="#E7B48A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="apple_1_0" cx="424" cy="185" r="16" fill="#E24B4B" stroke="#222222" stroke-width="4"/>
+<circle id="apple_1_1" cx="476" cy="185" r="16" fill="#E24B4B" stroke="#222222" stroke-width="4"/>
+<circle id="apple_1_2" cx="424" cy="235" r="16" fill="#E24B4B" stroke="#222222" stroke-width="4"/>
+<circle id="apple_1_3" cx="476" cy="235" r="16" fill="#E24B4B" stroke="#222222" stroke-width="4"/>
+<rect id="rim_1" x="364" y="136" width="172" height="24" rx="10" fill="#C4844A" stroke="#222222" stroke-width="4"/>
+<path id="basket_2" d="M 672 150 Q 662 290 750 300 Q 838 290 828 150 Z" fill="#E7B48A" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<circle id="apple_2_0" cx="710" cy="180" r="16" fill="#E24B4B" stroke="#222222" stroke-width="4"/>
+<circle id="apple_2_1" cx="750" cy="180" r="16" fill="#E24B4B" stroke="#222222" stroke-width="4"/>
+<circle id="apple_2_2" cx="790" cy="180" r="16" fill="#E24B4B" stroke="#222222" stroke-width="4"/>
+<circle id="apple_2_3" cx="730" cy="232" r="16" fill="#E24B4B" stroke="#222222" stroke-width="4"/>
+<circle id="apple_2_4" cx="770" cy="232" r="16" fill="#E24B4B" stroke="#222222" stroke-width="4"/>
+<rect id="rim_2" x="664" y="136" width="172" height="24" rx="10" fill="#C4844A" stroke="#222222" stroke-width="4"/>
+</svg>

@@ -1,0 +1,98 @@
+{
+  "exam_id": "canada-gr0102e-2021",
+  "questions": [
+    {
+      "id": "q01",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q02",
+      "status": "generated",
+      "answer": "D"
+    },
+    {
+      "id": "q03",
+      "status": "generated",
+      "answer": "D"
+    },
+    {
+      "id": "q04",
+      "status": "generated",
+      "answer": "D"
+    },
+    {
+      "id": "q05",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q06",
+      "status": "generated",
+      "answer": "A"
+    },
+    {
+      "id": "q07",
+      "status": "generated",
+      "answer": "B"
+    },
+    {
+      "id": "q08",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q09",
+      "status": "generated",
+      "answer": "B",
+      "no_figure": true
+    },
+    {
+      "id": "q10",
+      "status": "generated",
+      "answer": "A"
+    },
+    {
+      "id": "q11",
+      "status": "generated",
+      "answer": "D",
+      "no_figure": true
+    },
+    {
+      "id": "q12",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q13",
+      "status": "generated",
+      "answer": "C",
+      "no_figure": true
+    },
+    {
+      "id": "q14",
+      "status": "generated",
+      "answer": "A"
+    },
+    {
+      "id": "q15",
+      "status": "generated",
+      "answer": "D"
+    },
+    {
+      "id": "q16",
+      "status": "generated",
+      "answer": "C"
+    },
+    {
+      "id": "q17",
+      "status": "generated",
+      "answer": "D"
+    },
+    {
+      "id": "q18",
+      "status": "generated",
+      "answer": "C"
+    }
+  ]
+}

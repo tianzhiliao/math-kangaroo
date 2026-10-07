@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430">
+<rect width="760" height="430" fill="#FFFFFF"/>
+<rect x="60" y="50" width="240" height="240" rx="8" fill="#F6D58A" stroke="#222222" stroke-width="4"/>
+<rect x="175" y="85" width="80" height="80" rx="6" fill="#7EC8E3" stroke="#222222" stroke-width="4"/>
+<circle cx="420" cy="22" r="9" fill="#E25B45" stroke="#222222" stroke-width="3"/>
+<text x="436" y="30" font-family="Liberation Serif" font-size="32" fill="#222222">A</text>
+<circle cx="455" cy="125" r="9" fill="#E25B45" stroke="#222222" stroke-width="3"/>
+<text x="471" y="133" font-family="Liberation Serif" font-size="32" fill="#222222">B</text>
+<circle cx="640" cy="170" r="9" fill="#E25B45" stroke="#222222" stroke-width="3"/>
+<text x="656" y="178" font-family="Liberation Serif" font-size="32" fill="#222222">C</text>
+<circle cx="420" cy="370" r="9" fill="#E25B45" stroke="#222222" stroke-width="3"/>
+<text x="436" y="378" font-family="Liberation Serif" font-size="32" fill="#222222">D</text>
+<circle cx="150" cy="22" r="9" fill="#E25B45" stroke="#222222" stroke-width="3"/>
+<text x="166" y="30" font-family="Liberation Serif" font-size="32" fill="#222222">E</text>
+</svg>

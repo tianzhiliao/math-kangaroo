@@ -1,0 +1,37 @@
+{
+  "id": "q11",
+  "number": 11,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Each basket in their game scores 3 points. Noah scored 4 baskets and Mia scored 6 baskets. How many more points than Noah did Mia score?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "2",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "12",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "18",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

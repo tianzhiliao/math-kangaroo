@@ -1,0 +1,50 @@
+{
+  "id": "q24",
+  "number": 24,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "Maia the bee can walk only on colorful houses, along the paths shown. Houses A and B are already colorful. How many ways can you color exactly three white houses with the same color so that Maia can walk from A to B?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "9",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "10",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "11",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "12",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q24_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q24_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 540,
+      "height": 400
+    }
+  ]
+}

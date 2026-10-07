@@ -1,0 +1,50 @@
+{
+  "id": "q04",
+  "number": 4,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "This picture shows a bracelet with pearls. Which of the bands below shows the same bracelet?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q04_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q04_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 1600,
+      "height": 980
+    }
+  ]
+}

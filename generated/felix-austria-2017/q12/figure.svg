@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="460" viewBox="0 0 1100 460">
+<rect width="1100" height="460" fill="#FFFFFF"/>
+<rect x="40.0" y="40.0" width="620.0" height="380.0" fill="#E7F2FB" stroke="#222222" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="80.0" y="90.0" width="200.0" height="90.0" fill="#F7C1D4" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="320.0" y="90.0" width="200.0" height="90.0" fill="#F7C1D4" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="150.0,230.0 193.3,305.0 106.7,305.0" fill="#FFE08A" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="330.0,230.0 373.3,305.0 286.7,305.0" fill="#FFE08A" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="510.0,230.0 553.3,305.0 466.7,305.0" fill="#FFE08A" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="740.0" y="40.0" width="320.0" height="380.0" fill="#F8EBD4" stroke="#222222" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="800.0" y="100.0" width="200.0" height="90.0" fill="#F7C1D4" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="860.0,230.0 903.3,305.0 816.7,305.0" fill="#FFE08A" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="980.0,230.0 1023.3,305.0 936.7,305.0" fill="#FFE08A" stroke="#222222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

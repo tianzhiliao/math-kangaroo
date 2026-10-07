@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="480" viewBox="0 0 1180 480">
+<rect width="1180" height="480" fill="#FFFFFF"/>
+<rect x="36" y="28" width="52" height="52" fill="#E1BEE7" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="62.0" y="55.0" fill="#222222" font-family="Noto Serif, serif" font-size="24" text-anchor="middle" dominant-baseline="central">+</text>
+<rect x="88" y="28" width="52" height="52" fill="#BBDEFB" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="114.0" y="55.0" fill="#222222" font-family="Noto Serif, serif" font-size="24" text-anchor="middle" dominant-baseline="central">1</text>
+<rect x="140" y="28" width="52" height="52" fill="#BBDEFB" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="166.0" y="55.0" fill="#222222" font-family="Noto Serif, serif" font-size="24" text-anchor="middle" dominant-baseline="central">3</text>
+<rect x="192" y="28" width="52" height="52" fill="#BBDEFB" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="218.0" y="55.0" fill="#222222" font-family="Noto Serif, serif" font-size="24" text-anchor="middle" dominant-baseline="central">5</text>
+<rect x="244" y="28" width="52" height="52" fill="#BBDEFB" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="270.0" y="55.0" fill="#222222" font-family="Noto Serif, serif" font-size="24" text-anchor="middle" dominant-baseline="central">7</text>
+<rect x="36" y="80" width="52" height="52" fill="#C8E6C9" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="62.0" y="107.0" fill="#222222" font-family="Noto Serif, serif" font-size="24" text-anchor="middle" dominant-baseline="central">4</text>
+<rect x="88" y="80" width="52" height="52" fill="#FFF8E1" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="140" y="80" width="52" height="52" fill="#FFF8E1" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="192" y="80" width="52" height="52" fill="#FFF8E1" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="244" y="80" width="52" height="52" fill="#FFF8E1" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="36" y="132" width="52" height="52" fill="#C8E6C9" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="62.0" y="159.0" fill="#222222" font-family="Noto Serif, serif" font-size="24" text-anchor="middle" dominant-baseline="central">6</text>
+<rect x="88" y="132" width="52" height="52" fill="#FFF8E1" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="140" y="132" width="52" height="52" fill="#FFF8E1" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="192" y="132" width="52" height="52" fill="#FFF8E1" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="244" y="132" width="52" height="52" fill="#FFF8E1" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="36" y="184" width="52" height="52" fill="#C8E6C9" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="62.0" y="211.0" fill="#222222" font-family="Noto Serif, serif" font-size="24" text-anchor="middle" dominant-baseline="central">8</text>
+<rect x="88" y="184" width="52" height="52" fill="#FFF8E1" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="140" y="184" width="52" height="52" fill="#FFF8E1" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="192" y="184" width="52" height="52" fill="#FFF8E1" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="244" y="184" width="52" height="52" fill="#FFF8E1" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="36" y="236" width="52" height="52" fill="#C8E6C9" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="62.0" y="263.0" fill="#222222" font-family="Noto Serif, serif" font-size="24" text-anchor="middle" dominant-baseline="central">10</text>
+<rect x="88" y="236" width="52" height="52" fill="#FFF8E1" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="140" y="236" width="52" height="52" fill="#FFF8E1" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="192" y="236" width="52" height="52" fill="#FFF8E1" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="244" y="236" width="52" height="52" fill="#FFF8E1" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="294.0" y="336" fill="#222222" font-family="Noto Serif, serif" font-size="26" font-weight="700" text-anchor="middle">A</text>
+<rect x="238.0" y="344" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="266.0" y="344" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="294.0" y="344" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="322.0" y="344" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="238.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="266.0" y="372" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="294.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="322.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="238.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="266.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="294.0" y="400" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="322.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="238.0" y="428" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="266.0" y="428" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="294.0" y="428" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="322.0" y="428" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="442.0" y="336" fill="#222222" font-family="Noto Serif, serif" font-size="26" font-weight="700" text-anchor="middle">B</text>
+<rect x="386.0" y="344" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="414.0" y="344" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="442.0" y="344" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="470.0" y="344" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="386.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="414.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="442.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="470.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="386.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="414.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="442.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="470.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="386.0" y="428" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="414.0" y="428" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="442.0" y="428" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="470.0" y="428" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="590.0" y="336" fill="#222222" font-family="Noto Serif, serif" font-size="26" font-weight="700" text-anchor="middle">C</text>
+<rect x="534.0" y="344" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="562.0" y="344" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="590.0" y="344" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="618.0" y="344" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="534.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="562.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="590.0" y="372" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="618.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="534.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="562.0" y="400" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="590.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="618.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="534.0" y="428" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="562.0" y="428" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="590.0" y="428" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="618.0" y="428" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="738.0" y="336" fill="#222222" font-family="Noto Serif, serif" font-size="26" font-weight="700" text-anchor="middle">D</text>
+<rect x="682.0" y="344" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="710.0" y="344" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="738.0" y="344" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="766.0" y="344" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="682.0" y="372" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="710.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="738.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="766.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="682.0" y="400" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="710.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="738.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="766.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="682.0" y="428" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="710.0" y="428" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="738.0" y="428" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="766.0" y="428" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="886.0" y="336" fill="#222222" font-family="Noto Serif, serif" font-size="26" font-weight="700" text-anchor="middle">E</text>
+<rect x="830.0" y="344" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="858.0" y="344" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="886.0" y="344" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="914.0" y="344" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="830.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="858.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="886.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="914.0" y="372" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="830.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="858.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="886.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="914.0" y="400" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="830.0" y="428" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="858.0" y="428" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="886.0" y="428" width="28" height="28" fill="#F4F1EA" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="914.0" y="428" width="28" height="28" fill="#FFB74D" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+</svg>

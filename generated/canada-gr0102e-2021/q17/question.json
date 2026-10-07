@@ -1,0 +1,50 @@
+{
+  "id": "q17",
+  "number": 17,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "The bookcase has shelves numbered 1 to 5 from top to bottom. Five toys \u2014 a kite, a boat, a drum, a ball and a train \u2014 go on different shelves. The boat is higher than the ball and lower than the kite. The drum is on the shelf directly above the ball. On which shelf can the train not be placed?",
+  "answer": "D",
+  "choices": [
+    {
+      "label": "A",
+      "text": "1",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "2",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "3",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "5",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q17_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q17_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 420,
+      "height": 640
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "q02",
+  "number": 2,
+  "part": "part_a",
+  "points": 3,
+  "stem_text": "Sam moves a pencil along the line. He starts at the arrow. In which order will he go past the shapes?",
+  "answer": "B",
+  "choices": [
+    {
+      "label": "A",
+      "text": "square, circle, triangle, star",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "circle, square, triangle, star",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "circle, triangle, square, star",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "star, triangle, square, circle",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "circle, square, star, triangle",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q02_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q02_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 980,
+      "height": 560
+    }
+  ]
+}

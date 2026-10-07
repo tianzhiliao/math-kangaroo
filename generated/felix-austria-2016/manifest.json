@@ -1,0 +1,101 @@
+{
+  "exam_id": "felix-austria-2016",
+  "questions": [
+    {
+      "id": "q01",
+      "status": "generated",
+      "answer": "C",
+      "error": null
+    },
+    {
+      "id": "q02",
+      "status": "generated",
+      "answer": "C",
+      "error": null,
+      "no_figure": true
+    },
+    {
+      "id": "q03",
+      "status": "generated",
+      "answer": "B",
+      "error": null
+    },
+    {
+      "id": "q04",
+      "status": "generated",
+      "answer": "D",
+      "error": null,
+      "no_figure": true
+    },
+    {
+      "id": "q05",
+      "status": "generated",
+      "answer": "C",
+      "error": null,
+      "no_figure": true
+    },
+    {
+      "id": "q06",
+      "status": "generated",
+      "answer": "D",
+      "error": null
+    },
+    {
+      "id": "q07",
+      "status": "generated",
+      "answer": "C",
+      "error": null
+    },
+    {
+      "id": "q08",
+      "status": "generated",
+      "answer": "C",
+      "error": null,
+      "no_figure": true
+    },
+    {
+      "id": "q09",
+      "status": "generated",
+      "answer": "C",
+      "error": null,
+      "no_figure": true
+    },
+    {
+      "id": "q10",
+      "status": "generated",
+      "answer": "D",
+      "error": null,
+      "no_figure": true
+    },
+    {
+      "id": "q11",
+      "status": "generated",
+      "answer": "B",
+      "error": null
+    },
+    {
+      "id": "q12",
+      "status": "generated",
+      "answer": "B",
+      "error": null
+    },
+    {
+      "id": "q13",
+      "status": "generated",
+      "answer": "C",
+      "error": null
+    },
+    {
+      "id": "q14",
+      "status": "generated",
+      "answer": "E",
+      "error": null
+    },
+    {
+      "id": "q15",
+      "status": "generated",
+      "answer": "C",
+      "error": null
+    }
+  ]
+}

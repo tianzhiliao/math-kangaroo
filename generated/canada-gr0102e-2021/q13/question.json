@@ -1,0 +1,37 @@
+{
+  "id": "q13",
+  "number": 13,
+  "part": "part_c",
+  "points": 5,
+  "stem_text": "There are two baskets with 8 apples in each. Nico eats some apples from the first basket. Then, from the second basket, he eats as many apples as are still left in the first basket. How many apples are left in the two baskets altogether?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "6",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "10",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "12",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [],
+  "assets": []
+}

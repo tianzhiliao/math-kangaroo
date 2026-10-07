@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 560" width="840" height="560">
+<circle cx="200" cy="180" r="46" fill="#099942" stroke="#222222" stroke-width="6"/>
+<circle cx="400" cy="170" r="50" fill="#099942" stroke="#222222" stroke-width="6"/>
+<circle cx="600" cy="190" r="46" fill="#099942" stroke="#222222" stroke-width="6"/>
+<circle cx="250" cy="380" r="52" fill="#099942" stroke="#222222" stroke-width="6"/>
+<circle cx="500" cy="400" r="50" fill="#099942" stroke="#222222" stroke-width="6"/>
+<circle cx="70" cy="180" r="8" fill="#222222"/>
+<text x="42" y="188" text-anchor="middle" dominant-baseline="central" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">A</text>
+<circle cx="80" cy="480" r="8" fill="#222222"/>
+<text x="52" y="488" text-anchor="middle" dominant-baseline="central" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">B</text>
+<circle cx="400" cy="40" r="8" fill="#222222"/>
+<text x="400" y="14" text-anchor="middle" dominant-baseline="central" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">C</text>
+<circle cx="760" cy="200" r="8" fill="#222222"/>
+<text x="788" y="208" text-anchor="middle" dominant-baseline="central" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">D</text>
+<circle cx="700" cy="500" r="8" fill="#222222"/>
+<text x="728" y="508" text-anchor="middle" dominant-baseline="central" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">E</text>
+</svg>

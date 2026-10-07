@@ -1,0 +1,50 @@
+{
+  "id": "q08",
+  "number": 8,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Hansi sticks 9 cubes together to make this figure. He always puts one drop of glue between two cubes. How many drops of glue does he need?",
+  "answer": "C",
+  "choices": [
+    {
+      "label": "A",
+      "text": "8",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "9",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "10",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "11",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "12",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q08_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q08_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 392,
+      "height": 310
+    }
+  ]
+}

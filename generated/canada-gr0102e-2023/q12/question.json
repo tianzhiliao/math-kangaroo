@@ -1,0 +1,50 @@
+{
+  "id": "q12",
+  "number": 12,
+  "part": "part_b",
+  "points": 4,
+  "stem_text": "Noah had 18 apples in 3 bags. He took the same number of apples out of each bag. The bags now have 4, 5 and 6 apples. How many apples did he take out of each bag?",
+  "answer": "A",
+  "choices": [
+    {
+      "label": "A",
+      "text": "1",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "2",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "3",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "5",
+      "asset_refs": []
+    }
+  ],
+  "shared_asset_refs": [
+    "q12_stem_01"
+  ],
+  "assets": [
+    {
+      "id": "q12_stem_01",
+      "path": "figure.svg",
+      "format": "svg",
+      "media_type": "image/svg+xml",
+      "kind": "question_figure",
+      "role": "stem",
+      "width": 900,
+      "height": 340
+    }
+  ]
+}

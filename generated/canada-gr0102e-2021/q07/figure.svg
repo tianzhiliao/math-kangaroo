@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="760" viewBox="0 0 1300 760">
+<rect width="1300" height="760" fill="#FFFFFF"/>
+<path d="M 548.8,170.0 a 101.2,101.2 0 1 0 202.4,0 a 101.2,101.2 0 1 0 -202.4,0 M 585.6,170.0 a 64.4,64.4 0 1 0 128.8,0 a 64.4,64.4 0 1 0 -128.8,0" fill="#F4E1C1" fill-rule="evenodd" stroke="#222222" stroke-width="4"/>
+<circle cx="650.0" cy="87.2" r="12.6" fill="#E24B4B" stroke="#222222" stroke-width="3"/>
+<rect x="710.2" y="117.1" width="23.0" height="23.0" fill="#5B8FD6" stroke="#222222" stroke-width="3"/>
+<polygon points="721.7,197.6 709.1,222.9 734.4,222.9" fill="#F8D56A" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="650.0" cy="252.8" r="12.6" fill="#7DCEA0" stroke="#222222" stroke-width="3"/>
+<polygon points="578.3,196.4 582.3,205.8 592.5,206.8 584.9,213.5 587.1,223.5 578.3,218.3 569.5,223.5 571.7,213.5 564.1,206.8 574.2,205.8" fill="#C9B6E4" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="566.8" y="117.1" width="23.0" height="23.0" fill="#F7C1D9" stroke="#222222" stroke-width="3"/>
+<path d="M 50.8,500.0 a 79.2,79.2 0 1 0 158.4,0 a 79.2,79.2 0 1 0 -158.4,0 M 79.6,500.0 a 50.4,50.4 0 1 0 100.8,0 a 50.4,50.4 0 1 0 -100.8,0" fill="#F4E1C1" fill-rule="evenodd" stroke="#222222" stroke-width="4"/>
+<rect x="121.0" y="426.2" width="18.0" height="18.0" fill="#5B8FD6" stroke="#222222" stroke-width="3"/>
+<circle cx="186.1" cy="467.6" r="9.9" fill="#E24B4B" stroke="#222222" stroke-width="3"/>
+<polygon points="186.1,521.6 176.2,541.4 196.0,541.4" fill="#F8D56A" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="130.0" cy="564.8" r="9.9" fill="#7DCEA0" stroke="#222222" stroke-width="3"/>
+<polygon points="73.9,520.7 77.1,528.0 85.0,528.8 79.0,534.1 80.8,541.9 73.9,537.8 67.0,541.9 68.7,534.1 62.8,528.8 70.7,528.0" fill="#C9B6E4" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="64.9" y="458.6" width="18.0" height="18.0" fill="#F7C1D9" stroke="#222222" stroke-width="3"/>
+<text x="130" y="700" text-anchor="middle" font-family="Noto Serif" font-size="40" fill="#222222">A</text>
+<path d="M 310.8,500.0 a 79.2,79.2 0 1 0 158.4,0 a 79.2,79.2 0 1 0 -158.4,0 M 339.6,500.0 a 50.4,50.4 0 1 0 100.8,0 a 50.4,50.4 0 1 0 -100.8,0" fill="#F4E1C1" fill-rule="evenodd" stroke="#222222" stroke-width="4"/>
+<circle cx="390.0" cy="435.2" r="9.9" fill="#E24B4B" stroke="#222222" stroke-width="3"/>
+<rect x="437.1" y="458.6" width="18.0" height="18.0" fill="#5B8FD6" stroke="#222222" stroke-width="3"/>
+<polygon points="446.1,521.6 436.2,541.4 456.0,541.4" fill="#F8D56A" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="390.0" cy="564.8" r="9.9" fill="#7DCEA0" stroke="#222222" stroke-width="3"/>
+<polygon points="333.9,520.7 337.1,528.0 345.0,528.8 339.0,534.1 340.8,541.9 333.9,537.8 327.0,541.9 328.7,534.1 322.8,528.8 330.7,528.0" fill="#C9B6E4" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="324.9" y="458.6" width="18.0" height="18.0" fill="#F7C1D9" stroke="#222222" stroke-width="3"/>
+<text x="390" y="700" text-anchor="middle" font-family="Noto Serif" font-size="40" fill="#222222">B</text>
+<path d="M 570.8,500.0 a 79.2,79.2 0 1 0 158.4,0 a 79.2,79.2 0 1 0 -158.4,0 M 599.6,500.0 a 50.4,50.4 0 1 0 100.8,0 a 50.4,50.4 0 1 0 -100.8,0" fill="#F4E1C1" fill-rule="evenodd" stroke="#222222" stroke-width="4"/>
+<rect x="641.0" y="426.2" width="18.0" height="18.0" fill="#F7C1D9" stroke="#222222" stroke-width="3"/>
+<polygon points="706.1,455.9 709.3,463.2 717.2,464.0 711.3,469.3 713.0,477.1 706.1,473.0 699.2,477.1 701.0,469.3 695.0,464.0 702.9,463.2" fill="#C9B6E4" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="706.1" cy="532.4" r="9.9" fill="#7DCEA0" stroke="#222222" stroke-width="3"/>
+<polygon points="650.0,554.0 640.1,573.8 659.9,573.8" fill="#F8D56A" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="584.9" y="523.4" width="18.0" height="18.0" fill="#5B8FD6" stroke="#222222" stroke-width="3"/>
+<circle cx="593.9" cy="467.6" r="9.9" fill="#E24B4B" stroke="#222222" stroke-width="3"/>
+<text x="650" y="700" text-anchor="middle" font-family="Noto Serif" font-size="40" fill="#222222">C</text>
+<path d="M 830.8,500.0 a 79.2,79.2 0 1 0 158.4,0 a 79.2,79.2 0 1 0 -158.4,0 M 859.6,500.0 a 50.4,50.4 0 1 0 100.8,0 a 50.4,50.4 0 1 0 -100.8,0" fill="#F4E1C1" fill-rule="evenodd" stroke="#222222" stroke-width="4"/>
+<circle cx="910.0" cy="435.2" r="9.9" fill="#E24B4B" stroke="#222222" stroke-width="3"/>
+<rect x="957.1" y="458.6" width="18.0" height="18.0" fill="#5B8FD6" stroke="#222222" stroke-width="3"/>
+<polygon points="966.1,521.6 956.2,541.4 976.0,541.4" fill="#E24B4B" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="910.0" cy="564.8" r="9.9" fill="#7DCEA0" stroke="#222222" stroke-width="3"/>
+<polygon points="853.9,520.7 857.1,528.0 865.0,528.8 859.0,534.1 860.8,541.9 853.9,537.8 847.0,541.9 848.7,534.1 842.8,528.8 850.7,528.0" fill="#C9B6E4" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<rect x="844.9" y="458.6" width="18.0" height="18.0" fill="#F7C1D9" stroke="#222222" stroke-width="3"/>
+<text x="910" y="700" text-anchor="middle" font-family="Noto Serif" font-size="40" fill="#222222">D</text>
+<path d="M 1090.8,500.0 a 79.2,79.2 0 1 0 158.4,0 a 79.2,79.2 0 1 0 -158.4,0 M 1119.6,500.0 a 50.4,50.4 0 1 0 100.8,0 a 50.4,50.4 0 1 0 -100.8,0" fill="#F4E1C1" fill-rule="evenodd" stroke="#222222" stroke-width="4"/>
+<circle cx="1170.0" cy="435.2" r="9.9" fill="#E24B4B" stroke="#222222" stroke-width="3"/>
+<rect x="1217.1" y="458.6" width="18.0" height="18.0" fill="#5B8FD6" stroke="#222222" stroke-width="3"/>
+<polygon points="1226.1,521.6 1216.2,541.4 1236.0,541.4" fill="#F8D56A" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="1170.0" cy="564.8" r="9.9" fill="#7DCEA0" stroke="#222222" stroke-width="3"/>
+<rect x="1104.9" y="523.4" width="18.0" height="18.0" fill="#F7C1D9" stroke="#222222" stroke-width="3"/>
+<polygon points="1113.9,455.9 1117.1,463.2 1125.0,464.0 1119.0,469.3 1120.8,477.1 1113.9,473.0 1107.0,477.1 1108.7,469.3 1102.8,464.0 1110.7,463.2" fill="#C9B6E4" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="1170" y="700" text-anchor="middle" font-family="Noto Serif" font-size="40" fill="#222222">E</text>
+</svg>
