@@ -8,22 +8,22 @@
   "choices": [
     {
       "label": "A",
-      "text": "A",
+      "text": "",
       "asset_refs": []
     },
     {
       "label": "B",
-      "text": "B",
+      "text": "",
       "asset_refs": []
     },
     {
       "label": "C",
-      "text": "C",
+      "text": "",
       "asset_refs": []
     },
     {
       "label": "D",
-      "text": "D",
+      "text": "",
       "asset_refs": []
     },
     {

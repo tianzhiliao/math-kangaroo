@@ -261,12 +261,19 @@ export function QuestionCard({
           {outcomeNote ? <div className="mt-4">{outcomeNote}</div> : null}
         </div>
         {hasStemFigure ? (
-          <div className="flex w-full justify-center rounded-card border border-mk-ink-12 bg-mk-bg p-3 md:w-auto md:min-w-[180px] md:max-w-[min(45%,360px)]">
+          <div
+            className={`flex w-full justify-center rounded-card border border-mk-ink-12 bg-mk-bg p-3 ${
+              compact
+                ? "basis-full"
+                : "md:w-auto md:min-w-[180px] md:max-w-[min(45%,360px)]"
+            }`}
+          >
             <AssetGrid
               examId={examId}
               assets={stemAssets}
               altPrefix={`Question ${question.number}`}
               srcFor={resolveAssetUrl}
+              variant={compact ? "stem-wide" : "stem"}
             />
           </div>
         ) : null}
