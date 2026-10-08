@@ -9,7 +9,7 @@
 <circle cx="80" cy="480" r="8" fill="#222222"/>
 <text x="52" y="488" text-anchor="middle" dominant-baseline="central" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">B</text>
 <circle cx="400" cy="40" r="8" fill="#222222"/>
-<text x="400" y="14" text-anchor="middle" dominant-baseline="central" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">C</text>
+<text x="426" y="40" text-anchor="start" dominant-baseline="central" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">C</text>
 <circle cx="760" cy="200" r="8" fill="#222222"/>
 <text x="788" y="208" text-anchor="middle" dominant-baseline="central" font-family="Noto Serif, serif" font-size="32" font-weight="700" fill="#222222">D</text>
 <circle cx="700" cy="500" r="8" fill="#222222"/>

@@ -1,108 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520">
 <rect width="1280" height="520" fill="#FFFFFF"/>
-<g transform="translate(490,8)">
-<rect x="16" y="78" width="64" height="66" fill="#BBDEFB" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="16,70 48,34 80,70" fill="#EF9A9A" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="108" y="48" width="84" height="96" fill="#FFE0B2" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="108,40 150,8 192,40" fill="#E57373" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="150" cy="86" r="16" fill="#FFF8E1" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="148" y="78" width="4" height="12" fill="#222222"/>
-<rect x="150" y="84" width="10" height="4" fill="#222222"/>
-<rect x="138" y="112" width="24" height="24" fill="#8D6E63" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="220" y="64" width="64" height="80" fill="#C5CAE9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="220,56 252,24 284,56" fill="#90CAF9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="250" y="2" width="4" height="16" fill="#5D4037" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="262,4 284,10 262,16" fill="#E53935" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="0" y="152" width="300" height="16" fill="#C8E6C9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-</g>
-<text x="260.0" y="242" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">A</text>
-<g transform="translate(176.0,250) scale(0.56) translate(300,0) scale(-1,1)">
-<rect x="16" y="78" width="64" height="66" fill="#BBDEFB" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="16,70 48,34 80,70" fill="#EF9A9A" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="108" y="48" width="84" height="96" fill="#FFE0B2" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="108,40 150,8 192,40" fill="#E57373" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="150" cy="86" r="16" fill="#FFF8E1" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="148" y="78" width="4" height="12" fill="#222222"/>
-<rect x="150" y="84" width="10" height="4" fill="#222222"/>
-<rect x="138" y="112" width="24" height="24" fill="#8D6E63" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="220" y="64" width="64" height="80" fill="#C5CAE9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="220,56 252,24 284,56" fill="#90CAF9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="250" y="2" width="4" height="16" fill="#5D4037" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="262,4 284,10 262,16" fill="#E53935" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="0" y="152" width="300" height="16" fill="#C8E6C9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-</g>
-<g transform="translate(176.0,250) scale(0.56)">
-<ellipse cx="150" cy="232" rx="16" ry="20" fill="#F48FB1" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="150" cy="192" r="11" fill="#FFE0B4" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="146" cy="191" r="1.8" fill="#222222"/>
-        <circle cx="154" cy="191" r="1.8" fill="#222222"/>
-</g>
-<text x="450.0" y="242" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">B</text>
-<g transform="translate(366.0,250) scale(0.56)">
-<rect x="16" y="78" width="64" height="66" fill="#BBDEFB" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="16,70 48,34 80,70" fill="#EF9A9A" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="108" y="48" width="84" height="96" fill="#FFE0B2" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="108,40 150,8 192,40" fill="#E57373" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="150" cy="86" r="16" fill="#FFF8E1" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="148" y="78" width="4" height="12" fill="#222222"/>
-<rect x="150" y="84" width="10" height="4" fill="#222222"/>
-<rect x="138" y="112" width="24" height="24" fill="#8D6E63" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="220" y="64" width="64" height="80" fill="#C5CAE9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="220,56 252,24 284,56" fill="#90CAF9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="250" y="2" width="4" height="16" fill="#5D4037" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="262,4 284,10 262,16" fill="#E53935" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="0" y="152" width="300" height="16" fill="#C8E6C9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<ellipse cx="150" cy="232" rx="16" ry="20" fill="#F48FB1" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="150" cy="192" r="11" fill="#FFE0B4" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="146" cy="191" r="1.8" fill="#222222"/>
-        <circle cx="154" cy="191" r="1.8" fill="#222222"/>
-</g>
-<text x="640.0" y="242" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">C</text>
-<g transform="translate(556.0,250) scale(0.56)">
-<rect x="16" y="78" width="64" height="66" fill="#BBDEFB" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="16,70 48,34 80,70" fill="#EF9A9A" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="108" y="48" width="84" height="96" fill="#FFE0B2" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="108,40 150,8 192,40" fill="#E57373" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="134" y="70" width="32" height="24" fill="#4FC3F7" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="138" y="112" width="24" height="24" fill="#8D6E63" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="220" y="64" width="64" height="80" fill="#C5CAE9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="220,56 252,24 284,56" fill="#90CAF9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="250" y="2" width="4" height="16" fill="#5D4037" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="262,4 284,10 262,16" fill="#E53935" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="0" y="152" width="300" height="16" fill="#C8E6C9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<ellipse cx="150" cy="232" rx="16" ry="20" fill="#F48FB1" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="150" cy="192" r="11" fill="#FFE0B4" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="146" cy="191" r="1.8" fill="#222222"/>
-        <circle cx="154" cy="191" r="1.8" fill="#222222"/>
-</g>
-<text x="830.0" y="242" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">D</text>
-<g transform="translate(746.0,250) scale(0.56)">
-<rect x="16" y="78" width="64" height="66" fill="#BBDEFB" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="16,70 48,34 80,70" fill="#EF9A9A" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="108" y="48" width="84" height="96" fill="#FFE0B2" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="108,40 150,8 192,40" fill="#E57373" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="150" cy="86" r="16" fill="#FFF8E1" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="148" y="78" width="4" height="12" fill="#222222"/>
-<rect x="150" y="84" width="10" height="4" fill="#222222"/>
-<rect x="138" y="112" width="24" height="24" fill="#8D6E63" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="220" y="64" width="64" height="80" fill="#C5CAE9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="220,56 252,24 284,56" fill="#90CAF9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="250" y="2" width="4" height="16" fill="#5D4037" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="262,4 284,10 262,16" fill="#E53935" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="0" y="152" width="300" height="16" fill="#C8E6C9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-</g>
-<text x="1020.0" y="242" fill="#222222" font-family="Noto Serif, serif" font-size="28" font-weight="700" text-anchor="middle">E</text>
-<g transform="translate(936.0,250) scale(0.56)">
-<rect x="18" y="70" width="70" height="74" fill="#BBDEFB" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="18,64 53,28 88,64" fill="#EF9A9A" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="114" y="70" width="70" height="74" fill="#FFE0B2" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="114,64 149,28 184,64" fill="#E57373" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="210" y="70" width="70" height="74" fill="#C5CAE9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<polygon points="210,64 245,28 280,64" fill="#90CAF9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="0" y="152" width="300" height="16" fill="#C8E6C9" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<ellipse cx="150" cy="232" rx="16" ry="20" fill="#F48FB1" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="150" cy="192" r="11" fill="#FFE0B4" stroke="#222222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="146" cy="191" r="1.8" fill="#222222"/>
-        <circle cx="154" cy="191" r="1.8" fill="#222222"/>
-</g>
+<g transform="translate(497.5 238.0) scale(0.95 0.95)"><rect x="-6" y="0" width="312" height="12" fill="#A9D8B8" stroke="#222222" stroke-width="4"/>
+<rect x="12" y="-110" width="80" height="110" fill="#B9DCF5" stroke="#222222" stroke-width="5"/>
+<polygon points="2.0,-110.0 102.0,-110.0 52.0,-160.0" fill="#F2A0A8" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="105" y="-170" width="90" height="170" fill="#FFE0B2" stroke="#222222" stroke-width="5"/>
+<polygon points="95.0,-170.0 205.0,-170.0 150.0,-218.0" fill="#E86A6A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="135" y="-48" width="30" height="48" fill="#8C5A3C" stroke="#222222" stroke-width="4"/>
+<rect x="208" y="-120" width="80" height="120" fill="#C9C3EA" stroke="#222222" stroke-width="5"/>
+<polygon points="198.0,-120.0 298.0,-120.0 248.0,-165.0" fill="#8EC5F0" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="150" cy="-112" r="28" fill="#FFFFFF" stroke="#222222" stroke-width="5"/>
+<line x1="150" y1="-112" x2="150" y2="-132" stroke="#222222" stroke-width="5" stroke-linecap="round"/>
+<line x1="150" y1="-112" x2="165" y2="-112" stroke="#222222" stroke-width="5" stroke-linecap="round"/>
+<line x1="248" y1="-165" x2="248" y2="-220" stroke="#222222" stroke-width="5"/>
+<polygon points="248.0,-220.0 292.0,-207.0 248.0,-194.0" fill="#E24B4B" stroke="#222222" stroke-width="4" stroke-linejoin="round"/></g>
+<rect x="20" y="268" width="230" height="200" rx="10" fill="#F4F8FC" stroke="#222222" stroke-width="4"/>
+<g transform="translate(234.0 446.0) scale(-0.66 0.66)"><rect x="-6" y="0" width="312" height="12" fill="#A9D8B8" stroke="#222222" stroke-width="4"/>
+<rect x="12" y="-110" width="80" height="110" fill="#B9DCF5" stroke="#222222" stroke-width="5"/>
+<polygon points="2.0,-110.0 102.0,-110.0 52.0,-160.0" fill="#F2A0A8" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="105" y="-170" width="90" height="170" fill="#FFE0B2" stroke="#222222" stroke-width="5"/>
+<polygon points="95.0,-170.0 205.0,-170.0 150.0,-218.0" fill="#E86A6A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="135" y="-48" width="30" height="48" fill="#8C5A3C" stroke="#222222" stroke-width="4"/>
+<rect x="208" y="-120" width="80" height="120" fill="#C9C3EA" stroke="#222222" stroke-width="5"/>
+<polygon points="198.0,-120.0 298.0,-120.0 248.0,-165.0" fill="#8EC5F0" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="150" cy="-112" r="28" fill="#FFFFFF" stroke="#222222" stroke-width="5"/>
+<line x1="150" y1="-112" x2="150" y2="-132" stroke="#222222" stroke-width="5" stroke-linecap="round"/>
+<line x1="150" y1="-112" x2="165" y2="-112" stroke="#222222" stroke-width="5" stroke-linecap="round"/>
+<line x1="248" y1="-165" x2="248" y2="-220" stroke="#222222" stroke-width="5"/>
+<polygon points="248.0,-220.0 292.0,-207.0 248.0,-194.0" fill="#E24B4B" stroke="#222222" stroke-width="4" stroke-linejoin="round"/></g>
+<g transform="translate(66.0 466.0) scale(0.5 0.5)"><path d="M -58 0 Q -58 -50 0 -52 Q 58 -50 58 0 Z" fill="#F4A261" stroke="#222222" stroke-width="5"/>
+<circle cx="0" cy="-88" r="40" fill="#F9D7B5" stroke="#222222" stroke-width="5"/>
+<path d="M -40 -92 Q -38 -134 0 -132 Q 38 -134 40 -92 Q 20 -112 -40 -92 Z" fill="#7A4A2A" stroke="#222222" stroke-width="4"/>
+<circle cx="-14" cy="-86" r="4.5" fill="#222222"/>
+<circle cx="14" cy="-86" r="4.5" fill="#222222"/>
+<path d="M -14 -68 Q 0 -56 14 -68" fill="none" stroke="#222222" stroke-width="4" stroke-linecap="round"/></g>
+<text x="135.0" y="510.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="34" font-weight="bold" fill="#222222">A</text>
+<rect x="268" y="268" width="230" height="200" rx="10" fill="#F4F8FC" stroke="#222222" stroke-width="4"/>
+<g transform="translate(284.0 446.0) scale(0.66 0.66)"><rect x="-6" y="0" width="312" height="12" fill="#A9D8B8" stroke="#222222" stroke-width="4"/>
+<rect x="12" y="-110" width="80" height="110" fill="#B9DCF5" stroke="#222222" stroke-width="5"/>
+<polygon points="2.0,-110.0 102.0,-110.0 52.0,-160.0" fill="#F2A0A8" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="105" y="-170" width="90" height="170" fill="#FFE0B2" stroke="#222222" stroke-width="5"/>
+<polygon points="95.0,-170.0 205.0,-170.0 150.0,-218.0" fill="#E86A6A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="135" y="-48" width="30" height="48" fill="#8C5A3C" stroke="#222222" stroke-width="4"/>
+<rect x="208" y="-120" width="80" height="120" fill="#C9C3EA" stroke="#222222" stroke-width="5"/>
+<polygon points="198.0,-120.0 298.0,-120.0 248.0,-165.0" fill="#8EC5F0" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="150" cy="-112" r="28" fill="#FFFFFF" stroke="#222222" stroke-width="5"/>
+<line x1="150" y1="-112" x2="150" y2="-132" stroke="#222222" stroke-width="5" stroke-linecap="round"/>
+<line x1="150" y1="-112" x2="165" y2="-112" stroke="#222222" stroke-width="5" stroke-linecap="round"/>
+<line x1="248" y1="-165" x2="248" y2="-220" stroke="#222222" stroke-width="5"/>
+<polygon points="248.0,-220.0 292.0,-207.0 248.0,-194.0" fill="#E24B4B" stroke="#222222" stroke-width="4" stroke-linejoin="round"/></g>
+<g transform="translate(314.0 466.0) scale(0.5 0.5)"><path d="M -58 0 Q -58 -50 0 -52 Q 58 -50 58 0 Z" fill="#F4A261" stroke="#222222" stroke-width="5"/>
+<circle cx="0" cy="-88" r="40" fill="#F9D7B5" stroke="#222222" stroke-width="5"/>
+<path d="M -40 -92 Q -38 -134 0 -132 Q 38 -134 40 -92 Q 20 -112 -40 -92 Z" fill="#7A4A2A" stroke="#222222" stroke-width="4"/>
+<circle cx="-14" cy="-86" r="4.5" fill="#222222"/>
+<circle cx="14" cy="-86" r="4.5" fill="#222222"/>
+<path d="M -14 -68 Q 0 -56 14 -68" fill="none" stroke="#222222" stroke-width="4" stroke-linecap="round"/></g>
+<text x="383.0" y="510.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="34" font-weight="bold" fill="#222222">B</text>
+<rect x="516" y="268" width="230" height="200" rx="10" fill="#F4F8FC" stroke="#222222" stroke-width="4"/>
+<g transform="translate(532.0 446.0) scale(0.66 0.66)"><rect x="-6" y="0" width="312" height="12" fill="#A9D8B8" stroke="#222222" stroke-width="4"/>
+<rect x="12" y="-110" width="80" height="110" fill="#B9DCF5" stroke="#222222" stroke-width="5"/>
+<polygon points="2.0,-110.0 102.0,-110.0 52.0,-160.0" fill="#F2A0A8" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="105" y="-170" width="90" height="170" fill="#FFE0B2" stroke="#222222" stroke-width="5"/>
+<polygon points="95.0,-170.0 205.0,-170.0 150.0,-218.0" fill="#E86A6A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="135" y="-48" width="30" height="48" fill="#8C5A3C" stroke="#222222" stroke-width="4"/>
+<rect x="208" y="-120" width="80" height="120" fill="#C9C3EA" stroke="#222222" stroke-width="5"/>
+<polygon points="198.0,-120.0 298.0,-120.0 248.0,-165.0" fill="#8EC5F0" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="128" y="-134" width="44" height="44" fill="#8EC5F0" stroke="#222222" stroke-width="5"/>
+<line x1="248" y1="-165" x2="248" y2="-220" stroke="#222222" stroke-width="5"/>
+<polygon points="248.0,-220.0 292.0,-207.0 248.0,-194.0" fill="#E24B4B" stroke="#222222" stroke-width="4" stroke-linejoin="round"/></g>
+<g transform="translate(562.0 466.0) scale(0.5 0.5)"><path d="M -58 0 Q -58 -50 0 -52 Q 58 -50 58 0 Z" fill="#F4A261" stroke="#222222" stroke-width="5"/>
+<circle cx="0" cy="-88" r="40" fill="#F9D7B5" stroke="#222222" stroke-width="5"/>
+<path d="M -40 -92 Q -38 -134 0 -132 Q 38 -134 40 -92 Q 20 -112 -40 -92 Z" fill="#7A4A2A" stroke="#222222" stroke-width="4"/>
+<circle cx="-14" cy="-86" r="4.5" fill="#222222"/>
+<circle cx="14" cy="-86" r="4.5" fill="#222222"/>
+<path d="M -14 -68 Q 0 -56 14 -68" fill="none" stroke="#222222" stroke-width="4" stroke-linecap="round"/></g>
+<text x="631.0" y="510.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="34" font-weight="bold" fill="#222222">C</text>
+<rect x="764" y="268" width="230" height="200" rx="10" fill="#F4F8FC" stroke="#222222" stroke-width="4"/>
+<g transform="translate(780.0 446.0) scale(0.66 0.66)"><rect x="-6" y="0" width="312" height="12" fill="#A9D8B8" stroke="#222222" stroke-width="4"/>
+<rect x="12" y="-110" width="80" height="110" fill="#B9DCF5" stroke="#222222" stroke-width="5"/>
+<polygon points="2.0,-110.0 102.0,-110.0 52.0,-160.0" fill="#F2A0A8" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="105" y="-170" width="90" height="170" fill="#FFE0B2" stroke="#222222" stroke-width="5"/>
+<polygon points="95.0,-170.0 205.0,-170.0 150.0,-218.0" fill="#E86A6A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="135" y="-48" width="30" height="48" fill="#8C5A3C" stroke="#222222" stroke-width="4"/>
+<rect x="208" y="-120" width="80" height="120" fill="#C9C3EA" stroke="#222222" stroke-width="5"/>
+<polygon points="198.0,-120.0 298.0,-120.0 248.0,-165.0" fill="#8EC5F0" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="150" cy="-112" r="28" fill="#FFFFFF" stroke="#222222" stroke-width="5"/>
+<line x1="150" y1="-112" x2="150" y2="-132" stroke="#222222" stroke-width="5" stroke-linecap="round"/>
+<line x1="150" y1="-112" x2="165" y2="-112" stroke="#222222" stroke-width="5" stroke-linecap="round"/>
+<line x1="248" y1="-165" x2="248" y2="-220" stroke="#222222" stroke-width="5"/>
+<polygon points="248.0,-220.0 292.0,-207.0 248.0,-194.0" fill="#E24B4B" stroke="#222222" stroke-width="4" stroke-linejoin="round"/></g>
+<text x="879.0" y="510.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="34" font-weight="bold" fill="#222222">D</text>
+<rect x="1012" y="268" width="230" height="200" rx="10" fill="#F4F8FC" stroke="#222222" stroke-width="4"/>
+<g transform="translate(1028.0 446.0) scale(0.66 0.66)"><rect x="-6" y="0" width="312" height="12" fill="#A9D8B8" stroke="#222222" stroke-width="4"/>
+<rect x="12" y="-110" width="80" height="110" fill="#B9DCF5" stroke="#222222" stroke-width="5"/>
+<polygon points="2.0,-110.0 102.0,-110.0 52.0,-160.0" fill="#F2A0A8" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="105" y="-170" width="90" height="170" fill="#FFE0B2" stroke="#222222" stroke-width="5"/>
+<polygon points="95.0,-170.0 205.0,-170.0 150.0,-218.0" fill="#E86A6A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="135" y="-48" width="30" height="48" fill="#8C5A3C" stroke="#222222" stroke-width="4"/>
+<rect x="208" y="-120" width="80" height="120" fill="#C9C3EA" stroke="#222222" stroke-width="5"/>
+<polygon points="198.0,-120.0 298.0,-120.0 248.0,-165.0" fill="#8EC5F0" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="128" y="-134" width="44" height="44" fill="#8EC5F0" stroke="#222222" stroke-width="5"/></g>
+<g transform="translate(1058.0 466.0) scale(0.5 0.5)"><path d="M -58 0 Q -58 -50 0 -52 Q 58 -50 58 0 Z" fill="#F4A261" stroke="#222222" stroke-width="5"/>
+<circle cx="0" cy="-88" r="40" fill="#F9D7B5" stroke="#222222" stroke-width="5"/>
+<path d="M -40 -92 Q -38 -134 0 -132 Q 38 -134 40 -92 Q 20 -112 -40 -92 Z" fill="#7A4A2A" stroke="#222222" stroke-width="4"/>
+<circle cx="-14" cy="-86" r="4.5" fill="#222222"/>
+<circle cx="14" cy="-86" r="4.5" fill="#222222"/>
+<path d="M -14 -68 Q 0 -56 14 -68" fill="none" stroke="#222222" stroke-width="4" stroke-linecap="round"/></g>
+<text x="1127.0" y="510.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="34" font-weight="bold" fill="#222222">E</text>
 </svg>

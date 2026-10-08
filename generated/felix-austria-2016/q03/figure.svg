@@ -1,34 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="680" height="680" viewBox="0 0 680 680">
 <rect width="680" height="680" fill="#FFFFFF"/>
-<rect x="45.5" y="45.5" width="189.0" height="189.0" fill="#F7D0D8"/>
-<rect x="245.5" y="45.5" width="189.0" height="189.0" fill="#C9E2F8"/>
-<rect x="445.5" y="45.5" width="189.0" height="189.0" fill="#D5F0D4"/>
-<rect x="45.5" y="245.5" width="189.0" height="189.0" fill="#FDE8B8"/>
-<rect x="245.5" y="245.5" width="189.0" height="189.0" fill="#E4D4F4"/>
-<rect x="445.5" y="245.5" width="189.0" height="189.0" fill="#F8DCC4"/>
-<rect x="45.5" y="445.5" width="189.0" height="189.0" fill="#CDEFEA"/>
-<rect x="245.5" y="445.5" width="189.0" height="189.0" fill="#F6D0E4"/>
-<rect x="445.5" y="445.5" width="189.0" height="189.0" fill="#E6EBC4"/>
-<rect x="245.5" y="234.5" width="189.0" height="11.0" fill="#C9E2F8"/>
-<rect x="434.5" y="245.5" width="11.0" height="189.0" fill="#E4D4F4"/>
-<rect x="234.5" y="45.5" width="11.0" height="189.0" fill="#F7D0D8"/>
-<rect x="40.0" y="40.0" width="600.0" height="9.0" fill="#3A3A3A" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<rect x="40.0" y="631.0" width="600.0" height="9.0" fill="#3A3A3A" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<rect x="40.0" y="40.0" width="9.0" height="600.0" fill="#3A3A3A" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<rect x="631.0" y="40.0" width="9.0" height="600.0" fill="#3A3A3A" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<rect x="435.5" y="40.0" width="9.0" height="200.0" fill="#3A3A3A" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<rect x="235.5" y="240.0" width="9.0" height="200.0" fill="#3A3A3A" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<rect x="235.5" y="440.0" width="9.0" height="200.0" fill="#3A3A3A" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<rect x="435.5" y="440.0" width="9.0" height="200.0" fill="#3A3A3A" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<rect x="40.0" y="235.5" width="200.0" height="9.0" fill="#3A3A3A" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<rect x="440.0" y="235.5" width="200.0" height="9.0" fill="#3A3A3A" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<rect x="40.0" y="435.5" width="200.0" height="9.0" fill="#3A3A3A" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<rect x="240.0" y="435.5" width="200.0" height="9.0" fill="#3A3A3A" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<rect x="440.0" y="435.5" width="200.0" height="9.0" fill="#3A3A3A" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<text x="140.0" y="140.0" text-anchor="middle" dominant-baseline="central" font-family="Liberation Serif, Times New Roman, serif" font-size="48" fill="#222222">O</text>
-<text x="540.0" y="140.0" text-anchor="middle" dominant-baseline="central" font-family="Liberation Serif, Times New Roman, serif" font-size="48" fill="#222222">A</text>
-<text x="140.0" y="340.0" text-anchor="middle" dominant-baseline="central" font-family="Liberation Serif, Times New Roman, serif" font-size="48" fill="#222222">E</text>
-<text x="540.0" y="340.0" text-anchor="middle" dominant-baseline="central" font-family="Liberation Serif, Times New Roman, serif" font-size="48" fill="#222222">B</text>
-<text x="140.0" y="540.0" text-anchor="middle" dominant-baseline="central" font-family="Liberation Serif, Times New Roman, serif" font-size="48" fill="#222222">D</text>
-<text x="340.0" y="540.0" text-anchor="middle" dominant-baseline="central" font-family="Liberation Serif, Times New Roman, serif" font-size="48" fill="#222222">C</text>
+<rect x="40" y="40" width="200" height="200" fill="#F7D0D8"/>
+<rect x="240" y="40" width="200" height="200" fill="#C9E2F8"/>
+<rect x="440" y="40" width="200" height="200" fill="#D5F0D4"/>
+<rect x="40" y="240" width="200" height="200" fill="#FDE8B8"/>
+<rect x="240" y="240" width="200" height="200" fill="#E4D4F4"/>
+<rect x="440" y="240" width="200" height="200" fill="#F8DCC4"/>
+<rect x="40" y="440" width="200" height="200" fill="#CDEFEA"/>
+<rect x="240" y="440" width="200" height="200" fill="#F6D0E4"/>
+<rect x="440" y="440" width="200" height="200" fill="#E6EBC4"/>
+<line x1="40" y1="40" x2="640" y2="40" stroke="#3A3A3A" stroke-width="12" stroke-linecap="square"/>
+<line x1="40" y1="640" x2="640" y2="640" stroke="#3A3A3A" stroke-width="12" stroke-linecap="square"/>
+<line x1="40" y1="40" x2="40" y2="640" stroke="#3A3A3A" stroke-width="12" stroke-linecap="square"/>
+<line x1="640" y1="40" x2="640" y2="640" stroke="#3A3A3A" stroke-width="12" stroke-linecap="square"/>
+<line x1="440" y1="40" x2="440" y2="240" stroke="#3A3A3A" stroke-width="12" stroke-linecap="square"/>
+<line x1="240" y1="240" x2="240" y2="440" stroke="#3A3A3A" stroke-width="12" stroke-linecap="square"/>
+<line x1="240" y1="440" x2="240" y2="640" stroke="#3A3A3A" stroke-width="12" stroke-linecap="square"/>
+<line x1="440" y1="440" x2="440" y2="640" stroke="#3A3A3A" stroke-width="12" stroke-linecap="square"/>
+<line x1="40" y1="240" x2="240" y2="240" stroke="#3A3A3A" stroke-width="12" stroke-linecap="square"/>
+<line x1="440" y1="240" x2="640" y2="240" stroke="#3A3A3A" stroke-width="12" stroke-linecap="square"/>
+<line x1="40" y1="440" x2="640" y2="440" stroke="#3A3A3A" stroke-width="12" stroke-linecap="square"/>
+<text x="140.0" y="157.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="52" font-weight="normal" fill="#222222">O</text>
+<text x="540.0" y="157.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="52" font-weight="normal" fill="#222222">A</text>
+<text x="140.0" y="357.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="52" font-weight="normal" fill="#222222">E</text>
+<text x="540.0" y="357.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="52" font-weight="normal" fill="#222222">B</text>
+<text x="140.0" y="557.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="52" font-weight="normal" fill="#222222">D</text>
+<text x="340.0" y="557.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="52" font-weight="normal" fill="#222222">C</text>
 </svg>

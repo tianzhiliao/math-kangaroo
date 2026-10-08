@@ -9,7 +9,7 @@
 <circle cx="130.2" cy="175" r="10.6" fill="#F4A3B5" stroke="#222222" stroke-width="3"/><circle cx="149.8" cy="175" r="10.6" fill="#F4A3B5" stroke="#222222" stroke-width="3"/><polygon points="120.4,177.8 159.6,177.8 140.0,203.0" fill="#F4A3B5" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
 <circle cx="240.2" cy="175" r="10.6" fill="#F4A3B5" stroke="#222222" stroke-width="3"/><circle cx="259.8" cy="175" r="10.6" fill="#F4A3B5" stroke="#222222" stroke-width="3"/><polygon points="230.4,177.8 269.6,177.8 250.0,203.0" fill="#F4A3B5" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
 <text x="620" y="36" text-anchor="middle" font-family="Liberation Serif, serif" font-size="28" fill="#222222">plate</text>
-<ellipse cx="650" cy="250" rx="210" ry="170" fill="#F3F7FB" stroke="#222222" stroke-width="6"/>
+<ellipse cx="650" cy="262" rx="240" ry="192" fill="#F3F7FB" stroke="#222222" stroke-width="6"/>
 <polygon points="500.0,128.0 505.8,142.0 520.9,143.2 509.4,153.1 512.9,167.8 500.0,159.9 487.1,167.8 490.6,153.1 479.1,143.2 494.2,142.0" fill="#F8E1A0" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
 <polygon points="500.0,198.0 505.8,212.0 520.9,213.2 509.4,223.1 512.9,237.8 500.0,229.9 487.1,237.8 490.6,223.1 479.1,213.2 494.2,212.0" fill="#F8E1A0" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
 <polygon points="570.0,128.0 575.8,142.0 590.9,143.2 579.4,153.1 582.9,167.8 570.0,159.9 557.1,167.8 560.6,153.1 549.1,143.2 564.2,142.0" fill="#F8E1A0" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>

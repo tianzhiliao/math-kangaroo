@@ -6,13 +6,35 @@
   "stem_text": "There are 11 children in front of a museum. Pia is the 4th from the front and Leo the 3rd from the back. How many children are there between Pia and Leo?",
   "answer": "C",
   "choices": [
-    {"label": "A", "text": "2", "asset_refs": []},
-    {"label": "B", "text": "3", "asset_refs": []},
-    {"label": "C", "text": "4", "asset_refs": []},
-    {"label": "D", "text": "5", "asset_refs": []},
-    {"label": "E", "text": "6", "asset_refs": []}
+    {
+      "label": "A",
+      "text": "2",
+      "asset_refs": []
+    },
+    {
+      "label": "B",
+      "text": "3",
+      "asset_refs": []
+    },
+    {
+      "label": "C",
+      "text": "4",
+      "asset_refs": []
+    },
+    {
+      "label": "D",
+      "text": "5",
+      "asset_refs": []
+    },
+    {
+      "label": "E",
+      "text": "6",
+      "asset_refs": []
+    }
   ],
-  "shared_asset_refs": ["q04_stem_01"],
+  "shared_asset_refs": [
+    "q04_stem_01"
+  ],
   "assets": [
     {
       "id": "q04_stem_01",
@@ -21,8 +43,8 @@
       "media_type": "image/svg+xml",
       "kind": "question_figure",
       "role": "stem",
-      "width": 1500,
-      "height": 240
+      "width": 1100,
+      "height": 285
     }
   ]
 }

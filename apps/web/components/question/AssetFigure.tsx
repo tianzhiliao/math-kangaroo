@@ -20,7 +20,7 @@ export function AssetFigure({
   asset: AssetRecord;
   alt: string;
   className?: string;
-  variant?: "stem" | "choice" | "choice-compact";
+  variant?: "stem" | "stem-wide" | "choice" | "choice-compact";
   srcOverride?: string;
 }) {
   const src = srcOverride ?? rawExamFileUrl(examId, asset.path);
@@ -34,7 +34,9 @@ export function AssetFigure({
   const sizeClasses =
     variant === "stem"
       ? "max-h-[116px] md:max-h-[220px]"
-      : variant === "choice"
+      : variant === "stem-wide"
+        ? "max-h-[220px] md:max-h-[320px]"
+        : variant === "choice"
         ? "h-[104px]"
         : "h-[64px]";
 

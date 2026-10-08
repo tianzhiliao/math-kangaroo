@@ -1,35 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="480" viewBox="0 0 1040 480">
-  <rect width="1040" height="480" fill="#FFFFFF"/>
-  <ellipse cx="52" cy="408" rx="24" ry="16" fill="#F2C394" stroke="#222222" stroke-width="7" stroke-linejoin="round"/>
-  <circle cx="100" cy="392" r="16" fill="#F2C394" stroke="#222222" stroke-width="7"/>
-  <ellipse cx="100" cy="350" rx="6" ry="7" fill="#D9A36C" stroke="#222222" stroke-width="7"/>
-  <circle cx="106" cy="390" r="2.4" fill="#222222"/>
-  <circle cx="110" cy="396" r="2.2" fill="#222222"/>
-  <ellipse cx="918" cy="52" rx="16" ry="10" fill="#D9C7B0" stroke="#222222" stroke-width="7"/>
-  <circle cx="918" cy="22" r="10" fill="#D9C7B0" stroke="#222222" stroke-width="7"/>
-  <circle cx="922" cy="21" r="2" fill="#222222"/>
-  <circle cx="924" cy="25" r="1.6" fill="#222222"/>
-  <circle cx="180" cy="400" r="30" fill="#F7C6C6" stroke="#222222" stroke-width="7"/>
-  <circle cx="262" cy="368" r="30" fill="#FFE0B2" stroke="#222222" stroke-width="7"/>
-  <circle cx="344" cy="336" r="30" fill="#FFF3B0" stroke="#222222" stroke-width="7"/>
-  <circle cx="426" cy="304" r="30" fill="#C8E6C9" stroke="#222222" stroke-width="7"/>
-  <circle cx="508" cy="272" r="30" fill="#B3E5FC" stroke="#222222" stroke-width="7"/>
-  <circle cx="590" cy="240" r="30" fill="#D1C4E9" stroke="#222222" stroke-width="7"/>
-  <circle cx="672" cy="208" r="30" fill="#FFCCBC" stroke="#222222" stroke-width="7"/>
-  <circle cx="754" cy="176" r="30" fill="#C5CAE9" stroke="#222222" stroke-width="7"/>
-  <circle cx="836" cy="144" r="30" fill="#B2DFDB" stroke="#222222" stroke-width="7"/>
-  <circle cx="918" cy="112" r="30" fill="#F8BBD0" stroke="#222222" stroke-width="7"/>
-  <g fill="#222222" font-family="Noto Serif, serif" font-size="26" text-anchor="middle" dominant-baseline="central">
-    <text x="180" y="400">1</text>
-    <text x="262" y="368">2</text>
-    <text x="344" y="336">3</text>
-    <text x="426" y="304">4</text>
-    <text x="508" y="272">5</text>
-    <text x="590" y="240">6</text>
-    <text x="672" y="208">7</text>
-    <text x="754" y="176">8</text>
-    <text x="836" y="144">9</text>
-    <text x="918" y="112">10</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="430" viewBox="0 0 1040 430">
+<rect width="1040" height="430" fill="#FFFFFF"/>
+<line x1="20" y1="412" x2="1020" y2="412" stroke="#9AA4AE" stroke-width="4"/>
+<circle cx="215" cy="372" r="32" fill="#F7C6C6" stroke="#222222" stroke-width="5"/>
+<text x="215.0" y="383.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="32" font-weight="bold" fill="#222222">1</text>
+<circle cx="295" cy="346" r="32" fill="#FFE0B2" stroke="#222222" stroke-width="5"/>
+<text x="295.0" y="357.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="32" font-weight="bold" fill="#222222">2</text>
+<circle cx="375" cy="320" r="32" fill="#FFF3B0" stroke="#222222" stroke-width="5"/>
+<text x="375.0" y="331.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="32" font-weight="bold" fill="#222222">3</text>
+<circle cx="455" cy="294" r="32" fill="#C8E6C9" stroke="#222222" stroke-width="5"/>
+<text x="455.0" y="305.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="32" font-weight="bold" fill="#222222">4</text>
+<circle cx="535" cy="268" r="32" fill="#B3E5FC" stroke="#222222" stroke-width="5"/>
+<text x="535.0" y="279.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="32" font-weight="bold" fill="#222222">5</text>
+<circle cx="615" cy="242" r="32" fill="#D1C4E9" stroke="#222222" stroke-width="5"/>
+<text x="615.0" y="253.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="32" font-weight="bold" fill="#222222">6</text>
+<circle cx="695" cy="216" r="32" fill="#FFCCBC" stroke="#222222" stroke-width="5"/>
+<text x="695.0" y="227.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="32" font-weight="bold" fill="#222222">7</text>
+<circle cx="775" cy="190" r="32" fill="#C5CAE9" stroke="#222222" stroke-width="5"/>
+<text x="775.0" y="201.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="32" font-weight="bold" fill="#222222">8</text>
+<circle cx="855" cy="164" r="32" fill="#B2DFDB" stroke="#222222" stroke-width="5"/>
+<text x="855.0" y="175.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="32" font-weight="bold" fill="#222222">9</text>
+<circle cx="935" cy="138" r="32" fill="#F8BBD0" stroke="#222222" stroke-width="5"/>
+<text x="935.0" y="149.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="32" font-weight="bold" fill="#222222">10</text>
+<g transform="translate(82.0 410.0) scale(1.15)"><path d="M -30 -34 Q -46 -46 -44 -60" fill="none" stroke="#222222" stroke-width="6" stroke-linecap="round"/>
+<path d="M -30 -34 Q -46 -46 -44 -60" fill="none" stroke="#D9A35E" stroke-width="2" stroke-linecap="round"/>
+<rect x="-24" y="-22" width="9" height="22" fill="#D9A35E" stroke="#222222" stroke-width="3"/>
+<rect x="12" y="-22" width="9" height="22" fill="#D9A35E" stroke="#222222" stroke-width="3"/>
+<ellipse cx="-2" cy="-32" rx="32" ry="17" fill="#D9A35E" stroke="#222222" stroke-width="4"/>
+<circle cx="30" cy="-54" r="17" fill="#D9A35E" stroke="#222222" stroke-width="4"/>
+<ellipse cx="42" cy="-50" rx="9" ry="7" fill="#D9A35E" stroke="#222222" stroke-width="3"/>
+<circle cx="50" cy="-51" r="3.5" fill="#222222"/>
+<ellipse cx="22" cy="-54" rx="6" ry="12" fill="#A8743A" stroke="#222222" stroke-width="3" transform="rotate(20 22 -54)"/>
+<circle cx="34" cy="-60" r="2.5" fill="#222222"/></g>
+<g transform="translate(917.0 108.0) scale(1.0)"><path d="M -32 -28 Q -60 -30 -52 -66" fill="none" stroke="#222222" stroke-width="9" stroke-linecap="round"/>
+<path d="M -32 -28 Q -60 -30 -52 -66" fill="none" stroke="#F4A261" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="-4" cy="-24" rx="34" ry="22" fill="#F4A261" stroke="#222222" stroke-width="4"/>
+<polygon points="14.0,-66.0 16.0,-92.0 32.0,-74.0" fill="#F4A261" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="34.0,-74.0 48.0,-92.0 50.0,-64.0" fill="#F4A261" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="32" cy="-56" r="21" fill="#F4A261" stroke="#222222" stroke-width="4"/>
+<circle cx="26" cy="-60" r="2.8" fill="#222222"/>
+<circle cx="40" cy="-60" r="2.8" fill="#222222"/>
+<polygon points="30.0,-52.0 36.0,-52.0 33.0,-48.0" fill="#E76F51" stroke="#222222" stroke-width="2" stroke-linejoin="round"/></g>
 </svg>

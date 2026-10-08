@@ -6,11 +6,13 @@ export function AssetGrid({
   assets,
   altPrefix,
   srcFor,
+  variant = "stem",
 }: {
   examId: string;
   assets: AssetRecord[];
   altPrefix: string;
   srcFor?: (asset: AssetRecord) => string;
+  variant?: "stem" | "stem-wide";
 }) {
   if (assets.length === 0) return null;
   if (assets.length === 1) {
@@ -19,7 +21,7 @@ export function AssetGrid({
         examId={examId}
         asset={assets[0]}
         alt={`${altPrefix} figure`}
-        variant="stem"
+        variant={variant}
         srcOverride={srcFor?.(assets[0])}
       />
     );
@@ -32,7 +34,7 @@ export function AssetGrid({
           examId={examId}
           asset={a}
           alt={`${altPrefix} figure ${i + 1}`}
-          variant="stem"
+          variant={variant}
           srcOverride={srcFor?.(a)}
         />
       ))}

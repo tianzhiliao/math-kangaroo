@@ -1,31 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="240" viewBox="0 0 1500 240">
-<rect width="1500" height="240" fill="#FFFFFF"/>
-<rect x="36" y="78" width="78" height="110" rx="4" fill="#E6D3B0" stroke="#222222" stroke-width="4"/>
-<rect x="56" y="118" width="38" height="70" fill="#C4A574" stroke="#222222" stroke-width="3"/>
-<text x="75" y="214" font-family="Liberation Serif" font-size="26" text-anchor="middle" fill="#222222">front</text>
-<circle cx="200" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
-<rect x="180" y="102" width="40" height="48" rx="8" fill="#F8E3A8" stroke="#222222" stroke-width="3"/>
-<circle cx="308" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
-<rect x="288" y="102" width="40" height="48" rx="8" fill="#C9D7F5" stroke="#222222" stroke-width="3"/>
-<circle cx="416" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
-<rect x="396" y="102" width="40" height="48" rx="8" fill="#E6C8F2" stroke="#222222" stroke-width="3"/>
-<circle cx="524" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
-<rect x="504" y="102" width="40" height="48" rx="8" fill="#F6C9D4" stroke="#222222" stroke-width="3"/>
-<text x="524" y="48" font-family="Liberation Serif" font-size="26" text-anchor="middle" fill="#222222">Pia</text>
-<circle cx="632" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
-<rect x="612" y="102" width="40" height="48" rx="8" fill="#B7E2D2" stroke="#222222" stroke-width="3"/>
-<circle cx="740" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
-<rect x="720" y="102" width="40" height="48" rx="8" fill="#F8E3A8" stroke="#222222" stroke-width="3"/>
-<circle cx="848" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
-<rect x="828" y="102" width="40" height="48" rx="8" fill="#C9D7F5" stroke="#222222" stroke-width="3"/>
-<circle cx="956" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
-<rect x="936" y="102" width="40" height="48" rx="8" fill="#E6C8F2" stroke="#222222" stroke-width="3"/>
-<circle cx="1064" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
-<rect x="1044" y="102" width="40" height="48" rx="8" fill="#B7E2D2" stroke="#222222" stroke-width="3"/>
-<text x="1064" y="48" font-family="Liberation Serif" font-size="26" text-anchor="middle" fill="#222222">Leo</text>
-<circle cx="1172" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
-<rect x="1152" y="102" width="40" height="48" rx="8" fill="#F8E3A8" stroke="#222222" stroke-width="3"/>
-<circle cx="1280" cy="78" r="18" fill="#F6D7BE" stroke="#222222" stroke-width="3"/>
-<rect x="1260" y="102" width="40" height="48" rx="8" fill="#C9D7F5" stroke="#222222" stroke-width="3"/>
-<text x="1380" y="214" font-family="Liberation Serif" font-size="26" text-anchor="middle" fill="#222222">back</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="285" viewBox="0 0 1100 285">
+<rect width="1100" height="285" fill="#FFFFFF"/>
+<line x1="20" y1="232" x2="1080" y2="232" stroke="#9AA4AE" stroke-width="4"/>
+<rect x="30" y="92" width="130" height="140" fill="#E6D3B0" stroke="#222222" stroke-width="5"/>
+<polygon points="20,92 95,44 170,92" fill="#C9A87A" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+<rect x="72" y="160" width="46" height="72" fill="#A0784C" stroke="#222222" stroke-width="4"/>
+<rect x="44" y="104" width="12" height="46" fill="#F4EBDD" stroke="#222222" stroke-width="3"/>
+<rect x="80" y="104" width="12" height="46" fill="#F4EBDD" stroke="#222222" stroke-width="3"/>
+<rect x="116" y="104" width="12" height="46" fill="#F4EBDD" stroke="#222222" stroke-width="3"/>
+<rect x="200" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="218" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="190" y="132" width="50" height="64" rx="12" fill="#F8E3A8" stroke="#222222" stroke-width="4"/>
+<circle cx="215" cy="108" r="24" fill="#F6D7BE" stroke="#222222" stroke-width="4"/>
+<path d="M 191 104 Q 215 72 239 104 Q 215 92 191 104 Z" fill="#7A4A2A" stroke="#222222" stroke-width="3"/>
+<rect x="278" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="296" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="268" y="132" width="50" height="64" rx="12" fill="#C9D7F5" stroke="#222222" stroke-width="4"/>
+<circle cx="293" cy="108" r="24" fill="#F6D7BE" stroke="#222222" stroke-width="4"/>
+<path d="M 269 104 Q 293 72 317 104 Q 293 92 269 104 Z" fill="#7A4A2A" stroke="#222222" stroke-width="3"/>
+<rect x="356" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="374" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="346" y="132" width="50" height="64" rx="12" fill="#E6C8F2" stroke="#222222" stroke-width="4"/>
+<circle cx="371" cy="108" r="24" fill="#F6D7BE" stroke="#222222" stroke-width="4"/>
+<path d="M 347 104 Q 371 72 395 104 Q 371 92 347 104 Z" fill="#7A4A2A" stroke="#222222" stroke-width="3"/>
+<rect x="434" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="452" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="424" y="132" width="50" height="64" rx="12" fill="#F6C9D4" stroke="#222222" stroke-width="4"/>
+<circle cx="449" cy="108" r="24" fill="#F6D7BE" stroke="#222222" stroke-width="4"/>
+<path d="M 425 104 Q 449 72 473 104 Q 449 92 425 104 Z" fill="#7A4A2A" stroke="#222222" stroke-width="3"/>
+<text x="449.0" y="70.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="30" font-weight="bold" fill="#222222">Pia</text>
+<path d="M 449 76 L 449 82" stroke="#222222" stroke-width="3"/>
+<rect x="512" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="530" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="502" y="132" width="50" height="64" rx="12" fill="#B7E2D2" stroke="#222222" stroke-width="4"/>
+<circle cx="527" cy="108" r="24" fill="#F6D7BE" stroke="#222222" stroke-width="4"/>
+<path d="M 503 104 Q 527 72 551 104 Q 527 92 503 104 Z" fill="#7A4A2A" stroke="#222222" stroke-width="3"/>
+<rect x="590" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="608" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="580" y="132" width="50" height="64" rx="12" fill="#F8E3A8" stroke="#222222" stroke-width="4"/>
+<circle cx="605" cy="108" r="24" fill="#F6D7BE" stroke="#222222" stroke-width="4"/>
+<path d="M 581 104 Q 605 72 629 104 Q 605 92 581 104 Z" fill="#7A4A2A" stroke="#222222" stroke-width="3"/>
+<rect x="668" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="686" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="658" y="132" width="50" height="64" rx="12" fill="#C9D7F5" stroke="#222222" stroke-width="4"/>
+<circle cx="683" cy="108" r="24" fill="#F6D7BE" stroke="#222222" stroke-width="4"/>
+<path d="M 659 104 Q 683 72 707 104 Q 683 92 659 104 Z" fill="#7A4A2A" stroke="#222222" stroke-width="3"/>
+<rect x="746" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="764" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="736" y="132" width="50" height="64" rx="12" fill="#E6C8F2" stroke="#222222" stroke-width="4"/>
+<circle cx="761" cy="108" r="24" fill="#F6D7BE" stroke="#222222" stroke-width="4"/>
+<path d="M 737 104 Q 761 72 785 104 Q 761 92 737 104 Z" fill="#7A4A2A" stroke="#222222" stroke-width="3"/>
+<rect x="824" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="842" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="814" y="132" width="50" height="64" rx="12" fill="#B7E2D2" stroke="#222222" stroke-width="4"/>
+<circle cx="839" cy="108" r="24" fill="#F6D7BE" stroke="#222222" stroke-width="4"/>
+<path d="M 815 104 Q 839 72 863 104 Q 839 92 815 104 Z" fill="#7A4A2A" stroke="#222222" stroke-width="3"/>
+<text x="839.0" y="70.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="30" font-weight="bold" fill="#222222">Leo</text>
+<path d="M 839 76 L 839 82" stroke="#222222" stroke-width="3"/>
+<rect x="902" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="920" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="892" y="132" width="50" height="64" rx="12" fill="#F6C9D4" stroke="#222222" stroke-width="4"/>
+<circle cx="917" cy="108" r="24" fill="#F6D7BE" stroke="#222222" stroke-width="4"/>
+<path d="M 893 104 Q 917 72 941 104 Q 917 92 893 104 Z" fill="#7A4A2A" stroke="#222222" stroke-width="3"/>
+<rect x="980" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="998" y="192" width="12" height="40" fill="#5A6B8C" stroke="#222222" stroke-width="3"/>
+<rect x="970" y="132" width="50" height="64" rx="12" fill="#C9D7F5" stroke="#222222" stroke-width="4"/>
+<circle cx="995" cy="108" r="24" fill="#F6D7BE" stroke="#222222" stroke-width="4"/>
+<path d="M 971 104 Q 995 72 1019 104 Q 995 92 971 104 Z" fill="#7A4A2A" stroke="#222222" stroke-width="3"/>
+<text x="95.0" y="270.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="30" font-weight="normal" fill="#222222">front</text>
+<text x="995.0" y="270.0" text-anchor="middle" font-family="Liberation Serif, Times New Roman, serif" font-size="30" font-weight="normal" fill="#222222">back</text>
 </svg>
