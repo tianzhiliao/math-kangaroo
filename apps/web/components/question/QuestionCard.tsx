@@ -5,7 +5,12 @@ import type { AssetRecord, Question } from "@/lib/types";
 import { useEffect, useRef, useState } from "react";
 import { AssetFigure } from "./AssetFigure";
 import { AssetGrid } from "./AssetGrid";
-import { SpeakerIcon, Spinner } from "@/components/ui/icons";
+import {
+  CheckIcon,
+  CrossIcon,
+  SpeakerIcon,
+  Spinner,
+} from "@/components/ui/icons";
 
 function buildAssetMap(assets: AssetRecord[]): Record<string, AssetRecord> {
   return Object.fromEntries(assets.map((a) => [a.id, a]));
@@ -16,9 +21,12 @@ type TtsStatus = "idle" | "loading" | "playing" | "error";
 function StemTtsButton({
   examId,
   questionNumber,
+  variant,
 }: {
   examId: string;
   questionNumber: number;
+  /** Read the similar question's stem instead of the source question's. */
+  variant: boolean;
 }) {
   const [status, setStatus] = useState<TtsStatus>("idle");
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
@@ -56,7 +64,7 @@ function StemTtsButton({
     setErrorMessage(null);
     // Reset the TTS state whenever we navigate to a different question.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [examId, questionNumber]);
+  }, [examId, questionNumber, variant]);
 
   const handleClick = async () => {
     if (status === "loading") return;
@@ -76,6 +84,7 @@ function StemTtsButton({
         question_number: String(questionNumber),
         format: "opus",
       });
+      if (variant) query.set("variant", "true");
       const response = await fetch(`/api/ai/tts?${query.toString()}`);
       if (!response.ok) {
         throw await readApiError(response, "Could not load the audio.");
@@ -196,8 +205,10 @@ export function QuestionCard({
   outcomeNote,
   readOnly = false,
   hideAudio = false,
-  /** Dense layout for the read-only similar question. */
+  /** Dense layout for the similar question. */
   compact = false,
+  /** The card shows an AI-generated similar question (audio reads its stem). */
+  variant = false,
   resolveAssetUrl,
 }: {
   examId: string;
@@ -215,6 +226,7 @@ export function QuestionCard({
   readOnly?: boolean;
   hideAudio?: boolean;
   compact?: boolean;
+  variant?: boolean;
   resolveAssetUrl?: (asset: AssetRecord) => string;
 }) {
   const map = buildAssetMap(allAssets);
@@ -225,6 +237,9 @@ export function QuestionCard({
   const hasStemFigure = stemAssets.length > 0;
   const hasStemText = question.stem_text.trim().length > 0;
   const imageChoices = question.choices.some((c) => c.asset_refs.length > 0);
+  // Choices that are only a letter point at labels drawn in the figure.
+  const letterOnly =
+    !imageChoices && question.choices.every((c) => !c.text.trim());
   const questionPoints = question.points ?? points;
   const meta =
     metaLabel ??
@@ -232,7 +247,9 @@ export function QuestionCard({
       questionPoints ? ` · ${questionPoints} points` : ""
     }`;
 
-  const gridCols = compact
+  const gridCols = letterOnly
+    ? "grid-cols-5"
+    : compact
     ? "grid-cols-[repeat(auto-fill,minmax(120px,1fr))]"
     : imageChoices
       ? "grid-cols-1 md:grid-cols-[repeat(auto-fill,minmax(150px,1fr))]"
@@ -248,6 +265,7 @@ export function QuestionCard({
               <StemTtsButton
                 examId={examId}
                 questionNumber={question.number}
+                variant={variant}
               />
             ) : null}
           </div>
@@ -289,17 +307,26 @@ export function QuestionCard({
           const interactive = !disabled && !readOnly;
 
           let state: ChoiceState = "default";
-          let tag: { text: string; className: string } | null = null;
+          let tag: {
+            text: string;
+            className: string;
+            right: boolean;
+          } | null = null;
           if (showOutcome) {
             if (isCorrect) {
               state = "right";
               tag = {
                 text: isSelected ? "Your answer" : "Right answer",
                 className: "text-mk-right-strong",
+                right: true,
               };
             } else if (isSelected) {
               state = "wrong";
-              tag = { text: "Your answer", className: "text-mk-wrong-fg" };
+              tag = {
+                text: "Your answer",
+                className: "text-mk-wrong-fg",
+                right: false,
+              };
             } else {
               state = "dim";
             }
@@ -328,10 +355,19 @@ export function QuestionCard({
               {choice.label}
             </span>
           );
+          // Narrow cards show an icon; the words stay for screen readers.
+          const TagIcon = tag?.right ? CheckIcon : CrossIcon;
           const tagEl = tag ? (
-            <span className={`ml-auto shrink-0 text-caption ${tag.className}`}>
-              {tag.text}
-            </span>
+            compact || letterOnly ? (
+              <span className={`ml-auto shrink-0 ${tag.className}`} title={tag.text}>
+                <TagIcon className="h-5 w-5" />
+                <span className="sr-only">{tag.text}</span>
+              </span>
+            ) : (
+              <span className={`ml-auto shrink-0 text-caption ${tag.className}`}>
+                {tag.text}
+              </span>
+            )
           ) : null;
 
           const body = imageChoices ? (
@@ -382,7 +418,9 @@ export function QuestionCard({
           const cardClass = `mk-transition flex w-full rounded-card border-2 text-left ${CARD_TONE[state]} ${
             imageChoices
               ? `flex-col items-stretch gap-2 ${compact ? "p-2" : "p-3"}`
-              : `items-center gap-3 ${compact ? "min-h-[48px] py-2 pl-2 pr-3" : "min-h-[54px] py-[10px] pl-3 pr-[18px] md:min-h-[64px]"}`
+              : letterOnly
+                ? `items-center justify-center gap-1 ${compact ? "min-h-[48px] p-1.5" : "min-h-[54px] p-2 md:min-h-[64px]"}`
+                : `items-center gap-3 ${compact ? "min-h-[48px] py-2 pl-2 pr-3" : "min-h-[54px] py-[10px] pl-3 pr-[18px] md:min-h-[64px]"}`
           } ${interactive && state === "default" ? "hover:border-mk-ink-44 hover:bg-mk-ink-2" : ""}`;
 
           return (

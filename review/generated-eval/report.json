@@ -1,0 +1,216 @@
+{
+  "audit": {
+    "source_questions": 270,
+    "variants": 268,
+    "duplicates": 2,
+    "missing": [],
+    "error_count": 0,
+    "warning_count": 0,
+    "info_count": 27,
+    "answer_distribution": {
+      "A": 23,
+      "B": 66,
+      "C": 103,
+      "D": 55,
+      "E": 21
+    },
+    "source_answer_distribution": {
+      "A": 46,
+      "B": 51,
+      "C": 59,
+      "D": 65,
+      "E": 47
+    },
+    "findings": [
+      {
+        "exam_id": "felix-austria-2014",
+        "question_id": "q04",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 0.98)"
+      },
+      {
+        "exam_id": "felix-austria-2014",
+        "question_id": "q14",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 0.98)"
+      },
+      {
+        "exam_id": "felix-austria-2017",
+        "question_id": "q05",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 0.98)"
+      },
+      {
+        "exam_id": "felix-austria-2017",
+        "question_id": "q08",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 1.00)"
+      },
+      {
+        "exam_id": "felix-austria-2018",
+        "question_id": "q03",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 0.98)"
+      },
+      {
+        "exam_id": "felix-austria-2019",
+        "question_id": "q01",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 0.98)"
+      },
+      {
+        "exam_id": "felix-austria-2019",
+        "question_id": "q02",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 1.00)"
+      },
+      {
+        "exam_id": "felix-austria-2019",
+        "question_id": "q05",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 1.00)"
+      },
+      {
+        "exam_id": "felix-austria-2019",
+        "question_id": "q10",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 1.00)"
+      },
+      {
+        "exam_id": "felix-brazil-2020",
+        "question_id": "q08",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 1.00)"
+      },
+      {
+        "exam_id": "felix-brazil-2020",
+        "question_id": "q11",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 1.00)"
+      },
+      {
+        "exam_id": "felix-brazil-2020",
+        "question_id": "q23",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 0.99)"
+      },
+      {
+        "exam_id": "canada-gr0102e-2020",
+        "question_id": "q09",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 0.97)"
+      },
+      {
+        "exam_id": "canada-gr0102e-2020",
+        "question_id": "q10",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 1.00)"
+      },
+      {
+        "exam_id": "felix-brazil-2021",
+        "question_id": "q03",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 1.00)"
+      },
+      {
+        "exam_id": "felix-brazil-2021",
+        "question_id": "q04",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 1.00)"
+      },
+      {
+        "exam_id": "felix-brazil-2021",
+        "question_id": "q16",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 0.99)"
+      },
+      {
+        "exam_id": "felix-brazil-2021",
+        "question_id": "q19",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 1.00)"
+      },
+      {
+        "exam_id": "felix-brazil-2021",
+        "question_id": "q21",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 0.99)"
+      },
+      {
+        "exam_id": "felix-austria-2023",
+        "question_id": "q03",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 1.00)"
+      },
+      {
+        "exam_id": "felix-austria-2023",
+        "question_id": "q05",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 1.00)"
+      },
+      {
+        "exam_id": "felix-austria-2023",
+        "question_id": "q07",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 1.00)"
+      },
+      {
+        "exam_id": "felix-austria-2023",
+        "question_id": "q08",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 0.99)"
+      },
+      {
+        "exam_id": "felix-austria-2023",
+        "question_id": "q09",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 1.00)"
+      },
+      {
+        "exam_id": "felix-austria-2023",
+        "question_id": "q10",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 1.00)"
+      },
+      {
+        "exam_id": "felix-austria-2023",
+        "question_id": "q12",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 0.99)"
+      },
+      {
+        "exam_id": "felix-austria-2025",
+        "question_id": "q07",
+        "severity": "info",
+        "code": "stem_reused",
+        "message": "stem wording matches the source (similarity 1.00)"
+      }
+    ]
+  }
+}

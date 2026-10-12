@@ -14,6 +14,7 @@ class TTSRequest(BaseModel):
     voice: str | None = None
     speed: float = Field(default=1.0, ge=0.25, le=4.0)
     format: AudioFormat = "opus"
+    variant: bool = False
 
 
 class ExplanationRequest(BaseModel):
@@ -21,6 +22,7 @@ class ExplanationRequest(BaseModel):
     question_number: int = Field(ge=1)
     selected_label: str | None = None
     force_refresh: bool = False
+    variant: bool = False
 
     @field_validator("selected_label")
     @classmethod
@@ -36,6 +38,7 @@ class ExplanationResponse(BaseModel):
     question_number: int
     selected_label: str | None = None
     correct_label: str
+    variant: bool = False
     explanation: str
     model: str
     cache_hit: bool

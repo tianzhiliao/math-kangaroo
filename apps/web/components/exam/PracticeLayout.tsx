@@ -213,7 +213,11 @@ export function PracticeLayout({
           selectedLabel={selectedLabel}
           expectedCorrectLabel={correctLabel}
         />
-        <GeneratedQuestionSection examId={examId} questionId={question.id} />
+        <GeneratedQuestionSection
+          examId={examId}
+          questionId={question.id}
+          questionNumber={question.number}
+        />
         {/* Keeps the last block clear of the phone footer's feedback pill. */}
         <div className="h-2 md:hidden" aria-hidden />
       </SessionLayout>

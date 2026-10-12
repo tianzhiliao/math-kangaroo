@@ -33,9 +33,10 @@ def stream_question_tts(
     voice: str | None,
     speed: float,
     format_name: AudioFormat,
+    variant: bool = False,
 ) -> Iterator[bytes]:
     started_at = time.perf_counter()
-    stem_text = load_question_stem_text(exam_id, question_number)
+    stem_text = load_question_stem_text(exam_id, question_number, variant=variant)
     lookup_ms = (time.perf_counter() - started_at) * 1000
     if not stem_text.strip():
         raise HTTPException(status_code=422, detail="no_stem_text")

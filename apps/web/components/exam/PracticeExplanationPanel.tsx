@@ -3,6 +3,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { useQueryClient } from "@tanstack/react-query";
 import {
+  ApiRequestError,
   getFriendlyAiErrorMessage,
   readApiError,
 } from "@/lib/api-errors";
@@ -17,22 +18,31 @@ export function PracticeExplanationPanel({
   questionNumber,
   selectedLabel,
   expectedCorrectLabel,
+  variant = false,
 }: {
   examId: string;
   questionNumber: number;
   selectedLabel: string | null;
   expectedCorrectLabel: string;
+  /** Explain the AI-generated similar question instead of the source one. */
+  variant?: boolean;
 }) {
   const [open, setOpen] = useState(false);
   const [isRegenerating, setIsRegenerating] = useState(false);
   const [regenerateError, setRegenerateError] = useState<string | null>(null);
   const queryClient = useQueryClient();
-  const queryKey = ["ai-explanation", examId, questionNumber, selectedLabel] as const;
+  const queryKey = [
+    "ai-explanation",
+    examId,
+    questionNumber,
+    selectedLabel,
+    variant,
+  ] as const;
 
   useEffect(() => {
     setOpen(false);
     setRegenerateError(null);
-  }, [examId, questionNumber, selectedLabel]);
+  }, [examId, questionNumber, selectedLabel, variant]);
 
   const explanationQuery = useQuery({
     queryKey,
@@ -41,6 +51,7 @@ export function PracticeExplanationPanel({
         exam_id: examId,
         question_number: questionNumber,
         selected_label: selectedLabel ?? "",
+        ...(variant ? { variant: true } : {}),
       };
       const response = await fetch("/api/ai/explanation", {
         method: "POST",
@@ -62,7 +73,10 @@ export function PracticeExplanationPanel({
     enabled: open && Boolean(selectedLabel),
     staleTime: Infinity,
     gcTime: 1000 * 60 * 60 * 24,
-    retry: 1,
+    // A provider outage will not clear up within a second; let the child retry.
+    retry: (failureCount, error) =>
+      failureCount < 1 &&
+      !(error instanceof ApiRequestError && error.detail === "ai_provider_error"),
   });
 
   const handleRegenerate = async () => {
@@ -75,6 +89,7 @@ export function PracticeExplanationPanel({
         question_number: questionNumber,
         selected_label: selectedLabel,
         force_refresh: true,
+        ...(variant ? { variant: true } : {}),
       };
       const response = await fetch("/api/ai/explanation", {
         method: "POST",

@@ -270,6 +270,7 @@ export function ExamRun({ exam }: { exam: Exam }) {
           <GeneratedQuestionSection
             examId={exam.exam_id}
             questionId={question.id}
+            questionNumber={question.number}
           />
         ) : null}
       </SessionLayout>

@@ -32,7 +32,9 @@
       "asset_refs": []
     }
   ],
-  "shared_asset_refs": [],
+  "shared_asset_refs": [
+    "q13_stem_01"
+  ],
   "assets": [
     {
       "id": "q13_stem_01",

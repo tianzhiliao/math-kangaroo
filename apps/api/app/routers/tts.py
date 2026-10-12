@@ -16,6 +16,7 @@ def _build_tts_streaming_response(
     voice: str | None,
     speed: float,
     format_name: AudioFormat,
+    variant: bool = False,
 ) -> StreamingResponse:
     stream = stream_question_tts(
         exam_id=exam_id,
@@ -23,6 +24,7 @@ def _build_tts_streaming_response(
         voice=voice,
         speed=speed,
         format_name=format_name,
+        variant=variant,
     )
     return StreamingResponse(stream, media_type=audio_media_type(format_name))
 
@@ -35,6 +37,7 @@ def tts(payload: TTSRequest):
         voice=payload.voice,
         speed=payload.speed,
         format_name=payload.format,
+        variant=payload.variant,
     )
 
 
@@ -45,6 +48,7 @@ def tts_get(
     voice: str | None = None,
     speed: float = Query(default=1.0, ge=0.25, le=4.0),
     format: AudioFormat = "opus",
+    variant: bool = False,
 ):
     return _build_tts_streaming_response(
         exam_id=exam_id,
@@ -52,4 +56,5 @@ def tts_get(
         voice=voice,
         speed=speed,
         format_name=format,
+        variant=variant,
     )

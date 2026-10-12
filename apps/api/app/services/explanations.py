@@ -1,16 +1,25 @@
 from __future__ import annotations
 
 import json
+import logging
 import re
 from datetime import UTC, datetime
 from typing import Any
 
 from fastapi import HTTPException
+from openai import OpenAIError
 
 from ..config import get_settings
 from ..openai_client import get_openai_client
-from ..question_loader import QuestionSnapshot, load_question_snapshot, validate_selected_label
+from ..question_loader import (
+    QuestionSnapshot,
+    load_question_snapshot,
+    load_variant_snapshot,
+    validate_selected_label,
+)
 from .cache import ExplanationCache
+
+logger = logging.getLogger(__name__)
 
 PROMPT_VERSION = "grade1_v3"
 MAX_EXPLANATION_ATTEMPTS = 2
@@ -55,11 +64,16 @@ def generate_explanation(
     question_number: int,
     selected_label: str | None,
     force_refresh: bool = False,
+    variant: bool = False,
     cache: ExplanationCache | None = None,
 ) -> dict[str, Any]:
     settings = get_settings()
     cache = cache or ExplanationCache()
-    snapshot = load_question_snapshot(exam_id, question_number)
+    snapshot = (
+        load_variant_snapshot(exam_id, question_number)
+        if variant
+        else load_question_snapshot(exam_id, question_number)
+    )
     selected_label = validate_selected_label(snapshot, selected_label)
     cache_key_payload = {
         "exam_id": exam_id,
@@ -68,6 +82,9 @@ def generate_explanation(
         "model": settings.openai_explanation_model,
         "prompt_version": PROMPT_VERSION,
     }
+    if snapshot.variant_digest:
+        # Only variants carry this key, so cached source explanations stay valid.
+        cache_key_payload["variant"] = snapshot.variant_digest
     cache_key = cache.build_key(cache_key_payload)
     cached = cache.load(cache_key) if not force_refresh else None
     if cached is not None:
@@ -83,27 +100,12 @@ def generate_explanation(
 
     explanation: str | None = None
     for _ in range(MAX_EXPLANATION_ATTEMPTS):
-        response = client.responses.create(
-            model=settings.openai_explanation_model,
-            input=[
-                {
-                    "role": "system",
-                    "content": [{"type": "input_text", "text": SYSTEM_PROMPT}],
-                },
-                {
-                    "role": "user",
-                    "content": _build_user_content(snapshot, selected_label),
-                },
-            ],
-            text={
-                "format": {
-                    "type": "json_schema",
-                    "name": "question_explanation",
-                    "strict": True,
-                    "schema": EXPLANATION_SCHEMA,
-                }
-            },
-        )
+        try:
+            response = _create_response(client, settings.openai_explanation_model, snapshot, selected_label)
+        except OpenAIError as exc:
+            # Nothing usable was produced; the client shows a retry message.
+            logger.warning("explanation provider error exam_id=%s question=%s: %s", exam_id, question_number, exc)
+            raise HTTPException(status_code=502, detail="ai_provider_error") from exc
         try:
             parsed = json.loads(response.output_text)
         except json.JSONDecodeError:
@@ -131,6 +133,7 @@ def generate_explanation(
         "question_number": question_number,
         "selected_label": selected_label,
         "correct_label": snapshot.correct_label,
+        "variant": variant,
         "explanation": explanation,
         "model": settings.openai_explanation_model,
         "generated_at": generated_at,
@@ -140,6 +143,30 @@ def generate_explanation(
         **payload,
         "cache_hit": False,
     }
+
+
+def _create_response(client: Any, model: str, snapshot: QuestionSnapshot, selected_label: str | None) -> Any:
+    return client.responses.create(
+        model=model,
+        input=[
+            {
+                "role": "system",
+                "content": [{"type": "input_text", "text": SYSTEM_PROMPT}],
+            },
+            {
+                "role": "user",
+                "content": _build_user_content(snapshot, selected_label),
+            },
+        ],
+        text={
+            "format": {
+                "type": "json_schema",
+                "name": "question_explanation",
+                "strict": True,
+                "schema": EXPLANATION_SCHEMA,
+            }
+        },
+    )
 
 
 def _build_user_content(snapshot: QuestionSnapshot, selected_label: str | None) -> list[dict[str, Any]]:
@@ -168,7 +195,13 @@ def _build_question_text(snapshot: QuestionSnapshot, selected_label: str | None)
         choice_text = choice["text"].strip() or "No text."
         choice_lines.append(f"- {choice['label']}: {choice_text}{image_note}")
 
-    if snapshot.stem_assets:
+    if snapshot.variant_digest:
+        stem_visual_note = (
+            "The image shows the whole question: stem, picture and choices."
+            if snapshot.stem_assets
+            else "The question has no image."
+        )
+    elif snapshot.stem_assets:
         stem_visual_note = f"The question has {len(snapshot.stem_assets)} stem image(s)."
     else:
         stem_visual_note = "The question has no stem image."

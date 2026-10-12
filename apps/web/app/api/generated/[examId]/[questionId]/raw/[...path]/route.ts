@@ -9,7 +9,7 @@ export async function GET(
   },
 ) {
   const { examId, questionId, path: segments } = await context.params;
-  const file = generatedAssetFile(examId, questionId, segments ?? []);
+  const file = await generatedAssetFile(examId, questionId, segments ?? []);
   if (!file) {
     return new NextResponse("Not found", { status: 404 });
   }

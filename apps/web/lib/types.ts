@@ -32,6 +32,7 @@ export interface AITextToSpeechRequest {
   voice?: string;
   speed?: number;
   format?: string;
+  variant?: boolean;
 }
 
 export interface AIExplanationRequest {
@@ -39,6 +40,7 @@ export interface AIExplanationRequest {
   question_number: number;
   selected_label: string;
   force_refresh?: boolean;
+  variant?: boolean;
 }
 
 export interface AIExplanationResponse {
@@ -46,6 +48,7 @@ export interface AIExplanationResponse {
   question_number: number;
   selected_label: string;
   correct_label: string;
+  variant?: boolean;
   explanation: string;
   model: string;
   cache_hit: boolean;

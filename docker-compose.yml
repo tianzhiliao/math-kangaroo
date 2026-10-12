@@ -23,7 +23,9 @@ services:
       - "8000:8000"
     environment:
       RELEASE_DATA_PATH: /data/release-data
+      GENERATED_QUESTIONS_PATH: /data/generated
       OPENAI_API_KEY: ${OPENAI_API_KEY}
       API_CACHE_DIR: /tmp/math-api-cache
     volumes:
       - ./release-data:/data/release-data:ro
+      - ./generated:/data/generated:ro
