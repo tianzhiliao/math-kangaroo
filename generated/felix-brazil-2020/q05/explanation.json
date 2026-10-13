@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:d84afb06af92935350195f7a517d663ad68916b190908ef4d55bf87b9a0c7588",
+  "answer": "E",
+  "independent_answer": "E",
+  "key_idea": "The animals come in groups of 5, so count in fives.",
+  "steps": [
+    "The order is: fish, bird, cat, dog, frog. Then it starts again.",
+    "Animals 5 and 10 are both frogs, at the end of a group.",
+    "Animal 11 is a fish, 12 is a bird, 13 is a cat and 14 is a dog."
+  ],
+  "answer_sentence": "So the answer is E.",
+  "choice_feedback": {
+    "A": "The fish is animal 11, not 14.",
+    "B": "The bird is animal 12, not 14.",
+    "C": "The cat is animal 13, not 14.",
+    "D": "The frog is animal 15, not 14."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:edae25b98bdfa45d1c2d53c5c28409dfd8ee4ff095ec3d7f30209ea619b38c15",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Count every circle once, the big ones and the small ones.",
+  "steps": [
+    "The big body is 1 circle and the head is 1 circle: 1 + 1 = 2.",
+    "The 2 ears on top of the head are 2 circles: 2 + 2 = 4.",
+    "The purple eye and the orange nose are 2 more: 4 + 2 = 6.",
+    "The orange tail circle at the back is 1 more: 6 + 1 = 7."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "5 leaves out 2 circles. Did you count the eye, the nose and the tail?",
+    "B": "6 forgets one circle. Did you count the tail at the back?",
+    "D": "8 counts one circle too many. There are only 7.",
+    "E": "9 counts two circles too many. There are only 7."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:01Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

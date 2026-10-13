@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "questions": {
+    "q01": {
+      "source": "original",
+      "content_hash": "sha256:696e94155d24aec0339c8fc9d51bd6837ce7b358b5697e5d48be5a8c3ffda23a",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Check every shape against all 4 pictures.",
+      "steps": [
+        "There are 4 pictures. Look for each shape in every one of them.",
+        "The small red circle, the big red circle, the small blue triangle and the big blue triangle are in all 4 pictures.",
+        "The green rectangle is in the first, third and fourth pictures, but not in the second picture."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "The small red circle is in all 4 pictures.",
+        "B": "The big red circle is in all 4 pictures.",
+        "C": "The small blue triangle is in all 4 pictures.",
+        "E": "The big blue triangle is in all 4 pictures."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:14Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q02": {
+      "source": "original",
+      "content_hash": "sha256:bd99c1785ea1ee77916620a18c9294ed91239911b5b95012297d911671db6ed2",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "A triangle has exactly 3 straight sides and 3 corners.",
+      "steps": [
+        "The bow on her head is 2 triangles, one on each side of the red knot.",
+        "Her nose is 1 triangle.",
+        "Each white arm is a long, thin triangle. That is 2 more.",
+        "The shoes have 4 sides, and the top and the skirt of the dress have 4 sides too. They are not triangles.",
+        "2 + 1 + 2 = 5 triangles."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "That is too many. The shoes have 4 sides, so they are not triangles.",
+        "B": "That is 1 too many. Only the 2 bow pieces, the nose and the 2 arms are triangles.",
+        "D": "One is missing. The 2 bow pieces, the nose and the 2 arms make 5.",
+        "E": "The 2 white arms are triangles too, so there are more than 3."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:14Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q03": {
+      "source": "original",
+      "content_hash": "sha256:c34ffc64a4be333797507e89481957f6cb155f088dddd6d0cd7f957967a71e4b",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "The missing piece must fit every bump and dent around the gap.",
+      "steps": [
+        "Find the gap: it is on the upper left part of the roof, next to the pointy top.",
+        "Look at the edges around the gap. There is a step at one corner and another step at the opposite corner.",
+        "Piece E also has a step at two opposite corners. Turn it a quarter turn and it fits the gap."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "This piece has only one step, but the gap needs two.",
+        "B": "This piece has its two steps on the same side, not at opposite corners.",
+        "C": "This piece has a staircase with too many steps.",
+        "D": "This piece has a round dent, and nothing around the gap is round."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:14Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q04": {
+      "source": "original",
+      "content_hash": "sha256:ab9af0de6f114304bbea51f0d85eaf1ba105e191d6690b376623bce33a6788e7",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Count the dots on each ladybird, then add them up.",
+      "steps": [
+        "Count one ladybird at a time.",
+        "Top row: 2 dots, 3 dots and 3 dots.",
+        "Bottom row: 5 dots and 6 dots.",
+        "2 + 3 + 3 + 5 + 6 = 19."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "17 is 2 too few. Count each ladybird again.",
+        "B": "18 is 1 too few. One dot was missed.",
+        "D": "20 is 1 too many. One dot was counted twice.",
+        "E": "21 is 2 too many. Count each ladybird again."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:14Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q05": {
+      "source": "original",
+      "content_hash": "sha256:62927fd2b853e39f595ce6c7af1d6b299ce2d34530014a85cc7e42e2dc19863d",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "All strips are the same length, so the pair that overlaps the most is the shortest.",
+      "steps": [
+        "All 10 strips are the same length.",
+        "Where 2 strips are bolted together, they lie on top of each other. The more they overlap, the shorter the long strip.",
+        "Count the holes between the 2 bolts: A has 1, B has 5, C has 3, D has 2 and E has 4.",
+        "B overlaps the most, so B is the shortest."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "A has only 1 hole between its bolts. It overlaps the least, so it is the longest.",
+        "C": "C has 3 holes between its bolts. B has 5, so B overlaps more.",
+        "D": "D has 2 holes between its bolts. B has 5, so B overlaps more.",
+        "E": "E has 4 holes between its bolts. B has 5, so B overlaps more."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:14Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q06": {
+      "source": "original",
+      "content_hash": "sha256:f7db1594c357f152463f6a28254f5124706ed1f9e0080306bddd86c0b4a0b08b",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Turning a card can point the kangaroo another way, but it can never flip it like a mirror.",
+      "steps": [
+        "On the card on the right, the head points right, the tail points left and the feet point down.",
+        "Turn that card a quarter turn, the way clock hands go. Now the head points down, the tail points up and the feet point left.",
+        "Card E looks just like that."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "This kangaroo faces the other way, like in a mirror. Turning the card cannot do that.",
+        "B": "The head is up here, but the feet point left. Turning the card would put the feet on the right.",
+        "C": "The feet point up here, but the head is on the right. Turning the card upside down would put the head on the left.",
+        "D": "The head is down here, but the feet point right. Turning the card would put the feet on the left."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:14Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q07": {
+      "source": "original",
+      "content_hash": "sha256:b627430c53318cc97c36ce480be1fd26aa4af47aa2236ed2f57cdaa00fce081d",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "From straight above you only see the outline of the tower from the top.",
+      "steps": [
+        "The tower is a round cylinder with a pointy cone on top.",
+        "From above, the cone looks like a circle, the same size as the top of the cylinder.",
+        "The cylinder is hidden under that circle, because it is just as wide.",
+        "So you see a circle."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "A triangle is how the cone looks from the side, not from above.",
+        "C": "Nothing in the tower has square corners.",
+        "D": "No part of the tower makes this shape.",
+        "E": "A rectangle is how the cylinder looks from the side, not from above."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:14Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q08": {
+      "source": "original",
+      "content_hash": "sha256:c1d83be731200503c198dc07242a3f237100c7839f9768593b99f343a9f22d6c",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Look only at the red square and find the numbers that are not in it.",
+      "steps": [
+        "The square is red. The circle is blue.",
+        "Inside the square are 9, 24, 21 and 36.",
+        "52 and 48 are inside the circle but outside the square.",
+        "So 2 numbers are outside the square."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "There are 6 numbers in all, but 4 of them are inside the square.",
+        "B": "9, 24, 21 and 36 are inside the square. Only 52 and 48 are outside.",
+        "C": "4 numbers are inside the square, not outside.",
+        "D": "Only 52 and 48 are outside the square."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:14Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q09": {
+      "source": "original",
+      "content_hash": "sha256:aebb7db85493f7355a10a3b21c8f3baa4980b0b5c861fc1fd9a59c995eee1931",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Half the way and the other half take the same time.",
+      "steps": [
+        "Half of the way takes half an hour. That is 30 minutes.",
+        "The other half of the way also takes 30 minutes.",
+        "30 + 30 = 60 minutes. 60 minutes is 1 hour."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "15 minutes is even less than the time for half the way.",
+        "B": "30 minutes is the time for only half of the way.",
+        "C": "40 minutes is too short. The two halves take 30 + 30 = 60 minutes.",
+        "E": "2 hours is too long. The two halves take 30 + 30 = 60 minutes."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:14Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q10": {
+      "source": "original",
+      "content_hash": "sha256:495b00f3240b37c166f4d6f9516bed132b52db10fb5568f1612c8e8e9a025138",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Each figure has 4 cubes and must split into 2 pairs of cubes that touch.",
+      "steps": [
+        "Each block is 2 cubes glued together. 2 blocks make 4 cubes.",
+        "In figure B, the top cube sits on the middle cube of the bottom row.",
+        "That top cube must pair with the middle cube. Then the left cube and the right cube are left alone, and they do not touch.",
+        "So figure B cannot be made."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "Split A into the top 2 cubes standing up and the bottom 2 cubes lying flat.",
+        "C": "C is 2 blocks lying flat, one on top of the other.",
+        "D": "D is one block lying flat in front and one block standing up behind it.",
+        "E": "E is 2 blocks standing up, one on top of the other."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:14Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q11": {
+      "source": "original",
+      "content_hash": "sha256:da7b36770e55e128abe120a7b4010d2c0f8a05a0ac8cb3a77e5f4973908fab22",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Katharina gives away half of the difference.",
+      "steps": [
+        "Katharina has 17 - 9 = 8 more sweets than Julia.",
+        "Half of 8 is 4. She gives Julia 4 sweets.",
+        "Check: 17 - 4 = 13 and 9 + 4 = 13. Both have 13."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "17 - 2 = 15 and 9 + 2 = 11. That is not the same.",
+        "B": "17 - 3 = 14 and 9 + 3 = 12. That is not the same.",
+        "D": "17 - 5 = 12 and 9 + 5 = 14. Now Julia has more.",
+        "E": "17 - 6 = 11 and 9 + 6 = 15. Now Julia has more."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:14Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q12": {
+      "source": "original",
+      "content_hash": "sha256:4b690c491cd4963d15d5de665a1677f86a36e31de2354baa095f012968cd426f",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Same colours never touch, so the colours in each block take turns.",
+      "steps": [
+        "In each block the cubes go grey, white, grey, white, grey from top to bottom.",
+        "So each block has 2 white cubes and 3 grey cubes.",
+        "There are 6 blocks. 2 + 2 + 2 + 2 + 2 + 2 = 12."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "10 is 2 white cubes in only 5 blocks. There are 6 blocks.",
+        "B": "Each block has 2 white cubes, so the total must be an even number.",
+        "D": "18 is 3 cubes in each block. That counts the grey cubes, not the white ones.",
+        "E": "30 is all the little cubes, grey and white together."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:14Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q13": {
+      "source": "original",
+      "content_hash": "sha256:5f4840806cf833fce8ea5f9e06104531f52506c7f34e820755305147e80a3fa9",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Each half star must meet a half star with the same number of outlines on the next piece.",
+      "steps": [
+        "Look at the 3 half stars that touch the empty spot.",
+        "The one above it has 3 outlines. The one on the left has 1 outline. The one on the right has 2 outlines.",
+        "So the missing piece needs a 3-line, a 2-line and a 1-line half star on the right edges.",
+        "Turn piece A so its 3-line half star is at the top. Then its 2-line half star is on the right and its 1-line half star is on the left. It fits."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "B has a 1-line, a 2-line and a 3-line half star, but in the wrong order. With the 3-line one at the top, the 1-line one lands on the right.",
+        "C": "C has no 1-line half star.",
+        "D": "D has no 2-line half star.",
+        "E": "E has no 2-line half star."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:14Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q14": {
+      "source": "original",
+      "content_hash": "sha256:27955153382ddf630987f4d9f04b09bef01c1e7bdd6112ff3317c56b13e581e5",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Count the gaps between the flags, not the flags.",
+      "steps": [
+        "Between 11 flags in a row there are 10 gaps.",
+        "Each gap is 8 meters.",
+        "10 gaps of 8 meters: 8, 16, 24, 32, 40, 48, 56, 64, 72, 80. That is 80 meters."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "24 meters is only 3 gaps.",
+        "B": "48 meters is only 6 gaps.",
+        "C": "72 meters is 9 gaps, but 11 flags have 10 gaps between them.",
+        "E": "88 meters is 11 gaps, but 11 flags have only 10 gaps between them."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:14Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q15": {
+      "source": "original",
+      "content_hash": "sha256:2c9d367032d0967facad8e842c612ab5a94f13cbad8be69979304ed8a300b175",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "The middle pirate has the same number of pirates before him and after him.",
+      "steps": [
+        "The leader is the 8th pirate, so 7 pirates climb before him.",
+        "He is exactly in the middle, so 7 pirates climb after him too.",
+        "7 + 1 + 7 = 15."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "With 16 pirates, nobody is exactly in the middle.",
+        "C": "The leader has 7 pirates before him and needs 7 after him. That is more than 12.",
+        "D": "8 counts only the pirates up to the leader. 7 more come after him.",
+        "E": "7 counts only the pirates before the leader."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:14Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    }
+  }
+}

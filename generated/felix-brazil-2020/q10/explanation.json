@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:3b0e15e75052711d9f4fc5d366761c563ca881ee4c0364b427b8bddb0853d425",
+  "answer": "A",
+  "independent_answer": "A",
+  "key_idea": "Find the streets that have only 2 houses. The new house must be on both of them.",
+  "steps": [
+    "The top street has only 2 houses. The middle and bottom streets already have 3 each.",
+    "The circle on the right has only 2 houses: the one in the middle of the middle street and the one at the bottom right.",
+    "Point A is on the top street and on the right circle, so one house there fixes both."
+  ],
+  "answer_sentence": "So the answer is A.",
+  "choice_feedback": {
+    "B": "B is on the top street, but not on the right circle.",
+    "C": "C is on the middle street, which already has 3 houses.",
+    "D": "D is not on the top street, and not on the right circle.",
+    "E": "E is on the bottom street, which already has 3 houses."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "flagged",
+    "note": "The circles are drawn as filled discs that cover each other, so parts of the left and middle circles are hidden: the left circle's arc through the centre house at (280,200), where it touches the right circle, and the middle circle's arc through the house at (420,200) cannot be seen. A child counting visible houses finds only 2 on the left and middle circles. Key A checks out by geometry and the steps only use the top street and the fully visible right circle; redraw the circles unfilled."
+  }
+}

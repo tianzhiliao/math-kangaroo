@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:a014f1598c2bc1d3b24e59c0360fb69b3156aa151eb93cfac0dc2e79e00d839a",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Work out each parrot's feathers, then pick the biggest number.",
+  "steps": [
+    "Pip has 11 feathers.",
+    "Coco has 5 more than Pip: 11 + 5 = 16.",
+    "Pip has 8 less than Lala, so Lala has 8 more than Pip: 11 + 8 = 19.",
+    "19 is the most, so Lala wins with 19 feathers."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "No parrot has 14 feathers. Pip has 11, Coco has 16 and Lala has 19.",
+    "B": "16 is Coco's number, but Lala has more feathers.",
+    "C": "No parrot has 17 feathers. Lala has 11 + 8 = 19.",
+    "E": "No parrot has 21 feathers. Lala has 11 + 8 = 19."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:57Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

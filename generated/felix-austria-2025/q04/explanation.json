@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:212b9610ba06c5a58f2dcb2603b5002888f8c38a7279915a9bdd8852e27b6bee",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Count the empty spots where tiles used to be.",
+  "steps": [
+    "The square was 5 tiles across and 5 tiles down, so it had 25 tiles.",
+    "Count the empty spots in each row: 1, 2, 2, 1 and 1.",
+    "1 + 2 + 2 + 1 + 1 = 7.",
+    "Check: the tiles left are 4 + 3 + 3 + 4 + 4 = 18, and 25 - 18 = 7."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "That misses some empty spots. The middle spot is empty in the top row and in the 2 bottom rows.",
+    "B": "That misses 2 empty spots. Count 1, 2, 2, 1 and 1.",
+    "C": "That misses one empty spot. Check the 2 bottom rows.",
+    "E": "That is too many. 18 tiles are still there, and 25 - 18 = 7."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:13Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

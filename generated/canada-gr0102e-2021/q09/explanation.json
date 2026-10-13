@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:481f5a2794794f082614757ea546cb8097991448cb761d72be44216e9b8f8c83",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Find how many more goals Noor scored, then turn goals into points.",
+  "steps": [
+    "Noor scored 7 goals and Sam scored 4 goals. 7 - 4 = 3 more goals.",
+    "Each goal is worth 3 points.",
+    "3 goals are worth 3 + 3 + 3 = 9 points."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "That would be 2 more goals, but Noor scored 3 more.",
+    "C": "12 is all of Sam's points. The question asks how many more Noor has.",
+    "D": "That would be 5 more goals, but Noor scored 3 more.",
+    "E": "21 is all of Noor's points. The question asks how many more Noor has than Sam."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

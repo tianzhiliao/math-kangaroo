@@ -209,7 +209,7 @@ export function PracticeLayout({
         {feedback ? <div className="hidden md:block">{feedback}</div> : null}
         <PracticeExplanationPanel
           examId={examId}
-          questionNumber={question.number}
+          questionId={question.id}
           selectedLabel={selectedLabel}
           expectedCorrectLabel={correctLabel}
         />

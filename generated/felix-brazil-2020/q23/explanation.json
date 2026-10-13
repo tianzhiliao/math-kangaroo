@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:91ff426bb191dd45e2dc830bae0f2f3453599ec87f81f6a0af1c4a5e618a95e6",
+  "answer": "E",
+  "independent_answer": "E",
+  "key_idea": "The tallest person has no arrow going out, because nobody is taller than them.",
+  "steps": [
+    "An arrow goes from the shorter person to the taller one.",
+    "P is shorter than Q and S. Q and S are both shorter than R.",
+    "R is shorter than T, and no arrow leaves T. So T is the tallest."
+  ],
+  "answer_sentence": "So the answer is E.",
+  "choice_feedback": {
+    "A": "P has arrows going to Q and S, so P is shorter than both.",
+    "B": "Q has an arrow going to R, so Q is shorter than R.",
+    "C": "R has an arrow going to T, so R is shorter than T.",
+    "D": "S has an arrow going to R, so S is shorter than R."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

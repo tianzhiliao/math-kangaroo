@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:58860f3b63dafe35e1dff95bec48ae109928692f4982f2a31f181ede078df26e",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "A piece that covers another piece was put on the table later.",
+  "steps": [
+    "The pink rectangle is under everything, so it went on first.",
+    "The blue triangle lies on the rectangle, and the yellow circle covers the middle of the triangle.",
+    "The green square lies on the circle, and the orange pentagon lies on the square.",
+    "From the bottom up: rectangle, triangle, circle, square, pentagon. The second piece is the triangle."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "The circle was the third piece. It lies on the triangle.",
+    "B": "The square was the fourth piece. It lies on the circle.",
+    "D": "The rectangle was the first piece, at the very bottom.",
+    "E": "The pentagon was the last piece, on top of all the others."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

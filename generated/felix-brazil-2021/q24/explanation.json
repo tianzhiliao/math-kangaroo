@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:7d7488f17cd48682c9d3f533bf940ee401dc9145bccd59e03fa4c0a1f0525312",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Find where the ball can go, then see which shelves stay free for the puzzle.",
+  "steps": [
+    "Shelf 1 is at the top. The game and the car are above the ball, and the blocks are below it. So the ball is on shelf 3 or 4.",
+    "Ball on 3: game on 2, car on 1, and the blocks and the puzzle share 4 and 5.",
+    "Ball on 4: game on 3, blocks on 5, and the car and the puzzle share 1 and 2.",
+    "The puzzle can go on 1, 2, 4 or 5, but never on shelf 3."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "The puzzle can be on 1: ball on 4, game on 3, car on 2, blocks on 5.",
+    "B": "The puzzle can be on 2: ball on 4, game on 3, car on 1, blocks on 5.",
+    "D": "The puzzle can be on 4: ball on 3, game on 2, car on 1, blocks on 5.",
+    "E": "The puzzle can be on 5: ball on 3, game on 2, car on 1, blocks on 4."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

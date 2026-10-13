@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:d9e53fa9acc36e664edb19e6e18368ecd00ef825f04ba7a5af49f27039e259fa",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Follow the line from the arrow and say each shape as you go past it.",
+  "steps": [
+    "Start at the purple arrow on the left and move right along the bottom part of the line.",
+    "First you pass the pink circle below the line. Then you reach the yellow square, just above and to the left of where the line turns up.",
+    "The line goes up and along the top. There you pass the green triangle.",
+    "Then the line goes down the right side, past the orange star. The order is circle, square, triangle, star."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "The pink circle starts further left than the square, so you pass it first.",
+    "C": "You pass the square before the line goes up to the triangle.",
+    "D": "This is the order going backwards, from the end of the line.",
+    "E": "You pass the triangle on the top part before the star on the right side."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:34:35Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

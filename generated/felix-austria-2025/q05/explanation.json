@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:dd2f40aa5e8269fc7cdc523292566c0ead5b635219e39be50d810b74cd9457fc",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Count the squares in each path. The path with the fewest squares is the shortest.",
+  "steps": [
+    "Each small square is one step, so count the squares in each path.",
+    "A has 6, B has 5, C has 4, D has 7 and E has 6.",
+    "Path C has the fewest squares, so it is the shortest."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Path A has 6 squares, 2 more than path C.",
+    "B": "Path B has 5 squares, 1 more than path C.",
+    "D": "Path D has 7 squares. It is the longest.",
+    "E": "Path E has 6 squares, 2 more than path C."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:13Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

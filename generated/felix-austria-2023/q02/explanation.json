@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:d470c2dd219609b5abcd4a8b19e7efd6f5faab60c13dadb5cc8f4d324e0f1422",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "From above you only see the top cube of each stack.",
+  "steps": [
+    "On the left, a purple cube sits on a yellow cube.",
+    "In the middle, an orange cube sits on a yellow cube.",
+    "On the right, there is just one blue cube.",
+    "From above, the top cubes hide the yellow ones. So we see purple, orange, blue."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "From above the yellow cube on the left is hidden under the purple cube.",
+    "B": "This is the wrong way round. Purple is on the left and blue is on the right.",
+    "D": "The middle stack has orange on top, not blue.",
+    "E": "Purple and orange are swapped. Purple is on the left."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:01Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

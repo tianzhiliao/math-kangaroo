@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:e0bc090a087de6b3610a6715c87afc90dcba0d60999d7a422925989d969012d5",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Follow the arrows from In to Out and write down each sticker as Sam passes it.",
+  "steps": [
+    "On floor 1 Sam starts at In and passes the red triangle first. The wall stops her, so she takes the stairs up.",
+    "On floor 2 she passes the blue circle, then the green square.",
+    "She comes down to the other side of floor 1 and passes the yellow diamond on the way to Out.",
+    "The order is triangle, circle, square, diamond."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "Sam passes the triangle before she goes up to the circle.",
+    "B": "On floor 2 the circle comes before the square.",
+    "C": "The diamond is on floor 1, after Sam comes back down. The square comes before it.",
+    "E": "The triangle comes first, near In."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:47:49Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

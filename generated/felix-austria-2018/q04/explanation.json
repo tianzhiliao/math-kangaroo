@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:2265d1bd16a85d2693aee95f80e369dbc9c37112f5b002924be758e7b9fc4707",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "The copy looks exactly the same and sits right next to the first drawing.",
+  "steps": [
+    "The pattern is a big square with a small blue square near its top, a little to the right.",
+    "The new copy goes right next to the first one, on its right side, at the same height.",
+    "In the copy, the small square is in the same place inside the new big square.",
+    "Point B is in the middle of the new small square, so it is on the new drawing."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "Point A is above the new big square, outside the drawing.",
+    "C": "Point C is past the right edge of the new big square.",
+    "D": "Point D is below the new big square.",
+    "E": "Point E is above the first drawing, not on the new one."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:06Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

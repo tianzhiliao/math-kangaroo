@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:0dafa5bdb0c1f470c39ae12a7f584d5fde6c02d73c91f084beb8ff8f393de610",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Count the small grid steps along each path.",
+  "steps": [
+    "Each path is made of short pieces, each one square side long. Count them.",
+    "The green path C goes down 3, right 4, up 3, left 2 and down 2. That is 3 + 4 + 3 + 2 + 2 = 14.",
+    "Path A has 11 pieces, path B has 12, path D has 13 and path E has 13.",
+    "14 is the biggest, so path C is the longest."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Path A has 11 pieces, fewer than 14.",
+    "B": "Path B has 12 pieces, fewer than 14.",
+    "D": "Path D has 13 pieces, 1 fewer than path C.",
+    "E": "Path E has 13 pieces, 1 fewer than path C."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

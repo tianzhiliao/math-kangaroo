@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:1a098f7c2558741c2892febe9b32757be8b444c548f09eb0cd733c4e1cdd86df",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Look closely at the shape in each tile and which way it points.",
+  "steps": [
+    "The wall has yellow tiles with circles, pink tiles with triangles, blue tiles with diamonds and green tiles with squares.",
+    "Every triangle in the wall points up.",
+    "Tile D has a triangle pointing down, so it is not in the wall."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "Yellow tiles with a blue circle are in the wall.",
+    "B": "Pink tiles with a triangle pointing up are in the wall.",
+    "C": "Green tiles with a purple square are in the wall.",
+    "E": "Blue tiles with an orange diamond are in the wall."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

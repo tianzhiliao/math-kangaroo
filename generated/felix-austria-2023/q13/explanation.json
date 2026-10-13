@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:a703201b9723d89684c72355cafeb038b2cb7cb369aacc1848b340cb6260fcd9",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Use the clues one at a time, starting with the youngest.",
+  "steps": [
+    "The cakes show 7, 6, 3, 5 and 4. Otto is the youngest, so he gets 3.",
+    "Mia is 1 year older than Ben, and Ben is 2 years older than Sara. So Mia is 3 years older than Sara.",
+    "From 4, 5, 6 and 7, the only numbers 3 apart are 4 and 7. So Sara is 4 and Mia is 7.",
+    "Ben is 4 + 2 = 6. The cake left over is 5, and that is Lina's."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "7 is Mia's cake. Mia is 3 years older than Sara.",
+    "B": "6 is Ben's cake. Ben is 2 years older than Sara.",
+    "C": "3 is Otto's cake, because he is the youngest.",
+    "E": "4 is Sara's cake."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:01Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:9009e7e1f531065ba9b35bb3123cf9a3bf0b30c5f7e2f355f00e817c51d0f002",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Add each row number to each column number and look for 11.",
+  "steps": [
+    "4 + 7 = 11 is in the top row, last column.",
+    "6 + 5 = 11, 8 + 3 = 11 and 10 + 1 = 11.",
+    "These four squares make a line from the top right corner to the bottom left corner."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "This line starts with 4 + 1 = 5, not 11.",
+    "B": "The top row makes 5, 7, 9 and 11. Only one of them is 11.",
+    "D": "The first column makes 5, 7, 9 and 11. Only one of them is 11.",
+    "E": "The corners make 5, 11, 11 and 17. Only two of them are 11."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T00:00:00Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

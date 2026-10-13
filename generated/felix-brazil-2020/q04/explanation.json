@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:617fc2d1d70ecab1cd56bdd912166d32db28927baf2e720c5e01000ca4dd9629",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Try a number of right days and check if she ends with 10 more coins.",
+  "steps": [
+    "Try 4 right days: she wins 4 + 4 + 4 + 4 = 16 coins.",
+    "Then 7 - 4 = 3 days are wrong: she pays 2 + 2 + 2 = 6 coins.",
+    "16 - 6 = 10. She has 10 more coins. It works!"
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "She wins 8 coins and pays 10, so she loses 2 coins.",
+    "B": "She wins 12 coins and pays 8, so she gains only 4 coins.",
+    "D": "She wins 20 coins and pays 4, so she gains 16 coins.",
+    "E": "She wins 24 coins and pays 2, so she gains 22 coins."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

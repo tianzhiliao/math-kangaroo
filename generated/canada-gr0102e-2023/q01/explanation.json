@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:be673f7bafdad3466b9de7cd6bd5d78cbe8e210fa9f7b1a8a985e7442649b4ac",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Count every circle, big and small, including the ones inside other circles.",
+  "steps": [
+    "The big yellow circle has 2 small circles inside it, an orange one and a green one: 1 + 2 = 3.",
+    "Around it are the blue circle, the green circle, the big orange circle and the purple circle: 4 more.",
+    "3 + 4 = 7 circles."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "You may have missed one of the small circles inside the big yellow circle.",
+    "C": "You may have counted one circle twice.",
+    "D": "You may have counted some circles twice.",
+    "E": "There are not that many circles. Count each one once."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:47:49Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

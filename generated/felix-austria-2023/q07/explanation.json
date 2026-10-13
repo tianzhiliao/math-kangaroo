@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:70cf45cb11fcc7abc415227f39e4e07703cb637eb55c4fdd25e6dffa148af1c9",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "When you unfold the paper, each hole gets a mirror twin on the other side of the fold.",
+  "steps": [
+    "The fold is on the right side of the folded paper.",
+    "The top hole is close to the fold. The bottom hole is far from the fold, near the left edge.",
+    "When she unfolds, the top hole gets a twin close to the fold on the other side. So the top 2 holes sit next to the middle line.",
+    "The bottom hole gets a twin far from the fold. So the bottom 2 holes sit near the outer edges."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "The bottom holes are next to the middle line. They should be near the outer edges.",
+    "B": "The top holes are at the outer edges. They should be next to the middle line.",
+    "D": "This is the wrong way round. The top holes are far from the fold and the bottom holes are close to it.",
+    "E": "All the holes are the same distance from the fold, but the top and bottom holes were at different distances."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:01Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

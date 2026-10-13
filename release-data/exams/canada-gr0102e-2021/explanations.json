@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "questions": {
+    "q01": {
+      "source": "original",
+      "content_hash": "sha256:55cd7331ee50f380798406eb8ac9a7187ae91f6a2380a1204959907acf6b6ae1",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Every stick is as long as the stick in the picture, and the kangaroo has only 3 of them.",
+      "steps": [
+        "Each line that goes all the way across a shape is one whole stick.",
+        "Count the long lines in each shape. A, B, C and D each have 4 long lines, so they need 4 sticks.",
+        "E has 3 long lines that cross in the middle. That is exactly 3 sticks."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "This star has 4 long lines crossing in the middle, so it needs 4 sticks.",
+        "B": "This shape has 2 standing lines and 2 slanted lines, so it needs 4 sticks.",
+        "C": "This frame is made of 4 long lines, so it needs 4 sticks.",
+        "D": "This frame is made of 4 long lines, so it needs 4 sticks."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q02": {
+      "source": "original",
+      "content_hash": "sha256:d2b3d19a78843de102c066bac1828fb39451d1a52b7e0ea12df949ee1586d834",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Count how many small square sides each path walks along.",
+      "steps": [
+        "Every path follows the lines of the grid. Count one for each small square side the path covers.",
+        "A: 15. B: 13. C: 12. D: 12. E: 11.",
+        "15 is the biggest number, so path A is the longest."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "Path B covers 13 small sides. That is less than 15.",
+        "C": "Path C covers 12 small sides. That is less than 15.",
+        "D": "Path D covers 12 small sides. That is less than 15.",
+        "E": "Path E covers only 11 small sides."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q03": {
+      "source": "original",
+      "content_hash": "sha256:9efb8101abd9e7c3e2d7421fd04dd81535a3b52bfce97cf7f599678c6229f95d",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "The hole must be on a spot that is inside every one of the 4 sheets.",
+      "steps": [
+        "Check each spot against each sheet, one sheet at a time.",
+        "A and B are above the sheet in front, so they miss that sheet.",
+        "C is too far left for the sheet at the back on the right. E is too far right for the sheet on the left.",
+        "D is inside all 4 sheets, so a hole there goes through every sheet."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "This spot is above the sheet in front, so the hole would miss that sheet.",
+        "B": "This spot is above the sheet in front, so the hole would miss that sheet.",
+        "C": "This spot is to the left of the sheet at the back on the right.",
+        "E": "This spot is to the right of the sheet on the left."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q04": {
+      "source": "original",
+      "content_hash": "sha256:8ec71e350c48636b49d901aa304fe2eb142914bda05dca11c4b916395f7a2d31",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "The bear faces us, so the bear's right side is on our left.",
+      "steps": [
+        "Ann's bear has a triangle on its belly. A and C have a round spot, so they are out.",
+        "The bear's right eye is on our left. In B the ear covers the eye on our right, so B is out.",
+        "The bear's left hand is on our right. In E the raised hand is on our left, so E is out.",
+        "D has the triangle, the ear over the eye on our left, and the hand on our right raised."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "This bear has a round spot on its belly, not a triangle.",
+        "B": "The ear covers the bear's left eye, and no hand is raised up.",
+        "C": "This bear has a round spot on its belly, not a triangle.",
+        "E": "This bear raises its right hand, not its left hand."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q05": {
+      "source": "original",
+      "content_hash": "sha256:b244ddf7d379aff81380b0b7bb60d6939e120bb3c040becb30b37b3e8e11509f",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Each cut through the ribbon makes one more piece.",
+      "steps": [
+        "Follow the dashed line from top to bottom and count every place where it crosses the ribbon.",
+        "It crosses the ribbon 11 times, so there are 11 cuts.",
+        "One ribbon with 1 cut makes 2 pieces. Each new cut adds 1 more piece.",
+        "11 cuts make 11 + 1 = 12 pieces."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Count the crossings again: the line cuts the ribbon 11 times.",
+        "B": "Count the crossings again: the line cuts the ribbon 11 times.",
+        "C": "11 is the number of cuts. The pieces are one more than the cuts.",
+        "E": "That is 2 more than the cuts. The pieces are only 1 more than the cuts."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q06": {
+      "source": "original",
+      "content_hash": "sha256:c4f949a5a139d47e664c37c82d7e9be710d5c3b159706925d6cf6b10398767bc",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "A mirror swaps left and right, but it does not turn things upside down.",
+      "steps": [
+        "In the mirror, the 1 that was on the right end shows up on the left end.",
+        "Every digit is flipped side to side, like a mirror picture of itself.",
+        "The digits stay the right way up.",
+        "A shows the 1 on the left, then 2, 0, 2, and every digit is flipped side to side."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "This one is upside down. A mirror does not turn things upside down.",
+        "C": "The digits here are in the wrong order.",
+        "D": "Some digits in this one are turned the wrong way.",
+        "E": "Some digits in this one are turned the wrong way."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q07": {
+      "source": "original",
+      "content_hash": "sha256:aa4e552d9f0fd4b9dea7514b91b15ec13bc5b15868a5e5d4352beb1c515bcc6f",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Count the beads on the loop and the beads on the short string.",
+      "steps": [
+        "Sophie's necklace has 4 beads on the loop.",
+        "1 more bead hangs on a short string that starts at one of the loop beads.",
+        "B also has 4 beads on the loop, and 1 bead on a short string from one loop bead.",
+        "The string can bend, so it does not matter that the short string in B lies inside the loop."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "This necklace has 4 beads on the loop but no bead on a short string.",
+        "C": "All 5 beads are on the loop. There is no short string.",
+        "D": "This loop has only 3 beads, and 2 beads hang off it.",
+        "E": "This loop has 6 beads, not 4."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q08": {
+      "source": "original",
+      "content_hash": "sha256:2fde54b46dd5f18293e4c0c363a6114791fdef533aeb83136cd0fcc6b437eebb",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Line the toys up from heaviest to lightest, one scale at a time.",
+      "steps": [
+        "Penguin and frog: the penguin side is lower, so the penguin is heavier than the frog.",
+        "Pencil and penguin: the pencil side is lower, so the pencil is heavier than the penguin.",
+        "Pencil and plane: the plane is heavier. Plane and apple: the apple is heavier.",
+        "So apple, plane, pencil, penguin, frog. The apple is the heaviest."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "The pencil is heavier than the penguin.",
+        "B": "The apple is heavier than the plane.",
+        "D": "The frog is lighter than the penguin.",
+        "E": "The plane is heavier than the pencil."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q09": {
+      "source": "original",
+      "content_hash": "sha256:40dab2f46ba6bf63f61cd282e1cdf385a4eb4d937fa3fdeb11f4a7cd04cca386",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Find how many more goals Angela scored, then turn goals into points.",
+      "steps": [
+        "Angela scored 9 goals and Julie scored 5 goals. 9 - 5 = 4 more goals.",
+        "Each goal is worth 2 points.",
+        "4 goals are worth 2 + 2 + 2 + 2 = 8 points."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "4 is how many more goals Angela scored, not how many more points.",
+        "B": "That would be 3 more goals, but Angela scored 4 more.",
+        "D": "10 is all of Julie's points. The question asks how many more Angela has.",
+        "E": "That would be 6 more goals, but Angela scored 4 more."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q10": {
+      "source": "original",
+      "content_hash": "sha256:9269793f71ba3a691bca3ba5bd4bd45810f4c13de8785e8f564a1884dad51ea2",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Fit the two pieces into the figure so every shape lands on the same shape.",
+      "steps": [
+        "Together the pieces have 16 squares, just like each 4 by 4 figure.",
+        "Turn the U-shaped piece on its side so it opens to the right.",
+        "In A it covers the left column, the first 3 squares of the top row and the first 3 squares of the bottom row. All the shapes match.",
+        "The other piece fills the middle and the right side, and its shapes match too."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "The two pieces cannot be fitted to make this pattern.",
+        "C": "The two pieces cannot be fitted to make this pattern.",
+        "D": "The two pieces cannot be fitted to make this pattern.",
+        "E": "This figure has only 4 circles, but the two pieces have 5 circles."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q11": {
+      "source": "original",
+      "content_hash": "sha256:95ccabfba49706b3c2d120e601a65851a9732a0d544a275ae8f7ab69ebb016ed",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Work out one week first, then double it.",
+      "steps": [
+        "Apple days are Monday, Wednesday and Friday. 3 days with 2 apples: 2 + 2 + 2 = 6.",
+        "Mango days are Tuesday and Thursday. 2 days with 3 mangoes: 3 + 3 = 6.",
+        "One week: 6 + 6 = 12 fruits.",
+        "Two weeks: 12 + 12 = 24 fruits."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "12 fruits is only one week.",
+        "B": "One week is 12 fruits, so two weeks is 12 + 12 = 24.",
+        "C": "One week is 12 fruits, so two weeks is 12 + 12 = 24.",
+        "D": "One week is 12 fruits, so two weeks is 12 + 12 = 24."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q12": {
+      "source": "original",
+      "content_hash": "sha256:213fcaa0581c85e578067285096dbe4d3d215650641a30399ec0a0d6db33afc5",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Children in the middle hold hands on both sides, so only the two ends need checking.",
+      "steps": [
+        "There are 7 children. The 5 in the middle hold hands on both sides, so each of them uses the right hand. That makes 5.",
+        "The girl on the far left faces us. Her right hand is on our left, and that hand is free.",
+        "The girl on the far right also faces us. Her free hand is on our right, which is her left hand. So her right hand holds a hand.",
+        "5 + 1 = 6 children hold hands with their right hand."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "Each of the 5 children in the middle uses both hands, so at least 5 right hands are holding.",
+        "B": "Each of the 5 children in the middle uses both hands, so at least 5 right hands are holding.",
+        "C": "Each of the 5 children in the middle uses both hands, so at least 5 right hands are holding.",
+        "D": "Check the girl on the far right too: she holds with her right hand."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q13": {
+      "source": "original",
+      "content_hash": "sha256:af96254802de417259432f9d857f0311b539b6865b26a857781c839483fc6a0d",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Whatever is eaten from the second branch is what was left on the first.",
+      "steps": [
+        "Try it: say the kangaroo eats 3 leaves from the first branch. 10 - 3 = 7 leaves are left there.",
+        "Then it eats 7 leaves from the second branch. 10 - 7 = 3 leaves are left there.",
+        "Leaves left: 7 + 3 = 10.",
+        "Try any other number and you get 10 again."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Try a number: eat 3 from the first branch. Then 7 + 3 = 10 leaves are left.",
+        "B": "Try a number: eat 3 from the first branch. Then 7 + 3 = 10 leaves are left.",
+        "C": "Try a number: eat 3 from the first branch. Then 7 + 3 = 10 leaves are left.",
+        "E": "Try a number: eat 3 from the first branch. Then 7 + 3 = 10 leaves are left."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q14": {
+      "source": "original",
+      "content_hash": "sha256:1384c5d61316756ba6aee1d6605e416b0a694aa8470401a2fe2d3ce13713c7e1",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Keep swapping until there are fewer than 3 of each fruit.",
+      "steps": [
+        "Start: 4 apples and 5 bananas.",
+        "3 apples become 1 banana: 1 apple and 6 bananas.",
+        "6 bananas become 2 apples: 3 apples and 0 bananas.",
+        "3 apples become 1 banana: 0 apples and 1 banana. Nothing more can change."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "She ends with 1 banana, not 1 apple.",
+        "C": "She ends with only 1 banana and no apple.",
+        "D": "She ends with 1 banana and no apples.",
+        "E": "She ends with only 1 banana, not 2."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q15": {
+      "source": "original",
+      "content_hash": "sha256:d89e3834d1b4f46074255efcc9bfc59c386e7a3a2642952f9515664a8b1b5df3",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Both boxes must add up to half of all the cards.",
+      "steps": [
+        "Add all the cards: 2 + 3 + 4 + 5 + 6 = 20.",
+        "The boxes are equal, so each box adds up to 10.",
+        "The box with 4 needs 10 - 4 = 6 more.",
+        "Only the card 6 makes 6. No two of the other cards add up to 6."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "4 + 3 = 7, not 10.",
+        "B": "4 + 5 = 9, not 10.",
+        "D": "4 + 2 + 3 = 9, not 10.",
+        "E": "4 + 2 + 5 = 11, not 10."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q16": {
+      "source": "original",
+      "content_hash": "sha256:840c80df10b579edcc26e6df81b258e222787c18de8b538ec003b6f1ccbaaddd",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "When the small cog turns once, the big cog turns by the same number of teeth.",
+      "steps": [
+        "The small cog has 8 teeth and the big cog has 16 teeth.",
+        "When the small cog makes one full turn, 8 teeth of the big cog go past.",
+        "8 is half of 16, so the big cog makes half a turn. Its black tooth moves from the top left to the bottom right.",
+        "The small cog's black tooth comes back to where it started, next to the big cog."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "Here the big cog's black tooth has not moved, but the big cog turns half a turn.",
+        "B": "The big cog's black tooth should be on the opposite side, at the bottom right.",
+        "D": "The big cog's black tooth should be on the opposite side, at the bottom right.",
+        "E": "The big cog's black tooth should be on the opposite side, at the bottom right."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q17": {
+      "source": "original",
+      "content_hash": "sha256:a2f4b2a6c565a7682206b20c90ce98060f29bc5a532a3f36ec7bceff7b52cf22",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Find every shelf the ball can be on, then see where the puzzle fits.",
+      "steps": [
+        "Shelf 1 is at the bottom. The blocks are below the ball. The chess game and the car are above it.",
+        "So the ball is on shelf 2 or shelf 3.",
+        "Ball on 2: blocks on 1, chess on 3, so the puzzle is on 4 or 5.",
+        "Ball on 3: chess on 4, car on 5, so the puzzle is on 1 or 2.",
+        "The puzzle is never on shelf 3."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "The puzzle can be on 1: ball 3, chess 4, car 5, blocks 2.",
+        "B": "The puzzle can be on 2: ball 3, chess 4, car 5, blocks 1.",
+        "D": "The puzzle can be on 4: blocks 1, ball 2, chess 3, car 5.",
+        "E": "The puzzle can be on 5: blocks 1, ball 2, chess 3, car 4."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q18": {
+      "source": "original",
+      "content_hash": "sha256:921a2c84c34e743f4fc32051cf7f8504cc0437746506832d8aef914a701b6225",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "The middle cell is covered every time the shape is placed.",
+      "steps": [
+        "The shape fits in 3 places: top right, bottom left and bottom right. All 3 cover the middle cell, so the shape was placed 15 times.",
+        "The 9 is covered only by the top right and bottom right places. So the bottom left place was used 15 - 9 = 6 times.",
+        "The 8 is covered only by the bottom left and bottom right places. So the top right place was used 15 - 8 = 7 times. Bottom right: 15 - 6 - 7 = 2.",
+        "Each orange corner is covered by just one place: 7, 6 and 2. 7 + 6 + 2 = 15."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Find how many times each place was used. The corners add up to 15.",
+        "B": "Find how many times each place was used. The corners add up to 15.",
+        "C": "Find how many times each place was used. The corners add up to 15.",
+        "E": "Find how many times each place was used. The corners add up to 15."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:37:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:a7a0f740233ff5a1bbbfd3ebc4c3bf6477cb617e456ed2e85b5f43c7bda464a1",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "An arrow always points to someone shorter.",
+  "steps": [
+    "E points to A, A points to B, and B points to D. Each one is taller than the next.",
+    "C points to D too, so C is also taller than D.",
+    "Nobody gets an arrow from D, so D is not taller than anyone. D is the shortest."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "A has an arrow to B, so A is taller than B.",
+    "B": "B has an arrow to D, so B is taller than D.",
+    "C": "C has an arrow to D, so C is taller than D.",
+    "E": "E is at the top of the line, so E is the tallest."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T00:00:00Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

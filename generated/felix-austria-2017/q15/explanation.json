@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:650b3d05c9ff61c2839bdd63b139f3082611b8b65663533781f924248419f700",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "MNN ends with two same letters, so it must be the key that ends with two same digits.",
+  "steps": [
+    "MNN ends with 2 same letters. Only 355 ends with 2 same digits. So M is 3 and N is 5.",
+    "NXM is 5, then X, then 3. That is 523, so X is 2.",
+    "XYX is 2, then Y, then 2. That is 242, so Y is 4.",
+    "The key left over is 454. 4 is Y and 5 is N, so the letters are Y, N, Y."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "XMX would be 232, and there is no key 232.",
+    "C": "NXN would be 525, and there is no key 525.",
+    "D": "MNM would be 353, and there is no key 353.",
+    "E": "YXY would be 424, and there is no key 424."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:36:33Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

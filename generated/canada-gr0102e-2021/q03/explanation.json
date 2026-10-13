@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:008d2869e1f22de75d4e90db95bb6c1faba28928bc4451a89b98b46b0f23d7f4",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "The hole must be on a spot that is inside every one of the 4 sheets.",
+  "steps": [
+    "Check each spot against each sheet, one sheet at a time.",
+    "A is only on the pink sheet. E is only on the green sheet.",
+    "B is above the top edge of the green sheet. C is below the pink sheet.",
+    "D is inside all 4 sheets, so a hole there goes through every sheet."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "This spot is only on the pink sheet.",
+    "B": "This spot is above the green sheet, so the hole would miss it.",
+    "C": "This spot is below the pink sheet, so the hole would miss it.",
+    "E": "This spot is only on the green sheet."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

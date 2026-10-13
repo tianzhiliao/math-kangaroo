@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:9b6a05491c5431f934079f93d77944c9b02dd1987abf69104544b2de759787e5",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Do the three changes one at a time, in order.",
+  "steps": [
+    "At the start: white, grey, black, white, grey, black, grey, white.",
+    "Anni makes black into white: white, grey, white, white, grey, white, grey, white.",
+    "Bob makes grey into black: white, black, white, white, black, white, black, white.",
+    "Chris makes white into grey: grey, black, grey, grey, black, grey, black, grey."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Squares 3 and 4 both end up grey, so black and grey do not take turns all the way.",
+    "B": "The first square starts white, so it ends grey, not black.",
+    "D": "The second square starts grey, so Bob makes it black. Here it is grey.",
+    "E": "This is the pattern before anyone changed it."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:33:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:b4c4fd846e8ed4eca78f053ecfbea0fca090bc2a77134724690a9b097f9e43df",
+  "answer": "E",
+  "independent_answer": "E",
+  "key_idea": "Count small triangles, then triangles made of 2 pieces, then the big one.",
+  "steps": [
+    "The big triangle is cut into 3 small triangles: green, orange and pink. That is 3.",
+    "Two pieces next to each other also make a triangle: green with orange, and orange with pink. That is 2 more.",
+    "All 3 pieces together make the big triangle. That is 1 more.",
+    "3 + 2 + 1 = 6."
+  ],
+  "answer_sentence": "So the answer is E.",
+  "choice_feedback": {
+    "A": "4 counts the 3 small triangles and the big one, but misses the 2 made of two pieces.",
+    "B": "5 misses one triangle. Check the ones made of 2 pieces and the big one.",
+    "C": "7 is too many. Green and pink do not touch, so they do not make a triangle together.",
+    "D": "8 is too many. Only 6 triangles can be found."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:14Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

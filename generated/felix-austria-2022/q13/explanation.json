@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:403e87259e484d349840d996686914d466f9c7cc5e276e437fdddc7e5b46a29d",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Start with the house that has only one empty circle.",
+  "steps": [
+    "The green house has 5, 2, 1 and 8. 5 + 2 + 1 + 8 = 16, so its empty circle is 20 - 16 = 4.",
+    "The blue house shares that circle. It has 3, 2, 6 and 4. 3 + 2 + 6 + 4 = 15, so its other empty circle is 20 - 15 = 5.",
+    "The orange house shares that circle. It has 2, 7, 1 and 5. 2 + 7 + 1 + 5 = 15.",
+    "20 - 15 = 5, so the question mark is 5."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "With 3, the orange house adds up to 2 + 7 + 1 + 5 + 3 = 18, not 20.",
+    "B": "With 4, the orange house adds up to 2 + 7 + 1 + 5 + 4 = 19, not 20.",
+    "D": "With 6, the orange house adds up to 2 + 7 + 1 + 5 + 6 = 21, not 20.",
+    "E": "With 9, the orange house adds up to 2 + 7 + 1 + 5 + 9 = 24, not 20."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:57Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

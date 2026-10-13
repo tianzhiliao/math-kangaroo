@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:568ac278c079f1df141eac84769d07efcf902b3eef078c3646ef6124bebb0560",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Each piece is 3 squares that make a corner. Try to cover each shape with 2 pieces.",
+  "steps": [
+    "Each shape has 6 squares, so it needs 2 corner pieces.",
+    "In B, the left and right squares of the top row each touch only the middle top square.",
+    "So both of them must be in the same piece as that middle square. That makes a straight row of 3, not a corner.",
+    "So B cannot be made. All the other shapes split into 2 corners."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "A splits into 2 corners: the top 2 squares with the square under the left one, and the other 3.",
+    "C": "C splits into 2 corners: one on the top left step and one on the bottom right step.",
+    "D": "D splits into 2 corners: the top 2 squares with the one under the right one, and the other 3.",
+    "E": "E splits into 2 corners that fit together into a rectangle."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:54:27Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

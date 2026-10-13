@@ -1,0 +1,619 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "questions": {
+    "q01": {
+      "source": "original",
+      "content_hash": "sha256:3cfa97bd924d835ce6565f989ab2e608e6dfa6573e8a0942e40cde20141c077b",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Count the kangaroo's jumps, and move the rabbit the same number of times.",
+      "steps": [
+        "The kangaroo starts at the bottom. The rabbit starts on step 10.",
+        "The kangaroo goes up 3 steps at a time: 3, 6, 9. So it moves 3 times to reach step 9.",
+        "Each time, the rabbit goes down 2 steps: 10, 8, 6, 4.",
+        "After 3 moves the rabbit is on step 4."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "The rabbit stops on 8, 6, 4. It never stops on step 3.",
+        "C": "The rabbit stops on 8, 6, 4. It never stops on step 5.",
+        "D": "The rabbit is on step 6 after only 2 moves, when the kangaroo is on step 6, not 9.",
+        "E": "The rabbit stops on 8, 6, 4. It never stops on step 7."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q02": {
+      "source": "original",
+      "content_hash": "sha256:2fd7f8bc41dd16f2d823e446894de3d32ff0011d6fcd682e640a97dda05f1294",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "A piece that covers another piece was put on the table later.",
+      "steps": [
+        "The pentagon lies on top of everything, so it went on last.",
+        "The white triangle covers the long rectangle, and the rectangle covers the black circle.",
+        "The black circle covers the left edge of the square, so the square is at the very bottom.",
+        "From the bottom up: square, circle, rectangle, triangle, pentagon. The second piece is the circle."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "The triangle was the fourth piece. It lies on the rectangle.",
+        "B": "The square was the first piece, at the very bottom.",
+        "D": "The rectangle was the third piece. It lies on the circle.",
+        "E": "The pentagon was the last piece, on top of all the others."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q03": {
+      "source": "original",
+      "content_hash": "sha256:10bac7017a168b321959f990a90eee5b3ade1da8ee598d83a0758343e8f442d9",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "In the photo the car must look the same as in the picture, with Marco standing in front of it.",
+      "steps": [
+        "Look at the car: its smile and its small eye are on the right side.",
+        "In A, B and D the car faces the other way, with the smile on the left.",
+        "In C the car faces the right way, but Marco stands on top of the car, not in front of it.",
+        "In E the car faces the right way and Marco stands in front, covering part of the smile."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "The car faces the other way, and Marco is peeking out from behind the car.",
+        "B": "The car faces the other way: its smile is on the left.",
+        "C": "Marco is standing on top of the car, not in front of it.",
+        "D": "The car faces the other way, and its eyes are green."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q04": {
+      "source": "original",
+      "content_hash": "sha256:d341eed5b9563f6a4d14a0ad875c7e7672e6c5b4e002e690803e2bf9f029e8eb",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "The coins he won must be the same as the coins he paid.",
+      "steps": [
+        "Try 2 right days: he wins 3 + 3 = 6 coins.",
+        "Then 5 - 2 = 3 days are wrong: he pays 2 + 2 + 2 = 6 coins.",
+        "He won 6 and paid 6, so he has the same coins as at the start."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "With no right days he pays 2 coins 5 times, so he loses 10 coins.",
+        "B": "He wins 3 coins but pays 2 + 2 + 2 + 2 = 8 coins, so he loses coins.",
+        "D": "He wins 9 coins and pays only 4, so he gains coins.",
+        "E": "He wins 12 coins and pays only 2, so he gains coins."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q05": {
+      "source": "original",
+      "content_hash": "sha256:dc78244a40831aa0ce090ad81976787feeb274fa4f704d4668017b4fb8e2a4aa",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "The animals come in groups of 5, so count in fives.",
+      "steps": [
+        "The order is: mouse, snail, yellow bird, frog, red bird. Then it starts again.",
+        "Animals 5 and 10 are both red birds, at the end of a group.",
+        "Animal 11 is a mouse, 12 is a snail, 13 is a yellow bird and 14 is a frog."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "The mouse is animal 11, not 14.",
+        "C": "The snail is animal 12, not 14.",
+        "D": "The yellow bird is animal 13, not 14.",
+        "E": "The red bird is animal 15, not 14."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q06": {
+      "source": "original",
+      "content_hash": "sha256:c2fd7a132be26ae6f3ba1290bfebccf4511e689b3ef6a01c23a33d3d4ad2c9cd",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Count each shape on the cards and in the tower, then see what is left over.",
+      "steps": [
+        "The cards have 6 circles, 5 squares and 6 triangles.",
+        "The tower has 5 circles, 5 squares and 4 triangles.",
+        "Left over: 6 - 5 = 1 circle, 5 - 5 = 0 squares and 6 - 4 = 2 triangles."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "All 5 squares are in the tower, so no square is left over.",
+        "B": "All 5 squares are in the tower, and a circle is left over.",
+        "D": "No square is left over, and 2 triangles are left over, not 1.",
+        "E": "2 triangles are left over, not just 1."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q07": {
+      "source": "original",
+      "content_hash": "sha256:3a88838f62162fbd6ddbc82a399591f636809f5561861d0569266620e7c91b1a",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Find how many white cubes there are in all, then take away the white cubes you can see.",
+      "steps": [
+        "The block is 4 cubes long, 3 cubes high and 2 cubes deep: 12 + 12 = 24 cubes.",
+        "Half of them are white, so there are 12 white cubes.",
+        "White cubes you can see: 5 on the front, 3 more on top of the back row, and 2 more on the right side of the back row. 5 + 3 + 2 = 10.",
+        "12 - 10 = 2 white cubes are hidden."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "You can see 10 white cubes, so 12 - 10 = 2 are hidden, not 1.",
+        "C": "Count the white cubes you can see again: there are 10, so only 2 are hidden.",
+        "D": "Remember the white cubes on top and on the right side of the back row. Only 2 are hidden.",
+        "E": "You can see 10 of the 12 white cubes, so only 2 are hidden."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q08": {
+      "source": "original",
+      "content_hash": "sha256:58d78b4013d0c4cbea8a004b23f1587b0e934892fece2529d88f4df5f7dfd82a",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Count the squares and the triangles in each drawing. A square turned on its corner is still a square.",
+      "steps": [
+        "A: 3 squares, 2 triangles. B: 3 squares, 3 triangles. C: 3 squares, 3 triangles.",
+        "D: 2 squares, 3 triangles. E: 4 squares, 3 triangles.",
+        "Only D has fewer squares than triangles: 2 is less than 3."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "It has 3 squares and only 2 triangles, so it has more squares.",
+        "B": "It has 3 squares and 3 triangles, the same number.",
+        "C": "It has 3 squares and 3 triangles, the same number.",
+        "E": "It has 4 squares and 3 triangles, so it has more squares."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q09": {
+      "source": "original",
+      "content_hash": "sha256:3d13524e59ef3906b6c46fa4b505eb83a35170596cec48c735043cfc07e347c1",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Look at what sits in the 4 corners of each tile, then find that tile in the wall.",
+      "steps": [
+        "Each tile has something in its corners: an orange petal, a pink point or a green corner.",
+        "Tile A is the middle tile of the bottom row. Tile B is the middle tile of the top row.",
+        "Tile C is the second tile of the top row. Tile D is the tile in the bottom right corner.",
+        "Tile E has orange petals in both top corners. No tile in the wall has 2 orange petals side by side, even if you turn it."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "This is the middle tile of the bottom row.",
+        "B": "This is the middle tile of the top row.",
+        "C": "This is the second tile from the left in the top row.",
+        "D": "This is the tile in the bottom right corner of the wall."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q10": {
+      "source": "original",
+      "content_hash": "sha256:b8624af6ad096b3a2dc292eecb806049271d34052c51e07c97c344f67bedaea6",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Find the streets that have only 2 houses. The new house must sit on all of them.",
+      "steps": [
+        "Count the houses on each street. Most streets already have 3 houses.",
+        "The straight street from the top left to the bottom right has only 2 houses, both in its top left part.",
+        "The biggest circle has only 2 houses: one on the far left and one on the far right.",
+        "Point D is where that straight street meets the biggest circle, so one house there fixes both streets."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "A is on the straight street across the middle, which already has 3 houses.",
+        "B": "B is on the straight street going up and down, which already has 3 houses.",
+        "C": "C is on the straight street across the middle, which already has 3 houses.",
+        "E": "E is on the straight street from the top right to the bottom left, which already has 3 houses."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q11": {
+      "source": "original",
+      "content_hash": "sha256:9ae97d970d26a842ddac70e2aa8a9f31f0baa2563b86bf02dcd759a053d25ba1",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Count the cubes in each block, including cubes that are only partly seen.",
+      "steps": [
+        "A: a tower of 3 cubes, 1 cube beside it and 1 cube in front. 3 + 1 + 1 = 5.",
+        "B has 6 cubes: a middle cube with 1 on top, 1 on each side and 2 in a row in front.",
+        "C and D each have 7 cubes, and E has 8 cubes.",
+        "5 is the smallest number."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "B has 6 cubes. Look for the cube hiding between the middle cube and the front cube.",
+        "C": "C has 7 cubes, counting the one peeking out at the back.",
+        "D": "D has at least 7 cubes, counting the one peeking out at the back.",
+        "E": "E has 8 cubes: 6 on the bottom and 2 more stacked up."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q12": {
+      "source": "original",
+      "content_hash": "sha256:fc65a19674b75c1e42a25250a2c0f07449fa8d29f855369687eafcde19a27d95",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Add the front flower, double it, then see what the back flower is missing.",
+      "steps": [
+        "Front flower: 5 + 3 + 1 + 9 + 7 = 25.",
+        "The back flower must add up to twice that: 25 + 25 = 50.",
+        "The petals we can see on the back flower: 4 + 6 + 2 + 8 = 20.",
+        "The hidden petal is 50 - 20 = 30."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Then the back flower adds up to 25, the same as the front flower, not twice as much.",
+        "B": "Then the back flower adds up to 32, not 50.",
+        "C": "Then the back flower adds up to 45, not 50.",
+        "E": "Then the back flower adds up to 60, not 50."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q13": {
+      "source": "original",
+      "content_hash": "sha256:000815cfcab982c33f6e37fb773bdb504f011569f672ffdfa8bcf6850b8a6bc1",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "The face that touches 4 of the other faces is opposite the face we never see.",
+      "steps": [
+        "The first cube shows the red square, the star and the triangle. The second cube shows the triangle, the circle and the arrow.",
+        "The triangle is on both cubes, so it touches the square, the star, the circle and the arrow.",
+        "A face touches 4 faces and is opposite just 1. The only face left is the sixth face, the one we never see.",
+        "So the triangle is opposite that sixth face."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "The circle is one of the 4 faces around the triangle, and those 4 faces all touch the sixth face.",
+        "C": "The star is one of the 4 faces around the triangle, and those 4 faces all touch the sixth face.",
+        "D": "The arrow is one of the 4 faces around the triangle, and those 4 faces all touch the sixth face.",
+        "E": "The square is one of the 4 faces around the triangle, and those 4 faces all touch the sixth face."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q14": {
+      "source": "original",
+      "content_hash": "sha256:0034a814138ba4d49fa226fc03e7ed4db862c9e58a1ec5e2fb2f19f4f6eedbf6",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Every 3 squares in a row add to 10, so the numbers repeat every 3 squares.",
+      "steps": [
+        "Squares 1, 2, 3 add to 10, and squares 2, 3, 4 also add to 10.",
+        "Both groups share squares 2 and 3, so square 4 must be the same as square 1.",
+        "Square 1 has a 2, and the gray square is square 4. So the gray square gets 2."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "The gray square must hold the same number as the first square, which is 2, not 1.",
+        "C": "The gray square must hold the same number as the first square, which is 2, not 3.",
+        "D": "The gray square must hold the same number as the first square, which is 2, not 4.",
+        "E": "The gray square must hold the same number as the first square, which is 2, not 8."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q15": {
+      "source": "original",
+      "content_hash": "sha256:0237964f4ff29b703ac422050d49c4d0272cce52ef0c85bfa36e1794f4a7a000",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Turning over the right side gives the same picture as turning over the top side and then spinning it halfway around.",
+      "steps": [
+        "In the picture we see, the skateboard is at the top, the head is at the bottom and the tail points left.",
+        "Turning the card over its right side instead is like turning it over the top and then spinning it upside down.",
+        "Spinning halfway around moves the skateboard to the bottom, the head to the top and the tail to the right.",
+        "Picture D shows the kangaroo like that."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "The skateboard is at the bottom, but the tail still points left. It is a mirror picture.",
+        "B": "The skateboard is still at the top. Only the tail moved to the right.",
+        "C": "This is the same picture we get by turning over the top side.",
+        "E": "This kangaroo is turned on its side."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q16": {
+      "source": "original",
+      "content_hash": "sha256:360c5242760e42f9baa360a5fd5993b1af71f5c251927d133921316c877f1e73",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Give each grandchild as many cupcakes as possible, then see what is left.",
+      "steps": [
+        "6 grandchildren with 3 cupcakes each use 6 + 6 + 6 = 18 cupcakes.",
+        "With 4 each, she would need 24 cupcakes, but she has only 23.",
+        "So each gets 3, and 23 - 18 = 5 are left for Grandma."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "Then she would share 22 cupcakes, but 22 can't be shared equally among 6 children.",
+        "B": "Then she would share 21 cupcakes, but 21 can't be shared equally among 6 children.",
+        "C": "Then she would share 20 cupcakes, but 20 can't be shared equally among 6 children.",
+        "D": "Then she would share 19 cupcakes, but 19 can't be shared equally among 6 children."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q17": {
+      "source": "original",
+      "content_hash": "sha256:cf9ce4dc70b7aa1f01fa2d8035d0491b76d4930a1e75a5363e586feef8499f27",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Check what the row and the column of the colored box still need.",
+      "steps": [
+        "The colored box is in the bottom row and the right column.",
+        "The right column already has a card with 2 squares, and the bottom row has a card with 1 square. So the box can't have squares.",
+        "The right column already has a 2 and the bottom row already has a 1. So the box needs 3 shapes.",
+        "Among the cards to choose from, only the card with 3 circles has 3 shapes that are not squares."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "It has squares, and the right column already has squares.",
+        "B": "It has 1 shape, and the bottom row already has a card with 1 shape.",
+        "C": "It has 2 squares, but the right column already has squares and a 2.",
+        "D": "It has 1 square, but the bottom row already has a square and a 1."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q18": {
+      "source": "original",
+      "content_hash": "sha256:d2bd0da226996d79b0ff01fcf11201771281416fa851849d228f9d920faca6ec",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "When one train's wagon number goes up by 1, the other train's number goes down by 1.",
+      "steps": [
+        "Wagon 7 is side by side with wagon 12.",
+        "The trains face opposite ways. Move one wagon along: one number goes up by 1 and the other goes down by 1.",
+        "So wagon 8 is side by side with wagon 11. Check: 7 + 12 = 19 and 8 + 11 = 19."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "10 + 11 = 21, but the pairs always add to 7 + 12 = 19.",
+        "C": "11 + 11 = 22, but the pairs always add to 19.",
+        "D": "Wagon 12 is next to wagon 7, not wagon 11.",
+        "E": "15 + 11 = 26, but the pairs always add to 19."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q19": {
+      "source": "original",
+      "content_hash": "sha256:3cecbafbf262bd2e77537192572cc5bf3908d75de27ffcb314fe07c0374ac919",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Count all the dark chocolates, then take away the dark square ones.",
+      "steps": [
+        "Half of 14 is 7, so 7 chocolates are dark.",
+        "Among the square ones, only 2 are not white, so 2 square chocolates are dark.",
+        "The other dark ones are round: 7 - 2 = 5."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "2 is the number of dark square chocolates, not round ones.",
+        "B": "Then there would be only 3 + 2 = 5 dark chocolates, but there are 7.",
+        "C": "Then there would be only 4 + 2 = 6 dark chocolates, but there are 7.",
+        "E": "Then there would be 6 + 2 = 8 dark chocolates, but there are only 7."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q20": {
+      "source": "original",
+      "content_hash": "sha256:0549f4ca8e641f65aa4585b08be608a49f9313cbf03cd502756bfc5fd5c1d2bb",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Each pair of opposite faces has the same sum, and all six numbers must be different and at most 9.",
+      "steps": [
+        "We see 4, 5 and 8. The faces opposite them are hidden.",
+        "Try 3 opposite 8: 8 + 3 = 11. Then 4 needs 7 and 5 needs 6, because 4 + 7 = 11 and 5 + 6 = 11.",
+        "The numbers 3, 4, 5, 6, 7, 8 are all different and all from 1 to 9. It works!"
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "5 is already on another face, and each number is used only once.",
+        "C": "8 + 6 = 14, so 4 would need 10. That is too big.",
+        "D": "8 + 7 = 15, so 4 would need 11. That is too big.",
+        "E": "8 + 9 = 17, so 4 would need 13. That is too big."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q21": {
+      "source": "original",
+      "content_hash": "sha256:54211e2cacf20d65b39de71746e82108bcbc141c674499bc73648026bb226c4b",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Seat the 4 girls without a boy first, then fill the other tables with a boy and a girl.",
+      "steps": [
+        "The 4 girls without a boy sit 2 at a table, so they fill 2 tables.",
+        "14 - 2 = 12 tables are left. Each has 1 boy and 1 girl.",
+        "Girls: 12 at the boy-girl tables plus the 4 others. 12 + 4 = 16."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "That is too few: 12 girls already sit with boys.",
+        "B": "That is too few: 12 girls already sit with boys.",
+        "C": "12 girls sit with boys, but you must add the 4 girls without a boy.",
+        "D": "14 is the number of tables, not the number of girls."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q22": {
+      "source": "original",
+      "content_hash": "sha256:00b08bb8abab8bee95ef735ad5777e4936209f5a3c5329c7032b2012314b1991",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Add up all four sides. Each colored corner gets counted twice.",
+      "steps": [
+        "Each side adds to 13, so the four sides together make 13 + 13 + 13 + 13 = 52.",
+        "The numbers 1 to 8 add up to 36. That counts every circle once.",
+        "In the 52, each colored corner is counted twice, once for each of its sides. So the colored circles add up to 52 - 36 = 16."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "The colored circles must make up the extra 52 - 36 = 16, not 12.",
+        "B": "13 is the sum of one side, not the sum of the colored circles.",
+        "C": "The colored circles must make up the extra 52 - 36 = 16, not 14.",
+        "D": "The colored circles must make up the extra 52 - 36 = 16, not 15."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q23": {
+      "source": "original",
+      "content_hash": "sha256:004636719e81e78db4a12cd40985ed78275479c0ac9377e9a473ca01887b42fa",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "The tallest person has no arrow going out, because nobody is taller than them.",
+      "steps": [
+        "An arrow goes from the shorter person to the taller one.",
+        "Arrows leave A, B, D, E and F, so each of them is shorter than someone.",
+        "No arrow leaves C, and the arrow from D points to C. So C is taller than D.",
+        "Everyone else leads to D by following the arrows, so C is the tallest."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "Person A has an arrow going to D, so A is shorter than D.",
+        "B": "Person B has arrows going to A and to F, so B is shorter than both.",
+        "D": "Person D has an arrow going to C, so D is shorter than C.",
+        "E": "Person E has an arrow going to D, so E is shorter than D."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "flagged",
+        "note": "Data problem: every choice text is just 'Person' with the letter missing; the explanation assumes choice X means person X. The figure also has a sixth person F who is not a choice. With that reading the arrows confirm key C (person C is tallest)."
+      }
+    },
+    "q24": {
+      "source": "original",
+      "content_hash": "sha256:70b95fbef2b1354ac89ff6679d0dabc5993f0f805fc887b86a79731855e5ebac",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Count all the ways to pick 3 white houses, then take away the ways that leave Maia stuck.",
+      "steps": [
+        "There are 6 white houses. Each one touches A's pink houses at the bottom left or B's pink houses at the top right.",
+        "Maia gets across when two colored white houses touch each other, one touching A's pink houses and one touching B's pink houses.",
+        "There are 20 different ways to pick 3 of the 6 white houses.",
+        "Only 4 picks leave Maia stuck: the 3 white houses next to A's pink houses, the 3 next to B's pink houses, and 2 more picks with a gap in the middle. 20 - 4 = 16."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "Only 4 of the 20 picks leave Maia stuck, so 16 picks work, not 15.",
+        "C": "Check again: 4 picks leave Maia stuck, not 3.",
+        "D": "Check again: 4 picks leave Maia stuck, not 2.",
+        "E": "Not every pick works: 4 of the 20 picks leave Maia stuck."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:01:54Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    }
+  }
+}

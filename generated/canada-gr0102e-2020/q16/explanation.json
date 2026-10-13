@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:9741c0d81a346417d264bd3964fba2ee7cf842c571d58e296b4bd4bf4dccc7dd",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Work backwards from the end, undoing one step at a time.",
+  "steps": [
+    "At the end, Sam and Mia each have 8 stickers.",
+    "In the last step Mia doubled Sam's stickers. So before that Sam had 4, and Mia had 8 + 4 = 12.",
+    "In the first step Sam doubled Mia's stickers. So before that Mia had 6, and Sam had 4 + 6 = 10.",
+    "Sam started with 10 stickers."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "If Sam had 6, Mia had 10. Sam can't give 10 stickers when he has only 6.",
+    "B": "If Sam had 8, Mia had 8. They would end with 0 and 16.",
+    "D": "If Sam had 12, Mia had 4. They would end with 16 and 0.",
+    "E": "If Sam had 14, Mia had 2. Mia can't give 12 stickers when she has only 4."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T00:00:00Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

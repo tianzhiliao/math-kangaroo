@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:b6252395fe6d1dbd57c47c5610b4f42b9c02b221128d4e7ce5062fb9187ff4ad",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Give each grandchild as many biscuits as possible, then see what is left.",
+  "steps": [
+    "5 grandchildren with 5 biscuits each use 5 + 5 + 5 + 5 + 5 = 25 biscuits.",
+    "With 6 each, he would need 30 biscuits, but he has only 27.",
+    "So each gets 5, and 27 - 25 = 2 are left for Grandpa."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "Then he would share 26 biscuits, but 26 can't be shared equally among 5 children.",
+    "C": "Then he would share 24 biscuits, but 24 can't be shared equally among 5 children.",
+    "D": "Then he would share 23 biscuits, but 23 can't be shared equally among 5 children.",
+    "E": "Then he would share 22 biscuits, but 22 can't be shared equally among 5 children."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

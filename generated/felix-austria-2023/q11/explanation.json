@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:b7f4136cc5ab06d7ccbffc1c3e3ba2122bd1ae9f9c1276d7211736103ca1aab4",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Draw the line of singers from first to last.",
+  "steps": [
+    "Nora is in place 4.",
+    "3 singers come after her: places 5, 6 and 7.",
+    "The last singer comes after them, in place 8.",
+    "So there are 8 singers in all."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "With 5 singers, nobody could be between Nora and the last singer.",
+    "B": "With 6 singers, only 1 singer would be between Nora and the last singer.",
+    "C": "With 7 singers, only 2 singers would be between Nora and the last singer.",
+    "E": "With 9 singers, 4 singers would be between Nora and the last singer."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:01Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

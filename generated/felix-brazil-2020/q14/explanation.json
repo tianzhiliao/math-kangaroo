@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:a55516ea2dafaa5bed8211e01fabc172e6c821782def121286c566813fdaa3fe",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Every 3 squares in a row add to 10, so the numbers repeat every 3 squares.",
+  "steps": [
+    "Squares 1, 2, 3 add to 10, and squares 2, 3, 4 also add to 10. So square 4 is the same as square 1.",
+    "In the same way, square 5 is the same as square 2.",
+    "Square 2 has a 5, and the gray square is square 5. So the gray square gets 5."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "The gray square must hold the same number as the second square, which is 5, not 1.",
+    "B": "The gray square must hold the same number as the second square, which is 5, not 3.",
+    "D": "The gray square must hold the same number as the second square, which is 5, not 7.",
+    "E": "The gray square must hold the same number as the second square, which is 5, not 9."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

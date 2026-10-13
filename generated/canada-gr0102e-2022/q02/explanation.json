@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:5f7511867f1b7563e5ff2b542cce62013380298c2e1a84ada92a41bfa1d765ce",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Go brick by brick and count the bricks that share a side with it.",
+  "steps": [
+    "There are 3 bricks on top, 3 in the middle row, and 1 at the bottom under the middle.",
+    "The 4 corner bricks (top left, top right, middle left, middle right) each touch 2 bricks.",
+    "The top middle brick touches 3. The centre brick touches 4. The bottom brick touches 1.",
+    "So 4 bricks touch exactly 2 others."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "The bottom brick touches just 1, but 4 other bricks touch exactly 2.",
+    "B": "Check all four corner bricks: each one touches exactly 2.",
+    "C": "Check all four corner bricks: each one touches exactly 2.",
+    "E": "The top middle brick touches 3, not 2, so it does not count."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:52:53Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

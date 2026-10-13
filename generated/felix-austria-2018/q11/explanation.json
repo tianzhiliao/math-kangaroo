@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:11c7b017bb8eb571ff63ee9acf4c36838bf25cdf7fac7ededf882a0cc2135c93",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Count the spots on one side, then double them for both sides.",
+  "steps": [
+    "On the side we see, the mushrooms have 3, 5, 4 and 2 spots.",
+    "3 + 5 + 4 + 2 = 14 spots.",
+    "The other side has 14 spots too. 14 + 14 = 28, so 28 frogs fit.",
+    "32 frogs come. 32 - 28 = 4 frogs get wet."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "If 2 got wet, 30 frogs would fit. Only 28 fit.",
+    "B": "If 6 got wet, only 26 frogs would fit. But 28 fit.",
+    "C": "If 8 got wet, only 24 frogs would fit. But 28 fit.",
+    "E": "If 3 got wet, 29 frogs would fit. Only 28 fit."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:06Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

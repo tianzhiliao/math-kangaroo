@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:25204668303060a323aa9ef3b339b3752ad4465fcbe04f5c9e11159953d6a6e7",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Swap the dog for the mice it weighs the same as.",
+  "steps": [
+    "The second scale shows: 1 dog weighs the same as 3 mice.",
+    "The first scale shows: 1 cat weighs the same as 1 dog and 1 mouse.",
+    "Swap the dog for 3 mice: the cat weighs the same as 3 + 1 = 4 mice."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "The dog alone weighs 3 mice, so the cat weighs more than 2 mice.",
+    "B": "3 mice weigh the same as the dog. The cat also needs 1 more mouse.",
+    "D": "The cat weighs the same as 1 dog and 1 mouse: 3 + 1 = 4, not 5.",
+    "E": "The cat weighs the same as 1 dog and 1 mouse: 3 + 1 = 4, not 6."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:34:35Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

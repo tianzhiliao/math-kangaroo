@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:e3e8e0389a1b86ace240a26d5343cadedf073b3a9ddb018ae8ede57e7c5ab491",
+  "answer": "A",
+  "independent_answer": "A",
+  "key_idea": "Walk straight until a wall is in front of you, then turn right.",
+  "steps": [
+    "From S Robbie walks right along the top row. He passes B, which is beside him, and stops at the right wall.",
+    "He turns right and walks down the right side, passing C. At the bottom he turns right and walks left along the bottom row, passing D.",
+    "At the left wall he turns right and walks up, passing E. Then he turns right and walks along the middle row.",
+    "He turns right to go down, then right again to walk left, and he reaches A."
+  ],
+  "answer_sentence": "So the answer is A.",
+  "choice_feedback": {
+    "B": "Robbie passes B beside him on the top row. It is never in front of him.",
+    "C": "Robbie passes C beside him on the way down. It is never in front of him.",
+    "D": "Robbie passes D beside him on the bottom row. It is never in front of him.",
+    "E": "Robbie passes E beside him on the way up. It is never in front of him."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:47:49Z",
+  "review": {
+    "status": "flagged",
+    "note": "Figure check: A is a dead-end square inside the maze, not an opening on the edge, while B, C, D and E are openings on the edge that Robbie walks past. The walk does end at A, but calling A an exit may confuse children. Consider redrawing A as an opening on the outside wall."
+  }
+}

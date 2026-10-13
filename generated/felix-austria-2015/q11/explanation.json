@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:1c114959dffddef6006a1f871f737ebba02d8ce26f6482431a7e5c819d515a13",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Emma gives away half of the difference.",
+  "steps": [
+    "Emma has 14 - 8 = 6 more marbles than Noah.",
+    "Half of 6 is 3. She gives Noah 3 marbles.",
+    "Check: 14 - 3 = 11 and 8 + 3 = 11. Both have 11."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "14 - 2 = 12 and 8 + 2 = 10. That is not the same.",
+    "C": "14 - 4 = 10 and 8 + 4 = 12. Now Noah has more.",
+    "D": "14 - 5 = 9 and 8 + 5 = 13. Now Noah has more.",
+    "E": "Giving all 6 just swaps them: Emma has 8 and Noah has 14."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:14Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

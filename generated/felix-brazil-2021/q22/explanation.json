@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:fd31043745b427dddeb8c0207f09b99cd290d7fda14f239d92629a71566fb15d",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Find the cookie that runs out first: the stars.",
+  "steps": [
+    "One tray has 3 stars and 2 hearts. The plate has 10 stars and 5 hearts.",
+    "Stars: 3 trays give 3 + 3 + 3 = 9 stars. That is 1 too few. 4 trays give 12 stars, which is enough.",
+    "Hearts: 4 trays give 8 hearts. The plate needs only 5.",
+    "So the smallest number of trays is 4."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "1 tray has only 3 stars, but the plate has 10.",
+    "B": "2 trays have only 6 stars, but the plate has 10.",
+    "C": "3 trays have only 9 stars, but the plate has 10.",
+    "E": "4 trays are already enough, so 5 is not the smallest."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

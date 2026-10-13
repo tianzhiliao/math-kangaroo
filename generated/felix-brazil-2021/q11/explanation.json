@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:769ba22ae9b9ba3756586163787e7673ebf3fbb8fc4a66cfaa82280c775d5da2",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Find how many more baskets Mia scored, then turn baskets into points.",
+  "steps": [
+    "Mia scored 6 baskets and Noah scored 4 baskets.",
+    "Mia scored 6 - 4 = 2 more baskets.",
+    "Each basket is 3 points, so 2 baskets are 3 + 3 = 6 points."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "2 is how many more baskets, not how many more points.",
+    "C": "Each basket is 3 points, so 2 more baskets give 6 more points, not 8.",
+    "D": "12 is Noah's points. Mia has 18 points, which is 6 more.",
+    "E": "18 is Mia's points. We need how many more than Noah."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

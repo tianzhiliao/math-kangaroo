@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:25296882495c499e367c9e4a0fab5c78ce7ccf7a1c3c0452953e2370434e7700",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Line the shapes up from heaviest to lightest, one scale at a time.",
+  "steps": [
+    "Square and circle: the square side is lower, so the square is heavier than the circle.",
+    "Triangle and square: the triangle is heavier.",
+    "Star and triangle: the star is heavier. Star and diamond: the star is heavier.",
+    "The star is heavier than every other shape."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "The square is heavier than the circle.",
+    "B": "The triangle is heavier than the square.",
+    "D": "The star is heavier than the triangle.",
+    "E": "The star is heavier than the diamond."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

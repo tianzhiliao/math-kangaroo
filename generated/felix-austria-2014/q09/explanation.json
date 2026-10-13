@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:537c76a0669862c198ca970b03a440b70ac2772fa139220f7d92bd1396bb491b",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "The two pieces fit together along the slanted cut to make the rectangle.",
+  "steps": [
+    "The orange piece is narrow at the top and wide at the bottom. Its slanted side is on the right.",
+    "The other piece fills the rest of the rectangle, to the right of the orange piece.",
+    "So the other piece is wide at the top and narrow at the bottom. Its slanted side is on the left, to fit the orange piece.",
+    "Its right side is straight, because it is the side of the rectangle. That is piece C."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "This piece is a square with no slanted side, so it cannot fit the cut.",
+    "B": "This piece has its slanted side on the right, so it does not sit against the orange piece's slanted side.",
+    "D": "This is a triangle. It cannot fill the space next to the orange piece.",
+    "E": "This piece has a step instead of a slanted side."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:34:35Z",
+  "review": {
+    "status": "flagged",
+    "note": "Option B is the mirror image of C. A paper piece flipped over would look like B, so a child may think B also fits. C is the piece exactly as it sits in the rectangle."
+  }
+}

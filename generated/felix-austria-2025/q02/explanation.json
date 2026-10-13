@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:5e6b58641b6a61e7320490f3c3567b4270258436ee0ac1239fbdf6990fb423d1",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "A triangle has exactly 3 straight sides and 3 corners, even when it is turned.",
+  "steps": [
+    "A triangle has 3 straight sides and 3 corners. It can be turned any way.",
+    "Top row: the pink one on the left and the yellow upside-down one on the right are triangles.",
+    "Bottom row: the orange one and the pink one on the right are triangles.",
+    "2 + 2 = 4 triangles. The circle, the square, the pentagon and the rectangle are not triangles."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Turned triangles count too. The tilted ones in the bottom row are triangles.",
+    "B": "One triangle is missing. Check the turned ones again.",
+    "D": "The pentagon has 5 sides, so it is not a triangle.",
+    "E": "Only shapes with 3 sides count. The circle, the square, the pentagon and the rectangle do not."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:13Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

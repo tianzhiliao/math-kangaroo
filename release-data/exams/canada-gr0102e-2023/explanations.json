@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "questions": {
+    "q01": {
+      "source": "original",
+      "content_hash": "sha256:24219e7b2666915781b5a83e1e0aecf12b6da583f8768d437d8ae3c8dc4726d1",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Count every circle, big and small, one group at a time.",
+      "steps": [
+        "The 2 blue ears are circles, and each ear has a green circle inside: 2 + 2 = 4.",
+        "The big face is 1 more circle: 4 + 1 = 5.",
+        "The 2 orange eyes and the purple mouth are circles too: 5 + 3 = 8."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "You may have missed the small circles inside the ears or the face.",
+        "B": "You may have missed the green circles inside the ears.",
+        "C": "You may have missed one circle. Count the eyes, the mouth and the inner ear circles.",
+        "E": "You may have counted one circle twice."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:47:49Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q02": {
+      "source": "original",
+      "content_hash": "sha256:1610d63be71a6cafcdd0edef9b360a95df5f0bfaaeed5cdae94c46256d51adcc",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Each round shape seen from the top is a round block, and each square or rectangle is a block with flat sides.",
+      "steps": [
+        "From the top we see a blue rectangle under everything. So the bottom block is a blue box.",
+        "On the left is a plain yellow circle. That can be a yellow cone standing on the box.",
+        "On the right is a white square inside a red circle. That is a white cube on a red round block.",
+        "Picture A shows a yellow cone and a white cube on a red round block, all on a blue box."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "The bottom block here is red and round, but from the top the bottom is a blue rectangle.",
+        "C": "The red block here is a cube, but from the top the red part is round.",
+        "D": "The yellow block here is a cube, but from the top the yellow shape is a circle.",
+        "E": "The bottom block here is round, but from the top the bottom is a rectangle."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:47:49Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q03": {
+      "source": "original",
+      "content_hash": "sha256:17c7b9b252388d8aa9ea596417017cbffa2cbc548721ff160512275280d6ef20",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Find half of 24, then see how many coloured squares are missing.",
+      "steps": [
+        "Count the coloured squares row by row: 4 + 1 + 1 + 3 = 9.",
+        "Half of 24 squares is 12.",
+        "12 - 9 = 3 more squares need to be coloured."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "With 1 more there are 10 coloured squares, not 12.",
+        "B": "With 2 more there are 11 coloured squares, not 12.",
+        "D": "With 4 more there are 13 coloured squares, more than half.",
+        "E": "With 5 more there are 14 coloured squares, more than half."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:47:49Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q04": {
+      "source": "original",
+      "content_hash": "sha256:19dda0ae16c2eae94244e961911aa79a8cc96210117ce94f2d36e24cd12e2991",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "When the disc spins, the two holes always stay the same number of hours apart.",
+      "steps": [
+        "In the picture the holes show 1 and 5.",
+        "Going round the clock from 1 to 5 is 4 steps: 2, 3, 4, 5.",
+        "So the two holes must always be 4 steps apart.",
+        "Picture D shows 3 and 7. From 3 to 7 is 4 steps: 4, 5, 6, 7."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "From 2 to 7 is 5 steps, not 4.",
+        "B": "From 3 to 8 is 5 steps, not 4.",
+        "C": "From 10 to 4 is 6 steps, not 4.",
+        "E": "From 5 to 7 is only 2 steps, not 4."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:47:49Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q05": {
+      "source": "original",
+      "content_hash": "sha256:bc06356f2777051c4a2cbf759aed2234c6edc41b6b3f59b57ba5d557c5c46d06",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Find each piece of the square inside the kangaroo, and see which piece is left over.",
+      "steps": [
+        "The square on the left is cut into 7 pieces: 2 big triangles, 1 middle triangle, 2 small triangles, 1 square and 1 slanted piece.",
+        "In the kangaroo, the 2 small triangles are the ear and the arm, and the 2 big triangles make the body.",
+        "The square is in the leg, and the middle triangle is the foot.",
+        "The slanted piece with 4 sides is nowhere in the kangaroo."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "This small triangle is used in the kangaroo.",
+        "C": "The square is used in the kangaroo's leg.",
+        "D": "This small triangle is used in the kangaroo.",
+        "E": "This middle triangle is used as the kangaroo's foot."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:47:49Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q06": {
+      "source": "original",
+      "content_hash": "sha256:b6883b310cb664360419838bf41a877c3d82cca2f92f8cae5e745d750b321b3b",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "The road crosses itself at every red dot, so Steven drives through each red dot two times.",
+      "steps": [
+        "Count the red dots: there are 7.",
+        "Follow the road from X with your finger. At each red dot the road crosses another part of itself.",
+        "So your finger goes through every red dot two times: once on each part of the road.",
+        "7 + 7 = 14 stops."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "11 is too few. Steven goes through each of the 7 red dots two times.",
+        "B": "12 is too few. Steven goes through each of the 7 red dots two times.",
+        "C": "13 is 1 too few. Check that you counted both visits at every red dot.",
+        "E": "15 is 1 too many. There are 7 red dots and each one is passed two times."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:30:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q07": {
+      "source": "original",
+      "content_hash": "sha256:518a56e3163ed2d5cc9e3380e85e2f96e2bb590607175984790756dd4f46f6ec",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "A tree that is closer can hide a tree that is behind it.",
+      "steps": [
+        "Stand at D and look toward the trees. The 2 big trees are closest to D.",
+        "The top big tree is right in front of the 2 small trees at the top, so they are hidden.",
+        "The bottom big tree is right in front of the small tree at the bottom left, so it is hidden too.",
+        "So from D the beaver sees only the 2 big trees whole."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "From A, more than 2 trees can be seen whole.",
+        "B": "From B, more than 2 trees can be seen whole.",
+        "C": "From C, more than 2 trees can be seen whole.",
+        "E": "From E, more than 2 trees can be seen whole."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:47:49Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q08": {
+      "source": "original",
+      "content_hash": "sha256:f15db1a62eeccf20e63a9c208290e04cea7316bec0c3f14545c6fd38be339165",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Check both rules for each boat: more than 1 circle, and 2 more triangles than squares.",
+      "steps": [
+        "Boat C has only 1 circle, so it is out.",
+        "Count triangles and squares on the other boats.",
+        "Boat E has 3 circles, 4 triangles and 2 squares.",
+        "4 is 2 more than 2, so boat E follows both rules."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "Boat A has 2 triangles and 1 square. That is only 1 more triangle.",
+        "B": "Boat B has 3 triangles and 2 squares. That is only 1 more triangle.",
+        "C": "Boat C has only 1 circle.",
+        "D": "Boat D has fewer triangles than squares."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:47:49Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q09": {
+      "source": "original",
+      "content_hash": "sha256:4f1e91e7b3f603e19ca2b5c03735c83179874a41cf35572dccfa53cd74f21ecb",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Walk straight until a wall is in front of you, then turn right.",
+      "steps": [
+        "From START Robbie goes up to a wall and turns right. Then he goes down a little and turns right to walk left. Then he turns right and goes up all the way to the top.",
+        "At the top he turns right, goes to the right wall, and turns right to go down. He passes D, because it is beside him, not in front of him.",
+        "He hits a block, turns right and walks left along the long middle row to the left wall. He turns right, goes up to the top, turns right, and soon meets a wall again.",
+        "He turns right and goes down to the big block at the bottom. He turns right, walks left, and goes out at A."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "Robbie goes past the B opening on his side and then turns away from it.",
+        "C": "Robbie goes past the C opening on his side. A wall is in front of him only later.",
+        "D": "Robbie goes past D on his side. He only turns when a wall is in front of him.",
+        "E": "Robbie never walks toward E. He is facing the other way when he is near it."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:47:49Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q10": {
+      "source": "original",
+      "content_hash": "sha256:fa849a6a979bc81012878866134920a482484added1d43e9299e5fd40b63930c",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Both question tokens are the same, so take away the known numbers and split what is left in half.",
+      "steps": [
+        "10 + ? + ? + 2 = 18.",
+        "10 + 2 = 12, and 18 - 12 = 6. So the two question tokens add up to 6.",
+        "The two tokens are the same: 3 + 3 = 6. Each one is 3."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "10 + 1 + 1 + 2 = 14, not 18.",
+        "B": "10 + 2 + 2 + 2 = 16, not 18.",
+        "D": "10 + 4 + 4 + 2 = 20, not 18.",
+        "E": "10 + 5 + 5 + 2 = 22, not 18."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:47:49Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q11": {
+      "source": "original",
+      "content_hash": "sha256:a4b9fa67f5b12fae32c27b8ef3a7ddabbaddbe5b52edc55b4bf313cd140c7262",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "After unfolding, every hole has a twin on the other side of the fold, like in a mirror.",
+      "steps": [
+        "The fold is the dashed line on the right of the folded paper. After unfolding, it is the line in the middle.",
+        "The circle is at the top, far from the fold. So there are 2 circles at the top, near the outside edges.",
+        "The square is at the bottom, right next to the fold. So there are 2 squares at the bottom, next to the middle line.",
+        "Picture B shows this."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "The 2 sides are not mirror images: one circle is near the middle line and the other is near the edge.",
+        "C": "Here a circle faces a square. Each hole's twin must be the same shape.",
+        "D": "The squares here are as far from the middle line as the circles, but they should be right next to it.",
+        "E": "Here the squares are near the edges and the circles near the middle. It should be the other way round."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:47:49Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q12": {
+      "source": "original",
+      "content_hash": "sha256:dc5f1c0274bafd8b37772fddf72b7c7248edc6a8484893e55f1802281164c429",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Find how many apples came out in all, then share that equally among the 3 bags.",
+      "steps": [
+        "The bags now have 3 + 4 + 6 = 13 apples.",
+        "Maria had 19, so she took out 19 - 13 = 6 apples.",
+        "She took the same number from each of the 3 bags: 2 + 2 + 2 = 6. So 2 from each bag."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "Taking 1 from each bag takes out 3 apples. Then 16 would be left, not 13.",
+        "C": "Taking 3 from each bag takes out 9 apples. Then only 10 would be left, not 13.",
+        "D": "Taking 4 from each bag takes out 12 apples. Then only 7 would be left, not 13.",
+        "E": "Taking 5 from each bag takes out 15 apples. Then only 4 would be left, not 13."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:30:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q13": {
+      "source": "original",
+      "content_hash": "sha256:67f68343aca9de39c4f318c750ba0ec27822295f6aff24df4fb6fafb5d5596f7",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Going around the ring, add the roads both ways and see where the two totals match.",
+      "steps": [
+        "The roads are A to B 7, B to C 2, C to D 6, D to E 4, and E to A 5.",
+        "From B to E one way, through A: 7 + 5 = 12.",
+        "From B to E the other way, through C and D: 2 + 6 + 4 = 12.",
+        "Both ways are 12, so B and E are the same distance apart either way."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "From B to D: 2 + 6 = 8 one way, but 7 + 5 + 4 = 16 the other way.",
+        "C": "From C to E: 6 + 4 = 10 one way, but 2 + 7 + 5 = 14 the other way.",
+        "D": "From A to C: 7 + 2 = 9 one way, but 5 + 4 + 6 = 15 the other way.",
+        "E": "From A to D: 5 + 4 = 9 one way, but 7 + 2 + 6 = 15 the other way."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:47:49Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q14": {
+      "source": "original",
+      "content_hash": "sha256:b9666b86cfbdf85216d9f11fa3be6d71dc37344e9ab8aba97784c4db9adfe333",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Find Sam's only path through each floor, and use the stairs to go between them.",
+      "steps": [
+        "On floor 1 Sam comes in at the front right and walks to the stairs at the front left. She sees no sticker there.",
+        "She goes up. On floor 2 she must reach the stairs at the back right. On the way she passes the shark first, and later the rhino.",
+        "She goes down the back stairs to floor 1. She walks along the back row past the frog and out.",
+        "The order is shark, rhino, frog."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "The frog is in the back row of floor 1, and Sam only gets there at the very end.",
+        "C": "On floor 2 Sam reaches the shark before the rhino.",
+        "D": "The frog comes last, after Sam comes back down from floor 2.",
+        "E": "Sam passes both animals on floor 2 before she comes down to the frog."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:47:49Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q15": {
+      "source": "original",
+      "content_hash": "sha256:6583ec4c8848c1ba6862fce65420b1e0e38efd14fe7ac6c66209db60a8cc2dea",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Check each minute and see if the green, red and blue bars are all on.",
+      "steps": [
+        "At minute 8, the green, red and blue bars are all on.",
+        "At minutes 12 and 13, all three bars are on again.",
+        "At every other minute at least one light is off. So all three are on for 3 minutes."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "Some of those minutes have one light off. Check each bar minute by minute.",
+        "B": "Check minutes 7, 9 and 11 again: one light is off in each of them.",
+        "D": "You may have missed one of minutes 8, 12 and 13.",
+        "E": "All three lights are on at more than 1 minute: 8, 12 and 13."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:47:49Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q16": {
+      "source": "original",
+      "content_hash": "sha256:bd40244e4bf22a65b25ded2433db06de6db5570d48233fea02255058348286ef",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Line up the dancers from first to last and count them.",
+      "steps": [
+        "Emma is third, so 2 dancers finished ahead of her.",
+        "After Emma come 3 dancers, and then the last dancer.",
+        "2 + 1 + 3 + 1 = 7 dancers."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Only 4 dancers would leave no room for 3 dancers between Emma and last place.",
+        "B": "With 5 dancers, there is only 1 dancer between Emma and last place.",
+        "C": "With 6 dancers, there are only 2 dancers between Emma and last place.",
+        "E": "With 8 dancers, there are 4 dancers between Emma and last place."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:47:49Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q17": {
+      "source": "original",
+      "content_hash": "sha256:b9e1078d8f583c4c83dff3dcb43a7ad5f69e19421d68b2558dede3826f23ea1e",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Each piece fits on the grid in only one way, so add up the numbers each piece covers.",
+      "steps": [
+        "The grid is 1, 4, 7 on top, 9, 5, 6 in the middle and 2, 8, 3 at the bottom.",
+        "Piece A covers 2 + 8 + 3 + 6 + 7 = 26. Piece B covers 2 + 8 + 5 + 6 + 7 = 28.",
+        "Piece C covers 4 + 9 + 5 + 6 + 8 = 32. Piece D covers 1 + 4 + 5 + 8 + 3 = 21.",
+        "Piece E covers 4 + 7 + 9 + 5 + 8 = 33. That is the biggest sum."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "Piece A covers 26, less than 33.",
+        "B": "Piece B covers 28, less than 33.",
+        "C": "Piece C covers 32, just 1 less than 33.",
+        "D": "Piece D covers 21, the smallest sum."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:47:49Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q18": {
+      "source": "original",
+      "content_hash": "sha256:11f2ccee1932337a234391a0fd879bec4b78452d6c8279bee33886dc72c24139",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "List every way to place the cards, then count only the sums that are different.",
+      "steps": [
+        "Two-digit numbers that start with 1: 11 + 2 = 13, 11 + 3 = 14, 12 + 1 = 13, 12 + 3 = 15, 13 + 1 = 14, 13 + 2 = 15.",
+        "Starting with 2: 21 + 1 = 22, 21 + 3 = 24, 23 + 1 = 24.",
+        "Starting with 3: 31 + 1 = 32, 31 + 2 = 33, 32 + 1 = 33.",
+        "The different sums are 13, 14, 15, 22, 24, 32 and 33. That is 7."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "6 is 1 too few. Check the list again: 13, 14, 15, 22, 24, 32, 33.",
+        "C": "8 is too many. Some ways give the same sum, like 12 + 1 and 11 + 2.",
+        "D": "10 is too many. Some ways give the same sum, so count each sum once.",
+        "E": "12 is how many ways there are to place the cards. Some of them give the same sum."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:30:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    }
+  }
+}

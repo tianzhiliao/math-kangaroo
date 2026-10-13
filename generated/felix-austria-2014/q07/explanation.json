@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:9a5a8a7be4d63c5d521738628e4473579f308d82089514ab3b2a7477668cd774",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "A circle can hide under another one. Follow each round edge all the way around.",
+  "steps": [
+    "There are 5 circles: blue, pink, green, yellow and purple.",
+    "The frog sits on the pink circle, so it is inside the pink circle.",
+    "The blue circle goes on under the pink one. Follow its round edge: it passes to the right of the frog, so the frog is inside the blue circle too.",
+    "The green, yellow and purple circles are far from the frog. So the frog is inside 2 circles."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "The blue circle goes on under the pink one, and the frog is inside it too.",
+    "C": "The green, yellow and purple circles do not reach the frog.",
+    "D": "The green, yellow and purple circles do not reach the frog.",
+    "E": "Only 2 of the 5 circles reach the frog."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:34:35Z",
+  "review": {
+    "status": "flagged",
+    "note": "The frog is inside 2 circles by geometry (blue and pink), but the pink circle's solid fill hides the blue circle's edge, so the frog looks like it is only on pink and a child may answer 1. Consider making the circles see-through or drawing every outline on top."
+  }
+}

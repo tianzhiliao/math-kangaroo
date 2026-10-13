@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:a5fe92852c899cd1fede8dcc46d9a2590ed312dd0932e5fca8c4d09f6ba99f69",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "From straight above you see the top of each block.",
+  "steps": [
+    "The tower is a cube with a round cylinder on top.",
+    "From straight above, the cube looks like a square.",
+    "The cylinder looks like a circle, in the middle of the square.",
+    "So you see a circle inside a square."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "This forgets the cylinder on top.",
+    "C": "This forgets the cube underneath.",
+    "D": "The cylinder is round, so from above it looks like a circle, not a square.",
+    "E": "This is how the cylinder looks from the side, not from above."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:14Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

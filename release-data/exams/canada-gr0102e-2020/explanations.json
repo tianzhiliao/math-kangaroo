@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "questions": {
+    "q01": {
+      "source": "original",
+      "content_hash": "sha256:349cc512ac68d355551464a5bf81ec491140a2d06502713691d8a56f295f4e3e",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Move the kangaroo and the rabbit one turn at a time.",
+      "steps": [
+        "The kangaroo starts at the bottom. The rabbit starts on step 10.",
+        "Turn 1: the kangaroo jumps up 3 to step 3. The rabbit hops down 2 to step 8.",
+        "Turn 2: the kangaroo jumps up 3 more to step 6. The rabbit hops down 2 more to step 6.",
+        "Now they are both on step 6. They meet!"
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "The kangaroo is on step 3 after one jump, but the rabbit is still up on step 8.",
+        "B": "The kangaroo stops on 3, 6, 9. It never stops on step 4.",
+        "C": "The kangaroo stops on 3, 6, 9 and the rabbit on 8, 6, 4. Nobody stops on step 5.",
+        "E": "The rabbit stops on 8, 6, 4. It never stops on step 7."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q02": {
+      "source": "original",
+      "content_hash": "sha256:50bdc23b0d458b10db448be234ec76ad36a3f2ecc7fa8fb9c6c636f614ef1625",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Each piece must line up with the part of the kangaroo next to it.",
+      "steps": [
+        "Piece 3 has the head, so it goes on top.",
+        "Piece 1 has the body and the feet, so it goes right under the head.",
+        "Piece 2 has the tail. The tail sticks out from the back of the body, so piece 2 goes to the left of piece 1.",
+        "Piece 4 goes above the tail, next to the head. Top row: 4, 3. Bottom row: 2, 1."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "The head ends up above the tail instead of above the body.",
+        "C": "The head ends up at the bottom.",
+        "D": "The tail ends up on the far right, so it does not touch the back of the body.",
+        "E": "The head is above the tail and the tail is away from the body."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q03": {
+      "source": "original",
+      "content_hash": "sha256:a96c8682cd7c3630ad72983d9606433ac3593c86a259dd6dbce441d3d24ad380",
+      "answer": "E",
+      "independent_answer": null,
+      "key_idea": "The parts of the castle we can still see must match the castle exactly.",
+      "steps": [
+        "Maria stands in front of the castle, so her face covers part of it in the photo.",
+        "The parts we can still see must have the same towers, in the same order, as the castle.",
+        "Picture E keeps the tall tower in its place, and Maria's face covers part of the right side."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "Compare this castle with the picture bump by bump.",
+        "B": "Compare this castle with the picture bump by bump.",
+        "C": "This castle has no tall tower in it.",
+        "D": "Compare this castle with the picture bump by bump."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "flagged",
+        "note": "Key E is confirmed by the official CMKC 2020 answer table. Steps and feedback for A, B, D are method-only; a worked explanation of why D does not fit is still needed."
+      }
+    },
+    "q04": {
+      "source": "original",
+      "content_hash": "sha256:9927bb4f7e7f849cf622961a10bb16cda9c062bb954cbef5c6a9d80f4dc99b9d",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Find the group of 5 animals that keeps repeating.",
+      "steps": [
+        "The animals come in this order: mouse, snail, bird, bird, frog. Then the order starts again.",
+        "The picture shows mouse, snail, bird, bird, frog, then mouse, snail, bird, bird, frog, then a mouse.",
+        "After the mouse comes the snail, and after the snail comes a bird."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "The frog and the mouse came just before. Next is the snail.",
+        "B": "The two birds come after the snail, so the snail must come first.",
+        "C": "A bird and a frog come later, after the snail.",
+        "D": "The mouse was just pulled out. Next come the snail and a bird."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q05": {
+      "source": "original",
+      "content_hash": "sha256:63002d124cac909a1d2f7e9216df7eb46ee2f71fa8e2125f8626bb0da166dcd9",
+      "answer": "C",
+      "independent_answer": "B",
+      "key_idea": "Each shape on the edge of a square is cut in half, and the other half is on the next square.",
+      "steps": [
+        "Look at the half shapes that touch the empty square: above it, left of it, right of it and below it.",
+        "The missing piece must finish every one of those half shapes.",
+        "Check each piece edge by edge to see which one finishes all four shapes."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "Check each edge of this piece against the square next to it.",
+        "B": "Check each edge of this piece against the square next to it.",
+        "D": "Check each edge of this piece against the square next to it.",
+        "E": "Check each edge of this piece against the square next to it."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "flagged",
+        "note": "Key C is confirmed by the official CMKC 2020 answer table; the blind solve (B) was wrong. Steps and feedback are method-only and still need a worked explanation of why C fits."
+      }
+    },
+    "q06": {
+      "source": "original",
+      "content_hash": "sha256:f2fa3429eb854228cb4ddbbb2ab9b212aa96bd7000b957c9d43bb963dc10426f",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Work out every square, then shade the ones that make 13.",
+      "steps": [
+        "8 + 4 = 12. 19 - 6 = 13. 20 - 5 = 15. 6 + 7 = 13.",
+        "The squares that make 13 are the top right one and the bottom right one.",
+        "So Tara shades the whole right side."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "8 + 4 is 12, not 13, so the top left square stays white.",
+        "C": "8 + 4 is 12, not 13, so the top left square stays white.",
+        "D": "8 + 4 is 12, not 13, and 6 + 7 is 13, so the bottom right square is shaded too.",
+        "E": "19 - 6 is also 13, so the top right square is shaded too."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q07": {
+      "source": "original",
+      "content_hash": "sha256:9cd630bf8243bac049522850995dd1b72444492fabf30c997cfd65fd7f93743b",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Both dogs walk the same distance, so they meet halfway along the path.",
+      "steps": [
+        "Count the path in grid sides. From P it goes up 4, right 1, down 2, right 1, up 2, right 1, down 3, left 2, down 1, right 3, up 4.",
+        "That is 24 sides in all. Half of 24 is 12.",
+        "Count 12 sides from P: you pass A at 9, B at 10 and C at 11, and you reach D at 12.",
+        "Both dogs walk 12 sides, so they meet at D."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "A is only 9 sides from P. Halfway is 12.",
+        "B": "B is 10 sides from P. Halfway is 12.",
+        "C": "C is 11 sides from P, one short of halfway.",
+        "E": "E is 13 sides from P, one past halfway."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q08": {
+      "source": "original",
+      "content_hash": "sha256:ceaf86bdc3484ec870bcb9185ba1cc1026d2785900e08ec5273805c9fd024107",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Find the smallest number of apples that 5 children can share equally.",
+      "steps": [
+        "Count by 5s: 5, 10, 15. 12 is not in the list, so 12 apples can't be shared equally.",
+        "The next number after 12 is 15.",
+        "15 - 12 = 3, so Grandmother needs 3 more apples. Then each child gets 3."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "12 apples can't be split into 5 equal groups.",
+        "B": "With 1 more there are 13 apples, and 13 can't be shared equally by 5.",
+        "C": "With 2 more there are 14 apples, and 14 can't be shared equally by 5.",
+        "E": "With 4 more there are 16 apples, and 16 can't be shared equally by 5."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q09": {
+      "source": "original",
+      "content_hash": "sha256:202da02c76ea261fba5fee496601a97986bb7d4d823f6d7450bb9786e5fa5bc0",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Count every cube, including the ones hiding behind or under others.",
+      "steps": [
+        "A has 5 cubes. B has 5 cubes.",
+        "C has 7 cubes. D has 6 cubes.",
+        "E has 6 cubes on the bottom, in two rows of 3, and 2 more stacked on top: 8 cubes.",
+        "8 is the most."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "A has only 5 cubes.",
+        "B": "B has only 5 cubes.",
+        "C": "C has 7 cubes. E has one more.",
+        "D": "D has 6 cubes. Look for the cubes hiding at the back of E."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q10": {
+      "source": "original",
+      "content_hash": "sha256:1d9075f8e2a62783695568a50590ee43f673deb8c0b6f67cf1aab936137f07ed",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Add up the big flower, then find what the small flower is missing.",
+      "steps": [
+        "Big flower: 5 + 3 + 1 + 9 + 7 = 25.",
+        "Small flower: 2 + 4 + 6 + 8 = 20, plus the hidden petal.",
+        "Both flowers must make 25. 20 + 5 = 25, so the hidden petal is 5."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "20 + 0 = 20, not 25.",
+        "B": "20 + 3 = 23, not 25.",
+        "D": "20 + 7 = 27, not 25.",
+        "E": "20 + 1 = 21, not 25."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q11": {
+      "source": "original",
+      "content_hash": "sha256:809c7e87f59721f0efe08193bd9d7a23b98ca547716305cc447672e8ae7fef34",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "All six numbers add up to 21. The colored squares use up 20 of it.",
+      "steps": [
+        "1 + 2 + 3 + 4 + 5 + 6 = 21.",
+        "The blue squares make 10 and the yellow squares make 10. 10 + 10 = 20.",
+        "Only the ? square is left. 21 - 20 = 1.",
+        "For example: yellow 4 and 6, blue 2, 3 and 5, and 1 in the ? square."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "If ? were 2, the colored squares would add up to 19, not 20.",
+        "C": "If ? were 3, the colored squares would add up to 18, not 20.",
+        "D": "If ? were 4, the colored squares would add up to 17, not 20.",
+        "E": "If ? were 5, the colored squares would add up to 16, not 20."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q12": {
+      "source": "original",
+      "content_hash": "sha256:bbd72128f409328c62c662d3c93482edeb4472383f87a24c3d5232d79cdc07a1",
+      "answer": "C",
+      "independent_answer": null,
+      "key_idea": "Follow each band all the way around so you count it only once.",
+      "steps": [
+        "Put your finger on one band and follow it all the way around until you come back to the start.",
+        "Mark that band, then pick a band you have not followed yet.",
+        "Keep going until every band is counted. There are 6 bands."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "Some bands cross each other. Follow each one all the way around.",
+        "B": "A band may be hiding behind another one.",
+        "D": "You may have counted one band twice.",
+        "E": "You may have counted some bands twice."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "flagged",
+        "note": "Key C (6 bands) is confirmed by the official CMKC 2020 answer table. The steps describe the tracing method; a band-by-band description is still needed."
+      }
+    },
+    "q13": {
+      "source": "original",
+      "content_hash": "sha256:192c1f93899268bb822f10dd52180e2e71b13934a8a114e8e6acd64a63ade4a4",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "When one train's car numbers go down, the other train's go up by the same amount.",
+      "steps": [
+        "The top train's cars count 1, 2, 3 to the right. The bottom train's cars count 1, 2, 3 to the left.",
+        "Car 19 is opposite car 19. Car 12 is 7 cars to the left of car 19, because 19 - 7 = 12.",
+        "On the bottom train, moving 7 cars to the left makes the number go up by 7: 19 + 7 = 26.",
+        "So car 12 is opposite car 26."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "As you move left, the other train's numbers get bigger, not smaller.",
+        "B": "The trains line up at car 19, not at car 12.",
+        "C": "21 is only 2 cars away from 19. We need to move 7 cars.",
+        "E": "31 is the last car, 12 cars away from 19. We need to move 7 cars."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q14": {
+      "source": "original",
+      "content_hash": "sha256:b8ebda4bb42dc697bc0709e24b09c6ab3adb8fbeedd8b43308f14e983ed15b50",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "An arrow always points to someone shorter.",
+      "steps": [
+        "Look for the person with no arrow going out. That person is not taller than anyone.",
+        "A, B, D, E and F all have an arrow going out.",
+        "C has no arrow going out, and arrows from D and F point to C.",
+        "C is the shortest."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "A has an arrow to D, so A is taller than D.",
+        "B": "B has arrows to A and F, so B is tall.",
+        "D": "D has an arrow to C, so D is taller than C.",
+        "E": "E has an arrow to D, so E is taller than D."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q15": {
+      "source": "original",
+      "content_hash": "sha256:cb8bb480753002eb66938669758edf90212fb234b19e0168a31d60ebed2e3075",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Opposite faces always add up to the same total.",
+      "steps": [
+        "4, 8 and 5 touch each other, so each of them has its own opposite face.",
+        "Try 6 opposite 5. The total is 5 + 6 = 11.",
+        "Then 4 needs 7 (4 + 7 = 11) and 8 needs 3 (8 + 3 = 11).",
+        "The numbers 5, 6, 4, 7, 8 and 3 are all different. It works!"
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "5 + 3 = 8, so 8 would need 0 opposite it, and 0 is not allowed.",
+        "B": "The numbers must all be different, and 5 is already used.",
+        "D": "5 + 7 = 12, so 4 would need 8, but 8 is already on another face.",
+        "E": "5 + 9 = 14, so 4 would need 10, which is too big."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q16": {
+      "source": "original",
+      "content_hash": "sha256:d3483397fdd2e40688dddab00693b04592f56e5033d9fff0ad654933659ffd3b",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Work backwards from the end, undoing one step at a time.",
+      "steps": [
+        "At the end, John and Olivia each have 4 sweets.",
+        "In the last step Olivia doubled John's sweets. So before that John had 2, and Olivia had 4 + 2 = 6.",
+        "In the first step John doubled Olivia's sweets. So before that Olivia had 3, and John had 2 + 3 = 5.",
+        "John started with 5 sweets."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "If John had 6, Olivia had 2. They would end with 8 and 0.",
+        "C": "If John had 4, Olivia had 4. They would end with 0 and 8.",
+        "D": "If John had 3, Olivia had 5. John can't give 5 sweets when he has only 3.",
+        "E": "If John had 2, Olivia had 6. John can't give 6 sweets when he has only 2."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q17": {
+      "source": "original",
+      "content_hash": "sha256:3e85227516078ca88d82909a4ec4738f38c7d8f1ac1898dd7f45aeb94194a6bc",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Write all the digits out, cross some out, and find the middle one.",
+      "steps": [
+        "Write it out: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18.",
+        "Cross out every 1, 3, 5, 7 and 9.",
+        "What is left is 2 4 6 8 0 2 4 6 8. That is 9 digits.",
+        "The middle one is the 5th digit, which is 0."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "2 is the 1st and the 6th digit, not the middle one.",
+        "C": "4 is the 2nd and the 7th digit, not the middle one.",
+        "D": "6 is the 3rd and the 8th digit, not the middle one.",
+        "E": "8 is the 4th and the 9th digit, not the middle one."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q18": {
+      "source": "original",
+      "content_hash": "sha256:7d98c214b5098287e201aa0ad4a70d7cb6d2327498cbcf02b72bd6674750ec61",
+      "answer": "D",
+      "independent_answer": null,
+      "key_idea": "Each fold turns the paper over, so the digit turns too.",
+      "steps": [
+        "Follow the square with the 2 through the first fold.",
+        "Then follow it through the second fold.",
+        "Each fold flips the square over, so the 2 is turned around after both folds, like in picture D."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "This is how the 2 would look if it never turned over.",
+        "B": "Follow the 2 through both folds to see which way it turns.",
+        "C": "Follow the 2 through both folds to see which way it turns.",
+        "E": "Follow the 2 through both folds to see which way it turns."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T00:00:00Z",
+      "review": {
+        "status": "flagged",
+        "note": "Key D is confirmed by the official CMKC 2020 answer table. Steps and feedback are method-only and still need a worked fold-by-fold explanation."
+      }
+    }
+  }
+}

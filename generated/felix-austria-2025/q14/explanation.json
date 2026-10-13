@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:72b4d15dcdffe66bd7aa2c73f743198332a5003a236dae2240ebd8bd69604260",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Think of the unluckiest way: every marble that is not red comes out first.",
+  "steps": [
+    "With bad luck, Ben gets every marble that is not red before a red one. Count those marbles.",
+    "First tube: 1 blue under the red. Second tube: a green and a blue under the red, so 2.",
+    "Third tube: 2 blue marbles and no red, so 2. Fourth tube: 1 green under the red.",
+    "1 + 2 + 2 + 1 = 6. After that, only red marbles can come out, so coin 7 must give a red marble."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "With bad luck, the first 6 marbles could all be blue or green.",
+    "B": "With bad luck, all 6 of those marbles are blue or green. One more coin is needed.",
+    "D": "8 coins would work, but 7 are already enough to be sure.",
+    "E": "10 coins would work, but 7 are already enough to be sure."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:13Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

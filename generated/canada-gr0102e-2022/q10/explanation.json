@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:bde4af6281b87d8385272f49eb0af9ecb4e8b732074e6e963ab99dd89bfdf909",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "If Pip can visit every room, that gives the biggest total.",
+  "steps": [
+    "All 6 rooms add up to 4 + 6 + 3 + 5 + 8 + 2 = 28.",
+    "Try a path through every room: 4, then 5, then 8, then 6, then 3, then 2, and out.",
+    "Every step goes through a door, and no room is used twice.",
+    "So Pip can get 28, and nothing can be bigger."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Pip can visit every room, which gives more than 22.",
+    "B": "Pip can visit every room, which gives more than 26.",
+    "D": "All the rooms together make only 28.",
+    "E": "All the rooms together make only 28."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:52:53Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

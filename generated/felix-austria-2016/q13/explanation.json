@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:071a4968df184a36e98a39de5e70c20e47bedb54fc2a595b085a7062c2b1484a",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Look at which way each beak points, then count the birds on that side.",
+  "steps": [
+    "From left to right, the beaks point: right, left, right, left.",
+    "The pink bird looks right and sees 3. The blue bird looks left and sees 1.",
+    "The green bird looks right and sees 1. The yellow bird looks left and sees 3.",
+    "3 + 1 + 1 + 3 = 8 whistles."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Add every bird's whistles: 3 + 1 + 1 + 3.",
+    "B": "Add every bird's whistles: 3 + 1 + 1 + 3.",
+    "D": "Add every bird's whistles: 3 + 1 + 1 + 3.",
+    "E": "Check which way each beak points. The blue and green birds see only 1 bird each."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:54:27Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

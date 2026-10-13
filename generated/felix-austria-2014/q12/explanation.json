@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:c7362bc96317f1ce9b781a72e85312b001ed9453ceead7857e959512f12c45a6",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Find how many days were cheese days. The other days were nut days.",
+  "steps": [
+    "On a cheese day they eat 3 pieces of cheese. They ate 9 pieces: 3 + 3 + 3 = 9. So there were 3 cheese days.",
+    "A week has 7 days. 7 - 3 = 4 nut days.",
+    "On each nut day they eat 8 nuts: 8 + 8 + 8 + 8 = 32 nuts."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "That is only 2 nut days, but there were 4.",
+    "B": "That is only 3 nut days, but there were 4.",
+    "D": "That is 5 nut days, but there were only 4.",
+    "E": "That is 6 nut days, but there were only 4."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:34:35Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

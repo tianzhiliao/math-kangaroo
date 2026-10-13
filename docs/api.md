@@ -89,52 +89,34 @@ Failure response:
 - `500 application/json`
 - `{ "error": "practice_bank_failed" }`
 
-## `POST /api/ai/explanation`
+## `GET /api/exams/[examId]/explanations`
 
-Purpose:
+Reads:
 
-- proxies an explanation request to FastAPI `/ai/explanation`
-
-Request body:
-
-```json
-{
-  "exam_id": "canada-gr0102e-2023",
-  "question_number": 1,
-  "selected_label": "A",
-  "force_refresh": false,
-  "variant": false
-}
-```
-
-Set `variant: true` to explain the AI-generated similar question for that source question instead of the question itself (see `GET /api/generated/[examId]/[questionId]`).
+- `release-data/exams/<examId>/explanations.json`
 
 Success response:
 
 - `200 application/json`
+- explanations a child may see, keyed by question id; questions whose entry is flagged for review (or missing) are left out
 
 Shape:
 
 ```json
 {
-  "exam_id": "canada-gr0102e-2023",
-  "question_number": 1,
-  "selected_label": "A",
-  "correct_label": "B",
-  "variant": false,
-  "explanation": "Count slowly. So the answer is B.",
-  "model": "gpt-5.4",
-  "cache_hit": false,
-  "generated_at": "2026-03-26T00:00:00Z"
+  "questions": {
+    "q01": {
+      "answer": "D",
+      "key_idea": "Move the kangaroo and the rabbit one turn at a time.",
+      "steps": ["The kangaroo starts at the bottom. The rabbit starts on step 10.", "..."],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": { "A": "...", "B": "...", "C": "...", "E": "..." }
+    }
+  }
 }
 ```
 
-Common failure cases:
-
-- backend unreachable -> `502`
-- upstream validation failure -> proxied status code
-- malformed upstream JSON -> `502`
-- OpenAI request failed -> `502` with `detail: "ai_provider_error"`
+Only these five fields are served. `independent_answer`, `content_hash` and review notes stay on the server. An unknown exam returns `{ "questions": {} }`.
 
 ## `GET /api/generated/[examId]/[questionId]`
 
@@ -157,6 +139,17 @@ Purpose:
 Failure response:
 
 - `404` for anything that is not a single `*.svg` name in the variant folder
+
+## `GET /api/generated/[examId]/[questionId]/explanation`
+
+Reads:
+
+- `generated/<examId>/<questionId>/explanation.json`, following skipped duplicates as above
+
+Success response:
+
+- `200 application/json`
+- one explanation in the shape above, or `null` when the file is missing or the entry is flagged
 
 ## `GET /api/ai/tts`
 

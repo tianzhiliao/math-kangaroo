@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "questions": {
+    "q01": {
+      "source": "original",
+      "content_hash": "sha256:87433337cead89df7abbffb364535b4cbd8195a2322158728f7fecb4fb5e241a",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Take away the balloons Pablo gives away.",
+      "steps": [
+        "Pablo has 6 balloons. Count them in the picture: 6.",
+        "He gives away 2 balloons.",
+        "6 - 2 = 4 balloons are left."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "2 is how many balloons he gives away, not how many he keeps.",
+        "B": "That takes away 3 balloons, but he gives away only 2.",
+        "D": "That takes away only 1 balloon, but he gives away 2.",
+        "E": "6 is how many he had before he gave any away."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:13Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q02": {
+      "source": "original",
+      "content_hash": "sha256:ab3fba5fab8ed6378791f0ab0d735b4d35ce6ba9accbfd3100857bfeaa7741b0",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "A triangle has exactly 3 straight sides and 3 corners, even when it is turned or thin.",
+      "steps": [
+        "A triangle has 3 straight sides and 3 corners. It can be big or small, and it can be turned any way.",
+        "Find them: the dark purple one at the top left, the blue one at the top right, the brown one on the right, the small brown one in the middle, the tall grey one on the left and the green one at the bottom.",
+        "That makes 6 triangles. The stars, the four-sided shapes, the circles, the oval, the moon and the thin bar are not triangles."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "There are many more than 2. Turned and thin triangles count too.",
+        "B": "Only 3 is too few. Look for the small brown one and the tall grey one too.",
+        "C": "4 is too few. Check the brown ones and the tall grey one again.",
+        "D": "5 is one too few. Check every shape with 3 sides again."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:13Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q03": {
+      "source": "original",
+      "content_hash": "sha256:59f1c2459dd19e05a292784ea0e26c7703a30d6661790d7e7c4496335a91cdea",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Count only one end of each pencil, so no pencil is counted twice.",
+      "steps": [
+        "Each pencil has one sharp tip and one pink eraser.",
+        "Count the sharp tips: there are 8.",
+        "Check: there are also 8 erasers. So there are 8 pencils."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "That misses one pencil. Count the sharp tips again.",
+        "C": "That counts one pencil twice.",
+        "D": "That is too many. Count only one end of each pencil.",
+        "E": "16 is the number of ends. Each pencil has 2 ends, so that counts every pencil twice."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:13Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q04": {
+      "source": "original",
+      "content_hash": "sha256:1805002d873105f5b4b9af2c0adb14deec9473e86973222979676c5a496dbc02",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Count the empty spots where tiles used to be.",
+      "steps": [
+        "The big square was 4 tiles across and 4 tiles down, so it had 16 tiles.",
+        "Count the empty spots in each row: 1, 2, 2 and 1. 1 + 2 + 2 + 1 = 6.",
+        "Check: the grey tiles left are 3 + 2 + 2 + 3 = 10, and 16 - 10 = 6."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "That misses some empty spots. There are 2 in the second row and 2 in the third row.",
+        "B": "That misses one empty spot. Count 1, 2, 2 and 1.",
+        "D": "That is one too many. Only 6 spots are empty.",
+        "E": "That is too many. 10 tiles are still there, and 16 - 10 = 6."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:13Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q05": {
+      "source": "original",
+      "content_hash": "sha256:162d88cf21099916ab0bf9bee759a2393487d01ad8cbd0e2f02e8b7a7862ec95",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Every path goes the same distance across, so only the up and down parts are different.",
+      "steps": [
+        "Every path starts at the left side and ends at the right side, so every path goes 10 squares across.",
+        "Now count the up and down steps. A: 1 up, 1 down and 1 down. That is 3.",
+        "B: 2 down and 3 up is 5. C: 4 up and 4 down is 8. D: 3 down and 1 up is 4. E: 1 down, 3 down and 4 up is 8.",
+        "Path A has the fewest up and down steps, so it is the shortest."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "Path B goes up and down 5 squares. That is more than the 3 of path A.",
+        "C": "Path C goes up 4 and down 4. That is 8 squares up and down.",
+        "D": "Path D goes up and down 4 squares, 1 more than path A.",
+        "E": "Path E goes up and down 8 squares."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:13Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q06": {
+      "source": "original",
+      "content_hash": "sha256:dffc24bb15fc7654f730d9651fe228b84cb9cda815daff53367675f5239e7eca",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Look at the 2 layers of 9 cubes and see which cubes each band touches.",
+      "steps": [
+        "18 cubes make 2 layers: 9 cubes on top and 9 cubes on the bottom. Each layer is 3 by 3.",
+        "The orange band goes around the sides of the top layer. It touches the 8 outside cubes of the top layer.",
+        "The red band goes over the top, down the front, under the bottom and up the back, along the middle row. On top it also touches the centre cube. Underneath it touches 3 bottom cubes: front middle, centre and back middle.",
+        "So all 9 top cubes are touched. In the bottom layer 3 cubes are touched, so 9 - 3 = 6 cubes are not touched."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "Only 6 bottom cubes are untouched: the 3 on the left side and the 3 on the right side.",
+        "C": "The red band also goes under the bottom layer and touches 3 cubes there.",
+        "D": "All 9 top cubes are touched, so only bottom cubes can be untouched, and 3 of them are touched.",
+        "E": "All 9 top cubes are touched by a band, so 12 is far too many."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:13Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q07": {
+      "source": "original",
+      "content_hash": "sha256:c73ccda52be69149dbd144828475eff286d2af70b19fefb0e5194da3d71eb32d",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "The key must have the same shapes as the keyhole, in the same order.",
+      "steps": [
+        "Read the keyhole from top to bottom: a square, then a triangle pointing up, then a circle.",
+        "The key needs a box on top, a point in the middle that points up, and a round part at the bottom.",
+        "Only key D has a box, then a point pointing up, then a round part."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Its bottom part is a box, not round.",
+        "B": "Its point faces down, but the triangle in the keyhole points up.",
+        "C": "The round part is on top and the box is at the bottom. They are swapped.",
+        "E": "The point is on top and the box is in the middle. They are in the wrong order."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:13Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q08": {
+      "source": "original",
+      "content_hash": "sha256:e53d2558b45dc56a1c0c1c5207d4cf8a9016b2c44aa175ded6bebf71f3a690ab",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "The second scale has one more puppy, so the difference is the weight of one puppy.",
+      "steps": [
+        "Picture 2 has one more puppy than picture 1.",
+        "So one puppy weighs 18 - 14 = 4 kilograms.",
+        "Picture 1 is the dog and one puppy: 14 kilograms. Take away the puppy: 14 - 4 = 10."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "Then the puppy would weigh 5, and the dog with both puppies would be 19, not 18.",
+        "C": "Then the puppy would weigh 3, and the dog with both puppies would be 17, not 18.",
+        "D": "Then the puppy would weigh 2, and the dog with both puppies would be 16, not 18.",
+        "E": "Then the puppy would weigh 1, and the dog with both puppies would be 15, not 18."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:13Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q09": {
+      "source": "original",
+      "content_hash": "sha256:075cfc26dbaa3f9f75cb834103e842f6fccf3281091f87cf7d4f5ff53cd97837",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "First find how many oranges there were, then take half of them away.",
+      "steps": [
+        "Pears and apples together: 2 + 4 = 6.",
+        "The rest are oranges: 12 - 6 = 6 oranges.",
+        "Vera takes half of the oranges. Half of 6 is 3, so 3 oranges are left."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "There were 6 oranges, and half of 6 is 3, not 1.",
+        "B": "There were 6 oranges, and half of 6 is 3, not 2.",
+        "D": "There were 6 oranges, and half of 6 is 3, not 4.",
+        "E": "6 is how many oranges there were before Vera took half."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:13Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q10": {
+      "source": "original",
+      "content_hash": "sha256:cf1d87e20aa0c0ff61cf0b26598da0494d236d07a6dcd089b7f433fa94f02bfd",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "A button can be turned but not flipped, so every picture on it moves round together.",
+      "steps": [
+        "On the button, the heart is at the top left, the moon shape at the bottom left, the dot at the bottom right, and the top right is empty.",
+        "Turn the button a quarter turn to the left. Each thing moves one corner: the heart to the bottom left, the moon to the bottom right, the dot to the top right.",
+        "The heart turns too, so its tip now points right. The moon still opens toward the middle.",
+        "Button E looks just like that."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "The moon and the dot have swapped corners. This is the button flipped over, not turned.",
+        "B": "The heart is turned on its side, but the moon and the dot did not turn with it.",
+        "C": "The moon is turned the wrong way. It should open toward the middle.",
+        "D": "If the heart moves to the top right, the empty corner moves to the bottom right. But here the dot is there."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:13Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q11": {
+      "source": "original",
+      "content_hash": "sha256:b45ee2c3e7d30fb9391afe976782fa7195d8794f9d957a17e623f1faa39a5c87",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "The colours take turns, so the bead next to each box tells you how the hidden beads start.",
+      "steps": [
+        "The beads go white, black, white, black, and so on.",
+        "Just before the first box is a black bead. So its 5 hidden beads are white, black, white, black, white. That is 3 white beads.",
+        "Just before the second box is a black bead too. So it also hides white, black, white, black, white: 3 white beads.",
+        "3 + 3 = 6 white beads are hidden."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "Each box hides 3 white beads, so 4 is too few.",
+        "B": "5 would mean one box hides only 2 white beads. Both boxes hide 3.",
+        "D": "Each box hides 5 beads, and only 3 of them are white.",
+        "E": "That is too many. A black bead sits between every 2 white beads."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:13Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q12": {
+      "source": "original",
+      "content_hash": "sha256:9f308fef3fb9568b16be9b43d5e4c0d76c3055a02a825f52a5e71eea81ab4cd1",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "To make one tree as full as possible, put as few squirrels as you can on the other trees.",
+      "steps": [
+        "The other 3 trees should have as few squirrels as possible.",
+        "Each tree needs at least 2, and all the numbers must be different. The smallest are 2, 3 and 4.",
+        "2 + 3 + 4 = 9. Then 17 - 9 = 8 squirrels are left for the last tree."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "7 can happen, but 8 is bigger and also works: 2, 3, 4 and 8.",
+        "C": "Then the other 3 trees would have only 8 squirrels, but they need at least 2 + 3 + 4 = 9.",
+        "D": "Then the other 3 trees would have only 7 squirrels, but they need at least 9.",
+        "E": "Then the other 3 trees would have only 6 squirrels, but they need at least 9."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:13Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q13": {
+      "source": "original",
+      "content_hash": "sha256:6a7067d363f451fc0286fe4842a2a6e73a1ad2cf1ee23f6bbb32b80413479719",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "The bar needs 2 cubes that touch, and the 3 cubes left over must make the bent L block.",
+      "steps": [
+        "The L block has 3 cubes with a bend. The bar has 2 cubes in a row. Together they make 5 cubes.",
+        "In object E, one cube is hidden in the middle at the bottom. It touches 4 cubes: one in front, one behind, one on its right and one on top.",
+        "Those 4 cubes touch only the middle cube, not each other.",
+        "Whichever block uses the middle cube, the cubes left over do not touch each other. So they cannot make the other block."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "The front cube, the hidden cube behind it and the cube on top make the L block. The 2 cubes on the right make the bar.",
+        "B": "The 2 cubes standing at the back make the bar. The 2 front cubes and the cube on the floor behind them make the L block.",
+        "C": "The 3 cubes you can see in the back wall make the L block. The front cube and the cube hidden behind it make the bar.",
+        "D": "The top 2 cubes of the tower make the bar. The bottom cube of the tower, the cube behind it and the cube on the right make the L block."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:13Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q14": {
+      "source": "original",
+      "content_hash": "sha256:2cb5b3201c16f680dd4d7470b6646172c057c0ec4598d3266d959e5d30e6bc0b",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Think of the unluckiest way: every ball that is not white comes out first.",
+      "steps": [
+        "With bad luck, Barbara gets every ball that is not white before any white one. Count those balls.",
+        "In each tube, count the balls under the lowest white ball: 3, 1, 2, 4 and 0.",
+        "3 + 1 + 2 + 4 + 0 = 10. So she could get 10 balls that are not white.",
+        "After that, every tube has a white ball at the bottom. So coin 11 must give a white ball."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "With bad luck, the first 10 balls could all be black or grey.",
+        "B": "With bad luck, the first 10 balls could all be black or grey.",
+        "C": "With bad luck, all 10 of those balls are black or grey. One more coin is needed.",
+        "E": "15 coins would work, but 11 are already enough to be sure."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:13Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q15": {
+      "source": "original",
+      "content_hash": "sha256:a6eb76fb333fb0f664cfd45743bc030887cb6edc297d9b2266f17b77370173fb",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Fill the spots where only one number can go, one at a time.",
+      "steps": [
+        "Call each ladybug by its number of dots. Each row and each column needs 1, 2, 3 and 4 once.",
+        "The third column has 4 and 1, so it needs 2 and 3. The third row already has a 3, so it gets the 2, and the top of that column gets the 3.",
+        "The bottom row has 4 and 1, so it needs 2 and 3. The first column already has a 3, so the bottom left is 2. Then the first column needs 1 and 4. The second row already has a 4, so it gets the 1, and the top left gets the 4.",
+        "The third row now has 3 and 2, so it needs 1 and 4. The second column already has a 4 at the bottom, so the 1 goes in the second column.",
+        "The top row has 4 and 3, so it needs 1 and 2. The second column already has a 1, so the top row is 4, 2, 3, 1."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "The second column already gets a 1 in the third row, so the top row cannot have a 1 there.",
+        "C": "The first column already has a 3, so the top left cannot be 3.",
+        "D": "The top left must be 4, not 2. The 2 belongs at the bottom left.",
+        "E": "The top left must be 4, not 1. The 1 in the first column belongs in the second row."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:13Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    }
+  }
+}

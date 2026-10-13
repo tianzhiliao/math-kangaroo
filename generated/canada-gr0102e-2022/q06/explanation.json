@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:8ed65a123d1e5e7178da26b819fce2228c7f0365d21aa26c8fff926e34b12560",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Count the inky squares one row at a time.",
+  "steps": [
+    "The paper has 5 squares in each row and 4 rows. The left column has no ink at all.",
+    "Top row: 4 squares have ink. Second row: 4 squares.",
+    "Third row: 3 squares. Bottom row: 2 squares.",
+    "4 + 4 + 3 + 2 = 13."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Count again row by row: 4 + 4 + 3 + 2 is more than 11.",
+    "B": "Count again row by row: 4 + 4 + 3 + 2 is more than 12.",
+    "D": "Count again row by row: 4 + 4 + 3 + 2 is less than 14.",
+    "E": "Count again row by row: 4 + 4 + 3 + 2 is less than 15."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:52:53Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

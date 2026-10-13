@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:78baa33ed0003310cd4308406d2b68f9e19abafd80656e5074714831d9ba2e28",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "What the kangaroo eats from the second branch is what was left on the first branch.",
+  "steps": [
+    "Try an example. The kangaroo eats 3 leaves from the first branch. 8 - 3 = 5 leaves are left there.",
+    "Then it eats 5 leaves from the second branch. 8 - 5 = 3 leaves are left there.",
+    "Together 5 + 3 = 8 leaves are left.",
+    "Try another number, like 2: 6 are left, then 2 are left. 6 + 2 = 8 again."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Try an example: 5 + 3 = 8 leaves are left, not 4.",
+    "B": "Try an example: 5 + 3 = 8 leaves are left, not 6.",
+    "D": "There were only 16 leaves, and the kangaroo ate 8 of them. So 8 are left, not 12.",
+    "E": "16 is all the leaves at the start. The kangaroo ate some of them."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

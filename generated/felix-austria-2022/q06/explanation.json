@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:1e4144349eb3b57e02a36336e8f05761457dffd75c5bede9e9b2754779b570d6",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Look for a shape that shows up on just one animal.",
+  "steps": [
+    "Each animal is made of 3 shapes, and every animal has a circle.",
+    "Triangles are on animals A, B, C and E.",
+    "Box shapes with 4 straight sides are on animals A, C, D and E.",
+    "Only animal B has a diamond, a shape standing on its point."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "The circle, the triangle and the box shape on A are also used on other animals.",
+    "C": "The circle, the triangle and the square on C are also used on other animals.",
+    "D": "The circle and the rectangles on D are also used on other animals.",
+    "E": "The circle, the triangle and the rectangle on E are also used on other animals."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:57Z",
+  "review": {
+    "status": "flagged",
+    "note": "Blind solver chose B but with low confidence: A's 'square' is drawn 48x40 (really a rectangle, like the ones on D and E) and B's diamond is a true square turned on its corner (like C's square), so strictly no shape is used on only one animal. Intended reading is B's diamond; consider making A's box a true square and B's diamond clearly non-square."
+  }
+}

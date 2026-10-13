@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:bbbe22ac823f5127daeb4e7a4ac43cf489997b51e3450ff710917c412df3ccd6",
+  "answer": "A",
+  "independent_answer": "A",
+  "key_idea": "Only red dots on Mia's road count, and she passes each one once.",
+  "steps": [
+    "Mia drives along the top, down the right side and along the bottom to Y.",
+    "On the top road there are 3 red dots. On the right side there are 2. On the bottom road there are 2.",
+    "The other 3 red dots are at the far ends of side roads, so Mia never drives over them.",
+    "3 + 2 + 2 = 7 stops."
+  ],
+  "answer_sentence": "So the answer is A.",
+  "choice_feedback": {
+    "B": "Mia does not drive onto the side roads, so the dots at their ends do not count.",
+    "C": "Mia does not drive onto the side roads, so the dots at their ends do not count.",
+    "D": "10 is every red dot in the picture, but 3 of them are not on Mia's road.",
+    "E": "There are only 10 red dots, and 3 of them are not on Mia's road."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:47:49Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

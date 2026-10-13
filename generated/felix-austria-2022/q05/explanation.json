@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:715f72e48c42ae51a928ad479fa2af904e32ddd5e2b40ea3faccd9a7858d67b5",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "The torn piece must have the right borders and the road in the right place.",
+  "steps": [
+    "The missing part is the top right corner of the map.",
+    "So the piece needs a blue border along its top and along its right side.",
+    "The green road runs into the torn corner near the top, so on the piece it must come in from the left side, near the top.",
+    "Piece C has borders on the top and the right, and its road comes in from the left near the top."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "The borders fit, but the road is too low. It is near the bottom of the piece.",
+    "B": "This piece has borders on the left and the bottom, so it is a bottom left corner.",
+    "D": "Here the road goes down from the top, but on the map it comes in from the left.",
+    "E": "This piece is a triangle, but the torn corner is a square."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:57Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

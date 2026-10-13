@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:94e1a6736d2d5d74cafa481e6c8eb54230cf04c6c67062640b6ca2ed3235deec",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Look for a square that can only go with one neighbour, and see what is left.",
+  "steps": [
+    "The L block has 3 squares with a bend. The bar has 2 squares in a row.",
+    "In shape D, the bottom square touches only the square above it. So those 2 squares must be in the same block.",
+    "If they are the bar, the top row of 3 is left. It is straight, not bent, so it is not the L block.",
+    "If they are in the L block, the third square must be the middle of the top row. Then the 3 squares are straight again. So D cannot be built."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "The 2 squares on the right side make the bar, and the other 3 make the L block.",
+    "B": "The top 2 squares make the bar, and the other 3 make the L block.",
+    "C": "The bottom 2 squares of the long column make the bar, and the other 3 make the L block.",
+    "E": "The top 2 squares make the bar, and the other 3 make the L block."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:13Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

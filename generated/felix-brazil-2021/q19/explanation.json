@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:13d554a10710bc411a8205b10360fc85737314fae33846dbf7f8becd2a3cb1c4",
+  "answer": "A",
+  "independent_answer": "A",
+  "key_idea": "Add all the cards, then split the sum in half.",
+  "steps": [
+    "2 + 3 + 4 + 5 + 6 + 8 = 28. Both boxes have the same sum, so each box has 14.",
+    "The box with 4 needs 14 - 4 = 10 more.",
+    "The other cards can make 10 in two ways: 2 + 8, or 2 + 3 + 5.",
+    "Both ways use the card 2. So 2 must be in the box with 4."
+  ],
+  "answer_sentence": "So the answer is A.",
+  "choice_feedback": {
+    "B": "The box could be 4, 2 and 8. Then 3 is in the other box.",
+    "C": "The box could be 4, 2 and 8. Then 5 is in the other box.",
+    "D": "4 + 6 = 10, and no cards left can make 4 more. So 6 is never with 4.",
+    "E": "We can decide: every way to make 14 with the 4 also uses the 2."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

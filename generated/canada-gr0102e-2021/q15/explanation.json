@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:d45f914dce81a792f2b4eb5d56bfa6125aa035eb6bc80a4d6f645ee65c4cfd30",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Both boxes must add up to half of all the cards.",
+  "steps": [
+    "Add all the cards: 1 + 3 + 4 + 5 + 7 = 20.",
+    "The boxes are equal, so each box adds up to 10.",
+    "The box with 4 needs 10 - 4 = 6 more.",
+    "From 1, 3, 5 and 7, only 1 + 5 makes 6. The other box gets 3 + 7 = 10."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "4 + 1 = 5, not 10.",
+    "B": "4 + 3 = 7, not 10.",
+    "C": "4 + 5 = 9, not 10.",
+    "E": "4 + 3 + 7 = 14, not 10."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

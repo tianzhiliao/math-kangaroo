@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:80f861ae3f9d0fd3dd7c61066608d0a2fdabf12cf6733087bc5bbb2e0be88320",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Anna moves around the wheel the same number of seats, in the same direction, as Ben.",
+  "steps": [
+    "Anna (pink) is at the top. Ben (blue) is in the seat to the upper left of her.",
+    "The arrow turns the wheel to the right. Ben moves 1 seat, up to the top where Anna was.",
+    "Anna moves 1 seat the same way, from the top to the upper right seat.",
+    "So Ben is at the top and Anna is at the upper right."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Ben is at the top, but Anna moved 2 seats here. She should move just 1 seat.",
+    "B": "Anna is still at the top here. Ben should be at the top now.",
+    "D": "Anna moved to the left here. The wheel turns to the right.",
+    "E": "Ben is not at the top here, but he should be in Anna's old seat."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:36:33Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

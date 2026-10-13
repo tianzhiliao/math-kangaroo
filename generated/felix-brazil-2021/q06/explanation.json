@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:f5a834134f6b67ed54df156a39443a8bbb56a5b02e155bedbf34780dce684c54",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Put the trains in order from shortest to longest.",
+  "steps": [
+    "The blue train is longer than the red train: red, blue.",
+    "The blue train is shorter than the yellow train: red, blue, yellow.",
+    "The green train is shorter than the red train: green, red, blue, yellow.",
+    "The yellow train is at the end of the line, so it is the longest."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "The yellow train is longer than the blue train.",
+    "B": "The blue train is longer than the red train.",
+    "D": "The green train is the shortest of all.",
+    "E": "The clues put all 4 trains in order, so we can decide."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:381d80ed0022fd74218833e9ca44a6dd6c6f6eabdf0d75423b6a6b365c160150",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "When one train's wagon number goes up by 1, the other train's number goes down by 1.",
+  "steps": [
+    "Top wagon 4 is side by side with bottom wagon 9.",
+    "Move one wagon to the right: the top number goes up by 1 and the bottom number goes down by 1.",
+    "Top 5 is next to bottom 8, top 6 is next to bottom 7, and top 7 is next to bottom 6."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "4 + 7 = 11, but each pair adds to 4 + 9 = 13.",
+    "B": "5 + 7 = 12, but each pair adds to 4 + 9 = 13.",
+    "D": "Bottom wagon 8 is next to top wagon 5, not 7.",
+    "E": "Bottom wagon 10 is next to top wagon 3, not 7."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

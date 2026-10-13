@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:dc9fba41663cb95c8c93941621a2e0f7870060b91d6bef6c2323e3614f887eab",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Find which rooms Mia can use, then find a walk through all of them.",
+  "steps": [
+    "Room 5 has only one door, into room 8. If Mia goes in, she has to walk back through room 8 again, so she must skip room 5.",
+    "The other rooms are 9, 4, 6, 8 and 3. Mia can walk through all of them: In, 6, 8, 9, 4, 3, Out.",
+    "6 + 8 + 9 + 4 + 3 = 30. That is the biggest total."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Mia can get more: In, 6, 8, 9, 4, 3, Out makes 30.",
+    "B": "Mia can get more: In, 6, 8, 9, 4, 3, Out makes 30.",
+    "D": "To get more than 30, Mia would need room 5, but it is a dead end.",
+    "E": "35 means walking through every room, but room 5 is a dead end."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:57Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,6 +1,6 @@
 # Math Kangaroo Prep
 
-A full-stack practice platform for Math Kangaroo contest content, with AI-generated explanations, text-to-speech, and a PDF-to-data pipeline. It combines:
+A full-stack practice platform for Math Kangaroo contest content, with pre-generated step-by-step explanations, text-to-speech, and a PDF-to-data pipeline. It combines:
 
 - a Next.js web client in `apps/web`
 - a FastAPI service in `apps/api`
@@ -22,15 +22,19 @@ This is a local/private-beta project. The setup below runs the web app and API; 
 
 - Exam mode with timed question flow
 - Practice mode with per-question feedback
-- An AI-generated similar question under every practice question: answer it in place, see right or wrong, ask for an explanation, answer again (kept per question in the browser, never counted in the score)
-- AI-generated explanations via FastAPI + OpenAI
+- An AI-generated similar question under every practice question: answer it in place, see right or wrong with a step-by-step explanation, answer again (kept per question in the browser, never counted in the score)
+- Pre-generated step-by-step explanations for original and similar questions, read from data files (see [`workflows/explain-kangaroo-question/SKILL.md`](workflows/explain-kangaroo-question/SKILL.md))
 - Text-to-speech generation for question stems
 - `release-data` manifest/exam loading through Next.js route handlers
 - PDF extraction, review, and release-data build tooling for content preparation
 
 ## Reliability
 
-The product is for 6-7 year olds, so an explanation that states the wrong answer is worse than no explanation at all. The AI path is built around that constraint - see [`apps/api/app/services/explanations.py`](apps/api/app/services/explanations.py).
+The product is for 6-7 year olds, so an explanation that states the wrong answer is worse than no explanation at all.
+
+**Pre-generated explanations (what the web app shows).** Explanations are written ahead of time and checked into `release-data/exams/<id>/explanations.json` and `generated/<id>/<qid>/explanation.json`. Each question is first solved by a separate agent that never sees the key; disagreements, unsolvable figures and doubtful keys are marked `flagged`. `scripts/validate_explanations.py` checks every entry against the current key and a content hash of the question and its figures, so an edited question invalidates its explanation. The web app serves only `unreviewed` or `approved` entries; flagged ones are hidden until a person reviews them (open items: [`review/explanation-flags.md`](review/explanation-flags.md)).
+
+**Live generation (FastAPI, no longer used by the web app).** The FastAPI `/ai/explanation` endpoint is still available and is built around the same constraint - see [`apps/api/app/services/explanations.py`](apps/api/app/services/explanations.py).
 
 **Structured output, strictly.** Explanations are generated through the OpenAI Responses API with `strict: true` JSON schema output (`explanation` and `final_answer`, `additionalProperties: false`). The service requests schema-constrained output and validates the returned payload before using it.
 
@@ -55,7 +59,7 @@ These checks validate answer labels and a small set of English phrases; they do 
 
 ## Similar questions
 
-`generated/<exam_id>/<question_id>/` holds one AI-generated variant per source question: `question.json` (the `exam.json` question shape plus `answer`), SVG figures, `card.png` (the rendered question) and `compare.png` (source and variant side by side, for review). See [`workflows/similar-kangaroo-question/SKILL.md`](workflows/similar-kangaroo-question/SKILL.md) for how they are made.
+`generated/<exam_id>/<question_id>/` holds one AI-generated variant per source question: `question.json` (the `exam.json` question shape plus `answer`), SVG figures, `explanation.json` (its pre-generated explanation), `card.png` (the rendered question) and `compare.png` (source and variant side by side, for review). See [`workflows/similar-kangaroo-question/SKILL.md`](workflows/similar-kangaroo-question/SKILL.md) for how they are made.
 
 Evaluate them with:
 
@@ -201,9 +205,10 @@ Next.js route handlers:
 - `/api/exams/[examId]`
 - `/api/exams/[examId]/raw/[...path]`
 - `/api/practice-bank`
+- `/api/exams/[examId]/explanations`
 - `/api/generated/[examId]/[questionId]`
 - `/api/generated/[examId]/[questionId]/raw/[...path]`
-- `/api/ai/explanation`
+- `/api/generated/[examId]/[questionId]/explanation`
 - `/api/ai/tts`
 
 FastAPI upstream endpoints:

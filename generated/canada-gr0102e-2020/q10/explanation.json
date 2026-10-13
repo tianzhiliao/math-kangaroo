@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:3054a7c1ba292d5894da10efe505f4f319290c1a3192814e9fb956699a6b86b0",
+  "answer": "E",
+  "independent_answer": "E",
+  "key_idea": "Add up the full flower, then find what the other flower is missing.",
+  "steps": [
+    "Left flower: 2 + 4 + 5 + 1 = 12.",
+    "Right flower: 3 + 1 + 2 = 6, plus the hidden petal.",
+    "Both flowers must make 12. 6 + 6 = 12, so the hidden petal is 6."
+  ],
+  "answer_sentence": "So the answer is E.",
+  "choice_feedback": {
+    "A": "6 + 4 = 10, not 12.",
+    "B": "6 + 5 = 11, not 12.",
+    "C": "6 + 8 = 14, not 12.",
+    "D": "6 + 9 = 15, not 12."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T00:00:00Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

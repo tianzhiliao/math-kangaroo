@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:857784addcb677102d4388178cf58e3aa4654c1b9d644864ee2383cf4df6e86e",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "All 4 sticks are the same length, so the shape needs 4 equal sides.",
+  "steps": [
+    "The rabbit must use all 4 sticks, so the shape needs exactly 4 sides.",
+    "The sticks are all the same length, so all 4 sides must be equal.",
+    "The square has 4 sides, all the same length as a stick."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "The triangle has only 3 sides, so 1 stick would be left over.",
+    "B": "This shape has 5 sides, but there are only 4 sticks.",
+    "D": "This shape has 6 sides, but there are only 4 sticks.",
+    "E": "The rectangle's long sides are longer than its short sides, but all sticks are the same length."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

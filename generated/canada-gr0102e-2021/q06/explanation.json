@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:b744b8e5842744b2113a0b8658fe6bd84093c6ec00a3cbbed027c31408a5942a",
+  "answer": "A",
+  "independent_answer": "A",
+  "key_idea": "A mirror swaps left and right, but it does not move things up or down.",
+  "steps": [
+    "On the T-shirt, the star is on the left, the circle is on the right and the triangle is under the star.",
+    "In the mirror, left and right swap: the circle is on the left and the star is on the right.",
+    "The triangle stays under the star, so it moves to the right too.",
+    "A shows the circle on the left, the star on the right and the triangle under the star."
+  ],
+  "answer_sentence": "So the answer is A.",
+  "choice_feedback": {
+    "B": "This is the T-shirt without any swap.",
+    "C": "The triangle moved up to the top. A mirror does not move things up.",
+    "D": "All the shapes are bunched together on one side.",
+    "E": "The triangle moved up to the top. A mirror does not move things up."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

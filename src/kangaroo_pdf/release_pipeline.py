@@ -13,6 +13,8 @@ from .workspace_paths import workspace_root_for_data_dir
 MANUAL_ASSET_SOURCE = "manual_crops_applied"
 PNG_MEDIA_TYPE = "image/png"
 RELEASE_SCHEMA_VERSION = 1
+# Hand-authored per-exam files that live in release-data but are not rebuilt from the data dir.
+PRESERVED_EXAM_FILES = ("explanations.json",)
 
 MANIFEST_KEYS = {"schema_version", "generated_at", "exams"}
 MANIFEST_EXAM_KEYS = {
@@ -114,13 +116,22 @@ def build_release_dataset(
     manifest = _read_json(data_path / "manifest.json")
     exam_entries = _select_exam_entries(manifest, exam_ids)
 
+    preserved_files: dict[Path, bytes] = {}
     if output_path.exists():
+        preserved_files = {
+            path.relative_to(output_path): path.read_bytes()
+            for name in PRESERVED_EXAM_FILES
+            for path in output_path.glob(f"exams/*/{name}")
+        }
         shutil.rmtree(output_path)
     output_path.mkdir(parents=True, exist_ok=True)
 
     release_entries: list[dict[str, Any]] = []
     for entry in exam_entries:
         release_entries.append(_build_release_exam(data_path, output_path, entry["exam_id"]))
+    for relative_path, content in preserved_files.items():
+        if (output_path / relative_path).parent.is_dir():
+            (output_path / relative_path).write_bytes(content)
 
     release_manifest = {
         "schema_version": RELEASE_SCHEMA_VERSION,

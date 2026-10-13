@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:77d0a44d9bf9394af6ef96e5905312d614d2b8b6b02345ca3f0774beaf0e4f70",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "From above, a disc hides every smaller disc under it.",
+  "steps": [
+    "From above you see the top disc, the pink one.",
+    "The yellow disc is wider than the pink one, so its edge shows.",
+    "The green disc is smaller than the yellow one, so it is hidden. The blue disc is wider than the yellow one, so it shows.",
+    "The orange disc is smaller than the blue one, so it is hidden. The purple disc is the widest, so it shows.",
+    "Pink, yellow, blue and purple: 4 discs."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "More than 2 discs stick out around the discs above them.",
+    "B": "You also see the edge of the blue disc, because it is wider than the yellow one.",
+    "C": "The green disc is hidden under the wider yellow disc.",
+    "E": "The green and orange discs are hidden under wider discs."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:06Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}
