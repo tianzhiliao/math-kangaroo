@@ -32,6 +32,7 @@ export interface AITextToSpeechRequest {
   voice?: string;
   speed?: number;
   format?: string;
+  variant?: boolean;
 }
 
 /** A pre-generated explanation as served to the browser (see lib/explanations.ts). */

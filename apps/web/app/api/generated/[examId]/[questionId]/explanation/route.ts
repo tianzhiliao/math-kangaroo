@@ -2,14 +2,14 @@ import { readFile } from "fs/promises";
 import path from "path";
 import { NextResponse } from "next/server";
 import { toPublicExplanation } from "@/lib/explanations";
-import { generatedQuestionDir } from "@/lib/generated-files";
+import { resolveGeneratedQuestionDir } from "@/lib/generated-files";
 
 export async function GET(
   _request: Request,
   context: { params: Promise<{ examId: string; questionId: string }> },
 ) {
   const { examId, questionId } = await context.params;
-  const dir = generatedQuestionDir(examId, questionId);
+  const dir = await resolveGeneratedQuestionDir(examId, questionId);
   let explanation = null;
   if (dir) {
     try {

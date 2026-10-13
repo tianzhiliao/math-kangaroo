@@ -16,5 +16,6 @@ def explanation(payload: ExplanationRequest) -> ExplanationResponse:
             question_number=payload.question_number,
             selected_label=payload.selected_label,
             force_refresh=payload.force_refresh,
+            variant=payload.variant,
         )
     )

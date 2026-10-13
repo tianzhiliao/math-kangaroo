@@ -84,6 +84,16 @@ export function getFriendlyAiErrorMessage(
     if (error.detail === "no_stem_text") {
       return "This question does not have text to read aloud.";
     }
+    if (error.detail === "ai_provider_error") {
+      return "The AI helper is not available right now. Please try again later.";
+    }
+    if (error.detail === "variant_not_found") {
+      return "This similar question is not available.";
+    }
+    if (error.status >= 500 && !error.detail) {
+      // Plain-text server errors (e.g. "Internal Server Error") mean nothing to a child.
+      return fallbackMessage;
+    }
     return error.message;
   }
 

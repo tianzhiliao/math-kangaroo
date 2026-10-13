@@ -1,47 +1,27 @@
 import { readFile } from "fs/promises";
 import path from "path";
 import { NextResponse } from "next/server";
-import { generatedQuestionDir } from "@/lib/generated-files";
-import type { GeneratedQuestion } from "@/lib/types";
+import {
+  isGeneratedQuestion,
+  resolveGeneratedQuestionDir,
+} from "@/lib/generated-files";
 
-function isGeneratedQuestion(value: unknown): value is GeneratedQuestion {
-  if (!value || typeof value !== "object") return false;
-  const question = value as Partial<GeneratedQuestion>;
-  return (
-    typeof question.id === "string" &&
-    typeof question.stem_text === "string" &&
-    Array.isArray(question.choices) &&
-    Array.isArray(question.shared_asset_refs) &&
-    Array.isArray(question.assets)
-  );
-}
+const NO_STORE = { headers: { "Cache-Control": "no-store" } };
 
 export async function GET(
   _request: Request,
   context: { params: Promise<{ examId: string; questionId: string }> },
 ) {
   const { examId, questionId } = await context.params;
-  const dir = generatedQuestionDir(examId, questionId);
-  if (!dir) {
-    return NextResponse.json(null, {
-      headers: { "Cache-Control": "no-store" },
-    });
-  }
+  const dir = await resolveGeneratedQuestionDir(examId, questionId);
+  if (!dir) return NextResponse.json(null, NO_STORE);
 
   try {
     const raw = await readFile(path.join(dir, "question.json"), "utf-8");
     const parsed: unknown = JSON.parse(raw);
-    if (!isGeneratedQuestion(parsed)) {
-      return NextResponse.json(null, {
-        headers: { "Cache-Control": "no-store" },
-      });
-    }
-    return NextResponse.json(parsed, {
-      headers: { "Cache-Control": "no-store" },
-    });
+    if (!isGeneratedQuestion(parsed)) return NextResponse.json(null, NO_STORE);
+    return NextResponse.json(parsed, NO_STORE);
   } catch {
-    return NextResponse.json(null, {
-      headers: { "Cache-Control": "no-store" },
-    });
+    return NextResponse.json(null, NO_STORE);
   }
 }

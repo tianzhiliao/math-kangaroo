@@ -14,6 +14,7 @@ except ImportError:  # pragma: no cover - optional runtime dependency
 @dataclass(frozen=True)
 class Settings:
     release_data_path: Path
+    generated_questions_path: Path
     openai_api_key: str | None
     openai_tts_model: str
     openai_tts_voice: str
@@ -36,11 +37,15 @@ def get_settings() -> Settings:
     else:
         release_root = project_root / "release-data"
 
+    generated_path = os.environ.get("GENERATED_QUESTIONS_PATH")
+    generated_root = Path(generated_path).resolve() if generated_path else project_root / "generated"
+
     cache_dir = Path(os.environ.get("API_CACHE_DIR", "/tmp/math-api-cache")).resolve()
     cache_dir.mkdir(parents=True, exist_ok=True)
 
     return Settings(
         release_data_path=release_root,
+        generated_questions_path=generated_root,
         openai_api_key=os.environ.get("OPENAI_API_KEY"),
         openai_tts_model=os.environ.get("OPENAI_TTS_MODEL", "gpt-4o-mini-tts"),
         openai_tts_voice=os.environ.get("OPENAI_TTS_VOICE", "alloy"),

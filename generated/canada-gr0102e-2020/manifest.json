@@ -51,11 +51,12 @@
     },
     {
       "id": "q07",
-      "status": "generated",
+      "status": "withdrawn",
       "duplicate_of": null,
       "answer": "C",
       "error": null,
-      "no_figure": false
+      "no_figure": false,
+      "withdrawn_reason": "Figure broken: the path does not connect P and Q, and points A-E are not on the path."
     },
     {
       "id": "q08",

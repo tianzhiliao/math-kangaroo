@@ -2,7 +2,7 @@
   "schema_version": 1,
   "prompt_version": "explain_steps_v1",
   "source": "variant",
-  "content_hash": "sha256:cf866f2c68d3263d9bcd92c7b013afb94595d11a38d1d399440149f5d6cf85a0",
+  "content_hash": "sha256:a703201b9723d89684c72355cafeb038b2cb7cb369aacc1848b340cb6260fcd9",
   "answer": "D",
   "independent_answer": "D",
   "key_idea": "Use the clues one at a time, starting with the youngest.",

@@ -8,8 +8,9 @@
     },
     {
       "id": "q02",
-      "status": "generated",
-      "answer": "B"
+      "status": "withdrawn",
+      "answer": "B",
+      "withdrawn_reason": "Several answers: with cylinders, cones or a lying cylinder, A, B, D and E all fit the top view."
     },
     {
       "id": "q03",

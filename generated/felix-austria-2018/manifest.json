@@ -66,10 +66,11 @@
     },
     {
       "id": "q10",
-      "status": "generated",
+      "status": "withdrawn",
       "duplicate_of": null,
       "answer": "B",
-      "error": null
+      "error": null,
+      "withdrawn_reason": "Hands have no palm or back detail, so the count is 3 (B) or 5 (D)."
     },
     {
       "id": "q11",

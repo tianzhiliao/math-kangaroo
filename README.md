@@ -22,6 +22,7 @@ This is a local/private-beta project. The setup below runs the web app and API; 
 
 - Exam mode with timed question flow
 - Practice mode with per-question feedback
+- An AI-generated similar question under every practice question: answer it in place, see right or wrong with a step-by-step explanation, answer again (kept per question in the browser, never counted in the score)
 - Pre-generated step-by-step explanations for original and similar questions, read from data files (see [`workflows/explain-kangaroo-question/SKILL.md`](workflows/explain-kangaroo-question/SKILL.md))
 - Text-to-speech generation for question stems
 - `release-data` manifest/exam loading through Next.js route handlers
@@ -55,6 +56,20 @@ These checks validate answer labels and a small set of English phrases; they do 
 **TTS reuse and bounded cache entries.** `TTSAudioCache` hashes the request inputs and applies a TTL (24h default) and a maximum item count (500 default), pruning oldest-first. A cache hit avoids another speech API call. These settings bound stored entries; they do not cap API spending or prevent new requests from generating more audio.
 
 **Multimodal input.** Many Kangaroo questions are pictures, not text. Question stems and answer choices are sent as `input_image` data URLs alongside the text, so the model reasons over the actual diagram rather than a lossy text description.
+
+## Similar questions
+
+`generated/<exam_id>/<question_id>/` holds one AI-generated variant per source question: `question.json` (the `exam.json` question shape plus `answer`), SVG figures, `explanation.json` (its pre-generated explanation), `card.png` (the rendered question) and `compare.png` (source and variant side by side, for review). See [`workflows/similar-kangaroo-question/SKILL.md`](workflows/similar-kangaroo-question/SKILL.md) for how they are made.
+
+A variant found to be broken (unanswerable figure, several right answers) is pulled by setting its manifest entry to `"status": "withdrawn"` with a `withdrawn_reason`. The files stay for regeneration, but the web app and API treat the source question as having no similar question.
+
+Evaluate them with:
+
+```bash
+python3 scripts/evaluate_generated_questions.py
+```
+
+This writes `review/generated-eval/report.md`: coverage, a structural audit (answer is a choice and matches the manifest, every figure ref resolves, SVGs are well-formed vector drawings, English text, no copy of the source), and the spread of correct letters. `--solve` adds an independent pass where a vision model answers each card without the key and lists disagreements for review. `tests/test_generated_questions.py` runs the audit over the checked-in set, so a broken variant fails the test suite.
 
 ## Repository map
 
@@ -176,6 +191,7 @@ Notes:
 - `OPENAI_API_KEY`
 - `FASTAPI_BASE_URL`
 - `RELEASE_DATA_PATH`
+- `GENERATED_QUESTIONS_PATH`
 - `API_CACHE_DIR`
 - `OPENAI_TTS_MODEL`
 - `OPENAI_TTS_VOICE`
@@ -192,6 +208,8 @@ Next.js route handlers:
 - `/api/exams/[examId]/raw/[...path]`
 - `/api/practice-bank`
 - `/api/exams/[examId]/explanations`
+- `/api/generated/[examId]/[questionId]`
+- `/api/generated/[examId]/[questionId]/raw/[...path]`
 - `/api/generated/[examId]/[questionId]/explanation`
 - `/api/ai/tts`
 

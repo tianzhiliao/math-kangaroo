@@ -2,7 +2,7 @@
   "schema_version": 1,
   "prompt_version": "explain_steps_v1",
   "source": "variant",
-  "content_hash": "sha256:63b0441c14a1ec66af264fe18a7b657bb749a3fa233403f427308a1e7c1bdf4c",
+  "content_hash": "sha256:b5f5dd01d104a905a752dfe25b485147f594b156fe89b5f51f5de0c6c602a3e5",
   "answer": "B",
   "independent_answer": "B",
   "key_idea": "Count the circles, triangles and squares on each boat and check both clues.",

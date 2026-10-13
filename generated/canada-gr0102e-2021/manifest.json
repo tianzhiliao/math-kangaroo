@@ -33,8 +33,9 @@
     },
     {
       "id": "q07",
-      "status": "generated",
-      "answer": "B"
+      "status": "withdrawn",
+      "answer": "B",
+      "withdrawn_reason": "Two answers: bracelet C is Nora's bracelet turned over."
     },
     {
       "id": "q08",

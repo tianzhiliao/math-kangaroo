@@ -2,7 +2,7 @@
   "schema_version": 1,
   "prompt_version": "explain_steps_v1",
   "source": "variant",
-  "content_hash": "sha256:15199242169d52b56fec79db33df9a52637dd97e735f8a44a1f42ceca6e13a97",
+  "content_hash": "sha256:fcb9752abaeaa8b7caa687998020de7626523275478056cde85397e7a38cddbc",
   "answer": "C",
   "independent_answer": "C",
   "key_idea": "Add the 4 numbers in each bowl and compare the totals.",

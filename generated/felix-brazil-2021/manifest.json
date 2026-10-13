@@ -25,6 +25,7 @@
       "id": "q05",
       "status": "skipped-duplicate",
       "duplicate_of": "canada-gr0102e-2021",
+      "duplicate_question": "q06",
       "answer": null
     },
     {
@@ -94,6 +95,7 @@
       "id": "q18",
       "status": "skipped-duplicate",
       "duplicate_of": "canada-gr0102e-2021",
+      "duplicate_question": "q14",
       "answer": null
     },
     {

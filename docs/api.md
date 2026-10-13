@@ -118,11 +118,33 @@ Shape:
 
 Only these five fields are served. `independent_answer`, `content_hash` and review notes stay on the server. An unknown exam returns `{ "questions": {} }`.
 
+## `GET /api/generated/[examId]/[questionId]`
+
+Purpose:
+
+- return the AI-generated similar question for a source question, read from `generated/<examId>/<questionId>/question.json`
+- a question the generator skipped as a duplicate (`status: "skipped-duplicate"` with `duplicate_of` and `duplicate_question` in that exam's `generated/<examId>/manifest.json`) returns the shared variant
+
+Success response:
+
+- `200 application/json`, the question in the `exam.json` question shape plus `answer` and `assets`
+- `200` with `null` when there is no variant, it is `withdrawn` in the manifest, or the stored one fails validation (unknown asset refs, repeated labels, or an `answer` that is not a choice)
+
+## `GET /api/generated/[examId]/[questionId]/raw/[...path]`
+
+Purpose:
+
+- serve one SVG figure of a similar question; duplicates resolve as above
+
+Failure response:
+
+- `404` for anything that is not a single `*.svg` name in the variant folder
+
 ## `GET /api/generated/[examId]/[questionId]/explanation`
 
 Reads:
 
-- `generated/<examId>/<questionId>/explanation.json`
+- `generated/<examId>/<questionId>/explanation.json`, following skipped duplicates as above
 
 Success response:
 
@@ -142,6 +164,7 @@ Query parameters:
 - `voice` optional
 - `speed` optional
 - `format` optional
+- `variant` optional, `true` reads the similar question's stem
 
 Success response:
 
@@ -213,6 +236,7 @@ Request body fields:
 - `question_number` integer >= 1
 - `selected_label` optional string
 - `force_refresh` boolean, default `false`
+- `variant` boolean, default `false`
 
 Response fields:
 
@@ -220,6 +244,7 @@ Response fields:
 - `question_number`
 - `selected_label`
 - `correct_label`
+- `variant`
 - `explanation`
 - `model`
 - `cache_hit`
@@ -230,6 +255,9 @@ Notes:
 - explanations are cached on disk by request payload
 - invalid `selected_label` values return `422`
 - missing OpenAI configuration returns `500`
+- an OpenAI request error returns `502` with `detail: "ai_provider_error"`
+- with `variant: true` the answer key is the variant's `answer`, the model gets `card.png` (stem, figure and choices in one image, since the variant's figures are SVG), and the cache key adds a digest of `question.json` so a regenerated variant gets a fresh explanation
+- `variant: true` returns `404 variant_not_found` when the source question has no variant, and `500 invalid_variant_answer` when its `answer` is not a choice
 
 ## `GET /tts`
 
@@ -240,6 +268,7 @@ Query parameters:
 - `voice` optional
 - `speed` between `0.25` and `4.0`
 - `format` in `mp3`, `opus`, `aac`, `flac`, `wav`, or `pcm`
+- `variant` optional, `true` reads the similar question's stem
 
 Response:
 
@@ -271,6 +300,7 @@ Important runtime configuration used by the API layers:
 
 - `FASTAPI_BASE_URL`
 - `RELEASE_DATA_PATH`
+- `GENERATED_QUESTIONS_PATH` (web and API; defaults to the repository's `generated/`)
 - `OPENAI_API_KEY`
 - `API_CACHE_DIR`
 - `OPENAI_TTS_MODEL`
