@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:a31dbc5842a7ad7e8c1b943eb480874a5f05d20c6499f25b0d43e283c83ff911",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Add the front flower, double it, then see what the back flower is missing.",
+  "steps": [
+    "The green flower has all 4 petals: 9 + 4 + 6 + 5 = 24. It is the front flower.",
+    "The pink flower is missing a petal, so it is the back flower. It must add up to 24 + 24 = 48.",
+    "The pink petals we can see: 7 + 10 + 11 = 28.",
+    "The hidden petal is 48 - 28 = 20."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Then the pink flower adds up to 40, not 48.",
+    "B": "Then the pink flower adds up to 44, not 48.",
+    "D": "Then the pink flower adds up to 52, not 48.",
+    "E": "Then the pink flower adds up to 56, not 48."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "flagged",
+    "note": "The two flowers do not overlap, so nothing actually hides a petal; the pink flower just has a gap. The back flower can only be told apart by its missing petal. Key C (20) follows from that reading; redraw so the green flower covers the pink flower's fourth petal."
+  }
+}

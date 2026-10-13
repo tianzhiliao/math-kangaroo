@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:ac5495d5de45420fda4b6c1ce0a30d88e2b7daf64059d9887cdbeee55f66a777",
+  "answer": "E",
+  "independent_answer": "E",
+  "key_idea": "Dan must share exactly one shape with Amy, one with Ben and one with Cleo.",
+  "steps": [
+    "Amy and Ben both have a square. Amy and Cleo both have a star. Ben and Cleo both have a heart.",
+    "If Dan had a square, a star or a heart, he would share 2 shapes with someone. So he has none of those.",
+    "He takes the circle from Amy, the triangle from Ben and the diamond from Cleo.",
+    "Circle, triangle, diamond is picture E."
+  ],
+  "answer_sentence": "So the answer is E.",
+  "choice_feedback": {
+    "A": "The circle and the square are both Amy's, so Dan would share 2 shapes with her.",
+    "B": "The square and the heart are both Ben's, so Dan would share 2 shapes with him.",
+    "C": "The star and the diamond are both Cleo's, so Dan would share 2 shapes with her.",
+    "D": "The circle and the square are both Amy's, so Dan would share 2 shapes with her."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:57:02Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

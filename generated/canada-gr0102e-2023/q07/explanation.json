@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:b5b19cb96cae723ebffc943d2eb21401cf06e32644026e6fb599afab74c1f7b7",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "A tree that is closer can hide all or part of a tree behind it.",
+  "steps": [
+    "Stand at B, at the bottom left, and look toward the trees.",
+    "The top-left tree and the bottom-left tree can be seen whole.",
+    "The bottom-left tree is in front of the other 3 trees and hides part of each of them.",
+    "So from B the beaver sees exactly 2 complete trees."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "From A, the top-left tree hides the other top trees, but the 2 bottom trees can both be seen whole.",
+    "C": "From C, the 3 top trees can all be seen whole.",
+    "D": "From D, the top-right tree hides the other top trees, but the 2 bottom trees can both be seen whole.",
+    "E": "From E, the 2 trees on the right and the top-middle tree can be seen whole."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:47:49Z",
+  "review": {
+    "status": "flagged",
+    "note": "Figure is tight: from A the bottom-right tree only just clears the bottom-left tree, and from D the bottom-left tree only just clears the bottom-right one. If the thick outlines count as part of the trees, A and D also see exactly 2. Consider moving A and D so they clearly see 3."
+  }
+}

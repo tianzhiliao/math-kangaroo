@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:c35ded7e09705a7f0921c1d8b38b806c6492c244838a3df814b7da77d903a779",
+  "answer": "A",
+  "independent_answer": "A",
+  "key_idea": "Give every camel 1 hump first. The extra humps belong to the bactrian camels.",
+  "steps": [
+    "Every camel has at least 1 hump. 9 camels give 9 humps.",
+    "There are 13 humps. 13 - 9 = 4 humps are left over.",
+    "Each bactrian camel has 1 extra hump. So there are 4 bactrian camels.",
+    "Check: 4 camels with 2 humps make 8 humps, and 5 camels with 1 hump make 5 humps. 8 + 5 = 13."
+  ],
+  "answer_sentence": "So the answer is A.",
+  "choice_feedback": {
+    "B": "2 camels with 2 humps and 7 with 1 hump make 4 + 7 = 11 humps, not 13.",
+    "C": "3 camels with 2 humps and 6 with 1 hump make 6 + 6 = 12 humps, not 13.",
+    "D": "5 camels with 2 humps and 4 with 1 hump make 10 + 4 = 14 humps, not 13.",
+    "E": "6 camels with 2 humps and 3 with 1 hump make 12 + 3 = 15 humps, not 13."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:33:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

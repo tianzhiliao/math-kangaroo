@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:65e30f22d8bac449ec0359a1bd88114a108a85506f26f2f5c262b5cd5dc8f5c5",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Add the long sticks in a row, then the stick standing at the end.",
+  "steps": [
+    "Across the top lie 3 long sticks, end to end. The bottom is the same.",
+    "So the row is 5 + 5 + 5 = 15 cm long.",
+    "At the right end, one more stick stands up next to the row. It is 1 cm wide.",
+    "15 + 1 = 16 cm."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "Do not forget the standing stick at the right end. It adds 1 cm.",
+    "B": "The standing sticks inside the pattern do not add length. Only the one at the right end does.",
+    "C": "There are only 3 long sticks in each row, not 4.",
+    "E": "3 sticks of 5 cm are already 15 cm, so the pattern is longer than 14 cm."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:06Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

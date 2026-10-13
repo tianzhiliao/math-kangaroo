@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:800486b6fe667fd7d1f828908f9ddc783f406a4593fcaf61ed360962d3cc680c",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Follow each path with your finger, one arrow is one square.",
+  "steps": [
+    "The rabbit starts in the bottom left square. The bird is in the top right square.",
+    "Path D: go up 2 squares, then right 2 squares. These squares are all white.",
+    "Then go up 1 and right 1. That is the bird's square.",
+    "Path D never steps on a blue square."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "After going up 2 and right 1, the next step up lands on a blue square.",
+    "B": "This path stays white, but it ends one row below the bird.",
+    "C": "Going right 3 along the second row lands on the blue square at the end.",
+    "E": "Going up 4 times takes the rabbit off the top of the grid."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:52:53Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

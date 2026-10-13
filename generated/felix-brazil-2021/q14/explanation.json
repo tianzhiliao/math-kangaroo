@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:69d00088ad32d4dd7886754b2c203d17f06b6699b1be5ff4172e1147f1a5521e",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "The figure must use exactly the 2 pieces: one pink long piece and one blue square.",
+  "steps": [
+    "The pieces are a pink long piece and a blue square. The pink piece is as long as 2 blue squares.",
+    "Put the blue square right next to the end of the pink piece.",
+    "That makes figure B: pink on the left and blue on the right."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "This is a big pink square with no blue square. It is twice as big as the pink piece.",
+    "C": "This is only the pink piece. The blue square is missing.",
+    "D": "This has a green square, and the pink piece is missing.",
+    "E": "This has 2 blue squares, but we have only 1."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

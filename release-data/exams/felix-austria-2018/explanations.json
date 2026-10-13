@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "questions": {
+    "q01": {
+      "source": "original",
+      "content_hash": "sha256:f49628d9bdc2434c3f66fad01d48ea9bf48fa0ed5ec112fee29e5d6984dd02e8",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Find how many points each beetle has, then join them in order: 1, 2, 3, 4, 5.",
+      "steps": [
+        "The beetle on the left has 1 point. The beetle on the right has 2. The top beetle has 3. The bottom left beetle has 4. The bottom right beetle has 5.",
+        "From 1 to 2, the line goes straight across the middle.",
+        "From 2 it goes up to the top beetle, 3. From 3 it goes all the way down to the bottom left beetle, 4.",
+        "From 4 the line goes straight across the bottom to 5. Only picture D has these 4 lines."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "In the star, the top beetle is joined to the bottom right beetle, but 3 and 5 are not next to each other.",
+        "B": "Here the left beetle is joined to the top beetle, but 1 and 3 are not next to each other.",
+        "C": "Here the bottom right beetle is joined to the right beetle, but 5 and 2 are not next to each other.",
+        "E": "Here the line starts by going from the left beetle up to the top beetle, but 1 must join 2 first."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:06Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q02": {
+      "source": "original",
+      "content_hash": "sha256:812de30a0fb32252295e4d2430939737f8a8baf5222b4aac2f1fba817e26a016",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Count all the kangaroos, then share them so both parks have the same number.",
+      "steps": [
+        "The left park has 14 kangaroos. The right park has 4.",
+        "Together that is 14 + 4 = 18 kangaroos.",
+        "Half of 18 is 9, so each park needs 9 kangaroos.",
+        "The left park must go from 14 down to 9. 14 - 9 = 5 kangaroos move."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "After moving 4, the left park has 10 and the right park has 8. That is not the same.",
+        "C": "After moving 6, the left park has 8 and the right park has 10. That is not the same.",
+        "D": "After moving 8, the left park has 6 and the right park has 12. That is not the same.",
+        "E": "9 is how many kangaroos each park should end up with, not how many move."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:06Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q03": {
+      "source": "original",
+      "content_hash": "sha256:8b81540e3c970054600a44af5c6be7c9f9661a471979e4edf93f205fcd7f010d",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Add up all the dots, then see how many dots must fly away.",
+      "steps": [
+        "The beetles have 5, 7, 5, 6 and 4 dots.",
+        "5 + 7 + 5 + 6 + 4 = 27 dots.",
+        "We want 20 dots. 27 - 20 = 7, so 7 dots must fly away.",
+        "The beetle with 7 dots flies away."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "If the beetle with 4 dots flies away, 23 dots are left.",
+        "C": "If a beetle with 5 dots flies away, 22 dots are left.",
+        "D": "If the beetle with 6 dots flies away, 21 dots are left.",
+        "E": "With no beetle gone there are 27 dots, not 20."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:06Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q04": {
+      "source": "original",
+      "content_hash": "sha256:571f2d4c38ec072344ef0ebbf0f6a8ca3265f8a544d04ed9a728f8ca0fb0cd15",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Draw the same three steps again, starting where the first drawing ends.",
+      "steps": [
+        "The pattern is a tall step, then a middle step, then a small step.",
+        "The drawing ends at the bottom, so the new copy starts there with a tall step, 3 squares high and 3 squares wide.",
+        "Next comes a middle step, 2 squares high and 2 squares wide. Then a small step, 1 square high.",
+        "Point D sits right on the top right corner of the new middle step."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Point A is inside the new tall step, below its top line.",
+        "B": "Point B is above the new middle step. Nothing is drawn that high there.",
+        "C": "Point C is inside the new middle step, below its top line.",
+        "E": "Point E is above the new small step, which is only 1 square high."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:06Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q05": {
+      "source": "original",
+      "content_hash": "sha256:2b8d3f82c333d3992c9c052e534b2f6fde22292d4121a71f267cd7689bdfa908",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "From above, a disc hides every smaller disc under it.",
+      "steps": [
+        "Look from the top. First you see the top disc.",
+        "The second disc is wider, so its edge sticks out around the top disc. You see it.",
+        "The third and fourth discs are smaller than the second disc, so they are hidden under it.",
+        "The fifth disc is the widest of all, so you see its edge. The bottom disc is smaller than the fifth, so it is hidden.",
+        "You see 1 + 1 + 1 = 3 discs."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "The wider discs under the top disc stick out around it, so you see more than 1.",
+        "B": "You also see the widest disc, the fifth one from the top.",
+        "D": "The bottom disc is smaller than the disc on top of it, so it is hidden.",
+        "E": "The third and fourth discs are hidden under the wider second disc."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:06Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q06": {
+      "source": "original",
+      "content_hash": "sha256:4c3a0d6f51845e31cf6dcde5e57e6f25007762b05b9ce1afaaa9d4a56b8bde7e",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Turn both sheets the same way, then put all their lines and dots together.",
+      "steps": [
+        "In every answer picture the first sheet is turned a quarter turn: its dot is at the top left, with one line going right and one line going down.",
+        "So turn the second sheet the same way. Its line that points right now points down. Its slanted line that points up and right now points down and right.",
+        "Put the sheets together. The middle dot has one line going straight down and one slanted line going down to the right.",
+        "Only picture D shows that, with no extra lines."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "The middle dot has a line going right, but it should have a slanted line going down to the right.",
+        "B": "There is an extra slanted line from the top left dot to the middle dot, and the line going down is missing.",
+        "C": "There is an extra slanted line from the top left dot to the middle dot. No sheet has that line.",
+        "E": "The line going straight down from the middle dot is missing."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:06Z",
+      "review": {
+        "status": "flagged",
+        "note": "Answer pictures show the sheets turned a quarter turn clockwise compared with the two sheets in the question; laid on top without turning, no picture matches. Blind solver also noted this. D is confirmed only under that turn, and step 1 tells the child to turn the sheets. Please check the figure."
+      }
+    },
+    "q07": {
+      "source": "original",
+      "content_hash": "sha256:fad128b907ca4987b97299d431c424cc1eaeed0b5e59afe156f7c05b2a055409",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Walk along each path like the dog and count the right turns and the left turns.",
+      "steps": [
+        "On path E the dog walks across, then turns down. Facing the way he walks, that is a turn to his right.",
+        "Then he turns to walk across again: a left turn. Then down: a right turn. Then across: a left turn. Then down to the bone: a right turn.",
+        "That is 3 right turns and 2 left turns."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "Path A has 2 right turns and 3 left turns.",
+        "B": "Path B has 2 right turns and 3 left turns.",
+        "C": "Path C has 1 right turn and 4 left turns.",
+        "D": "Path D has 2 right turns and 4 left turns."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:06Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q08": {
+      "source": "original",
+      "content_hash": "sha256:499b85939bcc99304c8f6e72c71f29b763efc1fd495c8971653ec69512ab59d4",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Look at the bumps and dents that each spot in the hole needs.",
+      "steps": [
+        "The hole is 3 pieces long. At each end, a grey bump pokes into the hole, so each end piece needs a dent on its outside.",
+        "Piece A has 4 bumps and no dent, so A cannot go at an end.",
+        "Could A go in the middle? Then each end piece would need dents on 2 opposite sides. Only B looks like that, and there is just one B.",
+        "So C and D go at the ends with their dents facing out, and B goes in the middle. A is left over."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "B is needed in the middle. Its two dents hold the bumps of C and D.",
+        "C": "C fits at one end, with its dent facing out.",
+        "D": "D fits at the other end, with its dent facing out.",
+        "E": "C and D are both needed, one at each end."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:06Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q09": {
+      "source": "original",
+      "content_hash": "sha256:18ed24d95a8268f98de1f3f7defa19a3cd3f39881518173b52c1949424c78298",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Each knot uses up rope, so a piece with more knots is shorter.",
+      "steps": [
+        "All 3 pieces start the same length.",
+        "So the piece with 1 knot must be the longest, and the piece with 3 knots must be the shortest.",
+        "In B, the rope with 1 knot is the longest, the rope with 2 knots is in the middle, and the rope with 3 knots is the shortest."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "The rope with 3 knots is longer than the rope with 2 knots.",
+        "C": "The rope with 3 knots is the longest one, but it should be the shortest.",
+        "D": "The rope with 2 knots is the shortest, but the rope with 3 knots should be shortest.",
+        "E": "The rope with 1 knot is the shortest, but it should be the longest."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:06Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q10": {
+      "source": "original",
+      "content_hash": "sha256:f88c98511e993d824f8f412ea62e76e2f4451143d89c7785f47cbae9ecee083d",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Copy each hand with your own hands to see if it is a right hand or a left hand.",
+      "steps": [
+        "Hold up your own right hand and left hand next to the picture.",
+        "For each hand, look if you see the palm or the back, and on which side the thumb is.",
+        "Turn your hands to copy the picture. If only your right hand can copy it, it is a right hand.",
+        "Count all the right hands."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "Copy each hand with your own hands and count the right hands again.",
+        "B": "Copy each hand with your own hands and count the right hands again.",
+        "D": "Copy each hand with your own hands and count the right hands again.",
+        "E": "Copy each hand with your own hands and count the right hands again."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:06Z",
+      "review": {
+        "status": "flagged",
+        "note": "Blind solver agreed (C) but with low confidence on blurry clipart. Writer could not confirm 5 right hands: the fist (top middle) shows curled fingertips with the thumb at the top right, which reads as a right palm and would give 6; palm/back of several hands is unclear. Steps and feedback are method-only."
+      }
+    },
+    "q11": {
+      "source": "original",
+      "content_hash": "sha256:167e1932af3c95d702ca99736b2210bcb13df72771c0068e0d8a87394802c323",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Count the spots on one side, then double them for both sides.",
+      "steps": [
+        "On the side we see, the toadstools have 4, 3, 5 and 3 spots.",
+        "4 + 3 + 5 + 3 = 15 spots.",
+        "The other side has 15 spots too. 15 + 15 = 30, so 30 dwarfs fit.",
+        "36 dwarfs come. 36 - 30 = 6 dwarfs get wet."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "If 2 got wet, 34 dwarfs would fit. Only 30 fit.",
+        "B": "If 3 got wet, 33 dwarfs would fit. Only 30 fit.",
+        "C": "If 4 got wet, 32 dwarfs would fit. Only 30 fit.",
+        "D": "If 5 got wet, 31 dwarfs would fit. Only 30 fit."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:06Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q12": {
+      "source": "original",
+      "content_hash": "sha256:37056f463d87664741ccd3deda65287795690b707b793ca1aa4bb09ef7b7ed77",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "List every number between 10 and 25 that uses two different digits from 2, 0, 1 and 8.",
+      "steps": [
+        "Numbers bigger than 10 and smaller than 25 start with 1 or 2.",
+        "Starting with 1: 12 and 18. 10 is not bigger than 10, and 11 uses the same digit twice.",
+        "Starting with 2: 20 and 21. 22 uses 2 twice, and 28 is too big.",
+        "That makes 12, 18, 20 and 21: 4 numbers."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "10 does not count, because it is not bigger than 10.",
+        "C": "Numbers like 11 and 22 do not count, because their two digits are the same.",
+        "D": "28 does not count, because it is not smaller than 25.",
+        "E": "Only 12, 18, 20 and 21 follow all the rules."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:06Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q13": {
+      "source": "original",
+      "content_hash": "sha256:79ac9268939db8b9db31559cd68b4a6822998f04c75423773d436a03278d4849",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Do the cutting one step at a time and keep track of each colour.",
+      "steps": [
+        "First cut: white and grey are cut. 3 white become 6. 2 grey become 4. The 2 black stay 2.",
+        "Second cut: grey and black are halved. 4 grey become 8. 2 black become 4. The 6 white stay 6.",
+        "Total: 6 + 8 + 4 = 18 pieces."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "After the first cut there are 12 pieces. The second cut adds 6 more, not 2.",
+        "B": "The second cut adds 6 pieces, not 4. Do not forget the grey pieces from the first cut.",
+        "C": "Count again: 6 white, 8 grey and 4 black pieces.",
+        "E": "The white pieces are not cut the second time, so they stay 6."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:06Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q14": {
+      "source": "original",
+      "content_hash": "sha256:8ae26e65653cef0258b67abf454f3eb45cf59c82fa8d848fc7909c0d0ba887a3",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Follow the sticks lying across from left to right and see where they overlap.",
+      "steps": [
+        "From left to right, the sticks lying across take turns: middle row, then top and bottom, then middle row again. That makes 5 places in a row.",
+        "Each place is 5 cm long. 5 + 5 + 5 + 5 + 5 = 25 cm.",
+        "But each place overlaps the next one by the width of a standing stick, 1 cm. There are 4 overlaps.",
+        "25 - 4 = 21 cm."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "There are 4 overlaps of 1 cm, so take away 4 cm, not 5 cm.",
+        "C": "There are 4 overlaps of 1 cm, so take away 4 cm, not 3 cm.",
+        "D": "There are 4 overlaps of 1 cm, so take away 4 cm, not 2 cm.",
+        "E": "The sticks overlap, so the pattern is shorter than 5 + 5 + 5 + 5 + 5."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:06Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q15": {
+      "source": "original",
+      "content_hash": "sha256:56860c436232d5f046e442be26a44cd6f0897aed38718b7f6497c6e6db443ec5",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Take away the road to Mary's house to find the two other parts of the road.",
+      "steps": [
+        "Anna to Mary is 16 km. The last 9 km is from the crossing to Mary. So Anna to the crossing is 16 - 9 = 7 km.",
+        "Mary to John is 20 km. Again 9 km of that is from Mary to the crossing. So the crossing to John is 20 - 9 = 11 km.",
+        "Anna to John goes from Anna to the crossing, then to John: 7 + 11 = 18 km."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "7 km is only the road from Anna to the crossing.",
+        "B": "9 km is the road from the crossing to Mary, which Anna does not use.",
+        "C": "11 km is only the road from the crossing to John.",
+        "D": "16 km is the road from Anna to Mary, not to John."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:06Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    }
+  }
+}

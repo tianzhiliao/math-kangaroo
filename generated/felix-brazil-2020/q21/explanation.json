@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:c975c53d45054a356fc7ceb10d3f1c2eed306badca872c5d513524fab84f50a3",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Seat the 6 girls without a boy first, then fill the other tables with a boy and a girl.",
+  "steps": [
+    "The 6 girls without a boy sit 2 at a table, so they fill 3 tables.",
+    "12 - 3 = 9 tables are left. Each has 1 boy and 1 girl.",
+    "Girls: 9 at the boy-girl tables plus the 6 others. 9 + 6 = 15."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "9 girls sit with boys, but you must add the 6 girls without a boy.",
+    "B": "12 is the number of tables, not the number of girls.",
+    "D": "With 16 girls, 10 would sit with boys and 6 alone. That needs 13 tables, but there are 12.",
+    "E": "With 18 girls, 12 would sit with boys and 6 alone. That needs 15 tables, but there are 12."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

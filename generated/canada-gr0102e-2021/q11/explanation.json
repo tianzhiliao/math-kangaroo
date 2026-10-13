@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:598a5a9fb9f7781b3ed0640bdda81e7c97fbb16634a158751c21511a5e90c558",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Work out one week first, then double it.",
+  "steps": [
+    "Monday, Wednesday and Friday: 2 berries each. 2 + 2 + 2 = 6.",
+    "Tuesday and Thursday: 4 berries each. 4 + 4 = 8.",
+    "One week: 6 + 8 = 14 berries.",
+    "Two weeks: 14 + 14 = 28 berries."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "14 berries is only one week.",
+    "B": "One week is 14 berries, so two weeks is 14 + 14 = 28.",
+    "C": "One week is 14 berries, so two weeks is 14 + 14 = 28.",
+    "E": "One week is 14 berries, so two weeks is 14 + 14 = 28."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

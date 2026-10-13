@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:0a5e0fdc641c2d47272d6b7f049678e8e0e117f117f3eaa5fd26c3b8da5df341",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Compare towers that are almost the same to find each block.",
+  "steps": [
+    "Tower 1 is pink + yellow = 6. Tower 3 is pink + blue = 7. So a blue block is 1 taller than a yellow block.",
+    "Tower 2 is blue + blue + yellow = 8. If yellow is 2, then blue is 3, and 3 + 3 + 2 = 8. It works!",
+    "Then pink is 6 - 2 = 4.",
+    "Tower 4 is pink + blue + yellow = 4 + 3 + 2 = 9."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "8 is the height of tower 2. Tower 4 is 4 + 3 + 2 = 9.",
+    "C": "Tower 4 is tower 3 with a yellow block on top: 7 + 2 = 9, not 10.",
+    "D": "Tower 4 is tower 3 with a yellow block on top: 7 + 2 = 9, not 11.",
+    "E": "Tower 4 is tower 3 with a yellow block on top: 7 + 2 = 9, not 12."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:57:02Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

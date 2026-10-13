@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:24512bdd03fdd19257849fd521ccc9bf2cc58079d32bc6f4b9ec8e429b71dc7a",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Follow the paper one fold at a time and keep track of which square is on top.",
+  "steps": [
+    "Fold 1: the right half goes on top of the left half. Now 8 is on top of 5, and 2 is on top of 3.",
+    "Fold 2: the bottom pile flips up onto the top pile. It turns over, so 3 ends up on top and 2 is under it.",
+    "From the top, the layers are 3, 2, 8, 5. The 2 is in the 2nd layer."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "3 is on top, because the bottom pile turns over when it is folded up.",
+    "C": "8 is in the 3rd layer.",
+    "D": "5 never moves, so it is in the bottom layer.",
+    "E": "Every digit stays inside the folded paper."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T00:00:00Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

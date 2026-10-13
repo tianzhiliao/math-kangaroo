@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:3ba1565f562206f21c47b18ac437399d72f408dad469f8ff20cfb48aca1455f0",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Find each card in the tower. The cards you can't find were not used.",
+  "steps": [
+    "The tower has a circle, a rectangle, a triangle and a square.",
+    "Leo's cards are a square, a circle, a triangle, a rectangle, a star and an oval.",
+    "The star and the oval are not in the tower."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "The square and the circle are both in the tower.",
+    "B": "The triangle is in the tower.",
+    "D": "The rectangle is in the tower.",
+    "E": "The circle and the triangle are both in the tower."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

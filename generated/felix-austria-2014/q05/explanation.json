@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:00902f2047160594d9e5c34fbe20235a194bf651bcfde9617d322adb3aa1ec24",
+  "answer": "E",
+  "independent_answer": "E",
+  "key_idea": "Line the birds up from smallest to biggest.",
+  "steps": [
+    "Bird 3 is the smallest of all.",
+    "Next comes bird 1, then bird 5.",
+    "Bird 4 is bigger than bird 5, and bird 2 is the biggest.",
+    "From small to big: 3, 1, 5, 4, 2. The middle bird is bird 5."
+  ],
+  "answer_sentence": "So the answer is E.",
+  "choice_feedback": {
+    "A": "Bird 1 is the second smallest, so it is 2nd, not in the middle.",
+    "B": "Bird 2 is the biggest, so it comes last.",
+    "C": "Bird 3 is the smallest, so it comes first.",
+    "D": "Bird 4 is the second biggest, so it is 4th, not in the middle."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:34:35Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

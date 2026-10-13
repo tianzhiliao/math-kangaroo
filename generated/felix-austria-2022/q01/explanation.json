@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:db08cddcc8b67376e3c80e1f0064aaa4de23b7d5706da3f558724cbf18ca3745",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Count the triangles in each box. Triangles pointing up and pointing down both count.",
+  "steps": [
+    "Box A has 2 triangles and box B has 3.",
+    "Box C has 2 on top and 2 below: 2 + 2 = 4.",
+    "Box D has 3 on top and 3 below: 3 + 3 = 6.",
+    "Box E has 3 on top and 2 below: 3 + 2 = 5. So box D has the most."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "Box A has only 2 triangles.",
+    "B": "Box B has only 3 triangles.",
+    "C": "Box C has 4 triangles, but box D has 6.",
+    "E": "Box E has 5 triangles. That is 1 fewer than box D."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:57Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

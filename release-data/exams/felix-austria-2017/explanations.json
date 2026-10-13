@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "questions": {
+    "q01": {
+      "source": "original",
+      "content_hash": "sha256:e5fc6483f78613d027da5dc0cdb9a7bf5e8eae1ccedb8f486b5902e0b8713f06",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Match the stickers by size and shape: 2 small circles, 2 long black ovals and 2 big circles.",
+      "steps": [
+        "The stickers are drawn in gray, so look at their size and shape, not their color.",
+        "There are 2 small circles, 2 long black ovals and 2 big circles. That is 6 stickers.",
+        "Butterfly A has 2 big circles on its top wings and 2 small circles on its bottom wings.",
+        "Each small circle has a long black oval on it. That uses all 6 stickers, and nothing else."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "The black spots here are little round dots, but the stickers have long ovals, not dots.",
+        "C": "The black spots on the top wings are round dots. There are no round dot stickers.",
+        "D": "This butterfly needs 4 small circles, but there are only 2.",
+        "E": "The black spots here are round dots, and there are no long black ovals at all."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:36:33Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q02": {
+      "source": "original",
+      "content_hash": "sha256:ffc1c8c58845549bc300a4d5443758961c3adb5a0e3eb949bf5de7b7693a99d4",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Each cut makes one more piece, so count where the dashed line crosses the string and add 1.",
+      "steps": [
+        "Start at the scissors and slide your finger along the dashed line.",
+        "Make a mark every time the line crosses the string: through the big round loop, through the small curl inside it, and then up across the wavy part.",
+        "At the top right the string makes a little hook, and the crossings are very close together. Go slowly there so you do not miss one.",
+        "The line crosses the string 8 times. 8 cuts make 8 + 1 = 9 pieces."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "That is too few. Count every place where the dashed line crosses the string.",
+        "B": "That is too few. Some crossings are close together, so check the curl and the top right hook again.",
+        "C": "That is too few. Look again at the top right, where the crossings are close together.",
+        "D": "8 is the number of cuts. Each cut makes one more piece, so there is 1 more piece than cuts."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:36:33Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q03": {
+      "source": "original",
+      "content_hash": "sha256:849ee1f613819573ff5d4c4ba06eae68c6c3b00fb1041b7728cd6c9090e8f27a",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Count the missing blocks row by row, using the blocks next to the hole as a ruler.",
+      "steps": [
+        "Look at the rows that have a hole in them. Use the blocks next to the hole to see how many would fit.",
+        "In the third row from the top, 2 blocks are missing. In the fourth row, 3 blocks are missing.",
+        "In the fifth row, 4 blocks are missing. In the sixth row, just 1 block is missing.",
+        "2 + 3 + 4 + 1 = 10 blocks."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "That is too few. Count row by row: 2, 3, 4 and 1.",
+        "B": "That is 1 too few. Do not forget the single block missing in the lowest row of the hole.",
+        "D": "That is 1 too many. Count row by row: 2 + 3 + 4 + 1 = 10.",
+        "E": "That is too many. Count row by row: 2 + 3 + 4 + 1 = 10."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:36:33Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q04": {
+      "source": "original",
+      "content_hash": "sha256:3b60f59051996c72f4f698d72a95175dff3536bb9740413f94073709f5252b86",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Follow the string from pearl to pearl to find the order of the colors.",
+      "steps": [
+        "Start at the black pearl at the top and follow the string.",
+        "It goes to a white pearl, then down to the black pearl at the bottom, then to the other white pearl, and back to the top.",
+        "So going around, the pearls are black, white, black, white. The colors take turns.",
+        "In band E, the pearls go white, black, white, black. The colors take turns, so it is the same bracelet."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "Here the 2 black pearls are next to each other over the top of the band. In the bracelet a black pearl always sits between 2 white ones.",
+        "B": "Here 2 black pearls sit side by side. In the bracelet the colors take turns.",
+        "C": "Here 2 black pearls sit side by side. In the bracelet the colors take turns.",
+        "D": "Here 2 black pearls sit side by side. In the bracelet the colors take turns."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:36:33Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q05": {
+      "source": "original",
+      "content_hash": "sha256:8be2120ea010e5c1f36800658b9417a62a1e67f301ae4a8bc150dc69317c343b",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Try leaving out each number and see if the other 4 can be split into 2 pairs with the same sum.",
+      "steps": [
+        "The two sides must be equal, so we need 2 pairs of numbers with the same total.",
+        "Leave out 4. The numbers left are 1, 3, 5 and 7.",
+        "1 + 7 = 8 and 3 + 5 = 8. Both sides are 8!",
+        "So 4 is the number that was not used."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "Without 1 we have 3, 4, 5, 7. No way to split them gives 2 equal sums.",
+        "B": "Without 3 we have 1, 4, 5, 7. No way to split them gives 2 equal sums.",
+        "D": "Without 5 we have 1, 3, 4, 7. No way to split them gives 2 equal sums.",
+        "E": "Without 7 we have 1, 3, 4, 5. No way to split them gives 2 equal sums."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:36:33Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q06": {
+      "source": "original",
+      "content_hash": "sha256:04c9f4aaa787bc06fde94f9b27cca97461e66a135b5ef9a2a27d2a568c7927fc",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Jim moves around the wheel the same number of seats, in the same direction, as Ben.",
+      "steps": [
+        "The wheel has 6 seats. Ben is at the top. Jim is in the lower left seat.",
+        "Ben moves to Jim's seat. Going to the left, that is 2 seats: top, then upper left, then lower left.",
+        "Jim moves 2 seats the same way: from lower left to the bottom, then to the lower right.",
+        "So Jim is now in the lower right seat."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "The top seat is where Ben was before. Jim does not end up there.",
+        "B": "Jim moves 2 seats the same way Ben did. He ends up in the lower right seat, not the upper right one.",
+        "D": "That is the wrong way. Ben moved down the left side, so Jim moves down too, toward the bottom.",
+        "E": "Jim moves 2 seats, not just 1. The bottom seat is only 1 seat away."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:36:33Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q07": {
+      "source": "original",
+      "content_hash": "sha256:9386fffa758d9a33eef0e22196f3126ae5a302608d97890e2801bba9c6aa55d2",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "After 4 turns the block looks just like it did at the start, so the pictures repeat.",
+      "steps": [
+        "In the answers, the light gray squares are colored blue and the dark gray squares are colored orange. Match them by where they are.",
+        "After 4 turns the block is back where it started. So after 8 turns it is back at the start too.",
+        "Turns 9 and 10 are just like turns 1 and 2. So the block looks like the picture after turn 2.",
+        "After turn 2 the block has 2 light squares at the top right and 2 dark squares at the bottom left. In D, the 2 blue squares are at the top right and the 2 orange squares are at the bottom left."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "The colored squares are in different places than in the picture after turn 2.",
+        "B": "This is how the block looked at the start, before any turns. That is after 8 turns, not 10.",
+        "C": "This is the picture after turn 1. After 10 turns the block looks like the picture after turn 2.",
+        "E": "Here the orange squares are at the top. After turn 2 the dark squares are at the bottom left."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:36:33Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q08": {
+      "source": "original",
+      "content_hash": "sha256:6ea90f77e1fc9e541cf3b8eaa018ced1571bc480e01add4e1971d5fb1ff29f76",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Count the triangles first. Circles must be half of that, and squares double that.",
+      "steps": [
+        "Count the shapes in each picture.",
+        "Picture E has 2 triangles, 1 circle and 4 squares.",
+        "1 circle is half of 2 triangles. 4 squares is twice 2 triangles, because 2 + 2 = 4.",
+        "Both rules work for E."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "A has 4 triangles but only 2 squares. There should be twice as many squares as triangles.",
+        "B": "B has 2 triangles and 4 circles. There should be fewer circles than triangles.",
+        "C": "C has 4 triangles, so it needs 8 squares, but it has only 5.",
+        "D": "D has 3 triangles, so it would need 6 squares, but it has 5."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:36:33Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q09": {
+      "source": "original",
+      "content_hash": "sha256:876bc8fec6e0106cb329b5c14344337c3071f512fd7604dd7011d036a88bbfbc",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Find the places of Leo and Max in the line.",
+      "steps": [
+        "There are 7 people in front of Leo, so Leo is number 8 in the line.",
+        "Max stands right behind Leo, so Max is number 9.",
+        "There are 11 people in all. 11 - 9 = 2 people are behind Max."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "Max is number 9 of 11, so there are 2 people behind him, not 1.",
+        "C": "3 people are behind Leo. Max stands behind Leo, so 1 fewer are behind Max.",
+        "D": "Max is number 9 of 11, so only 2 people are behind him.",
+        "E": "Max is number 9 of 11, so only 2 people are behind him."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:36:33Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q10": {
+      "source": "original",
+      "content_hash": "sha256:23dfff20778ba4abf6f7b8db6ad5a86fafed87b41f44ecc2fc6136d08267e7f2",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Half are cows when there are as many cows as other animals.",
+      "steps": [
+        "The animals that are not cows are 1 horse and 3 pigs. 1 + 3 = 4.",
+        "For half to be cows, there must be 4 cows too.",
+        "He has 2 cows. 4 - 2 = 2 more cows.",
+        "Check: 4 cows and 4 other animals make 8 animals, and half of 8 is 4."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "He has 2 cows and 4 other animals. That is not half yet.",
+        "B": "With 1 more cow he has 3 cows and 4 other animals. That is not half.",
+        "D": "With 3 more cows he has 5 cows and 4 other animals. That is more than half.",
+        "E": "With 4 more cows he has 6 cows and 4 other animals. That is more than half."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:36:33Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q11": {
+      "source": "original",
+      "content_hash": "sha256:60c810b4011a85a7f73d0b621007e1d1e5ee473a54e0f524b84cbb1bdf1a12b8",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Use the box with 14 to find the missing number on the left.",
+      "steps": [
+        "The bottom row starts with ? on the left. Its first box is under 10 and shows 14.",
+        "? + 10 = 14, so ? = 4.",
+        "The star is in the bottom row under 7. So it is 4 + 7 = 11."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "The star is 4 + 7. That is 11, not 10.",
+        "C": "12 is 5 + 7, the box above the star. The star is 4 + 7.",
+        "D": "The star is 4 + 7. That is 11, not 13.",
+        "E": "The star is 4 + 7. That is 11, not 15."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:36:33Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q12": {
+      "source": "original",
+      "content_hash": "sha256:109c7396fe64512a23675fb44e2b1acf3fc64873becbbebf9c7146b07f61eb70",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "First count the bars, then the dots, and pick the cheapest mix of sheets.",
+      "steps": [
+        "Each crown needs 1 bar, 4 dots and 1 cross. 7 crowns need 7 bars, 28 dots and 7 crosses.",
+        "Only the first kind of sheet has bars, 2 on each. 3 sheets give just 6 bars, so she needs 4 of them. They also give 4 dots and 4 crosses.",
+        "She still needs 28 - 4 = 24 dots. The second kind of sheet has 5 dots. 4 sheets give only 20, so she needs 5 of them (25 dots).",
+        "That is plenty of crosses too. 4 + 5 = 9 sheets."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "7 sheets cannot give enough bars and dots together. She needs 4 sheets for the bars and 5 more for the dots.",
+        "C": "She can do it with 4 sheets of the first kind and 5 of the second kind. That is only 9.",
+        "D": "She can do it with fewer: 4 sheets of the first kind and 5 of the second kind make 9.",
+        "E": "She can do it with fewer: 4 sheets of the first kind and 5 of the second kind make 9."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:36:33Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q13": {
+      "source": "original",
+      "content_hash": "sha256:c15a1395b9c9792c7c746fc8391c580b780a4917d04646ff474b1528c8922bb6",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "The tiles can be turned but not flipped over, because the back is white.",
+      "steps": [
+        "Each tile is a zigzag of 4 squares with exactly 1 black square in the middle of the zigzag.",
+        "Simon can turn a tile, but he cannot flip it over. Then it would show the white back.",
+        "In pattern A, lay the 2 tiles side by side, both turned like the second picture: 2 squares on top with the black one on the left, and 2 squares below, shifted to the left.",
+        "The 2 tiles fit next to each other and make pattern A."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "One of the tiles would have to be a mirror image, so Simon would need to flip it. Then its back would be white.",
+        "C": "This pattern has 3 black squares and 9 squares in all. 2 tiles have only 2 black squares and 8 squares.",
+        "D": "2 zigzag tiles cannot fill this straight box. A corner is always left over.",
+        "E": "Both pieces here are mirror images of the tile, so Simon would have to flip them over."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:36:33Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q14": {
+      "source": "original",
+      "content_hash": "sha256:92cd060d494b9ac82a4cdc6fd51ba32137e926cd0b453ebfa12509a6f9ba72c9",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "After every 10 jumps there is a 3 minute break, but no break after the last jumps.",
+      "steps": [
+        "50 jumps is 5 lots of 10 jumps. Each lot takes 1 minute, so that is 5 minutes of jumping.",
+        "There is a break between the lots: after lot 1, 2, 3 and 4. That is 4 breaks.",
+        "4 breaks of 3 minutes is 3 + 3 + 3 + 3 = 12 minutes.",
+        "5 + 12 = 17 minutes."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "4 is the number of breaks, not the number of minutes.",
+        "B": "5 minutes is only the jumping time. The breaks take time too.",
+        "C": "Add the jumping and the breaks again: 5 + 12 = 17.",
+        "E": "The kangaroo is done after the last jumps. It does not need breaks after that."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:36:33Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q15": {
+      "source": "original",
+      "content_hash": "sha256:de42ecf1cf5dc51a0783e4c7210fdfc2fa52a75e8ff13519d98089cb38c13034",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "ADA starts and ends with the same digit, so it must be a key like 141 or 717.",
+      "steps": [
+        "ADA has the same first and last letter. Only the keys 141 and 717 start and end with the same digit.",
+        "If ADA were 717, then D would be 1, and DGA would start with 1. No other key starts with 1. So ADA is 141: A is 1 and D is 4.",
+        "DGA is 4, then G, then 1. That is 471, so G is 7. DAG is 4, 1, 7, which is 417.",
+        "The key left over is 717. 7 is G and 1 is A, so the letters are G, A, G."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "GDA would be 741, and there is no key 741.",
+        "B": "ADG would be 147, and there is no key 147.",
+        "C": "GAD would be 714, and there is no key 714.",
+        "E": "DAD would be 414, and there is no key 414."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:36:33Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    }
+  }
+}

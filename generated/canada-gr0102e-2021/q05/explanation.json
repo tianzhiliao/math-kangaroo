@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:97176cecb2c8181e40123f3c8a0db7cbcd2980b01674627f8cb1c5415777337a",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Each cut through the ribbon makes one more piece.",
+  "steps": [
+    "The ribbon is one long strip bent into a U.",
+    "Count where the red bars cross the ribbon: 2 short bars on the left arm, 1 short bar on the right arm, and the long bar crosses both arms.",
+    "2 + 1 + 2 = 5 cuts.",
+    "1 cut makes 2 pieces, and each new cut adds 1 more piece. 5 cuts make 5 + 1 = 6 pieces."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "That is 1 piece for each red bar. The long bar cuts the ribbon twice.",
+    "B": "5 is the number of cuts. The pieces are one more than the cuts.",
+    "D": "That is 2 more than the cuts. The pieces are only 1 more than the cuts.",
+    "E": "There are only 5 cuts, so there are 6 pieces."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

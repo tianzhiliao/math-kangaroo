@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:d832bb1da3a4b2650b2fde718ebeb24abcaf029cef4c2267de3ac168155d69cc",
+  "answer": "A",
+  "independent_answer": "A",
+  "key_idea": "Follow each path arrow by arrow and stop if it lands on water.",
+  "steps": [
+    "The fox starts in the top left corner. The hen is in the bottom right corner.",
+    "The water is on the 3rd square of the top row, the last square of the middle row and the 2nd square of the bottom row.",
+    "Path A goes down, right, right, down, right. The fox walks along the middle row to the 3rd square, steps down, then goes right to the hen.",
+    "None of those squares has water."
+  ],
+  "answer_sentence": "So the answer is A.",
+  "choice_feedback": {
+    "B": "After 2 jumps right, the fox is on the water in the top row.",
+    "C": "Down, down, right puts the fox on the water in the bottom row.",
+    "D": "Down, right, down puts the fox on the water in the bottom row.",
+    "E": "Right, down, down puts the fox on the water in the bottom row."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:57Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

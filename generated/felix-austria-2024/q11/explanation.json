@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:2fcba4c442730784ac651ed25e4016790dc8938194e7ecb26bfa77ebc5cb41dd",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "The box has just one layer, so from above each cube is one red square. Turn the box in your head to line it up.",
+  "steps": [
+    "The box has 9 spaces in one layer. 6 have a red cube. The middle space, the right corner and the space in front of the right corner are empty.",
+    "Turn the box in your head so the front left side is at the bottom. It has 3 cubes in a row, so the bottom row is red, red, red.",
+    "The back left side is now on the left. It also has 3 cubes, so the left column is all red.",
+    "The back right side has 2 cubes and then the empty corner, so the top row is red, red, white. The middle row is red, white, white. That is picture D."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "This is a mirror picture of the box. Turning the box cannot make it look like this.",
+    "B": "This has a red square in the middle, but the middle space of the box is empty.",
+    "C": "This is a mirror picture of the box. Turning the box cannot make it look like this.",
+    "E": "This has a red square in the middle, but the middle space of the box is empty."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:57:02Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

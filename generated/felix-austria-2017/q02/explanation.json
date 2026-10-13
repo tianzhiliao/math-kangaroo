@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:49f110b8305eca48908ec2892995cec79bfd0e11260bc2c52bd14985449aca63",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Each cut makes one more piece, so count the cuts and add 1.",
+  "steps": [
+    "There are 3 gray blades. Look at each one and count how many parts of the rope it crosses.",
+    "The left blade crosses only the top part of the rope: 1 cut. The long middle blade crosses the top part and the middle part: 2 cuts.",
+    "The right blade crosses only the bottom part: 1 cut. So there are 1 + 2 + 1 = 4 cuts.",
+    "4 cuts make 4 + 1 = 5 pieces."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "That is too few. There are 4 cuts, and each cut makes one more piece.",
+    "B": "4 is the number of cuts. 4 cuts make 1 more piece than that.",
+    "D": "That is too many. There are only 4 cuts, so 5 pieces.",
+    "E": "That is too many. There are only 4 cuts, so 5 pieces."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:36:33Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:9a149370fe0297cf7656a4039d30fb20905ce3e02eddc59fd34402a54b6a8c84",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Each third of the way takes the same time.",
+  "steps": [
+    "One third of the way takes 15 minutes.",
+    "The whole way is 3 thirds.",
+    "15 + 15 + 15 = 45 minutes."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "15 minutes is only one third of the way.",
+    "B": "30 minutes is only two thirds of the way.",
+    "D": "1 hour is 15 + 15 + 15 + 15 minutes. That is one third too many.",
+    "E": "1 hour 15 minutes is 5 lots of 15 minutes, but the way has only 3 thirds."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:14Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

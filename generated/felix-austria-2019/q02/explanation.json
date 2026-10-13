@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:1688fa75cb3abec1f76bf2f060015d190df70fa30d69cb003ba873001573d2dd",
+  "answer": "A",
+  "independent_answer": "A",
+  "key_idea": "Look for the same 3 shapes in a row in the chain.",
+  "steps": [
+    "Read the chain from top to bottom: circle, square, circle, triangle, square, triangle, circle.",
+    "For each picture, look for its 3 shapes next to each other in the chain.",
+    "Circle, square, circle is at the very top of the chain.",
+    "The chain can also be read from the bottom up. Check each picture both ways."
+  ],
+  "answer_sentence": "So the answer is A.",
+  "choice_feedback": {
+    "B": "The chain never has two squares next to each other.",
+    "C": "Reading from top to bottom, triangle, circle, square never comes in that order.",
+    "D": "The chain never has two circles next to each other.",
+    "E": "Triangle, square, circle never comes in that order, reading from the top or from the bottom."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:33:38Z",
+  "review": {
+    "status": "flagged",
+    "note": "Two answers: the chain read top-to-bottom contains circle-square-circle (A, the key), but read bottom-to-top it also contains triangle-circle-square (C). The question does not say which way to read it. Steps are method-only; fix the chain or the options before shipping."
+  }
+}

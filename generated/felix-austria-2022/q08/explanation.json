@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:6a1b6cb85768715c62d3c9c0ec6ef304f1868016e9f800b56e78f45b2ddc5061",
+  "answer": "A",
+  "independent_answer": "A",
+  "key_idea": "Check the cubes one by one and count the cubes each one touches face to face.",
+  "steps": [
+    "There is a row of 3 cubes. The cube at the end of the row has 1 cube on top of it and 1 cube in front of it.",
+    "The end cube touches the middle cube of the row, the cube on top and the cube in front. That is 3.",
+    "The middle cube of the row touches only 2 cubes. Each of the other 3 cubes touches only 1.",
+    "So just 1 cube touches exactly 3 others."
+  ],
+  "answer_sentence": "So the answer is A.",
+  "choice_feedback": {
+    "B": "Only the end cube touches 3 others. The middle cube of the row touches just 2.",
+    "C": "Most cubes touch only 1 other cube. Only the end cube touches 3.",
+    "D": "Most cubes touch only 1 other cube. Only the end cube touches 3.",
+    "E": "Most cubes touch only 1 other cube. Only the end cube touches 3."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:57Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

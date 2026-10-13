@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:4bb29400ae27c8a7e39f8bd3602ff9cf7d82c93929cb1c9e04c4c78588b2d4d8",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "The white spots show where a square is missing. Count them.",
+  "steps": [
+    "The big square has 4 rows of 4: 16 places.",
+    "The grey squares are still there. The white spots are the places where a square was lost.",
+    "Count the white spots row by row: 1 in the top row, 1 in the second, 1 in the third and 2 in the bottom row.",
+    "1 + 1 + 1 + 2 = 5 squares have been lost. Check: 11 grey + 5 white = 16."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Count the white spots again. The bottom row has 2 of them.",
+    "B": "Count the white spots again. The bottom row has 2 of them.",
+    "D": "Count again: there are only 5 white spots.",
+    "E": "Count again: there are only 5 white spots."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:34:35Z",
+  "review": {
+    "status": "flagged",
+    "note": "The lost squares are drawn as white squares with full outlines inside the tray, not as clear gaps, so a child may read them as squares still there (16 present, 0 lost). Key 5 holds only if white = missing. Consider redrawing the white slots as empty gaps."
+  }
+}

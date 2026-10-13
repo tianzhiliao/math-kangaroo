@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:2acd1faf7b1b5cdcc62163b350c18b1502e0900ab711e4db3cc5afa76ef7e66e",
+  "answer": "A",
+  "independent_answer": "A",
+  "key_idea": "Keep swapping until there are fewer than 3 of each fruit.",
+  "steps": [
+    "Start: 5 pears and 4 oranges.",
+    "3 pears become 1 orange: 2 pears and 5 oranges.",
+    "3 oranges become 1 pear: 3 pears and 2 oranges.",
+    "3 pears become 1 orange: 0 pears and 3 oranges.",
+    "3 oranges become 1 pear: 1 pear and nothing else. Nothing more can change."
+  ],
+  "answer_sentence": "So the answer is A.",
+  "choice_feedback": {
+    "B": "She ends with 1 pear, not 1 orange.",
+    "C": "She ends with only 1 pear, not 2.",
+    "D": "She ends with 1 pear and no orange.",
+    "E": "She ends with 1 pear, not 2 oranges."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:f16d99fade930871494b140a82d4135eb7dc26c7f6249605f349e42901eee87d",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Write down every number you can make, then keep the ones between 20 and 45.",
+  "steps": [
+    "The numbers have 2 digits, and each digit is 2, 4 or 5.",
+    "Starting with 2: 22, 24, 25. All are bigger than 20.",
+    "Starting with 4: 42 and 44. But 45 is not smaller than 45.",
+    "Numbers starting with 5 are too big. So 3 + 2 = 5 numbers."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "There are 3 numbers starting with 2 alone: 22, 24, 25.",
+    "B": "Do not forget 42 and 44.",
+    "D": "45 is not smaller than 45, so it does not count.",
+    "E": "45 does not count, and numbers starting with 5 are too big."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:34:35Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

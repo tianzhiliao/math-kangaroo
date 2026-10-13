@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:82b511714b9c4c8984d4ee911be3bc94cc606a0688cb5e8c5cbda3fc60526d2a",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Find the cubes under a band, then count the ones that are left.",
+  "steps": [
+    "The wall has 3 rows of 3 cubes.",
+    "One band goes across the middle row. It touches 3 cubes.",
+    "The other band goes down the middle column. It touches 3 cubes too, but the centre cube is under both bands. So 3 + 3 - 1 = 5 cubes are touched.",
+    "9 - 5 = 4. The 4 corner cubes are not touched."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "All 4 corner cubes are untouched, not just 2.",
+    "B": "All 4 corner cubes are untouched, not just 3.",
+    "D": "5 is how many cubes are touched, not how many are untouched.",
+    "E": "The centre cube is under both bands. Count it only once: 5 are touched, so 4 are left."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:13Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

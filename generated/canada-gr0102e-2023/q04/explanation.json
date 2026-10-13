@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:02db61e4af87d811c776aac0375ddd4a5cde5b2f7bb77bc3da322670a610cf7d",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "When the disc turns, the two holes always stay the same number of hours apart.",
+  "steps": [
+    "In the first picture the holes show 12 and 3.",
+    "Going round the clock from 12 to 3 is 3 steps: 1, 2, 3.",
+    "Picture C shows 4 and 7. From 4 to 7 is also 3 steps: 5, 6, 7."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "From 12 to 6 is 6 steps, not 3.",
+    "B": "From 2 to 4 is only 2 steps, not 3.",
+    "D": "From 1 to 6 is 5 steps, not 3.",
+    "E": "From 8 to 12 is 4 steps, not 3."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:47:49Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

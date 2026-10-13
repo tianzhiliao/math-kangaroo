@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:ca93138951332ee8504cee12da4ff1c0539b56aa8fa2962b5270dd8335d12380",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "The school is at the right end, so house A is the farthest and house E is the closest.",
+  "steps": [
+    "From farthest to closest, the houses go A, B, C, D, E.",
+    "Exactly 2 friends live farther away than Leo. So Leo lives in C, and Nina and Omar live in A and B.",
+    "Eva and Pia live in D and E.",
+    "Eva lives farther away than Pia. D is farther than E, so Eva lives in D."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "A is Nina's or Omar's house. They live farther away than Leo.",
+    "B": "B is Nina's or Omar's house. They live farther away than Leo.",
+    "C": "C is Leo's house, because exactly 2 houses are farther away.",
+    "E": "E is the closest house. Eva lives farther away than Pia, so E is Pia's house."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

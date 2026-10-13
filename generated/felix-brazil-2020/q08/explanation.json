@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:8d73b58a6e289363a4d3b41a736c2a2e9839ecb9fd1214c7a75f0cf4bab631fa",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Count the squares and the triangles in each drawing.",
+  "steps": [
+    "A: 3 squares, 1 triangle. B: 2 squares, 2 triangles.",
+    "C: 1 square, 3 triangles. D: 4 squares, 2 triangles. E: 2 squares, 1 triangle.",
+    "Only C has fewer squares than triangles: 1 is less than 3."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "It has 3 squares and only 1 triangle, so it has more squares.",
+    "B": "It has 2 squares and 2 triangles, the same number.",
+    "D": "It has 4 squares and 2 triangles, so it has more squares.",
+    "E": "It has 2 squares and 1 triangle, so it has more squares."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

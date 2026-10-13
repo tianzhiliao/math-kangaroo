@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:47ae5b9f5f1694db8936bfd4c262b1764ed53cf09f99f248eb64ce26f3f38ee3",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Check every number in a cloud. All of them must be smaller than 8.",
+  "steps": [
+    "Smaller than 8 means 1, 2, 3, 4, 5, 6 or 7. The number 8 itself is not smaller than 8.",
+    "Look at each cloud and find any number that is 8 or bigger.",
+    "The green cloud B has 1, 6, 2 and 5. All of them are smaller than 8.",
+    "Every other cloud has a number that is 8 or bigger."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "This cloud has 9. It is bigger than 8.",
+    "C": "This cloud has 8. 8 is not smaller than 8.",
+    "D": "This cloud has 10. It is bigger than 8.",
+    "E": "This cloud has 9. It is bigger than 8."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:33:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

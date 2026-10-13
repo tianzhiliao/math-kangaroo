@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:f72d96e0b49ec82b90fd6bd7ac40c37d50403fe02f583464dd76c31aca2ac792",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "After unfolding, every hole has a twin on the other side of the fold, like in a mirror.",
+  "steps": [
+    "The fold is the brown edge on the left. After unfolding, it is the line in the middle.",
+    "The square is at the top, far from the fold. So there are 2 squares at the top, near the outside edges.",
+    "The circle is lower, close to the fold. So there are 2 circles lower down, close to the middle line.",
+    "Picture B shows this."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "This shows only one half. After unfolding there are 2 squares and 2 circles.",
+    "C": "Here the circles and squares have swapped places. The squares should be at the top.",
+    "D": "There are no squares here, but a square hole was punched.",
+    "E": "There is only 1 circle here. There should be 2, one on each side of the middle line."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:47:49Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:22b8fa408fd69136c8ee2300c28c233a72025389619ee568c98724d66c202db8",
+  "answer": "E",
+  "independent_answer": "E",
+  "key_idea": "The face that touches 4 of the other faces is opposite the heart.",
+  "steps": [
+    "The first cube shows the circle, the red square and the triangle. The second cube shows the circle, the star and the pentagon.",
+    "The circle is on both cubes, so it touches the square, the triangle, the star and the pentagon.",
+    "A face touches 4 faces and is opposite just 1. The only face left is the heart, so the circle is opposite the heart."
+  ],
+  "answer_sentence": "So the answer is E.",
+  "choice_feedback": {
+    "A": "The square is one of the 4 faces around the circle, and those 4 faces all touch the heart.",
+    "B": "The triangle is one of the 4 faces around the circle, and those 4 faces all touch the heart.",
+    "C": "The star is one of the 4 faces around the circle, and those 4 faces all touch the heart.",
+    "D": "The pentagon is one of the 4 faces around the circle, and those 4 faces all touch the heart."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

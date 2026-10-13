@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:fe747cb154ac30b5f0973a1e168caa528ea239b1d59c53bd89c5811de91c6427",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "After 4 quarter turns the card looks just like it did at the start, so the pictures repeat.",
+  "steps": [
+    "The dot goes from the right side (turn 1) to the bottom (turn 2) to the left side (turn 3). Next it goes to the top (turn 4).",
+    "After 4 turns the card is back where it started. After 8 turns it is back again.",
+    "Turns 9 and 10 are just like turns 1 and 2. So after turn 10 the dot is at the bottom, like after turn 2."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "The dot is at the top after turns 4 and 8. After turn 10 it is 2 more turns along.",
+    "B": "The dot is on the right after turn 1 and turn 9. After turn 10 it has moved on.",
+    "C": "The dot is on the left after turn 3 and turn 11, not turn 10.",
+    "E": "The dot never goes into a corner. It moves from the middle of one side to the next."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:36:33Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

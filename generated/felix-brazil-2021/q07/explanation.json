@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:2c26ec66bf1fbf7592a27129fe060db268f4b5a603dfdc69765f7e14cddd80a9",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "A red mitten is a right hand, so count the red mittens that hold another hand.",
+  "steps": [
+    "Look at each place where two children hold hands.",
+    "Between the 1st and 2nd child there is 1 red mitten. Between the 3rd and 4th child there are 2 red mittens. Between the 5th and 6th child there is 1 red mitten.",
+    "The other places have only blue mittens.",
+    "1 + 2 + 1 = 4 red mittens, so 4 children hold hands with their right hand."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Count again: the 3rd and 4th children hold hands with 2 red mittens.",
+    "B": "Count all the red mittens: there are 4.",
+    "D": "Count the red mittens again: there are only 4.",
+    "E": "Some children hold hands with a blue mitten, which is a left hand."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

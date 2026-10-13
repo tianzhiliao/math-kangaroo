@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:3ec25b538bb33176a8a8f09ab1b479d2f2adbc5c9fb8454e09eb6a9bc965fcf9",
+  "answer": "E",
+  "independent_answer": "E",
+  "key_idea": "Count the small squares in each shape. We only have 4.",
+  "steps": [
+    "We have exactly 4 small squares.",
+    "Shapes A, B, C and D each use 4 small squares.",
+    "Shape E, the plus sign, has 1 square in the middle and 4 around it: 1 + 4 = 5 squares.",
+    "We cannot make 5 squares from 4. So E cannot be made."
+  ],
+  "answer_sentence": "So the answer is E.",
+  "choice_feedback": {
+    "A": "This big square uses all 4 small squares, so it can be made.",
+    "B": "This long row uses all 4 small squares, so it can be made.",
+    "C": "This L shape uses all 4 small squares, so it can be made.",
+    "D": "This T shape uses all 4 small squares, so it can be made."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:34:35Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:7aa773a777f75203ea0d6e276dd927d3b9f14902df763ee2bdf9fb0b823068c9",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Count every place where two cubes touch side by side or top to bottom.",
+  "steps": [
+    "All 9 cubes are in one flat wall: 3 in the top row, 2 in the middle row and 4 in the bottom row.",
+    "Cubes next to each other in a row: top row 2 drops, middle row 1 drop, bottom row 3 drops. 2 + 1 + 3 = 6.",
+    "Cubes on top of each other: 2 between the top row and the middle row, and 2 between the middle row and the bottom row. 2 + 2 = 4.",
+    "Add them up: 6 + 4 = 10 drops."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "8 is one less than the number of cubes. But some cubes touch more than one neighbour, so more drops are needed.",
+    "B": "9 is too few. Count the touches in the rows and between the rows again.",
+    "D": "11 is too many. There are only 6 touches in the rows and 4 between the rows.",
+    "E": "12 is too many. There are only 10 places where two cubes touch."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:01Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

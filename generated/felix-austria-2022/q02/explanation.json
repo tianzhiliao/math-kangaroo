@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:355ebad51083739b1bb54c050fbbf4255a8faabca959a3ba77b5b09057386566",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "The second order is the first order plus 2 more rolls.",
+  "steps": [
+    "Both orders have one pear.",
+    "The second order has 3 rolls and the first has 1, so it has 2 more rolls.",
+    "Those 2 extra rolls make the price go up from 8 to 14 Euros: 14 - 8 = 6.",
+    "2 rolls cost 6 Euros, and 3 + 3 = 6, so one roll costs 3 Euros."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "If a roll cost 1 Euro, 2 more rolls would add 2, and 8 + 2 = 10, not 14.",
+    "B": "If a roll cost 2 Euros, 2 more rolls would add 4, and 8 + 4 = 12, not 14.",
+    "D": "If a roll cost 4 Euros, 2 more rolls would add 8, and 8 + 8 = 16, not 14.",
+    "E": "If a roll cost 5 Euros, 2 more rolls would add 10, and 8 + 10 = 18, not 14."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:57Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

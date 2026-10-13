@@ -155,6 +155,23 @@ class ReleasePipelineTests(unittest.TestCase):
 
             self.assertEqual(copied_files, ["q01_stem_01.png"])
 
+    def test_rebuild_keeps_hand_authored_explanations(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            data_dir = self._make_source_dataset(root)
+            output_dir = root / "release-data"
+
+            build_release_dataset(data_dir, output_dir)
+            explanations_path = output_dir / "exams" / "sample-exam" / "explanations.json"
+            explanations_path.write_text('{"questions": {}}\n', encoding="utf-8")
+            (output_dir / "exams" / "sample-exam" / "stale.json").write_text("{}", encoding="utf-8")
+
+            build_release_dataset(data_dir, output_dir)
+
+            self.assertEqual(explanations_path.read_text(encoding="utf-8"), '{"questions": {}}\n')
+            self.assertFalse((output_dir / "exams" / "sample-exam" / "stale.json").exists())
+            validate_release_dataset(output_dir)
+
     def test_build_cleanup_allowlist_report_lists_inputs_and_delete_candidates(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)

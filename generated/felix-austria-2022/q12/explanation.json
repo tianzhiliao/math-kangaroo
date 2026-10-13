@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:86017c35f117b0aa6ca3005e2b54f648d2755157c3348b8f208c08e7bd8d5383",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "All lawns are the same size, so the biggest sand patch leaves the least grass.",
+  "steps": [
+    "All five lawns are the same size. Each has a sand patch in the middle with no grass.",
+    "The more sand, the less grass. So look for the biggest sand patch.",
+    "The patch in D is as tall as the tallest patch and wider than all the others. Every other patch would fit inside it.",
+    "So lawn D has the least grass."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "Lawn A has the smallest sand patch, so it has the most grass.",
+    "B": "The sand patch in B is smaller than the one in D, so B has more grass.",
+    "C": "The sand patch in C is as tall as the one in D, but thinner, so C has more grass.",
+    "E": "The sand patch in E is a bit smaller than the one in D, so E has more grass."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:57Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

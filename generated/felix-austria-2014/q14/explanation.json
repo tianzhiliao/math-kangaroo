@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:15d45faaaac2c481c84b95b9f93f06ddcc719210d2d236b9ab5bf9902e33dca8",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Put the biggest digits in the tens places.",
+  "steps": [
+    "A digit in the tens place counts 10 times as much, so the biggest digits go there: 8 and 6.",
+    "The small digits 3 and 1 go in the ones places.",
+    "For example, 83 + 61. The tens give 80 + 60 = 140 and the ones give 3 + 1 = 4.",
+    "140 + 4 = 144."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "You can make a bigger sum by putting 8 and 6 in the tens places.",
+    "B": "You can make a bigger sum by putting 8 and 6 in the tens places.",
+    "D": "The biggest you can make is 144. You cannot reach 153.",
+    "E": "The biggest you can make is 144. You cannot reach 162."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:34:35Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

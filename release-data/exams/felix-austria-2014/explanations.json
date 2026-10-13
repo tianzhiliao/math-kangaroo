@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "questions": {
+    "q01": {
+      "source": "original",
+      "content_hash": "sha256:e505a2113608f95ab56ae900b5eb19c78a50e4b76d1ab311bc46897592509079",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Count the petals and the leaves on each flower.",
+      "steps": [
+        "We need a flower with 5 petals and 3 leaves.",
+        "Count the pink petals on each flower: A has 4, B has 5, C has 3, D has 5, E has 4.",
+        "Only B and D have 5 petals. Now count their green leaves.",
+        "B has 3 leaves. D has only 2 leaves. So B is the flower."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "This flower has only 4 petals and 2 leaves.",
+        "C": "This flower has only 3 petals.",
+        "D": "This flower has 5 petals, but only 2 leaves.",
+        "E": "This flower has 3 leaves, but only 4 petals."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:34:35Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q02": {
+      "source": "original",
+      "content_hash": "sha256:85278a1e28ec958f96347be69f576b9af8f075396ae01625c40f239851d5de99",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Follow the line with your finger and say each shape as you reach it.",
+      "steps": [
+        "Put your finger on the arrow and follow the line. Go straight on where the line crosses itself.",
+        "The line makes loops, then a big curve, then a long stroke down to the left. The first shape you reach is the triangle at the bottom.",
+        "From the triangle, the line goes up to the square.",
+        "Then it goes right to the circle, and then on to the end. The order is triangle, square, circle."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "The square comes before the circle.",
+        "C": "The triangle is the first shape, not the circle.",
+        "D": "The triangle is the first shape, not the square.",
+        "E": "The triangle is the first shape, and the circle comes last."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:34:35Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q03": {
+      "source": "original",
+      "content_hash": "sha256:235f981f3bc9152eba0b77e98a4db30e11b22fdbfd0303853b2a921700624f89",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Count the grey squares and the white squares, then take away.",
+      "steps": [
+        "The big square has 5 rows of 5 small squares.",
+        "All the squares around the edge are grey: 5 + 5 + 3 + 3 = 16. The square in the very middle is grey too, so 16 + 1 = 17 grey squares.",
+        "The white squares make a ring around the middle grey square: 8 white squares.",
+        "17 - 8 = 9. There are 9 more grey squares."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Count again: there are 17 grey and 8 white squares.",
+        "B": "Count again: there are 17 grey and 8 white squares.",
+        "C": "Do not forget the grey square in the middle.",
+        "E": "Count again: there are 17 grey and 8 white squares."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:34:35Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q04": {
+      "source": "original",
+      "content_hash": "sha256:6aa865cb3741963bab56efc8719c57bf2f6e178359e0703f34da758cf2c33edb",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Count the squares that are still there and take them away from 25.",
+      "steps": [
+        "Count the squares row by row, from the top.",
+        "Top row: 3. Second row: 2. Third row: 2. Fourth row: 3. Bottom row: 5.",
+        "3 + 2 + 2 + 3 + 5 = 15 squares are still there.",
+        "25 - 15 = 10 squares are lost."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "15 squares are still there, and 25 - 15 is more than 6.",
+        "B": "15 squares are still there, and 25 - 15 is more than 7.",
+        "C": "15 squares are still there, and 25 - 15 is more than 8.",
+        "E": "15 squares are still there, and 25 - 15 is less than 12."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:34:35Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q05": {
+      "source": "original",
+      "content_hash": "sha256:b476858c81e13f491e5267ca5aca051543224ed66f2863853506c3d464d1fded",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Use the grid squares to see how tall each animal is.",
+      "steps": [
+        "Count how many grid squares tall each animal is.",
+        "The dog (1) is about 1 square tall. The monkey (5) is about 2. The tiger (2) is about 3.",
+        "The ostrich (4) is about 6 squares tall. The giraffe (3) is the tallest, about 7.",
+        "From small to big: dog, monkey, tiger, ostrich, giraffe. The tiger is in the middle, and it has number 2."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "The dog is the smallest, so it comes first, not in the middle.",
+        "C": "The giraffe is the biggest, so it comes last.",
+        "D": "The ostrich is the second biggest, so it is 4th, not in the middle.",
+        "E": "The monkey is the second smallest, so it is 2nd, not in the middle."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:34:35Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q06": {
+      "source": "original",
+      "content_hash": "sha256:2a142e97e3eda7ffd29ffb11e4270523c41dd36d865bc8e05d17468a3c97c5a0",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Swap each lion for the ducks it weighs the same as.",
+      "steps": [
+        "The first scale shows: 1 crocodile weighs the same as 2 lions.",
+        "The second scale shows: 1 lion weighs the same as 2 ducks.",
+        "So each of the 2 lions can be swapped for 2 ducks: 2 + 2 = 4 ducks.",
+        "The crocodile weighs the same as 4 ducks. Picture B shows 4 ducks."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "This picture has 5 ducks. That is 1 duck too many.",
+        "C": "This picture has 3 ducks. That is 1 duck too few.",
+        "D": "These 2 ducks weigh the same as only 1 lion.",
+        "E": "1 duck weighs much less than a crocodile."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:34:35Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q07": {
+      "source": "original",
+      "content_hash": "sha256:3049985a704d40ffbe0a66c11f6e0e4cd4041ce0cb657db497159d4fced99fd3",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Check each circle one at a time: is the kangaroo on the inside of its line?",
+      "steps": [
+        "There are 4 circles: a big one on the left, a middle one, one at the top, and one at the bottom right.",
+        "The kangaroo is inside the big left circle, inside the middle circle, and inside the top circle.",
+        "The bottom right circle does not reach up to the kangaroo, so the kangaroo is outside it.",
+        "That makes 3 circles."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "The kangaroo is inside more than 1 circle. Check each circle by itself.",
+        "B": "Check again: the kangaroo is inside the big left circle, the middle circle and the top circle.",
+        "D": "The kangaroo is outside the bottom right circle.",
+        "E": "There are only 4 circles in the picture."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:34:35Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q08": {
+      "source": "original",
+      "content_hash": "sha256:a50633edb672e7ba2bb0f59bf1bf5b25e416b1c8d363f961b68d961fe7690c77",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Move one arrow at a time and count the squares as you go.",
+      "steps": [
+        "Start at the ant's house. Go 2 squares right, then 2 squares down.",
+        "Then go 3 squares right and 3 squares up.",
+        "Then go 2 squares right, to the last column, and 2 squares up.",
+        "Now the ant is on the square with the butterfly."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "The bee is in the top row on the left side, far from where the ant ends.",
+        "C": "The ant walks just below the caterpillar, but it keeps going and does not end there.",
+        "D": "The ant walks up right next to the snail, but then it keeps going right and up.",
+        "E": "The frog is lower down. The ant ends 3 rows higher, in the last column."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:34:35Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q09": {
+      "source": "original",
+      "content_hash": "sha256:f44787433f1ff217faaf552f7a77ff615481679bb5a9b50091cb0e733c20e95b",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "The other piece must fit exactly into the zigzag edge, like a puzzle piece.",
+      "steps": [
+        "The two pieces fit together along the zigzag cut to make the rectangle.",
+        "Where the grey piece has a deep dip, the other piece must have a tall peak. The grey piece has 2 deep dips, so the other piece has 2 tall peaks.",
+        "Between its dips, the grey piece has 2 bumps with a small dip between them. So between its 2 tall peaks, the other piece has 2 dips with a small bump between them.",
+        "Turn the other piece upside down: it looks like E, with 2 tall peaks and a small bump in the middle."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "This piece has no small bump between its 2 peaks.",
+        "B": "This piece has 4 peaks, too many to fit the cut.",
+        "C": "This piece has 4 small peaks on top, which do not fit the 2 deep dips.",
+        "D": "This piece has 1 big peak in the middle, but it needs 2 tall peaks."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:34:35Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q10": {
+      "source": "original",
+      "content_hash": "sha256:f15dfcddf9023bc29ea9bdaf1b489646a3801f1fd2fd27c15376d8a282e7de53",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Look at each crossing: the stick on top is the one you can see whole.",
+      "steps": [
+        "Stick 2 is at the bottom. Stick 1 lies on it. Stick 5 crosses over stick 1, so 5 is higher than 1.",
+        "Stick 3 crosses over stick 5. Stick 7 crosses over stick 3.",
+        "Stick 4 crosses over stick 7. Stick 6 crosses over stick 4 and is on top.",
+        "From the bottom up: 2, 1, 5, 3, 7, 4, 6.",
+        "The middle stick has 3 sticks under it and 3 on top of it. That is stick 3."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "Stick 1 is 2nd from the bottom. Only stick 2 is under it.",
+        "C": "Stick 4 is 2nd from the top. Only stick 6 is on it.",
+        "D": "Stick 5 is 3rd from the bottom. Only 2 sticks are under it.",
+        "E": "Stick 7 is 3rd from the top. 4 sticks are under it."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:34:35Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q11": {
+      "source": "original",
+      "content_hash": "sha256:cad7baa677a784b9bb3632fe5e3aecc8bc43e8adf19c949c7fa5c927344178da",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Write down every number you can make, then keep the ones between 10 and 32.",
+      "steps": [
+        "The numbers must have 2 digits, and each digit is 1, 2 or 3.",
+        "Starting with 1: 11, 12, 13. All are bigger than 10.",
+        "Starting with 2: 21, 22, 23.",
+        "Starting with 3: 31 is smaller than 32. But 32 and 33 are not smaller than 32.",
+        "3 + 3 + 1 = 7 numbers."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "There are 3 numbers starting with 1 alone: 11, 12, 13.",
+        "B": "Do not forget the numbers starting with 2 and 3.",
+        "C": "Do not forget 31. It is smaller than 32.",
+        "E": "32 is not smaller than 32, so it does not count."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:34:35Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q12": {
+      "source": "original",
+      "content_hash": "sha256:097c9c5292ef678e49185948b3d3197a76d40d3e2dbc763d381a92a8bd010e82",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Find how many days were cabbage days. The other days were carrot days.",
+      "steps": [
+        "On a cabbage day they eat 2 cabbages. They ate 6 cabbages: 2 + 2 + 2 = 6. So there were 3 cabbage days.",
+        "A week has 7 days. 7 - 3 = 4 carrot days.",
+        "On each carrot day they eat 10 carrots: 10 + 10 + 10 + 10 = 40 carrots."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "That is only 2 carrot days, but there were 4.",
+        "B": "That is only 3 carrot days, but there were 4.",
+        "C": "Each carrot day has 10 carrots, so the answer must be a number of tens.",
+        "E": "That is 5 carrot days, but there were only 4."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:34:35Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q13": {
+      "source": "original",
+      "content_hash": "sha256:060d890802d996d80ce4ea76793a50da7f2d138127ec84ae383354a5ce21a051",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "The long rectangle is the biggest piece, so find where it can go first.",
+      "steps": [
+        "The 4 pieces are: a long rectangle, 1 big triangle and 2 small triangles.",
+        "In shape D, the long rectangle only fits across the middle.",
+        "That leaves 4 small triangle corners: 1 at the top left, 1 on the right, and 2 at the bottom.",
+        "We have only 2 small triangles, and the big triangle does not fit in any of those corners. So D cannot be made."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Put the rectangle in the middle, the big triangle on top and the 2 small triangles at the bottom.",
+        "B": "Put the rectangle at the bottom middle, the big triangle on top of it and a small triangle on each side.",
+        "C": "This shape can be made with the 4 pieces.",
+        "E": "This shape can be made with the 4 pieces."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:34:35Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q14": {
+      "source": "original",
+      "content_hash": "sha256:643710ed6c0e9b1fa67f67b194a62c133a499c596de96b325a538ed91549eab1",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Put the biggest digits in the tens places.",
+      "steps": [
+        "A digit in the tens place counts 10 times as much, so the biggest digits go there: 5 and 4.",
+        "The small digits 3 and 2 go in the ones places.",
+        "For example, 53 + 42. The tens give 50 + 40 = 90 and the ones give 3 + 2 = 5.",
+        "90 + 5 = 95."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "You can make a bigger sum by putting 5 and 4 in the tens places.",
+        "B": "You can make a bigger sum by putting 5 and 4 in the tens places.",
+        "C": "You can make a bigger sum by putting 5 and 4 in the tens places.",
+        "E": "The biggest you can make is 95. You cannot reach 97."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:34:35Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q15": {
+      "source": "original",
+      "content_hash": "sha256:b980327d3382f52c9c24b89a1dea8b0b9ce46b9fec6706122c302f46ccaaa260",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "The 4 red cubes must not touch, and there is only one way to fit them.",
+      "steps": [
+        "A cube touches the cubes next to it in its row, and the cubes it sits on or that sit on it.",
+        "The top cube and the 2 cubes under it all touch each other. So only 1 of these 3 cubes can be red. The other 3 red cubes must be in the 2 bottom rows.",
+        "The bottom row of 4 can hold only 2 red cubes that do not touch. So 1 red cube must be in the row with the ?.",
+        "If an end cube of that row is red, it sits on a bottom corner and the cube next to it. Then the 2 bottom rows only have room for 2 red cubes. The ? cube sits on the 2 middle bottom cubes, so the 2 bottom corners can still be red.",
+        "So the red cubes are the 2 bottom corners, the ? cube and the top cube. The ? cube is red."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "If the ? cube is blue, there is no way to fit all 4 red cubes without them touching.",
+        "C": "If the ? cube is green, there is no way to fit all 4 red cubes without them touching.",
+        "D": "If the ? cube is yellow, there is no way to fit all 4 red cubes without them touching.",
+        "E": "There is only one way to fit the 4 red cubes, so the colour is certain."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:34:35Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    }
+  }
+}

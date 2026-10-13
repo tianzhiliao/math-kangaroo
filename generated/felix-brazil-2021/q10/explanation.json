@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:5de925f9c4b3f23c8c96af242c2be8c57c5a3f208a4488e916db9500643e20a2",
+  "answer": "E",
+  "independent_answer": "E",
+  "key_idea": "Add up the lengths of the walls as Rose walks, until you reach 20 m.",
+  "steps": [
+    "From B, Rose walks 6 m to D. She has walked 6 m.",
+    "Then 5 m up to C: 6 + 5 = 11 m.",
+    "Then 4 m to A: 11 + 4 = 15 m.",
+    "Then 5 m down to E: 15 + 5 = 20 m. She stops at E."
+  ],
+  "answer_sentence": "So the answer is E.",
+  "choice_feedback": {
+    "A": "At A she has walked only 15 m.",
+    "B": "She would get back to B only after 27 m.",
+    "C": "At C she has walked only 11 m.",
+    "D": "At D she has walked only 6 m."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

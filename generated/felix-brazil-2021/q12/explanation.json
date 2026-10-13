@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:56062089dedeca341fe4da91cc6df1cd88a76ab971457ef946744e83b9fb0598",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "For each kind of flower, bring the smaller pot up to match the bigger pot.",
+  "steps": [
+    "Pot 1 has 3 tulips, 1 daisy and 2 roses. Pot 2 has 1 tulip, 4 daisies and 1 rose.",
+    "Tulips: 3 and 1. Pot 2 needs 2 more tulips.",
+    "Daisies: 1 and 4. Pot 1 needs 3 more daisies.",
+    "Roses: 2 and 1. Pot 2 needs 1 more rose.",
+    "In total she buys 2 + 3 + 1 = 6 flowers."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "2 flowers only fix the tulips. The daisies and roses still do not match.",
+    "B": "4 flowers are not enough. The daisies alone need 3.",
+    "D": "She can do it with fewer: 2 + 3 + 1 = 6 is enough.",
+    "E": "She can do it with fewer: 2 + 3 + 1 = 6 is enough."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

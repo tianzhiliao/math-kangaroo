@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:90d4929fe39cb56c90d6920f60f76ef8a6e38b1046e538c2a481d85259f2d361",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Find the shape of the white gap, then find pieces that cover it with nothing left over.",
+  "steps": [
+    "There are 5 white squares: 1 in the top row, 2 in the middle row and 2 in the bottom row.",
+    "The 2 white squares in the bottom row sit side by side. The green 2-square piece fits there.",
+    "The other 3 white squares make a small L: the top square, the one under it, and the one to the left of that.",
+    "Turn the orange L piece and it fills those 3 squares."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "The straight 3-square piece can only go down the second column. Then the 2 white squares left over do not touch, so the green piece cannot fit.",
+    "C": "This U-shaped piece does not match the shape of the white gap.",
+    "D": "This big L needs 3 squares in a line going down and 3 going across, but the gap has only one line of 3.",
+    "E": "This step-shaped piece does not match the shape of the white gap."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:01Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

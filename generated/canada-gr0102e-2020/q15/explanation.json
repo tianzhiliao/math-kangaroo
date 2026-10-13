@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:ce0a810739bd406e82cffad9a6ebccef4a4dac5d69ff9db0761e9561b483f916",
+  "answer": "A",
+  "independent_answer": "A",
+  "key_idea": "When you fold a net, two faces with one face between them in a straight line end up opposite.",
+  "steps": [
+    "In the column, 5 and 4 have the 7 between them, so 5 and 4 end up opposite.",
+    "5 + 4 = 9.",
+    "Check: 2 and 7 are opposite (2 + 7 = 9), and 1 and 8 are opposite (1 + 8 = 9). Every pair makes 9."
+  ],
+  "answer_sentence": "So the answer is A.",
+  "choice_feedback": {
+    "B": "2 is opposite 7, not 5.",
+    "C": "6 is not on this cube.",
+    "D": "7 touches 5 in the net, so it is next to 5, not opposite.",
+    "E": "9 is not on this cube."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T00:00:00Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

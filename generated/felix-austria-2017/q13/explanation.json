@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:07fa2e92778ba67ff4903e0779a686dada3aba82479273a6af5bc6e86fecfef8",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Turning a tile keeps the colors in the same order going around. Flipping is not allowed.",
+  "steps": [
+    "Go around the tile to the right, starting at pink: pink, yellow, green, blue.",
+    "The left half of B is the tile just as it is: pink and yellow on top, blue and green below.",
+    "The right half of B is the tile turned upside down: green and blue on top, yellow and pink below.",
+    "Going around the right half, it is still pink, yellow, green, blue. So Nora can make B."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "Going around each half, the colors come in the wrong order. Nora would need to flip the tiles.",
+    "C": "Going around each half, the colors come in the wrong order. Nora would need to flip the tiles.",
+    "D": "The left half has 2 pinks. Each tile has only 1 pink square.",
+    "E": "The right half works, but the left half has the colors in the wrong order. That tile would need to be flipped."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:36:33Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

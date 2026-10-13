@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:8a5ee664826fdf30dfd37a2aae71b6d184adfbff300ae4c599231e4380c8f276",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Each figure has 4 squares and must split into 2 pairs of squares that touch.",
+  "steps": [
+    "Each block is 2 squares. 2 blocks make 4 squares.",
+    "In figure C, the bottom square hangs under the middle square of the top row.",
+    "That bottom square must pair with the middle square. Then the left and right squares are left alone, and they do not touch.",
+    "So figure C cannot be made."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "A is 2 blocks in a row, end to end.",
+    "B": "B is 2 blocks, one on top of the other.",
+    "D": "D is one block standing up at the top and one block lying flat at the bottom.",
+    "E": "E is one block on the top left and one block on the bottom right."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:14Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

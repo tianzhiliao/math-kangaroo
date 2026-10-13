@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:b6ed6a48050b0ba2d86af1800c35897e4ead077a39941b06d76d0a73d8352052",
+  "answer": "A",
+  "independent_answer": "A",
+  "key_idea": "Take the father's weight away from the weight of both of them.",
+  "steps": [
+    "Together they weigh 45 kg.",
+    "The father alone weighs 39 kg.",
+    "Lina is what is left: 45 - 39 = 6. Lina weighs 6 kg."
+  ],
+  "answer_sentence": "So the answer is A.",
+  "choice_feedback": {
+    "B": "Check the take-away again: 45 - 39 = 6, not 4.",
+    "C": "Check the take-away again: 45 - 39 = 6, not 9.",
+    "D": "42 kg is more than the father weighs. Lina is much smaller than him.",
+    "E": "84 kg comes from adding 45 + 39. We must take away, not add."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:33:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:c608901429369d28c32efd8364a760653ceffaa0be11297de282b365ad5ba714",
+  "answer": "C",
+  "independent_answer": null,
+  "key_idea": "Both cats walk the same distance, so they meet halfway along the path.",
+  "steps": [
+    "Measure how long the whole path is.",
+    "Both cats walk the same distance, so they meet halfway.",
+    "Count half the path from P to find where they meet."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Count along the path from P to check this point.",
+    "B": "Count along the path from P to check this point.",
+    "D": "Count along the path from P to check this point.",
+    "E": "Count along the path from P to check this point."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T00:00:00Z",
+  "review": {
+    "status": "flagged",
+    "note": "Figure is broken: P, Q and points A-E are drawn beside the path, not on it, so the meeting point cannot be found. Regenerate the variant figure, then rewrite these steps."
+  }
+}

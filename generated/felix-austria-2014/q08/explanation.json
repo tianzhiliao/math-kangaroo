@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:ad9eb7902b6cb8ad91773331f71a53ffde266cf580693dd9a55d664acc421bed",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Move one step at a time and count the squares as you go.",
+  "steps": [
+    "Start at the house in the bottom left corner. Go 1 right and 1 up.",
+    "Go 3 right. Now the ant is in the second row from the bottom, in the fifth column.",
+    "Go 2 up. Now the ant is in the top row.",
+    "Go 1 right. The ant is in the top right corner, where the bird is."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "The bee is in the third column. The ant ends further right.",
+    "B": "The frog is in the top row, but 2 squares left of where the ant ends.",
+    "C": "The mouse is in the top left corner, but the ant walks right.",
+    "E": "The ladybird is 1 square below where the ant ends."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:34:35Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

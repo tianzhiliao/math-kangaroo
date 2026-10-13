@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:9d448b5255e2c430934c225535ddaa38617dea7d7e1ee1dbfe525ddd345f7a4d",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Count the petals and the leaves on each flower.",
+  "steps": [
+    "We need a flower with 4 petals and 2 leaves.",
+    "Count the pink petals: A has 5, B has 3, C has 4, D has 4, E has 6.",
+    "Only C and D have 4 petals. Now count their green leaves.",
+    "C has 2 leaves. D has only 1 leaf. So C is the flower."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "This flower has 5 petals and 3 leaves.",
+    "B": "This flower has 2 leaves, but only 3 petals.",
+    "D": "This flower has 4 petals, but only 1 leaf.",
+    "E": "This flower has 2 leaves, but 6 petals."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:34:35Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

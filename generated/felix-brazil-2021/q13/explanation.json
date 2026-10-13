@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:145ad4c5fb2437e8a99e4b483ea46f980d69d8de98ecd272ba0c033354a362da",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Each number in the code is the column of that letter on the board.",
+  "steps": [
+    "In BITE, B is in column 1, I in column 2, T in column 3 and E in column 3. So the code tells the column.",
+    "Code 1 2 4 3 means: a letter from column 1, then column 2, then column 4, then column 3.",
+    "BIKE: B is in column 1, I in column 2, K in column 4 and E in column 3. It fits."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "HOME starts with H, which is in column 2, so the code starts with 2.",
+    "B": "SHIP starts with S, which is in column 2, so the code starts with 2.",
+    "D": "STAR starts with S, which is in column 2, so the code starts with 2.",
+    "E": "NEST starts with N, which is in column 2, so the code starts with 2."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

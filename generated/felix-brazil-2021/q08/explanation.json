@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:60c76cfd71cdb1725032b1e6c02987f5c2acd946b498a0d75726041455868e53",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Check both rules: every number must be bigger than 4, and the sum must be 24.",
+  "steps": [
+    "Look for stars with 4 or less. B has a 3, and E has a 4. They are out.",
+    "A has four 5s. 5 + 5 + 5 + 5 = 20. That is not 24.",
+    "C has 6, 6, 6 and 7. 6 + 6 + 6 + 7 = 25. That is not 24.",
+    "D has three 8s. All are bigger than 4, and 8 + 8 + 8 = 24."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "All numbers are bigger than 4, but 5 + 5 + 5 + 5 = 20, not 24.",
+    "B": "This one has a 3. It is not bigger than 4.",
+    "C": "All numbers are bigger than 4, but 6 + 6 + 6 + 7 = 25, not 24.",
+    "E": "This one has a 4. 4 is not bigger than 4."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

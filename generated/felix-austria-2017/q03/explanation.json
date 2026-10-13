@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:3c37c55a676a890de37a1f287493b84af1062cc35399890519bcb27c8a8c4204",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Count the spaces in the full wall and take away the blocks that are there.",
+  "steps": [
+    "The full wall has 4 rows, and each row has room for 4 blocks. 4 + 4 + 4 + 4 = 16 blocks.",
+    "Count the blocks that are there: 2 in the top row, 3 in the second row, 2 in the third row and 2 in the bottom row. 2 + 3 + 2 + 2 = 9.",
+    "16 - 9 = 7 blocks are missing."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "That is too few. Count the gaps row by row: 2, 1, 2 and 2.",
+    "B": "That is 1 too few. Count the gaps row by row: 2 + 1 + 2 + 2 = 7.",
+    "D": "That is 1 too many. Count the gaps row by row: 2 + 1 + 2 + 2 = 7.",
+    "E": "9 is the number of blocks that are there, not the number missing."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:36:33Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

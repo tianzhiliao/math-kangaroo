@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:873922a7b1bd6c1cf10bdf89ea7974cd1295a66f0f3b97a109a769c0270c1429",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Look for pairs of cards that just need to swap places.",
+  "steps": [
+    "The goal is 5 4 3 2 1. Now the cards are 5 3 4 1 2.",
+    "The 5 is already first. The 3 and 4 are swapped. The 1 and 2 are swapped.",
+    "Swap 3 and 4: 5 4 3 1 2. Swap 1 and 2: 5 4 3 2 1.",
+    "One swap cannot fix 4 wrong cards, so 2 steps is the smallest."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "4 cards are in the wrong place, and one swap moves only 2.",
+    "C": "Two swaps are enough: 3 with 4, then 1 with 2.",
+    "D": "Two swaps are enough: 3 with 4, then 1 with 2.",
+    "E": "Two swaps are enough: 3 with 4, then 1 with 2."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:52:53Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:9f64c42989d6fe09cbb549117e5b2b2b53101393283f0a988754e27ee4792359",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "The 5 pictures repeat, so count in jumps of 5.",
+  "steps": [
+    "The order is heart, circle, square, triangle, star, and then it starts again.",
+    "Every 5th picture is a star: pictures 5, 10, 15 and 20.",
+    "Picture 21 is a heart, 22 is a circle and 23 is a square."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "The heart is picture 21, two too early.",
+    "B": "The circle is picture 22, one too early.",
+    "D": "The triangle is picture 24, one too far.",
+    "E": "The star is picture 20 and picture 25, not 23."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:57:02Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

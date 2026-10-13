@@ -110,7 +110,7 @@ This is intentional.
 
 ## Architectural constraints
 
-- The Next.js app depends on FastAPI for AI explanation and TTS.
+- The Next.js app depends on FastAPI for TTS. Explanations are read from `explanations.json` data files, not generated at request time.
 - The FastAPI app depends on `release-data/` and OpenAI credentials.
 - The pipeline can be worked on independently from the web app, but its outputs eventually feed both runtime layers.
 - There is no single root Python packaging file today; Python tooling spans API code, pipeline code, and test code.

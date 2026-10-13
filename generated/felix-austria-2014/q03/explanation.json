@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:9b78e6b6757a1475f09c55266129a54f77a03c27a0f9536072e8141e35a663dd",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Count the grey squares and the white squares, then take away.",
+  "steps": [
+    "There are 5 rows of 4 squares: 4 + 4 + 4 + 4 + 4 = 20 squares.",
+    "Each row has exactly 1 white square. So there are 5 white squares.",
+    "20 - 5 = 15 grey squares.",
+    "15 - 5 = 10. There are 10 more grey squares."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Count again: there are 15 grey and 5 white squares.",
+    "B": "Count again: there are 15 grey and 5 white squares.",
+    "D": "Count again: there are 15 grey and 5 white squares.",
+    "E": "Count again: there are 15 grey and 5 white squares."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:34:35Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "questions": {
+    "q01": {
+      "source": "original",
+      "content_hash": "sha256:f8fc3a609d464e691490bf7f7248e915ab56625473e6f47461f6f77523422e36",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Count only the triangles in each box.",
+      "steps": [
+        "Look at each box and count just the triangles. Skip the circles and squares.",
+        "Box A has 1 triangle, box B has 4, box C has 2, box D has 3 and box E has 1.",
+        "4 is the biggest number, so box B has the most triangles."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "Box A has only 1 triangle. Most of its shapes are circles and squares.",
+        "C": "Box C has only 2 triangles.",
+        "D": "Box D has 3 triangles. That is 1 fewer than box B.",
+        "E": "Box E has only 1 triangle."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:57Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q02": {
+      "source": "original",
+      "content_hash": "sha256:0ea8f95e1a8bbc264e94969172731e7041eb0d57863d7cda1d58828301701305",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "The second order is the first order plus one more juice.",
+      "steps": [
+        "Both orders have one sandwich.",
+        "The second order has one more juice than the first order.",
+        "That one extra juice makes the price go up from 12 to 14 Euros.",
+        "14 - 12 = 2, so one juice costs 2 Euros."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "If a juice cost 1 Euro, the second order would cost 12 + 1 = 13 Euros, not 14.",
+        "C": "If a juice cost 3 Euros, the second order would cost 12 + 3 = 15 Euros, not 14.",
+        "D": "If a juice cost 4 Euros, the second order would cost 12 + 4 = 16 Euros, not 14.",
+        "E": "If a juice cost 5 Euros, the second order would cost 12 + 5 = 17 Euros, not 14."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:57Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q03": {
+      "source": "original",
+      "content_hash": "sha256:c2676e8b3d77b68dd6fb06cdee048bccc180dd0d0e716634f70a7a7068dbe02e",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "The new picture must use one left half and one right half of the mushroom.",
+      "steps": [
+        "The cut makes a left half and a right half. They are mirror pictures of each other.",
+        "On the left half, the round edges of the cap and the stem bulge out to the left. On the right half, they bulge out to the right.",
+        "Turning a piece upside down does not change which half it is.",
+        "In picture E, the left piece is the left half standing up, and the right piece is the right half turned upside down. That is one of each."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "Both pieces are left halves. Anna has only one left half.",
+        "B": "The upside-down piece is a left half too, so this picture uses two left halves.",
+        "C": "Both pieces are left halves. One of them is just turned upside down.",
+        "D": "Both pieces are left halves turned upside down."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:57Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q04": {
+      "source": "original",
+      "content_hash": "sha256:db7a94c32adbe644b34a6deeba35a44f1b33ddcf222978210046c21cc7a43778",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Find the row with only 1 coin and the column with only 1 coin.",
+      "steps": [
+        "Count the coins in each row from the top: 2, 2, 1, 2. The third row needs one more coin.",
+        "Count the coins in each column from the left: 2, 2, 1, 2. The third column needs one more coin.",
+        "The new coin must go in the third row and the third column. That square is D."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Square A is in the second row, which already has 2 coins.",
+        "B": "Square B is in the top row, which already has 2 coins.",
+        "C": "Square C is in the second row, which already has 2 coins.",
+        "E": "Square E is in the bottom row, which already has 2 coins."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:57Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q05": {
+      "source": "original",
+      "content_hash": "sha256:20c9377ed67667db923e9759ef89bce2bc5b87e7a05b7412ca43cf80017d2bb8",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "The torn piece must fit the corner, and the things on it must carry on from the map.",
+      "steps": [
+        "The tear is at the top right corner of the map. So the piece has a straight top edge and a straight right edge.",
+        "Turn piece B upside down. Its two straight edges become a top edge and a right edge, and its torn edge fits the tear.",
+        "On the map, the red dashed path runs up toward the torn corner. On piece B, the red path carries on and ends at the treasure X.",
+        "The other pieces only show things we can already see on the map, like ships, mountains, the skull and the fish skeleton."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "The ships and mountains on this piece are already on the map.",
+        "C": "The fish skeleton on this piece is already on the map.",
+        "D": "The two people and the mountains on this piece are already on the map.",
+        "E": "The skull on this piece is already on the map."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:57Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q06": {
+      "source": "original",
+      "content_hash": "sha256:f1d97586250395b198f8ba8ac8d440ec5c33f2056bf68408bc02791b5ebcf4de",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Look for a shape that shows up on just one animal.",
+      "steps": [
+        "Every animal has triangles, so a triangle is not the special shape.",
+        "Squares and slanted pieces show up on more than one animal too.",
+        "The purple animal has a long rectangle for its head. It is twice as long as it is tall.",
+        "No other animal has a rectangle like that. It is on animal D."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Every shape on this animal is also used on another animal.",
+        "B": "Every shape on this animal is also used on another animal.",
+        "C": "Every shape on this animal is also used on another animal.",
+        "E": "Every shape on this animal is also used on another animal."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:57Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q07": {
+      "source": "original",
+      "content_hash": "sha256:bf421ba05a8bf51247f0184e1c16160f47812c61794f22a3337dec91b0a129e1",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "First find the two baskets that match in both pattern and shape.",
+      "steps": [
+        "Baskets 2 and 4 look the same: the same dotted pattern and the same shape. The koala and the fox sleep there.",
+        "Baskets 1 and 3 have the same woven pattern, but their shapes are different. The kangaroo and the rabbit sleep there.",
+        "Only basket 5 is left, so the mouse sleeps in basket 5."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "Basket 1 has the same pattern as basket 3, so the kangaroo or the rabbit sleeps there.",
+        "B": "Basket 2 matches basket 4, so the koala or the fox sleeps there.",
+        "C": "Basket 3 has the same pattern as basket 1, so the kangaroo or the rabbit sleeps there.",
+        "D": "Basket 4 matches basket 2, so the koala or the fox sleeps there."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:57Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q08": {
+      "source": "original",
+      "content_hash": "sha256:01c5d2a19b51f2a646b910c4ffa6591fcc8dea95ecf3ab90ec7daa637a76536c",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Check the blocks one by one and count the blocks each one touches.",
+      "steps": [
+        "On the left, 3 long blocks lie flat, one on top of the other. On the right, 2 long blocks stand up, one behind the other.",
+        "Each standing block touches all 3 flat blocks and the other standing block. That is 4.",
+        "The middle flat block touches the block above it, the block below it and both standing blocks. That is 4.",
+        "The top flat block and the bottom flat block each touch the middle flat block and both standing blocks. That is 3.",
+        "So 2 blocks touch exactly 3 others."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "The top flat block and the bottom flat block both touch exactly 3 others, so there are more than 1.",
+        "C": "The middle flat block touches 4 others, not 3.",
+        "D": "The two standing blocks touch 4 others, not 3.",
+        "E": "Only the top and bottom flat blocks touch exactly 3 others."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:57Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q09": {
+      "source": "original",
+      "content_hash": "sha256:2723fd0b729164faf479983f98bf8c4d508dee8c0858ef35576add3dce797fc9",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Follow each path arrow by arrow and stop if it lands in water.",
+      "steps": [
+        "The kangaroo starts in the bottom left corner. The koala is in the top right corner.",
+        "Path C goes 2 right, 2 up, 2 right, 2 up, then 3 right.",
+        "Those jumps go around all 4 ponds and land right on the koala."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "After 2 jumps right and 3 jumps up, the kangaroo lands in the pond at the top.",
+        "B": "After 2 jumps right, 2 jumps up and 4 more jumps right, the kangaroo lands in the pond on the right.",
+        "D": "The first jump to the left at the end lands in the pond at the top.",
+        "E": "After 2 jumps right and 3 jumps up, the kangaroo lands in the pond at the top."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:57Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q10": {
+      "source": "original",
+      "content_hash": "sha256:f69f1b54713860077d6c9a517ca0a2f4e245cbbaa9d531e093b71ab965aa193f",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "The same shape hides the same digit, and different shapes hide different digits.",
+      "steps": [
+        "The shapes are: heart, diamond, diamond, club, spade.",
+        "Only the 2nd and 3rd shapes are the same. So the 2nd and 3rd digits must be the same, and all the other digits must be different.",
+        "34426: the 2nd and 3rd digits are both 4, and 3, 4, 2, 6 are all different. It fits."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "34526 has 4 and 5 under the two diamonds, but the same shape needs the same digit.",
+        "C": "34423 has 3 under the heart and under the spade, but those are different shapes.",
+        "D": "34424 has 4 under the spade too, but the spade is not a diamond.",
+        "E": "32446 has 2 and 4 under the two diamonds, but the same shape needs the same digit."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:57Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q11": {
+      "source": "original",
+      "content_hash": "sha256:a0a303618ac2623978bb4345482f1d129b2109ff78ac9d2aa4eae835693d3abd",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "The path is made of 4 strips, one on each side, and each strip is 1 longer than the side of the square.",
+      "steps": [
+        "Look at the pictures: each strip of the path runs along one side and pokes out 1 past a corner.",
+        "Side 1: each strip is 1 + 1 = 2 long, so it takes 1 stone. 4 strips take 4 stones.",
+        "Side 3: each strip is 3 + 1 = 4 long, so it takes 2 stones. 4 strips take 8 stones.",
+        "Side 5: each strip is 5 + 1 = 6 long, so it takes 3 stones. 4 strips take 3 + 3 + 3 + 3 = 12 stones."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "Each of the 4 sides needs 3 stones, which makes 12. 10 stones are too few.",
+        "B": "Each of the 4 sides needs 3 stones, which makes 12. 11 stones are too few.",
+        "D": "Each of the 4 sides needs 3 stones, which makes 12. 14 stones are too many.",
+        "E": "16 stones would be 4 stones on each side, but each side needs only 3."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:57Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q12": {
+      "source": "original",
+      "content_hash": "sha256:ec2c972d89f6070d3a144c9a6c36da3c6812176316948caeb52b06ba0cbe64cf",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Count the small triangles in each lawn.",
+      "steps": [
+        "The dots make a grid of small triangles. Every lawn is made of these small triangles.",
+        "Count them: lawn A has 7, lawn B has 8, lawn C has 8, lawn D has 8 and lawn E has 8.",
+        "7 is the smallest number, so lawn A has the least grass."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "Lawn B has 8 small triangles. That is 1 more than lawn A.",
+        "C": "Lawn C has 8 small triangles. That is 1 more than lawn A.",
+        "D": "Lawn D has 8 small triangles. That is 1 more than lawn A.",
+        "E": "Lawn E has 8 small triangles. That is 1 more than lawn A."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:57Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q13": {
+      "source": "original",
+      "content_hash": "sha256:509e2448a7cdc2715193952588293e3590e16868b467e58085dcd37d3d6f9dc7",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "The two empty circles in the middle belong to both houses.",
+      "steps": [
+        "The left house has 6, 2 and 5. 6 + 2 + 5 = 13.",
+        "So the two empty middle circles must make 20 - 13 = 7 together.",
+        "The right house uses the same two middle circles, so they give 7 there too. With 3 and 1: 7 + 3 + 1 = 11.",
+        "20 - 11 = 9, so the question mark is 9."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "With 3, the right house adds up to 7 + 3 + 1 + 3 = 14, not 20.",
+        "B": "With 4, the right house adds up to 7 + 3 + 1 + 4 = 15, not 20.",
+        "C": "With 7, the right house adds up to 7 + 3 + 1 + 7 = 18, not 20.",
+        "E": "With 14, the right house adds up to 7 + 3 + 1 + 14 = 25, not 20."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:57Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q14": {
+      "source": "original",
+      "content_hash": "sha256:34bf149198886067f8d61f1059481748c4ce351024ed6b026bd674c00c76170f",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Dino cannot walk through every room, so leave out the smallest room he has to.",
+      "steps": [
+        "All 8 rooms together make 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36.",
+        "Colour the rooms like a chessboard. Each step goes to a room of the other colour. Room 1 and room 8 have the same colour, so Dino always has to leave out a room of the other colour: 2, 4, 5 or 7.",
+        "Leave out the smallest one, room 2. Dino walks 1, 5, 6, 7, 3, 4, 8.",
+        "1 + 5 + 6 + 7 + 3 + 4 + 8 = 34. That is the biggest result."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Dino can get more: 1, 5, 6, 7, 3, 4, 8 makes 34.",
+        "B": "Dino can get more: 1, 5, 6, 7, 3, 4, 8 makes 34.",
+        "C": "Dino can get more: 1, 5, 6, 7, 3, 4, 8 makes 34.",
+        "E": "36 means walking through all 8 rooms, and Dino cannot do that from room 1 to room 8."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:57Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q15": {
+      "source": "original",
+      "content_hash": "sha256:96da20f26f7f793ac757dcf80788a0d7a33239589dcc71e756482426a4fe5b22",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Work out each zebra's stripes, then pick the biggest number.",
+      "steps": [
+        "Runa has 15 stripes.",
+        "Zara has 3 more than Runa: 15 + 3 = 18.",
+        "Runa has 5 less than Biba, so Biba has 5 more than Runa: 15 + 5 = 20.",
+        "20 is the most, so Biba wins with 20 stripes."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "No zebra has 16 stripes. Runa has 15, Zara has 18 and Biba has 20.",
+        "B": "18 is Zara's number, but Biba has more stripes.",
+        "D": "No zebra has 21 stripes. Biba has 15 + 5 = 20.",
+        "E": "No zebra has 22 stripes. Biba has 15 + 5 = 20."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:51:57Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    }
+  }
+}

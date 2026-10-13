@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:9fc13018aaba56d92371fc2fb3ac5db44d2c6dc026f1d6b7e31d8d6397fa66dd",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "When one train's car numbers go down, the other train's go up by the same amount.",
+  "steps": [
+    "The two trains count their cars in opposite directions.",
+    "Car 11 is opposite car 11. Car 4 is 7 cars away from car 11, because 11 - 7 = 4.",
+    "On the other train, moving the same 7 cars makes the number go up by 7: 11 + 7 = 18.",
+    "So car 4 is opposite car 18."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "7 is how many cars we moved, not the car number.",
+    "C": "Car 11 is opposite car 11, not car 4.",
+    "D": "22 is 11 + 11, but we only move 7 cars.",
+    "E": "15 is 11 + 4, but we move 7 cars, not 4."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T00:00:00Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

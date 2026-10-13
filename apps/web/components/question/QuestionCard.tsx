@@ -328,8 +328,11 @@ export function QuestionCard({
               {choice.label}
             </span>
           );
+          // Compact cards are too narrow for the tag; the card colour carries it visually.
           const tagEl = tag ? (
-            <span className={`ml-auto shrink-0 text-caption ${tag.className}`}>
+            <span
+              className={compact ? "sr-only" : `ml-auto shrink-0 text-caption ${tag.className}`}
+            >
               {tag.text}
             </span>
           ) : null;

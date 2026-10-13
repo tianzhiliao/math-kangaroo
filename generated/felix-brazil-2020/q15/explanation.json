@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:5b95e5900c1eb869a2283d866daafaec9227993382d8889ff51ce19ffa210f84",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Turning over the right edge gives the same picture as turning over the top edge and then spinning it halfway around.",
+  "steps": [
+    "In the house we see, the roof is on top and the chimney is on the left.",
+    "Turning the card over its right edge instead is like turning it over the top edge and then spinning it upside down.",
+    "Spinning halfway around puts the roof at the bottom and moves the chimney to the right side.",
+    "Picture D shows the roof at the bottom with the chimney on the right."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "The roof is still on top. Only the chimney moved to the right.",
+    "B": "This is the same house we get by turning over the top edge.",
+    "C": "The roof is at the bottom, but the chimney is still on the left.",
+    "E": "This house is turned on its side."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

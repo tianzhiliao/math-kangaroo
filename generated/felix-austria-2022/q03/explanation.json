@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:c3668acf0cb2dc11f3e27020d2ead19c6b4ba42861fa5b0962aaf82c52bc5efa",
+  "answer": "A",
+  "independent_answer": "A",
+  "key_idea": "The new picture must use exactly the two pieces Mia cut.",
+  "steps": [
+    "The cut down the middle gives 2 pieces: a brown square and a grey square.",
+    "The new picture must use just these 2 squares, and nothing else.",
+    "Picture A has the brown square on top of the grey square. Those are the 2 pieces."
+  ],
+  "answer_sentence": "So the answer is A.",
+  "choice_feedback": {
+    "B": "The brown piece here is a triangle, but Mia's brown piece is a square.",
+    "C": "The brown piece here is a circle, but Mia's brown piece is a square.",
+    "D": "This picture has 3 pieces, but Mia has only 2.",
+    "E": "The brown piece is a long rectangle and the grey piece is a circle. Mia's pieces are squares."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:57Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:a6d5e45632b4f16b09cc455e93294e474a64d2d05fe033eb496628460e8ab25f",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "The sky goes on top, and the shapes on the edges must join up.",
+  "steps": [
+    "Two pieces have sky and two pieces have the house. The sky goes on top.",
+    "The red triangles must join into one hill: the piece with the sun goes left and the piece with the cloud goes right.",
+    "The two doors must meet in the middle: the plain wall goes left and the wall with the window goes right."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "The two red triangles slope away from each other, so they don't make one hill.",
+    "B": "The doors are on the outside edges, so they don't meet in the middle.",
+    "D": "The sky is at the bottom.",
+    "E": "Each row mixes a sky piece with a house piece."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T00:00:00Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

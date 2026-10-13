@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:b1ad51ae4335875a8cfcd54cfb69f7d9c5a0aa6370d6ac9ed531c141db4ce9eb",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Compare the straight parts of each path.",
+  "steps": [
+    "Each path is made of straight parts. Some parts are short and some are long.",
+    "D has 5 parts: 3 long parts going across and 2 short parts going down.",
+    "E has 4 parts: 2 long parts and 2 short parts. So D is longer than E by one long part.",
+    "A, B and C have shorter parts and no more than 4 of them, so they are shorter than D."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "A has only 3 parts, and none of them is as long as a long part of D.",
+    "B": "B has 4 short parts. That is shorter than D.",
+    "C": "C has 1 middle-sized part and 3 short parts. That is shorter than D.",
+    "E": "E has 2 long and 2 short parts, but D has 3 long and 2 short parts."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}
