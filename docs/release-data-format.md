@@ -201,6 +201,7 @@ The web layer reads:
 - `manifest.json` through `/api/exams`
 - `exam.json` through `/api/exams/[examId]`
 - raw assets through `/api/exams/[examId]/raw/[...path]`
+- `explanations.json` (pre-generated explanations, flagged entries removed) through `/api/exams/[examId]/explanations`
 
 ### FastAPI
 

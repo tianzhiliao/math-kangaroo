@@ -1,9 +1,11 @@
 "use client";
 
 import { generatedAssetUrl } from "@/lib/asset-url";
+import { useGeneratedExplanation } from "@/lib/queries";
 import type { AssetRecord, GeneratedQuestion } from "@/lib/types";
 import { useQuery } from "@tanstack/react-query";
 import { useState } from "react";
+import { ExplanationBody } from "./ExplanationBody";
 import { QuestionCard } from "./QuestionCard";
 import { Button } from "@/components/ui/Button";
 
@@ -41,7 +43,14 @@ export function GeneratedQuestionSection({
 
   const questionKey = `${examId}/${questionId}`;
   const [openKey, setOpenKey] = useState<string | null>(null);
+  const [revealedKey, setRevealedKey] = useState<string | null>(null);
   const open = openKey === questionKey;
+  const revealed = revealedKey === questionKey;
+  const explanationQuery = useGeneratedExplanation(examId, questionId, open);
+  const explanation =
+    explanationQuery.data && explanationQuery.data.answer === data?.answer
+      ? explanationQuery.data
+      : null;
 
   if (!data) return null;
 
@@ -84,13 +93,30 @@ export function GeneratedQuestionSection({
             readOnly
             hideAudio
             compact
-            showOutcome={false}
-            correctLabel=""
+            showOutcome={revealed}
+            correctLabel={revealed ? data.answer : ""}
             metaLabel="Similar question"
             resolveAssetUrl={(asset) =>
               generatedAssetUrl(examId, questionId, asset.path)
             }
           />
+          {revealed ? (
+            explanation ? (
+              <div className="mk-fade-in mt-5">
+                <ExplanationBody explanation={explanation} selectedLabel={null} />
+              </div>
+            ) : (
+              <p className="mt-4 text-explain-m md:text-explain">
+                The answer is {data.answer}.
+              </p>
+            )
+          ) : (
+            <div className="mt-4">
+              <Button variant="secondary" onClick={() => setRevealedKey(questionKey)}>
+                Show answer
+              </Button>
+            </div>
+          )}
         </div>
       ) : null}
     </section>

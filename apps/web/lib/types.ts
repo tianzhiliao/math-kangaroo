@@ -34,22 +34,19 @@ export interface AITextToSpeechRequest {
   format?: string;
 }
 
-export interface AIExplanationRequest {
-  exam_id: string;
-  question_number: number;
-  selected_label: string;
-  force_refresh?: boolean;
+/** A pre-generated explanation as served to the browser (see lib/explanations.ts). */
+export interface QuestionExplanation {
+  answer: string;
+  key_idea: string;
+  steps: string[];
+  answer_sentence: string;
+  /** One sentence per wrong choice label. */
+  choice_feedback: Record<string, string>;
 }
 
-export interface AIExplanationResponse {
-  exam_id: string;
-  question_number: number;
-  selected_label: string;
-  correct_label: string;
-  explanation: string;
-  model: string;
-  cache_hit: boolean;
-  generated_at: string;
+export interface ExplanationsResponse {
+  /** Keyed by question id; questions without a shown explanation are absent. */
+  questions: Record<string, QuestionExplanation>;
 }
 
 export interface ScoringRule {
