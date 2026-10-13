@@ -57,9 +57,10 @@
     },
     {
       "id": "q10",
-      "status": "generated",
+      "status": "withdrawn",
       "answer": "C",
-      "no_figure": false
+      "no_figure": false,
+      "withdrawn_reason": "No choice matches the figure: the shapes follow abcba, but every option has 1st = 3rd digit."
     },
     {
       "id": "q11",

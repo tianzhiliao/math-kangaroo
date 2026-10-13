@@ -35,6 +35,7 @@ from kangaroo_pdf.generated_questions import (  # noqa: E402
     audit_generated_questions,
     load_release_questions,
     render_markdown,
+    resolve_variant_dir,
 )
 
 SOLVE_PROMPT = """
@@ -109,8 +110,11 @@ def solve_variants(args: argparse.Namespace) -> dict[str, Any]:
         if args.exam_ids and exam_id not in args.exam_ids:
             continue
         for question in exam["questions"]:
+            # Withdrawn variants are skipped; duplicates are solved once, at their own folder.
             folder = args.generated_dir / exam_id / question["id"]
-            if (folder / "question.json").is_file():
+            if (folder / "question.json").is_file() and resolve_variant_dir(
+                args.generated_dir, exam_id, question["id"]
+            ):
                 jobs.append((exam_id, question["id"], folder))
     if args.limit:
         jobs = jobs[: args.limit]

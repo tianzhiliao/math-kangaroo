@@ -4,7 +4,8 @@ Each source question in ``release-data`` may have one generated variant at
 ``generated/<exam_id>/<question_id>/`` holding ``question.json``, its SVG
 figures, ``card.png`` (the rendered question) and ``compare.png`` (source vs
 variant, for human review). A per-exam ``manifest.json`` records the status of
-every source question, including ``skipped-duplicate`` entries that reuse the
+every source question, including ``withdrawn`` entries (kept on disk but not
+served, with a ``withdrawn_reason``) and ``skipped-duplicate`` entries that reuse the
 variant of an identical question in another exam.
 
 The audit is structural: it checks the data the web app and API rely on and
@@ -60,6 +61,8 @@ class AuditReport:
     source_questions: int = 0
     variants: int = 0
     duplicates: int = 0
+    # "exam_id/question_id" -> reason, for variants pulled from the app.
+    withdrawn: dict[str, str] = field(default_factory=dict)
     missing: list[str] = field(default_factory=list)
     findings: list[Finding] = field(default_factory=list)
     answer_distribution: Counter[str] = field(default_factory=Counter)
@@ -82,6 +85,7 @@ class AuditReport:
             "source_questions": self.source_questions,
             "variants": self.variants,
             "duplicates": self.duplicates,
+            "withdrawn": self.withdrawn,
             "missing": self.missing,
             "error_count": len(self.errors),
             "warning_count": len(self.warnings),
@@ -106,16 +110,24 @@ def load_release_questions(release_root: Path) -> dict[str, dict[str, Any]]:
 def resolve_variant_dir(
     generated_root: Path, exam_id: str, question_id: str
 ) -> Path | None:
-    """Folder holding the variant for a source question, following duplicates."""
+    """Folder holding the variant the app serves for a source question.
+
+    Follows skipped duplicates; a withdrawn variant counts as none.
+    """
+    entry = _manifest_entry(generated_root, exam_id, question_id)
+    if entry and entry.get("status") == "withdrawn":
+        return None
     direct = generated_root / exam_id / question_id
     if (direct / "question.json").is_file():
         return direct
-    entry = _manifest_entry(generated_root, exam_id, question_id)
     if not entry or entry.get("status") != "skipped-duplicate":
         return None
     dup_exam = entry.get("duplicate_of")
     dup_question = entry.get("duplicate_question")
     if not isinstance(dup_exam, str) or not isinstance(dup_question, str):
+        return None
+    target_entry = _manifest_entry(generated_root, dup_exam, dup_question)
+    if target_entry and target_entry.get("status") == "withdrawn":
         return None
     target = generated_root / dup_exam / dup_question
     return target if (target / "question.json").is_file() else None
@@ -142,6 +154,14 @@ def audit_generated_questions(release_root: Path, generated_root: Path) -> Audit
             report.source_questions += 1
             qid = source["id"]
             entry = _manifest_entry(generated_root, exam_id, qid)
+            if entry and entry.get("status") == "withdrawn":
+                reason = str(entry.get("withdrawn_reason") or "").strip()
+                report.withdrawn[f"{exam_id}/{qid}"] = reason
+                if not reason:
+                    report.findings.append(
+                        Finding(exam_id, qid, ERROR, "withdrawn_without_reason", "withdrawn needs a withdrawn_reason")
+                    )
+                continue
             if entry and entry.get("status") == "skipped-duplicate":
                 report.duplicates += 1
                 _audit_duplicate(report, generated_root, exams, exam_id, source, entry)
@@ -426,8 +446,11 @@ def render_markdown(report: AuditReport, solver: dict[str, Any] | None = None) -
         f"- Source questions in release-data: {report.source_questions}",
         f"- Generated variants: {report.variants}",
         f"- Reusing the variant of an identical question: {report.duplicates}",
+        f"- Withdrawn (not shown in the app): {len(report.withdrawn)}",
         f"- Missing: {len(report.missing)}",
         "",
+        *[f"  - `{key}`: {reason}" for key, reason in sorted(report.withdrawn.items())],
+        *([""] if report.withdrawn else []),
         "## Structural audit",
         "",
         f"- Errors: {len(report.errors)}",

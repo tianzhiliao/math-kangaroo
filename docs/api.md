@@ -128,7 +128,7 @@ Purpose:
 Success response:
 
 - `200 application/json`, the question in the `exam.json` question shape plus `answer` and `assets`
-- `200` with `null` when there is no variant, or the stored one fails validation (unknown asset refs, repeated labels, or an `answer` that is not a choice)
+- `200` with `null` when there is no variant, it is `withdrawn` in the manifest, or the stored one fails validation (unknown asset refs, repeated labels, or an `answer` that is not a choice)
 
 ## `GET /api/generated/[examId]/[questionId]/raw/[...path]`
 

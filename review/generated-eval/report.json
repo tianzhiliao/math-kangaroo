@@ -1,24 +1,34 @@
 {
   "audit": {
     "source_questions": 270,
-    "variants": 268,
+    "variants": 260,
     "duplicates": 2,
+    "withdrawn": {
+      "felix-austria-2018/q10": "Hands have no palm or back detail, so the count is 3 (B) or 5 (D).",
+      "felix-austria-2019/q02": "Two answers: read bottom-to-top, the chain also contains option C.",
+      "felix-austria-2019/q15": "Answer depends on an unstated premise (marks showing through the paper); the strips no longer form a pattern.",
+      "canada-gr0102e-2020/q07": "Figure broken: the path does not connect P and Q, and points A-E are not on the path.",
+      "canada-gr0102e-2021/q07": "Two answers: bracelet C is Nora's bracelet turned over.",
+      "felix-austria-2022/q10": "No choice matches the figure: the shapes follow abcba, but every option has 1st = 3rd digit.",
+      "canada-gr0102e-2023/q02": "Several answers: with cylinders, cones or a lying cylinder, A, B, D and E all fit the top view.",
+      "felix-austria-2024/q04": "Figure broken: no big-triangle outline, and the pieces do not form a triangle."
+    },
     "missing": [],
     "error_count": 0,
     "warning_count": 0,
-    "info_count": 27,
+    "info_count": 26,
     "answer_distribution": {
-      "A": 23,
-      "B": 66,
-      "C": 103,
+      "A": 22,
+      "B": 62,
+      "C": 100,
       "D": 55,
       "E": 21
     },
     "source_answer_distribution": {
-      "A": 40,
-      "B": 54,
-      "C": 60,
-      "D": 66,
+      "A": 38,
+      "B": 52,
+      "C": 58,
+      "D": 64,
       "E": 48
     },
     "findings": [
@@ -63,13 +73,6 @@
         "severity": "info",
         "code": "stem_reused",
         "message": "stem wording matches the source (similarity 0.98)"
-      },
-      {
-        "exam_id": "felix-austria-2019",
-        "question_id": "q02",
-        "severity": "info",
-        "code": "stem_reused",
-        "message": "stem wording matches the source (similarity 1.00)"
       },
       {
         "exam_id": "felix-austria-2019",

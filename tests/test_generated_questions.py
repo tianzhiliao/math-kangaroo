@@ -31,9 +31,16 @@ class CheckedInGeneratedQuestionsTests(unittest.TestCase):
     def test_every_release_question_has_a_variant(self) -> None:
         self.assertEqual(self.report.missing, [])
         self.assertEqual(
-            self.report.variants + self.report.duplicates,
+            self.report.variants + self.report.duplicates + len(self.report.withdrawn),
             self.report.source_questions,
         )
+
+    def test_withdrawn_variants_are_not_served(self) -> None:
+        for key, reason in self.report.withdrawn.items():
+            exam_id, question_id = key.split("/")
+            with self.subTest(variant=key):
+                self.assertTrue(reason)
+                self.assertIsNone(resolve_variant_dir(ROOT / "generated", exam_id, question_id))
 
     def test_no_audit_errors(self) -> None:
         errors = [f"{f.exam_id}/{f.question_id} {f.code}: {f.message}" for f in self.report.errors]
@@ -167,6 +174,19 @@ class AuditRuleTests(unittest.TestCase):
     def test_missing_card(self) -> None:
         (self.folder / "card.png").unlink()
         self.assertIn("file_missing", self._codes())
+
+    def test_withdrawn_variant_is_skipped_and_needs_a_reason(self) -> None:
+        (self.folder / "question.json").write_text(json.dumps({**self.variant, "answer": "F"}), encoding="utf-8")
+        self._write_manifest({"id": "q01", "status": "withdrawn", "answer": "F"})
+        report = audit_generated_questions(self.release, self.generated)
+        self.assertEqual(report.withdrawn, {"ex/q01": ""})
+        self.assertEqual({f.code for f in report.findings}, {"withdrawn_without_reason"})
+        self.assertIsNone(resolve_variant_dir(self.generated, "ex", "q01"))
+
+        self._write_manifest({"id": "q01", "status": "withdrawn", "withdrawn_reason": "Two answers.", "answer": "F"})
+        report = audit_generated_questions(self.release, self.generated)
+        self.assertEqual(report.findings, [])
+        self.assertEqual(report.variants, 0)
 
     def test_missing_variant(self) -> None:
         shutil.rmtree(self.folder)

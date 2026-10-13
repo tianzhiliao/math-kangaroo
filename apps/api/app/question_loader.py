@@ -73,18 +73,19 @@ def generated_root() -> Path:
 
 
 def resolve_variant_dir(exam_id: str, question_id: str) -> Path | None:
-    """Folder of the generated similar question, following skipped duplicates."""
+    """Folder of the generated similar question, following skipped duplicates.
+
+    A variant marked ``withdrawn`` in its manifest is treated as missing.
+    """
     if not EXAM_ID_PATTERN.match(exam_id) or not QUESTION_ID_PATTERN.match(question_id):
         return None
     root = generated_root()
+    entry = _variant_manifest_entry(root, exam_id, question_id)
+    if entry and entry.get("status") == "withdrawn":
+        return None
     direct = root / exam_id / question_id
     if (direct / "question.json").is_file():
         return direct
-    manifest_path = root / exam_id / "manifest.json"
-    if not manifest_path.is_file():
-        return None
-    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    entry = next((q for q in manifest.get("questions", []) if q.get("id") == question_id), None)
     if not entry or entry.get("status") != "skipped-duplicate":
         return None
     dup_exam = entry.get("duplicate_of")
@@ -93,8 +94,19 @@ def resolve_variant_dir(exam_id: str, question_id: str) -> Path | None:
         return None
     if not EXAM_ID_PATTERN.match(dup_exam) or not QUESTION_ID_PATTERN.match(dup_question):
         return None
+    target_entry = _variant_manifest_entry(root, dup_exam, dup_question)
+    if target_entry and target_entry.get("status") == "withdrawn":
+        return None
     target = root / dup_exam / dup_question
     return target if (target / "question.json").is_file() else None
+
+
+def _variant_manifest_entry(root: Path, exam_id: str, question_id: str) -> dict[str, Any] | None:
+    manifest_path = root / exam_id / "manifest.json"
+    if not manifest_path.is_file():
+        return None
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    return next((q for q in manifest.get("questions", []) if q.get("id") == question_id), None)
 
 
 def load_variant_snapshot(exam_id: str, question_number: int) -> QuestionSnapshot:

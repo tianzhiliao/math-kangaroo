@@ -10,10 +10,11 @@
     },
     {
       "id": "q02",
-      "status": "generated",
+      "status": "withdrawn",
       "duplicate_of": null,
       "answer": "A",
-      "error": null
+      "error": null,
+      "withdrawn_reason": "Two answers: read bottom-to-top, the chain also contains option C."
     },
     {
       "id": "q03",
@@ -103,10 +104,11 @@
     },
     {
       "id": "q15",
-      "status": "generated",
+      "status": "withdrawn",
       "duplicate_of": null,
       "answer": "B",
-      "error": null
+      "error": null,
+      "withdrawn_reason": "Answer depends on an unstated premise (marks showing through the paper); the strips no longer form a pattern."
     }
   ]
 }

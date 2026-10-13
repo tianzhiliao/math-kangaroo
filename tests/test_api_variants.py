@@ -184,6 +184,25 @@ class ApiVariantTests(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.json()["correct_label"], "C")
 
+    def test_withdrawn_variant_is_404_also_for_its_duplicates(self) -> None:
+        (self.generated_root / "sample-exam" / "manifest.json").write_text(
+            json.dumps(
+                {
+                    "exam_id": "sample-exam",
+                    "questions": [
+                        {"id": "q01", "status": "withdrawn", "withdrawn_reason": "Two answers.", "answer": "C"}
+                    ],
+                }
+            ),
+            encoding="utf-8",
+        )
+        for exam_id in ("sample-exam", "copy-exam"):
+            with self.subTest(exam_id=exam_id):
+                self.assertIsNone(resolve_variant_dir(exam_id, "q01"))
+                response = self._explain(_FakeOpenAIClient(), exam_id=exam_id)
+                self.assertEqual(response.status_code, 404)
+                self.assertEqual(response.json()["detail"], "variant_not_found")
+
     def test_missing_variant_is_404(self) -> None:
         response = self._explain(_FakeOpenAIClient(), question_number=2)
         self.assertEqual(response.status_code, 404)

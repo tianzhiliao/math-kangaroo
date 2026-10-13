@@ -24,10 +24,11 @@
     },
     {
       "id": "q04",
-      "status": "generated",
+      "status": "withdrawn",
       "duplicate_of": null,
       "answer": "C",
-      "error": null
+      "error": null,
+      "withdrawn_reason": "Figure broken: no big-triangle outline, and the pieces do not form a triangle."
     },
     {
       "id": "q05",

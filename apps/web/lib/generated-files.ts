@@ -35,10 +35,30 @@ interface ManifestEntry {
   duplicate_question?: unknown;
 }
 
+async function manifestEntry(
+  examId: string,
+  questionId: string,
+): Promise<ManifestEntry | undefined> {
+  const dir = generatedQuestionDir(examId, questionId);
+  if (!dir) return undefined;
+  try {
+    const manifestPath = path.join(path.dirname(dir), "manifest.json");
+    const manifest = JSON.parse(await readFile(manifestPath, "utf-8")) as {
+      questions?: ManifestEntry[];
+    };
+    return manifest.questions?.find((q) => q.id === questionId);
+  } catch {
+    // No manifest, or an unreadable one.
+    return undefined;
+  }
+}
+
 /**
  * Folder holding the similar question for a source question. A question the
  * generator skipped as a duplicate of one in another paper reuses that
- * paper's variant (manifest `duplicate_of` + `duplicate_question`).
+ * paper's variant (manifest `duplicate_of` + `duplicate_question`). A variant
+ * marked `withdrawn` (broken figure, several answers) is not served; its files
+ * stay on disk for regeneration.
  */
 export async function resolveGeneratedQuestionDir(
   examId: string,
@@ -46,32 +66,22 @@ export async function resolveGeneratedQuestionDir(
 ): Promise<string | null> {
   const dir = generatedQuestionDir(examId, questionId);
   if (!dir) return null;
+  const entry = await manifestEntry(examId, questionId);
+  if (entry?.status === "withdrawn") return null;
   if (await isFile(path.join(dir, "question.json"))) return dir;
 
-  try {
-    const manifestPath = path.join(path.dirname(dir), "manifest.json");
-    const manifest = JSON.parse(await readFile(manifestPath, "utf-8")) as {
-      questions?: ManifestEntry[];
-    };
-    const entry = manifest.questions?.find((q) => q.id === questionId);
-    if (
-      entry?.status !== "skipped-duplicate" ||
-      typeof entry.duplicate_of !== "string" ||
-      typeof entry.duplicate_question !== "string"
-    ) {
-      return null;
-    }
-    const target = generatedQuestionDir(
-      entry.duplicate_of,
-      entry.duplicate_question,
-    );
-    if (target && (await isFile(path.join(target, "question.json")))) {
-      return target;
-    }
-  } catch {
-    // No manifest, or an unreadable one: there is no variant.
+  if (
+    entry?.status !== "skipped-duplicate" ||
+    typeof entry.duplicate_of !== "string" ||
+    typeof entry.duplicate_question !== "string"
+  ) {
+    return null;
   }
-  return null;
+  const target = generatedQuestionDir(entry.duplicate_of, entry.duplicate_question);
+  if (!target) return null;
+  const targetEntry = await manifestEntry(entry.duplicate_of, entry.duplicate_question);
+  if (targetEntry?.status === "withdrawn") return null;
+  return (await isFile(path.join(target, "question.json"))) ? target : null;
 }
 
 /** Resolve a single SVG inside a generated question folder. */

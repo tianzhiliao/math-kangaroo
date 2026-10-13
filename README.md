@@ -61,6 +61,8 @@ These checks validate answer labels and a small set of English phrases; they do 
 
 `generated/<exam_id>/<question_id>/` holds one AI-generated variant per source question: `question.json` (the `exam.json` question shape plus `answer`), SVG figures, `explanation.json` (its pre-generated explanation), `card.png` (the rendered question) and `compare.png` (source and variant side by side, for review). See [`workflows/similar-kangaroo-question/SKILL.md`](workflows/similar-kangaroo-question/SKILL.md) for how they are made.
 
+A variant found to be broken (unanswerable figure, several right answers) is pulled by setting its manifest entry to `"status": "withdrawn"` with a `withdrawn_reason`. The files stay for regeneration, but the web app and API treat the source question as having no similar question.
+
 Evaluate them with:
 
 ```bash
