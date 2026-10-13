@@ -20,11 +20,11 @@ picks the most common letter scores its share without reading the question.
 
 | Letter | Variants | Share | Sources | Share |
 |---|---|---|---|---|
-| A | 23 | 9% | 46 | 17% |
-| B | 66 | 25% | 51 | 19% |
-| C | 103 | 38% | 59 | 22% |
-| D | 55 | 21% | 65 | 24% |
-| E | 21 | 8% | 47 | 18% |
+| A | 23 | 9% | 40 | 15% |
+| B | 66 | 25% | 54 | 20% |
+| C | 103 | 38% | 60 | 22% |
+| D | 55 | 21% | 66 | 25% |
+| E | 21 | 8% | 48 | 18% |
 
 | Severity | Check | Count |
 |---|---|---|
