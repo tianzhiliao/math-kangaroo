@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:f147ed009deb4e9f5d3d047ba114f0c3f2804e979b52258a73674b4735d373c6",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "The school in the photo must look just like the school, with Sam in front.",
+  "steps": [
+    "The school has a pink roof on the left, a clock tower in the middle and a flag on the right tower.",
+    "Sam is in his own photo, so we must see his face too.",
+    "Only B has the right school and Sam."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "The school is flipped: the flag is on the left.",
+    "C": "The middle tower has a window, not a clock.",
+    "D": "Sam is not in this photo.",
+    "E": "There is no clock and no flag."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T00:00:00Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

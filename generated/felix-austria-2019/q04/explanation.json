@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:06bd24b57fa16e264a71816b002b888157258b6ae89b15352e8da87ae40d31c6",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Give every child a place number counted from the front.",
+  "steps": [
+    "There are 11 children. Pia is number 4 from the front.",
+    "Leo is 3rd from the back. Count back from 11: 11, 10, 9. So Leo is number 9 from the front.",
+    "The children between them are numbers 5, 6, 7 and 8.",
+    "That is 4 children."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "You missed some. Numbers 5, 6, 7 and 8 are all between Pia and Leo.",
+    "B": "You missed one. Numbers 5, 6, 7 and 8 are all between Pia and Leo.",
+    "D": "You counted Pia or Leo too. Only count the children between them.",
+    "E": "You counted Pia and Leo too. Only count the children between them."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:33:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

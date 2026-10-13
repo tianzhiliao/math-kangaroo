@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:084b7a45bd01b1b0e06e9253c490daab19e56b010247a6694f574f4644f3dbd4",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Follow the arrows square by square and list every path.",
+  "steps": [
+    "The middle square only has an arrow to the right. From there the mouse must go right.",
+    "Along the top: right, right, down, down. Through the middle: right, down, right, down.",
+    "Down first: down, right, right, down. Along the left side: down, down, right, right.",
+    "That is 4 paths."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "There are more. Try the paths through the middle square too.",
+    "B": "You missed one. List the paths along the top, the left side and through the middle.",
+    "D": "The middle square has no arrow pointing down, so some paths are not allowed.",
+    "E": "The middle square has no arrow pointing down. Paths that go down from there are not allowed."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:33:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

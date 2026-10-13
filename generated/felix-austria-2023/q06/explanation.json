@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:ba9d0c0a133bb1a575798c67b29e9c61126d72d3007a61d245e5f92d4f4520e7",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "The grey shapes show the missing pieces. Add up what each one costs.",
+  "steps": [
+    "Find the grey shapes: 1 grey circle, 2 grey triangles and 1 grey square.",
+    "The circle costs 2 points. Each triangle costs 3 points: 3 + 3 = 6.",
+    "The square costs 4 points.",
+    "Add them up: 2 + 6 + 4 = 12."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "9 forgets one of the grey triangles, which costs 3 points.",
+    "B": "10 forgets the grey circle, which costs 2 points.",
+    "C": "11 is too few. Add 2 + 3 + 3 + 4 again.",
+    "E": "14 is too many. The 4 grey pieces cost 2 + 3 + 3 + 4 = 12."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:01Z",
+  "review": {
+    "status": "flagged",
+    "note": "Key D is confirmed by the blind solver. Note the butterfly is not symmetric (bottom-left wing piece is a triangle, bottom-right is a square), and the text says 'the butterfly on the right' although only one butterfly is shown. The grey outlines make the answer clear; consider whether the figure should be redrawn."
+  }
+}

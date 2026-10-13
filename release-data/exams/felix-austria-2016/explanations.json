@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "questions": {
+    "q01": {
+      "source": "original",
+      "content_hash": "sha256:57d7626aaf32c910489680ccdd0700f27e867460b8c90321f7d18eee5e90c7d7",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Every rope has 2 ends, so count the ends and share them out 2 by 2.",
+      "steps": [
+        "Look for the rope ends. Each end has a black dot.",
+        "There are 6 dots: 2 on the left, 3 on the top right, and 1 at the bottom.",
+        "No rope is a closed ring, so every rope has exactly 2 ends.",
+        "6 ends make 3 pairs: 2 + 2 + 2 = 6. So there are 3 ropes."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "2 ropes would have only 4 ends, but there are 6 ends.",
+        "C": "4 ropes would have 8 ends, but there are only 6 ends.",
+        "D": "5 ropes would have 10 ends, but there are only 6 ends.",
+        "E": "6 is the number of rope ends. Each rope has 2 ends."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:54:27Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q02": {
+      "source": "original",
+      "content_hash": "sha256:f84737dad5b5d5e4b8e72d8c39becd4b39d5072c57328b42337883a4a7a578e2",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Add the animals that live in the cave and the animals that visit.",
+      "steps": [
+        "Animals that live in the cave: 1 starfish + 2 seahorses + 3 turtles = 6.",
+        "Visitors: 3 starfish + 4 turtles + 5 seahorses = 12.",
+        "All together: 6 + 12 = 18 animals."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "6 is only the animals that live in the cave. The visitors are missing.",
+        "B": "Count every animal: 6 live there and 12 visit.",
+        "C": "12 is only the visitors. The 6 animals that live there are missing.",
+        "D": "Count again: 6 animals live there and 12 visit, so there are more than 15."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:54:27Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q03": {
+      "source": "original",
+      "content_hash": "sha256:c071a578f94c40ff9b210e5c30d0aad81671eba6012dfe383149a430429b4e10",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Walk from O through the gaps in the walls and see where you can get to.",
+      "steps": [
+        "From O, step out through a gap in the small wall around it.",
+        "Walk to the gap at the top of the next wall and go through it.",
+        "Turn left and walk around to the gap on the upper left of the next wall. Go through it into the outside ring.",
+        "Walk to the right along the outside ring up to the top. There you find C."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "A wall stands right next to the upper left gap, so you cannot walk down the outside ring to A.",
+        "B": "B is joined only to the part where E is, and that part is walled off from O.",
+        "D": "D is in a small room with walls all around it.",
+        "E": "E is close to O, but a wall stands between them."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:54:27Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q04": {
+      "source": "original",
+      "content_hash": "sha256:7f65b3e2395a0b6c228c75a42db71d64256815a679d8cc3e117f30ebb7140666",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Do not forget Robert himself. He is a boy too.",
+      "steps": [
+        "10 friends come and 6 of them are girls.",
+        "So 10 - 6 = 4 friends are boys.",
+        "Robert is also at the party, and he is a boy: 4 + 1 = 5 boys."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "4 counts only the boy friends. Robert is a boy too.",
+        "C": "6 is the number of girls, not boys.",
+        "D": "There are 4 boy friends plus Robert. That makes 5, not 7.",
+        "E": "There are 4 boy friends plus Robert. That makes 5, not 8."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:54:27Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q05": {
+      "source": "original",
+      "content_hash": "sha256:8b8ee743467c564a8a1e9d23ecfa8f3a8e8ec971aa9b0500d2627bc870105738",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "When you count from one number to another, count both the first and the last house.",
+      "steps": [
+        "From 15 to 47 there are 47 - 15 = 32 steps.",
+        "But house 15 gets a flyer too, so add 1 more.",
+        "32 + 1 = 33 houses."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "This leaves out 2 of the houses.",
+        "B": "32 forgets to count house 15 itself.",
+        "D": "This counts 1 house too many.",
+        "E": "This counts 2 houses too many."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:54:27Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q06": {
+      "source": "original",
+      "content_hash": "sha256:3ae376b73c052a4017c04348f803a2fe36943e66a6f228de237f1554ea2fdb20",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Count every cube, also the hidden ones that hold up the cubes on top.",
+      "steps": [
+        "A cube that sits up high needs a cube under it, even if we cannot see it.",
+        "In A, the tall tower at the back has 3 cubes. The tower in front of it has 2 cubes.",
+        "In front of those towers there are 2 more cubes in a row. On the right side there are 3 more cubes.",
+        "3 + 2 + 2 + 3 = 10. That uses all 10 dice."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "B needs 12 cubes when you count the hidden ones under the towers.",
+        "C": "C has two towers of 3, 1 cube between them, 2 in front and 2 at the back: 11 cubes.",
+        "D": "D has a tower of 5 and 6 cubes around its bottom: 11 cubes.",
+        "E": "E has a tower of 3 and 8 more flat cubes around it: 11 cubes."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:54:27Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q07": {
+      "source": "original",
+      "content_hash": "sha256:b7921bfa7b0a55bf8626d1e003a0a26ca63873bbf5471954946f5e8119965a1f",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Eggs next to each other or one above the other touch, so each column can hold only 1 brown egg.",
+      "steps": [
+        "The box has 2 rows with 3 eggs in each row, so there are 3 columns.",
+        "The 2 eggs in the same column touch, so each column can have at most 1 brown egg.",
+        "Put brown eggs top left, bottom middle, top right. They only meet corner to corner, so they do not touch.",
+        "That is 3 brown eggs, and 4 is not possible with only 3 columns."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "You can fit more: one brown egg in each column works.",
+        "B": "You can fit one more: one brown egg in each of the 3 columns.",
+        "D": "With 4 brown eggs, 2 of them would be in the same column and touch.",
+        "E": "With 5 brown eggs, many of them would touch each other."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:54:27Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q08": {
+      "source": "original",
+      "content_hash": "sha256:e4b4c97f3f595ea0db77c0fc7983eade4abb9dc06050882d1c4b78b718e51e6a",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Take away the cat's legs first, then share the rest in 2s.",
+      "steps": [
+        "The cat has 4 legs. 20 - 4 = 16 legs are left.",
+        "Each chicken has 2 legs.",
+        "16 legs is 8 pairs of legs, so there are 8 chickens."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "11 chickens would have 22 legs, even without the cat.",
+        "B": "9 chickens have 18 legs. With the cat's 4 legs that is 22, not 20.",
+        "D": "6 chickens have 12 legs. With the cat's 4 legs that is only 16.",
+        "E": "4 chickens have 8 legs. With the cat's 4 legs that is only 12."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:54:27Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q09": {
+      "source": "original",
+      "content_hash": "sha256:5c558e44992817bad7d16a202d63d026153136f6e10b6187c51252138053e20f",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Each room with the light on has 2 bright windows.",
+      "steps": [
+        "18 windows are bright, and each lit room has 2 of them.",
+        "18 windows are 9 pairs, so the light was on in 9 rooms.",
+        "The house has 12 rooms: 12 - 9 = 3 rooms had the light off."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "If only 2 rooms were dark, 10 rooms would be lit with 20 bright windows.",
+        "C": "If 4 rooms were dark, 8 rooms would be lit with only 16 bright windows.",
+        "D": "If 6 rooms were dark, 6 rooms would be lit with only 12 bright windows.",
+        "E": "9 is the number of rooms with the light on, not off."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:54:27Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q10": {
+      "source": "original",
+      "content_hash": "sha256:daabe964e0ce3fcac57266d5d9b59c3f47b6d4b30f44a05084fdce487a7a60c8",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "In 4 years each of the two boys gets 4 years older.",
+      "steps": [
+        "Now Paul and Josef are 12 years old together.",
+        "In 4 years Paul is 4 years older, and Josef is 4 years older too.",
+        "12 + 4 + 4 = 20."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "16 adds the 4 years only once. Both boys get older.",
+        "B": "Each boy gets 4 years older, so add 4 + 4 = 8 years.",
+        "C": "Each boy gets 4 years older, so add 4 + 4 = 8 years.",
+        "D": "Each boy gets 4 years older, so add 4 + 4 = 8 years."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:54:27Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q11": {
+      "source": "original",
+      "content_hash": "sha256:8681e2ee2d97e422f1c4327f58c0f8e347bd0fc9a621196651d66fc67f97715e",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Walk the road like Gerda and turn with her. Only write a letter when it is on her right hand side.",
+      "steps": [
+        "From point 1 she walks up. The K is on her right.",
+        "She turns left and walks along the top. The A is inside, on her left. Then she walks down the left side, and the N is on her right.",
+        "She walks along the bottom. The G is inside, on her left. Then she walks up, and the A is on her right.",
+        "She walks along the small top part. The O there is on her left. Then she walks down to point 2, and the other O is on her right.",
+        "The letters on her right are K, N, A, O. That spells KNAO."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "The G is on her left side, not her right.",
+        "C": "The R is on her left side, and the A and O are missing.",
+        "D": "She sees the K first. The A at the top and the G are on her left.",
+        "E": "The N on the left side of the road is on her right, so it belongs in the word."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:54:27Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q12": {
+      "source": "original",
+      "content_hash": "sha256:ef14ace9eb5348b5d87444748b4dad71289de747dcf5f38831a17bcdf2fc206e",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Try to cover each shape with pieces. Start with a square that has only one neighbour.",
+      "steps": [
+        "Each piece is 3 squares in a row with 1 square sticking out of the middle.",
+        "In D, the top square only touches the square below it. So one piece must be the column of 3 on the left with its bump to the right.",
+        "The 4 squares left over make a zigzag step shape. That is not the piece shape.",
+        "So D cannot be made. Every other shape can be split into pieces."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "A can be made from 2 pieces, one with its bump up and one with its bump down.",
+        "B": "B can be made from 2 pieces: the left column with a bump, and the bottom right row with a bump up.",
+        "C": "C can be made from 2 pieces: the top row with a bump down, and the bottom row with a bump up.",
+        "E": "The big square can be made from 4 pieces, one along each side."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:54:27Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q13": {
+      "source": "original",
+      "content_hash": "sha256:91c045e8208c37d054b30ff9719ba2759b5500f62f47ab1f011a27b796fc0492",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Look at which way each beak points, then count the sparrows on that side.",
+      "steps": [
+        "From left to right, the beaks point: right, left, right, left, right.",
+        "Sparrow 1 looks right and sees 4. Sparrow 2 looks left and sees 1. Sparrow 3 looks right and sees 2.",
+        "Sparrow 4 looks left and sees 3. Sparrow 5 looks right and sees 0.",
+        "4 + 1 + 2 + 3 + 0 = 10 whistles."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Add every sparrow's whistles: 4 + 1 + 2 + 3 + 0.",
+        "B": "Add every sparrow's whistles: 4 + 1 + 2 + 3 + 0.",
+        "C": "Add every sparrow's whistles: 4 + 1 + 2 + 3 + 0.",
+        "E": "Check which way each beak points. The last sparrow sees nobody."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:54:27Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q14": {
+      "source": "original",
+      "content_hash": "sha256:afb4be801b230e7613016ee6066cb3ada99628a2016f650d899296732d3c7200",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "For each ladybird, find the difference and the total of its spots, then find the flower that matches.",
+      "steps": [
+        "Ladybirds, top wing and bottom wing: 5 and 2, 4 and 2, 4 and 3, 5 and 3, 6 and 1.",
+        "Their difference and total: 5 - 2 = 3 and 7; 4 - 2 = 2 and 6; 4 - 3 = 1 and 7; 5 - 3 = 2 and 8; 6 - 1 = 5 and 7.",
+        "Flowers, leaves and petals: A has 5 and 7, B has 1 and 7, C has 2 and 8, D has 3 and 7, E has 2 and 7.",
+        "A gets 6 and 1. B gets 4 and 3. C gets 5 and 3. D gets 5 and 2.",
+        "E needs a difference of 2 and a total of 7. No ladybird has that."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "The ladybird with 6 and 1 spots fits: 6 - 1 = 5 leaves and 6 + 1 = 7 petals.",
+        "B": "The ladybird with 4 and 3 spots fits: 4 - 3 = 1 leaf and 4 + 3 = 7 petals.",
+        "C": "The ladybird with 5 and 3 spots fits: 5 - 3 = 2 leaves and 5 + 3 = 8 petals.",
+        "D": "The ladybird with 5 and 2 spots fits: 5 - 2 = 3 leaves and 5 + 2 = 7 petals."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:54:27Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q15": {
+      "source": "original",
+      "content_hash": "sha256:a8279f781b041e2668ea61350b940c047dc07272c540a44c6564947c916adf5e",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "A side cannot be opposite a side it touches. Find the only side that never touches it.",
+      "steps": [
+        "The side with the small square inside a square is in both pictures.",
+        "In the first cube it touches the side with a line and the side with a small diamond.",
+        "In the second cube it touches the side with 4 boxes and the side with the X.",
+        "It touches 4 sides. The only side left is the big diamond, so the big diamond is opposite the small square inside a square."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "The small diamond sits next to the small square inside a square, so it is not the side left over.",
+        "B": "The side with a line sits next to the small square inside a square, so it is not the side left over.",
+        "D": "The side with 4 boxes sits next to the small square inside a square, so it is not the side left over.",
+        "E": "The side with the X sits next to the small square inside a square, so it is not the side left over."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:54:27Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    }
+  }
+}

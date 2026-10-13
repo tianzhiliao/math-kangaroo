@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:46753acdf1ee2c09298de129c5732af0a610b2e393a1e1a5a92c435faa25e3c7",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "On every night one owl hoots and the other two listen.",
+  "steps": [
+    "There were 10 nights, so 10 hoots.",
+    "The second owl listened to 7 hoots, so it hooted on the other nights: 10 - 7 = 3 hoots.",
+    "The first owl hooted 4 times. The third owl hooted the rest: 10 - 4 - 3 = 3 hoots.",
+    "The third owl listened when it did not hoot: 10 - 3 = 7 hoots."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "8 would mean the third owl hooted only 2 times. It hooted 3 times.",
+    "C": "6 is how many times the first owl listened, not the third owl.",
+    "D": "5 is too few. The third owl listened on every night it did not hoot: 10 - 3 = 7.",
+    "E": "4 is how many times the first owl hooted."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:01Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

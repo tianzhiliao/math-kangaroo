@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:732067194f4321102db2ad00a4c1336441cdbaf05004bae548a1451646839742",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Find the group of 5 shapes that keeps repeating.",
+  "steps": [
+    "The shapes repeat in a group of 5: circle, square, triangle, diamond, oval.",
+    "We see circle, square, triangle, diamond, oval, then circle, square, triangle.",
+    "After the triangle comes the diamond, and then the oval."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "The circle and square start a group. They come after the oval.",
+    "C": "The oval comes after the diamond, not right after the triangle.",
+    "D": "The triangle was just pulled out. Next is the diamond.",
+    "E": "The square and triangle were the last two shown."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T00:00:00Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:c673f055ff794ad821381dad4f5670d780f7bd999a2158ead4c1c2263a5e1884",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Check the three clues one at a time.",
+  "steps": [
+    "The body must have a star. C has a circle, so C is out.",
+    "The eye on the right side of the picture must be a triangle. A has two dot eyes and E has the triangle on the left, so they are out.",
+    "The arm on the left side of the picture must be raised. B raises the arm on the right, so B is out.",
+    "D has the star, the triangle eye on the right and the raised arm on the left."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "Both eyes are dots. There is no triangle eye.",
+    "B": "The raised arm is on the right side, not the left.",
+    "C": "The body has a circle, not a star.",
+    "E": "The triangle eye is on the left side, not the right."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

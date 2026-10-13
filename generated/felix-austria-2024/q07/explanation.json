@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:39f5e6bce06d4c690a1c55552b1a59f279c3d5781e2d37dec7503e078194a3a7",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Look for the basket whose toys are not on the floor.",
+  "steps": [
+    "Every toy on the floor comes from one basket. Check each basket's toys against the floor.",
+    "The toys from baskets A, C, D and E are all on the floor.",
+    "The heart, the pentagon and the cross from basket B are not on the floor. The only diamond on the floor is pink, like the one in basket D, not purple like the one in B.",
+    "So basket B did not fall."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "The circle, square, triangle and star from basket A are all on the floor.",
+    "C": "The oval, rectangle, hexagon and arrow from basket C are all on the floor.",
+    "D": "The half circle, ring, trapezoid and pink diamond from basket D are all on the floor.",
+    "E": "The T, the L, the slanted box and the two rings from basket E are all on the floor."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:57:02Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:21ef4b3b950d9f831815a518e2cf6576883bf1161dbe294a018859b281dc8e9f",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "The colours take turns, so the bead next to each cover tells you how the hidden beads start.",
+  "steps": [
+    "The beads go blue, red, blue, red, and so on.",
+    "Just before the first cover is a blue bead. So its 5 hidden beads are red, blue, red, blue, red. That is 3 red beads.",
+    "Just before the second cover is a blue bead too. So its 3 hidden beads are red, blue, red. That is 2 red beads.",
+    "3 + 2 = 5 red beads are hidden."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "The first cover hides 3 red beads and the second hides 2, so 4 is too few.",
+    "C": "The second cover hides only 3 beads, and just 2 of them are red.",
+    "D": "That is too many. A blue bead sits between every 2 red beads.",
+    "E": "8 is all the hidden beads, red and blue together."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:13Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

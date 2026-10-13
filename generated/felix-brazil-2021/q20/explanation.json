@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:be09f8fc48155f2fb14e2b923cf3fe7b5260dc960dd23330be280585b267d158",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Count teeth: when the small cog turns once, the big cog turns only half way.",
+  "steps": [
+    "At the start, the small black tooth is on the right of the small cog. The big black tooth is on the left of the big cog. They touch.",
+    "The small cog has 4 teeth. When it makes one full turn, 4 teeth of the big cog go past.",
+    "The big cog has 8 teeth, and 4 is half of 8. So the big cog turns half way around.",
+    "The small black tooth is back on the right. The big black tooth moves from the left to the right side of the big cog."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "This is how they start. The big cog turns too, so its black tooth moves.",
+    "B": "After one full turn, the small black tooth is back where it started, on the right.",
+    "D": "After one full turn, the small black tooth is back where it started, on the right.",
+    "E": "After one full turn, the small black tooth is back where it started, on the right."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

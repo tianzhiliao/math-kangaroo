@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:c3b4dd4770daf9b0056c8a9ed9539f6cf720cb13aaff44602ac3e7d6aa2d10f9",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "When you fold, a shape lands on the spot the same distance away on the other side of the red line.",
+  "steps": [
+    "Check each left shape: is there the same shape, the same size, the same distance from the line on the right?",
+    "The yellow circle at the top lands on the yellow circle. The blue triangle lands on the blue triangle.",
+    "The small green square lands inside the big orange square, which is bigger, so it does not fit exactly.",
+    "The pink circle lands where the purple star is, which is a different shape.",
+    "So 2 shapes land exactly."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "Both the yellow circle and the blue triangle land exactly.",
+    "C": "The green square is smaller than the orange square, so it does not fit exactly.",
+    "D": "The squares are different sizes, and the pink circle lands on a star.",
+    "E": "There are only 4 shapes on the left, and 2 of them do not match."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:52:53Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

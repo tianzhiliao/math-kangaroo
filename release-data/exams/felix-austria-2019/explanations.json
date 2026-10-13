@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "questions": {
+    "q01": {
+      "source": "original",
+      "content_hash": "sha256:62ee401f371b1b070d12f6add5f028fb5e3aa74d7ef2dc93e3aaf78e0bafa6c3",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Check every number in a cloud. All of them must be smaller than 7.",
+      "steps": [
+        "Smaller than 7 means 1, 2, 3, 4, 5 or 6. The number 7 itself is not smaller than 7.",
+        "Look at each cloud and find any number that is 7 or bigger.",
+        "Cloud D has 1, 3, 2 and 5. All of them are smaller than 7.",
+        "Every other cloud has at least one number that is 7 or bigger."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "This cloud has 8 and 7. They are not smaller than 7.",
+        "B": "This cloud has 9. It is bigger than 7.",
+        "C": "This cloud has 7. 7 is not smaller than 7.",
+        "E": "This cloud has 10, 8, 9 and 7. None of them is smaller than 7."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:33:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q02": {
+      "source": "original",
+      "content_hash": "sha256:6f6e0bb38caf02240c9d22d5d2a35339bb179168f64a5a5ed8386ce349ae463c",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Go around the chain and look for the same 3 colours in a row.",
+      "steps": [
+        "Go around the chain: black, white, white, black, grey, grey. Then it starts again.",
+        "So every black ball sits between a white ball and a grey ball.",
+        "White balls always come in twos, and grey balls always come in twos.",
+        "White, black, grey is in the chain: it is where a black ball sits between a white and a grey."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "Grey and white never touch in this chain. There is always a black ball between them.",
+        "B": "A black ball never sits between two white balls. It always has a grey ball on one side.",
+        "D": "A black ball never sits between two grey balls. It always has a white ball on one side.",
+        "E": "Each white ball has another white ball next to it, so black, white, black never happens."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:33:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q03": {
+      "source": "original",
+      "content_hash": "sha256:3e0baa683f8972a9c07b401b3b287f0a9a97e1b9784c83e95a61c2998694c158",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Take the mother's weight away from the weight of both of them.",
+      "steps": [
+        "Together they weigh 60 kg.",
+        "The mother alone weighs 52 kg.",
+        "Max is what is left: 60 - 52 = 8. Max weighs 8 kg."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "Check the take-away again: 60 - 52 = 8, not 4.",
+        "C": "30 kg is half of 60 kg. But Max and his mother do not weigh the same.",
+        "D": "56 kg is more than the mother weighs. Max is much lighter than her.",
+        "E": "112 kg comes from adding 60 + 52. We must take away, not add."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:33:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q04": {
+      "source": "original",
+      "content_hash": "sha256:2f0fe4ca5b28f6ef7cea2f46201292570d9f77bdd4e6ed60b0d2e028913ef7f6",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Give every child a place number counted from the front.",
+      "steps": [
+        "There are 12 children. Susi is number 7 from the front.",
+        "Kim is 2nd from the back. Count back from 12: 12, 11. So Kim is number 11 from the front.",
+        "The children between them are numbers 8, 9 and 10.",
+        "That is 3 children."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "You missed one. Numbers 8, 9 and 10 are all between Susi and Kim.",
+        "C": "You counted Susi or Kim too. Only count the children between them.",
+        "D": "Count only the children between number 7 and number 11: that is 8, 9 and 10.",
+        "E": "Only numbers 8, 9 and 10 stand between Susi and Kim."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:33:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q05": {
+      "source": "original",
+      "content_hash": "sha256:96863531f114072aefa1402a8bfd40dc5e53cf3be2a0e4010582aff55ea3430d",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Read every sock's number, then match the socks that have the same number.",
+      "steps": [
+        "Some socks lie upside down or sideways. Turn your head to read each number.",
+        "There are 12 socks: two 1s, two 2s, two 3s, two 5s, two 7s, one 6 and one 8.",
+        "The pairs are 1, 2, 3, 5 and 7. That is 5 pairs.",
+        "The 6 and the 8 have no partner."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "There are only 12 socks, and 2 of them have no partner. That is not enough for 8 pairs.",
+        "B": "The 6 and the 8 have no partner, so they do not make a pair.",
+        "D": "Look again at the socks that lie upside down. They make pairs too.",
+        "E": "Some socks are turned around. Read them carefully to find all the pairs."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:33:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q06": {
+      "source": "original",
+      "content_hash": "sha256:8872fd5eed603c992f40b6d8f40ac8a742c61df3ec3594a4085948c74805fd33",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "A card that covers part of another card lies on top of it.",
+      "steps": [
+        "Card 5 is not covered by any card, so it is on top.",
+        "Card 2 is covered only by card 5. Card 2 covers the bottom of card 3.",
+        "Card 3 lies on top of cards 1 and 4.",
+        "Card 1 covers the left part of card 4, so card 4 is at the very bottom. The order is 5-2-3-1-4."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "Card 4 is at the very bottom. Card 1 lies on top of it.",
+        "B": "Card 1 lies on top of card 4, so card 1 is picked up before card 4.",
+        "C": "Card 4 is under cards 3 and 1, so it cannot be picked up second.",
+        "D": "Card 2 covers the bottom of card 3, so card 2 is picked up before card 3."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:33:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q07": {
+      "source": "original",
+      "content_hash": "sha256:b85407365a24bba1b18913dc9f1b89a1c76e60803851b1b643bf17b6cbd7b81f",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Give every camel 1 hump first. The extra humps belong to the bactrian camels.",
+      "steps": [
+        "Every camel has at least 1 hump. 10 camels give 10 humps.",
+        "There are 14 humps. 14 - 10 = 4 humps are left over.",
+        "Each bactrian camel has 1 extra hump. So there are 4 bactrian camels.",
+        "Check: 4 camels with 2 humps make 8 humps, and 6 camels with 1 hump make 6 humps. 8 + 6 = 14."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "1 camel with 2 humps and 9 with 1 hump make 2 + 9 = 11 humps, not 14.",
+        "B": "2 camels with 2 humps and 8 with 1 hump make 4 + 8 = 12 humps, not 14.",
+        "C": "3 camels with 2 humps and 7 with 1 hump make 6 + 7 = 13 humps, not 14.",
+        "E": "5 camels with 2 humps and 5 with 1 hump make 10 + 5 = 15 humps, not 14."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:33:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q08": {
+      "source": "original",
+      "content_hash": "sha256:85f171451b282c81ae2c589da6380b44578f4d604c5e974981b0e6edd46077ac",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Find how long and how wide one tile is, then add tiles down the side of the room.",
+      "steps": [
+        "The tile at the bottom left lies flat and is 1 m tall. So every tile is 1 m wide.",
+        "4 tiles standing side by side are as wide as 1 tile lying flat. So every tile is 4 m long.",
+        "Go down the left side: 1 tile lying flat, tiles standing up, 2 tiles lying flat, tiles standing up, 1 tile lying flat.",
+        "That is 1 + 4 + 2 + 4 + 1 = 12. The room is 12 m long."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "The tiles standing up are 4 m long. Two groups of them alone already make 8 m.",
+        "B": "Do not forget the tiles lying flat. Add every part down the side.",
+        "C": "Count the tiles lying flat again: there is 1 at the top, 2 in the middle and 1 at the bottom.",
+        "D": "Add every part down the side again: 1 + 4 + 2 + 4 + 1."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:33:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q09": {
+      "source": "original",
+      "content_hash": "sha256:26aed67adc3719d9f56ea5f2c076d706a52755d5ea9d3c78907d706026fe1799",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "The mouse must go right 2 times and down 2 times. Count every order.",
+      "steps": [
+        "To reach the cheese, the mouse moves right 2 times and down 2 times.",
+        "Starting with right: right-right-down-down, right-down-right-down, right-down-down-right.",
+        "Starting with down: down-right-right-down, down-right-down-right, down-down-right-right.",
+        "That is 3 + 3 = 6 paths."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "There are more. 3 paths start with a move right and 3 start with a move down.",
+        "B": "You may have only counted paths that start one way. 3 more start the other way.",
+        "C": "Keep looking. There are paths that zigzag right and down too.",
+        "D": "Make a list of every path so you do not miss one."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:33:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q10": {
+      "source": "original",
+      "content_hash": "sha256:06df770f77e0a3292e4629c378b6cc054f4bed05ba07a4bb7cad8bdd221be485",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Put the pieces together and see what shape they make.",
+      "steps": [
+        "One piece is a half circle stuck to a triangle. The other two pieces are a half circle and a triangle.",
+        "The two triangles fit together into a square standing on one corner.",
+        "The two half circles sit on the two top sides of that square.",
+        "That makes a heart."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "This shape has 3 round bumps, but there are only 2 half circles.",
+        "B": "A circle has no corners, but the triangles have pointy corners.",
+        "D": "A rectangle has no round parts, but two pieces are round on one side.",
+        "E": "This shape has only 1 round end, but the pieces have 2 half circles."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:33:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q11": {
+      "source": "original",
+      "content_hash": "sha256:d0a44233c9309a247d548f8d5e36f4dd25a9a1827f72c33026ff91a24fa486bf",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "The part of the pole inside the sandcastle is half of the whole pole.",
+      "steps": [
+        "The pole goes from 6 m up to 16 m. So it is 16 - 6 = 10 m long.",
+        "Half of the pole is inside the sandcastle. Half of 10 is 5.",
+        "The pole starts at 6 m and goes 5 m up to the top of the castle: 6 + 5 = 11.",
+        "The sandcastle is 11 m high."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "The bottom of the pole is at 6 m, and 5 m of the pole is inside. 6 + 5 = 11, not 12.",
+        "C": "Check again: the pole is 10 m long, so 5 m is inside the castle.",
+        "D": "The castle top is where the pole goes in: 6 + 5 = 11, not 14.",
+        "E": "15 m is too high. Only 5 m of the pole sticks out above the castle."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:33:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q12": {
+      "source": "original",
+      "content_hash": "sha256:259d7b80e5426a88708d834f8ceeac3eeb0cc975cf6cd486ac722b5457ec3690",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Do the three changes one at a time, in order.",
+      "steps": [
+        "At the start: black, white, grey, white, grey, black, white, black, grey.",
+        "Anni makes black into white: white, white, grey, white, grey, white, white, white, grey.",
+        "Bob makes grey into black: white, white, black, white, black, white, white, white, black.",
+        "Chris makes white into grey: grey, grey, black, grey, black, grey, grey, grey, black."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "This still has white squares, but Chris changed every white square to grey.",
+        "C": "This has no black squares, but Bob's black squares stay black.",
+        "D": "This is the pattern before anyone changed it.",
+        "E": "This has 6 black squares, but only 3 squares end up black."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:33:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q13": {
+      "source": "original",
+      "content_hash": "sha256:7d440e6c87cdfd5c776ae7e6a2ea4680bf214b883c30d45eda54762712a073ab",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Find three different numbers, each 2 or more, that add up to 10.",
+      "steps": [
+        "Start as small as possible: 2 + 3 + 4 = 9. That is 1 too few.",
+        "Give the extra nut to the squirrel with the most: 2 + 3 + 5 = 10.",
+        "No other way works with three different numbers that are each 2 or more.",
+        "Anni has 2, the least. Asia has 5, the most. Elli has the middle number, 3."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "Each squirrel has at least 2 nuts, so nobody has 1.",
+        "B": "Anni has the least. If Elli had 2, Anni would need fewer than 2 nuts.",
+        "D": "If Elli had 4, Anni and Asia would share 6, like 2 and 4 or 3 and 3. Then two squirrels have the same number.",
+        "E": "If Elli had 5, Asia would need more than 5 and Anni at least 2. That is more than 10 nuts."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:33:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q14": {
+      "source": "original",
+      "content_hash": "sha256:febd4595d5a750c3c2649411c428a6e94fa8d091897fa50f6b3e8058d72c6108",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Where two cubes touch, those faces are hidden and need no colour.",
+      "steps": [
+        "Each cube has 6 faces. 4 cubes have 4 x 6 = 24 faces.",
+        "Each place where two cubes touch hides 2 faces.",
+        "In the 2-by-2 block, the cubes touch in 4 places. 24 - 8 = 16 faces need colour.",
+        "In every other figure, the cubes touch in only 3 places. 24 - 6 = 18 faces need colour."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "In this row the cubes touch in only 3 places, so 18 faces need colour.",
+        "C": "Here the cubes touch in only 3 places, so 18 faces need colour.",
+        "D": "Here the cubes touch in only 3 places, so 18 faces need colour.",
+        "E": "Here the cubes touch in only 3 places, so 18 faces need colour."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:33:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q15": {
+      "source": "original",
+      "content_hash": "sha256:0b49a45685d3884afdba314ec52290a2ed424b8cedd2033926c60e9d932871d5",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "From behind, left and right swap, and the strip that was on top is now underneath.",
+      "steps": [
+        "From the front: in the top row the left dark strip lies over the light strip, and the right dark strip goes under it. In the bottom row both dark strips lie over the light strip.",
+        "Walk around to the back. Left and right swap, and over and under swap.",
+        "Top row from behind: on the left the dark strip is on top, and on the right the light strip is on top.",
+        "Bottom row from behind: the light strip lies over both dark strips. This is picture D."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "In the bottom row a dark strip is on top. From behind, the light strip covers both dark strips there.",
+        "B": "In the top row the light strip is on top at the left. From behind, the dark strip is on top there.",
+        "C": "Here the right dark strip lies over both light strips. From behind, the light strip is on top in the bottom row.",
+        "E": "Here the light strips are on top everywhere. From behind, the left dark strip is on top in the top row."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:33:38Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:3f136166a6cc7f7c716c88dfc3fe4d692a34ddef63599471d0a6f00faa9733b3",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Check each minute and see if the red, green and blue boxes are all coloured.",
+  "steps": [
+    "Blue is on for all 8 minutes.",
+    "Red is on at minutes 2 to 6. Green is on at minutes 3 to 7.",
+    "Red and green are both on at minutes 3, 4, 5 and 6. Blue is on then too.",
+    "So all three lights are on for 4 minutes."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "There are more than 2 minutes with all three lights on: 3, 4, 5 and 6.",
+    "B": "You may have missed one of minutes 3, 4, 5 and 6.",
+    "D": "At minute 2 green is off, and at minute 7 red is off.",
+    "E": "Red is on for 5 minutes, but green is off at minute 2."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:47:49Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

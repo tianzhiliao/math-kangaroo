@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:8216cba574b5943d6d0572f401b4ee52198ec393951e7da5966eb119ed7a6439",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Check both rules for each boat: more than 1 circle, and 2 more triangles than squares.",
+  "steps": [
+    "Boat A has only 1 circle, so it is out.",
+    "Boat C has 2 circles, 4 triangles and 2 squares.",
+    "4 is 2 more than 2, so boat C follows both rules."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Boat A has only 1 circle.",
+    "B": "Boat B has 2 triangles and 1 square. That is only 1 more triangle.",
+    "D": "Boat D has 3 triangles and 3 squares. That is not 2 more.",
+    "E": "Boat E has 5 triangles and 2 squares. That is 3 more, not 2."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:47:49Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

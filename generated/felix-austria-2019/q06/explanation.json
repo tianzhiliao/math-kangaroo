@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:0efc85bdd15ff30a882e14929b4e5a4f2633f774eb322fa72cf5e18971dc39e5",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "A card that covers part of another card lies on top of it.",
+  "steps": [
+    "The pink card 2 is not covered at all, so it is on top.",
+    "Card 2 covers card 5. Card 5 covers card 1.",
+    "Card 1 covers card 4, and card 4 covers card 3.",
+    "So the cards are picked up 2-5-1-4-3."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "Card 1 lies on top of card 4, so card 1 is picked up before card 4.",
+    "C": "Card 2 lies on top of card 5, so card 2 is picked up first.",
+    "D": "Card 5 lies on top of card 1, so card 5 is picked up before card 1.",
+    "E": "This is the order from the bottom up. Card 3 is at the very bottom."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:33:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

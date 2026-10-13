@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:ca0504069c7978d60534541841e7d3d54971445d069d37e125d19671a87bb27b",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Move the kangaroo and the rabbit one turn at a time.",
+  "steps": [
+    "The kangaroo starts on step 1 and the rabbit on step 13.",
+    "Turn 1: the kangaroo goes up 4 to step 5. The rabbit goes down 3 to step 10.",
+    "Turn 2: the kangaroo goes up 4 to step 9. The rabbit goes down 3 to step 7."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "The rabbit reaches step 4 only after 3 turns, when the kangaroo is on step 13.",
+    "B": "The rabbit stops on 10, 7, 4. It never stops on step 5.",
+    "C": "The rabbit stops on 10, 7, 4. It never stops on step 6.",
+    "E": "The rabbit stops on 10, 7, 4. It never stops on step 8."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

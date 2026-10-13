@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:529ac003507b0f78ccb82ec94dbcc2936a4d2860eb1977d7ee1c96524e8647f0",
+  "answer": "B",
+  "independent_answer": null,
+  "key_idea": "Turning a hand around does not change it, but flipping it like a mirror changes right to left.",
+  "steps": [
+    "Each hand has a thumb sticking out on one side.",
+    "Sort the hands into two groups. 3 hands match the top left hand, even when turned upside down. The other 5 are its mirror image, with the thumb on the other side.",
+    "Hold up your right hand and decide which group it matches. These hands do not show if we see the palm or the back, so look carefully.",
+    "Count the hands in the group that matches your right hand."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "The hands come in two groups, 3 and 5, so the count cannot be 2.",
+    "C": "The hands come in two groups, 3 and 5, so the count cannot be 4.",
+    "D": "5 is the size of one group. Decide which group shows right hands.",
+    "E": "The hands come in two groups, 3 and 5, so the count cannot be 6."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:06Z",
+  "review": {
+    "status": "flagged",
+    "note": "Blind solver gave no answer: all 8 hands are identical flat outlines with no palm or back detail (3 are the base drawing, incl. one turned upside down; 5 are its mirror), so the count is 3 or 5 depending on whether the base hand shows a palm or a back. Key B (3) cannot be confirmed from the figure. Steps are method-only."
+  }
+}

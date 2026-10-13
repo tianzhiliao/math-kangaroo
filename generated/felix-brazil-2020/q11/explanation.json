@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:bc8c4c8af7869db9fda8c26734e388a0d51c934e4b64424bd5407d40c07c16d0",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Count the cubes in each block.",
+  "steps": [
+    "A: 3 on the bottom and 3 on top. 3 + 3 = 6.",
+    "B: 3 on the bottom and 2 stacked on the left. 3 + 2 = 5. E: 2 + 2 + 1 = 5.",
+    "C: 3 on the bottom and 1 on top. 3 + 1 = 4. D: 3 + 2 + 2 = 7.",
+    "4 is the smallest number."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "A has 6 cubes.",
+    "B": "B has 5 cubes, 1 more than C.",
+    "D": "D has 7 cubes.",
+    "E": "E has 5 cubes, 1 more than C."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

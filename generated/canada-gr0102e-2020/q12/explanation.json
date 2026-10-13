@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:109feebee03aa3080a19dfde907a104e8e85239c8a0607197033c690e35d2373",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Count the bands on each jar, then add them up.",
+  "steps": [
+    "First jar: 1 band. Second jar: 2 bands.",
+    "Third jar: 1 band. Fourth jar: 1 band.",
+    "1 + 2 + 1 + 1 = 5."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "Count every jar. The second jar has 2 bands.",
+    "C": "That is too many. Count each band once.",
+    "D": "That is too many. Count each band once.",
+    "E": "The second jar has 2 bands, not 1."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T00:00:00Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

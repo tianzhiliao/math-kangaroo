@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:c7067166d5030c081ca775d66f342139507f7110835238d16c5c400d22299bec",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Put the pieces together and see what shape they make.",
+  "steps": [
+    "The two triangles fit together along their long sides into a square, just as big as the pink square.",
+    "Put that square next to the pink square.",
+    "Two squares side by side make a rectangle that is twice as long as it is tall.",
+    "Shape D is that rectangle."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "This shape is too small. The square and both triangles would not fit inside it.",
+    "B": "This shape is too small. The square and both triangles would not fit inside it.",
+    "C": "A circle is round all the way around, but all the pieces have straight sides.",
+    "E": "This shape is too small. The square and both triangles would not fit inside it."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:33:38Z",
+  "review": {
+    "status": "flagged",
+    "note": "Key D confirmed from the drawings (D is exactly two squares). But the choice texts 'parallelogram' and 'triangle' name shapes these pieces can make at other sizes (a slanted parallelogram, or a big right triangle); only the drawn sizes rule A and E out. Check that the cards show the drawings, not just the words."
+  }
+}

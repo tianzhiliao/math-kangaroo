@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:40e08076f72351d4f41de1753427a2db203dcc955f218478f2d9b6c78672a902",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Take away the kites Emma gives away.",
+  "steps": [
+    "Emma has 9 kites. Count them in the picture: 9.",
+    "She gives away 4. Those are the 4 kites with a cross.",
+    "9 - 4 = 5 kites are left."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "4 is how many kites she gives away, not how many she keeps.",
+    "C": "That takes away only 3 kites, but she gives away 4.",
+    "D": "That takes away only 2 kites, but she gives away 4.",
+    "E": "That takes away only 1 kite, but she gives away 4."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:13Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

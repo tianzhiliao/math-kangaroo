@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "questions": {
+    "q01": {
+      "source": "original",
+      "content_hash": "sha256:83b1984a83ddb0c5e9e58449ed317d60f0ad7b332289da37bb24a6b38e882009",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Find the number that sits inside all three shapes at the same time.",
+      "steps": [
+        "Look for the spot where the circle, the square and the triangle all cover each other.",
+        "The 5 is inside the circle, inside the square and inside the triangle.",
+        "Every other number is outside at least one of the shapes."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "The 1 is only inside the circle.",
+        "B": "The 4 is inside the circle and the triangle, but not inside the square.",
+        "D": "The 9 is only inside the triangle.",
+        "E": "There is no 12 in the picture."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:57:02Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q02": {
+      "source": "original",
+      "content_hash": "sha256:061604de92d17a7cbde4c6d7e21308e8f0e64caf6f3b9c678f3357213bb6c497",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Use the lines behind the pencils like a ruler and count the spaces each pencil covers.",
+      "steps": [
+        "The lines behind the pencils are all the same distance apart, so we can count spaces.",
+        "From its back end to its tip, pencil A covers about 6 spaces, B about 8, C about 7, D about 9 and E about 8.",
+        "Pencil D covers the most spaces, so it is the longest."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Pencil A covers only about 6 spaces. It is the shortest.",
+        "B": "Pencil B covers about 8 spaces. Pencil D covers 1 more.",
+        "C": "Pencil C covers about 7 spaces. Pencil D is longer.",
+        "E": "Pencil E sticks out the farthest to the right, but it starts later. It covers about 8 spaces, and D covers about 9."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:57:02Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q03": {
+      "source": "original",
+      "content_hash": "sha256:f119d365dafdc0aba4b7c47598a3be447a0db2080f43b4ea47bec678c1c26767",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Check each face for 4 things: hat or hair, glasses or dot eyes, mouth, and ears.",
+      "steps": [
+        "Each face has a hat or hair, glasses or dot eyes, a smile or an open mouth, and ears or no ears.",
+        "Look for each answer face in the big picture and count how many times it shows up.",
+        "Faces A, B, C and D each show up 2 times.",
+        "Face E has a hat, dot eyes, a smile and ears. Only one face in the picture looks like that: the 4th face in the middle row."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "The face with hair, dot eyes, an open mouth and ears shows up 2 times: at the start of the middle row and at the end of the bottom row.",
+        "B": "The face with a hat, glasses and ears shows up 2 times: in the middle of the top row and in the middle of the bottom row.",
+        "C": "The face with a hat, glasses, a smile and no ears shows up 2 times: at the end of the middle row and at the start of the bottom row.",
+        "D": "The face with hair, glasses and no ears shows up 2 times: 4th in the top row and 4th in the bottom row."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:57:02Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q04": {
+      "source": "original",
+      "content_hash": "sha256:4361efeb33c850fd2ce461928be95f55c8e0f2dfcc71c101f5ddb74c4d20f3e4",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Count the small triangles row by row and find the empty white spaces.",
+      "steps": [
+        "The big triangle has 4 rows of small triangles: 1, 3, 5 and 7. That is 1 + 3 + 5 + 7 = 16 small triangles.",
+        "The gray ones are already there: 1 in the top row, 2 in the next row, 3 in the next and 4 in the bottom row. That is 10 gray triangles.",
+        "The white spaces still need filling: 16 - 10 = 6."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "Count again: there are 6 white spaces, not 5.",
+        "C": "Count again: there are 6 white spaces, not 7.",
+        "D": "8 is too many. Only 6 spaces are still white.",
+        "E": "9 is too many. Only 6 spaces are still white."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:57:02Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q05": {
+      "source": "original",
+      "content_hash": "sha256:425903130827bc710d728718b7ef9e9c91b702997f346a254e854c23c6a74a7a",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Follow each strip from one end to the other and compare the pieces.",
+      "steps": [
+        "The 1 is just a short strip with one fold. It is the shortest.",
+        "The 2 and the 5 are folded the same way, just flipped. So their strips are equally long.",
+        "The 6 has a top, a middle bar, a bottom and a right side, just like the 5. But its left side goes all the way from the top to the bottom.",
+        "That long left side makes the strip of the 6 the longest."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "The 1 is the shortest strip of all.",
+        "B": "The 2 is as long as the 5. The 6 is longer because its left side goes all the way down.",
+        "C": "The 5 is as long as the 2. The 6 is longer because its left side goes all the way down.",
+        "E": "The strips are not the same. The 1 is much shorter than the others."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:57:02Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q06": {
+      "source": "original",
+      "content_hash": "sha256:10c8424f313ef54de0d3852b056234cf08eb94a798737c1ca5a02c8830d85c4b",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "From the other side of the window, the pattern looks flipped left to right, like in a mirror.",
+      "steps": [
+        "From outside, each row is seen backwards: left and right swap. Top and bottom stay the same.",
+        "Top row inside: black, white, white. From outside: white, white, black.",
+        "Middle row inside: black, black, white. From outside: white, black, black.",
+        "Bottom row inside: white, white, black. From outside: black, white, white. That is picture D."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "This is the pattern seen from inside. From outside it must be flipped.",
+        "B": "From outside the top left square is white, but here it is black.",
+        "C": "From outside the bottom left square is black, but here it is white.",
+        "E": "From outside the middle square is black, but here it is white."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:57:02Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q07": {
+      "source": "original",
+      "content_hash": "sha256:d6cc50e4555c19dccd24049f4c2540318127b877180eca3d4c3931d3f48acea9",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "All 6 ducks are lying on the floor, so the basket that did not fall has no duck in it.",
+      "steps": [
+        "Count the ducks in the baskets: A has 2, C has 1, D has 1 and E has 2. That is 2 + 1 + 1 + 2 = 6 ducks.",
+        "Count the ducks on the floor: there are 6.",
+        "So every duck fell. The basket that did not fall has no duck.",
+        "Only basket B has no duck. It has 2 ladybugs, a frog and a rhino."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "Basket A has 2 ducks, but all the ducks are on the floor.",
+        "C": "Basket C has a duck, but all the ducks are on the floor.",
+        "D": "Basket D has a duck, but all the ducks are on the floor.",
+        "E": "Basket E has 2 ducks, but all the ducks are on the floor."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:57:02Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q08": {
+      "source": "original",
+      "content_hash": "sha256:7a9269966c9009d67efc7f61804af81aacd97533294246cbe9c6adc20cec6a3b",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Start with a line that has the same shape twice.",
+      "steps": [
+        "The first column has 2 smiley faces and adds up to 10. 5 + 5 = 10, so a smiley face is 5.",
+        "The last column has 2 hearts and adds up to 4. 2 + 2 = 4, so a heart is 2.",
+        "The bottom row is smiley + star + heart = 10. So 5 + star + 2 = 10, and the star is 3.",
+        "Check the middle column: heart + star = 2 + 3 = 5. It works!"
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "If the star were 1, the bottom row would be 5 + 1 + 2 = 8, not 10.",
+        "B": "The heart is 2. Each shape is a different number, so the star cannot be 2.",
+        "D": "If the star were 4, the bottom row would be 5 + 4 + 2 = 11, not 10.",
+        "E": "The smiley face is 5. Each shape is a different number, so the star cannot be 5."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:57:02Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q09": {
+      "source": "original",
+      "content_hash": "sha256:ebba2232a7d76220c99dca121ec3be31a0cb076fc2a86a422abd86b4ddfe18cc",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "The 5 pictures repeat, so count in jumps of 5.",
+      "steps": [
+        "The order is sun, ghost, cat, moon, flame, and then it starts again.",
+        "Every 5th picture is a flame: pictures 5, 10, 15, 20 and 25.",
+        "Picture 26 starts again with the sun. Picture 27 is the ghost."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "The sun is picture 26. We need one more.",
+        "C": "The cat is picture 28, one too far.",
+        "D": "The moon is picture 29, two too far.",
+        "E": "The flame is picture 25, two too early."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:57:02Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q10": {
+      "source": "original",
+      "content_hash": "sha256:47b9dd26ddf62ee51c94936921c45d3e8f185bf1bc7468856b10e8ff4b602fa7",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Find the smallest and the biggest sum, then check every sum in between.",
+      "steps": [
+        "The smallest sum is 1 + 2 = 3. The biggest sum is 4 + 5 = 9.",
+        "Every sum in between can be made too: 1 + 3 = 4, 1 + 4 = 5, 1 + 5 = 6, 2 + 5 = 7, 3 + 5 = 8.",
+        "So the sums are 3, 4, 5, 6, 7, 8 and 9. That is 7 different results."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "There are more: the sums go 3, 4, 5, 6, 7, 8, 9. That is 7.",
+        "B": "One is missing. The sums go from 3 all the way to 9, which is 7 results.",
+        "D": "The sums only go from 3 to 9. That is 7 results, not 8.",
+        "E": "There are 10 ways to pick 2 numbers, but some give the same sum, like 1 + 4 = 5 and 2 + 3 = 5."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:57:02Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q11": {
+      "source": "original",
+      "content_hash": "sha256:75e03db5cfc25b488a73d0cc7a0192f705117439663b1276c4cc400021037ce9",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "From above you see each stack as one square, and the top cube with the little window shows which corner is which.",
+      "steps": [
+        "The back left corner has a stack of 3 cubes. Its top cube has the little white window, so that is the top left square.",
+        "Next to it along the back are 2 more cubes: one on top in the middle and one on the floor at the right. From above, the whole back row is filled.",
+        "One more cube sits in front of the back left stack, in the middle row on the left.",
+        "Nothing else is in the box. So from above: the whole top row, plus the left square of the middle row. That is picture E."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "This shows a cube in the front left corner, but that corner is empty.",
+        "B": "This shows a cube in the front left corner, and it misses the cube in the middle row.",
+        "C": "This shows a cube in the very middle, but the middle of the box is empty.",
+        "D": "This shows a cube in the very middle, but the middle of the box is empty."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:57:02Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q12": {
+      "source": "original",
+      "content_hash": "sha256:86b78d104a04da9cc2552c6761323e2bb7815b583a586390e0f037ba37173b76",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Dimitry must share exactly one shape with Anna, one with Bella and one with Che.",
+      "steps": [
+        "Anna and Bella both have a square. Anna and Che both have a triangle. Bella and Che both have a star.",
+        "If Dimitry had a square, a triangle or a star, he would share 2 shapes with someone. So he has none of those.",
+        "He takes the circle from Anna, the heart from Bella and the diamond from Che.",
+        "Diamond, circle, heart is picture E."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "The square and the heart are both Bella's, so Dimitry would share 2 shapes with her.",
+        "B": "The circle and the triangle are both Anna's, so Dimitry would share 2 shapes with her.",
+        "C": "The star and the diamond are both Che's, so Dimitry would share 2 shapes with Che.",
+        "D": "The square and the triangle are both Anna's, so Dimitry would share 2 shapes with her."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:57:02Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q13": {
+      "source": "original",
+      "content_hash": "sha256:834474cf6afc65ba8b2a0633c9ccf03e76a18e01d50c777c5521a5c96be4a048",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Compare towers that are almost the same to find each block.",
+      "steps": [
+        "Tower 3 has a triangle on top of the pink block and the green block. Tower 1 has only the pink and green blocks.",
+        "So the triangle is 20 - 15 = 5 high.",
+        "Tower 2 has only the triangle and the green block. Tower 3 has a pink block too. So the pink block is 20 - 13 = 7 high.",
+        "Tower 4 is a pink block and a triangle: 7 + 5 = 12."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "13 is the height of the triangle and the green block. Tower 4 has a pink block, not a green one.",
+        "C": "The pink block is 7 and the triangle is 5. 7 + 5 = 12, not 14.",
+        "D": "The pink block is 7 and the triangle is 5. 7 + 5 = 12, not 16.",
+        "E": "The pink block is 7 and the triangle is 5. 7 + 5 = 12, not 17."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:57:02Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q14": {
+      "source": "original",
+      "content_hash": "sha256:632fea4f4cfd4f17e89779e8e701c2db252e54bda721d7e51a21ec9604f5c236",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Andrew threw 10 more arrows than he started with, and each hit gave him 2 of them.",
+      "steps": [
+        "Andrew threw 20 arrows but started with only 10.",
+        "So he got 20 - 10 = 10 extra arrows.",
+        "Each hit gives 2 arrows. 2 + 2 + 2 + 2 + 2 = 10, so he hit the target 5 times."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "4 hits give 8 extra arrows. Then he could throw only 10 + 8 = 18.",
+        "C": "6 hits give 12 extra arrows. Then he could throw 10 + 12 = 22.",
+        "D": "8 hits give 16 extra arrows. Then he could throw 10 + 16 = 26.",
+        "E": "He got 10 extra arrows, but each hit gives 2. So it was 5 hits, not 10."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:57:02Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q15": {
+      "source": "original",
+      "content_hash": "sha256:c65e30b42f6f7d42de6c868b04b18c5577d822bc53110dcdcfeccb28a6a4651a",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "The bridge is the same length in both pictures.",
+      "steps": [
+        "Top picture: 3 cars and gaps of 1 + 2 + 1 + 2 = 6 metres.",
+        "Bottom picture: 2 cars and gaps of 4 + 4 + 3 = 11 metres.",
+        "The top has 1 more car, and its gaps are 11 - 6 = 5 metres shorter.",
+        "So the extra car fills those 5 metres. Each car is 5 metres long."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "With 3-metre cars, the top bridge is 9 + 6 = 15 m but the bottom is 6 + 11 = 17 m.",
+        "B": "With 4-metre cars, the top bridge is 12 + 6 = 18 m but the bottom is 8 + 11 = 19 m.",
+        "D": "With 6-metre cars, the top bridge is 18 + 6 = 24 m but the bottom is 12 + 11 = 23 m.",
+        "E": "With 7-metre cars, the top bridge is 21 + 6 = 27 m but the bottom is 14 + 11 = 25 m."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:57:02Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    }
+  }
+}

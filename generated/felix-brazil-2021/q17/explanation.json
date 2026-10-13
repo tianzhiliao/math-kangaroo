@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:27cc590b7581a3cdbb8c25904d7097c845a5d41a556822be93bd5645cf02a56b",
+  "answer": "E",
+  "independent_answer": "E",
+  "key_idea": "Match each color in the square with a shape of the same size.",
+  "steps": [
+    "The pink part is a 2 by 2 square, like shape A.",
+    "The yellow part is 2 wide and 3 tall, like shape B.",
+    "The green part is 2 squares side by side, like shape D. The blue part is 4 squares in a row, like shape C.",
+    "Shapes A, B, C and D fill the whole square, so shape E was not used."
+  ],
+  "answer_sentence": "So the answer is E.",
+  "choice_feedback": {
+    "A": "Shape A is used. It is the pink 2 by 2 square.",
+    "B": "Shape B is used. It is the yellow part, 2 wide and 3 tall.",
+    "C": "Shape C is used. It is the blue row of 4 at the bottom.",
+    "D": "Shape D is used. It is the green part with 2 squares."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

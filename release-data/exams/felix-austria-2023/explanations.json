@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "questions": {
+    "q01": {
+      "source": "original",
+      "content_hash": "sha256:a93032ca6aad0188b9c7edd23a9e84468340e6fcef4f1382d8ecfc07be13061b",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Count every circle once, the big ones and the small ones.",
+      "steps": [
+        "The 2 blue ears are 2 circles. Each ear has a small white circle inside, so that is 2 more: 2 + 2 = 4.",
+        "The big yellow face is 1 circle: 4 + 1 = 5.",
+        "The 2 orange eyes are 2 circles: 5 + 2 = 7.",
+        "The purple mouth is 1 circle: 7 + 1 = 8."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "5 only counts the ears, the white circles and the face. The eyes and the mouth are missing.",
+        "B": "6 forgets the 2 orange eyes.",
+        "C": "7 forgets one circle. Did you count the purple mouth or the white circles in the ears?",
+        "E": "9 counts one circle too many. There are only 8."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:01Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q02": {
+      "source": "original",
+      "content_hash": "sha256:ecc4494a0a2718247a03c965c0ec9a64c5b22ff88b6b9baf7060d4733d2845af",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "From above you only see the top cube of each stack.",
+      "steps": [
+        "From the front, the bottom row has 3 white cubes.",
+        "On the left, a dark grey cube sits on top. On the right, a light grey cube sits on top. The middle has nothing on top.",
+        "From above, the dark grey cube hides the white cube under it on the left. The light grey cube hides the white cube on the right.",
+        "In the middle we see the white cube. So from above: dark grey, white, light grey."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "All white is wrong. The dark grey and light grey cubes on top would be seen from above.",
+        "C": "The colours are in the wrong order. The left square must be dark grey and the middle one white.",
+        "D": "The colours are in the wrong order. The left square must be dark grey, not light grey.",
+        "E": "The middle and right squares are swapped. The light grey cube is on the right."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:01Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q03": {
+      "source": "original",
+      "content_hash": "sha256:18624cca706cb07fd3f35a3cafc3978c1bd542b6c88464b0261ae6abbe5667aa",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Add the 4 numbers in each bowl and compare the totals.",
+      "steps": [
+        "Bowl A: 8 + 7 + 4 + 9 = 28.",
+        "Bowl B: 4 + 6 + 7 + 9 = 26. Bowl C: 7 + 9 + 4 + 7 = 27.",
+        "Bowl D: 9 + 7 + 4 + 4 = 24. Bowl E: 7 + 4 + 9 + 5 = 25.",
+        "28 is the biggest total, and it is in bowl A."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "4 + 6 + 7 + 9 = 26, which is less than 28.",
+        "C": "7 + 9 + 4 + 7 = 27, which is just 1 less than 28.",
+        "D": "9 + 7 + 4 + 4 = 24, the smallest total of all.",
+        "E": "7 + 4 + 9 + 5 = 25, which is less than 28."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:01Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q04": {
+      "source": "original",
+      "content_hash": "sha256:9ea94d4a4e6d0f4938172cf96949b49e3fdf668183d84a0d5bea5235d0325253",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Find each piece of the square in the kangaroo. The piece you cannot find is missing.",
+      "steps": [
+        "The square has 7 pieces: 2 big triangles, 1 middle triangle, 2 small triangles, 1 square and 1 slanted piece with 4 sides.",
+        "The kangaroo has a small triangle for the ear and a small triangle for the arm.",
+        "It has 2 big triangles in the middle, the square turned on its corner, and the middle-sized triangle for the foot.",
+        "No part of the kangaroo is the slanted piece with 4 sides."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "This small triangle is in the kangaroo. It is the ear or the arm.",
+        "C": "The square is in the kangaroo, turned on its corner near the foot.",
+        "D": "This small triangle is in the kangaroo. It is the ear or the arm.",
+        "E": "This middle-sized triangle is in the kangaroo. It is the foot at the bottom."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:01Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q05": {
+      "source": "original",
+      "content_hash": "sha256:096ef5286cd4be67126fc83b6d5fdfca2319a6ee2bd6bdba6795edf023fac5e8",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Count the circles, triangles and squares on each boat and check both clues.",
+      "steps": [
+        "Clue 1: more than 1 circle. Boat C has only 1 circle, so it is out.",
+        "Clue 2: 2 more triangles than squares. Count both on every other boat.",
+        "Boat A: 2 triangles, 1 square. Boat B: 3 triangles, 2 squares. Boat D: 1 triangle, 3 squares.",
+        "Boat E has 3 circles, 4 triangles and 2 squares. 2 + 2 = 4, so both clues fit."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "It has 2 triangles and 1 square. That is only 1 more triangle, not 2.",
+        "B": "It has 3 triangles and 2 squares. That is only 1 more triangle, not 2.",
+        "C": "It has only 1 circle, but Sara's boat has more than one.",
+        "D": "It has 1 triangle and 3 squares. It has fewer triangles than squares."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:01Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q06": {
+      "source": "original",
+      "content_hash": "sha256:d57b0b95136bb2cb7ceb383624e5988b36b5bbe7603df5a61c6a8a9791ff0a8d",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Compare the two bees and add up the cost of each missing piece.",
+      "steps": [
+        "The bee on the right has only 1 eye. The second eye costs 1 point.",
+        "It has only 1 feeler on its head. The second feeler costs 3 points.",
+        "It has a wing on the left side only. The wing on the right costs 4 points.",
+        "It has no smile. The smile costs 5 points. 1 + 3 + 4 + 5 = 13."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "9 is too few. 4 pieces are missing: an eye, a feeler, a wing and the smile.",
+        "B": "10 forgets the second feeler, which costs 3 points.",
+        "C": "11 is too few. Add 1 + 3 + 4 + 5 again.",
+        "D": "12 forgets the eye, which costs 1 point."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:01Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q07": {
+      "source": "original",
+      "content_hash": "sha256:f77eaf15bae875ad2a122a50161b09bdcd580fbcfb11133435b9bdd09ff54848",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "When you unfold the paper, each hole gets a mirror twin on the other side of the fold.",
+      "steps": [
+        "The fold is the dashed line on the right side of the folded paper.",
+        "The circle is at the top, far from the fold. The square is at the bottom, close to the fold.",
+        "When she unfolds, the circle gets a twin far from the fold on the other side. So both circles sit at the outer edges.",
+        "The square gets a twin close to the fold. So both squares sit next to the middle line."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "The holes are just copied, not mirrored. One circle ends up close to the fold.",
+        "C": "Here the twin of the circle is a square. A twin hole must have the same shape.",
+        "D": "All the holes are the same distance from the fold. But the circle was far from the fold and the square was close to it.",
+        "E": "This is the wrong way round. The circles are near the fold and the squares are far from it."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:01Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q08": {
+      "source": "original",
+      "content_hash": "sha256:b8a7af012bb537010133e1245aad70c79ae28c1e33f759f793fc2f428dff176e",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "The cubes make no closed ring, so every cube after the first needs exactly 1 drop of glue.",
+      "steps": [
+        "Look at how the 12 cubes touch. There is a row of 4 cubes at the front.",
+        "2 cubes stick out in front of that row. On the left, 2 cubes go back with 1 more on top. On the right, a tower of 3 cubes stands behind.",
+        "Nowhere do the cubes close into a ring. So start with 1 cube and add the others one at a time.",
+        "Each new cube touches just 1 cube already there, so it needs 1 drop. 12 - 1 = 11 drops."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "8 drops are too few to hold 12 cubes together.",
+        "B": "9 drops are too few. Every cube except the first needs its own drop.",
+        "C": "10 drops would hold only 11 cubes. Hansi has 12 cubes.",
+        "E": "12 drops would be 1 too many. The cubes make no ring, so only 12 - 1 = 11 drops are needed."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:01Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q09": {
+      "source": "original",
+      "content_hash": "sha256:8db51ed31191ab07499ca9962fc0f069714cf73313e94dce3aab1d67cb1d3350",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Take away the numbers you know, then share what is left between the two question marks.",
+      "steps": [
+        "10 + 2 = 12.",
+        "18 - 12 = 6. So the two question marks together make 6.",
+        "Both question marks are the same number. 3 + 3 = 6.",
+        "Check: 10 + 3 + 3 + 2 = 18."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "10 + 1 + 1 + 2 = 14, not 18.",
+        "B": "10 + 2 + 2 + 2 = 16, not 18.",
+        "D": "10 + 4 + 4 + 2 = 20, which is too much.",
+        "E": "10 + 5 + 5 + 2 = 22, which is too much."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:01Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q10": {
+      "source": "original",
+      "content_hash": "sha256:a9d52aa1bb6424dda0899ca6ac7d4e2b52a6a99dd2b2546135080391b2ea05f3",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "First count the empty squares, then check that the pieces really fit.",
+      "steps": [
+        "Count the white squares: 1 in the top row, 4 in the second row, 3 in the third row and 2 in the bottom row. 1 + 4 + 3 + 2 = 10.",
+        "Count the squares in each set: A has 4 + 3 + 3 = 10, B has 4 + 4 + 3 = 11, C has 3 + 4 + 3 = 10, D has 1 + 3 + 3 = 7, E has 4 + 4 + 1 = 9.",
+        "Only A and C have 10. Try A: the long straight piece goes down the left side, from the top.",
+        "The T piece fills the rest of the second row and pokes down into the third row. The small L piece fills the last 3 squares at the bottom left."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "These pieces have 11 squares, but there are only 10 white squares.",
+        "C": "It has 10 squares, but these pieces cannot fit together to fill the white space.",
+        "D": "These pieces have only 7 squares. 3 white squares would stay empty.",
+        "E": "These pieces have only 9 squares. 1 white square would stay empty."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:01Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q11": {
+      "source": "original",
+      "content_hash": "sha256:61a0a9d4413e198ac30ec61298dbb8c116bd42f1a2cb6c45209ac952334f9c20",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Draw the line of dancers from first to last.",
+      "steps": [
+        "Emma is in place 3.",
+        "3 dancers come after her: places 4, 5 and 6.",
+        "The last girl comes after them, in place 7.",
+        "So there are 7 dancers in all."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "With 4 dancers, nobody could stand between Emma and the last girl.",
+        "B": "With 5 dancers, only 1 girl would be between Emma and the last girl.",
+        "C": "With 6 dancers, only 2 girls would be between Emma and the last girl.",
+        "E": "With 8 dancers, 4 girls would be between Emma and the last girl."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:01Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q12": {
+      "source": "original",
+      "content_hash": "sha256:f13fda87d4c1bebf89234866dc2be3afb74c13ee89ab01a5f44f92f32b12c8c4",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Each of the 6 slices of the hexagon must look exactly like the triangle.",
+      "steps": [
+        "Look at the triangle. Along its wide side is a small X. Under the X is a straight line across. Under that line is a pointed roof shape.",
+        "The hexagon is made of 6 triangles that meet in the middle, so each slice must show the X, the line and the roof.",
+        "In picture A every slice has a small X at the outside edge, a line across under it, and a roof shape under the line.",
+        "In the other pictures some part is missing or looks different."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "The X at the top and bottom is shut in a box with straight sides. The triangle has no box.",
+        "C": "There is no straight line across under the X, and several lines stop with gaps instead of joining up.",
+        "D": "There is no roof shape under the line. Instead there is a second line across.",
+        "E": "The X is much bigger and wider than the X on the triangle."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:01Z",
+      "review": {
+        "status": "flagged",
+        "note": "Key A matches the blind solver (medium confidence). The options differ only in small details in low-resolution raster images; please check the described details (B boxed X, C no line under X and broken lines, D second line instead of roof, E wide X) against the pictures."
+      }
+    },
+    "q13": {
+      "source": "original",
+      "content_hash": "sha256:ca5ed04028d2b91a237582d012974ff9b4e6377642cb6a70605a20e86e36aed0",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Use the clues one at a time, starting with the youngest.",
+      "steps": [
+        "The cakes show 8, 7, 6, 5 and 4. Vittorio is the youngest, so he gets 4.",
+        "Ali is 1 year older than Lea, and Lea is 2 years older than Josef. So Ali is 3 years older than Josef.",
+        "From 5, 6, 7 and 8, the only numbers 3 apart are 5 and 8. So Josef is 5 and Ali is 8.",
+        "Lea is 5 + 2 = 7. The cake left over is 6, and that is Sophie's."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "8 is Ali's cake. Ali is 3 years older than Josef.",
+        "B": "7 is Lea's cake. Lea is 2 years older than Josef.",
+        "D": "5 is Josef's cake.",
+        "E": "4 is Vittorio's cake, because he is the youngest."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:01Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q14": {
+      "source": "original",
+      "content_hash": "sha256:1e9d2d3ef371f085430fbb8f270113610ff9a9748b532ea0e2988bc11017822b",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Find how many apples were taken in all, then share that number equally between the 3 bags.",
+      "steps": [
+        "After Maria takes some, the bags have 3 + 4 + 6 = 13 apples.",
+        "At the start there were 19 apples. 19 - 13 = 6 apples were taken.",
+        "She took the same number from each of the 3 bags. 2 + 2 + 2 = 6.",
+        "Check: the bags had 5, 6 and 8 apples. 5 + 6 + 8 = 19."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "Taking 1 from each bag takes only 3 apples, but 6 were taken.",
+        "C": "Taking 3 from each bag takes 9 apples, but only 6 were taken.",
+        "D": "Taking 4 from each bag takes 12 apples, but only 6 were taken.",
+        "E": "Taking 5 from each bag takes 15 apples, but only 6 were taken."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:01Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q15": {
+      "source": "original",
+      "content_hash": "sha256:6db5f80a1ba03a2a77388e2a732d2bc158d1c4caf9710547289f2522e884fd5f",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "On every night one frog sings and the other two listen.",
+      "steps": [
+        "There were 9 nights, so 9 songs.",
+        "The second frog listened to 5 songs, so it sang on the other nights: 9 - 5 = 4 songs.",
+        "The first frog sang 2 songs. The third frog sang the rest: 9 - 2 - 4 = 3 songs.",
+        "The third frog listened when it did not sing: 9 - 3 = 6 songs."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "7 would mean the third frog sang only 2 songs. It sang 3.",
+        "C": "5 is how many songs the second frog listened to, not the third frog.",
+        "D": "4 is how many songs the second frog sang.",
+        "E": "3 is how many songs the third frog sang, not how many it listened to."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:59:01Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    }
+  }
+}

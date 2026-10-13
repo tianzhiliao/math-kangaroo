@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:b48dd05f93f6e9a970ffcd76d8cd976fdcaa71da915ee8e24bec70d91f6994db",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Count the fruit for one week, then double it.",
+  "steps": [
+    "Monday, Wednesday and Friday: 2 pears each day. 2 + 2 + 2 = 6.",
+    "Tuesday and Thursday: 4 plums each day. 4 + 4 = 8.",
+    "Saturday and Sunday: nothing. So one week is 6 + 8 = 14.",
+    "Two weeks: 14 + 14 = 28."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "14 is for one week only. We need two weeks.",
+    "B": "One week is 14, so two weeks are 14 + 14 = 28.",
+    "C": "One week is 14, so two weeks are 14 + 14 = 28.",
+    "E": "One week is 14, so two weeks are 14 + 14 = 28."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

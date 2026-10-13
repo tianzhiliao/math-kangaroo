@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:ef0aee10e6771785f22a82e4833f5c2ad76288dac4e329da68509a647b15f157",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Find every short path from A to B, then count the ways to add a third house.",
+  "steps": [
+    "Top path: A, the upper left house, the top house, B. It uses 2 white houses, so the third can be any of the other 4: 4 ways.",
+    "Bottom path: A, the lower left house, the bottom house, B. Again 4 ways.",
+    "Middle path: the 2 houses on the middle street, plus the upper left or the lower left house: 2 ways.",
+    "These ways are all different, so 4 + 4 + 2 = 10."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "That counts only the top and bottom paths. Add the 2 ways through the middle street.",
+    "B": "One middle way is missing: use the upper left house or the lower left house.",
+    "D": "You may have counted a pick twice. There are 4 + 4 + 2 = 10.",
+    "E": "Some picks do not join A to B. There are 4 + 4 + 2 = 10 that do."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

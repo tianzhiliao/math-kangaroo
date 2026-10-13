@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:14a92de62f8758dc243f8e9f40d98454e882db2e4a5263cebae7619108d4c553",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Read the top of each tower on the ruler, then subtract.",
+  "steps": [
+    "The top of the orange tower is at 15 on the ruler, the short mark between 14 and 16.",
+    "The top of the blue tower is at 9, the short mark between 8 and 10.",
+    "The difference is 15 - 9 = 6."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "Count again on the ruler: 15 - 9 = 6, not 5.",
+    "C": "9 is the height of the blue tower, not the difference.",
+    "D": "15 is the height of the orange tower, not the difference.",
+    "E": "24 is 15 + 9. We need to take away, not add."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

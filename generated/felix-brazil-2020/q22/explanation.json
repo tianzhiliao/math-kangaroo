@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:7775a432979377adf68a2afe297b604c8066fdc738e6d41261f542c4052a7d05",
+  "answer": "E",
+  "independent_answer": "E",
+  "key_idea": "Add up all four sides. Each colored corner gets counted twice.",
+  "steps": [
+    "Each side adds to 15, so the four sides together make 15 + 15 + 15 + 15 = 60.",
+    "The numbers 1 to 8 add up to 36. That counts every circle once.",
+    "In the 60, each colored corner is counted twice, once for each of its sides. So the colored circles add up to 60 - 36 = 24."
+  ],
+  "answer_sentence": "So the answer is E.",
+  "choice_feedback": {
+    "A": "The colored circles must make up the extra 60 - 36 = 24, not 16.",
+    "B": "The colored circles must make up the extra 60 - 36 = 24, not 18.",
+    "C": "The colored circles must make up the extra 60 - 36 = 24, not 20.",
+    "D": "The colored circles must make up the extra 60 - 36 = 24, not 22."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

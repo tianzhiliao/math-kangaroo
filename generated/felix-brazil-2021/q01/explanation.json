@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:4bac24a0e6b553aa153cb7aa165760ab580768cc3ac68c3a2bae22b11a72e8f5",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "The picture must use exactly the kangaroo's 3 sticks: 2 short pink ones and 1 long green one.",
+  "steps": [
+    "Look at the sticks at the top: 2 short pink sticks and 1 long green stick.",
+    "The picture must have 3 sticks with the same colors and lengths.",
+    "Picture C has a long green stick at the bottom and 2 short pink sticks leaning together on top. It uses exactly those 3 sticks."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "This picture needs 3 pink sticks, but the kangaroo has only 2.",
+    "B": "This picture needs 4 yellow sticks. The kangaroo has no yellow sticks.",
+    "D": "This picture needs 4 sticks, and the kangaroo has only 3.",
+    "E": "This picture needs 2 green sticks and a blue one. The kangaroo has only 1 green stick and no blue one."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:078fff4872d6d0d529d9ae72137cc02b957e9ccda1fda1552b4f36d55087de64",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "A block that is round from above looks like a rectangle, triangle or circle from the front; a block that is square from above has flat sides.",
+  "steps": [
+    "From above, left to right: red circle, blue square, yellow circle, grey square. From the front the order stays the same.",
+    "If the blocks stand up straight, the blue and grey blocks have flat sides, so from the front they look like a square or a rectangle.",
+    "The red and yellow blocks are round, so from the front they can look like a rectangle (a can) or a triangle (a cone).",
+    "Picture B has red rectangle, blue square, yellow triangle, grey square. That fits."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "The blue block is square from above, so if it stands up straight it does not look like a circle from the front.",
+    "C": "The order is backwards. From the front the red block is on the left.",
+    "D": "The grey block is square from above, so if it stands up straight it does not look like a circle from the front.",
+    "E": "The grey block is square from above, so if it stands up straight it does not look like a circle from the front."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:47:49Z",
+  "review": {
+    "status": "flagged",
+    "note": "Figure is ambiguous: a cylinder lying on its side with length = diameter looks square from above and round from the front, so A, D and E could also work. B is only the answer if all blocks stand upright. Consider changing the stem or options."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:eb5d8f1e311e8b51249170a31fc6632c43753c943e9b78e9eb9d3cab4fe24fe6",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "The hole must be inside every one of the 4 pieces of paper.",
+  "steps": [
+    "Point A is only on the pink paper.",
+    "Point B is on the pink and yellow papers, but it is left of the green paper and above the blue paper.",
+    "Point C is on the pink, yellow and green papers, but it is above the blue paper.",
+    "Point D is inside the pink, yellow, blue and green papers. All 4!"
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "Point A is only on the pink paper.",
+    "B": "Point B misses the green paper and the blue paper.",
+    "C": "Point C is above the blue paper, so the hole misses it.",
+    "E": "Point E is below the pink paper, so the hole misses it."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:b51034ea542dc092b49a4afdc3124ca43972e2608f9931cacb77d9b7308ecf82",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Count the separate pieces of ribbon in the picture.",
+  "steps": [
+    "There is a gap between every two pieces, so each orange rectangle is one piece.",
+    "The thin line down the middle of each piece is just a stripe on the ribbon. It is not a cut.",
+    "Count the pieces from left to right: 1, 2, 3, 4, 5, 6, 7, 8."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Count again from left to right. There are more than 6 pieces.",
+    "B": "Count again from left to right. There are more than 7 pieces.",
+    "D": "Count again from left to right. There are fewer than 9 pieces.",
+    "E": "Count again from left to right. There are fewer than 10 pieces."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "flagged",
+    "note": "Figure just shows 8 separate ribbon pieces, so the question is only counting (no cutting idea left). Each piece also has a darker stripe down its middle that a child could mistake for a cut. Key C (8) is confirmed by counting. Consider removing the stripes or showing the whole ribbon with cut lines."
+  }
+}

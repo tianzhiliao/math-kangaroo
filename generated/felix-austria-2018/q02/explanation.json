@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:c7d87a2b4833271dc27c03e508d959b56075cbf128e7576ff5cb63715ef375ba",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Count all the frogs, then share them so both ponds have the same number.",
+  "steps": [
+    "The left pond has 10 frogs. The right pond has 4.",
+    "Together that is 10 + 4 = 14 frogs.",
+    "Half of 14 is 7, so each pond needs 7 frogs.",
+    "The left pond must go from 10 down to 7. 10 - 7 = 3 frogs hop."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "After 1 frog hops, the left pond has 9 and the right pond has 5. That is not the same.",
+    "B": "After 2 frogs hop, the left pond has 8 and the right pond has 6. That is not the same.",
+    "C": "After 4 frogs hop, the left pond has 6 and the right pond has 8. That is not the same.",
+    "E": "After 6 frogs hop, the left pond has 4 and the right pond has 10. That is not the same."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:06Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

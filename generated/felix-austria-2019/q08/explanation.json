@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:d04110591e9594971e33480ffc1dee4ecddc66c1c202097ef71a78672e1ab690",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Find the size of one tile from the short side, then add tiles along the long side.",
+  "steps": [
+    "The short side has 3 tiles, one above the other, and it is 6 m. 2 + 2 + 2 = 6, so each tile is 2 m tall.",
+    "Each tile is twice as long as it is tall. So each tile is 2 + 2 = 4 m long.",
+    "The long side has 4 tiles in a row: 4 + 4 + 4 + 4 = 16.",
+    "The room is 16 m long."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "8 m would mean each tile is only 2 m long. But each tile is twice as long as it is tall.",
+    "B": "Each tile is 4 m long, and there are 4 tiles in a row. 4 + 4 + 4 + 4 = 16, not 12.",
+    "D": "There are 4 tiles of 4 m in a row, which makes 16 m, not 18 m.",
+    "E": "There are 4 tiles in a row, not 5. 4 + 4 + 4 + 4 = 16."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:33:38Z",
+  "review": {
+    "status": "flagged",
+    "note": "Key 16 m checks out with the drawing, but only by seeing that each tile is twice as long as it is tall. Nothing in the plain 4-by-3 grid forces that (in the original, 4 tiles side by side match one long tile). Consider a tiling that fixes the tile shape or stating it in the question."
+  }
+}

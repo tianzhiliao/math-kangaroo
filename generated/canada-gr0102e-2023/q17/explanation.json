@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:7463dbf7b6709488784e6d0f1f1f6708c9f5f378563638515320f53c1c9e57ae",
+  "answer": "E",
+  "independent_answer": "E",
+  "key_idea": "For each piece, find the spot on the grid where it covers the biggest numbers.",
+  "steps": [
+    "The grid is 2, 8, 3, 5 on top, 6, 1, 7, 4 in the middle and 3, 9, 2, 6 at the bottom.",
+    "Best spots: A covers 9 + 2 + 6 = 17. B covers 8 + 1 + 9 = 18. C covers 8 + 7 + 4 = 19.",
+    "D covers 2 + 6 + 3 + 9 = 20.",
+    "E goes down the slant: 8 + 7 + 6 = 21. That is the biggest sum."
+  ],
+  "answer_sentence": "So the answer is E.",
+  "choice_feedback": {
+    "A": "The best A can do is 9 + 2 + 6 = 17, less than 21.",
+    "B": "The best B can do is 8 + 1 + 9 = 18, less than 21.",
+    "C": "The best C can do is 8 + 7 + 4 = 19, less than 21.",
+    "D": "The best D can do is 20, just 1 less than 21."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:47:49Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

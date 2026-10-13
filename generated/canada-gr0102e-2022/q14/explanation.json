@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:85551b85043103af2d86eb04ad197128f2057b0f6e05cd4afa2ca754a186cc00",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Start with the triangle, because it is the smallest piece.",
+  "steps": [
+    "3 triangles make a circle. 2 circles make a square. So a square is as much as 6 triangles.",
+    "A square is just one digit, so the triangle must be 1. Then the circle is 3 and the square is 6.",
+    "Star + 1 + 1 = 6, so the star is 4.",
+    "The top row is circle, square, triangle, square, star: 3, 6, 1, 6, 4. The number is 36164."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "The last shape is a star, and the star is 4, not 1.",
+    "B": "The middle shape is a triangle, and the triangle is 1, not 3.",
+    "C": "The first shape is a circle, and the circle is 3, not 2.",
+    "E": "The last shape is a star, which is 4. The 6 is the square."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:52:53Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

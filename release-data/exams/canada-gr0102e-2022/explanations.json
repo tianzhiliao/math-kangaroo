@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "questions": {
+    "q01": {
+      "source": "original",
+      "content_hash": "sha256:56189817e9e1f21a5c1f33931d54d24502cbc1a8ec76d06a68b797d6f09552e4",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Turning the wheel moves the cabins around, but it never changes how many cabins are yellow.",
+      "steps": [
+        "Count the yellow cabins on each wheel.",
+        "Wheels A, B, C and D each have 5 yellow cabins and 5 blue cabins.",
+        "Wheel E has only 4 yellow cabins and 6 blue cabins.",
+        "Turning a wheel cannot change a cabin's colour, so wheel E is a different wheel."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "This wheel has 5 yellow and 5 blue cabins, like the others. It is the Great Wheel turned a little.",
+        "B": "This wheel has 5 yellow and 5 blue cabins. It is the Great Wheel turned a little.",
+        "C": "This wheel has 5 yellow and 5 blue cabins. It is the Great Wheel turned a little.",
+        "D": "This wheel has 5 yellow and 5 blue cabins. It is the Great Wheel turned a little."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q02": {
+      "source": "original",
+      "content_hash": "sha256:57fc76a1853e708498bf0afe2236d038a61e32052c0fc25ac98226ff116abcf3",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Go brick by brick and count the bricks each one touches.",
+      "steps": [
+        "On the left, 3 bricks lie in a stack. On the right, 2 bricks stand up tall, one behind the other.",
+        "Each tall brick touches all 3 bricks in the stack and the other tall brick: 3 + 1 = 4.",
+        "The middle brick in the stack touches the brick above, the brick below and both tall bricks: 4.",
+        "The top and bottom bricks in the stack touch only 3 bricks each.",
+        "So the 2 tall bricks and the middle brick touch exactly 4: 2 + 1 = 3 bricks."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "The middle brick of the stack touches 4, but so do both tall bricks.",
+        "B": "The 2 tall bricks touch 4 each, but the middle brick of the stack does too.",
+        "D": "The top and bottom bricks of the stack touch only 3 bricks each.",
+        "E": "The top and bottom bricks of the stack touch only 3 bricks each, not 4."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q03": {
+      "source": "original",
+      "content_hash": "sha256:f1d7ac655f63e6c692b9d8719e1c137410f7a2eacc90003c58d3e0c667e6a0cf",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Compare the two lines: the second line has just one more juice box.",
+      "steps": [
+        "Line 1: one sandwich and one juice box cost 12 dollars.",
+        "Line 2 has the same sandwich and one extra juice box, and costs 14 dollars.",
+        "So the extra juice box costs 14 - 12 = 2 dollars.",
+        "Two juice boxes cost 2 + 2 = 4 dollars."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "One juice box costs 2 dollars, so two cannot cost only 1 dollar.",
+        "B": "2 dollars is the price of one juice box. The question asks for two.",
+        "C": "Two juice boxes cost 2 + 2, which is not 3.",
+        "E": "Two juice boxes cost 2 + 2, which is not 5."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q04": {
+      "source": "original",
+      "content_hash": "sha256:a2a2cfb597e008084329359e37e01c9d2939c3cad3d485242ec27578096781c0",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Find the row with only 1 coin and the column with only 1 coin.",
+      "steps": [
+        "Count the coins in each row. Rows 1, 2 and 4 already have 2 coins. Row 3 has only 1.",
+        "Count the coins in each column. Columns 1, 2 and 4 already have 2 coins. Column 3 has only 1.",
+        "The last coin must go where row 3 and column 3 meet.",
+        "That square is marked D."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Square A is in row 2, which already has 2 coins.",
+        "B": "Square B is in row 1, which already has 2 coins.",
+        "C": "Square C is in row 2, which already has 2 coins.",
+        "E": "Square E is in row 4, which already has 2 coins."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q05": {
+      "source": "original",
+      "content_hash": "sha256:5072a47a95cbb31582f625bf0c2fd01356e34b5f72514a2bd17cac976f37b198",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "The missing piece must show things that are not already on the map, and its lines must join the map's lines.",
+      "steps": [
+        "The torn part is the top right corner of the map.",
+        "The red dashed path stops near the mountains. It has to go on into the missing piece.",
+        "Piece B has the rest of the red path, the red X and the coast line. Turned around, it fits the corner.",
+        "The other pieces show parts that are still on the map, like the skull, the fish bones, the ship and the mountains."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "This piece shows the ship, huts and mountains that are still on the map.",
+        "C": "This piece shows the fish bones that are still on the map.",
+        "D": "This piece shows the people and mountains that are still on the map.",
+        "E": "This piece shows the skull that is still on the map."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q06": {
+      "source": "original",
+      "content_hash": "sha256:625bcc462d9b617c0b4dc5350104bf74e424be010ce3b374c9971e1fc4bb43d3",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "It is easier to count the clean squares and take them away from 24.",
+      "steps": [
+        "The paper has 6 squares in each row and 4 rows: 24 squares.",
+        "Look for squares with no ink at all. Only the 4 corner squares are clean.",
+        "So 24 - 4 = 20 squares have ink.",
+        "Check row by row: 4 + 6 + 6 + 4 = 20."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "Even a small drop of ink counts. Only the 4 corner squares are clean.",
+        "B": "Count again: only the 4 corner squares have no ink at all.",
+        "C": "Count again: only the 4 corner squares have no ink at all.",
+        "D": "Count again: only the 4 corner squares have no ink at all."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q07": {
+      "source": "original",
+      "content_hash": "sha256:887ab2f4b66087cef0279299aadc4d4c5ff765b3c1bfdfbdacdbd35675aefbb8",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Find the pairs first, then the puppy gets the basket that is left.",
+      "steps": [
+        "Baskets 2 and 4 have the same shape and the same black dots. The koala and the fox sleep there.",
+        "Baskets 1 and 3 have the same orange and blue weave. The kangaroo and the ostrich sleep there.",
+        "Only basket 5 is left, so the puppy sleeps in basket 5."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "Basket 1 has the same weave as basket 3, so it goes to the kangaroo or the ostrich.",
+        "B": "Basket 2 matches basket 4 in shape and pattern, so it goes to the koala or the fox.",
+        "C": "Basket 3 has the same weave as basket 1, so it goes to the kangaroo or the ostrich.",
+        "D": "Basket 4 matches basket 2 in shape and pattern, so it goes to the koala or the fox."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q08": {
+      "source": "original",
+      "content_hash": "sha256:6fa9b092a4c0d9ab9ac8cdc3bd216d43273f17a64218b59a04ce34bfaecdd685",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Follow each route with your finger, one arrow is one square.",
+      "steps": [
+        "Kanga starts in the bottom left square. The koala is in the top right square.",
+        "Route C: go 2 right, then 2 up, then 2 right. All these squares are white.",
+        "Then go 2 up to the top row, and 3 right along the top row to the koala.",
+        "Route C never steps on a coloured square."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "After 2 steps right, going up 4 runs into the blue patch at the top.",
+        "B": "Going right along the middle row runs into the blue patch on the right.",
+        "D": "The last arrows point left, away from the koala, and into the blue patch at the top.",
+        "E": "After 2 steps right, going up 3 runs into the blue patch at the top."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q09": {
+      "source": "original",
+      "content_hash": "sha256:9dd80290b3ea52d7e2fd0998423cb6415986cf0945a817e3a846c0c8ba69183b",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "A sticker put down later lies on top of a sticker put down earlier.",
+      "steps": [
+        "First the square, then the star, then the circle.",
+        "So the square must be under the star, and the star must be under the circle.",
+        "In picture C the circle lies on top of the star, and the star lies above the square.",
+        "In every other picture one of these is the wrong way round."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "Here the square lies on top of the star, but the square went down first.",
+        "B": "Here the square covers part of the star, but the square went down first.",
+        "D": "Here the star lies on top of the circle, but the circle went down last.",
+        "E": "Here the star lies on top of the circle, but the circle went down last."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q10": {
+      "source": "original",
+      "content_hash": "sha256:0e642e60d3c44d65c4f3d5e43a512f522c03acb3935ad08098addd72539fc226",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Try to visit as many rooms as you can, and skip only a small number.",
+      "steps": [
+        "All 8 rooms add up to 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36.",
+        "Try a path through all 8 rooms from room 1 to room 8. You always get stuck, so Dino must skip a room.",
+        "Skip room 2, the smallest one he can skip: 1, 5, 6, 7, 3, 4, 8.",
+        "1 + 5 + 6 + 7 + 3 + 4 + 8 = 34."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Dino can do better: the path 1, 5, 6, 7, 3, 4, 8 gives more than 27.",
+        "B": "Dino can do better: the path 1, 5, 6, 7, 3, 4, 8 gives more than 29.",
+        "C": "Dino can do better: the path 1, 5, 6, 7, 3, 4, 8 gives more than 32.",
+        "E": "36 means going through all 8 rooms, and no path can do that and still end at the exit."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q11": {
+      "source": "original",
+      "content_hash": "sha256:ece7105809abc9fa666c497adfb3f19430667a4a3b37dbb892eb50be0916f752",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "When you fold, a shape lands on the shape the same number of squares away on the other side, flipped.",
+      "steps": [
+        "Count squares from the red line for each shape on the left. Look the same distance away on the right.",
+        "The arrow on top, the triangle below it and the down arrow all land exactly on a matching shape.",
+        "The circle on the left is in the 5th column from the line, but the right circle is in the 4th column.",
+        "The bottom triangle on the right faces the wrong way, so the left one does not land on it.",
+        "So 3 shapes land exactly."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "More shapes match: both arrows and the top triangle land exactly.",
+        "B": "Check again: both arrows and the top triangle all land exactly.",
+        "D": "The circle and the bottom triangle do not land exactly, so only 3 match.",
+        "E": "The circle is one square off, and the bottom triangle faces the wrong way."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q12": {
+      "source": "original",
+      "content_hash": "sha256:621abd2e0e8805a9e3072030cb4fd8a83de3eca68f5788514ccb7610cd432be1",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Look at how many tiles go along each side of the path.",
+      "steps": [
+        "Around the square with side 1, there is 1 tile on each side: 4 tiles.",
+        "Around the square with side 3, there are 2 tiles on each side: 8 tiles.",
+        "Each side of the path is 1 longer than the square, and each tile is 2 long.",
+        "For side 5, each side of the path is 6 long, so it needs 3 tiles.",
+        "3 + 3 + 3 + 3 = 12 tiles."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "10 tiles cannot be shared equally on the 4 sides. Each side needs 3.",
+        "B": "Each of the 4 sides needs the same number of tiles, so 11 cannot work.",
+        "D": "Each side needs 3 tiles, and 4 sides of 3 is less than 14.",
+        "E": "16 would be 4 tiles on each side, but each side needs only 3."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q13": {
+      "source": "original",
+      "content_hash": "sha256:4bdbedea6694ccf64e949745c44048f535527330877b91aeef882b5a83ab14bb",
+      "answer": "A",
+      "independent_answer": null,
+      "key_idea": "If you know four of the five numbers in a house, the fifth is 20 minus their sum.",
+      "steps": [
+        "Each house has 5 numbers that add up to 20.",
+        "Find a house where only one number is missing.",
+        "Add the numbers you can see, then take that sum away from 20.",
+        "Use that to fill in the shared numbers, then work out the number under the question mark."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "Add the numbers in the house and check if they make 20.",
+        "C": "Add the numbers in the house and check if they make 20.",
+        "D": "Add the numbers in the house and check if they make 20.",
+        "E": "Add the numbers in the house and check if they make 20."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "flagged",
+        "note": "Figure broken: every circle is blank except one 7 in the right house, and there is no '?' mark, so the house sums cannot be used. The key A (3) is confirmed by the official 2022 answer table, but the figure needs to be re-extracted before this explanation can show real working."
+      }
+    },
+    "q14": {
+      "source": "original",
+      "content_hash": "sha256:688b7fff16e67def796a2fd2a96cf5e760028df2a11b369147c8e4ad606c2939",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Same shape means same digit, different shapes mean different digits.",
+      "steps": [
+        "The shapes are: heart, diamond, diamond, club, spade.",
+        "So the 2nd and 3rd digits must be the same. All other digits must be different.",
+        "34426: 4 and 4 are the same, and 3, 4, 2, 6 are all different. It fits."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "In 34424 the last digit is 4, but the spade must hide a different digit from the diamonds.",
+        "B": "In 34526 the 2nd and 3rd digits are different, but they both hide under diamonds.",
+        "C": "In 34423 the first and last digits are both 3, but the heart and spade are different shapes.",
+        "E": "In 32446 the same digits are 3rd and 4th, but the two diamonds are 2nd and 3rd."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q15": {
+      "source": "original",
+      "content_hash": "sha256:24c794a5cebb869ae192e717e126d0818fa78942a6dce0d2c8417c8ea7ef842f",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Drive along each road and check every corner: all turns must be left turns.",
+      "steps": [
+        "Pick one end of a road and drive along it. At each corner, ask: is this a left turn or a right turn?",
+        "If a road has a left turn and a right turn, Kangu cannot drive it from either end.",
+        "Road E: start at the dot inside the thin part on the left. Every corner is a left turn.",
+        "Each other road has at least one left turn and one right turn."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "This road has left turns and also a right turn, so Kangu cannot drive it.",
+        "B": "This road has left turns and also right turns, so Kangu cannot drive it.",
+        "C": "This road has right turns and also a left turn, so Kangu cannot drive it.",
+        "D": "This road has right turns and also left turns, so Kangu cannot drive it."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q16": {
+      "source": "original",
+      "content_hash": "sha256:7feea492328e5cf59355790bd4c2bfbf35edb8eeea3bd7055ab7c36b2299bfa6",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "To make one card as big as possible, make the other three cards as small as possible.",
+      "steps": [
+        "The three smallest cards are 1, 3 and 5.",
+        "1 + 3 + 5 = 9.",
+        "The fourth card is 20 - 9 = 11, and there is a card 11.",
+        "Check: 1 + 3 + 5 + 11 = 20."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Lily can use a bigger card: 1 + 3 + 5 + 11 = 20.",
+        "B": "Lily can use a bigger card: 1 + 3 + 5 + 11 = 20.",
+        "C": "Lily can use a bigger card: 1 + 3 + 5 + 11 = 20.",
+        "E": "With 13, the other three cards must add up to 7, but the smallest three already make 9."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q17": {
+      "source": "original",
+      "content_hash": "sha256:498ea11377cf6021d1299e9497acf270f02cb7950d46431aa9c1075e92c7b3bf",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Each swap can put at most 2 cards in their right places.",
+      "steps": [
+        "The goal is 5 4 3 2 1. Now the cards are 3 4 1 5 2.",
+        "The 4 is already in place. The other 4 cards are in the wrong place.",
+        "Swap 3 and 5: 5 4 1 3 2. Swap 1 and 3: 5 4 3 1 2. Swap 1 and 2: 5 4 3 2 1.",
+        "No swap at the start fixes 2 cards at once, so 2 swaps are not enough. It takes 3."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "One swap moves only 2 cards, but 4 cards are in the wrong place.",
+        "B": "No first swap can put 2 cards in place at once here, so 2 swaps cannot fix all 4.",
+        "D": "It can be done in fewer steps: 3 swaps are enough.",
+        "E": "It can be done in fewer steps: 3 swaps are enough."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q18": {
+      "source": "original",
+      "content_hash": "sha256:f521d89aa3c4be7c19af6c9625dae6a4a19928a09744ca3a3463c535581e80fc",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Start with the row where all the shapes are the same.",
+      "steps": [
+        "Top row: 3 squares make 18. 6 + 6 + 6 = 18, so a square is 6.",
+        "First column: square + triangle + triangle = 14. 14 - 6 = 8, so each triangle is 4.",
+        "Bottom row: triangle + circle + triangle = 10. 4 + 4 = 8, so the circle is 2.",
+        "Middle column: square + triangle + circle = 6 + 4 + 2 = 12."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "The middle column is 6 + 4 + 2, which is more than 10.",
+        "C": "The middle column is 6 + 4 + 2, which is less than 14.",
+        "D": "The middle column is 6 + 4 + 2, which is less than 16.",
+        "E": "The middle column is 6 + 4 + 2, which is less than 18."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T14:52:53Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    }
+  }
+}

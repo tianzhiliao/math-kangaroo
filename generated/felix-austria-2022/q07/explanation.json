@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:88cc321e0543d8c805e2041331e271bcf4db6f09fed4cc11430374c34ef56aa3",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "First find the two baskets that match in both pattern and shape.",
+  "steps": [
+    "Baskets 1 and 3 are both round with stripes. Same pattern and same shape: the cat and the dog sleep there.",
+    "Basket 2 has stripes too, but it has corners, so it does not match their shape.",
+    "Baskets 4 and 5 both have dots. Same pattern: the deer and the hare sleep there.",
+    "Only basket 2 is left, so the mouse sleeps in basket 2."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "Basket 1 matches basket 3 in shape and pattern, so the cat or the dog sleeps there.",
+    "C": "Basket 3 matches basket 1 in shape and pattern, so the cat or the dog sleeps there.",
+    "D": "Basket 4 has dots like basket 5, so the deer or the hare sleeps there.",
+    "E": "Basket 5 has dots like basket 4, so the deer or the hare sleeps there."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:57Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

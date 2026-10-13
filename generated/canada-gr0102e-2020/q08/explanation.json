@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:9d4c47689a2caaabbcddf163a0763a11f29c0ab902a1aa3cb40c1518c05eb1df",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Find the smallest number of oranges that 4 children can share equally.",
+  "steps": [
+    "Count by 4s: 4, 8, 12. 10 is not in the list, so 10 oranges can't be shared equally.",
+    "The next number after 10 is 12.",
+    "12 - 10 = 2, so Grandfather needs 2 more oranges. Then each child gets 3."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "10 oranges can't be split into 4 equal groups.",
+    "B": "With 1 more there are 11 oranges, and 11 can't be shared equally by 4.",
+    "D": "With 3 more there are 13 oranges, and 13 can't be shared equally by 4.",
+    "E": "With 4 more there are 14 oranges, and 14 can't be shared equally by 4."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T00:00:00Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

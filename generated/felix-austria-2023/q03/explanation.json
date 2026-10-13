@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:15199242169d52b56fec79db33df9a52637dd97e735f8a44a1f42ceca6e13a97",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Add the 4 numbers in each bowl and compare the totals.",
+  "steps": [
+    "Bowl A: 1 + 6 + 4 + 5 = 16. Bowl B: 2 + 3 + 8 + 4 = 17.",
+    "Bowl C: 9 + 1 + 2 + 6 = 18.",
+    "Bowl D: 5 + 5 + 3 + 4 = 17. Bowl E: 7 + 2 + 3 + 4 = 16.",
+    "18 is the biggest total, and it is in bowl C."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "1 + 6 + 4 + 5 = 16, which is less than 18.",
+    "B": "2 + 3 + 8 + 4 = 17, which is 1 less than 18.",
+    "D": "5 + 5 + 3 + 4 = 17, which is 1 less than 18.",
+    "E": "7 + 2 + 3 + 4 = 16, which is less than 18."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:01Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

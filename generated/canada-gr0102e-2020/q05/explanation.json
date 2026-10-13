@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:2c84d6bf9e2e4bec3b05549f3b415213e3613f07df28840e928393f7a92497e8",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Each column has the same shape twice.",
+  "steps": [
+    "The first column has two circles. The second column has two squares.",
+    "The third column has a triangle pointing up on top.",
+    "So the empty square needs the same triangle, pointing up."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "The square belongs in the middle column.",
+    "B": "The circle belongs in the first column.",
+    "C": "This triangle points down. The one above it points up.",
+    "E": "There is no diamond anywhere in the picture."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T00:00:00Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

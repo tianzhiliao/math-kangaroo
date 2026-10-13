@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:c9b48978c6bb7c7a252ddbcfa45fea3b806cee02ead904b1ea22d9600ad56737",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "The key's teeth must match the keyhole's teeth in size and place.",
+  "steps": [
+    "Look at the keyhole. Next to the round part there is a wide, long tooth. Further out there is a thin, shorter tooth.",
+    "The key needs the same teeth in the same places.",
+    "Key B has a wide, long tooth first and a thin, shorter tooth after it."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "It has only one tooth, but the lock needs two.",
+    "C": "Its teeth are swapped: the wide tooth is short and the thin tooth is long.",
+    "D": "It has 3 small teeth, but the lock has 2.",
+    "E": "Both of its teeth are too short."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:13Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

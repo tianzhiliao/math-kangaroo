@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:fb1bd279ba635cca90e14f75aa0c34764f26b96b5a9b7a1e64ca5ad81e04ffd0",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "A sticker put down later lies on top of a sticker put down earlier.",
+  "steps": [
+    "First the triangle, then the heart, then the diamond.",
+    "So the triangle must be under the heart, and the heart must be under the diamond.",
+    "In picture B the heart lies on top of the triangle, and the diamond lies on top of the heart.",
+    "In every other picture one of these is the wrong way round."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "Here the triangle lies on top of the heart, but the triangle went down first.",
+    "C": "Here the heart lies on top of the diamond, but the diamond went down last.",
+    "D": "Here the heart lies on top of the diamond, but the diamond went down last.",
+    "E": "Here the heart lies on top of the diamond, but the diamond went down last."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:52:53Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

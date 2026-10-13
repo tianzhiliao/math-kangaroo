@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:c6c8d73578d1d7c77e8d7fd1a8dce2280e0e0c2fd1360093d327fe7f1fe7c1e5",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Look at which sides of the hole have a road coming in.",
+  "steps": [
+    "A road comes down into the middle of the top side of the gray hole.",
+    "Another road comes in from the left, into the middle of the left side.",
+    "The right side and bottom side are the edge of the map, so no road goes there.",
+    "Piece C has a corner road. Turn it around and it joins the top and the left, with nothing else."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "This straight road can join only one of the two roads, not both.",
+    "B": "This piece has 3 road ends, so one road would run off the edge of the map.",
+    "D": "This piece has only 1 road end, so it cannot join both roads.",
+    "E": "This piece has 4 road ends, so two roads would run off the edge of the map."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:52:53Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:584d02d31f6c3449d4bddd57fad428ac7130acb4baeb8302fa10eba03efce2c3",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Count how many white cubes there should be, then count the white cubes you can see.",
+  "steps": [
+    "A 2 by 2 by 2 block has 8 cubes. Half are white, so 4 are white.",
+    "You can see 7 cubes. Only the bottom cube at the back left is hidden.",
+    "White cubes you can see: the top right and bottom left cubes on the front, and the top left cube at the back. That is 3.",
+    "4 - 3 = 1 white cube is hidden."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "You can see only 3 white cubes, but there are 4.",
+    "C": "Only 1 cube is hidden in the whole block, so at most 1 white cube can be hidden.",
+    "D": "Only 1 cube is hidden in the whole block, so at most 1 white cube can be hidden.",
+    "E": "You can see 3 white cubes, so not all 4 are hidden."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

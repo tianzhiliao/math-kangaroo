@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:c170b7b762f71054a98135b18b125be2ae997ec67b3bc7c5cfa3caae8b3ad135",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "When you look from behind, left and right swap.",
+  "steps": [
+    "From the front the strips are pink, green, yellow, blue, from left to right. Each mark is at the top, near the left edge.",
+    "Walk around to the back. Now left and right swap, so the order of the strips turns around.",
+    "Turning around does not move anything up or down.",
+    "The question does not say whether the marks can be seen through the paper. Check that before choosing."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "From behind, left and right swap, so the strips cannot stay in the same order.",
+    "C": "When left and right swap, a mark near the left edge also moves to the other side.",
+    "D": "From behind, left and right swap, so the strips cannot stay in the same order.",
+    "E": "Turning around swaps left and right, but it does not move the marks to the bottom."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:33:38Z",
+  "review": {
+    "status": "flagged",
+    "note": "Answer B only works if the black marks show through the paper; the question never says so, and if they do not, none of the choices shows plain backs. The strips also do not cross, so there is no real pattern. Steps are method-only; reword the question or figure before shipping."
+  }
+}

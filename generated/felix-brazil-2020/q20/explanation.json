@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:ed356971a6b6b6b67d99f3002d030b2abd6d0f73f8af0cfa55c05a20538e9a52",
+  "answer": "A",
+  "independent_answer": "A",
+  "key_idea": "Each pair of opposite faces has the same sum, and all six numbers must be different and at most 9.",
+  "steps": [
+    "We see 1, 3 and 8. The faces opposite them are hidden.",
+    "Try 2 opposite 8: 8 + 2 = 10. Then 1 needs 9 and 3 needs 7, because 1 + 9 = 10 and 3 + 7 = 10.",
+    "The numbers 1, 2, 3, 7, 8, 9 are all different and all from 1 to 9. It works!"
+  ],
+  "answer_sentence": "So the answer is A.",
+  "choice_feedback": {
+    "B": "8 + 4 = 12, so 1 would need 11. That is too big.",
+    "C": "8 + 5 = 13, so 1 would need 12. That is too big.",
+    "D": "8 + 6 = 14, so 1 would need 13. That is too big.",
+    "E": "8 + 9 = 17, so 1 would need 16. That is too big."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:8a1f4f1f3a0ce3f88c9098e0cf86994d9f21104ae2f8249072cc8424fc8f58e6",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "After every 5 jumps there is a 2 minute rest, but no rest after the last jumps.",
+  "steps": [
+    "20 jumps is 4 lots of 5 jumps. Each lot takes 1 minute, so that is 4 minutes of jumping.",
+    "There is a rest between the lots: after lot 1, 2 and 3. That is 3 rests.",
+    "3 rests of 2 minutes is 2 + 2 + 2 = 6 minutes.",
+    "4 + 6 = 10 minutes."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Add the jumping and the rests again: 4 + 6 = 10.",
+    "B": "Add the jumping and the rests again: 4 + 6 = 10.",
+    "D": "Add the jumping and the rests again: 4 + 6 = 10.",
+    "E": "The rabbit is done after the last jumps. It does not need a rest after that."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:36:33Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

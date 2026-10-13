@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:98214c534b6f018ff1ca75f76d8fde88416cba06840cd405e4bfc4e2f71dba20",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Count all the red stickers, then take away the red square ones.",
+  "steps": [
+    "Half of 18 is 9, so 9 stickers are red.",
+    "There are 18 - 10 = 8 square stickers, and only 1 of them is not blue. So 1 square sticker is red.",
+    "The other red stickers are round: 9 - 1 = 8."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "Then there would be only 5 + 1 = 6 red stickers, but there are 9.",
+    "B": "Then there would be only 6 + 1 = 7 red stickers, but there are 9.",
+    "C": "Then there would be only 7 + 1 = 8 red stickers, but there are 9.",
+    "E": "9 is all the red stickers, but 1 of them is square."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:9853eea2b07a092b0be5be53513d10f3d107143a618a8aaf632acf9c3c2a9997",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Use a box in the star's column to find the star.",
+  "steps": [
+    "The star is on top of the last column. In the row that starts with 2, the box under the star shows 11.",
+    "2 + star = 11, so the star is 9, because 2 + 9 = 11.",
+    "Check the other boxes in that column: 5 + 9 = 14 and 8 + 9 = 17. They match."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "2 + 7 = 9, but the box shows 11.",
+    "B": "2 + 8 = 10, but the box shows 11.",
+    "D": "2 + 10 = 12, but the box shows 11.",
+    "E": "2 + 12 = 14, but the box shows 11."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:36:33Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

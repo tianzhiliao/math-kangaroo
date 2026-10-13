@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:436d5824ed7d443045dcd2ee7b775465cdbef7d2f364389a6388e59f681f480d",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Each girl dances once with each boy, and each dance takes 1 minute.",
+  "steps": [
+    "Each girl dances with 3 boys. That is 3 dances for each girl.",
+    "There are 4 girls, so 3 + 3 + 3 + 3 = 12 dances.",
+    "Only one pair dances at a time, and each dance is 1 minute. So they dance 12 minutes."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "7 is the number of children, not the number of dances.",
+    "B": "3 + 3 + 3 = 9 counts only 3 girls. There are 4 girls.",
+    "D": "Count the pairs again: 4 girls with 3 boys each make 12 pairs.",
+    "E": "Count the pairs again: 4 girls with 3 boys each make 12 pairs."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:05:42Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

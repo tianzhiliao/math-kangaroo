@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:8f5d36b78ce816543cbf8c868e1c28616df670a95f0e4b2050e0b20ff1a9e5da",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "List every number between 30 and 60 that uses two different digits from 2, 4, 5 and 9.",
+  "steps": [
+    "Bigger than 30 and smaller than 60 means the first digit is 3, 4 or 5. We have no 3, so it is 4 or 5.",
+    "Starting with 4: 42, 45 and 49. 44 uses 4 twice.",
+    "Starting with 5: 52, 54 and 59. 55 uses 5 twice.",
+    "That is 3 + 3 = 6 numbers."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "There are 3 numbers starting with 4 and 3 numbers starting with 5.",
+    "B": "Check again: 42, 45, 49, 52, 54 and 59.",
+    "C": "Numbers like 44 and 55 do not count, because their two digits are the same.",
+    "E": "Numbers starting with 2 are too small, and numbers starting with 9 are too big."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:06Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

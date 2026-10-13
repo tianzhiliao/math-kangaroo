@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:1de77440a322209feb3d177bbed64eb2a7d70c02765a2d1ecb89252a6f514042",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Count the cubes in each shape.",
+  "steps": [
+    "A has 4 cubes in a row. C has 4 cubes in a square.",
+    "D has 3 cubes in a tower. E has 4 cubes in a row and 1 more on top: 5 cubes.",
+    "B is a staircase with 1 + 2 + 3 = 6 cubes.",
+    "6 is the most."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "A has only 4 cubes.",
+    "C": "C has only 4 cubes.",
+    "D": "D has only 3 cubes.",
+    "E": "E has 5 cubes. B has one more."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T00:00:00Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

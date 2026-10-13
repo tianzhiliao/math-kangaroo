@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:39078cf8507cc22fb19bf035c00fed1e745906ce314bf49ef44e8af0008b2932",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "The photo must show the same bus, facing the same way, with Nina standing in front.",
+  "steps": [
+    "The bus is yellow. Its small light is on the left and its red star is on the right.",
+    "In B the bus looks just like that, and Nina stands in front of it.",
+    "The other pictures change the bus or put Nina in the wrong place."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "Only Nina's feet show under the bus, so she is behind it.",
+    "C": "Nina stands beside the bus, not in front of it.",
+    "D": "The bus faces the other way: the star is on the left.",
+    "E": "The bus is blue, not yellow."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T15:01:54Z",
+  "review": {
+    "status": "flagged",
+    "note": "The stem picture already shows Nina standing in front of the bus, so it gives the answer away; the stem should show the bus alone. Key B is still correct."
+  }
+}

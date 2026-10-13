@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:6d59273fc5b32818011f011ef875d4a8d400179a6b19fe1608c8b2f8e8833721",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Find three different numbers, each 2 or more, that add up to 9.",
+  "steps": [
+    "Start as small as possible: 2 + 3 + 4 = 9. That is exactly 9.",
+    "Any other set of three different numbers, each 2 or more, adds up to more than 9.",
+    "Nora has 2, the least. Mila has 4, the most.",
+    "Otto has the middle number, 3."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "Nora has the least, so Otto has more than Nora. Otto cannot have just 2.",
+    "B": "4 is the most nuts anyone has, and Mila has the most.",
+    "C": "If Otto had 5, the other two would share 4 nuts, so they would both have 2. They must all have different numbers.",
+    "E": "Each squirrel has at least 2 nuts, so nobody has 1."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:33:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

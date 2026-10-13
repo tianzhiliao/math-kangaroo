@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:4ae1ce6793a38b3834fdfd38dea024d6aafde5360d4265f3220920b4d02b3815",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Add up all the dots, then see how many dots must fly away.",
+  "steps": [
+    "The beetles have 3, 8, 2, 6 and 5 dots.",
+    "3 + 8 + 2 + 6 + 5 = 24 dots.",
+    "We want 16 dots. 24 - 16 = 8, so 8 dots must fly away.",
+    "The beetle with 8 dots flies away."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "If the beetle with 3 dots flies away, 21 dots are left.",
+    "B": "If the beetle with 6 dots flies away, 18 dots are left.",
+    "D": "If the beetle with 5 dots flies away, 19 dots are left.",
+    "E": "With no beetle gone there are 24 dots, not 16."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:06Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

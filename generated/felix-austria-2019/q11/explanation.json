@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:8c30123a695e463344769995afecc3f41a1971914b6bcb22ad81440313b31136",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "The part of the pole inside the tower is half of the whole pole.",
+  "steps": [
+    "The pole goes from 8 m up to 20 m. So it is 20 - 8 = 12 m long.",
+    "Half of the pole is inside the tower. Half of 12 is 6.",
+    "The pole starts at 8 m and goes 6 m up to the top of the tower: 8 + 6 = 14.",
+    "The tower is 14 m high."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "The bottom of the pole is at 8 m, and 6 m of the pole is inside. 8 + 6 = 14, not 10.",
+    "B": "12 m is the length of the whole pole, not the height of the tower.",
+    "D": "Check again: the pole is 12 m long, so 6 m is inside the tower.",
+    "E": "28 m comes from adding 20 + 8. The tower is lower than the top of the flag."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:33:38Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

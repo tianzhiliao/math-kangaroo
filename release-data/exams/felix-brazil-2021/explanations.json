@@ -1,0 +1,627 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "questions": {
+    "q01": {
+      "source": "original",
+      "content_hash": "sha256:9781acace79e0c93c0dcfa907f2501a7e0e4ab00acb10701b25f51ec4d7d948d",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Count the sticks in each shape. The kangaroo has only 3 straight sticks.",
+      "steps": [
+        "The kangaroo has 3 sticks, each as long as the stick in the picture. It cannot break or bend them.",
+        "So the shape must be made of exactly 3 straight sticks.",
+        "Shapes A, B, C and D each need 4 sticks.",
+        "Shape E is 3 sticks that cross in the middle, like a star."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "This star has 4 sticks: one across, one up and down, and two slanted ones.",
+        "B": "This shape has 4 sticks: 2 standing up and 2 slanted ones.",
+        "C": "This shape needs 4 sticks, and the kangaroo has only 3.",
+        "D": "This shape needs 4 sticks, and the kangaroo has only 3."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q02": {
+      "source": "original",
+      "content_hash": "sha256:104feaefb4e55703834ad7cf0fde723f35cd4a269e4bd13363fe4c7ffa509587",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Read the top of each mushroom on the ruler, then subtract.",
+      "steps": [
+        "Follow the dashed line from the top of the tall mushroom to the ruler. It is at 11.",
+        "Follow the dashed line from the top of the short mushroom to the ruler. It is at 6.",
+        "The difference is 11 - 6 = 5."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "Count again on the ruler: 11 - 6 = 5, not 4.",
+        "C": "6 is the height of the short mushroom, not the difference.",
+        "D": "11 is the height of the tall mushroom, not the difference.",
+        "E": "17 is 11 + 6. We need to take away, not add."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q03": {
+      "source": "original",
+      "content_hash": "sha256:3e626e5e57f4525a900b6d1fb53c59e6ff5235d33326ea183e9f7f9e7f2ab96b",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Count the small grid steps along each path.",
+      "steps": [
+        "Each path is made of short pieces, each one square side long. Count them.",
+        "Path A has 15 pieces. Path B has 13.",
+        "Path C has 12, path D has 12 and path E has 11.",
+        "15 is the biggest, so path A is the longest."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "Path B has 13 pieces, fewer than 15.",
+        "C": "Path C has 12 pieces, fewer than 15.",
+        "D": "Path D has 12 pieces, fewer than 15.",
+        "E": "Path E has 11 pieces. It is the shortest."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q04": {
+      "source": "original",
+      "content_hash": "sha256:6d72ba43fa59a8bf2fbb75cf7046a8a60464900c842f54164c69bd50cff62c24",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "The hole must be inside every one of the 4 pieces of paper.",
+      "steps": [
+        "Look at the front piece of paper, at the bottom. Points A and B are above it, so they miss it.",
+        "Point C is too far left. It misses the piece at the back on the right.",
+        "Point E is too far right. It misses the piece at the back on the left.",
+        "Point D is inside all 4 pieces of paper."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Point A is above the front piece of paper, so the hole misses it.",
+        "B": "Point B is above the front piece of paper, so the hole misses it.",
+        "C": "Point C is to the left of the back piece on the right, so the hole misses it.",
+        "E": "Point E is to the right of the back piece on the left, so the hole misses it."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q05": {
+      "source": "original",
+      "content_hash": "sha256:cb095b9ffb8211e4a81b9d514df4e1155d95a501381873a9c1040c9973c918ac",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "A mirror flips the whole picture: the order of the digits turns around and each digit is flipped too.",
+      "steps": [
+        "On the shirt it says 2021.",
+        "In a mirror, the last digit, 1, shows up first on the left. So we see the digits in the order 1, 2, 0, 2.",
+        "Each digit is also flipped, so the 1 and both 2s face the other way.",
+        "Picture A has the order 1, 2, 0, 2 with every digit flipped."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "If you flip this back, it says 1202, not 2021.",
+        "C": "If you flip this back, it says 2120, not 2021.",
+        "D": "The order is turned around, but the 1 and the first 2 are not flipped.",
+        "E": "The order is turned around, but the 1 and the last 2 are not flipped."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q06": {
+      "source": "original",
+      "content_hash": "sha256:3b312fb112cb3c12e4453c9421e2f7952c17a0349464722c949b8dbbe6ae101d",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Put the towers in order from shortest to tallest.",
+      "steps": [
+        "The pink tower is taller than the red tower: red, pink.",
+        "The pink tower is shorter than the green tower: red, pink, green.",
+        "The silver tower is taller than the green tower: red, pink, green, silver.",
+        "The silver tower is at the end of the line, so it is the tallest."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "The green tower is taller than the pink tower.",
+        "B": "The silver tower is taller than the green tower.",
+        "C": "The red tower is the shortest of all.",
+        "E": "The clues put all 4 towers in order, so we can decide."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q07": {
+      "source": "original",
+      "content_hash": "sha256:5060b60550a2643c05bff7796044b164ae46131e55f58a62a72ef008a0c2ac8c",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Check which side each child's right hand is on: it depends on which way the child faces.",
+      "steps": [
+        "There are 7 children. The 5 children in the middle hold hands on both sides, so each of them uses the right hand. That is 5.",
+        "The girl at the left end faces us. Her right hand is on our left, and it is free.",
+        "The girl at the right end faces us too. Her right hand is on our left, and she is holding hands with it.",
+        "So 5 + 1 = 6 children hold a hand with their right hand."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "Count again: every child in the middle uses both hands.",
+        "B": "Count again: every child in the middle uses both hands.",
+        "C": "Count again: every child in the middle uses both hands.",
+        "D": "You forgot the girl at the right end. She holds hands with her right hand."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q08": {
+      "source": "original",
+      "content_hash": "sha256:aefc4326f62971ce6dd0ff6ad0598e341caea1f501e9de6887ac21e1cf929295",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Check both rules: every number must be bigger than 3, and the sum must be 20.",
+      "steps": [
+        "Look for stars with 1, 2 or 3. C has 3 and 2, D has 1, and E has 2. They are out.",
+        "A has 5, 7, 4 and 6. 5 + 7 + 4 + 6 = 22. That is not 20.",
+        "B has 5, 8 and 7. All are bigger than 3, and 5 + 8 + 7 = 20."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "All numbers are bigger than 3, but 5 + 7 + 4 + 6 = 22, not 20.",
+        "C": "This one has a 3 and a 2. They are not bigger than 3.",
+        "D": "This one has a 1. It is not bigger than 3.",
+        "E": "This one has a 2. It is not bigger than 3."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q09": {
+      "source": "original",
+      "content_hash": "sha256:249bbeb2f1343a624a1096114861ac17880cfe551c2a51c4798ac4c7308ec90e",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Each cut across the ribbon makes one more piece.",
+      "steps": [
+        "Follow the dashed line from the scissors down to the bottom.",
+        "Count every place where the line crosses the ribbon. Some parts of the ribbon are very close together, so go slowly. There are 11 crossings.",
+        "One ribbon cut in 1 place makes 2 pieces. Each cut adds 1 more piece.",
+        "So 11 cuts make 11 + 1 = 12 pieces."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Count the crossings again. There are 11 of them.",
+        "B": "Count the crossings again. There are 11 of them.",
+        "C": "11 is the number of cuts. The ribbon has 1 more piece than cuts.",
+        "E": "There are 11 cuts, so there are 12 pieces, not 13."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q10": {
+      "source": "original",
+      "content_hash": "sha256:d63f795901d9435ac1ed48cd1696db24b86fdb020fa5db56c535aab39b5513e3",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Add up the lengths of the walls as Rose walks around.",
+      "steps": [
+        "From B, Rose walks 4 m to C, then 1 m to D, then 5 m to E, then 2 m to A, then 3 m back to B.",
+        "One whole lap is 4 + 1 + 5 + 2 + 3 = 15 m.",
+        "She still has 20 - 15 = 5 m to walk.",
+        "She walks 4 m to C and 1 more m to D. That makes 5 m, so she stops at D."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "She passes A after 12 m, but she keeps walking.",
+        "B": "She is back at B after 15 m, but she still has 5 m to go.",
+        "C": "She reaches C the second time after 19 m. She still has 1 m to go.",
+        "E": "She passes E after 10 m, but she keeps walking."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q11": {
+      "source": "original",
+      "content_hash": "sha256:c339350580e849781f9ce19e843cd2bdc39a1d6fa6ae91eb292c983698c78a10",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Find how many more goals Angela scored, then turn goals into points.",
+      "steps": [
+        "Angela scored 9 goals and Julie scored 5 goals.",
+        "Angela scored 9 - 5 = 4 more goals.",
+        "Each goal is 2 points, so 4 goals are 2 + 2 + 2 + 2 = 8 points."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "4 is how many more goals, not how many more points.",
+        "B": "Each goal is 2 points, so 4 more goals give 8 more points.",
+        "D": "10 is Julie's points. Angela has 18 points, which is 8 more.",
+        "E": "Angela has 18 points and Julie has 10. 18 - 10 = 8."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q12": {
+      "source": "original",
+      "content_hash": "sha256:760b863c1a5720179171b04852bd88238ed3ec8b39a4daa433e0a7a5b6b6355a",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "In each pot, make the number of gray, white and black flowers the same.",
+      "steps": [
+        "Count the left pot: 4 gray, 2 white and 2 black flowers.",
+        "To make every kind 4, Julia adds 2 white and 2 black flowers. That is 4 flowers.",
+        "Count the right pot: 1 gray, 4 white and 3 black flowers.",
+        "To make every kind 4, she adds 3 gray and 1 black flower. That is 4 more flowers.",
+        "In total she buys 4 + 4 = 8 flowers."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "3 flowers are not enough to fix even one pot.",
+        "B": "4 flowers fix only one pot. The other pot needs 4 too.",
+        "C": "Count again: each pot needs 4 new flowers.",
+        "E": "She can do it with fewer: 4 + 4 = 8 is enough."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "flagged",
+        "note": "Stem is ambiguous. 'Each pot has the same number of each type of flower' can be read as the two pots matching each other (needs 6, which is not a choice) or as all three kinds being equal inside each pot (needs 4 + 4 = 8, key D). The blind solver and these steps use the inside-each-pot reading. Consider rewording the stem."
+      }
+    },
+    "q13": {
+      "source": "original",
+      "content_hash": "sha256:d6fadb4216b3bab7af5838ef373bcd8cbde8c3661ba90ab15686ffca959071b3",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Each number in the code is the row of that letter on the board.",
+      "steps": [
+        "In PIZZA, P is in row 2, I is in row 4, Z is in row 1 and A is in row 2. So the code tells the row.",
+        "Code 3 2 4 2 means: a letter from row 3, then row 2, then row 4, then row 2.",
+        "MATH: M is in row 3, A in row 2, T in row 4 and H in row 2. It fits."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "In MAZE, Z and E are in row 1, so the code is 3 2 1 1.",
+        "B": "In MASK, S is in row 3 and K is in row 1, so the code is 3 2 3 1.",
+        "C": "In MILK, I and L are in row 4 and K is in row 1, so the code is 3 4 4 1.",
+        "D": "In MATE, E is in row 1, so the code ends with 1, not 2."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q14": {
+      "source": "original",
+      "content_hash": "sha256:8ec8f9179f16354e65e04ad4f79666642a5d4875ffa49913fdb9879bf9b34211",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Find where each piece fits, matching every little square.",
+      "steps": [
+        "The 2 pieces have 5 circles, 5 diamonds and 6 plus signs in all. Figure E has only 4 circles, so it is out.",
+        "In figure A, turn the U-shaped piece on its side so it opens to the right. It covers the top row's first 3 squares, the left side and the bottom row's first 3 squares.",
+        "Turn the other piece upside down. Its long side fills the right edge of figure A, and its 2 by 2 block fills the middle.",
+        "Every square matches, so the 2 pieces make figure A."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "The U-shaped piece does not fit anywhere in this figure.",
+        "C": "The U-shaped piece fits along the bottom, but the other piece does not fit in the space that is left.",
+        "D": "Neither piece fits anywhere in this figure.",
+        "E": "This figure has 4 circles and 6 diamonds. The pieces have 5 circles and 5 diamonds."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q15": {
+      "source": "original",
+      "content_hash": "sha256:a3afbae037eba7c71c354d46452c3316829320d6d00d565130f9fcf4a45af7bb",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Follow each path to see whose house each friend walks past.",
+      "steps": [
+        "Two children walk past Leo's house. On the right, the paths from the green house and the peach house join and go past the blue-green house. So the blue-green house is Leo's.",
+        "Doris and Ali live in the green house and the peach house.",
+        "On the left, the path from the yellow house with the orange roof goes past the light brown house with the gray roof.",
+        "Eva walks past Chloe's house, so Eva lives in the yellow house."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "The peach house's path goes past Leo's house. This is Doris's or Ali's house.",
+        "C": "The green house's path goes past Leo's house. This is Doris's or Ali's house.",
+        "D": "Two children walk past the blue-green house. It is Leo's house.",
+        "E": "The yellow house's path goes past this house. It is Chloe's house."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q16": {
+      "source": "original",
+      "content_hash": "sha256:52baaa211f2938443b2e0643aac3a8b1bf55a408bdbab09a64c68201e5e3d6ce",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "What the kangaroo eats from the second branch is what was left on the first branch.",
+      "steps": [
+        "Try an example. The kangaroo eats 3 leaves from the first branch. 10 - 3 = 7 leaves are left there.",
+        "Then it eats 7 leaves from the second branch. 10 - 7 = 3 leaves are left there.",
+        "Together 7 + 3 = 10 leaves are left.",
+        "Try another number, like 4: 6 are left, then 4 are left. 6 + 4 = 10 again."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Try an example: 7 + 3 = 10 leaves are left, not 5.",
+        "B": "Try an example: 7 + 3 = 10 leaves are left, not 6.",
+        "C": "Try an example: 7 + 3 = 10 leaves are left, not 8.",
+        "E": "There were only 20 leaves, and the kangaroo ate 10 of them. So 10 are left, not 15."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q17": {
+      "source": "original",
+      "content_hash": "sha256:81fabc72977f9a3971245803350c6b9237c0fdcf321ea824fe61e24a70444ffb",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Find a place in the square for each shape. The one with no place was not used.",
+      "steps": [
+        "Turn shape E so its arrows point right. The 3 arrows fill the top 3 squares of the right column, and its 2 circles fill the last 2 squares of the bottom row.",
+        "Shape B fits as it is: its 3 diamonds go in the third column, and its circle goes next to the bottom diamond.",
+        "Turn shape A: it fills the top left corner with 3 stars and 1 diamond.",
+        "Turn shape C: it fills the bottom left corner with 2 stars and 1 circle.",
+        "Now the square is full, and shape D was not used."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "Shape A is used. Turned, it fills the top left corner.",
+        "B": "Shape B is used. It fills the third column and the circle next to it.",
+        "C": "Shape C is used. Turned, it fills the bottom left corner.",
+        "E": "Shape E is used. Turned, its arrows go down the right side."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q18": {
+      "source": "original",
+      "content_hash": "sha256:f2ee70abbb56bef964ae0f450354a773f674d6927e67aae4b28beb7e4168b866",
+      "answer": "A",
+      "independent_answer": "A",
+      "key_idea": "Keep changing fruit until no more changes can be made.",
+      "steps": [
+        "She starts with 4 apples and 5 bananas.",
+        "3 apples become 1 banana. Now she has 1 apple and 6 bananas.",
+        "3 bananas become 1 apple, two times. Now she has 3 apples and 0 bananas.",
+        "3 apples become 1 banana. Now she has just 1 banana, and she cannot change any more."
+      ],
+      "answer_sentence": "So the answer is A.",
+      "choice_feedback": {
+        "B": "She has 1 apple in the middle of the changes, but she still has bananas to change then.",
+        "C": "She never has 1 apple and 1 banana at the same time.",
+        "D": "She never ends with 2 bananas. Follow the changes one by one.",
+        "E": "When she gets 3 apples, she must change them into 1 banana."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q19": {
+      "source": "original",
+      "content_hash": "sha256:95bac2b22e403067e6a30970e07a473ecd61cd86f92607158479ccfd6ad22dcb",
+      "answer": "D",
+      "independent_answer": "D",
+      "key_idea": "Add all the cards, then split the sum in half.",
+      "steps": [
+        "2 + 3 + 4 + 5 + 6 = 20.",
+        "Both boxes have the same sum, so each box has 10.",
+        "The box with 4 needs 10 - 4 = 6 more.",
+        "The only way to make 6 with the other cards is the card 6. So 6 is in the box with 4."
+      ],
+      "answer_sentence": "So the answer is D.",
+      "choice_feedback": {
+        "A": "With 2 the box would need 4 more, and there is no other 4.",
+        "B": "With 3 the box would need 3 more, and there is no other 3.",
+        "C": "4 + 5 = 9, and no card is 1. So 5 goes in the other box.",
+        "E": "We can decide: only the card 6 makes the box with 4 add up to 10."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q20": {
+      "source": "original",
+      "content_hash": "sha256:e1332f395eb740ffb27d8a44a4d51c3b9c54845e34fa317a8be7e59c42353ef2",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Count teeth: when the small cog turns once, the big cog turns only half way.",
+      "steps": [
+        "The small cog has 8 teeth. The big cog has 16 teeth.",
+        "When the small cog makes one full turn, 8 teeth of the big cog go past. 8 is half of 16, so the big cog turns half way around.",
+        "The small black tooth comes back to where it started, next to the big cog.",
+        "The big black tooth goes half way around, so it ends up on the opposite side, at the bottom right."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "This is how they start. The big cog turns too, so its black tooth moves.",
+        "B": "The big black tooth has gone only part of the way. It must go half way around.",
+        "D": "The big black tooth has moved only a little. It must go half way around.",
+        "E": "The big black tooth is not on the opposite side from where it started."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q21": {
+      "source": "original",
+      "content_hash": "sha256:fe8e1f2d9a318cbe9d801947f8d1f5b202fa5e0a9e617f1bf8dd9bbc254055c4",
+      "answer": "B",
+      "independent_answer": "B",
+      "key_idea": "Each girl dances once with each boy, and each dance takes 1 minute.",
+      "steps": [
+        "Each girl dances with 2 boys. That is 2 dances for each girl.",
+        "There are 3 girls, so 2 + 2 + 2 = 6 dances.",
+        "Only one pair dances at a time, and each dance is 1 minute. So they dance 6 minutes."
+      ],
+      "answer_sentence": "So the answer is B.",
+      "choice_feedback": {
+        "A": "5 is the number of children, not the number of dances.",
+        "C": "Count the pairs again: 3 girls with 2 boys each make 6 pairs.",
+        "D": "Count the pairs again: 3 girls with 2 boys each make 6 pairs.",
+        "E": "Count the pairs again: 3 girls with 2 boys each make 6 pairs."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q22": {
+      "source": "original",
+      "content_hash": "sha256:08715db371bc99f05b841abe3a36a455d0390bcb9b48e806264956eec0b3c073",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Find the cookie that runs out first: the moon.",
+      "steps": [
+        "Each tray has just 1 moon cookie.",
+        "The plate has 3 moon cookies, so we need at least 3 trays.",
+        "3 trays have plenty of the other cookies: 9 pink stars, 6 big pointy stars, 9 triangles and 6 hearts.",
+        "The plate needs only 4 pink stars, 3 big pointy stars, 2 triangles and 2 hearts. So 3 trays are enough."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "1 tray has only 1 moon, but the plate has 3 moons.",
+        "B": "2 trays have only 2 moons, but the plate has 3 moons.",
+        "D": "3 trays are already enough, so 4 is not the smallest.",
+        "E": "3 trays are already enough, so 5 is not the smallest."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q23": {
+      "source": "original",
+      "content_hash": "sha256:f4cfb4f77850a5afff57057bb4650052f4572baaa4f6e58e6aab481f7231d5b8",
+      "answer": "E",
+      "independent_answer": "E",
+      "key_idea": "Count the fruit for one week, then double it.",
+      "steps": [
+        "Monday, Wednesday and Friday: 2 apples each day. 2 + 2 + 2 = 6.",
+        "Tuesday and Thursday: 3 mangoes each day. 3 + 3 = 6.",
+        "Saturday and Sunday: nothing. So one week is 6 + 6 = 12.",
+        "Two weeks: 12 + 12 = 24."
+      ],
+      "answer_sentence": "So the answer is E.",
+      "choice_feedback": {
+        "A": "12 is for one week only. We need two weeks.",
+        "B": "One week is 12, so two weeks are 12 + 12 = 24.",
+        "C": "One week is 12, so two weeks are 12 + 12 = 24.",
+        "D": "One week is 12, so two weeks are 12 + 12 = 24."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    },
+    "q24": {
+      "source": "original",
+      "content_hash": "sha256:977330cd899715714f486937b488018f0cc7cd6c68a5644a76e9ce88afbba6d2",
+      "answer": "C",
+      "independent_answer": "C",
+      "key_idea": "Find where the ball can go, then see which shelves stay free for the puzzle.",
+      "steps": [
+        "The blocks are below the ball, and the game and the car are above it. So the ball is on shelf 2 or 3.",
+        "Ball on 2: blocks on 1, game on 3, and the car and the puzzle share 4 and 5.",
+        "Ball on 3: game on 4, car on 5, and the blocks and the puzzle share 1 and 2.",
+        "The puzzle can go on 1, 2, 4 or 5, but never on shelf 3."
+      ],
+      "answer_sentence": "So the answer is C.",
+      "choice_feedback": {
+        "A": "The puzzle can be on 1: ball on 3, game on 4, car on 5, blocks on 2.",
+        "B": "The puzzle can be on 2: ball on 3, game on 4, car on 5, blocks on 1.",
+        "D": "The puzzle can be on 4: ball on 2, game on 3, car on 5, blocks on 1.",
+        "E": "The puzzle can be on 5: ball on 2, game on 3, car on 4, blocks on 1."
+      },
+      "generated_by": "claude-opus-5-5 via Claude Code",
+      "generated_at": "2026-10-12T15:05:42Z",
+      "review": {
+        "status": "unreviewed",
+        "note": null
+      }
+    }
+  }
+}

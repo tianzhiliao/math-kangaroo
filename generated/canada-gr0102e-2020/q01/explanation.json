@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:6a2e29b71099212df797984c9fdf8f3aab0bc3404610ea169cd1d1f089792f82",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Move the puppy and the kitten one turn at a time.",
+  "steps": [
+    "The puppy starts before stone 1. The kitten starts on stone 10.",
+    "Turn 1: the puppy jumps up 2 to stone 2. The kitten hops down 3 to stone 7.",
+    "Turn 2: the puppy jumps up 2 to stone 4. The kitten hops down 3 to stone 4.",
+    "Now they are both on stone 4. They meet!"
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "The puppy is on stone 2 after one jump, but the kitten is still on stone 7.",
+    "C": "The puppy stops on 2, 4, 6. It never stops on stone 5.",
+    "D": "They already met on stone 4 before the puppy reaches stone 6.",
+    "E": "They already met on stone 4 before the puppy reaches stone 8."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T00:00:00Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

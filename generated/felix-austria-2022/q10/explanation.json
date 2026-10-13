@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:be9b3d39799c2932cb8bce459f2ee5400082ed371e12a529b3d0a273774aade6",
+  "answer": "C",
+  "independent_answer": null,
+  "key_idea": "The same shape hides the same digit, and different shapes hide different digits.",
+  "steps": [
+    "Read the shapes from left to right and see which ones are the same.",
+    "Places with the same shape must have the same digit.",
+    "Places with different shapes must have different digits.",
+    "Check each number one place at a time against the shapes."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "Check which digits repeat in this number and compare them with the shapes.",
+    "B": "Check which digits repeat in this number and compare them with the shapes.",
+    "D": "Check which digits repeat in this number and compare them with the shapes.",
+    "E": "Check which digits repeat in this number and compare them with the shapes."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:57Z",
+  "review": {
+    "status": "flagged",
+    "note": "Figure does not match any option. The shapes read circle, triangle, square, triangle, circle (1st = 5th, 2nd = 4th, middle different), but key C 48474 has the pattern 4-8-4-7-4 (1st = 3rd = 5th). No option fits the figure; it probably should be circle, triangle, circle, square, circle. Blind solver gave null. Steps and feedback are method-only until the figure is fixed."
+  }
+}

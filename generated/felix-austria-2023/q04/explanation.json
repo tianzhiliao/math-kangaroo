@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:ded5dd7a4f91f269898425881674b387fe707cf6ac0c18aa01e6e8dc828946d2",
+  "answer": "D",
+  "independent_answer": "D",
+  "key_idea": "Match each part of the house to a piece by its shape and colour.",
+  "steps": [
+    "The house has a blue wall, a yellow roof and a green door.",
+    "The blue wall matches the blue square piece. The yellow roof matches the yellow triangle.",
+    "The green door matches the green rectangle.",
+    "The pink circle is not used anywhere in the house."
+  ],
+  "answer_sentence": "So the answer is D.",
+  "choice_feedback": {
+    "A": "The blue square piece is used. It is the wall of the house.",
+    "B": "The yellow triangle is used. It is the roof.",
+    "C": "The green rectangle is used. It is the door.",
+    "E": "There is no pink square among Mr Beaver's pieces."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:01Z",
+  "review": {
+    "status": "flagged",
+    "note": "Key D is confirmed by the blind solver. But the house is not an exact rearrangement: its wall (170x150, not a square) and roof (210 wide) are larger than the loose square (110x110) and triangle (120 wide), and the door is shorter. Explanation matches by shape and colour only; consider redrawing so the pieces have the same size."
+  }
+}

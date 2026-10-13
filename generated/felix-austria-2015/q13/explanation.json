@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:7dd1360d2592a60d55e6622be43e9f4e0f4e660c814b193a6b09668affa003de",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Each card has 1 more bar than the card before it.",
+  "steps": [
+    "The cards show 1 bar, then 2 bars, then the empty card, then 4 bars.",
+    "Each card has 1 more bar than the one before.",
+    "After 2 bars comes 3 bars."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "2 bars is the same as the card before. The empty card needs 1 more.",
+    "C": "1 bar is the first card. The bars go up, not down.",
+    "D": "5 bars would come after 4 bars, not before.",
+    "E": "4 bars is the card after the empty one. The empty card needs 1 less."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:37:14Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

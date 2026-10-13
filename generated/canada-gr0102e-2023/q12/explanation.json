@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:8c18f1f99622ab28ce57430625f407cb534a3b801cb0409453e351dbdb77a5e5",
+  "answer": "A",
+  "independent_answer": "A",
+  "key_idea": "Find how many apples came out in all, then share that equally among the 3 bags.",
+  "steps": [
+    "The bags now have 4 + 5 + 6 = 15 apples.",
+    "Noah had 18, so he took out 18 - 15 = 3 apples.",
+    "He took the same number from each of the 3 bags: 1 + 1 + 1 = 3. So 1 from each bag."
+  ],
+  "answer_sentence": "So the answer is A.",
+  "choice_feedback": {
+    "B": "Taking 2 from each bag takes out 6 apples. Then only 12 would be left, not 15.",
+    "C": "Taking 3 from each bag takes out 9 apples. Then only 9 would be left, not 15.",
+    "D": "Taking 4 from each bag takes out 12 apples. Then only 6 would be left, not 15.",
+    "E": "Taking 5 from each bag takes out 15 apples. Then only 3 would be left, not 15."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:47:49Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

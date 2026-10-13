@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:e4d1ee67223262be3458fc4f6142eab4116b039e5b1880e486f76fd841386e4c",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Compare the two lines: the second line has just one more mug of cocoa.",
+  "steps": [
+    "Line 1: one banana and one mug cost 15 dollars.",
+    "Line 2 has the same banana and one extra mug, and costs 18 dollars.",
+    "So the extra mug costs 18 - 15 = 3 dollars.",
+    "Two mugs cost 3 + 3 = 6 dollars."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "3 dollars is the price of one mug. The question asks for two.",
+    "C": "Two mugs cost 3 + 3, which is not 9.",
+    "D": "12 is the price of the banana, not two mugs.",
+    "E": "15 is the price of one banana and one mug together."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:52:53Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

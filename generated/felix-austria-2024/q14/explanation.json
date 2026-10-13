@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:e0e1fe216d4b421a4e69a54123b2ebd51bfae5e60b06c6612ee93a36dae6b27a",
+  "answer": "B",
+  "independent_answer": "B",
+  "key_idea": "Lia threw more arrows than she started with, and each hit gave her 3 of them.",
+  "steps": [
+    "Lia threw 21 arrows but started with only 9.",
+    "So she got 21 - 9 = 12 extra arrows.",
+    "Each hit gives 3 arrows. 3 + 3 + 3 + 3 = 12, so she hit the target 4 times."
+  ],
+  "answer_sentence": "So the answer is B.",
+  "choice_feedback": {
+    "A": "3 hits give 9 extra arrows. Then she could throw only 9 + 9 = 18.",
+    "C": "5 hits give 15 extra arrows. Then she could throw 9 + 15 = 24.",
+    "D": "6 hits give 18 extra arrows. Then she could throw 9 + 18 = 27.",
+    "E": "8 hits give 24 extra arrows. Then she could throw 9 + 24 = 33."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:57:02Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:5a5b8bda014f9e8742efa582c3af093e462a4f87590e155627416f03b31f6aa9",
+  "answer": "A",
+  "independent_answer": "A",
+  "key_idea": "A button can be turned but not flipped, so the dots keep the same shape.",
+  "steps": [
+    "The button has 3 dots in a line on the left, and 1 more dot to the right of the bottom dot. The 4 dots make an L.",
+    "Turn the button halfway round. The line of 3 moves to the right side, and the extra dot moves to the top, to the left of the top dot.",
+    "Button A looks just like that."
+  ],
+  "answer_sentence": "So the answer is A.",
+  "choice_feedback": {
+    "B": "This is the button flipped over, not turned. The extra dot is at the bottom.",
+    "C": "It has only 3 dots, but the button has 4.",
+    "D": "Its 4 dots are in the corners, not in an L.",
+    "E": "It has 5 dots, but the button has 4."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:59:13Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "prompt_version": "explain_steps_v1",
+  "source": "variant",
+  "content_hash": "sha256:746060b5a2553463bc12b037821a8d6a99b1a2a7c251f55a076d4cebcc029a50",
+  "answer": "C",
+  "independent_answer": "C",
+  "key_idea": "Join the ladybirds in order of their spots: 1, 2, 3, 4, 5.",
+  "steps": [
+    "The bottom left ladybird has 1 spot. Across the top, the ladybirds have 2, 3 and 4 spots. The bottom right ladybird has 5.",
+    "From 1, the line goes straight up to 2.",
+    "Then it goes straight across the top: 2 to 3 to 4.",
+    "Last, it goes straight down from 4 to 5. Up, across, down: the shape looks like an upside down U."
+  ],
+  "answer_sentence": "So the answer is C.",
+  "choice_feedback": {
+    "A": "A Z shape has a slanted line, but Lisa's lines go straight up, across and down.",
+    "B": "An N shape has a slanted line, but Lisa's line goes straight across the top.",
+    "D": "This shape has its line across the bottom, but Lisa's line goes across the top.",
+    "E": "These are steps, but Lisa's line goes up, across, then down."
+  },
+  "generated_by": "claude-opus-5-5 via Claude Code",
+  "generated_at": "2026-10-12T14:51:06Z",
+  "review": {
+    "status": "unreviewed",
+    "note": null
+  }
+}
